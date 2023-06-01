@@ -1,0 +1,124 @@
+{
+    "domain": "24ur.si",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "gql",
+        "ads.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "24ur\\.si\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gql"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okusno.je",
+                "www.24ur.com"
+            ]
+        },
+        {
+            "rule": "24ur\\.si\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gql"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c4fbdfb4ce0176dc5da1c85ba03f966b764ffe6b8de2262079a2a734e78705b2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okusno.je",
+                "www.24ur.com"
+            ]
+        },
+        {
+            "rule": "24ur\\.si\\/adserver\\/api_adjs_i\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "240c0e312582d5a6b757d81e447d3477c4be098c0a7023fdcc958a8a2cccf753"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okusno.je",
+                "www.24ur.com"
+            ]
+        },
+        {
+            "rule": "24ur\\.si\\/adserver\\/api_adlog\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okusno.je",
+                "www.24ur.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2,
+        "Document": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e4.googledomains.com"
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "domain": "go-cmich.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "my"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "go-cmich\\.org\\/mtc\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "583cbc5fe4542691c6729ac929415abb4dd3f64eaf16c401c7fac80619eaa36a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mtc_id": {
+                    "ttl": null,
+                    "length": 7,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "mtc_sid": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "mautic_device_id": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmich.edu",
+                "www.cmich.edu"
+            ]
+        },
+        {
+            "rule": "go-cmich\\.org\\/mtc\\/event",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "865d70b66470c83a4f2971f1a7f43abae84170d1f250a23b65224aa3f905815a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmich.edu",
+                "www.cmich.edu"
+            ]
+        },
+        {
+            "rule": "go-cmich\\.org\\/mtc\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmich.edu",
+                "www.cmich.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns7.app-info.net",
+        "ns8.app-info.net"
+    ]
+}

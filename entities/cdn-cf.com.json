@@ -1,0 +1,91 @@
+{
+    "domain": "cdn-cf.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cdn-cf\\.com\\/user_pages-packs\\/js\\/user_pages-cb5bb4e9175a70310912\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dae7c1053fb5bd0c3569121a4276eff86ad9548ded63333ba11405264c8dc9f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cfhoy_visit": {
+                    "ttl": 14402,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "cfhoy_visitor": {
+                    "ttl": 63072002,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickfunnels.com",
+                "www.clickfunnels.com"
+            ]
+        },
+        {
+            "rule": "cdn-cf\\.com\\/user_pages-packs\\/css\\/user_pages-52b7e003\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bb76bbf9b69a3df702540499d415445f5e9ff0bbdf7579e6d1543de726ab5674"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickfunnels.com",
+                "www.clickfunnels.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "wesley.ns.cloudflare.com",
+        "sneh.ns.cloudflare.com"
+    ]
+}

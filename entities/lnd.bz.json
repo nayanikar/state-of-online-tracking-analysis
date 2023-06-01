@@ -1,0 +1,327 @@
+{
+    "domain": "lnd.bz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "sdp-api",
+        "sa-sdp"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "lnd\\.bz\\/versions\\/v3\\/interactions-czc\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sdp-api"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "255ce4ca22aa11d613a19d091a3f84208d2fe3a2ce0cc7273f651b3ccc51a41f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1681842910,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "undefined": {
+                    "ttl": -86397,
+                    "length": 9,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "_sa": {
+                    "ttl": 63072008,
+                    "length": 23,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "czc.cz",
+                "www.czc.cz"
+            ]
+        },
+        {
+            "rule": "lnd\\.bz\\/api\\/v3\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdp-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "czc.cz",
+                "www.czc.cz"
+            ]
+        },
+        {
+            "rule": "lnd\\.bz\\/versions\\/v3\\/interactions-tipsport\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sa-sdp"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "174a2b9604a4cbd1782292e028944cc79530d8c7ca2f6ce7f47279c6a0278a4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tipsport.cz",
+                "www.tipsport.cz"
+            ]
+        },
+        {
+            "rule": "lnd\\.bz\\/versions\\/v2\\/s-analytics\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sa-sdp"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "01cf059a007ce24d6076c3fc625b79eadd6458d15dadd6da2958720de4accabd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1681911615,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "_saj": {
+                    "ttl": 86410,
+                    "length": 23,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_sa": {
+                    "ttl": 63072010,
+                    "length": 23,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_saa": {
+                    "ttl": 63072010,
+                    "length": 70,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tipsport.cz",
+                "www.tipsport.cz"
+            ]
+        },
+        {
+            "rule": "lnd\\.bz\\/versions\\/v2\\/s-purkyne\\.plugin\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sa-sdp"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.plugins": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "WebGLRenderingContext.prototype.getContextAttributes": 2,
+                "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.productSub": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "AudioBuffer.prototype.getChannelData": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b4794502385aa1292a1f4fdb3aa80d8d9bad8a0f0f050ec59cc558de6f7652d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tipsport.cz",
+                "www.tipsport.cz"
+            ]
+        },
+        {
+            "rule": "lnd\\.bz\\/api\\/v1\\/applications",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdp-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_saj": 0.000013614147822417056,
+                "_sa": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "tipsport.cz",
+                "www.tipsport.cz"
+            ]
+        },
+        {
+            "rule": "lnd\\.bz\\/berserk\\/s-purkyne",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdp-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tipsport.cz",
+                "www.tipsport.cz"
+            ]
+        },
+        {
+            "rule": "lnd\\.bz\\/berserk\\/s-purkyne",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdp-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tipsport.cz",
+                "www.tipsport.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "tipsport.org",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Ping": 2,
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns1.regzone.info",
+        "ns1.regzone.de",
+        "ns1.regzone.cz"
+    ]
+}

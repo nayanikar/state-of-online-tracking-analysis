@@ -1,0 +1,120 @@
+{
+    "domain": "aircanada.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "login"
+    ],
+    "cnames": [
+        {
+            "original": "login.aircanada.com",
+            "resolved": "login.aircanada.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "aircanada\\.com\\.edgekey\\.net\\/sdk\\.config\\.get",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "login.aircanada.com",
+                    "resolved": "login.aircanada.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0c47ae2c5528b3488f4a7ffb4d7c2e4d1cac23f10e8b5db94f3c91ad4149c828"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aircanada.com",
+                "vacations.aircanada.com"
+            ]
+        },
+        {
+            "rule": "aircanada\\.com\\.edgekey\\.net\\/xG11\\/WXLB\\/vFJ-9\\/H\\/6LVw\\/w9iDbGzh1hJ7\\/UEZsSQ\\/JWkAb\\/id6cRM",
+            "cookies": 0.000201,
+            "fingerprinting": 3,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "login.aircanada.com",
+                    "resolved": "login.aircanada.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aircanada.com",
+                "vacations.aircanada.com"
+            ]
+        },
+        {
+            "rule": "aircanada\\.com\\.edgekey\\.net\\/gs\\/sso\\.htm",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "login.aircanada.com",
+                    "resolved": "login.aircanada.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aircanada.com",
+                "vacations.aircanada.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "gigya.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "XHR": 2,
+        "Document": 2
+    },
+    "nameservers": []
+}

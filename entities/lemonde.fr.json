@@ -1,0 +1,91 @@
+{
+    "domain": "lemonde.fr",
+    "owner": {
+        "name": "SOCIETE EDITRICE DU MONDE",
+        "displayName": "SOCIETE EDITRICE DU MONDE"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "forecast.letemps"
+    ],
+    "cnames": [
+        {
+            "original": "forecast.letemps.ch",
+            "resolved": "forecast.letemps.lemonde.fr"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "lemonde\\.fr\\/sdk\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "forecast.letemps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "forecast.letemps.ch",
+                    "resolved": "forecast.letemps.lemonde.fr"
+                }
+            ],
+            "responseHashes": [
+                "bb81acddbf01b0fab06ff20bbcda2052b78e6515be07a029af2a2ba4a0008659"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "letemps.ch",
+                "www.letemps.ch"
+            ]
+        },
+        {
+            "rule": "lemonde\\.fr\\/p\\/action\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "forecast.letemps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "forecast.letemps.ch",
+                    "resolved": "forecast.letemps.lemonde.fr"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "letemps.ch",
+                "www.letemps.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+    ]
+}

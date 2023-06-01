@@ -1,0 +1,287 @@
+{
+    "domain": "nbcsports.com",
+    "owner": {
+        "name": "Comcast Corporation",
+        "displayName": "Comcast",
+        "privacyPolicy": "https://www.xfinity.com/Corporate/Customers/Policies/CustomerPrivacy",
+        "url": "http://xfinity.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "geo",
+        "cloud.em",
+        "cloud.rsn",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nbcsports\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9e07f26edd7f18157cf9ea98d04c1a15b084c9e4deaaf0a730c3ac879eb8ea44"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfchannel.com",
+                "www.golfchannel.com"
+            ]
+        },
+        {
+            "rule": "nbcsports\\.com\\/oepc_grid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cloud.em"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2d6f672d5f9cc91b471a7392066d4bd915fbc6add1b68a735aabc2d6e65e3fc6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcsportsedge.com",
+                "www.nbcsportsedge.com"
+            ]
+        },
+        {
+            "rule": "nbcsports\\.com\\/jquery_min",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cloud.em"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "383954592017ecd55e8f25e693e6da86ab98574d2f7b79b0866d84baea2b25d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcsportsedge.com",
+                "www.nbcsportsedge.com"
+            ]
+        },
+        {
+            "rule": "nbcsports\\.com\\/jquery-ui",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cloud.em"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0bad7e3a8031272f74e25e91d73f50a3e90f9726df30b38823b94f956ea82c67"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcsportsedge.com",
+                "www.nbcsportsedge.com"
+            ]
+        },
+        {
+            "rule": "nbcsports\\.com\\/jquery-ui_css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cloud.em"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ea7b0885a485df6974c40f132647d7e5347d9deed1f634e71ee2f8f15fa14ecb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcsportsedge.com",
+                "www.nbcsportsedge.com"
+            ]
+        },
+        {
+            "rule": "nbcsports\\.com\\/js_search_field\\.js\\.download",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cloud.rsn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b4acb298d53a4581cd47b006b2ffea29e9ca09096476a9ac75a4c3ee199ae44a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "has_js": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcsportsedge.com",
+                "www.nbcsportsedge.com"
+            ]
+        },
+        {
+            "rule": "nbcsports\\.com\\/js_search_field2\\.js\\.download",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cloud.rsn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4e59b2f02926d69c238b2f5f17d459616aae58eab2935230cdfa40a8cd32c9fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcsportsedge.com",
+                "www.nbcsportsedge.com"
+            ]
+        },
+        {
+            "rule": "nbcsports\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4d86a0aaae391eb1a9bdae1ee39f40b15abc2e2af827ad1489c0fe4a01d63b7b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcsportsedge.com",
+                "www.nbcsportsedge.com"
+            ]
+        },
+        {
+            "rule": "nbcsports\\.com\\/sites\\/all\\/themes\\/custom\\/nbcsports\\/fonts\\/nbcsn_frank\\/nbcsn_frank-regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5f99318bc766c96b5dfcfb939800de449f419c66e87395c6b848c8733b338f58"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcsportsedge.com",
+                "www.nbcsportsedge.com"
+            ]
+        },
+        {
+            "rule": "nbcsports\\.com\\/api\\/v1\\/breaking_news",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8da44e005cb9e820d337ece8135fd91a26ee66f21172b24f6255bb0e94fd5757"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcsportsedge.com",
+                "www.nbcsportsedge.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Stylesheet": 4,
+        "Script": 10,
+        "Font": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "a7-66.akam.net",
+        "a13-66.akam.net",
+        "a1-196.akam.net",
+        "a22-64.akam.net",
+        "a16-65.akam.net",
+        "a2-64.akam.net"
+    ]
+}

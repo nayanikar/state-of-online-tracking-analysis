@@ -1,0 +1,90 @@
+{
+    "domain": "fruit.trafficmanager.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "cj.fruit.com",
+            "resolved": "fruit.trafficmanager.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "fruit\\.trafficmanager\\.net\\/proxydirectory\\/tags\\/11921\\/tag\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cj.fruit.com",
+                    "resolved": "fruit.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "4511f392713ba11aa11ffcf14c12ecfd489765cd84d35c4bf55fa176c5f3e717"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fruit.com",
+                "www.fruit.com"
+            ]
+        },
+        {
+            "rule": "fruit\\.trafficmanager\\.net\\/proxydirectory\\/11921\\/pageInfo",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cj.fruit.com",
+                    "resolved": "fruit.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "968b17baf99ffc8097fdbe0d8552113c2f6e7da2a63e3967f24811e2e2e0a312"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fruit.com",
+                "www.fruit.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

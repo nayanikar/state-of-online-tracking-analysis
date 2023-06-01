@@ -1,0 +1,98 @@
+{
+    "domain": "nespresso.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "www.contact"
+    ],
+    "cnames": [
+        {
+            "original": "www.contact.nespresso.com",
+            "resolved": "www.contact.nespresso.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nespresso\\.com\\.edgekey\\.net\\/apps\\.php",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www.contact"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "www.contact.nespresso.com",
+                    "resolved": "www.contact.nespresso.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "df2b5ca00167d340d20ec6e27cfb6c06c7d71fb37173fd4c66959942069108a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nespresso.com",
+                "www.nespresso.com"
+            ]
+        },
+        {
+            "rule": "nespresso\\.com\\.edgekey\\.net\\/apps\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www.contact"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "www.contact.nespresso.com",
+                    "resolved": "www.contact.nespresso.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6cc9ae2772c496bd359ecf3f805c35f2b76f9c5bcab11bf097206aa11068a32a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nespresso.com",
+                "www.nespresso.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,71 @@
+{
+    "domain": "technolutions.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "cluster.ca-central-1",
+        "mx"
+    ],
+    "cnames": [
+        {
+            "original": "apply.adm.utoronto.ca",
+            "resolved": "cluster.ca-central-1.technolutions.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "technolutions\\.net\\/ping",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cluster.ca-central-1",
+                "mx"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "apply.adm.utoronto.ca",
+                    "resolved": "cluster.ca-central-1.technolutions.net"
+                }
+            ],
+            "responseHashes": [
+                "faeb83c104190d65870b83ace0098016bf45dc8c0d890a7a020045a062b7a20c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utoronto.ca",
+                "future.utoronto.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1152.awsdns-16.org",
+        "ns-615.awsdns-12.net",
+        "ns-433.awsdns-54.com",
+        "ns-1875.awsdns-42.co.uk"
+    ]
+}

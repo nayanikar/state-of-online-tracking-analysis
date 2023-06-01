@@ -1,0 +1,136 @@
+{
+    "domain": "screeb.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "screeb\\.app\\/tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "5066c63decb8b80d061cc7c5514d6931fe2a9250d7efbe01dd15dca1cd73ebb6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctolib.de",
+                "www.doctolib.de",
+                "www.doctolib.it"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.0\\.221\\/tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "5066c63decb8b80d061cc7c5514d6931fe2a9250d7efbe01dd15dca1cd73ebb6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctolib.de",
+                "www.doctolib.de",
+                "www.doctolib.it"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.0\\.221\\/frame\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.languages": 1,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Date.prototype.getTime": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "7cd0096edfb5d69814f972e9e2174cd371d5771d42ea2144f1a994af2127880a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctolib.de",
+                "www.doctolib.de",
+                "www.doctolib.it"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.0\\.221\\/assets\\/lang\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "cf34733159b953b9457e7a19ee231a74e009434aa970a6166cd14d033d15d7d3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctolib.de",
+                "www.doctolib.de",
+                "www.doctolib.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 3
+    },
+    "nameservers": [
+        "elias.ns.cloudflare.com",
+        "aleena.ns.cloudflare.com"
+    ]
+}

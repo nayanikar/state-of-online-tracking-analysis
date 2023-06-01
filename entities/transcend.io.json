@@ -1,0 +1,190 @@
+{
+    "domain": "transcend.io",
+    "owner": {
+        "name": "Transcend, Inc.",
+        "displayName": "Transcend"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "cdn",
+        "sync"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "transcend\\.io\\/cm\\/f2747157-cf59-4ef1-8703-018defe51764\\/airgap\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2719405148b5112a0e77413f6134a85d8524d117430a6f8d50d1dc3ac8df4941"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eventbrite.com.au",
+                "www.eventbrite.com"
+            ]
+        },
+        {
+            "rule": "transcend\\.io\\/cm\\/f2747157-cf59-4ef1-8703-018defe51764\\/ui\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "75d3db2594a3b563b1d1b5d34ca2f712aa546dc44abad978a20f54442c215433"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eventbrite.com.au",
+                "www.eventbrite.com"
+            ]
+        },
+        {
+            "rule": "transcend\\.io\\/cm\\/f2747157-cf59-4ef1-8703-018defe51764\\/cm\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "67042ecb09a9f201dd298c4bb1b29f3493f5028b181e03792bc5c18c626e6b3a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eventbrite.com",
+                "www.eventbrite.com.au"
+            ]
+        },
+        {
+            "rule": "transcend\\.io\\/cm\\/f2747157-cf59-4ef1-8703-018defe51764\\/translations\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cc474445def4b83221050ca97a1abf0d4d7dafb828129cd607d287bf89904e7d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eventbrite.com",
+                "www.eventbrite.com.au"
+            ]
+        },
+        {
+            "rule": "transcend\\.io\\/consent-manager\\/f2747157-cf59-4ef1-8703-018defe51764",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f3b947d7d01cd4ddb4e4e1510f882a6448dc8ce3e2edb346d0f8be9edc341de3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eventbrite.com",
+                "www.eventbrite.com.au"
+            ]
+        },
+        {
+            "rule": "transcend\\.io\\/cm\\/f2747157-cf59-4ef1-8703-018defe51764\\/xdi\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a47db1851fb5cfdb08c1fb27a9115a538cea2da59dd40f474abce6b202360746"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eventbrite.com.au",
+                "www.eventbrite.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8947368421052632
+        },
+        {
+            "domain": "evbstatic.com",
+            "prevalence": 0.10526315789473684
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Stylesheet": 2,
+        "Fetch": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-120.awsdns-15.com",
+        "ns-1502.awsdns-59.org",
+        "ns-1554.awsdns-02.co.uk",
+        "ns-519.awsdns-00.net"
+    ]
+}

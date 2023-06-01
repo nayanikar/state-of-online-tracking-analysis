@@ -1,0 +1,69 @@
+{
+    "domain": "ls-apple.com.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "mwpe-ssl"
+    ],
+    "cnames": [
+        {
+            "original": "cdn.apple-mapkit.com",
+            "resolved": "mwpe-ssl.ls-apple.com.akadns.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ls-apple\\.com\\.akadns\\.net\\/mk\\/5\\.x\\.x\\/mapkit\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mwpe-ssl"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "cdn.apple-mapkit.com",
+                    "resolved": "mwpe-ssl.ls-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "f213db4739d76bebc75ae3c7826b5eb039e41fccd19904d2c85901274fde8537"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "locate.apple.com",
+                "trailers.apple.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": []
+}

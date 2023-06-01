@@ -1,0 +1,70 @@
+{
+    "domain": "ad.plus",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ad\\.plus\\/player\\/adplus\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.maxTouchPoints": 9,
+                "Navigator.prototype.vendor": 9,
+                "window.localStorage": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "d8468107840693575a65cf0f890bc4c03854bc70a18a3dd059ee678e0c72c3f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alaskahighwaynews.ca",
+                "www.burnabynow.com",
+                "www.kamloopsthisweek.com",
+                "www.newwestrecord.ca",
+                "www.princegeorgecitizen.com",
+                "www.richmond-news.com",
+                "www.sasktoday.ca",
+                "www.timescolonist.com",
+                "www.vancouverisawesome.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.9
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "zoe.ns.cloudflare.com",
+        "fred.ns.cloudflare.com"
+    ]
+}

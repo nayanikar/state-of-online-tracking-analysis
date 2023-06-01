@@ -1,0 +1,411 @@
+{
+    "domain": "awswaf.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "27828fc62a50.9021bf3a.us-east-1.token",
+        "97d067090164.edge.sdk",
+        "97d067090164.33c5a839.ap-southeast-2.token",
+        "889fee46b72b.886b99d7.ap-southeast-2.token",
+        "c09bc9c04079.edge.sdk",
+        "c09bc9c04079.83e5efcf.ap-southeast-2.token",
+        "346db344a308.edge.sdk",
+        "346db344a308.85426ee6.ap-southeast-2.token"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "awswaf\\.com\\/27828fc62a50\\/5250e8321163\\/84da829bd45a\\/challenge\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 3,
+            "subdomains": [
+                "27828fc62a50.9021bf3a.us-east-1.token"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "CanvasRenderingContext2D.prototype.getImageData": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f968729177a957ace17021a9bb9bda9a2bb37fb4e93887cfb4b3ae545300b559"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "aws-waf-token": {
+                    "ttl": 345614,
+                    "length": 166,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betterhelp.com",
+                "www.regain.us"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/27828fc62a50\\/5250e8321163\\/84da829bd45a\\/inputs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "27828fc62a50.9021bf3a.us-east-1.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "25c31c146dc3a9077f00d63d8d2baa51522c2642198d084f0782d5995b52799a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betterhelp.com",
+                "www.regain.us"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/27828fc62a50\\/5250e8321163\\/84da829bd45a\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "27828fc62a50.9021bf3a.us-east-1.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f7e55073161a4d322eed15a512c02ccafc7ee959d494322558c78c357537c257"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betterhelp.com",
+                "www.regain.us"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/27828fc62a50\\/5250e8321163\\/84da829bd45a\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "27828fc62a50.9021bf3a.us-east-1.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betterhelp.com",
+                "www.regain.us"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/97d067090164\\/bb2ff3da952f\\/challenge\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "97d067090164.edge.sdk",
+                "97d067090164.33c5a839.ap-southeast-2.token"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.plugins": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.webdriver": 1,
+                "WebGLRenderingContext.prototype.getExtension": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.colorDepth": 1,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "CanvasRenderingContext2D.prototype.getImageData": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eaf09fdbff7e03531c71981b54bba6149a39be67c77f30cc42c50ed1f2410e74"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "catch.com.au",
+                "www.catch.com.au"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/889fee46b72b\\/5c356d4acfd6\\/c161d86b4522\\/challenge\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 3,
+            "subdomains": [
+                "889fee46b72b.886b99d7.ap-southeast-2.token"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 5,
+                "Date.prototype.getTime": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.plugins": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.webdriver": 5,
+                "WebGLRenderingContext.prototype.getExtension": 5,
+                "WebGLRenderingContext.prototype.getParameter": 5,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.availHeight": 5,
+                "Screen.prototype.colorDepth": 5,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 5,
+                "HTMLCanvasElement.prototype.toDataURL": 5,
+                "CanvasRenderingContext2D.prototype.getImageData": 5,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "b0f9bdbd267d5952a04331cf857d7a134011423bd73640e868f01665955ad0e8",
+                "b00a2165c24946cca8da12f85ebb9dd2016996c45582dbd881f0c09803811977",
+                "db485cdb882203861c337d14b57e343a419013004100cda652a3a98b52666d82",
+                "2e1fa47a9b4197de4a1ee970c38855e08ec11f55e45bb21683143cf2a9cdcc70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "aws-waf-token": {
+                    "ttl": 345605,
+                    "length": 238,
+                    "prevalence": 0.000502008032128514,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gettyimages.ca",
+                "www.gettyimages.co.uk",
+                "www.gettyimages.com.au",
+                "www.gettyimages.com",
+                "www.gettyimages.in"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/889fee46b72b\\/5c356d4acfd6\\/c161d86b4522\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "889fee46b72b.886b99d7.ap-southeast-2.token"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e8c5c681ee10a83a2cf90973557f23f93574459cbf14abc46cf2669797b9ae85",
+                "429c83ec3e7be0250aebbd105b707077af76ce633a2e6402ec715fdbc5984b9a",
+                "93ca65e3c56637c8c22672ba122a1061f0b595e0e04aab482615defe5b2ca271",
+                "f0109adc058be11d7eb708c24016509150de4c33f78b98f12bf5f708c5fdc4cd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gettyimages.ca",
+                "www.gettyimages.co.uk",
+                "www.gettyimages.com.au",
+                "www.gettyimages.com",
+                "www.gettyimages.in"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/889fee46b72b\\/5c356d4acfd6\\/c161d86b4522\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "889fee46b72b.886b99d7.ap-southeast-2.token"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gettyimages.ca",
+                "www.gettyimages.co.uk",
+                "www.gettyimages.com.au",
+                "www.gettyimages.com",
+                "www.gettyimages.in"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/c09bc9c04079\\/4996efde3854\\/challenge\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 3,
+            "subdomains": [
+                "c09bc9c04079.edge.sdk",
+                "c09bc9c04079.83e5efcf.ap-southeast-2.token"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.plugins": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.webdriver": 1,
+                "WebGLRenderingContext.prototype.getExtension": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.colorDepth": 1,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "CanvasRenderingContext2D.prototype.getImageData": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b90a8aedaea6a3a44a3c02f59c9868d64582691fcfce832b1b5190d6584e3345"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "aws-waf-token": {
+                    "ttl": 345608,
+                    "length": 242,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "semanticscholar.org",
+                "www.semanticscholar.org"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/346db344a308\\/59f5f7fe30cf\\/challenge\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 3,
+            "subdomains": [
+                "346db344a308.edge.sdk",
+                "346db344a308.85426ee6.ap-southeast-2.token"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.plugins": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.webdriver": 1,
+                "WebGLRenderingContext.prototype.getExtension": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.colorDepth": 1,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "CanvasRenderingContext2D.prototype.getImageData": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e2fb3f04ee91ae92409603ff6fc638a74fd4391c8a72e52fe6b039fb814731c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "aws-waf-token": {
+                    "ttl": 345613,
+                    "length": 233,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vinomofo.com",
+                "www.vinomofo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0012,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "gettyimages.com.au",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Fetch": 9,
+        "Preflight": 7
+    },
+    "nameservers": [
+        "ns-43.awsdns-05.com",
+        "ns-759.awsdns-30.net",
+        "ns-1121.awsdns-12.org",
+        "ns-1878.awsdns-42.co.uk"
+    ]
+}

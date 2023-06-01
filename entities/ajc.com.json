@@ -1,0 +1,328 @@
+{
+    "domain": "ajc.com",
+    "owner": {
+        "name": "Cox Enterprises, Inc.",
+        "displayName": "Cox Enterprises"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000476,
+    "sites": 7,
+    "subdomains": [
+        "engage",
+        "engage-fp",
+        "engage-g2insights",
+        "engage-connext"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "ajc\\.com\\/prod\\/ajc\\/loader-config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "491b884304d459da5b46625b0564b0adeaa13d2d1c82a4a5c399a54a003fd352"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dayton.com",
+                "www.dayton.com",
+                "www.daytondailynews.com",
+                "www.journal-news.com",
+                "www.springfieldnewssun.com"
+            ]
+        },
+        {
+            "rule": "ajc\\.com\\/prod\\/ajc\\/fp\\.min\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 3,
+            "subdomains": [
+                "engage-fp"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.vendor": 5,
+                "OfflineAudioContext.prototype.constructor": 5,
+                "Screen.prototype.availTop": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.availWidth": 5,
+                "Screen.prototype.availLeft": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.availHeight": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.languages": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Navigator.prototype.deviceMemory": 5,
+                "Navigator.prototype.hardwareConcurrency": 5,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 5,
+                "AudioBuffer.prototype.getChannelData": 5,
+                "window.sessionStorage": 5,
+                "window.indexedDB": 5,
+                "Navigator.prototype.platform": 5,
+                "Navigator.prototype.plugins": 5,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 5,
+                "HTMLCanvasElement.prototype.toDataURL": 5,
+                "Navigator.prototype.maxTouchPoints": 5,
+                "Document.cookie setter": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "153b89dfb7423cdeff87d9e727356188b36bf1bdf237f07c120d809a7e64dae5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1681891370,
+                    "length": 1,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 0.2
+                },
+                "anonDeviceId": {
+                    "ttl": 3153600012,
+                    "length": 32,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 0.2
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dayton.com",
+                "www.dayton.com",
+                "www.daytondailynews.com",
+                "www.journal-news.com",
+                "www.springfieldnewssun.com"
+            ]
+        },
+        {
+            "rule": "ajc\\.com\\/prod\\/ajc\\/g2i\\.min\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 1,
+            "subdomains": [
+                "engage-g2insights"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.cookieEnabled": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "c70a95fae00b21c36c9e3501cee955d2b370bdfc93e21eba0344da9e2f46e267"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dayton.com",
+                "www.dayton.com",
+                "www.daytondailynews.com",
+                "www.journal-news.com",
+                "www.springfieldnewssun.com"
+            ]
+        },
+        {
+            "rule": "ajc\\.com\\/prod\\/ajc\\/t8y9347t\\.min\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 2,
+            "subdomains": [
+                "engage-connext"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5,
+                "Document.cookie getter": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Navigator.prototype.storage": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "b202c7b8139e3d56569a55aa8fd657f00cffbff49548b7f6bd4735048e5c2990"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nxt_last_visit": {
+                    "ttl": 251688873429,
+                    "length": 13,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                },
+                "sub_nxt_DN_DAYTON_PROD_DEFAULT_PROD": {
+                    "ttl": 251688873429,
+                    "length": 133,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "sub_nxt_upd_ac_DN_DAYTON_PROD_DEFAULT_PROD": {
+                    "ttl": 86409,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "sub_nxt_DN_DN_PROD_DEFAULT_PROD": {
+                    "ttl": 251688933737,
+                    "length": 133,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "sub_nxt_upd_ac_DN_DN_PROD_DEFAULT_PROD": {
+                    "ttl": 86422,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "sub_nxt_JN_JN_PROD_DEFAULT_PROD": {
+                    "ttl": 251688881549,
+                    "length": 133,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "sub_nxt_upd_ac_JN_JN_PROD_DEFAULT_PROD": {
+                    "ttl": 86421,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "sub_nxt_NS_NS_PROD_DEFAULT_PROD": {
+                    "ttl": 251688850018,
+                    "length": 133,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "sub_nxt_upd_ac_NS_NS_PROD_DEFAULT_PROD": {
+                    "ttl": 86414,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dayton.com",
+                "www.dayton.com",
+                "www.daytondailynews.com",
+                "www.journal-news.com",
+                "www.springfieldnewssun.com"
+            ]
+        },
+        {
+            "rule": "ajc\\.com\\/prod\\/ajc\\/t8y9347t\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage-connext"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "6653d2cca03c490c0032cd74205c6c37a494ea31ac1c46aec8e55c7017c1b3f9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dayton.com",
+                "www.dayton.com",
+                "www.daytondailynews.com",
+                "www.journal-news.com",
+                "www.springfieldnewssun.com"
+            ]
+        },
+        {
+            "rule": "ajc\\.com\\/prod\\/data\\/ajc\\/DN__DAYTON_PROD_DEFAULT\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage-connext"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a02a81ba45e36713fd2740e6b1b5530167c2e66d1ed9bdb9e6b2d0dd165c2931"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dayton.com",
+                "www.dayton.com"
+            ]
+        },
+        {
+            "rule": "ajc\\.com\\/prod\\/data\\/ajc\\/DN__DN_PROD_DEFAULT\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage-connext"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1efae7e1b1a2b303233c3795208886231241fdbe0bfa08821223d1ce9ebae4a9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daytondailynews.com",
+                "www.daytondailynews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000408,
+    "topInitiators": [
+        {
+            "domain": "wgchrrammzv.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 9,
+        "Script": 15,
+        "Stylesheet": 5
+    },
+    "nameservers": [
+        "ns3.ajcdns.com",
+        "ns1.ajcdns.com",
+        "ns2.ajcdns.com",
+        "ns4.ajcdns.com"
+    ]
+}

@@ -1,0 +1,307 @@
+{
+    "domain": "aptrinsic.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000817,
+    "sites": 12,
+    "subdomains": [
+        "esp",
+        "esp-m",
+        "web-sdk"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/command",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp",
+                "esp-m"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "9a7f290eb2012f978c06c18b9dc49725fc7798ae6f5bece5e75acdeb0c4b46bf",
+                "f43bbfd921c316af475607605eaebf4a837b09d31c908b462f6a20232f93f3a1",
+                "ba0e1fddf7e15cdd4866c9022bf2853b5964a8f9710d8af54eb90bb211402209",
+                "6a4b3ef5faf12e9102744895af7f68bdbb59565cfd1cbe32d5667bb4de4f34d6",
+                "ae053bb4498566a9652035637842af097d989bbd790fa76f39f4e774706ff1b2",
+                "561bd42e82b08279dbc03aeffa8d7141a13fb2147312e64f45d1d304b9646625"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "apt.sid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "availity.com",
+                "apps.availity.com",
+                "experienceleague.adobe.com",
+                "my.f5.com",
+                "techdocs.f5.com",
+                "www.compass.com",
+                "www.gradescope.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/api\\/v1\\/feature\\/client",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp",
+                "esp-m"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "aad3691836691ae4947e93fcef3892c06c41e89c55cf41b28565d735a10d399d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "apt.sid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "availity.com",
+                "experienceleague.adobe.com",
+                "www.compass.com",
+                "www.gradescope.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/inapp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp",
+                "esp-m"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "apt.sid": 0.000020421221733625584
+            },
+            "exampleSites": [
+                "availity.com",
+                "experienceleague.adobe.com",
+                "my.f5.com",
+                "techdocs.f5.com",
+                "www.compass.com",
+                "www.gradescope.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/api\\/aptrinsic\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 2,
+            "subdomains": [
+                "web-sdk"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.userAgent": 6,
+                "window.sessionStorage": 6,
+                "Navigator.prototype.platform": 6,
+                "Document.cookie setter": 5,
+                "Date.prototype.getTime": 4,
+                "window.innerHeight": 4,
+                "window.innerWidth": 4
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "b09d25c912c9b2a61abcff9343730403357c857aa07c16afda78873585f0a157"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "apt.uid": {
+                    "ttl": 31536002,
+                    "length": 45,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                },
+                "apt.sid": {
+                    "ttl": 1803,
+                    "length": 41,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adobe.com",
+                "experienceleague.adobe.com",
+                "theartofeducation.edu",
+                "www.clickfunnels.com",
+                "www.compass.com",
+                "www.gradescope.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/configuration\\/AP-PCBATQJJQHRG-2-1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp-m"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "df45db1c782f0d2296310c87c451269da6168ea94ebcce428a2e3b5140fe3342"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adobe.com",
+                "experienceleague.adobe.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-sdk"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "d1f9afcb9238e7baf51edd32eac9d9b44f870ab5d59382b30b8b115040435363"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adobe.com",
+                "experienceleague.adobe.com",
+                "my.f5.com",
+                "techdocs.f5.com",
+                "www.compass.com",
+                "www.gradescope.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/configuration\\/AP-NITRFA1GYZ8C-2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "36745667bf6231c493e790823972ca376c2e42941b1550ce51add03327cc580f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "f5.com",
+                "techdocs.f5.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/configuration\\/AP-0QSGHASHTTOI-2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ae2b17aaf165c57379850a6869f0cadf7fc1805e32a537abf61350cb09950528"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "compass.com",
+                "www.compass.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/configuration\\/AP-1BQVLBSZC216-2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eef0d398a7c8cf48a58447381dc5c55810227c8bbf6858e77173872b097c4cb7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gradescope.com",
+                "www.gradescope.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000545,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4791666666666667
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.20833333333333334
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.041666666666666664
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.020833333333333332
+        }
+    ],
+    "types": {
+        "XHR": 25,
+        "Script": 6,
+        "Stylesheet": 6
+    },
+    "nameservers": [
+        "ns34.domaincontrol.com",
+        "ns33.domaincontrol.com"
+    ]
+}

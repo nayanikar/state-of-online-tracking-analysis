@@ -1,0 +1,102 @@
+{
+    "domain": "redbull.com",
+    "owner": {
+        "name": "Red Bull GmbH",
+        "displayName": "Red Bull"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "qm",
+        "cm"
+    ],
+    "cnames": [
+        {
+            "original": "qm.rbleipzig.com",
+            "resolved": "qm.redbull.com"
+        },
+        {
+            "original": "qm.redbullmuenchen.de",
+            "resolved": "qm.redbull.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "redbull\\.com\\/gtm\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "qm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "qm.rbleipzig.com",
+                    "resolved": "qm.redbull.com"
+                },
+                {
+                    "original": "qm.redbullmuenchen.de",
+                    "resolved": "qm.redbull.com"
+                }
+            ],
+            "responseHashes": [
+                "2e5f00ce4efaed9b1f45743b67c9405470f31f87621fc4a3b96f5f1eb97e14b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rbleipzig.com",
+                "www.redbullmuenchen.de"
+            ]
+        },
+        {
+            "rule": "redbull\\.com\\/btnt\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1c1d3af857491b4cf8bc290149a0470d5bad9bee6767f1baf32b94572458d012"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rbleipzig.com",
+                "www.redbullmuenchen.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "pdns91.ultradns.biz",
+        "pdns91.ultradns.net",
+        "ns15.ultradns2.com",
+        "pdns91.ultradns.org",
+        "pdns91.ultradns.com",
+        "ns15.ultradns2.org"
+    ]
+}

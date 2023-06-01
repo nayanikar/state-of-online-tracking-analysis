@@ -1,0 +1,259 @@
+{
+    "domain": "redeal.se",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "static",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "redeal\\.se\\/widget\\/js\\/redeal\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.language": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "e395843186efd4ab5d0d6697cb6775007f7a06af91ac8c2c7b83cbe5015f94d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babyshop.no",
+                "www.getinspired.no",
+                "www.kid.no",
+                "www.nordicnest.com",
+                "www.nordicnest.no",
+                "www.xlmoto.no"
+            ]
+        },
+        {
+            "rule": "redeal\\.se\\/api\\/check",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "b09c01a7fd35de6fb17c9a29106b6308cb38860ec93dc7bcc240ce3d1ceed646",
+                "a50fb075f3d6defc216b014f49791f17de2b32f6f5688ef580db63aefaedeb02",
+                "836d67a5f8af7d4e7bb563a97038ea14140a15be525a29895515d1a1b84ea5d4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babyshop.no",
+                "www.getinspired.no",
+                "www.kid.no",
+                "www.xlmoto.no"
+            ]
+        },
+        {
+            "rule": "redeal\\.se\\/api\\/check",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babyshop.no",
+                "www.getinspired.no",
+                "www.kid.no",
+                "www.xlmoto.no"
+            ]
+        },
+        {
+            "rule": "redeal\\.se\\/api\\/widgetflowevent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d07f524b1ccdc75c972112e43ab0d31b621e7d624d15391fe9ebaf48d0aee40a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babyshop.no",
+                "www.xlmoto.no"
+            ]
+        },
+        {
+            "rule": "redeal\\.se\\/api\\/widgetflowevent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babyshop.no",
+                "www.xlmoto.no"
+            ]
+        },
+        {
+            "rule": "redeal\\.se\\/widget\\/js\\/redeal\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c5ce8ff897e31f3979547eea1c93a9d8240359a447528273f2a6e2ae6a51611a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babyshop.no",
+                "www.xlmoto.no"
+            ]
+        },
+        {
+            "rule": "redeal\\.se\\/api\\/campaignexist",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9faa3455569647c1ec4118990a3b90491280a1ad029690dc9bfb95e7f542bd4d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babyshop.no",
+                "www.xlmoto.no"
+            ]
+        },
+        {
+            "rule": "redeal\\.se\\/api\\/campaignexist",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babyshop.no",
+                "www.xlmoto.no"
+            ]
+        },
+        {
+            "rule": "redeal\\.se\\/widget\\/js\\/css\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "faf1145b09ef58cfcd7f0699c8237cba7c4503cc7aedca3a23c05df75c3ea7a9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babyshop.no",
+                "www.xlmoto.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5384615384615384
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.46153846153846156
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 8,
+        "Preflight": 8,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns1.loopia.se",
+        "ns2.loopia.se"
+    ]
+}

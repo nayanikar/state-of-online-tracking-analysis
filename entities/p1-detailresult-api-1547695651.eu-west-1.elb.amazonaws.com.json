@@ -1,0 +1,82 @@
+{
+    "domain": "p1-detailresult-api-1547695651.eu-west-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api.dekamarkt.nl",
+            "resolved": "p1-detailresult-api-1547695651.eu-west-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "p1-detailresult-api-1547695651\\.eu-west-1\\.elb\\.amazonaws\\.com\\/v1\\/storescache\\/formula\\/1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api.dekamarkt.nl",
+                    "resolved": "p1-detailresult-api-1547695651.eu-west-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dekamarkt.nl",
+                "www.dekamarkt.nl"
+            ]
+        },
+        {
+            "rule": "p1-detailresult-api-1547695651\\.eu-west-1\\.elb\\.amazonaws\\.com\\/v1\\/storescache\\/formula\\/1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api.dekamarkt.nl",
+                    "resolved": "p1-detailresult-api-1547695651.eu-west-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "6cae3e316055e3270c82118d39bda3ca9fe081b9590b83cfcbfe5964c4df557a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dekamarkt.nl",
+                "www.dekamarkt.nl"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,83 @@
+{
+    "domain": "smart-id.ca",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "smart-id\\.ca\\/sip\\/api\\/keyauth\\/carrierIdFinderUrl",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crave.ca",
+                "www.ctv.ca",
+                "www.discovery.com",
+                "www.noovo.ca"
+            ]
+        },
+        {
+            "rule": "smart-id\\.ca\\/sip\\/api\\/keyauth\\/carrierIdFinderUrl",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "5a046910aa92f03bb01d77a6c6991d21ed63aafc0d79e1d9f858a05aba1da7e9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crave.ca",
+                "www.ctv.ca",
+                "www.discovery.com",
+                "www.noovo.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "ctv.ca",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-mtl.wireless.bell.ca",
+        "ns-tor.wireless.bell.ca"
+    ]
+}

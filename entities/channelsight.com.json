@@ -1,0 +1,87 @@
+{
+    "domain": "channelsight.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "channelsight\\.com\\/widget\\/scripts\\/cswidget\\.loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1ae5e4a49165160f2b027b18aabea9156ef111386a204d0e72ea0be9d6a0ac84"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "holtsauto.com",
+                "www.kleenex.co.uk"
+            ]
+        },
+        {
+            "rule": "channelsight\\.com\\/widget\\/scripts\\/cswidget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "fe80bae460241acde2516953c7d39cbcb37be3a4ef0df6a2b5775722403c3d79"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "holtsauto.com",
+                "www.hoover.co.uk",
+                "www.kleenex.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "windows.net",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns1-07.azure-dns.com",
+        "ns2-07.azure-dns.net",
+        "ns3-07.azure-dns.org",
+        "ns4-07.azure-dns.info"
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "domain": "jmgads.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "ghb.bidder",
+        "ads62.bidder",
+        "sync.bidder"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "jmgads\\.com\\/v2\\/auction\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghb.bidder"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "374ed8193eb2fac916dd674743bc621c118bc03d9e3caa74c1eb9b5c3f0dd599"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jpost.com",
+                "www.jpost.com"
+            ]
+        },
+        {
+            "rule": "jmgads\\.com\\/display\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads62.bidder"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8a5cb3562f3dc4157d55e8ed0b0d0d3dfaaade9fd5a29a6dad139ffd80f6bbc7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jpost.com",
+                "www.jpost.com"
+            ]
+        },
+        {
+            "rule": "jmgads\\.com\\/sync\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads62.bidder"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fa4c2900973caa454a7ee1b1e9ec57e4f85e8ece76bcab9ecf1ef89fc6093d6d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jpost.com",
+                "www.jpost.com"
+            ]
+        },
+        {
+            "rule": "jmgads\\.com\\/tracking\\/campaign",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads62.bidder"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jpost.com",
+                "www.jpost.com"
+            ]
+        },
+        {
+            "rule": "jmgads\\.com\\/csync",
+            "cookies": 0.00000681,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.bidder"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jpost.com",
+                "www.jpost.com"
+            ]
+        },
+        {
+            "rule": "jmgads\\.com\\/tracking\\/speed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads62.bidder"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jpost.com",
+                "www.jpost.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "adapex.io",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "XHR": 6,
+        "Script": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns694815375.a2dns.com",
+        "ns694815374.a2dns.com"
+    ]
+}

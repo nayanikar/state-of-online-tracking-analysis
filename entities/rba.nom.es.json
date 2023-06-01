@@ -1,0 +1,128 @@
+{
+    "domain": "rba.nom.es",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000749,
+    "sites": 11,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rba\\.nom\\.es\\/js\\/jquery-ui\\/jquery-ui\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "b76ea780facef64d63e48360bb866f32dc4d514eb0f8e00efc5c235c3d029e87"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgeographic.com.es",
+                "historia.nationalgeographic.com.es",
+                "viajes.nationalgeographic.com.es",
+                "www.clara.es"
+            ]
+        },
+        {
+            "rule": "rba\\.nom\\.es\\/ads\\/prebid7\\.38\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 4,
+                "window.sessionStorage": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "2eb58a271457877bd9fbc426079648fa4013a3eaee9435959c6e221d97803d60"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clara.es",
+                "www.clara.es",
+                "www.cuerpomente.com",
+                "www.elmueble.com"
+            ]
+        },
+        {
+            "rule": "rba\\.nom\\.es\\/ads\\/prebid\\/mgr-ads-sticky\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3581b7d38cb69cdf4584dcd3b364caf9be651e7dec98cb2a99cf611d28e3f37e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elmueble.com",
+                "www.elmueble.com"
+            ]
+        },
+        {
+            "rule": "rba\\.nom\\.es\\/elmueble\\/notifications\\/onesignal\\.init\\.pro-2\\.0-inactive\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "35567fbd160c6600ed571a7414115d513cb0ef40450c541307f31b2b7cba0712"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elmueble.com",
+                "www.elmueble.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 4,
+        "Script": 8
+    },
+    "nameservers": [
+        "nola.ns.cloudflare.com",
+        "henry.ns.cloudflare.com"
+    ]
+}

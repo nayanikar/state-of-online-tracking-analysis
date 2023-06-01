@@ -1,0 +1,138 @@
+{
+    "domain": "trialfire.com",
+    "owner": {
+        "name": "Lieberman, Michael",
+        "displayName": "Lieberman, Michael"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "trialfire\\.com\\/tf\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "6a1ecb8ab72c9181f9b3cb7c9b4f8263ac44749990c04bcca85973358fd770da"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canpl.ca",
+                "cottagelife.com",
+                "www.carp.ca",
+                "www.cfl.ca"
+            ]
+        },
+        {
+            "rule": "trialfire\\.com\\/tf\\.stage1\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.sessionStorage": 4,
+                "Document.cookie getter": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTimezoneOffset": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "4358ec257d9689a93c50220396d2d438d5f52a1b43ba7da4d3044f5663d39a8f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tfID00": {
+                    "ttl": 63072003,
+                    "length": 34,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 1
+                },
+                "_tf_s": {
+                    "ttl": 86403,
+                    "length": 23,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canpl.ca",
+                "cottagelife.com",
+                "www.carp.ca",
+                "www.cfl.ca"
+            ]
+        },
+        {
+            "rule": "trialfire\\.com\\/v2\\/tm\\/cc\\/d868f38b-0943-4ada-a0a7-560ca325a62b",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f6dc070409cc91762b72cf07ca575ccba96cd61a7fdff5a6e30cbc995d8122fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cfl.ca",
+                "www.cfl.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 10
+    },
+    "nameservers": [
+        "ns-1322.awsdns-37.org",
+        "ns-569.awsdns-07.net",
+        "ns-205.awsdns-25.com",
+        "ns-1541.awsdns-00.co.uk"
+    ]
+}

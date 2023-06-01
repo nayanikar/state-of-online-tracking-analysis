@@ -1,0 +1,128 @@
+{
+    "domain": "weer.nl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "weer\\.nl\\/widget\\/current",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5e5a61bd5f5358b9a4fbdcb4cf661b2fef9a40a6be42c9203a69a87002264683"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hartvannederland.nl",
+                "www.hartvannederland.nl"
+            ]
+        },
+        {
+            "rule": "weer\\.nl\\/assets\\/default-geo-repository\\.b7f4e444\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "216d874dbc2a5d16990e3b4deeba2c9cf1b8feaa08a8066087f3ae470e0a576b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hartvannederland.nl",
+                "www.hartvannederland.nl"
+            ]
+        },
+        {
+            "rule": "weer\\.nl\\/assets\\/widget\\.5f99bf49\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f84e558d11764da1d28298dbdf460679a4a262bf0217b31c832ef38efc6974a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hartvannederland.nl",
+                "www.hartvannederland.nl"
+            ]
+        },
+        {
+            "rule": "weer\\.nl\\/assets\\/default-geo-repository\\.ee86fdc1\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ee86fdc1650748a09d9b7d5ef44001c504292563710f39e3b395ec370c7a7630"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hartvannederland.nl",
+                "www.hartvannederland.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Script": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-184.awsdns-23.com",
+        "ns-761.awsdns-31.net",
+        "ns-1090.awsdns-08.org",
+        "ns-1990.awsdns-56.co.uk"
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "domain": "syncsearch.jp",
+    "owner": {
+        "name": "SyncThought, Inc.",
+        "displayName": "SyncThought"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000163,
+    "sites": 24,
+    "subdomains": [
+        "cdn",
+        "pro",
+        "ssl"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "syncsearch\\.jp\\/libs\\/suggest_version\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "804760a1239f3ee1f378d7ebbce8c6cbe545a40eb712d5a115227447caa14717"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "docomo.ne.jp",
+                "www.kuronekoyamato.co.jp"
+            ]
+        },
+        {
+            "rule": "syncsearch\\.jp\\/libs\\/suggest_1\\.0\\.5\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2a970c63b9de889abecbf5e179a004903a71f1b42d6465055648d7dbf1394bc1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "docomo.ne.jp",
+                "www.kuronekoyamato.co.jp"
+            ]
+        },
+        {
+            "rule": "syncsearch\\.jp\\/common\\/js\\/sync_suggest\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pro",
+                "ssl"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 13,
+                "Navigator.prototype.appVersion": 12
+            },
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "ddd1d5fe0f1ab51c4b45780ef012230ee513d976ac9ac3471c90b0fabe378a23",
+                "8c1ac0c62322f5f7514fe5b4990039a92a8165b6b9f870d34d2f9e5269f585a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smbc-card.com",
+                "www.daiichisankyo-hc.co.jp",
+                "www.driveplaza.com",
+                "www.iodata.jp",
+                "www.kewpie.co.jp",
+                "www.kracie.co.jp",
+                "www.mizuhobank.co.jp",
+                "www.netbk.co.jp",
+                "www.saisoncard.co.jp",
+                "www.shinchosha.co.jp",
+                "www.smbc.co.jp",
+                "www.tac-school.co.jp",
+                "www.takaratomy.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 15
+    },
+    "nameservers": [
+        "ns1.syncsearch.jp",
+        "ns2.syncsearch.jp"
+    ]
+}

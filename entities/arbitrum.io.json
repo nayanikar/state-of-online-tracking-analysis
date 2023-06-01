@@ -1,0 +1,75 @@
+{
+    "domain": "arbitrum.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "bridge",
+        "tokenlist"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "arbitrum\\.io\\/token-list-42161\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bridge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uniswap.org",
+                "app.uniswap.org"
+            ]
+        },
+        {
+            "rule": "arbitrum\\.io\\/ArbTokenLists\\/arbed_arb_whitelist_era\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tokenlist"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ffaaa29c22248005f1a162e496e8f564dcd36c96d62668e04df0ba3dc16c9c79"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uniswap.org",
+                "app.uniswap.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": [
+        "arya.ns.cloudflare.com",
+        "james.ns.cloudflare.com"
+    ]
+}

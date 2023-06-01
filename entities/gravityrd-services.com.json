@@ -1,0 +1,69 @@
+{
+    "domain": "gravityrd-services.com",
+    "owner": {
+        "name": "Gravity R&D Zrt",
+        "displayName": "Gravity R&D Zrt"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "zinio-sjc"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gravityrd-services\\.com\\/grrec-zinio-war\\/JSServlet4",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "zinio-sjc"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dfc982997e9084e6903f582074fc976542ffdca1a53eb7020b73495d1d223e31"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gr_reco": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "zinio.com",
+                "www.zinio.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns10.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns14.dnsmadeeasy.com",
+        "ns15.dnsmadeeasy.com"
+    ]
+}

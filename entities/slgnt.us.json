@@ -1,0 +1,84 @@
+{
+    "domain": "slgnt.us",
+    "owner": {
+        "name": "Selligent",
+        "displayName": "Selligent"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "site-azp"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "slgnt\\.us\\/frontend\\/api\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-azp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "www.lifeextension.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.us\\/frontend\\/api\\/track",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-azp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "www.lifeextension.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "windows.net",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns15.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns14.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns10.dnsmadeeasy.com"
+    ]
+}

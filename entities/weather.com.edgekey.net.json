@@ -1,0 +1,93 @@
+{
+    "domain": "weather.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "apiion"
+    ],
+    "cnames": [
+        {
+            "original": "api.weather.com",
+            "resolved": "apiion.weather.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "weather\\.com\\.edgekey\\.net\\/v3\\/location\\/near",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.weather.com",
+                    "resolved": "apiion.weather.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3a447b76fa10c5f01619a020917014e481bd9045cfa43b365862fd72d3375856"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wunderground.com",
+                "www.wunderground.com"
+            ]
+        },
+        {
+            "rule": "weather\\.com\\.edgekey\\.net\\/v2\\/pws\\/observations\\/current",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.weather.com",
+                    "resolved": "apiion.weather.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "775d866d11861a1253c8f3d5b5e50df7be7cb6f0f24ba75850d0571fa43e962a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wunderground.com",
+                "www.wunderground.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "instana.io",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4
+    },
+    "nameservers": []
+}

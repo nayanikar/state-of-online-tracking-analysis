@@ -1,0 +1,81 @@
+{
+    "domain": "saffire.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "saffire\\.com\\/files\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0ecd00e669166f87e5c5aac9129d9342a941fe947f0c7596d04536f16cd60098"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thewoodlandsartscouncil.org",
+                "www.thewoodlandsartscouncil.org"
+            ]
+        },
+        {
+            "rule": "saffire\\.com\\/images\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d632825b284158e1b9750719930301cfd477fa7d1f6b2c72c2326a71cdf31f99"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thewoodlandsartscouncil.org",
+                "www.thewoodlandsartscouncil.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1966.awsdns-53.co.uk",
+        "ns-463.awsdns-57.com",
+        "ns-1363.awsdns-42.org",
+        "ns-725.awsdns-26.net"
+    ]
+}

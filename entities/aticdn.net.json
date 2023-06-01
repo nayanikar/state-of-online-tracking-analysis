@@ -1,0 +1,152 @@
+{
+    "domain": "aticdn.net",
+    "owner": {
+        "name": "AT Internet",
+        "displayName": "AT Internet",
+        "privacyPolicy": "https://www.atinternet.com/en/company/data-protection/data-collection-on-at-internets-sites/",
+        "url": "http://atinternet.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "aticdn\\.net\\/piano-analytics\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4,
+                "window.localStorage": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Navigator.prototype.language": 4,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "92987cb7f38f2ccf6ba81d4f8b1353b0dd6d39acde9dd4e2e3e44f5a58af9c76"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pa_privacy": {
+                    "ttl": 34128013,
+                    "length": 11,
+                    "prevalence": 0.00040160642570281126,
+                    "uniqueness": 0.5
+                },
+                "_pcid": {
+                    "ttl": 34128012,
+                    "length": 74,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "_pctx": {
+                    "ttl": 34128012,
+                    "length": 103,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "pa_user": {
+                    "ttl": 12,
+                    "length": 6,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bluey.tv",
+                "www.refinery29.com",
+                "www.thehindu.com",
+                "www.vice.com"
+            ]
+        },
+        {
+            "rule": "aticdn\\.net\\/592983\\/smarttag\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "77660b8d2b63ac21f42d88a4c50c9dbc632c19089f480aed1df54462045bbf53"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "atuserid": {
+                    "ttl": 34300805,
+                    "length": 186,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "atidvisitor": {
+                    "ttl": 15724800,
+                    "length": 200,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rte.ie",
+                "www.rte.ie"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-1950.awsdns-51.co.uk",
+        "ns-1218.awsdns-24.org",
+        "ns-237.awsdns-29.com",
+        "ns-540.awsdns-03.net"
+    ]
+}

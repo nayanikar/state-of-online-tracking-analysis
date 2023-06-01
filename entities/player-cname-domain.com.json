@@ -1,0 +1,85 @@
+{
+    "domain": "player-cname-domain.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "ls"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "player-cname-domain\\.com\\/storage\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ls"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "d63865ca0fb18bf2c52ac850a7e25935be065ee10aed1af1ff0369656ebbf286"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animego.online",
+                "doramy.club",
+                "jut-su.net",
+                "yummyanime.tv"
+            ]
+        },
+        {
+            "rule": "player-cname-domain\\.com\\/local-storage\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ls"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "8a1bd6c31a4b05e0ebc4b58a9f127f85b8dc87eee1b80c068aa10721640d9321"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animego.online",
+                "doramy.club",
+                "jut-su.net",
+                "yummyanime.tv"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "kodik.info",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 4,
+        "Script": 4
+    },
+    "nameservers": [
+        "dns34.cloudns.net",
+        "dns31.cloudns.net",
+        "dns32.cloudns.net",
+        "dns33.cloudns.net"
+    ]
+}

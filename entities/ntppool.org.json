@@ -1,0 +1,133 @@
+{
+    "domain": "ntppool.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "st",
+        "www.mapper",
+        "8c6e81e0caad4e592.mapper",
+        "c15254bae8ae0bc4e.mapper"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ntppool\\.org\\/js\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "st"
+            ],
+            "apis": {
+                "Navigator.prototype.webdriver": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "107a7a0eadcba82495e387e12607bd57e7d184d236a0572db3c49de7b32cf015"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ntp.org",
+                "www.pool.ntp.org"
+            ]
+        },
+        {
+            "rule": "ntppool\\.org\\/mapper\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www.mapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8ed1db7e703722fe74a2a0b8ea62eecf6e7c8ffb641235861d305305b2c2a180"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ntp.org",
+                "www.pool.ntp.org"
+            ]
+        },
+        {
+            "rule": "ntppool\\.org\\/api\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "st"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ntp.org",
+                "www.pool.ntp.org"
+            ]
+        },
+        {
+            "rule": "ntppool\\.org\\/none",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "8c6e81e0caad4e592.mapper",
+                "c15254bae8ae0bc4e.mapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ntp.org",
+                "www.pool.ntp.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns2.us.bitnames.com",
+        "anyns.pch.net",
+        "ns-g1.bitnames.com",
+        "ns1.us.bitnames.com",
+        "ns3.us.bitnames.com",
+        "ns1.eu.bitnames.com"
+    ]
+}

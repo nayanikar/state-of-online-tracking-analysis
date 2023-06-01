@@ -1,0 +1,856 @@
+{
+    "domain": "nc0.co",
+    "owner": {
+        "name": "Ensighten, Inc",
+        "displayName": "Ensighten",
+        "privacyPolicy": "https://www.ensighten.com/privacy-policy/",
+        "url": "http://ensighten.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00251,
+    "sites": 25,
+    "subdomains": [
+        "twdc-dtci.edge",
+        "symantec.edge",
+        "delta.edge",
+        "rac.edge",
+        "suncorp.edge",
+        "toyotanational.edge",
+        "dell.edge"
+    ],
+    "cnames": [
+        {
+            "original": "assets1.gio.com.au",
+            "resolved": "suncorp.edge.nc0.co"
+        },
+        {
+            "original": "assets1.shannons.com.au",
+            "resolved": "suncorp.edge.nc0.co"
+        },
+        {
+            "original": "dcf.espn.com",
+            "resolved": "twdc-dtci.edge.nc0.co"
+        },
+        {
+            "original": "ensighten.norton.com",
+            "resolved": "symantec.edge.nc0.co"
+        },
+        {
+            "original": "nexus.toyota.com",
+            "resolved": "toyotanational.edge.nc0.co"
+        },
+        {
+            "original": "pulse.delta.com",
+            "resolved": "delta.edge.nc0.co"
+        },
+        {
+            "original": "pulse.rac.co.uk",
+            "resolved": "rac.edge.nc0.co"
+        },
+        {
+            "original": "sst.dell.com",
+            "resolved": "dell.edge.nc0.co"
+        },
+        {
+            "original": "tms.delta.com",
+            "resolved": "delta.edge.nc0.co"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/Bootstrap\\.js",
+            "cookies": 0.000803,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "50ba59d147a557f27c890a48ae0b18b07807ae62ec89d254d5aff63ba67a9a4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "s_ensCDS": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.0008032128514056225,
+                    "uniqueness": 0.125
+                },
+                "s_ensRegion": {
+                    "ttl": null,
+                    "length": 7,
+                    "prevalence": 0.000502008032128514,
+                    "uniqueness": 0.2
+                },
+                "_dcf": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000502008032128514,
+                    "uniqueness": 0.4
+                },
+                "s_ensPortal": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "fivethirtyeight.com",
+                "www.disney.com.au",
+                "www.espncricinfo.com",
+                "www.espn.com.au",
+                "www.marvel.com",
+                "www.nationalgeographic.com",
+                "www.starwars.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "f4b78d3f9d27f68b6deb4d20ec5785a79bf47fe5359fbbdf1ef9d86808208e3a",
+                "7088efb22439b08a1316ba28e3ab1bff0a0713b05137ffe071947d8d4433481c",
+                "bd151a8f55f525bb3815dd24b38988286ec7f73feaf15d2806a90026bfc3b742",
+                "88e9cf8c9797a0440743bbeca07d18a73c7bb2f661da7672688c52b5128bcfc6",
+                "29a44f66b11241a397aefe2f993c1174ed8b05e47b1adbc844ec962f06877873"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "s_ensRegion": 0.00010040160642570282,
+                "_cb_svref": 0.00020080321285140563,
+                "s_ensPortal": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "go.com",
+                "fivethirtyeight.com",
+                "www.disney.com.au",
+                "www.marvel.com",
+                "www.nationalgeographic.com",
+                "www.starwars.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/privacy\\/v1\\/b\\/r\\.rnc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge",
+                "symantec.edge",
+                "delta.edge",
+                "rac.edge",
+                "suncorp.edge",
+                "toyotanational.edge"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                },
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                },
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                },
+                {
+                    "original": "pulse.rac.co.uk",
+                    "resolved": "rac.edge.nc0.co"
+                },
+                {
+                    "original": "assets1.shannons.com.au",
+                    "resolved": "suncorp.edge.nc0.co"
+                },
+                {
+                    "original": "nexus.toyota.com",
+                    "resolved": "toyotanational.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "abcnews.go.com",
+                "fivethirtyeight.com",
+                "us.norton.com",
+                "www.delta.com",
+                "www.disney.com.au",
+                "www.espn.com.au",
+                "www.espncricinfo.com",
+                "www.marvel.com",
+                "www.nationalgeographic.com",
+                "www.rac.co.uk",
+                "www.shannons.com.au",
+                "www.starwars.com",
+                "www.toyota.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/ed9cc89e72efe4115d590b2b9169c222\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "09aa197b780bfe7b955974d6d0445d27e123088102766ce969315233d7379aad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "fivethirtyeight.com",
+                "www.disney.com.au",
+                "www.marvel.com",
+                "www.nationalgeographic.com",
+                "www.starwars.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/e675fe64ad5c7be5eabf0a7217440c9e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "2ca434f4f1ea6861089c9886d974adbf96e22ee4650e13829bd89f24ee827f2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "fivethirtyeight.com",
+                "www.disney.com.au",
+                "www.marvel.com",
+                "www.nationalgeographic.com",
+                "www.starwars.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/e2fb7f2c5fe3ded4b603fe4ffe8fb977\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "7607e86f6c040b476ad2bcbedda570b688687af24dd4e935aefec5598dc0a44f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "fivethirtyeight.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/dell\\/sst",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dell.edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "sst.dell.com",
+                    "resolved": "dell.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/privacy\\/v1\\/c\\/r\\.rnc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "symantec.edge",
+                "rac.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                },
+                {
+                    "original": "pulse.rac.co.uk",
+                    "resolved": "rac.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "www.rac.co.uk"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/delta\\/dl_bastian\\/Bootstrap\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "delta.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "ef06a5ec20740cef21855a96b1a53e660ca6c9ad962b32362b7bc61c775ed6bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/error\\/e\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delta.edge",
+                "suncorp.edge",
+                "toyotanational.edge"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                },
+                {
+                    "original": "assets1.gio.com.au",
+                    "resolved": "suncorp.edge.nc0.co"
+                },
+                {
+                    "original": "nexus.toyota.com",
+                    "resolved": "toyotanational.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com",
+                "www.gio.com.au",
+                "www.toyota.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/delta\\/dl_bastian\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delta.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "fb9089e238c3096d6988a53ce4bd80be13a62e21927c41e05c719b4667d4199b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/delta\\/dl_bastian\\/code\\/6c9d3e465e9939f1c569dd9d9e53cd1e\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "delta.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e46ea32577c87c0768a2388d7522e8a757476f17f3a369a5d7337b878f8ea886"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/delta\\/dl_bastian\\/code\\/5345bbdeda958a4aef787ce8e92f61e2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "delta.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/delta\\/dl_bastian\\/code\\/511c1a71a72b86671d133934a291ff2a\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "delta.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "7dabebefda414c13cfcf504ae342bbb4ca71aa811f257c3279e47d8913dab1d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/delta\\/dl_bastian\\/code\\/4ac0bf88a19d6a3ddc5d4d7c7e54b25a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delta.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "5386df3c9c1f4f94c7791183d691a19850c339c90af120fdf51094c2a9a76c26"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/delta\\/dl_bastian\\/code\\/78a61f52631ef0d54596fcbfab3646f0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "delta.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "2b18882d5f2b29b7d7e827bfd0d3ffbd11f24235397b26f1f506a1ea98046a34"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/delta\\/dl_bastian\\/code\\/e2e88a0bbb8170acd235436c072db7d6\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "delta.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e233591de94c6d5dde7e87b833690f6651353930ad3c67a9e851827dd3927443"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/delta\\/dl_bastian\\/code\\/670754a421f256ccc0a868e2d93d0c54\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delta.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "8182ef352de9fda5777c4d808d0b9bd266297bb7a2687b5426d53404ff600b7a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/delta\\/dl_bastian\\/code\\/57e7081d661df79fce5ac0f8dac4fb5c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delta.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "4c8c8c01b3a5889b3a18ea34712c03445e39d8d832c4e20a6d1173c6c9fe1efb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/delta\\/dl_bastian\\/code\\/a16b911d452e8b9304519161cfa4ce15\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "delta.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "b042b0c7cc9afcc2ec31a6419ab2315f913879ee2ed8fea58219053112133719"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/delta\\/sst",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delta.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "pulse.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/delta\\/",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delta.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "pulse.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "www.delta.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/04ec4f165e047e6f67df5d8f736eb981\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "6f60dd08c607ff59bc55d3441c0ffcc0c1c106a5b96b65dc306ac32a5d4d1a94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disney.com.au",
+                "www.starwars.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/d6f6404507fb20f432e14440e542caa5\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "a5c81a1155a6d360d1e251be1d2391b8a8cd90a2fe7ffa5156d17d3001c893f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disney.com.au",
+                "www.starwars.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00241,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8068181818181818
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.07954545454545454
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.06818181818181818
+        },
+        {
+            "domain": "disney.io",
+            "prevalence": 0.022727272727272728
+        },
+        {
+            "domain": "gbqofs.com",
+            "prevalence": 0.011363636363636364
+        },
+        {
+            "domain": "californiatimes.com",
+            "prevalence": 0.011363636363636364
+        }
+    ],
+    "types": {
+        "Script": 54,
+        "Image": 24,
+        "Ping": 3
+    },
+    "nameservers": [
+        "ns-341.awsdns-42.com",
+        "ns-1781.awsdns-30.co.uk",
+        "ns-663.awsdns-18.net",
+        "ns-1332.awsdns-38.org"
+    ]
+}

@@ -1,0 +1,396 @@
+{
+    "domain": "twitch.tv",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00161,
+    "sites": 16,
+    "subdomains": [
+        "player",
+        "embed",
+        "gql",
+        "pubsub-edge",
+        "passport",
+        "irc-ws.chat"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "twitch\\.tv\\/",
+            "cookies": 0.000803,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player",
+                "embed"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "f6da549b61bb16df8c9672e290d6aa3ae3574a6cfa2da9bc3397c77f919450ea",
+                "e3fb600c548c4fe10d98046ad734a171102238b577e7aedb66e2da1564d838f5",
+                "340717a13410000b6c2132c580665881e2370b0b16e751c6d4f990aa5ed72bd0",
+                "ec3bbeec12eb56f0694c6216c1f5d4a325a50a477733ea48a9f817f2944c7c2e",
+                "8b8fe90174ee12ceac9ec7ea8d18b30c0b32dfd8528d10a1ee97b0d297aa8c0b",
+                "402b54c5d07bd1cd14ca415bb7cfaf59e29888081485923ea04b4d6f39b383d4",
+                "7a3e45748d36f8b1042d9db7f1c6729d093dc41aa20c4bb06ed2e0dc3a4932d7"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bulbagarden.net",
+                "darksouls3.wiki.fextralife.com",
+                "demonssouls.wiki.fextralife.com",
+                "eldenring.wiki.fextralife.com",
+                "elderscrollsonline.wiki.fextralife.com",
+                "hellhades.com",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com",
+                "www.fortnitecreativehq.com"
+            ]
+        },
+        {
+            "rule": "twitch\\.tv\\/gql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gql"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bulbagarden.net",
+                "bulbapedia.bulbagarden.net",
+                "darksouls3.wiki.fextralife.com",
+                "demonssouls.wiki.fextralife.com",
+                "eldenring.wiki.fextralife.com",
+                "elderscrollsonline.wiki.fextralife.com",
+                "hellhades.com",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com",
+                "www.fortnitecreativehq.com"
+            ]
+        },
+        {
+            "rule": "twitch\\.tv\\/gql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gql"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "c6a6b2cfc8b31d93ebbc69cb22d773c4b63445424ed169a8afa3367e5239e855",
+                "557ee25fbd97db11bcecb2c35532e816023095b99209fdf136b7e13866fb888e",
+                "fffe68bfdd05cdfc8008d7d7625e131c5ac150283239704d4acaabd9e5fdd8af",
+                "03eb0b0f969c2f6f9056005335955cada89ce46200be2f582751c15a33a416b4",
+                "c030a161ed9277759743588a700261408a5ef120304e0ac4aebb996db86ce0fd",
+                "e8ecb2bad1a2e2639a95df951bf61d61f912c7afd2aebd9ae313bb229a6d5f6d",
+                "f0a96281925990e14813454d60e72526db93921e3debf361c62f7ca54c6f2577",
+                "6e2ac1e7757601866612d0cfeba4ec11f1b280c38632b252fc26c1894f2d83b0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bulbagarden.net",
+                "bulbapedia.bulbagarden.net",
+                "darksouls3.wiki.fextralife.com",
+                "demonssouls.wiki.fextralife.com",
+                "eldenring.wiki.fextralife.com",
+                "elderscrollsonline.wiki.fextralife.com",
+                "hellhades.com",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com",
+                "www.fortnitecreativehq.com"
+            ]
+        },
+        {
+            "rule": "twitch\\.tv\\/v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pubsub-edge"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bulbagarden.net",
+                "darksouls3.wiki.fextralife.com",
+                "demonssouls.wiki.fextralife.com",
+                "eldenring.wiki.fextralife.com",
+                "elderscrollsonline.wiki.fextralife.com",
+                "hellhades.com",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com",
+                "www.fortnitecreativehq.com"
+            ]
+        },
+        {
+            "rule": "twitch\\.tv\\/149e9513-01fa-4fb0-aad4-566afd725d1b\\/2d206a39-8ed7-437e-a3be-862e0f06eea3\\/fp",
+            "cookies": 0.000904,
+            "fingerprinting": 3,
+            "subdomains": [
+                "gql",
+                "passport"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Event.prototype.timeStamp": 7,
+                "Navigator.prototype.webdriver": 8,
+                "Navigator.prototype.platform": 8,
+                "HTMLMediaElement.prototype.canPlayType": 8,
+                "Navigator.prototype.plugins": 8,
+                "Navigator.prototype.vendor": 8,
+                "Navigator.prototype.languages": 8,
+                "Navigator.prototype.hardwareConcurrency": 8,
+                "Navigator.prototype.permissions": 8,
+                "Navigator.prototype.maxTouchPoints": 8,
+                "WebGLRenderingContext.prototype.getParameter": 8,
+                "window.name": 8,
+                "window.innerWidth": 8,
+                "window.innerHeight": 8,
+                "window.screenX": 8,
+                "window.screenY": 8,
+                "window.outerWidth": 8,
+                "window.outerHeight": 8,
+                "window.devicePixelRatio": 8,
+                "window.screenLeft": 8,
+                "window.screenTop": 8,
+                "window.indexedDB": 8,
+                "window.sessionStorage": 8,
+                "window.localStorage": 8,
+                "Screen.prototype.height": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.orientation": 8,
+                "Navigator.prototype.mimeTypes": 6,
+                "BarProp.prototype.visible": 6,
+                "Screen.prototype.colorDepth": 5,
+                "Screen.prototype.availHeight": 6,
+                "Navigator.prototype.connection": 6,
+                "Navigator.prototype.deviceMemory": 6,
+                "Navigator.prototype.language": 6,
+                "Screen.prototype.availWidth": 5,
+                "Screen.prototype.pixelDepth": 5,
+                "Navigator.prototype.appVersion": 5
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "1d0e90985915477a573f417443d4b99de574a2b23e328ef478555cd40292f2a2",
+                "c2353ce4bc81c53e2868037bb818713a0ea4ed2fed85bf21a83aab4f66b23807",
+                "eaa77761a415d68f03de060e7445cd0b671512343484cafeaa601fe5ec35d27f",
+                "7ec0865870eb16630c47b12fe97ffd3498a13c6cef7f78cfb5fde4a95febfa23",
+                "ac8e833138b7ee5d43ebbc4b2cca9d8a58e7f43f7afb7593b4d60815d40db1db",
+                "a82cb207de4731017f75666a29c9c09767b0d7cc33b1698b451d726da8506c57",
+                "c8d5400b323235fe3cfe7025812f1ddca9aa13b8042007939031f0441bead39b",
+                "6bade978f6415f9d3a10d49771c671ff1471c55176bab03e8c494641bddb7a57"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bulbagarden.net",
+                "bulbapedia.bulbagarden.net",
+                "darksouls3.wiki.fextralife.com",
+                "demonssouls.wiki.fextralife.com",
+                "eldenring.wiki.fextralife.com",
+                "elderscrollsonline.wiki.fextralife.com",
+                "hellhades.com",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com",
+                "www.fortnitecreativehq.com"
+            ]
+        },
+        {
+            "rule": "twitch\\.tv\\/149e9513-01fa-4fb0-aad4-566afd725d1b\\/2d206a39-8ed7-437e-a3be-862e0f06eea3\\/tl",
+            "cookies": 0.000803,
+            "fingerprinting": 0,
+            "subdomains": [
+                "passport",
+                "gql"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bulbagarden.net",
+                "bulbapedia.bulbagarden.net",
+                "darksouls3.wiki.fextralife.com",
+                "demonssouls.wiki.fextralife.com",
+                "eldenring.wiki.fextralife.com",
+                "elderscrollsonline.wiki.fextralife.com",
+                "hellhades.com",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com",
+                "www.fortnitecreativehq.com"
+            ]
+        },
+        {
+            "rule": "twitch\\.tv\\/undefined",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player",
+                "embed"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bulbagarden.net",
+                "darksouls3.wiki.fextralife.com",
+                "eldenring.wiki.fextralife.com"
+            ]
+        },
+        {
+            "rule": "twitch\\.tv\\/js\\/embed\\/v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "91e09d1656b3c0b6ce57bdf2f3b8045eaa4dc2a244fd62642aa0be0c1dc272c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fextralife.com",
+                "demonssouls.wiki.fextralife.com",
+                "eldenring.wiki.fextralife.com",
+                "elderscrollsonline.wiki.fextralife.com",
+                "en.m.uesp.net",
+                "en.uesp.net",
+                "hellhades.com",
+                "help.ea.com",
+                "maxroll.gg",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com",
+                "www.twilio.com"
+            ]
+        },
+        {
+            "rule": "twitch\\.tv\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "irc-ws.chat"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fextralife.com",
+                "demonssouls.wiki.fextralife.com",
+                "eldenring.wiki.fextralife.com",
+                "elderscrollsonline.wiki.fextralife.com",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com",
+                "www.fortnitecreativehq.com"
+            ]
+        },
+        {
+            "rule": "twitch\\.tv\\/embed\\/v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "91e09d1656b3c0b6ce57bdf2f3b8045eaa4dc2a244fd62642aa0be0c1dc272c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twinfinite.net",
+                "www.mtggoldfish.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.000803,
+    "topInitiators": [
+        {
+            "domain": "twitchcdn.net",
+            "prevalence": 0.7321428571428571
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1875
+        },
+        {
+            "domain": "twitch.tv",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.008928571428571428
+        }
+    ],
+    "types": {
+        "Document": 17,
+        "Preflight": 9,
+        "Fetch": 9,
+        "WebSocket": 14,
+        "XHR": 9,
+        "Image": 3,
+        "Script": 13
+    },
+    "nameservers": [
+        "ns-1450.awsdns-53.org",
+        "ns-1778.awsdns-30.co.uk",
+        "ns-219.awsdns-27.com",
+        "ns-664.awsdns-19.net"
+    ]
+}

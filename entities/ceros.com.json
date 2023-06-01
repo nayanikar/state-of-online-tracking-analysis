@@ -1,0 +1,858 @@
+{
+    "domain": "ceros.com",
+    "owner": {
+        "name": "Ceros, Inc.",
+        "displayName": "Ceros"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "view",
+        "assets-s3-us-east-1",
+        "media-s3-us-east-1",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ceros\\.com\\/webfont-1\\.6\\.3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "view"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2c32949b380a8e2de4d20de669d0573ba34d27f172a459886d434512fa2781cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/8\\.6\\.3\\/view\\.ceros\\.com\\/default\\/assets\\/player\\/shared\\/libs\\/require\\/require-min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets-s3-us-east-1"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3b0a585ef0d7a06ed38fd133e0fdcf28cd5c2f9f2ac40114580f1dce13498123"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/8\\.6\\.3\\/view\\.ceros\\.com\\/default\\/assets\\/player\\/applications\\/html5-player\\/bootstrap-optimized\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "assets-s3-us-east-1"
+            ],
+            "apis": {
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.languages": 2,
+                "URL.createObjectURL": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.devicePixelRatio": 2,
+                "Date.prototype.getTime": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7a64fcb6a0509a6c975e49b1134647e561404f361abae7b45c17dead4fc17f14"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "testcookie": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/8\\.6\\.3\\/view\\.ceros\\.com\\/default\\/assets\\/player\\/applications\\/html5-player\\/css\\/html5-player\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bff530509f1126d99a5457a282d50a51569195ba84fcd362e75e5e457e3ca8e7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/ceros-fonts-2023-01-26\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "view"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0b82466a6fe31e0baf68cee789f451980ffd808f9425e045e8f205abc574e683"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/avenir-next-lt\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "view"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f619dac7a65a742377859042634f38d1ac996ee20c2897bc5e73befb52957743"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/fonts\\/2019\\/07\\/23\\/16049672-e97d-487e-bfba-79f5c7e431a0\\/proxima-nova-bold\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "77cc6cb8237df9cd8d40a2ee75a3cccb61af2e14c5a3db0f7edd67f5a386de57"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/fonts\\/2019\\/07\\/23\\/3b615365-a024-4f6d-bd38-84b10e67585e\\/proxima-nova-reg\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "da0b47824fcf90985c2cb64b8715536a433106ef1829841d3618ff563143f7cc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/CerosIcons-Regular-2023-01-26\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "view"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a5defb3a8495a4adeddf31afe8d3f419ba10de29631b10bbecbbbe08ef69bcd2"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/Avenir%20Next%20LT%20W05%20Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "view"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "33029ffc02c68f65a0dfa3f7f24534e0d835eb693c94096a1991ead2b599f693"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/fonts\\/2019\\/07\\/23\\/8aadef22-2c14-45ea-86b5-682bf7168268\\/proxima-nova-bold\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "00030868af0d49b63d65cfd56b806c6c7a5d6975ea48ad89ab1d469ef68d2c09"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/fonts\\/2019\\/07\\/23\\/f139602e-2eb4-42f2-8244-50cbd176a630\\/proxima-nova-reg\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8e8c5969d13f281a22c81c1b918edf9bc4fedea0aa678499b54aedc60e5f9a16"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2021\\/06\\/06\\/8f032036c4b7d8700fac77b006c19d1e\\/gettyimages-v3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cfca9c90b042459f078945ecd59a65ce4b13ad791ca9d36082a42c8a8d3bdcf5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2021\\/06\\/06\\/9441692a7ef8dc8f51608da4556102cf\\/gettyimages-v2\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1804a0de161742654132e6cc18d8364d31dadb8a51c67c582e711a57cd5a47fc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2021\\/06\\/05\\/f1b4f440a4ee79f20b805346a17a98fb\\/gettyimages-v1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3c7af9c32e8b846560c0b490c4fffd6cde82da9f28675d947969bf9de0701f14"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2023\\/03\\/22\\/852dc05da0395df0d3b065e2b2fc0afc\\/gettyimages-93424921-letterbox-crop\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fbaddd3d7da5cbb0fa9b2a87a929290b7fe7ba63bcfb9d2bc9e767c850e9a324"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2023\\/03\\/22\\/3c0898dfb81ebd37b6312b07bd97d9b8\\/gettyimages-1216763799-letterbox-crop\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "689ea6e20b402478f5ae44085acf303428a83a988768323b6dcabe6e2ede3363"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2023\\/03\\/22\\/e6637303c9dd8bbcaa12e765fcf76957\\/gettyimages-158298268-web-banner-letterbox-crop\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1e25289a280c0e907527ad30cbb20e5e8f971cef1a3c7e82813b7497654a3861"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2022\\/06\\/13\\/a8e013815c4700775642f07b6d012351\\/web-page-banner-public-m-and-a\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2354e4659ace5fda409f56f88e8ce1183762b36d6d5b789ec8211c284b38c686"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2023\\/01\\/04\\/b0c5190a73f63a5d076c2e0b11534c36\\/landing-gettyimages-174771982-hero\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e14c38b6d384b58dbe8c594ce677a8ce9a7567adfbe1d7e8796669355f16807f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2023\\/01\\/04\\/73e800ed1653f9e552957477f0df797e\\/article-2-gettyimages-1345280536\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "827352199490ae41d996350352242934059fd93f4c624675a9ae88f350be9b40"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2023\\/01\\/06\\/e4a50276d90102937d6da223a43de8c3\\/article-7-gettyimages-1219181858\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "77a84918dddde7ff52ee64f98a3901c44e14f9c056d6b47877c01e94073e1ee2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2022\\/11\\/15\\/543d0b5c5909c26be47206e76fa1d548\\/gr-hp-220721-hsf-0486\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7bb3094d571063c8287a4b479addcd62d49d04a46d5050a9c9021f2dc90faffd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/videos\\/2023\\/04\\/14\\/3d5ad0f11ce44773315f7e6b2182498f\\/gettyimages-1015305598-h264-2040\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2021\\/06\\/06\\/a0f15f738fa6c2cddc214f1d8f36bafe\\/gettyimages-v1-zoomed\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b2ac19649fbaed5366114b2dc7de1755f5010f1165c52d046a2c50bbed0320e4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2021\\/06\\/06\\/355eb202d18afe15a62c94b748e8b62c\\/gettyimages-v2-zoom\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5755ebec70ecca0d247d7243725bef8bdbdd135365acd5a9975758073b709db2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2021\\/06\\/06\\/9445f47aeea8f216be331c9f309dd3d1\\/gettyimages-v3-zoom\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2eceb29c646b6b8c778224c9901734de4cbdd019a5515d0d81603f7b4934e02c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2023\\/03\\/20\\/b6971c5814116767a38b416b8c183152\\/gettyimages-1159400580\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c9e9691def8f904d305021520b8e2d09eacbe5550ac4a6263997956da6c3c77f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2023\\/03\\/15\\/73aec9f1b1e9bf9b9277746a9f3f9882\\/ia-gettyimages-93424921-cropped\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7bc28b4d9ecdd747bd8bbb1f400109c0c4fd3a00beec0c2fc0ab39350559739c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/a",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "80d04a9018987b4cc89c281142cba5e7ef9f8771d90a1d9631fe03cc536f8cce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2023\\/03\\/15\\/df7aa6d48c0128a0a482d127dcefa0c3\\/ia-gettyimages-1216763799-cropped\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9ea2bb38181f0b3753c13ebd0b3b133b771e99cdc0f1c0b261cb01850ed6cd60"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2023\\/03\\/15\\/06ac9fc44e47212af72723de40b5fb0c\\/gettyimages-158298268-web-banner\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f06f6f552417cfe72156be675af86e44b9897da070a33210e06bb453ba932c5a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2022\\/10\\/20\\/3ed3d6acb5c79bb47efee8649aea7a8d\\/untitled-video-made-with-clipchamp-5-poster-frame-0\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9efd4ed2fc1197854c13c3d027ab7f3ccc96e8118442166870ba6d86b0139cbc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2022\\/02\\/15\\/3d2c4ce5e114ab0ca08342ffe32fc727\\/justin-colour\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ce66182691e89125f0cd9655f8853964e6bed6764b30f0fbd36bff78772d1300"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        },
+        {
+            "rule": "ceros\\.com\\/hsf\\/images\\/2022\\/10\\/27\\/eebe60f24d3b791b75eda069d0871159\\/gettyimages-1214956707\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-s3-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "489e250f71347046b90ccb78667290ec5b19e2de6fbdb2d57348e6e83d21a3b9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herbertsmithfreehills.com",
+                "www.herbertsmithfreehills.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.6276595744680851
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.3191489361702128
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.031914893617021274
+        },
+        {
+            "domain": "ceros.com",
+            "prevalence": 0.02127659574468085
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Stylesheet": 10,
+        "Font": 8,
+        "Image": 42,
+        "Media": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-14.awsdns-01.com",
+        "ns-929.awsdns-52.net",
+        "ns-1194.awsdns-21.org",
+        "ns-1824.awsdns-36.co.uk"
+    ]
+}

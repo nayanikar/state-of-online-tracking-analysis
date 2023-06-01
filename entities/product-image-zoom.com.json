@@ -1,0 +1,86 @@
+{
+    "domain": "product-image-zoom.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cool-image-magnifier",
+        "full-page-zoom"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "product-image-zoom\\.com\\/js\\/core\\/main\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cool-image-magnifier",
+                "full-page-zoom"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bd9a0260d8f5584b891fd60de6709b2b6f3f3eafc6662f0760d38b9fabda2b44"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frankie4.com",
+                "www.musicjunction.com.au"
+            ]
+        },
+        {
+            "rule": "product-image-zoom\\.com\\/json\\/preferences\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cool-image-magnifier",
+                "full-page-zoom"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3306f65a2e14b828de17e6ed0119cba80ae77c55d6b7850d10aff753c0faddaf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frankie4.com",
+                "www.musicjunction.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.375
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "kenia.ns.cloudflare.com",
+        "alaric.ns.cloudflare.com"
+    ]
+}

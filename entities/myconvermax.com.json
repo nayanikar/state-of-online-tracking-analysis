@@ -1,0 +1,127 @@
+{
+    "domain": "myconvermax.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "collectors-auto-supply",
+        "shock-surplus"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "myconvermax\\.com\\/static\\/search\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collectors-auto-supply",
+                "shock-surplus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "696a93fec482e9f32ed0244375d2f34b0dd0fc2d684272ed8f9c656385c14902"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "collectorsautosupply.com",
+                "www.shocksurplus.com"
+            ]
+        },
+        {
+            "rule": "myconvermax\\.com\\/static\\/search\\.min\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "collectors-auto-supply",
+                "shock-surplus"
+            ],
+            "apis": {
+                "window.innerWidth": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c583098f1686325c6d74c351c93778ae7f9b9c0bda37d1a77c9712a165426d9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cmuid": {
+                    "ttl": 157680000,
+                    "length": 16,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "cmsid": {
+                    "ttl": 1800,
+                    "length": 16,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "collectorsautosupply.com",
+                "www.shocksurplus.com"
+            ]
+        },
+        {
+            "rule": "myconvermax\\.com\\/search\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collectors-auto-supply",
+                "shock-surplus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c5857f5ad2ae1da5543b28a367fd6d7ab790f42d405e714794975b7f93df6dd1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "collectorsautosupply.com",
+                "www.shocksurplus.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "alan.ns.cloudflare.com",
+        "robin.ns.cloudflare.com"
+    ]
+}

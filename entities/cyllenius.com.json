@@ -1,0 +1,80 @@
+{
+    "domain": "cyllenius.com",
+    "owner": {
+        "name": "Cyllenius (division of VEGAS.com)",
+        "displayName": "Cyllenius (division of VEGAS.com)"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "ws"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cyllenius\\.com\\/echo\\/vegas\\.www\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vegas.com",
+                "m.vegas.com",
+                "www.vegas.com"
+            ]
+        },
+        {
+            "rule": "cyllenius\\.com\\/echo\\/vegas\\.www\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "98f0b62b138b1e650977f3d30f0a0dea3f20383b8af492d25b86739ba1b193a5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vegas.com",
+                "m.vegas.com",
+                "www.vegas.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns2.vegas.com",
+        "ns1.vegas.com"
+    ]
+}

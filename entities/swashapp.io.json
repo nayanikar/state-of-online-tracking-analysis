@@ -1,0 +1,186 @@
+{
+    "domain": "swashapp.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [
+        "app",
+        "au"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "swashapp\\.io\\/serve\\/x4a485dd3e27e48448b36f232808ea853\\.doc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "258303a8914dc6987148f798a6a49cd011e9cfba9368e08d8ac662efa5d31937"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9xmovie.ml",
+                "www.9xmovie.ml"
+            ]
+        },
+        {
+            "rule": "swashapp\\.io\\/view\\/4a485dd3e27e48448b36f232808ea853",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9ed713c9c188a02fc679ceb3ab9f6f9545c3600fb87248b2a03a962cc9544ae9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9xmovie.ml",
+                "www.9xmovie.ml"
+            ]
+        },
+        {
+            "rule": "swashapp\\.io\\/cdn-cgi\\/scripts\\/7d0fa10a\\/cloudflare-static\\/rocket-loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "au"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ccf00d1923b0131a10e0c6d26f95e5dee6ebf8621a27e83c5a2f68a2e0093142"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9xmovie.ml",
+                "www.9xmovie.ml"
+            ]
+        },
+        {
+            "rule": "swashapp\\.io\\/-\\/view\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "30a1806233d85a7cf87db88306976a0de05e236371678937e65a5ab559291a00"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9xmovie.ml",
+                "www.9xmovie.ml"
+            ]
+        },
+        {
+            "rule": "swashapp\\.io\\/js\\/fp\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [
+                "au"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "Navigator.prototype.plugins": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "39e7df866301d63dc9f83e811a64576ae52f47c259f147b34e58d692d67a8d59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1681884699,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9xmovie.ml",
+                "www.9xmovie.ml"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "flyersquare.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "adaround.net",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Script": 6
+    },
+    "nameservers": [
+        "chan.ns.cloudflare.com",
+        "dave.ns.cloudflare.com"
+    ]
+}

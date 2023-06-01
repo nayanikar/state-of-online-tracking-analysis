@@ -1,0 +1,166 @@
+{
+    "domain": "marketingautomation.services",
+    "owner": {
+        "name": "Sharpspring Inc",
+        "displayName": "Sharpspring"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000904,
+    "sites": 9,
+    "subdomains": [
+        "koi-3qnj2zka08",
+        "koi-3qmu6y4kxi",
+        "koi-3qco2dqvrc",
+        "koi-3q7rdozkug",
+        "koi-3qg9tu5qo8",
+        "koi-3qni62r6a0",
+        "koi-3qnfkgctie",
+        "koi-3qmnt5qafc",
+        "koi-3qnqkvkuc0"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "marketingautomation\\.services\\/client\\/ss\\.js",
+            "cookies": 0.000904,
+            "fingerprinting": 2,
+            "subdomains": [
+                "koi-3qnj2zka08",
+                "koi-3qmu6y4kxi",
+                "koi-3qco2dqvrc",
+                "koi-3q7rdozkug",
+                "koi-3qg9tu5qo8",
+                "koi-3qni62r6a0",
+                "koi-3qnfkgctie",
+                "koi-3qmnt5qafc",
+                "koi-3qnqkvkuc0"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 9,
+                "Screen.prototype.width": 9,
+                "Screen.prototype.height": 9,
+                "Screen.prototype.colorDepth": 9,
+                "Document.cookie getter": 9,
+                "Date.prototype.getTime": 9,
+                "Document.cookie setter": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "0e068a3b14939e7e082107ed425f54aa8100b20b1584de181abf6791a36564f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__ss": {
+                    "ttl": 86409,
+                    "length": 13,
+                    "prevalence": 0.0009036144578313253,
+                    "uniqueness": 1
+                },
+                "__ss_referrer": {
+                    "ttl": 3609,
+                    "length": 31,
+                    "prevalence": 0.0009036144578313253,
+                    "uniqueness": 1
+                },
+                "__ss_tk": {
+                    "ttl": 788400011,
+                    "length": 33,
+                    "prevalence": 0.0009036144578313253,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "defencehealth.com.au",
+                "www.destinationperth.com.au",
+                "www.haymespaint.com.au",
+                "www.ig.com",
+                "www.jeep.com.au",
+                "www.landrover.com.au",
+                "www.metagenics.com.au",
+                "www.suzuki.com.au",
+                "www.uts.edu.au"
+            ]
+        },
+        {
+            "rule": "marketingautomation\\.services\\/koi",
+            "cookies": 0.000904,
+            "fingerprinting": 0,
+            "subdomains": [
+                "koi-3qnj2zka08",
+                "koi-3qmu6y4kxi",
+                "koi-3qco2dqvrc",
+                "koi-3q7rdozkug",
+                "koi-3qg9tu5qo8",
+                "koi-3qni62r6a0",
+                "koi-3qnfkgctie",
+                "koi-3qmnt5qafc",
+                "koi-3qnqkvkuc0"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "e4eebf601af81519c0bd146c95413c4fe1d2e3efda95db0bcf34f1f356f2580a",
+                "2732862542bb797538004ccc5adf73ff01650da19596c989c14d6fb840985a73",
+                "979956d41886c4658f0ab72436552ad30d7a8eae62ace226dd33d5f713dd851b",
+                "f7ced498bfcdc45ef544454bbbc20167d832526574c7c1cadcbc8c74ed5799c1",
+                "3b51e2438c6408c29f7f1c849f555e2491faa7fedafddee3c605c9a15fb92296",
+                "133630b8173d939d670541885d46f05a51158379b16a75d53f6c46371ccc86f5",
+                "b954cd0cf7cc0d6778b3c4f1a547d3957920ef85abc263203688dd0ed5b2c3a7",
+                "5040abee420eb8bbfafd5c7a55dc27e94a7b8c5dbec4357ca41f8ba7400facb0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__ss": 0.0009036144578313253,
+                "optiMonkSession": 0.00010040160642570282,
+                "IR_gbd": 0.00010040160642570282,
+                "s_ppn": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "defencehealth.com.au",
+                "www.destinationperth.com.au",
+                "www.haymespaint.com.au",
+                "www.ig.com",
+                "www.jeep.com.au",
+                "www.landrover.com.au",
+                "www.metagenics.com.au",
+                "www.suzuki.com.au",
+                "www.uts.edu.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000904,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "c-dn.net",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 18
+    },
+    "nameservers": [
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d2.googledomains.com",
+        "ns-cloud-d3.googledomains.com",
+        "ns-cloud-d4.googledomains.com"
+    ]
+}

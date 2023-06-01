@@ -1,0 +1,91 @@
+{
+    "domain": "emotive.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "jslib"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "emotive\\.io\\/emotive-jslib\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jslib"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "239a155323141283ec45a3073acc59026e4350ab598b89b8c11cee4218c1cda6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "emotiveio": {
+                    "ttl": 2701,
+                    "length": 18,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestchinesemedicines.com",
+                "www.babysleepsite.com",
+                "www.glassgenius.com"
+            ]
+        },
+        {
+            "rule": "emotive\\.io\\/clients\\/EMT-A004052\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jslib"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0cc53164313f946e24ae2c8ed6242cb3a376f192b6a8fac431c8aa7a75f29a52"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babysleepsite.com",
+                "www.babysleepsite.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-931.awsdns-52.net",
+        "ns-1546.awsdns-01.co.uk",
+        "ns-1521.awsdns-62.org",
+        "ns-157.awsdns-19.com"
+    ]
+}

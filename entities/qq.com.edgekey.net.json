@@ -1,0 +1,66 @@
+{
+    "domain": "qq.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "r.inews"
+    ],
+    "cnames": [
+        {
+            "original": "r.inews.qq.com",
+            "resolved": "r.inews.qq.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "qq\\.com\\.edgekey\\.net\\/api\\/ip2city",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r.inews"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "r.inews.qq.com",
+                    "resolved": "r.inews.qq.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "131b4454bd391a1dbd5c7e2d6a06970b6a27062ffda572431f4110425de7f8a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qq.com",
+                "new.qq.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "gtimg.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

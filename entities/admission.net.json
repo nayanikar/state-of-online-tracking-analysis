@@ -1,0 +1,156 @@
+{
+    "domain": "admission.net",
+    "owner": {
+        "name": "CDK Global, LLC.",
+        "displayName": "CDK Global"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000817,
+    "sites": 12,
+    "subdomains": [
+        "dt"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "admission\\.net\\/vt\\.gif",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dt"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalpost.com",
+                "www.symbolab.com",
+                "www.wjcl.com"
+            ]
+        },
+        {
+            "rule": "admission\\.net\\/dt\\.gif",
+            "cookies": 0.0000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dt"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "25b4ecfd3a740f29d76fe930a4cec9d41afa0cfd2bafa70ca4051bd3d5395d74"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bergstromauto.com",
+                "www.bergstromauto.com",
+                "www.generalrv.com",
+                "www.lexus.com",
+                "www.miniusa.com",
+                "www.sewell.com"
+            ]
+        },
+        {
+            "rule": "admission\\.net\\/cookiejar\\/1\\.0\\/correlate",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dt"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "25b4ecfd3a740f29d76fe930a4cec9d41afa0cfd2bafa70ca4051bd3d5395d74"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bergstromauto.com",
+                "www.bergstromauto.com",
+                "www.generalrv.com",
+                "www.sewell.com"
+            ]
+        },
+        {
+            "rule": "admission\\.net\\/retargeting\\/displaytracker\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dt"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dtvis": {
+                    "ttl": 63072019,
+                    "length": 45,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "miniusa.com",
+                "www.miniusa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000749,
+    "topInitiators": [
+        {
+            "domain": "cobaltgroup.com",
+            "prevalence": 0.55
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "toyota.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "2mdn.net",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Image": 13,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-810.awsdns-37.net",
+        "ns-1057.awsdns-04.org",
+        "ns-23.awsdns-02.com",
+        "ns-1845.awsdns-38.co.uk"
+    ]
+}

@@ -1,0 +1,129 @@
+{
+    "domain": "ukr.net",
+    "owner": {
+        "name": "UkrNet LLC",
+        "displayName": "UkrNet"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "counter",
+        "target"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ukr\\.net\\/aid\\/sinoptik\\/cnt\\.php",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "counter"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "39ded55a277c0c737d9699f7c62261c31f6b8ec91e1177e87469e76fd7c7e9f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sinoptik.ua",
+                "ua.sinoptik.ua"
+            ]
+        },
+        {
+            "rule": "ukr\\.net\\/weather\\/cnt\\.php",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "counter"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sinoptik.ua",
+                "ua.sinoptik.ua"
+            ]
+        },
+        {
+            "rule": "ukr\\.net\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "target"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sinoptik.ua",
+                "ua.sinoptik.ua"
+            ]
+        },
+        {
+            "rule": "ukr\\.net\\/advert\\/adv\\/sinoptik\\/cnt\\.php",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "counter"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sinoptik.ua",
+                "ua.sinoptik.ua"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "fwdcdn.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns1.fwdcdn.net",
+        "ns2.fwdcdn.net"
+    ]
+}

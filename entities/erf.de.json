@@ -1,0 +1,173 @@
+{
+    "domain": "erf.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "stats"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "erf\\.de\\/matomo\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d7fc375178c93a2fc15fd888e30170eedf4ef3d04497e7f951ab7bfe0c921693"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.1.3a98": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_pk_ses.1.3a98": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bibleserver.com",
+                "www.bibleserver.com"
+            ]
+        },
+        {
+            "rule": "erf\\.de\\/js\\/container_rJx1SzcH\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5d3cf37f2b2d57d5023bcb29d5e09fbe734d6aa0fbed8296daef845b3f20b2a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bibleserver.com",
+                "www.bibleserver.com"
+            ]
+        },
+        {
+            "rule": "erf\\.de\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bibleserver.com",
+                "www.bibleserver.com"
+            ]
+        },
+        {
+            "rule": "erf\\.de\\/js\\/container_csUJYm9l\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "41994b6caa991a9852a4195fd3349f03ba63b2c032f9d0b97ea34f6a0c114f7c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bibleserver.com",
+                "www.bibleserver.com"
+            ]
+        },
+        {
+            "rule": "erf\\.de\\/js\\/container_ZxAyw0z4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4c4397e56d8023cd3f5ee6696355f8a62e984efdd5dcf29a9375b6ce299d84c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bibleserver.com",
+                "www.bibleserver.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Ping": 2
+    },
+    "nameservers": [
+        "cleo.ns.cloudflare.com",
+        "serena.ns.cloudflare.com"
+    ]
+}

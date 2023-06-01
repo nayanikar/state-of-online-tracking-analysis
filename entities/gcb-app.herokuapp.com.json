@@ -1,0 +1,84 @@
+{
+    "domain": "gcb-app.herokuapp.com",
+    "owner": {
+        "name": "Salesforce.com, Inc.",
+        "displayName": "Salesforce.com",
+        "privacyPolicy": "https://www.salesforce.com/company/privacy/",
+        "url": "http://salesforce.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gcb-app\\.herokuapp\\.com\\/get_script\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "156aa71983a251fdb3d256fc66529e9c0bc20c24533d7e8f8d1303c78810e8d2",
+                "8c8b22f3479fd904a7806f80ff48c6cf7d89ff4a223ddf88f485f6aa39203bd9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamersupps.gg",
+                "www.northernbrewer.com",
+                "www.tumblerware.com"
+            ]
+        },
+        {
+            "rule": "gcb-app\\.herokuapp\\.com\\/li\\/39d8ba6407ec11edb139161302c705e6",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tumblerware.com",
+                "www.tumblerware.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 2
+    },
+    "nameservers": []
+}

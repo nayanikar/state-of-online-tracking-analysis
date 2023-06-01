@@ -1,0 +1,1603 @@
+{
+    "domain": "byside.com",
+    "owner": {
+        "name": "BYSIDE - LEAD ACTIVATION, S.A.",
+        "displayName": "BYSIDE - LEAD ACTIVATION"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "bysa1",
+        "wsa1",
+        "s1",
+        "wwe2",
+        "pnsa1",
+        "pnwe2",
+        "webcare",
+        "bywe2",
+        "we2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "byside\\.com\\/agent\\/byside_webcare_sa1\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bysa1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "window.sessionStorage": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Notification.permission": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "a8bea2f727e873086a765bf64cba23ac538af35e948dbcb31f4c413f78346f1d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "byside_webcare_tuid": {
+                    "ttl": 63072002,
+                    "length": 50,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "byside_webcare_session_tid": {
+                    "ttl": -86398,
+                    "length": 6,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flytap.com",
+                "www.flytap.com",
+                "www.tim.com.br"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/socket\\.io\\/1\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wsa1",
+                "s1",
+                "wwe2"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "2fcc4b8986ad55581b546be31a71ab48969e4db4a1a8f63df337a1a0de793edf",
+                "30f78ab12cb3dec637f6ce0c137dc88442875b8818b6987f42bc9b66e6d353ea",
+                "997b93044280521ddda91dc35d75ecdcfe6b74ca0a6c2ccbbdc9024efb332b05",
+                "3f1abe0491c51717fb1db3b6c5b17eb271fd87ade9c7e8c393ce455e5df9c62e",
+                "e6f608091f74d80bc8eb08e8517c423d8dca097a3d4e7ff1343b53fc55415767",
+                "6c1e6a91715e81d6c6092d7f9b32afffffd7df20d43ae6f1143f1dbbad187b55"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flytap.com",
+                "www.flytap.com",
+                "www.masmovil.es",
+                "www.meo.pt",
+                "www.tim.com.br",
+                "www.vodafone.pt",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWAB414516D6E\\/csl\\/action\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bysa1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flytap.com",
+                "www.flytap.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWAB414516D6E\\/csl\\/action\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bysa1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fd6476f12c92580d3265903c4807cdc8dc58d67907c78eb42cfb7c15cc7473ca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flytap.com",
+                "www.flytap.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWAB414516D6E\\/stat\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bysa1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "10f9bfa42bb96c99729c9b2fee669803ad9c6fcd434d8d7d60a8dc8f5f7cc331"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "byside_webcare_tuid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "flytap.com",
+                "www.flytap.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWAB414516D6E\\/usert_agent\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bysa1"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "da7941ad4d178d736e01bba9b45012db5a58338b6f041df3fea6e1e21a971aed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "byside_webcare_tuid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "flytap.com",
+                "www.flytap.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/web-push\\/byside\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pnsa1",
+                "pnwe2"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "window.sessionStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "1cc5a3b4aff6767e37c4b16f9ea267ea00b26cf266bbb50d7ff668c258408c94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flytap.com",
+                "www.flytap.com",
+                "www.tim.com.br",
+                "www.vodafone.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/agent\\/byside_webcare\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "window.sessionStorage": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Notification.permission": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "35993ab2e0830ab783cc529db4a3ed093c3a23bda1e40bfa794d448b1e5ea4ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "byside_webcare_tuid": {
+                    "ttl": -86398,
+                    "length": 21,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.6666666666666666
+                },
+                "byside_webcare_session_tid": {
+                    "ttl": null,
+                    "length": 35,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWAC9857E6B19\\/csl\\/action\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fd6476f12c92580d3265903c4807cdc8dc58d67907c78eb42cfb7c15cc7473ca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWAC9857E6B19\\/csl\\/action\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWAC9857E6B19\\/stat\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "10f9bfa42bb96c99729c9b2fee669803ad9c6fcd434d8d7d60a8dc8f5f7cc331"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "byside_webcare_session_tid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWAC9857E6B19\\/widget\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5aa137a982d90e16ec034545b45c8b1e84c8605112f505e47283ebbbc9e1d979"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "byside_webcare_session_tid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWAC9857E6B19\\/usert_agent\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7b109039522869c89fcc05c518120f2c3f3de0e56a9632b09d05b552480d6229"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "byside_webcare_session_tid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWAC9857E6B19\\/byside_contacts\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "875d79595645ffc76bed7afb71418821f4e74449e4bb8934dace741eff79176c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWAC9857E6B19\\/chat\\/js\\/custom\\.purify\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "73ce62d982894de725a76c6f48a2e197f629f529f493ed75693b4f8d08c84430"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/custom\\/widgetScripts\\/Window\\/Generic\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare",
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "65076fcb0a8d12ba29248a26c48290e2d1c4afc276b9fa94addf8b7038e910fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es",
+                "www.meo.pt",
+                "www.vodafone.pt",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/custom\\/widgetScripts\\/Window\\/C9857E6B19\\/Generic\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "252e0184b7d5c204f5bd4544de7f2df334c2ddd54f79d22798b8281955e7c436"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/custom\\/widgetStyles\\/Window\\/C9857E6B19\\/Generic\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ba373e8cc8dfce5b4085bbdd4d3b9925ae38ac110b3e3f3f629752095f7c2339"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/custom\\/js\\/jquery\\/1\\.11\\.3\\/jquery\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ecb916133a9376911f10bc5c659952eb0031e457f5df367cde560edbfba38fb8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/C9857E6B19\\/outbound\\/cw129734\\/c-2-c-filipa@2x\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "88c3ca7fd6143b1333567f26b3300b51c35d6e09684e67dbb001ecbe49ddb3f6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/C9857E6B19\\/window\\/35646\\/close_modal_site_react\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "42565a0d6c48d0d954363c78a5e545adecb4d0925003bfb478d6bbba8795d20d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/custom\\/byside\\/powered_by_byside\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare",
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "7a737a87f67763569123d9ad610d5410ae550cfa0f20fe11d01f0912cb239062"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es",
+                "www.meo.pt",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/C9857E6B19\\/window\\/35532\\/close_modal_site_react\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "42565a0d6c48d0d954363c78a5e545adecb4d0925003bfb478d6bbba8795d20d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/C9857E6B19\\/window\\/35774\\/support\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1d1d7e6f1d50679401dd7f0437a9f746d442a3bdcc465aa510fc0d2628a1b734"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/C9857E6B19\\/placeholders\\/x\\/close-quiero-info\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "71c3fb05be58093ebab9b9715ab83cbffaf31f16279e59c44809eecb8efde977"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/C9857E6B19\\/window\\/35776\\/call_icon\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a15167db6ec7cce0174cea9756d0d98600feac1c295a806c299385022615b9e0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/C9857E6B19\\/window\\/35778\\/mosca_site\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9bad44d8b289396a2ad901110d47eac4b145f4409315c19c4849e66dd09878cc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/C9857E6B19\\/window\\/35778\\/close-black-site-modal\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "469d870547023fece86dbdceb05ca825514614f3831956fabb6cf8397fcbbb97"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/C9857E6B19\\/window\\/35778\\/check-black\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "88f562261fb481a00debed28769ab8e8460787cbe864afccbb41fedd5db304b1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/C9857E6B19\\/window\\/35782\\/check-black\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "88f562261fb481a00debed28769ab8e8460787cbe864afccbb41fedd5db304b1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/C9857E6B19\\/placeholders\\/x\\/502_close-colours\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ae11dc521f881b9700a8f4736220e87f7629ec2c76367667144e1985c353af9e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/C9857E6B19\\/placeholders\\/x\\/545_cros-close-black\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1a9d8c22edd15432b4083a4a256aa55303720fff48b812459d9e63782d336000"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/C9857E6B19\\/placeholders\\/credits\\/byside_logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f7dbc58148a0143c5b953093de7eacf1b6d84b4bafe191f6ab06e186e56f9555"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWAC9857E6B19\\/usert_feedback\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "10f9bfa42bb96c99729c9b2fee669803ad9c6fcd434d8d7d60a8dc8f5f7cc331"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "byside_webcare_session_tid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "masmovil.es",
+                "www.masmovil.es"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWA038412DCC2\\/csl\\/action\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meo.pt",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWA038412DCC2\\/csl\\/action\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fd6476f12c92580d3265903c4807cdc8dc58d67907c78eb42cfb7c15cc7473ca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meo.pt",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWA038412DCC2\\/stat\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "10f9bfa42bb96c99729c9b2fee669803ad9c6fcd434d8d7d60a8dc8f5f7cc331"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "byside_webcare_tuid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "meo.pt",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWA038412DCC2\\/widget\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d97bc4135b6574a25d555078442af23d003ef7db182b116a4b5fcf5ca42d7c24"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "byside_webcare_tuid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "meo.pt",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWA038412DCC2\\/usert_agent\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "01a6355089c82d5a8e79fb28a2f434a4a54136fa713ca15b1364734a37811227"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "byside_webcare_tuid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "meo.pt",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWA038412DCC2\\/byside_contacts\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "875d79595645ffc76bed7afb71418821f4e74449e4bb8934dace741eff79176c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meo.pt",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWA038412DCC2\\/chat\\/js\\/custom\\.purify\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "73ce62d982894de725a76c6f48a2e197f629f529f493ed75693b4f8d08c84430"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meo.pt",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/custom\\/meo\\/2018\\/janelas_contacto\\/04\\/icon-phone\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4b042bb7f1df5487820b5847beb5630b83bd31c76bc9fcf2ed5b933af02a4ac8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meo.pt",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/custom\\/meo\\/2018\\/janelas_contacto\\/03\\/meo_anim_loading\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1b43e2d55df133d402df35c285578dc742532a1cf02aaea00a34c18bcc581417"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meo.pt",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/custom\\/meo\\/2018\\/janelas_contacto\\/03\\/meo_icon_arrow_right\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bfbe5044c7d1fb9b39c8453f668cc4eafd741aed2e13b7f6c9d54d97562ec940"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meo.pt",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/custom\\/meo\\/2018\\/janelas_contacto\\/03\\/meo_icon_arrow_down\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eba3af3af62d4139fa32601cdf9edca82beffe861153b8e01b2a1237b9cf090d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meo.pt",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/custom\\/meo\\/2018\\/janelas_contacto\\/03\\/meo_icon_phone\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "be6e16c090ac75e6ab91ae88a8722d5a0bc9435e43923d284fa28ac5a98d027d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meo.pt",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWA038412DCC2\\/usert_feedback\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "10f9bfa42bb96c99729c9b2fee669803ad9c6fcd434d8d7d60a8dc8f5f7cc331"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "byside_webcare_tuid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "meo.pt",
+                "www.meo.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/agent\\/byside_webcare_we2\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Notification.permission": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4a8ea264b1d11bbb3f6fa118151f251420af4683010db4148d0444482ea24882"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "byside_webcare_tuid": {
+                    "ttl": -86398,
+                    "length": 6,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "byside_webcare_session_tid": {
+                    "ttl": null,
+                    "length": 50,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vodafone.pt",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWA64AE56DD24\\/usert_feedback\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "10f9bfa42bb96c99729c9b2fee669803ad9c6fcd434d8d7d60a8dc8f5f7cc331"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vodafone.pt",
+                "www.vodafone.pt"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWABA07BC42F0\\/csl\\/action\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWABA07BC42F0\\/csl\\/action\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fd6476f12c92580d3265903c4807cdc8dc58d67907c78eb42cfb7c15cc7473ca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWABA07BC42F0\\/st\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "10f9bfa42bb96c99729c9b2fee669803ad9c6fcd434d8d7d60a8dc8f5f7cc331"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "byside_webcare_session_tid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWABA07BC42F0\\/widget\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6e128bee3ec1fa00f4d881723b052b660055d36ff191528979b6271e9c4c49d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "byside_webcare_session_tid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWABA07BC42F0\\/byside_contacts\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "875d79595645ffc76bed7afb71418821f4e74449e4bb8934dace741eff79176c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWABA07BC42F0\\/chat\\/js\\/custom\\.purify\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "73ce62d982894de725a76c6f48a2e197f629f529f493ed75693b4f8d08c84430"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/custom\\/widgetScripts\\/Window\\/BA07BC42F0\\/Generic\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5b05491337feefada57b3e6cf4ec42a96163cd7604aa5a6d6d908655b20579b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/custom\\/widgetStyles\\/Window\\/BA07BC42F0\\/Generic\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "53e6edc049e4b626b55b37f40a3c5ed18b32e91f4799152d3140780dc4fefd9d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/agent\\/widgets\\/skins_slots\\/custom_css\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "we2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "acfde33456742383471eb2b904d0889bdb7185dda8c1e38d6cf261f8d9e9c7d6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWABA07BC42F0\\/usert_agent\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9f5d3e95013989416fedb4c3fc6580a79f46b57c8636a0f84dacc15afc00eae2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "byside_webcare_session_tid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/custom\\/js\\/jquery\\/3\\.2\\.1\\/jquery\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "87083882cc6015984eb0411a99d3981817f5dc5c90ba24f0940420c5548d82de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/BA07BC42F0\\/placeholders\\/x\\/691_close\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "we2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "48d43fc5073a15a504fbdf27fbb20b8c5853d3417fcbc59e9281b51257fc9237"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWABA07BC42F0\\/liveagentskins\\/yoigo5\\/yoigo_close_inactividade\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9bcccfa0c22c7c69e29dc448c6b368abbfcdf8222f9ee4136686839644ce6bfa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/BWABA07BC42F0\\/liveagentskins\\/masmovil_2017_001\\/yoigo_close_inactividade\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bywe2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9bcccfa0c22c7c69e29dc448c6b368abbfcdf8222f9ee4136686839644ce6bfa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/BA07BC42F0\\/placeholders\\/x\\/yoigo_close_central\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "we2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "01c4888488cf92b2a9212276c24b034d87dc8eb5a6091545cddee64b408ed33e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        },
+        {
+            "rule": "byside\\.com\\/files\\/BA07BC42F0\\/placeholders\\/x\\/yoigo_close_inactividade\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "we2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9bcccfa0c22c7c69e29dc448c6b368abbfcdf8222f9ee4136686839644ce6bfa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yoigo.com",
+                "www.yoigo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000613,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 51,
+        "XHR": 15,
+        "Preflight": 8,
+        "Image": 64,
+        "Stylesheet": 6
+    },
+    "nameservers": [
+        "ns.byside.com",
+        "ns2.byside.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+    ]
+}

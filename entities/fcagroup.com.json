@@ -1,0 +1,122 @@
+{
+    "domain": "fcagroup.com",
+    "owner": {
+        "name": "Fiat Chrysler Automobiles",
+        "displayName": "Fiat Chrysler Automobiles"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "cookielaw.emea"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fcagroup\\.com\\/CookieLawProduct\\/resources\\/generatecss",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookielaw.emea"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alfaromeo.ch",
+                "www.fiat.ch",
+                "www.jeep.ch"
+            ]
+        },
+        {
+            "rule": "fcagroup\\.com\\/CookieLawProduct\\/resources\\/generatejs",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cookielaw.emea"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.sessionStorage": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "fdca8848adc2968f35f9a8cb570cf6a6cce1fe035a2c80cae90dac6b022b8b0a",
+                "56bd5bba1efb01ac4e80f025ccd7d33ed8525068b33ae22641cd6b45620896a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alfaromeo.ch",
+                "www.fiat.ch",
+                "www.jeep.ch"
+            ]
+        },
+        {
+            "rule": "fcagroup\\.com\\/CookieLawProduct\\/resources\\/generatehtml",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cookielaw.emea"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.sessionStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "5358e4a6e1971fac9636921f11fb60f5ede8c081183fac7275322d9b87e99f1c",
+                "7ff180fee71a956a51ad71f47898455765828699a4fee62f17aa76b3d9958ca0"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alfaromeo.ch",
+                "www.fiat.ch",
+                "www.jeep.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Stylesheet": 3,
+        "Script": 3,
+        "Document": 3
+    },
+    "nameservers": [
+        "dns1.p09.nsone.net",
+        "dns2.p09.nsone.net",
+        "dns3.p09.nsone.net",
+        "dns4.p09.nsone.net"
+    ]
+}

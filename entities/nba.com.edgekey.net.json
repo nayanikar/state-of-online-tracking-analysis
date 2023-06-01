@@ -1,0 +1,93 @@
+{
+    "domain": "nba.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "au.global"
+    ],
+    "cnames": [
+        {
+            "original": "au.global.nba.com",
+            "resolved": "au.global.nba.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "nba\\.com\\.edgekey\\.net\\/iqMZ6G\\/9OXk\\/rhju\\/fROq\\/VSYJC4orE\\/5ci1JLES3SaL\\/BU9nR2Ji\\/QDIrDwtw\\/DzU",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "au.global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "au.global.nba.com",
+                    "resolved": "au.global.nba.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f1ea07a1e51a389c8de07120ae5c2e432e9dd8f4fbd6f92489f185b0523a3fd4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nba.com",
+                "www.nba.com"
+            ]
+        },
+        {
+            "rule": "nba\\.com\\.edgekey\\.net\\/stats2\\/scores\\/gamedaystatus\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "au.global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "au.global.nba.com",
+                    "resolved": "au.global.nba.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "88396054dbdab54176abdf42eb608e2fa25b9f61edef9b4889c759598692cf5b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nba.com",
+                "www.nba.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4
+    },
+    "nameservers": []
+}

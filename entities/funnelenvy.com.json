@@ -1,0 +1,83 @@
+{
+    "domain": "funnelenvy.com",
+    "owner": {
+        "name": "Arun Sivashankaran",
+        "displayName": "Arun Sivashankaran"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "funnelenvy\\.com\\/client\\/production\\/bundle-5da5f32705fd1d7c0ba5a6ac\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.orientation": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "208314961749254a714d909056a30a66fe09277ee4e118b39a7b2dbe5cfef316"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_fe_bvid": {
+                    "ttl": 315360002,
+                    "length": 22,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "_fe": {
+                    "ttl": 315360002,
+                    "length": 19,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dice.com",
+                "www.dice.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "dhiaws.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "demi.ns.cloudflare.com",
+        "jeremy.ns.cloudflare.com"
+    ]
+}

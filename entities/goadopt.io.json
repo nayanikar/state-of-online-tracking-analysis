@@ -1,0 +1,120 @@
+{
+    "domain": "goadopt.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000885,
+    "sites": 13,
+    "subdomains": [
+        "tag",
+        "disclaimer-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "goadopt\\.io\\/injector\\.js",
+            "cookies": 0.0000476,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 7,
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 7,
+                "window.localStorage": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.product": 6
+            },
+            "sites": 9,
+            "prevalence": 0.0000613,
+            "cnames": [],
+            "responseHashes": [
+                "9c86f30d1cdea3968f7b4ca1235677db5e35a4c08d749b3d67d1dba77bd62161",
+                "28647eee43ed7da784a3301dd9f24ae62d0261b0f699cc8d341226974c88c3b6",
+                "18c632002b31d968aab0f388f35c18bc9293fd37e67e7495c09812695a79b482",
+                "d326a6736a6c0697055379802dfb243a91b6ed22c9101929617159fd96022117",
+                "db93fbb66b8a201f19f5f36a1d4608bd0ebb92aa4e0ecbed9c4f138e4a4b7638",
+                "b16b3f99df7aa7ed9d30ec4b1467c78a8d505c8ce2469d161df05d17fb1484cc",
+                "ff22fd03dcddf60a738512c7b8dc736fe7fd54081e69afd02ef62fb3f22640b7",
+                "f0a27da0141c40bf7776bf698a48346cdf25e2a8093d43070b3673e1eca33200"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AdoptVisitorId": {
+                    "ttl": 5184005,
+                    "length": 51,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "verdesmares.com.br",
+                "diariodonordeste.verdesmares.com.br",
+                "exame.com",
+                "www.apontador.com.br",
+                "www.astrocentro.com.br",
+                "www.centauro.com.br",
+                "www.megacurioso.com.br",
+                "www.metropoles.com",
+                "www.tecmundo.com.br"
+            ]
+        },
+        {
+            "rule": "goadopt\\.io\\/api\\/tag\\/get-consent",
+            "cookies": 0.0000545,
+            "fingerprinting": 0,
+            "subdomains": [
+                "disclaimer-api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "ca1a2778645159327decee53d8f196e772ace327d3f7979a7b8c8becef06464e",
+                "8d7d241d479946f24b2dd7d09aa120f12082b54366f43365b193e29f057c194f",
+                "5c48eab25dd28a3ddfc1e1d0f3d8478ffc58b677843f54efc992dccd530f2931",
+                "05c1cf06b96e40a7d2cfa8fe9682ff1323cc359200cafcbad38813cc26dff478",
+                "1afb7ab0c14fcdf47da69c197ceea9f8988659b39afc27ed71efa8913b2903d8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "verdesmares.com.br",
+                "exame.com",
+                "www.apontador.com.br",
+                "www.astrocentro.com.br",
+                "www.centauro.com.br",
+                "www.megacurioso.com.br",
+                "www.metropoles.com",
+                "www.tecmundo.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000749,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5384615384615384
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.46153846153846156
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 8
+    },
+    "nameservers": [
+        "isla.ns.cloudflare.com",
+        "greg.ns.cloudflare.com"
+    ]
+}

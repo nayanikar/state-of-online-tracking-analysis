@@ -1,0 +1,102 @@
+{
+    "domain": "safe-iplay.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cgp",
+        "unifiedclient-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "safe-iplay\\.com\\/cgpapi\\/liveFeed\\/GetJackpots",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cgp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "076ba4db7319fddab16cf8a40129abf3204e82a7b542b055222a01bdcbcc0f0e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "888casino.com",
+                "www.888casino.com"
+            ]
+        },
+        {
+            "rule": "safe-iplay\\.com\\/cgpapi\\/liveFeed\\/GetLiveTables",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cgp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "74a5794e9733e537b9e7658da7e08f377020cce98999ea284fee29e4bf3fd350"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "888casino.com",
+                "www.888casino.com"
+            ]
+        },
+        {
+            "rule": "safe-iplay\\.com\\/\\/images\\/bandwidth\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unifiedclient-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "888sport.com",
+                "www.888sport.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "sdns52.ultradns.com",
+        "sdns52.ultradns.net",
+        "sdns52.ultradns.org",
+        "sdns52.ultradns.biz"
+    ]
+}

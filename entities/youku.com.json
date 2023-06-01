@@ -1,0 +1,87 @@
+{
+    "domain": "youku.com",
+    "owner": {
+        "name": "Alibaba Group",
+        "displayName": "Alibaba"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "cm.miaozhen.atm",
+        "c.yes",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "youku\\.com\\/cm\\.gif",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm.miaozhen.atm",
+                "c.yes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "7msport.com",
+                "www.thegardenisland.com"
+            ]
+        },
+        {
+            "rule": "youku\\.com\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "youkutv.fun",
+                "www.youkutv.fun"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "mediav.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "confiant-integrations.net",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "dns1.youku.com",
+        "dns2.youku.com",
+        "dns3.youku.com",
+        "dns4.youku.com"
+    ]
+}

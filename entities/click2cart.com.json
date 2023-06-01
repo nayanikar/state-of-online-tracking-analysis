@@ -1,0 +1,107 @@
+{
+    "domain": "click2cart.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "sc-api",
+        "ss"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "click2cart\\.com\\/api\\/v1\\/smartbutton\\/1829fa1c-5399-4b90-abe4-17c02ef83333",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sc-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "missionfoods.com",
+                "www.missionfoods.com"
+            ]
+        },
+        {
+            "rule": "click2cart\\.com\\/api\\/v1\\/smartbutton\\/1829fa1c-5399-4b90-abe4-17c02ef83333",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sc-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "937ee45cb869d21df3b1ea2c51ffa07133771ee57d7224777a44277b17adfd59"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "missionfoods.com",
+                "www.missionfoods.com"
+            ]
+        },
+        {
+            "rule": "click2cart\\.com\\/assets\\/js\\/smartcart\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ss"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e7a5907e17c7399eac239c37fe56683642440bf79bd648924ef56a74b7d0f23f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samueladams.com",
+                "www.samueladams.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "click2cart.co",
+            "prevalence": 0.9813084112149533
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.018691588785046728
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-223.awsdns-27.com",
+        "ns-551.awsdns-04.net",
+        "ns-1666.awsdns-16.co.uk",
+        "ns-1447.awsdns-52.org"
+    ]
+}

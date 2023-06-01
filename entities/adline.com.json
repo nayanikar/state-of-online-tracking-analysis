@@ -1,0 +1,138 @@
+{
+    "domain": "adline.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "prod.api",
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adline\\.com\\/api\\/cpa",
+            "cookies": 0.000302,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod.api"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Screen.prototype.width": 3,
+                "window.devicePixelRatio": 3,
+                "Screen.prototype.height": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "a0e7ee09559c0eeed6a982be01f5da9e0d9e073ca0124b4aa26ddb767c9f720d",
+                "7e0c82317fe64fd1d91b0a4f67595c70b2c6c74f5684b29775579f5633961e8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "lndcAttr": {
+                    "ttl": null,
+                    "length": 82,
+                    "prevalence": 0.00030165912518853697,
+                    "uniqueness": 1
+                },
+                "adl": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00030165912518853697,
+                    "uniqueness": 1
+                },
+                "adl_session_id": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00030165912518853697,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theroom.no",
+                "www.ebutikker.no",
+                "www.mazemap.com"
+            ]
+        },
+        {
+            "rule": "adline\\.com\\/track\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theroom.no",
+                "www.ebutikker.no",
+                "www.mazemap.com"
+            ]
+        },
+        {
+            "rule": "adline\\.com\\/track\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theroom.no",
+                "www.ebutikker.no",
+                "www.mazemap.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-51.awsdns-06.com",
+        "ns-1484.awsdns-57.org",
+        "ns-542.awsdns-03.net",
+        "ns-2032.awsdns-62.co.uk"
+    ]
+}

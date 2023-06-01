@@ -1,0 +1,122 @@
+{
+    "domain": "flagsmith.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "edge.api",
+        "api.optum"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "flagsmith\\.com\\/api\\/v1\\/identities\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api",
+                "api.optum"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esports.gg",
+                "www.aarpmedicareplans.com"
+            ]
+        },
+        {
+            "rule": "flagsmith\\.com\\/api\\/v1\\/identities\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.optum"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "326e97cbe12d993f4a16c93335832c82cfb03d5aabd91f6d4098c61a40c170b9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aarpmedicareplans.com",
+                "www.aarpmedicareplans.com"
+            ]
+        },
+        {
+            "rule": "flagsmith\\.com\\/api\\/v1\\/flags\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pella.com",
+                "www.pella.com"
+            ]
+        },
+        {
+            "rule": "flagsmith\\.com\\/api\\/v1\\/flags\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7dba137b962704559201d9741fe5c38b581d73fd11e61fb1925265ef9a0c5436"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pella.com",
+                "www.pella.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "XHR": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-864.awsdns-44.net",
+        "ns-1401.awsdns-47.org",
+        "ns-1757.awsdns-27.co.uk",
+        "ns-47.awsdns-05.com"
+    ]
+}

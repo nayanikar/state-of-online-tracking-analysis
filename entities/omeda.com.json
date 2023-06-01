@@ -1,0 +1,258 @@
+{
+    "domain": "omeda.com",
+    "owner": {
+        "name": "Omeda Communications",
+        "displayName": "Omeda Communications"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "olytics",
+        "oqs",
+        "cdp"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "omeda\\.com\\/olytics\\/css\\/v3\\/p\\/olytics\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "olytics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "78057ff881c7ceb369c163fee7ab0d93ae4754f3a7503d5dbfd4a0b80e203a79"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ridermagazine.com",
+                "www.historynet.com",
+                "www.motherearthnews.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/olytics\\/js\\/v3\\/p\\/olytics\\.min\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "olytics"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.vendor": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "1f7146430cd7b473637f971f7d064ea81ded6ce4ba761c84713e98949859fc7b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "oly_fire_id": {
+                    "ttl": 31536012,
+                    "length": 15,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "__tld__": {
+                    "ttl": 13,
+                    "length": 4,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "oly%3Atest": {
+                    "ttl": 12,
+                    "length": 4,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "oly%3Acookies": {
+                    "ttl": 12,
+                    "length": 4,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "oly_enc_id": {
+                    "ttl": 12,
+                    "length": 4,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "oly_anon_id": {
+                    "ttl": 31536012,
+                    "length": 36,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ridermagazine.com",
+                "www.finewoodworking.com",
+                "www.historynet.com",
+                "www.motherearthnews.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/oqs\\/rest\\/olytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "oqs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ridermagazine.com",
+                "www.finewoodworking.com",
+                "www.historynet.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/oqs\\/rest\\/olytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "oqs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ee2bd946a7a0e25dd3f7606bf975cfaa824c7eb902568f5e711f361be35196ee",
+                "8fed0359a978607741335672c13815cef49036c52f9d3c3173d365840a967ccb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ridermagazine.com",
+                "www.finewoodworking.com",
+                "www.historynet.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/olytics\\/segments\\/p",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "ab64560cf10e232d83b783805d267b1675aa728828db773daefe5936e0e4ed67",
+                "dd0103b71a9f800bf8509fb3f34f29a1af4b26a10ceef71cea5bb29ae4ea106d",
+                "9d07531780c0192e43f8c1f5ddb162ef72e29c93ff59d83a1c2f3271b64d4b2a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ridermagazine.com",
+                "www.finewoodworking.com",
+                "www.historynet.com",
+                "www.motherearthnews.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/olytics\\/segments\\/p",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ridermagazine.com",
+                "www.finewoodworking.com",
+                "www.historynet.com",
+                "www.motherearthnews.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/olytics\\/img\\/xclose\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "olytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d872c0831159ae2595e5a8525f3bfb9bf049976ba80069d08db06c131df326e9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ridermagazine.com",
+                "www.motherearthnews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4166666666666667
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4166666666666667
+        },
+        {
+            "domain": "dragonforms.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Stylesheet": 3,
+        "Script": 4,
+        "Preflight": 7,
+        "XHR": 7,
+        "Image": 2
+    },
+    "nameservers": [
+        "a1.uberns.co.uk",
+        "a1.uberns.com",
+        "a1.uberns.net",
+        "b1.uberns.org",
+        "b1.uberns.info"
+    ]
+}

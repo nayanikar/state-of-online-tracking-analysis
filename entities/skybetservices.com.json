@@ -1,0 +1,70 @@
+{
+    "domain": "skybetservices.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000503,
+    "sites": 5,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "skybetservices\\.com\\/tracking-consent\\/tracking-consent\\.js",
+            "cookies": 0.000503,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "1ba983ad9fd8e991e4ca3ec8d9d5a0557b048a73bcfb00bd7a4ce240ca582a7c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "TrackingConsentValidationCookie": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.0005034232782923883,
+                    "uniqueness": 0.2
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itv.com",
+                "m.skybet.com",
+                "super6.skysports.com",
+                "www.skybet.com",
+                "www.skyvegas.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000503,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "edns3.ultradns.net",
+        "edns3.ultradns.com",
+        "edns3.ultradns.biz",
+        "edns3.ultradns.org"
+    ]
+}

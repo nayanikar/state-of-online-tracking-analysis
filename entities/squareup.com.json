@@ -1,0 +1,102 @@
+{
+    "domain": "squareup.com",
+    "owner": {
+        "name": "Square, Inc.",
+        "displayName": "Square"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "pci-connect"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "squareup\\.com\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oppaisan.com",
+                "www.bridgestonegolf.com"
+            ]
+        },
+        {
+            "rule": "squareup\\.com\\/us\\/en",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oppaisan.com",
+                "www.bridgestonegolf.com"
+            ]
+        },
+        {
+            "rule": "squareup\\.com\\/payments\\/mtx\\/v2",
+            "cookies": 0.00000681,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pci-connect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "botanyfarms.com",
+                "www.botanyfarms.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "squarecdn.com",
+            "prevalence": 0.6363636363636364
+        },
+        {
+            "domain": "hlmiq.com",
+            "prevalence": 0.36363636363636365
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns-810.awsdns-37.net",
+        "ns-1248.awsdns-28.org",
+        "ns-311.awsdns-38.com",
+        "ns-1816.awsdns-35.co.uk"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "domain": "revampcdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "spn-v1"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "revampcdn\\.com\\/publishers\\/filehorse\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "spn-v1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "window.innerHeight": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "61b369d22288729e0e11c9121c933405d17f65a4c61a6f506e329b80e0143fba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rv_test_position": {
+                    "ttl": 1800,
+                    "length": 2,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "rv_test_variant": {
+                    "ttl": 1800,
+                    "length": 1,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "rv_google_ppid": {
+                    "ttl": 31536000,
+                    "length": 36,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "filehorse.com",
+                "www.filehorse.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e1.googledomains.com"
+    ]
+}

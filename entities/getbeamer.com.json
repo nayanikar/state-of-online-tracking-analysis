@@ -1,0 +1,433 @@
+{
+    "domain": "getbeamer.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000817,
+    "sites": 12,
+    "subdomains": [
+        "backend",
+        "app",
+        "static",
+        "realtime"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "getbeamer\\.com\\/initialize",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "backend"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "178f966513767be04ac489b152661c7908178b0e19102b97c611f04fb2b0faff",
+                "ee4ede94f2a78aa7759da42af2eb582fd2a5187cac6cc31ceefad2b4c7185881",
+                "1b60beb0946c5e89b39808d6a4ffa4e8e9735676ed31fda449a763a5d2c6b195"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "retipster.com",
+                "www.linenchest.com",
+                "www.maperformance.com",
+                "www.vinelink.com",
+                "www.wakacje.pl"
+            ]
+        },
+        {
+            "rule": "getbeamer\\.com\\/styles\\/beamer-embed\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "9d59818ca03675908acee47c23ce95332201e5476b1796051bfd7704348830eb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "retipster.com",
+                "www.linenchest.com",
+                "www.maperformance.com",
+                "www.vinelink.com",
+                "www.wakacje.pl"
+            ]
+        },
+        {
+            "rule": "getbeamer\\.com\\/numberFeatures",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "backend"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "492e423d80a8f792ed3b98170c21e4188685d7eda5ece20290ecb1ec241b2d13",
+                "4b63290ee56b31580358272e8d52d1e26e428cc52b21ca25b8ebc043042f84ec",
+                "ef0e8d0e792f4bbe25c32bb0b08c56b25dfb610a41f0e01e4e7248c11d51ef14"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_BEAMER_USER_ID_QYvSfyqS9468": 0.000006807073911208528,
+                "_BEAMER_USER_ID_YtUGBqfL5122": 0.000006807073911208528,
+                "_li_dcdm_c": 0.000006807073911208528,
+                "_BEAMER_USER_ID_JNNJJilv14026": 0.000006807073911208528,
+                "_BEAMER_USER_ID_OsGuhibH14325": 0.000006807073911208528,
+                "_BEAMER_USER_ID_rOZdmRgt44118": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "retipster.com",
+                "www.linenchest.com",
+                "www.maperformance.com",
+                "www.vinelink.com",
+                "www.wakacje.pl"
+            ]
+        },
+        {
+            "rule": "getbeamer\\.com\\/utilities",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "852f806ebfef39cf64f4135d8980256253c90e903d855569dbbfc3d45b412a3b",
+                "ea20bc94f48a10c60cf551931f4dfe9f890b0d9a160407d393ab4f8618491817"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "retipster.com",
+                "www.maperformance.com",
+                "www.wakacje.pl"
+            ]
+        },
+        {
+            "rule": "getbeamer\\.com\\/favico\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "HTMLCanvasElement.prototype.toDataURL": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "2de0a175959463ba0645154ce17d43e756d8b100b77e69b6626ba728fabf374b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "retipster.com",
+                "www.maperformance.com",
+                "www.wakacje.pl"
+            ]
+        },
+        {
+            "rule": "getbeamer\\.com\\/socket\\.io\\/socket\\.io\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "realtime"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "52c39ac29a79d395e21859f5670c767786815a735c234ca6801d5ba5d18f1d71"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "retipster.com",
+                "www.maperformance.com",
+                "www.vinelink.com",
+                "www.wakacje.pl"
+            ]
+        },
+        {
+            "rule": "getbeamer\\.com\\/js\\/socketUtils\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "ed34b0890487092c77f3da17ebf723298c250a4bdc4f10fc8723e00ef515c084"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "retipster.com",
+                "www.maperformance.com",
+                "www.vinelink.com",
+                "www.wakacje.pl"
+            ]
+        },
+        {
+            "rule": "getbeamer\\.com\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "realtime"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "retipster.com",
+                "www.maperformance.com",
+                "www.vinelink.com",
+                "www.wakacje.pl"
+            ]
+        },
+        {
+            "rule": "getbeamer\\.com\\/js\\/beamer-embed\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.language": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "de921865ddbd57a0fb4100cd4d204c764f5cf2c84675c1523cb4ab9f9e8e6869"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_BEAMER_USER_ID_YtUGBqfL5122": {
+                    "ttl": 25920006,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_BEAMER_FIRST_VISIT_YtUGBqfL5122": {
+                    "ttl": 25920006,
+                    "length": 24,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_BEAMER_FILTER_BY_URL_YtUGBqfL5122": {
+                    "ttl": 1159,
+                    "length": 5,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_BEAMER_USER_ID_JNNJJilv14026": {
+                    "ttl": 25920003,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_BEAMER_FIRST_VISIT_JNNJJilv14026": {
+                    "ttl": 25920003,
+                    "length": 24,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_BEAMER_FILTER_BY_URL_JNNJJilv14026": {
+                    "ttl": 1156,
+                    "length": 5,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_BEAMER_USER_ID_OsGuhibH14325": {
+                    "ttl": 25920003,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_BEAMER_FIRST_VISIT_OsGuhibH14325": {
+                    "ttl": 25920003,
+                    "length": 24,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_BEAMER_FILTER_BY_URL_OsGuhibH14325": {
+                    "ttl": 1156,
+                    "length": 4,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_BEAMER_USER_ID_rOZdmRgt44118": {
+                    "ttl": 25920011,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_BEAMER_FIRST_VISIT_rOZdmRgt44118": {
+                    "ttl": 25920011,
+                    "length": 24,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_BEAMER_FILTER_BY_URL_rOZdmRgt44118": {
+                    "ttl": 1164,
+                    "length": 4,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_BEAMER_DATE_rOZdmRgt44118": {
+                    "ttl": 25920011,
+                    "length": 24,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wandb.ai",
+                "www.linenchest.com",
+                "www.maperformance.com",
+                "www.vinelink.com",
+                "www.wakacje.pl"
+            ]
+        },
+        {
+            "rule": "getbeamer\\.com\\/js\\/cookieSetter\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e76a248218d1eb86d8b40c031bbb973839712fd52c0ff1436e9c22642ed63646"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vinelink.com",
+                "www.vinelink.com"
+            ]
+        },
+        {
+            "rule": "getbeamer\\.com\\/images\\/bell-full\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b1e87c0d4c679825d45f0eec702cf539c90ddd1af7eaacdfe074f43846cc7c18"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wakacje.pl",
+                "www.wakacje.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.352112676056338
+        },
+        {
+            "domain": "rocketcdn.me",
+            "prevalence": 0.22535211267605634
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.16901408450704225
+        },
+        {
+            "domain": "vineapps.com",
+            "prevalence": 0.11267605633802817
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.08450704225352113
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.028169014084507043
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.028169014084507043
+        }
+    ],
+    "types": {
+        "XHR": 10,
+        "Stylesheet": 5,
+        "Document": 3,
+        "Script": 18,
+        "WebSocket": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "cloe.ns.cloudflare.com",
+        "owen.ns.cloudflare.com"
+    ]
+}

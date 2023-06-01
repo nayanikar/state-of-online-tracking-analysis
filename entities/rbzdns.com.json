@@ -1,0 +1,86 @@
+{
+    "domain": "rbzdns.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "api-ticketswap-com.ticketswap.d1"
+    ],
+    "cnames": [
+        {
+            "original": "api.ticketswap.com",
+            "resolved": "api-ticketswap-com.ticketswap.d1.rbzdns.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rbzdns\\.com\\/graphql\\/public",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-ticketswap-com.ticketswap.d1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.ticketswap.com",
+                    "resolved": "api-ticketswap-com.ticketswap.d1.rbzdns.com"
+                }
+            ],
+            "responseHashes": [
+                "2e158da0f6994dd507f3d0f4569bfa439bdfce44dda17be813afa3f76b36ef41"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ticketswap.com",
+                "www.ticketswap.com"
+            ]
+        },
+        {
+            "rule": "rbzdns\\.com\\/graphql\\/public",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-ticketswap-com.ticketswap.d1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.ticketswap.com",
+                    "resolved": "api-ticketswap-com.ticketswap.d1.rbzdns.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ticketswap.com",
+                "www.ticketswap.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-cloud-a4.googledomains.com",
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a2.googledomains.com"
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "domain": "adnext.pl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000476,
+    "sites": 7,
+    "subdomains": [
+        "cdn",
+        "tracker"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "adnext\\.pl\\/001\\/init\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 5,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.webdriver": 5,
+                "Navigator.prototype.language": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Navigator.prototype.deviceMemory": 5,
+                "Navigator.prototype.hardwareConcurrency": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.availWidth": 5,
+                "Screen.prototype.availHeight": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 5,
+                "window.sessionStorage": 5,
+                "window.localStorage": 5,
+                "window.indexedDB": 5,
+                "Navigator.prototype.platform": 5,
+                "Navigator.prototype.appName": 5,
+                "Navigator.prototype.plugins": 5,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 5,
+                "HTMLCanvasElement.prototype.toDataURL": 5,
+                "WebGLRenderingContext.prototype.getExtension": 5,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 5,
+                "WebGLRenderingContext.prototype.getParameter": 5,
+                "WebGLRenderingContext.prototype.getContextAttributes": 5,
+                "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 5,
+                "Navigator.prototype.languages": 5,
+                "Navigator.prototype.maxTouchPoints": 5,
+                "Navigator.prototype.productSub": 5,
+                "OfflineAudioContext.prototype.constructor": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5,
+                "AudioBuffer.prototype.getChannelData": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "7f53117377edaa3087c8090f0994a3d20fc02d2e983e323024141f3150707103",
+                "983927261aec11e4a66fcabed0356e9cb9fe5ad6472fa5b2fafa466adee04a87"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_adxid": {
+                    "ttl": 31536005,
+                    "length": 36,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                },
+                "_adxidfp": {
+                    "ttl": 432005,
+                    "length": 32,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 0.4
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "msze.info",
+                "www.msze.info",
+                "www.ortograf.pl",
+                "www.rmf.fm",
+                "www.telepolis.pl"
+            ]
+        },
+        {
+            "rule": "adnext\\.pl\\/001\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "c557a1264a72b3de57848cde237ad12059035777f9a0ab634e19d68c1b634bab"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "msze.info",
+                "www.msze.info",
+                "www.ortograf.pl",
+                "www.rmf.fm",
+                "www.telepolis.pl"
+            ]
+        },
+        {
+            "rule": "adnext\\.pl\\/001",
+            "cookies": 0.000034,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "dba0c08a8d904065f19d513d55181712021be34b9ab3a217681e6af50409518b",
+                "880f75f21d0a7de91bbcd0a087d88d6873762c432dbf8ad6db44e24ba208a01a",
+                "60966fc6616fd88063d97b1a7ea1d4d8a771d3a154fbe8f182b495480395f0da",
+                "b6ed8cf6ba01f5335dcbbd0751ec93ef1116ccdffe7eb607c1a45f5740d23325"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "msze.info",
+                "www.msze.info",
+                "www.ortograf.pl",
+                "www.rmf.fm",
+                "www.telepolis.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "push-ad.com",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 10
+    },
+    "nameservers": [
+        "dns2.home.pl",
+        "dns3.home.pl",
+        "dns.home.pl"
+    ]
+}

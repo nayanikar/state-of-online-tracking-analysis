@@ -1,0 +1,69 @@
+{
+    "domain": "geolocation-prod-west.azurewebsites.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "geoservice.alaskaair.com",
+            "resolved": "geolocation-prod-west.azurewebsites.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "geolocation-prod-west\\.azurewebsites\\.net\\/api\\/lookup\\/resolve",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "geoservice.alaskaair.com",
+                    "resolved": "geolocation-prod-west.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "cbc8efde5eed3281277340f9e98c6088b3c4ee1051888f44d031fab2a2c95ec1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alaskaair.com",
+                "m.alaskaair.com",
+                "www.alaskaair.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "alaskaair.net",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Fetch": 3
+    },
+    "nameservers": []
+}

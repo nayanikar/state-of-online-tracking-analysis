@@ -1,0 +1,97 @@
+{
+    "domain": "d1yu8kqvwue793.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "d1yu8kqvwue793\\.cloudfront\\.net\\/v2\\.nutrisense\\.io\\/pages\\/head\\.423d78e7bb779298a546330a100297558294c0eb\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.orientation": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9ee3004af2fdef22704a32006142f38c8d9c94a9c4027a51d867fada1f2bbaec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nutrisense.io",
+                "www.nutrisense.io"
+            ]
+        },
+        {
+            "rule": "d1yu8kqvwue793\\.cloudfront\\.net\\/v2\\.nutrisense\\.io\\/pages\\/footer\\.423d78e7bb779298a546330a100297558294c0eb\\.bundle\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "94e87fbdaa1767ddc56428564500cbfc99ff9fe68ec9e0273469020ddf9d0b22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nutrisense-utm_all": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nutrisense.io",
+                "www.nutrisense.io"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-925.awsdns-51.net",
+        "ns-1209.awsdns-23.org",
+        "ns-1638.awsdns-12.co.uk",
+        "ns-59.awsdns-07.com"
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "domain": "idg.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "alt.idgesg.net",
+            "resolved": "idg.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "idg\\.map\\.fastly\\.net\\/js\\/sp_analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "alt.idgesg.net",
+                    "resolved": "idg.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "71e474fb92069d87d1f4e944a1afabce39d688cf1b933a90bff7554dc5d948af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "macworld.com",
+                "www.pcworld.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9459459459459459
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05405405405405406
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,683 @@
+{
+    "domain": "gtm.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "lf.ixt",
+        "za.ixt"
+    ],
+    "cnames": [
+        {
+            "original": "static.lefties.com",
+            "resolved": "lf.ixt.gtm.akadns.net"
+        },
+        {
+            "original": "static.zara.net",
+            "resolved": "za.ixt.gtm.akadns.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gtm\\.akadns\\.net\\/9\\/static2\\/itxwebstandard\\/css\\/itx-custom-main\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.lefties.com",
+                    "resolved": "lf.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "df0d229ca70a1e94f5a141227274b3197df586fdfa5ae439cb75eb441bee0cd9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lefties.com",
+                "www.lefties.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/9\\/static2\\/itxwebstandard\\/js\\/itx-custom-core-api\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lf.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.lefties.com",
+                    "resolved": "lf.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "7c527ea687483be1e89800b4539051ca86de69f916929792d23c128f04bc9b65"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lefties.com",
+                "www.lefties.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/9\\/static2\\/itxwebstandard\\/js\\/itx-custom-api\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.lefties.com",
+                    "resolved": "lf.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "7c07dcf46dc9f6ff0d8e734f6203de493a10c2062fbd0cb9d185793a5fb18df0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lefties.com",
+                "www.lefties.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/v2\\/vendor-v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "070c552c462447dcf32ab28e24045a758305262cc592218a7afe46818472d749"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/v2\\/app-std-v2\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "e91c8f0a0aed5c69322d7c41476fc873cb2978741a7540c1339a3764b260177c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rid": {
+                    "ttl": 31536005,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "cart-was-updated-in-standard": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/v2\\/bundles\\/87582\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "b4d2dd0d5fa36200442a9df9bb4b5ebef8327720e2001cee6ccb496a104c3f22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/v2\\/bundles\\/70131\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "1f8d536a401e7d8744621972fd58387c0540afeb0a0b0f21eb54538843a935a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/v2\\/bundles\\/downshift\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "0c4d32bebdfd9972d2785d0d219f00d437febd945dddf42490c02421f7db3acb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/v2\\/bundles\\/12968\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "c299dd55e06e8e2ffef91d732f0a2ca4a9cf5f21a46aa39c1ef7e3b396059e09"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/v2\\/bundles\\/r-xmedia\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "34177aa31d17e3b7c3f1dfd620ce8415e0b762b2e48b1ec8cdfd7b92508c721a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/v2\\/bundles\\/90517\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "2cb7a2cbee5b99b0f0de9e0cdd5bfb4fc13e82b983ba948306ba06c8e71b7515"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/v2\\/vendor-v2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "3e86f3c33368cc7e17538e892068658a6b2e81c648b294e2a3051ff415f66869"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/v2\\/app-std-v2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "6ee14cf18130f6a8987fc6dd9313fd6504f4490435aa673b77f06ae5226ca3e2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/v2\\/90517\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "1b1a8a6b773f19e6b8212cfb4f6a0f8bcebef81e04cd0eb5e6e7f57c2f9f4f0b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/vendor\\/modernizr\\/modernizr-1437488072963\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "e8ec16c2db6629c292e81e3c021b5d6b177fc0fafc7cc7437fa2fdfebd778114"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/static\\/\\/mkt\\/css\\/store\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "f200f6fe1f6ec36d0b4e3fe6d8ec83bd87ccd112e9a342cd6c95cf0c3d8d2c9a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/static\\/media\\/c3fdc7d461940e0a8073\\.c3fdc7d4\\.\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "3d81eb2a600f240ddb53df1c9f89c7e44a4b432c1c91e0f1747fb906e5398557"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/static\\/media\\/a523c9eb1e5c579f191c\\.a523c9eb\\.\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "d66530ca978ff1a37eb1a28d04526dab41188ec9b564316affb855fe244e0397"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/static\\/media\\/2e3e13bdd28941438adf\\.2e3e13bd\\.\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "5f4fdcca6e3d5d5f9cc9fe35ea578377f96504018009cf5563296e305dfb4d94"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/static\\/applications\\/chat-v2\\/launcher-std-v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "a2f1dcf4028c779f434d65ffefb0caddc6113c0fcfcf67b90877fc383efec488"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/images\\/transparent-background\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "9177876fbf7d7be5081ff7d32528a9a3b5c2f43f209253a6a0342b4c5a0ef404"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/static\\/applications\\/chat-v2\\/zara-chat-std-v3\\.3\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "1c3b9623694bd3a84f746cc4bdf76d0f2e0c31daa176767bf6c971284d027ab1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        },
+        {
+            "rule": "gtm\\.akadns\\.net\\/stdstatic\\/3\\.16\\.1-b\\.2\\/js\\/v2\\/bundles\\/70650\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "za.ixt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "static.zara.net",
+                    "resolved": "za.ixt.gtm.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "d5e0bcb6a9e19f5dedb966b02e9174d29d5d58ff7d6ad2f717e9ecba69a70909"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zara.com",
+                "www.zara.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 10,
+        "Script": 28,
+        "Font": 6,
+        "Image": 2
+    },
+    "nameservers": []
+}

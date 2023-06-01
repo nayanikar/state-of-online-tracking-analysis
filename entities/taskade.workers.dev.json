@@ -1,0 +1,80 @@
+{
+    "domain": "taskade.workers.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "unicorn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "taskade\\.workers\\.dev\\/rainbow\\/script\\.tagged-events\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "unicorn"
+            ],
+            "apis": {
+                "Navigator.prototype.webdriver": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "80e85cf542567d54879bc010f5d0b5358d9f8ff3169e79cfc57b9e1f6f5515ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taskade.com",
+                "www.taskade.com"
+            ]
+        },
+        {
+            "rule": "taskade\\.workers\\.dev\\/tasks\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unicorn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taskade.com",
+                "www.taskade.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "will.ns.cloudflare.com",
+        "connie.ns.cloudflare.com"
+    ]
+}

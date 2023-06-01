@@ -1,0 +1,80 @@
+{
+    "domain": "canalplustech.pro",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "dtd-pfsbo-slc-acm-api-eu-west-1.prod.bo.canal"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "canalplustech\\.pro\\/api\\/v2\\/offerZones\\/cpfra\\/offerLocation\\/fr\\/parentalCode\\/exists",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dtd-pfsbo-slc-acm-api-eu-west-1.prod.bo.canal"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canalplus.com",
+                "www.mycanal.fr"
+            ]
+        },
+        {
+            "rule": "canalplustech\\.pro\\/api\\/v2\\/offerZones\\/cpfra\\/offerLocation\\/fr\\/parentalCode\\/exists",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dtd-pfsbo-slc-acm-api-eu-west-1.prod.bo.canal"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9c566c1f251604269713f137c7bb324b0277288425c5a8f93ea068f1baca00ee"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canalplus.com",
+                "www.mycanal.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "canalplus.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "nsc.perf1.com",
+        "nsa.perf1.fr",
+        "nsb.perf1.com"
+    ]
+}

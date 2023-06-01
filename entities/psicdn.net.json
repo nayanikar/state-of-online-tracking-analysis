@@ -1,0 +1,236 @@
+{
+    "domain": "psicdn.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "cs550162656.adn",
+        "cs95619.wpc",
+        "cs95619.adn"
+    ],
+    "cnames": [
+        {
+            "original": "consent.cmp.oath.com",
+            "resolved": "cs550162656.adn.psicdn.net"
+        },
+        {
+            "original": "dlcdnimgs.asus.com",
+            "resolved": "cs95619.wpc.psicdn.net"
+        },
+        {
+            "original": "odinapi.asus.com",
+            "resolved": "cs95619.adn.psicdn.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "psicdn\\.net\\/cmpStub\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cs550162656.adn"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [
+                {
+                    "original": "consent.cmp.oath.com",
+                    "resolved": "cs550162656.adn.psicdn.net"
+                }
+            ],
+            "responseHashes": [
+                "9434c3de2fba459bb58a947a9c83256097f5277963c320a1e9b7e1b4bcae80e3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.news.yahoo.com",
+                "au.sports.yahoo.com",
+                "finance.yahoo.com",
+                "news.yahoo.com",
+                "overview.mail.yahoo.com",
+                "sports.yahoo.com",
+                "techcrunch.com",
+                "www.engadget.com"
+            ]
+        },
+        {
+            "rule": "psicdn\\.net\\/cmp\\.js",
+            "cookies": 0.0011,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cs550162656.adn"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [
+                {
+                    "original": "consent.cmp.oath.com",
+                    "resolved": "cs550162656.adn.psicdn.net"
+                }
+            ],
+            "responseHashes": [
+                "f204ab420a5067e50cf449c161ca633301e47849248e691863bae78110990e60"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cmp": {
+                    "ttl": 31536007,
+                    "length": 1,
+                    "prevalence": 0.0011044176706827308,
+                    "uniqueness": 0.09090909090909091
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.news.yahoo.com",
+                "au.sports.yahoo.com",
+                "finance.yahoo.com",
+                "news.yahoo.com",
+                "overview.mail.yahoo.com",
+                "sports.yahoo.com",
+                "techcrunch.com",
+                "www.aol.com",
+                "www.autoblog.com",
+                "www.engadget.com"
+            ]
+        },
+        {
+            "rule": "psicdn\\.net\\/css\\/2015\\/alert-info\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cs95619.wpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "dlcdnimgs.asus.com",
+                    "resolved": "cs95619.wpc.psicdn.net"
+                }
+            ],
+            "responseHashes": [
+                "53415e1c1f2175a8afb01e4b6c3d1675d278ca6329723ff1a965e80627f4244c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asus.com",
+                "www.asus.com"
+            ]
+        },
+        {
+            "rule": "psicdn\\.net\\/js\\/2015\\/alert-detect\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cs95619.wpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "dlcdnimgs.asus.com",
+                    "resolved": "cs95619.wpc.psicdn.net"
+                }
+            ],
+            "responseHashes": [
+                "5d9e87210d43e9dfde150ac881176801d6d9ff5ec14cafa5cd737f5938bebfb7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asus.com",
+                "www.asus.com"
+            ]
+        },
+        {
+            "rule": "psicdn\\.net\\/js\\/2015\\/alert-info\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cs95619.wpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "dlcdnimgs.asus.com",
+                    "resolved": "cs95619.wpc.psicdn.net"
+                }
+            ],
+            "responseHashes": [
+                "cd80a02d1c19aab154d6d5bdcce9f535ed27684fc05ac681bbce26ef031262e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asus.com",
+                "www.asus.com"
+            ]
+        },
+        {
+            "rule": "psicdn\\.net\\/apiv2\\/GetCookieNotice",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cs95619.adn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "odinapi.asus.com",
+                    "resolved": "cs95619.adn.psicdn.net"
+                }
+            ],
+            "responseHashes": [
+                "db6e4a0d9a04427833b6d5b4edef4ce72f9e557710e69bc82bdef533fda36ded"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asus.com",
+                "www.asus.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00131,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 24,
+        "Stylesheet": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns1.psicdn.net",
+        "ns2.psicdn.net",
+        "ns3.psicdn.net",
+        "ns4.psicdn.net"
+    ]
+}

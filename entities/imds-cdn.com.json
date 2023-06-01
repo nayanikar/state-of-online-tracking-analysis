@@ -1,0 +1,1308 @@
+{
+    "domain": "imds-cdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000817,
+    "sites": 12,
+    "subdomains": [
+        "reflex",
+        "tesseract",
+        "sadlib",
+        "engage",
+        "vam-image",
+        "am4",
+        "portal-static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "imds-cdn\\.com\\/vpaid\\/vast\\.xml",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "reflex"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "c0303c95f285b9a02bbef7fc0ac695f93eadb010b6006ba22dfdbed6253c6b1e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allaboutthetea.com",
+                "npino.com",
+                "www.springfieldspringfield.co.uk",
+                "www.techlicious.com"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/tesseract\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {
+                "window.innerHeight": 5,
+                "window.innerWidth": 5,
+                "Document.cookie getter": 3,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "7d206a7ee7c1634ff1addb296df8918b7ae0c0cc0712dac994fbcb1a07b19697"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "gpp": {
+                    "ttl": 315360002,
+                    "length": 23,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/client\\/synacor\\/synacor\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sadlib"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.appName": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5,
+                "Date.prototype.getTime": 5,
+                "NavigatorUAData.prototype.getHighEntropyValues": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Navigator.prototype.language": 5,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.width": 4,
+                "Navigator.prototype.platform": 1,
+                "window.sessionStorage": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "6d777f1948d942a0a1ec6b443ca8aa4137829a65133313025cac939cc5483a3a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592004,
+                    "length": 16,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 0.2
+                },
+                "_lr_retry_request": {
+                    "ttl": 3611,
+                    "length": 4,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 0.2
+                },
+                "_lr_env_src_ats": {
+                    "ttl": 2592011,
+                    "length": 5,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 0.2
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/8970\\.5dc6978c\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {
+                "window.innerHeight": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "5b791485c9074172de1b60d887b6531b19ade613109e39e48ac7b655661771da"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/2458\\.20d6cd99\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {
+                "window.innerHeight": 3,
+                "window.innerWidth": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "b79aa01a2eb436afd5758100519be06bacb5af202089b7a3414463406a4c6ac7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/1445\\.9e3d34f8\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "b0e16d6914abe17ea06e10ac269d5847d94212a690ecc975f95d65836159d257"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/2375\\.6321c95f\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "dcfcdfce15d9787c06e06200c798fdff3389cfc84a67131de86598190946d9bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/245\\.77f7b2ec\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "820ccb2a2916d785313b670ee296ca6d4377369408bac0a045dd097f918464ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/3882\\.99b2203d\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e8fe7dba03ec0b9537289d11e45b0764bef75ed34ea5ba36beb8e1eb506cddb6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/2993\\.59c0afa1\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "b6eb9bf2dae44ade2c09627917411c4a3f504ad13d85c23c067858c1f0eecaa1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/5885\\.261e25ab\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "f6761ded1427469316402dfb969efa5ab4731bcae6518a81fa8a85461fc0ba20"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/8071\\.3e1ac254\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "c1c02413de9c20a75d559381b9bbcea7f8aa274ff8845e16a06e6f0267475ec1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/4359\\.7f32374b\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "dc6f67baf38019c2dc275401ad5272eb83fb8283d959ba030ccfc0c157b0fa9e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/5695\\.876f05c4\\.chunk\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
+                "window.innerWidth": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "ab495c444d675d5a2cc7c3be82ddc40dd2cef0ac0b404d967134e01e674f1fa3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "persistCookieDone": {
+                    "ttl": 86432,
+                    "length": 4,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/widgets\\/singlecube-home\\.48947841\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "77045687ef9207e0c8d15b65efe9c2be3abb786f94fdc2475742aae06396f2ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/dist\\/static_include\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "4c5df9616157d4a51e5de47a31ee80665489ca88e12433fc532fd07bc6304bfc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/assets\\/roboto-regular_3bd3a\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "13fada409c0428a216aff770cc13536aa0141fbbb391135b28a1c20634d612af"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/assets\\/cube-icons_5616e\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "7e20c70ec9b87082c4f01ac0c85433f478dfad3cc44ba1aa7cfa65583e5ed5cb"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/assets\\/roboto-medium_f191d\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "481b14d625fb8eaef2baeaa51de213db870a780b3172e0155d22430571ae89f6"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/assets\\/roboto-bold_bb43a\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "6a15265b1b610ef81ae1a1e45c8b69917d2fc4d3ad5a63c00ee6a466f0a6e806"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/40\\/e4\\/40e42d121eb5fa83c2e4676f68a646b0598179c2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vam-image"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "1427ed202c10d83f6f6773856aa1e648ca454f3f683a5869d83e101dcaff072d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "portal.tds.net",
+                "www.armstrongmywire.com"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/fb\\/20\\/fb20cb19c185e4343dd0cc841de63cf7ee4b945a\\/w=732,h=411,crop=focus\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vam-image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e98fd3c68d37b723c9a9d510095473bd807dfcc484d373f1be465bb2fe417f90"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/weather-svg-icon\\.7fa68656\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "b3e7c92873888db4623d39bd41c6d64780c98cebb5c9ebfa55471af38105dd72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centurylink.net",
+                "mediacomtoday.com",
+                "portal.tds.net",
+                "www.armstrongmywire.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/6685\\.dbeb32ee\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "94d0422cdd1e1b6ef248e0556cdd51b2bec241bad64ef3ee9de5fe53711b12eb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/widgets\\/singlecube-vertical\\.a85f8405\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d5328dfcccb4694ecc3f8181f211b59e05afdcb415580ee6fd64cbbe19b78f65"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/a2\\/4d\\/a24de08a71d8ebe7a0068b72168ecbd4159f2811",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vam-image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0828b276049dda4903e13c6525a8f6f06cfe32373c3cca44c9e0e429e91bc7aa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/1e\\/d3\\/1ed3e6efb64f36f55e92b878c09bac06aacddab3\\/w=732,h=411,crop=focus\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vam-image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9ec16bfefa717a5634addab80b01dc126d3a71492d22f0100a4103f32350a04b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "www.armstrongmywire.com"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/cb\\/f9\\/cbf91ef02175f7ecd27708a3223664ef57a99a53\\/w=732,h=411,crop=focus\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vam-image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "04f6b86bae04ee9c45facefec21b55835cba69797a03a07cc33f578c700f4117"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "www.armstrongmywire.com"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/dist\\/main\\.3e139ba3\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.screenY": 2,
+                "window.outerHeight": 2,
+                "window.screenX": 2,
+                "window.outerWidth": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c0aeb76b7ac6f0b468ca1f5b21ae383b2b115606e4ef308c14998b00fa2e5d6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "portal.tds.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/dist\\/runtime\\.c2096909\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "96a860d188ce8fd5d333439074241278be1df1e0038a1acae69e91d6484f87fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "portal.tds.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/dist\\/vendor-main~safeframe-jsonpath\\.js\\.ed085db9\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0c7faeee741fec2bff7d5a737b721a31333fbd75039d30d22a73d81da759199a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "portal.tds.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/dist\\/vendor-main~safeframe-web\\.url\\.constructor\\.js\\.32547280\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "36602e77a1e9be3cd4642dbadd43c19d22f218b5f74136f5f5b884fa46e5cfbb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "portal.tds.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/dist\\/url_lists\\.f42083c5\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4e6adaa9fb070ef41c9573198342278b90e14741ce441d1f3bb7b289fa8f8d89"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "portal.tds.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/dist\\/859\\.316805d2\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e7568df99edd5c815648bf27bc365ed3da8f38bbb58a8f3b1a61b5f16e710ec2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "portal.tds.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/dist\\/278\\.53a3e786\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d9abbb5d372f66a9aee8c3c2e002209f75af7e3709fdbbaf8f1734d04547e18b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "portal.tds.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/dist\\/default_css\\.43120a47\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3fd512d2f7277e7b23dfd12bd53227c6f10df9690819eca4c49d7d8b374e1375"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "portal.tds.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/dist\\/portal\\.39fdb1ee\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "31cc0c08c07aedf1838527ea65d298f7a7d20d00a13e30dcc32567c1c2b91ec0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "portal.tds.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/url-list\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1d6c771d5a031898c49a43f646165414ca6cea0d2c24bbed59a3828d8641c0fe"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "portal.tds.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/dd\\/a0\\/dda0458e411cc322ec970342bd25cbf3edf445ce\\/w=732,h=411,crop=focus\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vam-image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dcb745cc79ce07c6c5b18d318834f59b4c4a81d34fe5a0ee93c83f36b8c64401"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "portal.tds.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/dist\\/\\/_ads\\/sf\\/1-1-0\\/html\\/index\\.ca0ba9e\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "87873332834ad36d12956484fe4458424c8cec1d76609afc91db0ac9f0255b8d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "portal.tds.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/api\\/6\\/asset\\/list\\/client\\/showcase\\/expand\\/list\\/provider\\/vwibbitz\\/genres\\/Lifestyle\\/rows\\/25\\/media_scheme\\/mp4\\/language\\/en",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "am4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "75cb21f6b8f83a66ca1e03c5c22212b0970e422adae9782d91138cf887bfc007"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomtoday.com",
+                "portal.tds.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/vpaid\\/vpaid\\.1\\.0\\.7\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "reflex"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c9caf66159cb30ccddae214c368c7c0333ac63a039c7b847d9a02a61681c8ce9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "npino.com",
+                "www.springfieldspringfield.co.uk"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/97\\/05\\/9705300d09a103144423144350866e6133262dbe\\/w=732,h=411,crop=focus\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vam-image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c05bd6f44b6063e9a1388b81cc3d004b5a01915f7df0c70af0cac535a72cf36c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tds.net",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/windstream\\.tesseract\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ddb5ce7a8997d5dc28efeb3a4eecebe02e8895c9b288220546061b586a440dd4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windstream.net",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/windstream\\.8970\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0bffbb5a5631d58af4c8b086366a5d1a2d271fcccce3134fbbee75cd7609f153"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windstream.net",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/windstream\\.2458\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e7325213639dacb358b6ccd878bd16e5193f918c448cb9d9124f4f8945f526f4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windstream.net",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/windstream\\.1445\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0ad71d3a2a8b75dabe47b4d0f33890d74720c762cfafa22d02d712cf162b60de"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windstream.net",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/windstream\\.3882\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "79184e2de5bfd810c6de2c04520092db9de0f818a2cb15b3f7d381ec5fc50221"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windstream.net",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/config\\/windstream-config-json\\.60a6ae41\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tesseract"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "36423c0abc3f4f2f43c0c6360731139f9af73ca02dbf3e4c3465e2681338d286"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windstream.net",
+                "www.windstream.net"
+            ]
+        },
+        {
+            "rule": "imds-cdn\\.com\\/images\\/windstream-gen4\\/logos\\/dark_lg\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "portal-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8c2b879da8e0ef976d349903462f2aa9f173e6e61460ab5415fecad9045da27c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windstream.net",
+                "www.windstream.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8146341463414634
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.1024390243902439
+        },
+        {
+            "domain": "taboola.com",
+            "prevalence": 0.08292682926829269
+        }
+    ],
+    "types": {
+        "XHR": 6,
+        "Script": 106,
+        "Font": 20,
+        "Image": 17,
+        "Fetch": 2,
+        "Document": 2,
+        "Stylesheet": 10
+    },
+    "nameservers": [
+        "dns1.p06.nsone.net",
+        "dns4.p06.nsone.net",
+        "dns3.p06.nsone.net",
+        "dns2.p06.nsone.net"
+    ]
+}

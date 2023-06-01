@@ -1,0 +1,81 @@
+{
+    "domain": "uhc.com",
+    "owner": {
+        "name": "UnitedHealth Group Inc.",
+        "displayName": "UnitedHealth Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "omnidigital",
+        "maelstrom-dmz"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "uhc\\.com\\/OptumRxCustSrvc\\/styles\\/omni-chat-widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "omnidigital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optumrx.com",
+                "www.optumrx.com"
+            ]
+        },
+        {
+            "rule": "uhc\\.com\\/cdn\\/uhcp\\/scripts\\/browser\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "maelstrom-dmz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4c5859edb889a16fa463eefe5be729df8ade6f111943dd34b9128259801576e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uhcprovider.com",
+                "www.uhcprovider.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "epla1.corpnamesvcs.com",
+        "epla2.corpnamesvcs.com"
+    ]
+}

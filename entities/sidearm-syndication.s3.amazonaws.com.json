@@ -1,0 +1,148 @@
+{
+    "domain": "sidearm-syndication.s3.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000892,
+    "sites": 131,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sidearm-syndication\\.s3\\.amazonaws\\.com\\/prod\\/web-push\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 11,
+                "Navigator.prototype.userAgent": 11,
+                "window.localStorage": 7,
+                "Notification.permission": 7,
+                "window.innerHeight": 7,
+                "window.outerHeight": 7,
+                "window.sessionStorage": 7
+            },
+            "sites": 11,
+            "prevalence": 0.0000749,
+            "cnames": [],
+            "responseHashes": [
+                "041df148c8e60b129f3394dd0e4cad28e85f7f73521a6aaa7e3816a2feca78b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "12thman.com",
+                "bceagles.com",
+                "fightingillini.com",
+                "gobearcats.com",
+                "goducks.com",
+                "gohuskies.com",
+                "hailstate.com",
+                "hokiesports.com",
+                "pittsburghpanthers.com",
+                "txst.com",
+                "www.kstatesports.com"
+            ]
+        },
+        {
+            "rule": "sidearm-syndication\\.s3\\.amazonaws\\.com\\/prod\\/header-bidding-wrapper\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 68,
+            "prevalence": 0.000463,
+            "cnames": [],
+            "responseHashes": [
+                "00c3154f069d899f00bf44b191222e979d09d0620850336181f9c48b30bf3440"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "msubobcats.com",
+                "pittsburghpanthers.com",
+                "yalebulldogs.com",
+                "purduesports.com",
+                "huskers.com",
+                "gobearcats.com",
+                "gofrogs.com",
+                "goarmywestpoint.com",
+                "navysports.com",
+                "usctrojans.com",
+                "okstate.com",
+                "goduke.com",
+                "goshockers.com",
+                "gohuskies.com",
+                "cubuffs.com",
+                "utahutes.com",
+                "mutigers.com",
+                "txst.com",
+                "southernmiss.com",
+                "brownbears.com"
+            ]
+        },
+        {
+            "rule": "sidearm-syndication\\.s3\\.amazonaws\\.com\\/prod\\/web-push-sw\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000749,
+            "cnames": [],
+            "responseHashes": [
+                "49437b971253f15b707c050bb8c4ceeb06f27ffecd4f1624cce2d799ae302f4c"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "12thman.com",
+                "bceagles.com",
+                "fightingillini.com",
+                "gobearcats.com",
+                "goducks.com",
+                "gohuskies.com",
+                "hailstate.com",
+                "hokiesports.com",
+                "pittsburghpanthers.com",
+                "txst.com",
+                "www.kstatesports.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.7692307692307693
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.23076923076923078
+        }
+    ],
+    "types": {
+        "Script": 79,
+        "Other": 11
+    },
+    "nameservers": [
+        "ns-674.awsdns-20.net",
+        "ns-1620.awsdns-10.co.uk",
+        "ns-1173.awsdns-18.org",
+        "ns-328.awsdns-41.com"
+    ]
+}

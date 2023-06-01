@@ -1,0 +1,89 @@
+{
+    "domain": "autoketing.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "autoketing\\.org\\/sdk-cdn\\/sales-pop\\/dist\\/sales-pop-embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bfc2fb6d93501eed437a37e092760c7dc8296473983a255b91391e73cf4ea2e3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bauerfeind.com.au",
+                "www.tactoys.com.au"
+            ]
+        },
+        {
+            "rule": "autoketing\\.org\\/sdk-cdn\\/sales-pop\\/build\\/build\\.main\\.fbf72cd6b95580ff0c2c\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.product": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "31b0386b333964890b7a8060d56d8fe71361d02139ca0175533151e901a8ba66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bauerfeind.com.au",
+                "www.tactoys.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "todd.ns.cloudflare.com",
+        "kami.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "domain": "nytimes.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "content.api.nytimes.com",
+            "resolved": "nytimes.map.fastly.net"
+        },
+        {
+            "original": "csp.dev.nytimes.com",
+            "resolved": "nytimes.map.fastly.net"
+        },
+        {
+            "original": "mwcm.nytimes.com",
+            "resolved": "nytimes.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nytimes\\.map\\.fastly\\.net\\/report",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "csp.dev.nytimes.com",
+                    "resolved": "nytimes.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "603ef305af715f137f8b7c333f9e5add8c484022f458e06f1cae7254ef304923"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "cooking.nytimes.com"
+            ]
+        },
+        {
+            "rule": "nytimes\\.map\\.fastly\\.net\\/svc\\/weather\\/v2\\/current-and-seven-day-forecast\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "content.api.nytimes.com",
+                    "resolved": "nytimes.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "930ce2d10c635e3e996f40d1a666179cead0fa645f98e9e80a43a0df3157cae1",
+                "8bfee0276f678c8976202869ab2920a1a2be09a2fbed936a2392c2ef47d9a9a9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "www.nyt.com",
+                "www.nytimes.com"
+            ]
+        },
+        {
+            "rule": "nytimes\\.map\\.fastly\\.net\\/capi\\/metered_assets\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "mwcm.nytimes.com",
+                    "resolved": "nytimes.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "3b7e274ee2c22e16b114261dbbaed4e234c68d141f8eb4bc47f9546ea9089fd7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "www.nyt.com",
+                "www.nytimes.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "nyt.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Other": 2,
+        "XHR": 3,
+        "Fetch": 3
+    },
+    "nameservers": []
+}

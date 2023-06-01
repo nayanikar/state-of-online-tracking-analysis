@@ -1,0 +1,107 @@
+{
+    "domain": "qs.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "sso"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "qs\\.com\\/js\\/sso\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d6ed5497a640912deb561d00452a278ed2e6946ce83a1bd4692e08cc280b8fb1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topuniversities.com",
+                "www.topuniversities.com"
+            ]
+        },
+        {
+            "rule": "qs\\.com\\/config\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bb6120b3fca466b4a698b644b410aab7872deadf592ee32859f561a89e000051"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topuniversities.com",
+                "www.topuniversities.com"
+            ]
+        },
+        {
+            "rule": "qs\\.com\\/sso\\.html",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7641eab5e300e2920d10c80919e6ca19f0fdf882f1f83d015de184688bcc74e2"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topuniversities.com",
+                "www.topuniversities.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 2
+    },
+    "nameservers": [
+        "max.ns.cloudflare.com",
+        "dell.ns.cloudflare.com"
+    ]
+}

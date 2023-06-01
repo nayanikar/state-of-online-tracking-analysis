@@ -1,0 +1,120 @@
+{
+    "domain": "motorpresse.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "backend",
+        "plausible"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "motorpresse\\.de\\/consent-mapping\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "backend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bf9b97f2d4c0dd2e26485d14d536a1c63f80ac0dd5d0c0e55c5ab971587d24f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1000ps.de",
+                "www.1000ps.de"
+            ]
+        },
+        {
+            "rule": "motorpresse\\.de\\/js\\/script\\.local\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "plausible"
+            ],
+            "apis": {
+                "window.localStorage": 9,
+                "Navigator.prototype.webdriver": 9,
+                "window.innerWidth": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "119b36014dc2ae860cd397a3b7aabe2fa239cb54949b38679e68b02a52bc0fbb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auto-motor-und-sport.de",
+                "www.bike-x.de",
+                "www.caravaning.de",
+                "www.menshealth.de",
+                "www.motorradonline.de",
+                "www.outdoor-magazin.com",
+                "www.promobil.de",
+                "www.runnersworld.de",
+                "www.womenshealth.de"
+            ]
+        },
+        {
+            "rule": "motorpresse\\.de\\/api\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plausible"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auto-motor-und-sport.de",
+                "www.bike-x.de",
+                "www.caravaning.de",
+                "www.menshealth.de",
+                "www.motorradonline.de",
+                "www.outdoor-magazin.com",
+                "www.promobil.de",
+                "www.runnersworld.de",
+                "www.womenshealth.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "XHR": 9
+    },
+    "nameservers": [
+        "ns15.domserver.de",
+        "ns16.domserver.de",
+        "ns17.domserver.de",
+        "ns18.domserver.de"
+    ]
+}

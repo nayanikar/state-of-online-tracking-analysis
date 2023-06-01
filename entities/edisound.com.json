@@ -1,0 +1,175 @@
+{
+    "domain": "edisound.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "publishers",
+        "media"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "edisound\\.com\\/player\\/javascript\\/init\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "publishers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cee94fc4b42db2a4dc3dc608411a161e8ebc597b198a848ff0621f6fa03b463e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr"
+            ]
+        },
+        {
+            "rule": "edisound\\.com\\/player\\/javascript\\/podcast-1ecbfe6a-aad5-6db0-a62c-997a7fa595f5\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "publishers"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e155e48b656a22889e43a2147a6d206440fe7e5976e7ecf441915c2a6fff86fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr"
+            ]
+        },
+        {
+            "rule": "edisound\\.com\\/api\\/p\\/medias\\/fetch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "publishers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9df4f49dbeb6e555f7f54ace338f433d60429348e9576431711447bdea9c9bf8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr"
+            ]
+        },
+        {
+            "rule": "edisound\\.com\\/player\\/1ecbfe6a-aad5-6db0-a62c-997a7fa595f5\\/skin\\/1edd493d-b716-6e6e-8adb-17326e5f925e",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "publishers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e0198de3cf5cf8df19d47c8e0e5f021091819037610be811201fc59e5cf81131"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr"
+            ]
+        },
+        {
+            "rule": "edisound\\.com\\/build\\/player-format-sidebar\\.6f3f6b2f\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "publishers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "76e7bfa8d7deb9aade24fdc44a084a712954cf6abad11b5d7cd1a6ddfa3c8c85"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr"
+            ]
+        },
+        {
+            "rule": "edisound\\.com\\/medias\\/series\\/image\\/89cbe41d316484e4177c60c1fbf62e506007d5fbd59aa77347fc2ec3d203\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f6d50441e1a2a17c9c3cf6481cfab83f7688f27b1468dc75c817b26e4afa78cc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "ccmbg.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 2,
+        "Stylesheet": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "matt.ns.cloudflare.com",
+        "roxy.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "domain": "tldw.me",
+    "owner": {
+        "name": "spoteam.com",
+        "displayName": "spoteam.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "snippet",
+        "counter",
+        "apv-static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tldw\\.me\\/tv\\/0\\.41\\.91\\/tvp\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "snippet"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "window.name": 2,
+                "URL.createObjectURL": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7dc776fc422186d72020c9976ca309e09263d3b7fd07e6bdd3f0395dc8211552"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nine.com.au",
+                "www.carsguide.com.au"
+            ]
+        },
+        {
+            "rule": "tldw\\.me\\/_\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "counter"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nine.com.au",
+                "wwos.nine.com.au",
+                "www.carsguide.com.au"
+            ]
+        },
+        {
+            "rule": "tldw\\.me\\/videos\\/v-4d124220-1eb8-496b-2684323-a536-6da6c3a6064e-s13\\.28-19\\.28tvl\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apv-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1ac258176ca10b9997318c9a913c2a3fa2e5195f231a2b39233266140c0f375e"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nine.com.au",
+                "wwos.nine.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "minute.ly",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Ping": 3,
+        "Media": 2
+    },
+    "nameservers": [
+        "ray.ns.cloudflare.com",
+        "leah.ns.cloudflare.com"
+    ]
+}

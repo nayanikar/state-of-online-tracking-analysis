@@ -1,0 +1,593 @@
+{
+    "domain": "contextads.live",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "cdn",
+        "dac",
+        "delivery",
+        "pubs",
+        "vibecdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "contextads\\.live\\/publishers\\/cads-generic\\.min\\.js",
+            "cookies": 0.0000749,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 12,
+                "Date.prototype.getTime": 15,
+                "Document.cookie setter": 11,
+                "Screen.prototype.width": 14,
+                "Navigator.prototype.userAgent": 15,
+                "window.localStorage": 14,
+                "window.innerHeight": 4,
+                "window.innerWidth": 4
+            },
+            "sites": 15,
+            "prevalence": 0.000102,
+            "cnames": [],
+            "responseHashes": [
+                "452c8c27c608e02d5a6d9234631de2f87a8c2d763d2a47ee2e3d90c26c4b60c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "forkrtg": {
+                    "ttl": 31536007,
+                    "length": 22,
+                    "prevalence": 0.00007487781302329381,
+                    "uniqueness": 0.09090909090909091
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okezone.com",
+                "daerah.sindonews.com",
+                "hai.grid.id",
+                "in.ign.com",
+                "in.mashable.com",
+                "kalam.sindonews.com",
+                "lifestyle.sindonews.com",
+                "muslim.okezone.com",
+                "news.okezone.com",
+                "style.tribunnews.com",
+                "www.cnbcindonesia.com",
+                "www.detik.com",
+                "www.gridoto.com",
+                "www.kompas.tv",
+                "www.tribunnews.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/publishers\\/okezone\\/okezone\\.config\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "657e69cae8ff99220ceae5819eed7d32f10348f74012d1037d46b35a2eae7f11"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okezone.com",
+                "muslim.okezone.com",
+                "news.okezone.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/dac\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dac"
+            ],
+            "apis": {
+                "window.localStorage": 13,
+                "Document.cookie getter": 10
+            },
+            "sites": 15,
+            "prevalence": 0.000102,
+            "cnames": [],
+            "responseHashes": [
+                "c92b045f81bbe4017e8276fb9b91ccb39b44ada2ef65e341aebf57c494615b92"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okezone.com",
+                "daerah.sindonews.com",
+                "hai.grid.id",
+                "in.ign.com",
+                "in.mashable.com",
+                "kalam.sindonews.com",
+                "lifestyle.sindonews.com",
+                "muslim.okezone.com",
+                "news.okezone.com",
+                "style.tribunnews.com",
+                "www.cnbcindonesia.com",
+                "www.detik.com",
+                "www.gridoto.com",
+                "www.kompas.tv",
+                "www.tribunnews.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/blank\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dac"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 14,
+            "prevalence": 0.0000953,
+            "cnames": [],
+            "responseHashes": [
+                "6e8568bceb5a816a62201025776f3048eddccabc38b50a945883209ff18c4e50"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00004084244346725117,
+                "__dtmids": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "okezone.com",
+                "daerah.sindonews.com",
+                "hai.grid.id",
+                "in.ign.com",
+                "in.mashable.com",
+                "kalam.sindonews.com",
+                "lifestyle.sindonews.com",
+                "muslim.okezone.com",
+                "news.okezone.com",
+                "www.cnbcindonesia.com",
+                "www.detik.com",
+                "www.gridoto.com",
+                "www.kompas.tv",
+                "www.tribunnews.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/publishers\\/sindonews\\/sindonews\\.config\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "9dc57b334a46036a843664d400f38d03cf289056fe44bc00d9ae0caa8dccb46b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sindonews.com",
+                "kalam.sindonews.com",
+                "lifestyle.sindonews.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/www\\/delivery\\/rtb\\/rtb_ajs\\.php",
+            "cookies": 0.0000613,
+            "fingerprinting": 1,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 10,
+            "prevalence": 0.0000681,
+            "cnames": [],
+            "responseHashes": [
+                "e3169f3067ebad16a9c194054014373267b8cdafcfbc288be26bf58a6c53656b",
+                "e36acb98682b5879012f87e1fa0c968b4565457805b7df9c5dd6faf9297d6c55",
+                "af6dd768edbb62e7808548b216c940067e4bd7c6d26735b1872204c408c89906",
+                "2c0eab885dd3148fc1c259be11753803bfbb01f3c0b8466ef81d47e540939ea6",
+                "6573082d8cedcd175540d76e3058690e9a93a811e617fc263889e50a43e52365",
+                "f6a08a865045cddad5a20547942e000a940bf1b72eed9903953ea8710db60d5b",
+                "daf7a22107853a0259ffcda54048f802a297d3ea02dbbf31cf5dfebae7266598",
+                "39fba1b5350eaee069258f7d4da7ec52dbc2d5316ec3b9fef82e352f00c2ef91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000020421221733625584,
+                "__dtmids": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "sindonews.com",
+                "hai.grid.id",
+                "in.ign.com",
+                "in.mashable.com",
+                "kalam.sindonews.com",
+                "lifestyle.sindonews.com",
+                "style.tribunnews.com",
+                "www.detik.com",
+                "www.kompas.tv",
+                "www.tribunnews.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/www\\/delivery\\/rtb\\/rtb_ajs_l\\.php",
+            "cookies": 0.000034,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "3ef5bfc37d52c0e2ad46560d0cb191026aa6984a5458307b8d03ac13a7449d84",
+                "f63864ebe37fb0bfa6ad1de5877ad56ef7461651795771008f529bdc4f72c59b",
+                "0efa2c4c05ffc7dcef2aa7ae9ece42f452e6634905c146cadcb2a0e46ffe8ade",
+                "afcdfe1e2c5cf248b72e30ec6a2449e6ba02d5b3781fa52db597af347004145a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000020421221733625584
+            },
+            "exampleSites": [
+                "sindonews.com",
+                "in.ign.com",
+                "in.mashable.com",
+                "kalam.sindonews.com",
+                "lifestyle.sindonews.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/www\\/delivery\\/lg\\.php",
+            "cookies": 0.000034,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000020421221733625584
+            },
+            "exampleSites": [
+                "sindonews.com",
+                "in.ign.com",
+                "in.mashable.com",
+                "kalam.sindonews.com",
+                "lifestyle.sindonews.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/kgm\\/grid\\/grid\\/generic\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pubs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "aa343248b191d3a84f8a769251349eea96fe41aeaf7931398f6b13e3d86ce02d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grid.id",
+                "hai.grid.id"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/publishers\\/grid\\/grid\\.config\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "347ca7212d60810aac86cb5e7ecd7a73c9899a41442b55e35e0f59460e4bb832"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grid.id",
+                "hai.grid.id"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/publishers\\/grid\\/grid-hai\\.config\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d6a12b994c98fa1cd042d39202b45592c4e6a8adf5bc56e03ca0ced829def5c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grid.id",
+                "hai.grid.id"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/publishers\\/ign\\/ign\\.config\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e2c66fd9cbccc12f03355bbea09e7b227c346824ab25cf5b4d1ec9d0d1365f5d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "in.ign.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/www\\/delivery\\/Outstream\\/delivery\\/article\\.php",
+            "cookies": 0.000034,
+            "fingerprinting": 1,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "979c23adcb98f367ea8b27022199ecd72bbb4f47d9201561a29d05279fcad1b3",
+                "a3f9fadea279d06a41f78a11e981ee0cc1ce4cd0a9bb0b530ddd832cca3ce6aa",
+                "f59403a3f6dbceecda7eb5774040899aedcab315ad0ddf25cedcdfb67b75cf84"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__dtmids": 0.000013614147822417056,
+                "lotame_domain_check": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "ign.com",
+                "in.mashable.com",
+                "style.tribunnews.com",
+                "www.cnbcindonesia.com",
+                "www.detik.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/Inarticle\\/viewability\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vibecdn"
+            ],
+            "apis": {
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "295a536cca5fe3c62745357bc2145061cb395df9691c888a9e00331be712e1a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "in.mashable.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/exchanges\\/prebid\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "553e264d5621e66e617ecc49595809f06ba6eb10f52266dbdb043b41acb86a26"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "in.ign.com",
+                "in.mashable.com",
+                "www.cnbcindonesia.com",
+                "www.detik.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/Inarticle\\/jquery\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vibecdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "in.mashable.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/publishers\\/mashable\\/mashable\\.config\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eba1552f649440c7233729af2adae9c9c4a7a637151ae1b79791e4fea4581ab3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mashable.com",
+                "in.mashable.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/publishers\\/mashable\\/mashable-in\\.config\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a2a6c3791072c9c660f9e55100a68330d58130117715b7442aaed22f7d0b21fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mashable.com",
+                "in.mashable.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/publishers\\/tribunnews\\/tribunnews\\.config\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "62559d89adaef935ac40b68db4892acd3232143646e585d620100dfde7e8f180"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tribunnews.com",
+                "www.tribunnews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000123,
+    "topInitiators": [
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.39285714285714285
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.10714285714285714
+        }
+    ],
+    "types": {
+        "Script": 74,
+        "Document": 14,
+        "XHR": 5,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns-1115.awsdns-11.org",
+        "ns-460.awsdns-57.com",
+        "ns-894.awsdns-47.net",
+        "ns-1916.awsdns-47.co.uk"
+    ]
+}

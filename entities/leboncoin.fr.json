@@ -1,0 +1,114 @@
+{
+    "domain": "leboncoin.fr",
+    "owner": {
+        "name": "Adevinta ASA",
+        "displayName": "Adevinta"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "auth",
+        "img8",
+        "mobile"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "leboncoin\\.fr\\/api\\/authorizer\\/v2\\/authorize",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "803e9c426d59516af74dd23159b914de08f36fb0eca295f04f2a81c029d88df4"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leboncoin.info",
+                "assistance.leboncoin.info"
+            ]
+        },
+        {
+            "rule": "leboncoin\\.fr\\/FrontTools\\/didomi\\/lbc-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img8"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3480f0a0ccc126738d4b990e7e0b08159f744121afb9d4eecbc28913bd0ff61c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leboncoin.info",
+                "assistance.leboncoin.info"
+            ]
+        },
+        {
+            "rule": "leboncoin\\.fr\\/templates\\/api\\/list\\.json",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mobile"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guidemusulman.com",
+                "www.guidemusulman.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "zdassets.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns-1125.awsdns-12.org",
+        "ns-2035.awsdns-62.co.uk",
+        "ns-422.awsdns-52.com",
+        "ns-533.awsdns-02.net"
+    ]
+}

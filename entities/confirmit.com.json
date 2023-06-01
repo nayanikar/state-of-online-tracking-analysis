@@ -1,0 +1,195 @@
+{
+    "domain": "confirmit.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "digitalfeedback.us",
+        "digitalfeedback.euro"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "confirmit\\.com\\/api\\/digitalfeedback\\/loader",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "digitalfeedback.us",
+                "digitalfeedback.euro"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "4529a9c98d972c9a3fd8e5bb0861bfb41ed8cca23ea9a8774592b8752e9b04ae",
+                "1ddf50aa32d908f3440c56c00abe9630101a77aacb99cdae2b8bd353a0906c8c",
+                "54b22f6693c62cfa3ba8876b52fd7ccb68fa3343ab5c975e4fa1486d5832e37a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenovo.com",
+                "www.dyson.com",
+                "www.dyson.com.au",
+                "www.lenovo.com",
+                "www.motorola.com.au"
+            ]
+        },
+        {
+            "rule": "confirmit\\.com\\/api\\/digitalfeedback\\/loader\\/prod\\/program",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalfeedback.us",
+                "digitalfeedback.euro"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "b235b2ad54b13ab7c22b471c97962cbc8043eff0d073798186aee35f635a6569",
+                "6e46cdaf308c61ce5c8f2ab36f791a87242bef4dd4833a9457898a9b9e08d71f",
+                "7d683936fc5b9b18a809ae9d40b648b54a545795faab9b29373d803e0a719343"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenovo.com",
+                "www.dyson.com",
+                "www.dyson.com.au",
+                "www.lenovo.com",
+                "www.motorola.com.au"
+            ]
+        },
+        {
+            "rule": "confirmit\\.com\\/api\\/digitalfeedback\\/loader\\/prod\\/scenario",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "digitalfeedback.us",
+                "digitalfeedback.euro"
+            ],
+            "apis": {
+                "window.sessionStorage": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "c92902f866e9f48ddebffe1481f42dd23ae46b2b1f6bc59963321fdf5da2abf8",
+                "ce1098134917604516d7e250b2a48bd4469a525ffe68b8f5f8f5dca3cbd64721",
+                "4be2ddf603f0c953e18595b6d5ef5f14233ee41742c4faf36a05b51a76805b87",
+                "9bb0d13b92c3c51884927176b3cf5bb98b68de1f7da6f08c3c454103372923d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenovo.com",
+                "support.lenovo.com",
+                "www.dyson.com",
+                "www.dyson.com.au",
+                "www.lenovo.com",
+                "www.motorola.com.au"
+            ]
+        },
+        {
+            "rule": "confirmit\\.com\\/api\\/digitalfeedback\\/static\\/v29\\/intercept-survey\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "digitalfeedback.euro"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "832eb288c99c8dc1b904728759ead4992e54830a46ac12c07a7cf8d78873ba88"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dyson.com",
+                "www.dyson.com.au"
+            ]
+        },
+        {
+            "rule": "confirmit\\.com\\/api\\/digitalfeedback\\/loader\\/prod\\/scenario",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalfeedback.us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "motorola.com.au",
+                "www.motorola.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.5185185185185185
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14814814814814814
+        },
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 0.14814814814814814
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.037037037037037035
+        },
+        {
+            "domain": "static.pub",
+            "prevalence": 0.037037037037037035
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "XHR": 5,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "udns1.cscdns.net",
+        "udns2.cscdns.uk"
+    ]
+}

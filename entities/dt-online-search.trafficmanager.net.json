@@ -1,0 +1,113 @@
+{
+    "domain": "dt-online-search.trafficmanager.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "online-search.drivetime.com",
+            "resolved": "dt-online-search.trafficmanager.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dt-online-search\\.trafficmanager\\.net\\/search\\/indexes\\/dealershipsindex\\/docs\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "online-search.drivetime.com",
+                    "resolved": "dt-online-search.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drivetime.com",
+                "www.drivetime.com"
+            ]
+        },
+        {
+            "rule": "dt-online-search\\.trafficmanager\\.net\\/search\\/indexes\\/dealershipsindex\\/docs\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "online-search.drivetime.com",
+                    "resolved": "dt-online-search.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "bc354f4f9754862e5669c6a8bed4a02c18ba909b174b64464daf4127a81857fc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drivetime.com",
+                "www.drivetime.com"
+            ]
+        },
+        {
+            "rule": "dt-online-search\\.trafficmanager\\.net\\/search\\/indexes\\/vehiclesindex\\/docs\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "online-search.drivetime.com",
+                    "resolved": "dt-online-search.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "3492b3c49333607143939f6328a34ad3e8c91d61e46e941e8af7d7900f832e2c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drivetime.com",
+                "www.drivetime.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "msecnd.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 4
+    },
+    "nameservers": []
+}

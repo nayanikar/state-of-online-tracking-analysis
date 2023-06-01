@@ -1,0 +1,572 @@
+{
+    "domain": "vidyard.com",
+    "owner": {
+        "name": "Vidyard",
+        "displayName": "Vidyard"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "play",
+        "cdn",
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vidyard\\.com\\/embed\\/v4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "play"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.cookieEnabled": 6,
+                "PerformanceTiming.prototype.navigationStart": 6,
+                "Document.cookie getter": 2
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "b60bd972f27e38039698f35276c821030036aff9ef97d6dd282adc790d30211a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aldimobile.com.au",
+                "www.elastic.co",
+                "www.janes.com",
+                "www.nuance.com",
+                "www.qualtrics.com",
+                "www.resmed.com.au"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/Gfs339uMBi1CVavZEjXVZ8\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "play"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ddd26b84a52f1ebad4e55ea41e9f26b3eb771ffddc8c4165f0548e84e94f634a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/thumbnails\\/10554360\\/JyJ7-qlpUfx7Jf6yCc64GAleL7o3xSnX\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c95af238ca30d1a706a49cad83e9afc46f6bb12f01ca39873481175cb287f4ad"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/Gfs339uMBi1CVavZEjXVZ8",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "play"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/Gfs339uMBi1CVavZEjXVZ8",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "play"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "95686d10563a8e7a5c7e7692e117f2c40b1adea0d9ab8a01433cf367d1776ce4"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/play\\/js\\/runtime~main-1f4787f2f5164f51bc9d997c74a332ef\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "70e81e86c12b3e68c130e6e37604b3e37a23c7d4d8f1209cd6fb37b4f940145e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/play\\/js\\/main-0848513ab96834b7b8adae23e7926ac3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e0a93c95249cebbb8a22324d3f8e5f0801a41ff1fd27ac43485f8a56816e366a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co",
+                "www.janes.com"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/player\\/Gfs339uMBi1CVavZEjXVZ8\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "play"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "357220b642b973eed1fdf415a1ab23a1f782ae15cc3c5f4bc6da0ff0adfe8174"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/play\\/js\\/vendors~player~player-pomo~unreleased-30c7df3af1a6eeb5ffb421bda09fb928\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "813bf976cf628bed262a9b5e57c501d47e86e1426d8af989ddfbf9ea4d5f73b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co",
+                "www.janes.com"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/play\\/js\\/vendors~access-code~player-pomo~whitelisted-embed-009e1d5d1a2746d95d11a6333f7bd6b5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "abb77a867a7bac44eddc527b0ef9c6925b0e5dc067fc16adae7a74e626515ce9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co",
+                "www.janes.com"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/play\\/js\\/vendors~player-pomo-b7afad4ab7aaccec5fdf703ce67e3875\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "RTCPeerConnection.prototype.constructor": 3,
+                "Navigator.prototype.mediaDevices": 3,
+                "Event.prototype.timeStamp": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "30a6659ba13f03412ce629fd0f4a6ceacfa4a5c0723bf313a044d59dca84fc39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co",
+                "www.janes.com"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/play\\/stylesheets\\/player-pomo-436b62198a82fbc0af160a19821dd941\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d4e9fac0f02656454ae4088997741d855c08ad87560d0d5571e13ff06d1d1ea4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/play\\/js\\/player-pomo-436b62198a82fbc0af160a19821dd941\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.languages": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "efbd719e3a10665ce10d7bdccfeb87be3569f458a81e5fa65e0ae9544cdd027c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/video\\/Gfs339uMBi1CVavZEjXVZ8",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "play"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eedcf1bce9134a6e110c0eef166c4af6e0febd2319c7ceec511813db6cb0ec1c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/play\\/js\\/7-264f8ea0dde8aed26f4c36cd5a46a5b9\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "URL.createObjectURL": 3,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.connection": 2,
+                "MediaSource.isTypeSupported": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "b506149960b2fff2e53d7c4a5f77d61f4c6dde17727d57ce625325a6f8def0cf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co",
+                "www.janes.com"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/play\\/stylesheets\\/6-56e3e6885b87bba43fdf291bb8af1aa6\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b6320e221b61f50fdfee02e86288aca6b426795dd014c5add80fcef7632ac6f8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/play\\/js\\/6-56e3e6885b87bba43fdf291bb8af1aa6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a3645023f8986927ddd4e7e0f99fd7e5acb27cd897786ba6f2e6aaed49da5564"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/play\\/js\\/36-d197f9d0f42386cdc3f46ddfe969545b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f370a7bc7f5373900211ba3893ce00409e5b4d8f8b94d52f448a7e4dd55009bd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co",
+                "www.janes.com"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/transcriptions\\/C6udWUorf3Ck-CdFjY-7Vg\\/pbrcujt-B_13KP2KCMIuhg\\.vtt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "TextTrack",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/media\\/hls\\/cY4BCWc61wnkvbPGwCRqIA\\/,full_hd,hd,480p,sd,\\.mp4\\.urlset\\/master\\.m3u8",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/JULqdr997YtPKndqmJmiUT\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "play"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "24d27e114268fbafbb56082b556bffeef07788c4a3cfb4469c53ac91a92f27fa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "janes.com",
+                "www.janes.com"
+            ]
+        },
+        {
+            "rule": "vidyard\\.com\\/thumbnails\\/34874257\\/di-c5suG4eA_4GYExvAsGA\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "24d27e114268fbafbb56082b556bffeef07788c4a3cfb4469c53ac91a92f27fa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "janes.com",
+                "www.janes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 30,
+        "Image": 8,
+        "Other": 2,
+        "Document": 2,
+        "Fetch": 2,
+        "Stylesheet": 4,
+        "XHR": 4,
+        "TextTrack": 2
+    },
+    "nameservers": [
+        "ns-87.awsdns-10.com",
+        "ns-703.awsdns-23.net",
+        "ns-1927.awsdns-48.co.uk",
+        "ns-1404.awsdns-47.org"
+    ]
+}

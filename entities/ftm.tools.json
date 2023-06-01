@@ -1,0 +1,75 @@
+{
+    "domain": "ftm.tools",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "rpc"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ftm\\.tools\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stargate.finance",
+                "synapseprotocol.com"
+            ]
+        },
+        {
+            "rule": "ftm\\.tools\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "97cea54a2ce59f0cf9821596ed05cdc6f9d8104fac156c72c8b9e42f9674d230"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stargate.finance",
+                "synapseprotocol.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "merlin.ns.cloudflare.com",
+        "maria.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "domain": "bitrix.info",
+    "owner": {
+        "name": "Bitrix Ltd.",
+        "displayName": "Bitrix"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000885,
+    "sites": 13,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bitrix\\.info\\/ba\\.js",
+            "cookies": 0.0000545,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "Date.prototype.getTimezoneOffset": 6,
+                "Date.prototype.getTime": 6,
+                "Document.cookie getter": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "897c58672b375fd206d4df4ccd71a3fa3e29f739f4db5251b94895ad015f9710"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "BX_USER_ID": {
+                    "ttl": 315360004,
+                    "length": 32,
+                    "prevalence": 0.00004084244346725117,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expertology.ru",
+                "rskrf.ru",
+                "ru.siberianhealth.com",
+                "rusneb.ru",
+                "skillbox.ru",
+                "www.audit-it.ru",
+                "www.digitalcombatsimulator.com",
+                "www.medicina.ru"
+            ]
+        },
+        {
+            "rule": "bitrix\\.info\\/bx_stat",
+            "cookies": 0.0000408,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "34e99b6853ea309c9b3ddaaf9eb694e6e49f21936210a3dcf59161a1d2f7da75",
+                "0bc75f7e2af1a5529cb576858466b051666f4b16647b95c498fd9db68078d4a8",
+                "e108512f9b91a2313f037748fbb6f71e0174b75eb2943122c24e7caf12b692ee",
+                "005ee2996d99c0a7b84e7e98a76c4865b8e2a37341afef017b1cbfb6cea52aec",
+                "c8af56c87625a0d8119a02b569eb656fa450f1f62fb65593ffc301438398cf1d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rskrf.ru",
+                "ru.siberianhealth.com",
+                "rusneb.ru",
+                "skillbox.ru",
+                "www.audit-it.ru",
+                "www.medicina.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000885,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-1086.awsdns-07.org",
+        "ns-1979.awsdns-55.co.uk",
+        "ns-356.awsdns-44.com",
+        "ns-682.awsdns-21.net"
+    ]
+}

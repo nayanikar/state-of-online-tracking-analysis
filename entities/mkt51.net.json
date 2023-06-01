@@ -1,0 +1,90 @@
+{
+    "domain": "mkt51.net",
+    "owner": {
+        "name": "International Business Machines Corporation",
+        "displayName": "International Business Machines",
+        "privacyPolicy": "https://www.ibm.com/privacy/us/en/",
+        "url": "http://ibm.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "contentz"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mkt51\\.net\\/lp\\/static\\/js\\/iMAWebCookie\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "contentz"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "27a1e80167055f562f0ddda38620ec1f5a354c5ab795c75da16874f4095520f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "com.silverpop.iMAWebCookie": {
+                    "ttl": 86400003,
+                    "length": 36,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "com.silverpop.iMA.page_visit": {
+                    "ttl": 1203,
+                    "length": 12,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "com.silverpop.iMA.session": {
+                    "ttl": 1203,
+                    "length": 36,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redwingshoes.com",
+                "stores.redwingshoes.com",
+                "www.bsnsports.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns2.acoustic-adm.com",
+        "ns1.acoustic-adm.com",
+        "ns4.acoustic-adm.com",
+        "ns3.acoustic-adm.com"
+    ]
+}

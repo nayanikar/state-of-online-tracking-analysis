@@ -1,0 +1,650 @@
+{
+    "domain": "smart-bdash.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00015,
+    "sites": 22,
+    "subdomains": [
+        "cdn.activity",
+        "tracker",
+        "receptions",
+        "recommendserveweb"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "smart-bdash\\.com\\/tracking-script\\/bdash_log\\.js",
+            "cookies": 0.0000749,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Document.cookie getter": 11,
+                "Date.prototype.getTime": 12,
+                "Document.cookie setter": 11,
+                "Navigator.prototype.userAgent": 12
+            },
+            "sites": 12,
+            "prevalence": 0.0000817,
+            "cnames": [],
+            "responseHashes": [
+                "55e7d7bde197ebe61615791e046815b092b2fb5a1c0a7d099e6d87fdf3460160"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bd_prev_page": {
+                    "ttl": 1807,
+                    "length": 75,
+                    "prevalence": 0.00007487781302329381,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benesse.ne.jp",
+                "hands.net",
+                "knowledge.nurse-senka.jp",
+                "shop.newbalance.jp",
+                "skyticket.jp",
+                "www.agaroot.jp",
+                "www.cdjapan.co.jp",
+                "www.dospara.co.jp",
+                "www.enjoytokyo.jp",
+                "www.hokkaido-np.co.jp",
+                "www.kanaloco.jp",
+                "www.ozmall.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/reception-script\\/reception\\.js",
+            "cookies": 0.0000476,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 7,
+                "window.innerHeight": 2
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "5087f7c6d8aa804fdb6d65d2c12dbd3624e06ff3f738376ed5945a02027708d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bd_reception_request_timestamp": {
+                    "ttl": null,
+                    "length": 26,
+                    "prevalence": 0.00004764951737845969,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benesse.ne.jp",
+                "knowledge.nurse-senka.jp",
+                "skyticket.jp",
+                "www.agaroot.jp",
+                "www.enjoytokyo.jp",
+                "www.kanaloco.jp",
+                "www.ozmall.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/tracking",
+            "cookies": 0.0000817,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000817,
+            "cnames": [],
+            "responseHashes": [
+                "3469f16ae85d469990b39207f81d617eba3c7a7f4eb2a783a0a648a49e260b78",
+                "4fa863c61d5868b86c18e459841e5fe833af0f7c3c9bfff9df5011441148c3ab",
+                "d37a23238ae0793ba2a7f3297939c956cc40eae9607f551cae5c4413ef271de0",
+                "175916087933055eadeae117a3f52ff3dea46ad3a6913d795171ba532ffed771",
+                "8a16552a95d8c7d1e4f6b4acced8a3669aff6b74165b35c886490e438b0bd049",
+                "e660da92f92253a04b6cca4707916a2ec4b4a51d878137fd29abbd54ee5e4d2b",
+                "5de3b25434e89d4a2c39c2e257f131db74ff404e1e251210ed5da75686be6573",
+                "447458dea2749b980f8a9a33160ed44486f22fc2ee6774c15de86e86dd6dce62",
+                "e20e064c46461e29234142a409e81ed324b5382156bb2882e3274d87d02216bc",
+                "7c300068ad4339fb460084179d38349334bb08374a4ae00ce67218eb006d8e76",
+                "013445b22ae2304138781237ab63edde5f679afff6317765ed67cc675c8fa628"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benesse.ne.jp",
+                "hands.net",
+                "knowledge.nurse-senka.jp",
+                "shop.newbalance.jp",
+                "skyticket.jp",
+                "www.agaroot.jp",
+                "www.cdjapan.co.jp",
+                "www.dospara.co.jp",
+                "www.enjoytokyo.jp",
+                "www.hokkaido-np.co.jp",
+                "www.kanaloco.jp",
+                "www.ozmall.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/receptions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "receptions"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "ac4ac4ef253493aaf2f7413ae054d8f8169f7485cb5cac54a3eaa787a4f2262a",
+                "8f7b75f0f9f0426a6044d082d6335549ccec7b5c86d1198a8db4096c02750b42",
+                "1547cb7b9293b4f79c3fbde54a407c1df1f3ebccfabd4db79c94059e047c4305",
+                "24b558b2068aa7a5511b8b8f825a2c5bad16e3b3080ef18af386c3cf1d87b0b5",
+                "1ac449f01bb0334ce1c393f365604f4c557e1e416723d570f9b4531740668d56",
+                "248929ffaf38ff5738e28a2cc22320422b867a040ac5dac9a712ffeb270c694f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benesse.ne.jp",
+                "knowledge.nurse-senka.jp",
+                "skyticket.jp",
+                "www.agaroot.jp",
+                "www.enjoytokyo.jp",
+                "www.kanaloco.jp",
+                "www.ozmall.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/receptions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "receptions"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benesse.ne.jp",
+                "knowledge.nurse-senka.jp",
+                "skyticket.jp",
+                "www.agaroot.jp",
+                "www.enjoytokyo.jp",
+                "www.kanaloco.jp",
+                "www.ozmall.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/tag-manager\\/bd-vu4hjo\\/btm\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d35a23f1d5d4c3cb80833699d1a5a04f0e378e7d65d05cdd8413a49037ce4266"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bdck": {
+                    "ttl": 63072009,
+                    "length": 19,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdsid": {
+                    "ttl": 1809,
+                    "length": 33,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdnvf": {
+                    "ttl": 63072009,
+                    "length": 52,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bd_prev_page_ex": {
+                    "ttl": 1811,
+                    "length": 75,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newbalance.jp",
+                "shop.newbalance.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/tag-manager\\/bd-sofvhq\\/btm\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "135b824dd6cecc8fb791a6cfa85ec2b883169a6385bac4a8a931b8cb04efa71d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bdck": {
+                    "ttl": 63072013,
+                    "length": 19,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdsid": {
+                    "ttl": 1813,
+                    "length": 33,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdnvf": {
+                    "ttl": 63072013,
+                    "length": 53,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bd_prev_page_ex": {
+                    "ttl": 1817,
+                    "length": 78,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agaroot.jp",
+                "www.agaroot.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/tag-manager\\/bd-e4x2cu\\/btm\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3d75da30226d6ca3a20586cbd47609417c35fdee78568a48d954e0141dd7de9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bdck": {
+                    "ttl": 63072002,
+                    "length": 19,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdsid": {
+                    "ttl": 1802,
+                    "length": 33,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdnvf": {
+                    "ttl": 63072002,
+                    "length": 52,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bd_prev_page_ex": {
+                    "ttl": 1804,
+                    "length": 78,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdjapan.co.jp",
+                "www.cdjapan.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/tag-manager\\/bd-if7mqn\\/btm\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "aabbaae24e63646a14a7960890715d204d1f47633721ec1b75761eee7d06019a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bdck": {
+                    "ttl": 63072004,
+                    "length": 19,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_bdsid": {
+                    "ttl": 1804,
+                    "length": 33,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_bdnvf": {
+                    "ttl": 63072005,
+                    "length": 50,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_bd_prev_page_ex": {
+                    "ttl": 1810,
+                    "length": 72,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dospara.co.jp",
+                "www.dospara.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/tag-manager\\/bd-m1tpcs\\/btm\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f19c497133a2cc527f4a6ce090b8a0d62827932e0f9e3701253c307d54f90926"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bdck": {
+                    "ttl": 63072013,
+                    "length": 19,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdsid": {
+                    "ttl": 1813,
+                    "length": 33,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdnvf": {
+                    "ttl": 63072013,
+                    "length": 53,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bd_prev_page_ex": {
+                    "ttl": 1826,
+                    "length": 56,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "enjoytokyo.jp",
+                "www.enjoytokyo.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/tag-manager\\/bd-7verxz\\/btm\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cd32a98495cda696dab5c463e358920a1ff93309c89fabccaaf2bda0cf5d9e5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bdck": {
+                    "ttl": 63072006,
+                    "length": 19,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdsid": {
+                    "ttl": 1806,
+                    "length": 33,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdnvf": {
+                    "ttl": 63072006,
+                    "length": 52,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bd_prev_page_ex": {
+                    "ttl": 1832,
+                    "length": 72,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hokkaido-np.co.jp",
+                "www.hokkaido-np.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/tag-manager\\/bd-jof6dt\\/btm\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7f00562ce6b32ad28c695f8970351c80f7e07d68b02c229f411438493f63d364"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bdck": {
+                    "ttl": 63072014,
+                    "length": 19,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdsid": {
+                    "ttl": 1814,
+                    "length": 33,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdnvf": {
+                    "ttl": 63072014,
+                    "length": 52,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kanaloco.jp",
+                "www.kanaloco.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/tag-manager\\/bd-t1grvc\\/btm\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "21b47fd24b6a325629f7d12db900a4d87d64d714caad2cb3c5f35f784b38c8d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bdck": {
+                    "ttl": 63072005,
+                    "length": 19,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdsid": {
+                    "ttl": 1805,
+                    "length": 33,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bdnvf": {
+                    "ttl": 63072005,
+                    "length": 54,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_bd_prev_page_ex": {
+                    "ttl": 1808,
+                    "length": 81,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ozmall.co.jp",
+                "www.ozmall.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/out\\/getRecs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommendserveweb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ozmall.co.jp",
+                "www.ozmall.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00015,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8636363636363636
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.13636363636363635
+        }
+    ],
+    "types": {
+        "Script": 35,
+        "XHR": 21,
+        "Preflight": 7
+    },
+    "nameservers": [
+        "ns-260.awsdns-32.com",
+        "ns-864.awsdns-44.net",
+        "ns-1638.awsdns-12.co.uk",
+        "ns-1069.awsdns-05.org"
+    ]
+}

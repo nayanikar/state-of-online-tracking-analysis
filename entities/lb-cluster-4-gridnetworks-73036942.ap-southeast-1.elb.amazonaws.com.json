@@ -1,0 +1,94 @@
+{
+    "domain": "lb-cluster-4-gridnetworks-73036942.ap-southeast-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "ads.grid.id",
+            "resolved": "lb-cluster-4-gridnetworks-73036942.ap-southeast-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "lb-cluster-4-gridnetworks-73036942\\.ap-southeast-1\\.elb\\.amazonaws\\.com\\/PREBIDJS\\.JS\\/2023\\/grid-gridoto-prebid7\\.31\\.0\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "ads.grid.id",
+                    "resolved": "lb-cluster-4-gridnetworks-73036942.ap-southeast-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "bf4db2f8f53ab2893d0c6da9df4b76b4246c23857c74417be7a63d595107a3ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grid.id",
+                "hai.grid.id"
+            ]
+        },
+        {
+            "rule": "lb-cluster-4-gridnetworks-73036942\\.ap-southeast-1\\.elb\\.amazonaws\\.com\\/OSM\\/osm-desktop-grid\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "ads.grid.id",
+                    "resolved": "lb-cluster-4-gridnetworks-73036942.ap-southeast-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "eee7d0e02b19240b6d9fb30de1b6a366345b05adde615b8741d3a32fe3dd9358"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grid.id",
+                "hai.grid.id"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "jixie.media",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": []
+}

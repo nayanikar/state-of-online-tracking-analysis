@@ -1,0 +1,102 @@
+{
+    "domain": "listenloop.com",
+    "owner": {
+        "name": "LISTENLOOP by SR SOLUTIONS",
+        "displayName": "LISTENLOOP by SR SOLUTIONS"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "v2",
+        "abm2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "listenloop\\.com\\/analytics\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "v2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.mimeTypes": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "89351077b5f51ae2ab0a5f09a0d41353b7fa263d5c3a4bc2cb9f2a1a9c93dee9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "splunk.com",
+                "docs.databricks.com",
+                "docs.splunk.com",
+                "www.databricks.com",
+                "www.splunk.com"
+            ]
+        },
+        {
+            "rule": "listenloop\\.com\\/api\\/v1\\/public\\/analytics_data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "abm2"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "54c92804a5f97113030e5307876352f27f1623775916b78311a3131a6bf89fab"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "splunk.com",
+                "docs.databricks.com",
+                "docs.splunk.com",
+                "www.databricks.com",
+                "www.splunk.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "ads-twitter.com",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "lithium.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "signalfx.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "cloe.ns.cloudflare.com",
+        "neil.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "domain": "profilebuilder.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "v4"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "profilebuilder\\.app\\/sites\\/pfb\\/modules\\/pfb\\/css\\/client\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4b0821978f7c12f4c97e86a9e898812f03ffd5b41f903cc748e7162dd2dcf2a2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "probuilder.com",
+                "www.probuilder.com"
+            ]
+        },
+        {
+            "rule": "profilebuilder\\.app\\/sites\\/pfb\\/modules\\/pfb\\/js\\/device-detector\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "v4"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a033a003586dd364e8790017b40754cd4fd35e4235fc6e7a9bee3ab4a73c1c47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "probuilder.com",
+                "www.probuilder.com"
+            ]
+        },
+        {
+            "rule": "profilebuilder\\.app\\/sites\\/pfb\\/modules\\/pfb\\/js\\/bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "v4"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e88536429c837a1c024606e401f6bc1a1b375722e95796cb348c368723163e33"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "probuilder.com",
+                "www.probuilder.com"
+            ]
+        },
+        {
+            "rule": "profilebuilder\\.app\\/api\\/v1\\/preload\\.json",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dcce26a6a1500c132d51884e5d0fbf30b5be2cfba63bae52e2dc0deecec7dd72"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "probuilder.com",
+                "www.probuilder.com"
+            ]
+        },
+        {
+            "rule": "profilebuilder\\.app\\/api\\/v1\\/bootstrap\\.json",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "probuilder.com",
+                "www.probuilder.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "sue.ns.cloudflare.com",
+        "arch.ns.cloudflare.com"
+    ]
+}

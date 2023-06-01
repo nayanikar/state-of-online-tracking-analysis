@@ -1,0 +1,82 @@
+{
+    "domain": "u-lead.it",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "leadpack"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "u-lead\\.it\\/leadpack_v1\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "leadpack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "a5a5829695ab5e962829cad77349f1976952dd7f9780d48f1f565a724cf410b1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "punto-informatico.it",
+                "www.punto-informatico.it",
+                "www.studentville.it"
+            ]
+        },
+        {
+            "rule": "u-lead\\.it\\/leadpack_v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "leadpack"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "9c813666326ebbeb2563fa4118532222e647dba0e740cb903ab01d4cfd4bc5b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "punto-informatico.it",
+                "www.punto-informatico.it",
+                "www.studentville.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 3,
+        "Script": 3
+    },
+    "nameservers": [
+        "ns1.register.it",
+        "ns2.register.it"
+    ]
+}

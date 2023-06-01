@@ -1,0 +1,110 @@
+{
+    "domain": "outside-auth-header.vercel.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "outside-auth-header\\.vercel\\.app\\/bundle\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7d5926a2b628f8a0c373b4c5abb78039708bda59fa51693a26b1c9a2575a184b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_dd_s": {
+                    "ttl": 923,
+                    "length": 3,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingtips.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "outside-auth-header\\.vercel\\.app\\/vendors-node_modules_babel_runtime-corejs3_core-js-stable_array_is-array_js-node_modules_babe-2a0ef2\\.bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eba85d5d38882fb01a305cf8c2aa0cfe01459a5d553579f4da6603a91f07e352"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingtips.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "outside-auth-header\\.vercel\\.app\\/OutsideHeader_tsx\\.bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "BroadcastChannel.prototype.constructor": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8af4fab222748fb65eb14368a03c9fe8d8fe7363297add47b89edd8f81a22af7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingtips.com",
+                "www.yogajournal.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": []
+}

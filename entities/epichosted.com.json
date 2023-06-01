@@ -1,0 +1,116 @@
+{
+    "domain": "epichosted.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "mychart.et0996",
+        "mychart-np.et1015"
+    ],
+    "cnames": [
+        {
+            "original": "mychart.uconn.edu",
+            "resolved": "mychart.et0996.epichosted.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/Scripts\\/lib\\/Widget\\/widget_sdk\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et0996"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "mychart.uconn.edu",
+                    "resolved": "mychart.et0996.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "ca6300f2239cd1f7cece7f8c1d7fa3aa8d0a6ab5acac7ef8627a132e9c79b705"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uconn.edu",
+                "health.uconn.edu"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/mycharttst\\/Content\\/EmbeddedWidget\\.css",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart-np.et1015"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "be738c67b00708dbd48c990978f77c55ad65c7b8789f943e84cc8f776cee1f64"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orthovirginia.com",
+                "www.orthovirginia.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/mycharttst\\/Content\\/EmbeddedWidgetController\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart-np.et1015"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4e58b0230802dbf098acf03895ed39f8e187149602205b6297002c5d5471fa71"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orthovirginia.com",
+                "www.orthovirginia.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "vrnawi-dns-001.epichosted.com",
+        "rochmn-dns-001.epichosted.com",
+        "vrnawi04-dns-001.epichosted.com",
+        "rochmn04-dns-001.epichosted.com"
+    ]
+}

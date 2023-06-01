@@ -1,0 +1,552 @@
+{
+    "domain": "signifyd.com",
+    "owner": {
+        "name": "Signifyd Inc.",
+        "displayName": "Signifyd"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00211,
+    "sites": 21,
+    "subdomains": [
+        "cdn-scripts",
+        "imgs"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "signifyd\\.com\\/shopify\\/script-tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-scripts"
+            ],
+            "apis": {
+                "Document.cookie getter": 9,
+                "window.name": 9,
+                "Navigator.prototype.userAgent": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "28007761338c1e98e5b151031b85fdea6624c9218c8d8503967f312867d7972a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "addictedtoaudio.com.au",
+                "au.kef.com",
+                "pacsafe.com",
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.culturekings.com.au",
+                "www.electrickicks.com.au",
+                "www.kookai.com.au",
+                "www.mygyc.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/tags\\.js",
+            "cookies": 0.00201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 20,
+                "Navigator.prototype.vendor": 20,
+                "Navigator.prototype.platform": 20,
+                "Navigator.prototype.appVersion": 20
+            },
+            "sites": 20,
+            "prevalence": 0.00201,
+            "cnames": [],
+            "responseHashes": [
+                "b12cd542c8e2495384e13088141ca68165161457093f9891be524dd8f2eb14c2",
+                "5d4d82418aa759aa2c15a61b163c5fcedd6a7ff1caf57e41c8ef9858bc70bc61",
+                "df5b405c442ff1b32e8f7d902193f3d29617016e83c5942457736396642fa822",
+                "31d90cb5ab2331d3cd48f240a2fd4837d28ba4c8fc2f9048997a11f30ed743a0",
+                "f5cde57f31562eeb0ebff52ffd10984604eeee772564ff1782fea6b99d717c46",
+                "c0b76958e2c3dd97c71c4595b294e20b3b7b40a43fa30aed908ce7b03c409c5d",
+                "f8505a4dba528290e8e702d68232f8bc73a82a1af7ade8e5e000e457f36841cb",
+                "c6cfcbe4004048beec797ce9c37b8938f4f78d7d044f23f3e14f053555fabe78",
+                "887159685c34eb2033f3fb888dfabda58dea894df161aefe525222d875ba1e9e",
+                "86ae49802ecef9c71002842acc2b3e07968dcb11a295520419ea4b3cb310e4a3",
+                "535c830a050d60c8acb00be0087fec4f0e3d56a02c7cf938fd7bc24b71c09e65",
+                "7a4f9a030c6f650da262cb709c3cdcd84d8ea3242bae1e21a37cd7b9d7590461",
+                "2eb21aca068013ac3da389622ea5ad431d79547deb8a8e411fe3ed748707bece",
+                "829ad528c04db125081eae22399715530ab12a26058f78c0d92ac4167528d801",
+                "9682a18f00b2971b78e1e7cf55958e72a021eee4ed911fe2836fe59e1f492457",
+                "1fe3ceffc689d45a1c99e85cfcf8d767d1134941ee76f4eda20326263ea317c5",
+                "871c99a77a3f73c786ec169a829e99f7c48ca1c71b61e8d6e186ff20ae851af8",
+                "fe053a3551a1759786f2e75ae050e2c3170108f17d0538c3909e700c917cdddd",
+                "d10653ae5db620c5f6e7c91ce11ca0d254a89ee650a0f8fe6f2a35cdb3df5374"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "signifyd-session-id": 0.00010040160642570282,
+                "sig-bc-stores/55834": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "addictedtoaudio.com.au",
+                "au.kef.com",
+                "pacsafe.com",
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.arlo.com",
+                "www.breville.com",
+                "www.culturekings.com.au",
+                "www.digitalcamerawarehouse.com.au",
+                "www.doordash.com",
+                "www.electrickicks.com.au",
+                "www.emma-sleep.com.au",
+                "www.fishingtackleshop.com.au",
+                "www.giro.com",
+                "www.kookai.com.au",
+                "www.metallica.com",
+                "www.mygyc.com.au",
+                "www.philips.com.au",
+                "www.sds.com.au",
+                "www.tradetools.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/check\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {
+                "Navigator.prototype.mimeTypes": 16,
+                "Navigator.prototype.userAgent": 16,
+                "Navigator.prototype.vendor": 16,
+                "Navigator.prototype.platform": 16,
+                "Navigator.prototype.appVersion": 16,
+                "Date.prototype.getTimezoneOffset": 17,
+                "window.devicePixelRatio": 17,
+                "Screen.prototype.width": 16,
+                "Screen.prototype.height": 16,
+                "Screen.prototype.availWidth": 16,
+                "Screen.prototype.availHeight": 16,
+                "window.screenX": 17,
+                "window.screenY": 17,
+                "window.innerWidth": 17,
+                "window.innerHeight": 17,
+                "window.outerWidth": 17,
+                "window.outerHeight": 17,
+                "Screen.prototype.colorDepth": 16,
+                "Navigator.prototype.plugins": 16,
+                "Navigator.prototype.hardwareConcurrency": 16,
+                "Navigator.prototype.deviceMemory": 16,
+                "Navigator.prototype.maxTouchPoints": 16,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 17,
+                "WebGLRenderingContext.prototype.getParameter": 16,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 16,
+                "WebGLRenderingContext.prototype.getExtension": 16,
+                "window.localStorage": 16,
+                "window.indexedDB": 16,
+                "RTCPeerConnection.prototype.constructor": 16,
+                "Navigator.prototype.storage": 16,
+                "Navigator.prototype.getBattery": 16,
+                "OfflineAudioContext.prototype.constructor": 16,
+                "Navigator.prototype.mediaDevices": 17,
+                "MediaDevices.prototype.enumerateDevices": 17,
+                "HTMLCanvasElement.prototype.toDataURL": 16,
+                "AudioBuffer.prototype.getChannelData": 16,
+                "RTCPeerConnectionIceEvent.prototype.candidate": 11
+            },
+            "sites": 20,
+            "prevalence": 0.00201,
+            "cnames": [],
+            "responseHashes": [
+                "28bedc5d4854c13bc6f4e84a9e5542e968d4103a53fd2b4ec58c53b27ce30fcb",
+                "bbf8d1c6f34477a5c6943bfbf242480eb0a910d2500d096bb82f780140f6d435",
+                "48ff840b14fb83e49b03d8703e3de9ec46280443f1290e85b35845686d0bc151",
+                "87f2f7b4d42931fb67fc1c5a8b3a7e61234590b8cd7dfd19cfd5fbf43f9c935c",
+                "aa96988af476c107fe2c3ab4115476f0f52aa9f4abfbc3a98c205b64dd2be305",
+                "8b253281b2c6218bc17329784486769904c53ed7de797ac19b9427325f0ed4b8",
+                "683a723d6abb55a2bfa2112854b8ec8687d39749ff898d8eb55d25f18e0f2ddc",
+                "fe0f86e3bb2eb92468e2dd7f9d4d9dbbb1114da17dcd74b270cb1055691b83df",
+                "175ef9cd3d1569749c7d4769c85a2ab0305ff1b17e2dfd8c769373923916ee23",
+                "9b8fd579eb75bdefbffc10940b01840e2f2ecbc3894c75928b9a87367987d4dc",
+                "5038b613f56f942c9f3dc4e0152e81bb03bc1ba7f4e45fddd725dee1e03f65a7",
+                "c923e06224a8bd77e6fe9c80174ae4f467a182d417dae28a8bc55bc8c1215749",
+                "85f0f43cc9222d9a3c8bd3195cfd471806759e5d4293bb7430c19eba8dc0a6a4",
+                "69a1440f750acc83109a1957cba186dcdb2450d78acca32ecb2e17e210d155e8",
+                "f0db3b82ab2928b92c982ef5b35293b78233c341b94e95798ea72debfb1fe78c",
+                "0cbcd7388a1231afd23a169ddada381abf11392d52f12c4bbd1a66b07712f867"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "signifyd-session-id": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "addictedtoaudio.com.au",
+                "au.kef.com",
+                "pacsafe.com",
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.arlo.com",
+                "www.breville.com",
+                "www.culturekings.com.au",
+                "www.digitalcamerawarehouse.com.au",
+                "www.doordash.com",
+                "www.electrickicks.com.au",
+                "www.emma-sleep.com.au",
+                "www.fishingtackleshop.com.au",
+                "www.giro.com",
+                "www.kookai.com.au",
+                "www.metallica.com",
+                "www.mygyc.com.au",
+                "www.philips.com.au",
+                "www.sds.com.au",
+                "www.tradetools.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/clear\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.00201,
+            "cnames": [],
+            "responseHashes": [
+                "6882437cef514eeafff92a4dde96489b049e439967c6c99faff992e2045d994c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "signifyd-session-id": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "addictedtoaudio.com.au",
+                "au.kef.com",
+                "pacsafe.com",
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.arlo.com",
+                "www.breville.com",
+                "www.culturekings.com.au",
+                "www.digitalcamerawarehouse.com.au",
+                "www.doordash.com",
+                "www.electrickicks.com.au",
+                "www.emma-sleep.com.au",
+                "www.fishingtackleshop.com.au",
+                "www.giro.com",
+                "www.kookai.com.au",
+                "www.metallica.com",
+                "www.mygyc.com.au",
+                "www.philips.com.au",
+                "www.sds.com.au",
+                "www.tradetools.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/clear\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "6882437cef514eeafff92a4dde96489b049e439967c6c99faff992e2045d994c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "addictedtoaudio.com.au",
+                "au.kef.com",
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.arlo.com",
+                "www.breville.com",
+                "www.culturekings.com.au",
+                "www.doordash.com",
+                "www.electrickicks.com.au",
+                "www.emma-sleep.com.au",
+                "www.fishingtackleshop.com.au",
+                "www.giro.com",
+                "www.kookai.com.au",
+                "www.metallica.com",
+                "www.mygyc.com.au",
+                "www.sds.com.au",
+                "www.tradetools.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/ls_fp\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {
+                "window.localStorage": 7
+            },
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "f8e278b1313b0721f64137e3f5a0a62910d3d07e653d0aa6d259b6ad2d09de14",
+                "747f5e0abe01951556a97b635f01da398dfa964812793abb6ddd9d73ec58bd3a",
+                "2a35d7eeb547c261dd665aa3afdfd3bb64a020a8fd1d0aeba29ba3585b0cd47f",
+                "547042e3c87db049fb16d79b3deee990d1993efe2559eec9a5d8233473d91487",
+                "36a0e08651f30c69f3669cdf7e5a74b243c1e7f77ffc0b3146411ab87bb1b6da",
+                "2812848c1133e2e5ab4e7b5029936ca8b224afe50fa97eba6a9e9825560a502b",
+                "3e2bfe902e9653851f9cfade61d9cb023336d1607d53edf3c944ae63ab1f39e6",
+                "5644b0163873b8bdb67dcab048334f41e70411115577e8f8de993d184523042d",
+                "64d332d447b166ca8d9eb076cf90bfc24d4feb28cba800849ee5d654ac9158d4",
+                "66072ce7b819900614c097218d58c935c3a2ad9437a3d63b2773546ee9e97476",
+                "e52c2cf7b8e2397eeaebbe06fbe810133eaa89bbb6800f3ed0b8446b7381665c",
+                "ccd701273512933962a07650210514eef7185436d5eac1c9404d06708dbd22ad",
+                "b06ec004f15134a86b2a948fc52bbd70d9ba55d28039cbad3675b9e05c2f0106"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "signifyd-session-id": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "addictedtoaudio.com.au",
+                "au.kef.com",
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.arlo.com",
+                "www.breville.com",
+                "www.culturekings.com.au",
+                "www.doordash.com",
+                "www.electrickicks.com.au",
+                "www.emma-sleep.com.au",
+                "www.fishingtackleshop.com.au",
+                "www.giro.com",
+                "www.kookai.com.au",
+                "www.metallica.com",
+                "www.mygyc.com.au",
+                "www.sds.com.au",
+                "www.tradetools.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/clear\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "signifyd-session-id": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "addictedtoaudio.com.au",
+                "au.kef.com",
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.arlo.com",
+                "www.breville.com",
+                "www.culturekings.com.au",
+                "www.doordash.com",
+                "www.electrickicks.com.au",
+                "www.emma-sleep.com.au",
+                "www.fishingtackleshop.com.au",
+                "www.giro.com",
+                "www.kookai.com.au",
+                "www.metallica.com",
+                "www.mygyc.com.au",
+                "www.sds.com.au",
+                "www.tradetools.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/top_fp\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 12
+            },
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "5cb14073709f20dcbc3c42613f6c369b93e9b0b004ccc7027152f2b8ae301cb2",
+                "09a6a1af98ce3bf421b067ad81ea11412802932da362bfac27283a2a1831e2dd",
+                "ee1b8fde2ab2b1925d31b415a0f6935a69cdc04d7ccf53c2805001e0c51a7137",
+                "6ff0a7fb3f0e685776a1247dcae050b91d7734b15bc69e82b7001a2c0a713c93",
+                "f78a9d4be94dea1e78e45018894effa847e9c14648a45f40fc8039f31d412fdb",
+                "d7049a6a1abcea1cee09c2a00141b7a13efbdb40ecd82d82cfad5262b3f3e267",
+                "edc68d472f07d90695270882fd04e4c9d5ef7b36dc9e479be53fca7195521014",
+                "b31fbe91c8b5e04cbaaa9e0ab504d0833cd11bd24a32c974a2b945e90e3e9434",
+                "458df580e10676ad3a8d4c6be3b0f9095c2085cf15127c1ab6cfa6c8ccd66ee5",
+                "9fd2f87164d3cff27cd64525ecbaca51bcd9987b7314bb375dfa3601e5c0960a",
+                "edab69e005c35ac7447990c386194bc6b951f026cbd5d172524858e448a57669",
+                "2563d0e85fefd8faa5a585052c61ba5acdfe109590003e8add33016c96952036",
+                "ab57c236750e567e1270a7eea6d594f1a8d9726b2220c6d34d6d0b7caa8c3cfd"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "signifyd-session-id": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "addictedtoaudio.com.au",
+                "au.kef.com",
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.arlo.com",
+                "www.breville.com",
+                "www.culturekings.com.au",
+                "www.doordash.com",
+                "www.electrickicks.com.au",
+                "www.emma-sleep.com.au",
+                "www.fishingtackleshop.com.au",
+                "www.giro.com",
+                "www.kookai.com.au",
+                "www.metallica.com",
+                "www.mygyc.com.au",
+                "www.sds.com.au",
+                "www.tradetools.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/clear1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "signifyd-session-id": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "kef.com",
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.arlo.com",
+                "www.electrickicks.com.au",
+                "www.emma-sleep.com.au",
+                "www.fishingtackleshop.com.au",
+                "www.giro.com",
+                "www.kookai.com.au",
+                "www.mygyc.com.au",
+                "www.tradetools.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/api\\/script-tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-scripts"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "a06551005dd5aa5444eeb445f9c3258e156512996f81c427e2139b38823057dc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arlo.com",
+                "www.breville.com",
+                "www.digitalcamerawarehouse.com.au",
+                "www.doordash.com",
+                "www.emma-sleep.com.au",
+                "www.giro.com",
+                "www.metallica.com",
+                "www.philips.com.au",
+                "www.sds.com.au",
+                "www.tradetools.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5348837209302325
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.16279069767441862
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.06976744186046512
+        },
+        {
+            "domain": "cdn4dd.com",
+            "prevalence": 0.06976744186046512
+        },
+        {
+            "domain": "csell.co",
+            "prevalence": 0.046511627906976744
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.046511627906976744
+        },
+        {
+            "domain": "podium.com",
+            "prevalence": 0.046511627906976744
+        },
+        {
+            "domain": "neto.com.au",
+            "prevalence": 0.023255813953488372
+        }
+    ],
+    "types": {
+        "Script": 76,
+        "Image": 31,
+        "XHR": 17,
+        "Document": 34
+    },
+    "nameservers": [
+        "ns-304.awsdns-38.com",
+        "ns-1445.awsdns-52.org",
+        "ns-637.awsdns-15.net",
+        "ns-1684.awsdns-18.co.uk"
+    ]
+}

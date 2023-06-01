@@ -1,0 +1,112 @@
+{
+    "domain": "verbraucherzentrale.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000476,
+    "sites": 7,
+    "subdomains": [
+        "www",
+        "matomo"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "verbraucherzentrale\\.de\\/matomo\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lebensmittelklarheit.de",
+                "www.lebensmittelklarheit.de",
+                "www.verbraucherzentrale-niedersachsen.de",
+                "www.vzhh.de"
+            ]
+        },
+        {
+            "rule": "verbraucherzentrale\\.de\\/js\\/container_ORonxyGk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "matomo"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b81b7a6518313215170e70d2b4596440e792328dfdcc07fe0a6923718f3487ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "verbraucherzentrale.nrw",
+                "www.verbraucherzentrale.nrw"
+            ]
+        },
+        {
+            "rule": "verbraucherzentrale\\.de\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matomo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "verbraucherzentrale.nrw",
+                "www.verbraucherzentrale.nrw"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "init-ag.de",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Ping": 6,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.gn2-hosting.de",
+        "ns2.gn2-hosting.de"
+    ]
+}

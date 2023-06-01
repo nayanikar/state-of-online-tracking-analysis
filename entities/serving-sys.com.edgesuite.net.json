@@ -1,0 +1,72 @@
+{
+    "domain": "serving-sys.com.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "secure-ds"
+    ],
+    "cnames": [
+        {
+            "original": "secure-ds.serving-sys.com",
+            "resolved": "secure-ds.serving-sys.com.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "serving-sys\\.com\\.edgesuite\\.net\\/SemiCachedScripts\\/ebOneTag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "secure-ds.serving-sys.com",
+                    "resolved": "secure-ds.serving-sys.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "c95549b88f1d5b697c6961013a59ccf88c4a478088a841c26b5d451ac255e36d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amazon.com.au",
+                "www.zappos.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "btstatic.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,123 @@
+{
+    "domain": "mmtcdn.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "wildcard"
+    ],
+    "cnames": [
+        {
+            "original": "imgak.mmtcdn.com",
+            "resolved": "wildcard.mmtcdn.com.edgekey.net"
+        },
+        {
+            "original": "jsak.mmtcdn.com",
+            "resolved": "wildcard.mmtcdn.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mmtcdn\\.com\\.edgekey\\.net\\/pwa_v3\\/pwa_hotel_assets\\/header\\/logo@2x\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wildcard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "imgak.mmtcdn.com",
+                    "resolved": "wildcard.mmtcdn.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2d55500faaaa9279a49178758a6d7e73079a83f411b26333b943255cb99ecf1e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "makemytrip.com",
+                "www.makemytrip.com"
+            ]
+        },
+        {
+            "rule": "mmtcdn\\.com\\.edgekey\\.net\\/pwa_v3\\/pwa_commons\\/pwatracker\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "wildcard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "jsak.mmtcdn.com",
+                    "resolved": "wildcard.mmtcdn.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "98692661d693f59a45b0cb4d5c9bf5afe10f76344592274cd84797b751d30d80"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_1E0D22CE527845790A490D4D%40AdobeOrg": {
+                    "ttl": 63158412,
+                    "length": 241,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "s_pers": {
+                    "ttl": 315360012,
+                    "length": 481,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "s_sess": {
+                    "ttl": null,
+                    "length": 114,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "AMCVS_1E0D22CE527845790A490D4D%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "makemytrip.com",
+                "www.makemytrip.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Script": 2
+    },
+    "nameservers": []
+}

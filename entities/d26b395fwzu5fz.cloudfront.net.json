@@ -1,0 +1,97 @@
+{
+    "domain": "d26b395fwzu5fz.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "d26b395fwzu5fz\\.cloudfront\\.net\\/keen-tracking-1\\.1\\.3\\.min\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.cookieEnabled": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "601f66b38d2e6cc6caf30b751bc9393f83b511acb5fdf0bfa2d68e8e08a7238b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "keen_anonymous_id": {
+                    "ttl": 31536007,
+                    "length": 58,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gifs.com",
+                "www.sendinblue.com"
+            ]
+        },
+        {
+            "rule": "d26b395fwzu5fz\\.cloudfront\\.net\\/keen-web-autocollector-1\\.0\\.8\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "89ac156ae6f86b0cb225f33f6dda9c97c6bf73baa7ab225be6fa6b3c2de1d628"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sendinblue.com",
+                "www.sendinblue.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "ustudio.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-1380.awsdns-44.org",
+        "ns-1662.awsdns-15.co.uk",
+        "ns-449.awsdns-56.com",
+        "ns-749.awsdns-29.net"
+    ]
+}

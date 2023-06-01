@@ -1,0 +1,68 @@
+{
+    "domain": "aller.se",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "aller\\.se\\/dfp\\/1\\.13\\.19\\/aller-ads\\.bundle\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1675f5671e450b34716017f41a59f64aa4ee5cfedd57a1985fe1b1f3f2791962"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "aapp": {
+                    "ttl": 34560004,
+                    "length": 21,
+                    "prevalence": 0.00020110608345902463,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elle.se",
+                "www.hant.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "naya.ns.cloudflare.com",
+        "alexis.ns.cloudflare.com"
+    ]
+}

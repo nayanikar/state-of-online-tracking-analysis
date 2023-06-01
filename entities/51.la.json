@@ -1,0 +1,229 @@
+{
+    "domain": "51.la",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000102,
+    "sites": 15,
+    "subdomains": [
+        "ia",
+        "sdk",
+        "collect-v6",
+        "js.users"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "51\\.la\\/go1",
+            "cookies": 0.00000681,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ia"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "Hm_lvt_c11e70df18184f7263176ce90c8a9cc3": 0.000006807073911208528,
+                "Hm_lpvt_c11e70df18184f7263176ce90c8a9cc3": 0.000006807073911208528,
+                "Hm_lvt_38ea8ed97fbe7c334fcc1878c579e5e0": 0.000006807073911208528,
+                "Hm_lpvt_38ea8ed97fbe7c334fcc1878c579e5e0": 0.000006807073911208528,
+                "Hm_lvt_9104d0237317236e7097bb1974bcd47f": 0.000006807073911208528,
+                "Hm_lpvt_9104d0237317236e7097bb1974bcd47f": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "angono.gov.ph",
+                "hobonichielog.com",
+                "shibvod.com",
+                "www.btutv.com",
+                "www.pianbar.net"
+            ]
+        },
+        {
+            "rule": "51\\.la\\/js-sdk-pro\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.connection": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d1f1bfe698f2ffb7b3e7a885a301d58f9554d45df0a31c3e8b53c84b33c80d27"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__vtins__JtznexPXbjv9nQmo": {
+                    "ttl": null,
+                    "length": 198,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "__51uvsct__JtznexPXbjv9nQmo": {
+                    "ttl": 251720385558,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "__51vcke__JtznexPXbjv9nQmo": {
+                    "ttl": 251720385558,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "__51vuft__JtznexPXbjv9nQmo": {
+                    "ttl": 251720385558,
+                    "length": 13,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "__vtins__JfZHJBscLwIOY0rs": {
+                    "ttl": null,
+                    "length": 198,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "__51uvsct__JfZHJBscLwIOY0rs": {
+                    "ttl": 251720427207,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "__51vcke__JfZHJBscLwIOY0rs": {
+                    "ttl": 251720427207,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "__51vuft__JfZHJBscLwIOY0rs": {
+                    "ttl": 251720427207,
+                    "length": 13,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manganota.com",
+                "www.keetip.com",
+                "www.musicenc.com"
+            ]
+        },
+        {
+            "rule": "51\\.la\\/v6\\/collect",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collect-v6"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manganota.com",
+                "www.keetip.com",
+                "www.musicenc.com"
+            ]
+        },
+        {
+            "rule": "51\\.la\\/21589017\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js.users"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.connection": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Screen.prototype.colorDepth": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "0b77c2fcf8d1f285eca8bef9aabbfd582866711b048eeaeacdb6e989d6060ae9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__tins__21589017": {
+                    "ttl": null,
+                    "length": 93,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "__51laig__": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "btutv.com",
+                "www.btutv.com",
+                "www.pianbar.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6470588235294118
+        },
+        {
+            "domain": "chushoushijian.cn",
+            "prevalence": 0.23529411764705882
+        },
+        {
+            "domain": "baidustatic.com",
+            "prevalence": 0.11764705882352941
+        }
+    ],
+    "types": {
+        "Image": 5,
+        "Script": 6,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns4.dnsv4.com",
+        "ns3.dnsv4.com"
+    ]
+}

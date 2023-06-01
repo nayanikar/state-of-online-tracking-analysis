@@ -1,0 +1,131 @@
+{
+    "domain": "onetrust.eu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "breuninger.my",
+        "fielmann.my"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/otSDKStub\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "breuninger.my",
+                "fielmann.my"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2eda146d4b0b52c46ce9915a258e6001fdefe673fa752191c8617b9af0a97d53"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.fielmann.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/geolocation\\/cookies\\/v1\\/location",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "breuninger.my",
+                "fielmann.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f90d159c7a961f8d49cf0197de9f4a31f91310b5cd03edc042f82beae766c88b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.fielmann.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/logos\\/static\\/ot_guard_logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "breuninger.my",
+                "fielmann.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "691dcdb24853a0f5ce4e6597e5713dea66799b57ffe2c2a10f28f98e0b569b19"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.fielmann.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/logos\\/static\\/powered_by_logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "breuninger.my",
+                "fielmann.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5fa00d047acd959697b9d7772c31dcd37bec33c70c6fbf80ab8316205d1d286d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.fielmann.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Fetch": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "naomi.ns.cloudflare.com",
+        "cullen.ns.cloudflare.com"
+    ]
+}

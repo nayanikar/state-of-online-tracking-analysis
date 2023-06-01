@@ -1,0 +1,108 @@
+{
+    "domain": "inmobicdn.net",
+    "owner": {
+        "name": "InMobi Pte Ltd",
+        "displayName": "InMobi"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000476,
+    "sites": 7,
+    "subdomains": [
+        "i.l-dsp",
+        "i.l"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "inmobicdn\\.net\\/helix-cors\\/custom\\/js\\/idspPixel\\/v6\\/min\\.pixel\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "i.l-dsp"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "URL.createObjectURL": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "289381acfcd1c9a0f23612d53ccad69713daa1f20a6bab88c0a41c496ca048d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "iDSP_Cookie": {
+                    "ttl": 7776002,
+                    "length": 84,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zyn.com",
+                "us.zyn.com",
+                "www.betika.com",
+                "www.ecb.co.uk"
+            ]
+        },
+        {
+            "rule": "inmobicdn\\.net\\/helix-cors\\/custom\\/js\\/idspPixel\\/v4\\/min\\.pixel\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "i.l"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "URL.createObjectURL": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ee9adb6845e715d1f4c44a8f4f3424d4926b7327a52c42c90b494a336eae383e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "iDSP_Cookie": {
+                    "ttl": 7776004,
+                    "length": 84,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "etisalat.ae",
+                "www.etisalat.ae"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns4-05.azure-dns.info",
+        "ns2-05.azure-dns.net",
+        "ns3-05.azure-dns.org",
+        "ns1-05.azure-dns.com"
+    ]
+}

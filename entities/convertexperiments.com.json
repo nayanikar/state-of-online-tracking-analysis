@@ -1,0 +1,171 @@
+{
+    "domain": "convertexperiments.com",
+    "owner": {
+        "name": "Convert Insights Inc",
+        "displayName": "Convert Insights"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00171,
+    "sites": 17,
+    "subdomains": [
+        "cdn-3",
+        "logs",
+        "10034007.metrics",
+        "10033585.metrics",
+        "10024560.metrics",
+        "1003891.metrics",
+        "1004280.metrics"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "convertexperiments\\.com\\/js\\/10034293-10034007\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-3"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "14902b96ff3b9ed3de73459caa074abf7def8f449708322451637557eea47caa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_conv_v": {
+                    "ttl": 15768004,
+                    "length": 102,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "_conv_s": {
+                    "ttl": 1204,
+                    "length": 52,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "_conv_sptest": {
+                    "ttl": -159997,
+                    "length": 7,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "_conv_r": {
+                    "ttl": -159997,
+                    "length": 7,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ethicaljobs.com.au",
+                "www.ethicaljobs.com.au"
+            ]
+        },
+        {
+            "rule": "convertexperiments\\.com\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ethicaljobs.com.au",
+                "www.equifax.com.au",
+                "www.etax.com.au",
+                "www.ethicaljobs.com.au",
+                "www.hubspot.com",
+                "www.machines4u.com.au"
+            ]
+        },
+        {
+            "rule": "convertexperiments\\.com\\/log-rep\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "10034007.metrics",
+                "10033585.metrics",
+                "10024560.metrics",
+                "1003891.metrics",
+                "1004280.metrics"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ethicaljobs.com.au",
+                "www.equifax.com.au",
+                "www.etax.com.au",
+                "www.ethicaljobs.com.au",
+                "www.hubspot.com",
+                "www.machines4u.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00131,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7894736842105263
+        },
+        {
+            "domain": "inspectlet.com",
+            "prevalence": 0.10526315789473684
+        },
+        {
+            "domain": "kameleoonvariationjavascriptcode-825915.js",
+            "prevalence": 0.05263157894736842
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 12
+    },
+    "nameservers": [
+        "ns-300.awsdns-37.com",
+        "ns-1039.awsdns-01.org",
+        "ns-1950.awsdns-51.co.uk",
+        "ns-740.awsdns-28.net"
+    ]
+}

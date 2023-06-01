@@ -1,0 +1,75 @@
+{
+    "domain": "alquimio.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "orchestrator.production.aks"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "alquimio\\.cloud\\/scriptManagement\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "orchestrator.production.aks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f35fa24ca449bdfa7b6a2d17ae075893a9544a814a8acbc33d128e544a739a79"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elektra.mx",
+                "www.elektra.mx"
+            ]
+        },
+        {
+            "rule": "alquimio\\.cloud\\/scriptManagement\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "orchestrator.production.aks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elektra.mx",
+                "www.elektra.mx"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ken.ns.cloudflare.com",
+        "julissa.ns.cloudflare.com"
+    ]
+}

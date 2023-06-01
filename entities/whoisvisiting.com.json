@@ -1,0 +1,96 @@
+{
+    "domain": "whoisvisiting.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [
+        "app",
+        "dashboard"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "whoisvisiting\\.com\\/who\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app",
+                "dashboard"
+            ],
+            "apis": {
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "2fd7d80568c1fcb01d1516b9c2b341a3f2145b169ab3bf043e105179658598af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "architizer.com",
+                "hevodata.com",
+                "www.advantech.com"
+            ]
+        },
+        {
+            "rule": "whoisvisiting\\.com\\/who\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dashboard"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "1e9d058a9ab82233831abc3720b6d8597799c5a94b6ebe47afac79e4deba0e69"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "architizer.com",
+                "hevodata.com",
+                "www.acuitybrands.com",
+                "www.advantech.com",
+                "www.trade.gov"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "iptrack.io",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns4-03.azure-dns.info",
+        "ns1-03.azure-dns.com",
+        "ns3-03.azure-dns.org",
+        "ns2-03.azure-dns.net"
+    ]
+}

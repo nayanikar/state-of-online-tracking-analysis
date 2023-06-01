@@ -1,0 +1,120 @@
+{
+    "domain": "streamguys1.com",
+    "owner": {
+        "name": "StreamGuys, Inc.",
+        "displayName": "StreamGuys"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [
+        "christianfm",
+        "wgbh-hls",
+        "wgbh-ice"
+    ],
+    "cnames": [
+        {
+            "original": "hls.audio.wgbh.org",
+            "resolved": "wgbh-hls.streamguys1.com"
+        },
+        {
+            "original": "streams.audio.wgbh.org",
+            "resolved": "wgbh-ice.streamguys1.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "streamguys1\\.com\\/live-aac",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "christianfm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "christianradio.com",
+                "www.christianradio.com"
+            ]
+        },
+        {
+            "rule": "streamguys1\\.com\\/wgbh_hls\\/playlist\\.m3u8",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wgbh-hls"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "hls.audio.wgbh.org",
+                    "resolved": "wgbh-hls.streamguys1.com"
+                }
+            ],
+            "responseHashes": [
+                "03cb256f67616de869196926ac372e3eb87c45cd0ceb2c707cf6c4e7c97f5ed2"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wgbh.org",
+                "www.wgbh.org"
+            ]
+        },
+        {
+            "rule": "streamguys1\\.com\\/wgbh-aac",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wgbh-ice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "streams.audio.wgbh.org",
+                    "resolved": "wgbh-ice.streamguys1.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wgbh.org",
+                "www.wgbh.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Media": 6
+    },
+    "nameservers": [
+        "ns4.streamguys.net",
+        "ns2.streamguys.net",
+        "ns3.streamguys.net",
+        "ns1.streamguys.net"
+    ]
+}

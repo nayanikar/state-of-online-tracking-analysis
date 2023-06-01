@@ -1,0 +1,535 @@
+{
+    "domain": "vocento.com",
+    "owner": {
+        "name": "vocento",
+        "displayName": "vocento"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000817,
+    "sites": 12,
+    "subdomains": [
+        "static",
+        "cabeceras",
+        "comments",
+        "catalogo-newsletters"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vocento\\.com\\/tag-manager\\/latest\\/vtm\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2b305c2fbdfa86f9481a3dc4d9e8cf05df749df8d7e58e946679d0b4ad1c599e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autocasion.com",
+                "www.autocasion.com"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/voonto2\\/latest\\/voonto\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6a4b26f374db0ab4ef49d97e95150c96aa424d72e51d111da23dbe67144140ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autocasion.com",
+                "www.autocasion.com"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/vocuser\\/v4\\/resources\\/js\\/ppll\\/loader\\/vocento-vocuser-preloader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cabeceras"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Navigator.prototype.userAgent": 6,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.platform": 6,
+                "Date.prototype.getTime": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "785086313fcdd0ebab899a4f8e4b19f10cd44ce1c8af85df46bc2d4a93a6d8e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canarias7.es",
+                "www.canarias7.es",
+                "www.eldiariomontanes.es",
+                "www.elnortedecastilla.es",
+                "www.larioja.com",
+                "www.mujerhoy.com"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/vocuser\\/v4\\/resources\\/js\\/ppll\\/canarias7\\/dependencias\\/vocento-vocuser-combined-dependencies\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cabeceras"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "430434b52cf92199dde0267ea63e882127f69dbe650c2c1e129dd8aaab66190d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vocuser_information": {
+                    "ttl": 31536008,
+                    "length": 79,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "vocuser_nfryl_volver_al_origen": {
+                    "ttl": 86408,
+                    "length": 33,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canarias7.es",
+                "www.canarias7.es"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/vocuser\\/v4\\/resources\\/js\\/ppll\\/canarias7\\/core\\/vocento-vocuser-combined-lite\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cabeceras"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0d7367dd4946b532f02736a3f1a0f2fd1f72f3e45f4a044286c2cbf2f9ffc137"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canarias7.es",
+                "www.canarias7.es"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/vocuser\\/v4\\/resources\\/js\\/ppll\\/eldiariomontanes\\/dependencias\\/vocento-vocuser-combined-dependencies\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cabeceras"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "430434b52cf92199dde0267ea63e882127f69dbe650c2c1e129dd8aaab66190d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vocuser_information": {
+                    "ttl": 31536011,
+                    "length": 87,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "vocuser_nfryl_volver_al_origen": {
+                    "ttl": 86411,
+                    "length": 71,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eldiariomontanes.es",
+                "www.eldiariomontanes.es"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/vocuser\\/v4\\/resources\\/js\\/ppll\\/eldiariomontanes\\/core\\/vocento-vocuser-combined-lite\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cabeceras"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "94bf1130edceee772c594be80d620bfb6d2be838f5dbbf245f782675d72c9a30"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eldiariomontanes.es",
+                "www.eldiariomontanes.es"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/js\\/commento\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "comments"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "14a49f72bd50b5c7306a67728d4e1f35aea829e9d19270adc72fe394144eb63e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "voc_commenter_token": {
+                    "ttl": 31536013,
+                    "length": 9,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eldiariomontanes.es",
+                "www.elnortedecastilla.es",
+                "www.larioja.com"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/api\\/comment\\/stream-info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comments"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "427dc2af59ddd6901d18861790b93120a8cef24f3b043c00a3cf91d63e14fd12"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eldiariomontanes.es",
+                "www.elnortedecastilla.es",
+                "www.larioja.com"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/vocuser\\/v4\\/resources\\/js\\/ppll\\/elnortedecastilla\\/dependencias\\/vocento-vocuser-combined-dependencies\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cabeceras"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "430434b52cf92199dde0267ea63e882127f69dbe650c2c1e129dd8aaab66190d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vocuser_information": {
+                    "ttl": 31536016,
+                    "length": 86,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "vocuser_nfryl_volver_al_origen": {
+                    "ttl": 86415,
+                    "length": 80,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elnortedecastilla.es",
+                "www.elnortedecastilla.es"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/vocuser\\/v4\\/resources\\/js\\/ppll\\/elnortedecastilla\\/core\\/vocento-vocuser-combined-lite\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cabeceras"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5492b8a8e08494f356234484d60a0ef7df2f9b4f4aee6dd78e4b9beb2655996a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elnortedecastilla.es",
+                "www.elnortedecastilla.es"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/newsletter\\/list",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "catalogo-newsletters"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1ef089fe6bb35faf40ce5047ef70dbdcf0e8926ceb305a3abafb79a77765f22b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elnortedecastilla.es",
+                "www.elnortedecastilla.es"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/vocuser\\/v4\\/resources\\/js\\/ppll\\/larioja\\/dependencias\\/vocento-vocuser-combined-dependencies\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cabeceras"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "430434b52cf92199dde0267ea63e882127f69dbe650c2c1e129dd8aaab66190d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vocuser_information": {
+                    "ttl": 31536011,
+                    "length": 80,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "vocuser_nfryl_volver_al_origen": {
+                    "ttl": 86411,
+                    "length": 60,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "larioja.com",
+                "www.larioja.com"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/vocuser\\/v4\\/resources\\/js\\/ppll\\/larioja\\/core\\/vocento-vocuser-combined-lite\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cabeceras"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "46cce67be250d198fc29f9645cab24b45b8983b6ccd1d706b5dd2ae9423016ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "larioja.com",
+                "www.larioja.com"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/vocuser\\/v4\\/resources\\/js\\/ppll\\/mujerhoy\\/dependencias\\/vocento-vocuser-combined-dependencies\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cabeceras"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "430434b52cf92199dde0267ea63e882127f69dbe650c2c1e129dd8aaab66190d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vocuser_information": {
+                    "ttl": 31536014,
+                    "length": 78,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "vocuser_nfryl_volver_al_origen": {
+                    "ttl": 86414,
+                    "length": 81,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mujerhoy.com",
+                "www.mujerhoy.com"
+            ]
+        },
+        {
+            "rule": "vocento\\.com\\/vocuser\\/v4\\/resources\\/js\\/ppll\\/mujerhoy\\/core\\/vocento-vocuser-combined-lite\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cabeceras"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7f2d1acc31d28bd204f672055af165c314f983df07e7eec7fa2b18f89e67cad7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mujerhoy.com",
+                "www.mujerhoy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000613,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6808510638297872
+        },
+        {
+            "domain": "vocstatic.com",
+            "prevalence": 0.3191489361702128
+        }
+    ],
+    "types": {
+        "Script": 33,
+        "XHR": 5
+    },
+    "nameservers": [
+        "a14-64.akam.net",
+        "a1-84.akam.net",
+        "a8-65.akam.net",
+        "a13-65.akam.net",
+        "a9-66.akam.net",
+        "a16-67.akam.net"
+    ]
+}

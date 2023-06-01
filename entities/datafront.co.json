@@ -1,0 +1,89 @@
+{
+    "domain": "datafront.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "datafront\\.co\\/df\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c76e53014596341197de58962950fc324d3f279523a40521a31bc1b1ae336a3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cucchiaio.it",
+                "www.dagospia.com"
+            ]
+        },
+        {
+            "rule": "datafront\\.co\\/df\\.v2\\.core\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.appName": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1fbaa826faa98cd01cf8c38f3ac548d739f9763db60b8ef5597e84ff2f344612"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cucchiaio.it",
+                "www.dagospia.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-957.awsdns-55.net",
+        "ns-1215.awsdns-23.org",
+        "ns-1747.awsdns-26.co.uk",
+        "ns-130.awsdns-16.com"
+    ]
+}

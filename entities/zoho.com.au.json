@@ -1,0 +1,290 @@
+{
+    "domain": "zoho.com.au",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "salesiq",
+        "crm",
+        "crmplus",
+        "pagesense-collect",
+        "ma"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "zoho\\.com\\.au\\/widget",
+            "cookies": 0.000803,
+            "fingerprinting": 2,
+            "subdomains": [
+                "salesiq"
+            ],
+            "apis": {
+                "window.sessionStorage": 8,
+                "window.localStorage": 8,
+                "Navigator.prototype.userAgent": 8,
+                "Date.prototype.getTime": 8,
+                "Document.cookie getter": 8,
+                "Navigator.prototype.language": 8,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "c17909a124d9ff1edcb51751b54b11ebfd0e9a3958f3e161216c7f1d368eb99c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "australiaoneparty-_zldp": {
+                    "ttl": 63072012,
+                    "length": 82,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "australiaoneparty-_zldt": {
+                    "ttl": 86412,
+                    "length": 38,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "jaggards-_zldp": {
+                    "ttl": 63072006,
+                    "length": 84,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "jaggards-_zldt": {
+                    "ttl": 86406,
+                    "length": 38,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "kuringgaicouncil-_zldp": {
+                    "ttl": 31536010,
+                    "length": 78,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "kuringgaicouncil-_zldt": {
+                    "ttl": 86410,
+                    "length": 38,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "maribyrnongcitycouncil-_zldp": {
+                    "ttl": 31536009,
+                    "length": 86,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "maribyrnongcitycouncil-_zldt": {
+                    "ttl": 86409,
+                    "length": 38,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "cityofmonash-_zldp": {
+                    "ttl": 63072008,
+                    "length": 84,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "cityofmonash-_zldt": {
+                    "ttl": 86408,
+                    "length": 38,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "coastlinesinternational-_zldp": {
+                    "ttl": 63072010,
+                    "length": 84,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "coastlinesinternational-_zldt": {
+                    "ttl": 86410,
+                    "length": 38,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australiaoneparty.com",
+                "djcity.com.au",
+                "www.jaggards.com.au",
+                "www.krg.nsw.gov.au",
+                "www.maribyrnong.vic.gov.au",
+                "www.monash.vic.gov.au",
+                "www.thesurfboardwarehouse.com.au",
+                "yla.org.au"
+            ]
+        },
+        {
+            "rule": "zoho\\.com\\.au\\/visitor\\/v2\\/channels\\/website",
+            "cookies": 0.000803,
+            "fingerprinting": 0,
+            "subdomains": [
+                "salesiq"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "27adb8bb475edbd967923753b2152aa8250e1a8a36b12fbf93bde67653c2eb54",
+                "e1590ecd78010a8f7ad56c305d6088be46d449de2fa3793f4f26c4e740992e57",
+                "99317cea9a66ddd8215e96949db02759922c5eb0c51119a58d28f2f909e04829",
+                "a2f4a97cae4c72867cbef4e0c3da65923942e7f80297fbe7ec4d09ee6b72e9d3",
+                "a9a9066c201c93f766e62343e40bdd641ad7102e7afb6bc3888703fd47ff025a",
+                "5a79cd761f31a01156226ebb4f2487c697529b274a8050fe4e6a310c20b46c35",
+                "430e3d9381a94edb39e811c4e9f83d59a6508310cef2288ac730b08e4c3fff57"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "source": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "australiaoneparty.com",
+                "djcity.com.au",
+                "www.jaggards.com.au",
+                "www.krg.nsw.gov.au",
+                "www.maribyrnong.vic.gov.au",
+                "www.monash.vic.gov.au",
+                "www.thesurfboardwarehouse.com.au",
+                "yla.org.au"
+            ]
+        },
+        {
+            "rule": "zoho\\.com\\.au\\/crm\\/javascript\\/zcga\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "crm",
+                "crmplus"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d96f4e2562d6e813901bdbd6fc16e2c4a133db6d851991909f0db8bdb5afb3a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "gclid": {
+                    "ttl": 2592011,
+                    "length": 9,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mgmotor.com.au",
+                "www.jaggards.com.au"
+            ]
+        },
+        {
+            "rule": "zoho\\.com\\.au\\/psimg\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pagesense-collect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "zabUserId": 0.00020080321285140563,
+                "zscd71b65f88d95442da795a22508caecc8": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "jaggards.com.au",
+                "www.jaggards.com.au"
+            ]
+        },
+        {
+            "rule": "zoho\\.com\\.au\\/hub\\/js\\/MagicPopup\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ma"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "008eb77059121222aaee1dbe36a55cf50ea9570c6de9abd0791f331fa102c298"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jaggards.com.au",
+                "www.jaggards.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5217391304347826
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.21739130434782608
+        },
+        {
+            "domain": "pagesense.io",
+            "prevalence": 0.13043478260869565
+        },
+        {
+            "domain": "zohowebstatic.com",
+            "prevalence": 0.08695652173913043
+        },
+        {
+            "domain": "zohocdn.com",
+            "prevalence": 0.043478260869565216
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "XHR": 8,
+        "Ping": 2
+    },
+    "nameservers": [
+        "pdns90.ultradns.org",
+        "pdns90.ultradns.net",
+        "dns1.p03.nsone.net",
+        "dns3.p03.nsone.net",
+        "pdns90.ultradns.com",
+        "ns1.zohocorp.com",
+        "dns2.p03.nsone.net"
+    ]
+}

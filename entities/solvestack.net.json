@@ -1,0 +1,179 @@
+{
+    "domain": "solvestack.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "static.prod-00.cariuma",
+        "static.prod-00.asbeauty",
+        "static.prod-00.missouriquiltco",
+        "prod-00.cariuma",
+        "prod-00.asbeauty",
+        "prod-00.missouriquiltco"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "solvestack\\.net\\/sdk\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static.prod-00.cariuma",
+                "static.prod-00.asbeauty",
+                "static.prod-00.missouriquiltco"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "23f1885721e3717fd1687c5fe1af2c459c56c00e0f432643ce07c4b2a07ab5e9",
+                "c6a8514a0c0ba3e93726b64022590156c2dd8501489d18adb571e56203acb160"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cariuma.com",
+                "www.laurageller.com",
+                "www.missouriquiltco.com"
+            ]
+        },
+        {
+            "rule": "solvestack\\.net\\/auth\\/get_token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-00.cariuma",
+                "prod-00.asbeauty",
+                "prod-00.missouriquiltco"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e20bbdc366560bad3b98369143e3ea4cb40ba74c57a045ac038979ff45e9b7ec",
+                "2a320efd19a85ffd24dd111ad524aa00df8ff53fa1d3410a2c30b5699d50783b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cariuma.com",
+                "www.laurageller.com",
+                "www.missouriquiltco.com"
+            ]
+        },
+        {
+            "rule": "solvestack\\.net\\/auth\\/get_token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-00.cariuma",
+                "prod-00.asbeauty",
+                "prod-00.missouriquiltco"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cariuma.com",
+                "www.laurageller.com",
+                "www.missouriquiltco.com"
+            ]
+        },
+        {
+            "rule": "solvestack\\.net\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-00.cariuma",
+                "prod-00.asbeauty",
+                "prod-00.missouriquiltco"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "be04b6a99f2b4895d969786de4a02503ba4331c9dc5370a9301ba7f0befa180f",
+                "a8cd3891c2d804a25cb6010a41db5a87325a3b9316d5203c0531ba3f27b1c8a1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cariuma.com",
+                "www.laurageller.com",
+                "www.missouriquiltco.com"
+            ]
+        },
+        {
+            "rule": "solvestack\\.net\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-00.cariuma",
+                "prod-00.asbeauty",
+                "prod-00.missouriquiltco"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cariuma.com",
+                "www.laurageller.com",
+                "www.missouriquiltco.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.47368421052631576
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3157894736842105
+        },
+        {
+            "domain": "intelligems.io",
+            "prevalence": 0.21052631578947367
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 6,
+        "Preflight": 6
+    },
+    "nameservers": [
+        "ns-97.awsdns-12.com",
+        "ns-539.awsdns-03.net",
+        "ns-1242.awsdns-27.org",
+        "ns-1833.awsdns-37.co.uk"
+    ]
+}

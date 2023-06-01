@@ -1,0 +1,82 @@
+{
+    "domain": "api-aggregate-production-1463309417.eu-west-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api-aggregate.bettingexpert.com",
+            "resolved": "api-aggregate-production-1463309417.eu-west-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "api-aggregate-production-1463309417\\.eu-west-1\\.elb\\.amazonaws\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api-aggregate.bettingexpert.com",
+                    "resolved": "api-aggregate-production-1463309417.eu-west-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bettingexpert.com",
+                "www.bettingexpert.com"
+            ]
+        },
+        {
+            "rule": "api-aggregate-production-1463309417\\.eu-west-1\\.elb\\.amazonaws\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api-aggregate.bettingexpert.com",
+                    "resolved": "api-aggregate-production-1463309417.eu-west-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "aac50e4eda4c15470667f243d30e4a4ff6fdca2765bfa2e03c3f025944cab908"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bettingexpert.com",
+                "www.bettingexpert.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

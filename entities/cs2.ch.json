@@ -1,0 +1,115 @@
+{
+    "domain": "cs2.ch",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [
+        "matomo",
+        "gdpr"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cs2\\.ch\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matomo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hajk.ch",
+                "www.storen.ch",
+                "www.unisg.ch"
+            ]
+        },
+        {
+            "rule": "cs2\\.ch\\/api\\/getGdprJs",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gdpr"
+            ],
+            "apis": {
+                "Document.cookie getter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "18c3187f2de343f1f4839ca3ef913a404e5d4993ac30b7b4b4f6ba64f44cbca6",
+                "9def8b7a9c138b821b6857bcb5e435aa55ba3ae35c777005b3035b667d596204"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luzern.com",
+                "www.obwalden-tourismus.ch",
+                "www.schwyz-tourismus.ch",
+                "www.settelen.ch",
+                "www.weggis-vitznau.ch"
+            ]
+        },
+        {
+            "rule": "cs2\\.ch\\/api\\/getCookieMessage",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e2291582f078437ce1ef3f1c18ac00910fbefbfbdff44eb98573c62f96da54a0",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luzern.com",
+                "www.obwalden-tourismus.ch",
+                "www.schwyz-tourismus.ch",
+                "www.settelen.ch",
+                "www.weggis-vitznau.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Ping": 3,
+        "Script": 10
+    },
+    "nameservers": [
+        "cia.baselbiet.ch",
+        "fbi.baselbiet.ch"
+    ]
+}

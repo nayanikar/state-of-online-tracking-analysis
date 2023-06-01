@@ -1,0 +1,152 @@
+{
+    "domain": "enterprise.com",
+    "owner": {
+        "name": "Enterprise Holdings Inc.",
+        "displayName": "Enterprise Holdings"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "smetrics",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "enterprise\\.com\\/id",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "da4601b9eaf02d7139efabef43c115a68fae209cac9d1bf8611700f168f8f336",
+                "91bfd2e7aed16c323bc3d4af9163900d0d5ea1ec5e5ba24cc83b302978cabfa5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "enterprise.de",
+                "www.enterprise.de",
+                "www.enterprisetrucks.com"
+            ]
+        },
+        {
+            "rule": "enterprise\\.com\\/enterprise_mpulse\\.html",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "71a69b3fa269246585f3f59a80ed825c19c8d63e3e70fe8889c1d2caa0cb1ef5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "enterprise.de",
+                "www.enterprise.de"
+            ]
+        },
+        {
+            "rule": "enterprise\\.com\\/akam\\/13\\/29724f5c",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appCodeName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.vendorSub": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.getBattery": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6ff178db3d216af5f41288725e2d5b8dc30907bb41c37dcaa3fe7a66909a6a32"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "enterprise.de",
+                "www.enterprise.de"
+            ]
+        },
+        {
+            "rule": "enterprise\\.com\\/akam\\/13\\/pixel_29724f5c",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "enterprise.de",
+                "www.enterprise.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "XHR": 5,
+        "Document": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns4.enterprise.com",
+        "ns1.enterprise.com",
+        "ns3.enterprise.com",
+        "ns2.enterprise.com"
+    ]
+}

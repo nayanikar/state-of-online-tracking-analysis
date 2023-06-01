@@ -1,0 +1,145 @@
+{
+    "domain": "dab57h0r8ahff.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "dab57h0r8ahff\\.cloudfront\\.net\\/v3\\/assets\\/search-icon\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fd528342a15941e34a2d4cf223c1a23f2ad6e655788d2c4e1e3d1dffd1f3d60e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meaww.com",
+                "www.inquisitr.com"
+            ]
+        },
+        {
+            "rule": "dab57h0r8ahff\\.cloudfront\\.net\\/v4\\/assets\\/lazysizes_min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "95cee211bc7523d15a50edbf2644cefbf6fee561e868667b421a1d26c98f81b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meaww.com",
+                "www.inquisitr.com"
+            ]
+        },
+        {
+            "rule": "dab57h0r8ahff\\.cloudfront\\.net\\/static\\/assets\\/bundle\\.07850e\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "108502f8ddf218771fcb72b62bcc7e0d0c261cbd994c95dd313e0bb007818faf"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inquisitr.com",
+                "www.inquisitr.com"
+            ]
+        },
+        {
+            "rule": "dab57h0r8ahff\\.cloudfront\\.net\\/static\\/assets\\/bundle\\.e4638b\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie setter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "30983aca5026475892fdc9f2ac4a7ba29d597815324b0df8116c29b40c00e964"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "session_id": {
+                    "ttl": 1800,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inquisitr.com",
+                "www.inquisitr.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.85
+        },
+        {
+            "domain": "quantserve.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "m2.ai",
+            "prevalence": 0.025
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Script": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-1265.awsdns-30.org",
+        "ns-46.awsdns-05.com",
+        "ns-670.awsdns-19.net",
+        "ns-1936.awsdns-50.co.uk"
+    ]
+}

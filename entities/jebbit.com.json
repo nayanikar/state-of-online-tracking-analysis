@@ -1,0 +1,88 @@
+{
+    "domain": "jebbit.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "js",
+        "external-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "jebbit\\.com\\/companion\\/v1\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dce1686ab8414249a2135c0d765b4694cc13a0942c338dc426935e96a47e7692"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laroche-posay.com.au",
+                "www.nhl.com"
+            ]
+        },
+        {
+            "rule": "jebbit\\.com\\/moments\\/v2\\/launcher_configs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "external-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laroche-posay.com.au",
+                "www.nhl.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1057.awsdns-04.org",
+        "ns-177.awsdns-22.com",
+        "ns-1820.awsdns-35.co.uk",
+        "ns-945.awsdns-54.net"
+    ]
+}

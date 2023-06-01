@@ -1,0 +1,417 @@
+{
+    "domain": "klangoo.com",
+    "owner": {
+        "name": "Klangoo Inc",
+        "displayName": "Klangoo"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000116,
+    "sites": 17,
+    "subdomains": [
+        "cdn",
+        "magnetapi2",
+        "magnetapi",
+        "magnetrack"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "klangoo\\.com\\/wgt\\/magnet\\.min\\.js",
+            "cookies": 0.0000476,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.cookieEnabled": 7,
+                "Document.cookie getter": 7,
+                "window.localStorage": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie setter": 7
+            },
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "b4206f55e1f92f9e51cf5b109ae9d539c4c77aa6ce4bb346f4cc05d9a3e2bd7e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ma_uid": {
+                    "ttl": 63072004,
+                    "length": 50,
+                    "prevalence": 0.00004764951737845969,
+                    "uniqueness": 1
+                },
+                "_ma_vws": {
+                    "ttl": 63072008,
+                    "length": 15,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellohomestead.com",
+                "www.arkansasonline.com",
+                "www.dallasnews.com",
+                "www.globalresearch.ca",
+                "www.nwaonline.com",
+                "www.paloaltoonline.com",
+                "www.sentinelsource.com",
+                "www.wccbcharlotte.com"
+            ]
+        },
+        {
+            "rule": "klangoo\\.com\\/NewsAgencyService\\.svc\\/WidgetLoad",
+            "cookies": 0.0000613,
+            "fingerprinting": 0,
+            "subdomains": [
+                "magnetapi2",
+                "magnetapi"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000613,
+            "cnames": [],
+            "responseHashes": [
+                "41a0d666ca55a0d3572dcfbcc1b035c7172ad9998a9b861b37fa6ae5d85bab0b",
+                "a8d7ccb9f36b3e10d454e0c0208ab48b03c1495df9ad16702a2e48b59ff99938",
+                "5a7d8b7ab1fcd252ca339b076fb6ea98649c94cae13d4efd73a365bbb12d9ea7",
+                "a9438cacf60b1d494089d7d63b72c5e9965d9f0872b3cc4421ab734fad205a86",
+                "12bd5462c94d038fd74da05405606e402f502a60054f81d21bc9f6f78a6c953e",
+                "f8f0320830e2c712e2a18f4d60c998b57ccecf60ac7d1b2c7c6321ccc584a724",
+                "cec4043c51ffab3640203e39b9071f6ca826c92e580aaf932d8184144d40c7f5",
+                "66768f4dd6fdb549e9ab5c5c1a83b63dc863c44cd346e445deb6c478cf4fc60d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__pid": 0.000006807073911208528,
+                "lotame_domain_check": 0.000020421221733625584
+            },
+            "exampleSites": [
+                "hellohomestead.com",
+                "www.arkansasonline.com",
+                "www.dailyherald.com",
+                "www.globalresearch.ca",
+                "www.nwaonline.com",
+                "www.paloaltoonline.com",
+                "www.sentinelsource.com",
+                "www.timesfreepress.com",
+                "www.wccbcharlotte.com"
+            ]
+        },
+        {
+            "rule": "klangoo\\.com\\/v1\\.1\\/track\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "magnetrack"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000613,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__pid": 0.000006807073911208528,
+                "lotame_domain_check": 0.000020421221733625584
+            },
+            "exampleSites": [
+                "hellohomestead.com",
+                "www.arkansasonline.com",
+                "www.dailyherald.com",
+                "www.globalresearch.ca",
+                "www.nwaonline.com",
+                "www.paloaltoonline.com",
+                "www.sentinelsource.com",
+                "www.timesfreepress.com",
+                "www.wccbcharlotte.com"
+            ]
+        },
+        {
+            "rule": "klangoo\\.com\\/w\\/Widgets_323\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "magnetapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "34ecd35b3f1856619c98ada6c80115e9c7aac0e5a09ab40624ec1beadd94acc1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arkansasonline.com",
+                "www.arkansasonline.com",
+                "www.newstribune.com"
+            ]
+        },
+        {
+            "rule": "klangoo\\.com\\/w\\/Widgets_323\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "magnetapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "de422ba29d8ce994e99bec1d8b6ae5e28a24557dad5687cd14825f7ab0080191"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arkansasonline.com",
+                "www.arkansasonline.com"
+            ]
+        },
+        {
+            "rule": "klangoo\\.com\\/NewsAgencyService\\.svc\\/RecommendArticles_RuleBased",
+            "cookies": 0.0000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "magnetapi2",
+                "magnetapi"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "353c56754167107ac34266417a8e66af18e987e32e23da37bdaa7cc47a1d0b08",
+                "7f0b26e17a3935b7374ba591e9fef9dce28489b0843a95dd108815be0f20f4ba",
+                "944f74d2f17b84c5062787807b7a13c2604fa775ba2c4211931f54ae9bf05799",
+                "7bd62f7b8dcc185b72ece6b2137c92f47ff193e5f22a4c9a2872b09b775bf71e",
+                "503ad8a9af95a6aeb0cb9b87a7a598bcf8bb9b2350a7cb6352bf936497e4a7b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arkansasonline.com",
+                "www.dailyherald.com",
+                "www.nwaonline.com",
+                "www.sentinelsource.com",
+                "www.timesfreepress.com",
+                "www.wccbcharlotte.com"
+            ]
+        },
+        {
+            "rule": "klangoo\\.com\\/w\\/Widgets_270\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "magnetapi"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "32c70d21d104c24ac681b463ad97041d7f4bd599b7659a66906c5665ba31712d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailyherald.com",
+                "www.dailyherald.com"
+            ]
+        },
+        {
+            "rule": "klangoo\\.com\\/w\\/Widgets_270\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "magnetapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0ff8ba39aa4b529de6f9963960a0982511867844bee475eb4586d777846f80ed"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailyherald.com",
+                "www.dailyherald.com"
+            ]
+        },
+        {
+            "rule": "klangoo\\.com\\/wgt\\/magnet\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "c1f45df5ca73b0e934dd5819af4ecfef40b7a1834d5c01551da65843c53de900"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ma_uid": {
+                    "ttl": 63072003,
+                    "length": 50,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "_ma_vws": {
+                    "ttl": 63072006,
+                    "length": 15,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailyherald.com",
+                "www.dailyherald.com",
+                "www.timesfreepress.com"
+            ]
+        },
+        {
+            "rule": "klangoo\\.com\\/w\\/Widgets_89\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "magnetapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "376f5a57599bcb17fe385678fe8153f36e7c07c815b83afaea014c8a0ab2a8e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalresearch.ca",
+                "www.globalresearch.ca"
+            ]
+        },
+        {
+            "rule": "klangoo\\.com\\/w\\/Widgets_89\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "magnetapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e00424b976faa966ad1a28e6d08f564fb80a573a51860555f1e9678b4af73a2f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalresearch.ca",
+                "www.globalresearch.ca"
+            ]
+        },
+        {
+            "rule": "klangoo\\.com\\/w\\/Widgets_185\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "magnetapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b0947bfdc435183c9f0007dbb37891fc178c7bb9f8f779f43bf5c864f2a687ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wccbcharlotte.com",
+                "www.wccbcharlotte.com"
+            ]
+        },
+        {
+            "rule": "klangoo\\.com\\/w\\/Widgets_185\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "magnetapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e38fe899f871b9be2f8107570fab106c214589cd2a13c475597ef2decc71941b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wccbcharlotte.com",
+                "www.wccbcharlotte.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000885,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8421052631578947
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.15789473684210525
+        }
+    ],
+    "types": {
+        "Script": 35,
+        "Image": 9,
+        "Stylesheet": 8
+    },
+    "nameservers": [
+        "ns50.domaincontrol.com",
+        "ns49.domaincontrol.com"
+    ]
+}

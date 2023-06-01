@@ -1,0 +1,92 @@
+{
+    "domain": "gauthmath.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [
+        {
+            "original": "api.gauthmath.com",
+            "resolved": "api.gauthmath.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "gauthmath\\.com\\.edgekey\\.net\\/ehi\\/auth\\/upload_v3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api.gauthmath.com",
+                    "resolved": "api.gauthmath.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gauthmath.com",
+                "www.gauthmath.com"
+            ]
+        },
+        {
+            "rule": "gauthmath\\.com\\.edgekey\\.net\\/ehi\\/auth\\/upload_v3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api.gauthmath.com",
+                    "resolved": "api.gauthmath.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "dac189f6981476107604449bac7f607ea960c86419dccbe6fd601186c0c04d64"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gauthmath.com",
+                "www.gauthmath.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "bitssec.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

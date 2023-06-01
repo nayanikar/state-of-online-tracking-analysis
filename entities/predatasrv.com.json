@@ -1,0 +1,204 @@
+{
+    "domain": "predatasrv.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [
+        "id1",
+        "id-dyg",
+        "a1",
+        "api-dyg",
+        "a2",
+        "api-dyg2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "predatasrv\\.com\\/id",
+            "cookies": 0.0000408,
+            "fingerprinting": 1,
+            "subdomains": [
+                "id1",
+                "id-dyg"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "9f40caafb25bf58ddf17c90e567f97004db3aa8494b4b3f35a1e1bc5311ed148"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "PrdGlobalUid": {
+                    "ttl": 31536008,
+                    "length": 36,
+                    "prevalence": 0.00004084244346725117,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ahaber.com.tr",
+                "www.ahaber.com.tr",
+                "www.fotomac.com.tr",
+                "www.milliyet.com.tr",
+                "www.sabah.com.tr",
+                "www.takvim.com.tr"
+            ]
+        },
+        {
+            "rule": "predatasrv\\.com\\/api\\/audiencev1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a1",
+                "api-dyg"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "PrdGlobalUid": 0.00004084244346725117
+            },
+            "exampleSites": [
+                "ahaber.com.tr",
+                "www.ahaber.com.tr",
+                "www.fotomac.com.tr",
+                "www.milliyet.com.tr",
+                "www.sabah.com.tr",
+                "www.takvim.com.tr"
+            ]
+        },
+        {
+            "rule": "predatasrv\\.com\\/api\\/audiencev3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a2",
+                "api-dyg2"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "PrdGlobalUid": 0.00004084244346725117
+            },
+            "exampleSites": [
+                "ahaber.com.tr",
+                "www.ahaber.com.tr",
+                "www.fotomac.com.tr",
+                "www.milliyet.com.tr",
+                "www.sabah.com.tr",
+                "www.takvim.com.tr"
+            ]
+        },
+        {
+            "rule": "predatasrv\\.com\\/api\\/settingsv2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a1",
+                "api-dyg"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "3d356a206338e4e7033c3e6d2863da31fe5709f15d250205f2dbc9dd3ee32c59"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ahaber.com.tr",
+                "www.ahaber.com.tr",
+                "www.fotomac.com.tr",
+                "www.milliyet.com.tr",
+                "www.sabah.com.tr",
+                "www.takvim.com.tr"
+            ]
+        },
+        {
+            "rule": "predatasrv\\.com\\/api\\/IdMatch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-dyg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8f2d91176dc878d7b6ec4009421985dc196ffa0d0e4ff858eb243f04197668b3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milliyet.com.tr",
+                "www.milliyet.com.tr"
+            ]
+        },
+        {
+            "rule": "predatasrv\\.com\\/api\\/IdMatch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-dyg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milliyet.com.tr",
+                "www.milliyet.com.tr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000613,
+    "topInitiators": [
+        {
+            "domain": "b-cdn.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 6,
+        "XHR": 20,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "dns2.turhost.com",
+        "dns1.turhost.com"
+    ]
+}

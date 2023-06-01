@@ -1,0 +1,83 @@
+{
+    "domain": "appconsent.io",
+    "owner": {
+        "name": "SFBX SAS",
+        "displayName": "SFBX"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "appconsent\\.io\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f136988907895ae2a47ede6fe750a052c6735e3239634a046462852aaa54a5b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marketscreener.com",
+                "www.marketscreener.com"
+            ]
+        },
+        {
+            "rule": "appconsent\\.io\\/tcf2\\/30\\.2\\.0\\/core\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "54e602dc0f222f17ffe8757502cc6638ef001f10706913f5667a976044fff704"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marketscreener.com",
+                "www.marketscreener.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+    ]
+}

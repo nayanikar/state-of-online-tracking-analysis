@@ -1,0 +1,775 @@
+{
+    "domain": "quero.space",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "cookie-consent-prod",
+        "qblogs-guiadacarreira-ssr-prod-assets",
+        "wordpress-cms-gc-prod-assets",
+        "public-prod-sp-cluster"
+    ],
+    "cnames": [
+        {
+            "original": "qb-api.guiadacarreira.com.br",
+            "resolved": "public-prod-sp-cluster.quero.space"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "quero\\.space\\/cookie-consent\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-consent-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e4ee244e4f1825874b1c64125b8067160f42d3d2dc3eed26dafc2517ad0fe874"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "querobolsa.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/cookie-consent\\.cjs\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cookie-consent-prod"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5994bfc00327cdd1d63d3958d873d1b2974c54833473c7bd12b00429c3d545f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "querobolsa.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/entry\\.88749b27\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.sessionStorage": 2,
+                "console.memory": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c2ee7589314d067805ecff9d0b9c63c3c8d5adb267451c1883d258a81515ba98"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/entry\\.65d37eaa\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8d5fc16bfffd2ed33d97b8e5878737a43ea3489f181f87d1547d6991343b6711"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/default\\.f3c4ca6e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fa6ea86a7b2f62f6eb5907fb783f747b8927926218b3c114146feb417ec3ddf1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/_postSlug_\\.cab3c3c8\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3df06e9974fc7beafff29f0b0773949b754ad623c78b1503d89793c93b5a5dcd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/post\\.2eb890aa\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d3557198bcec2c651a19d2d12422a8e8fe01b6cec5d175ae84b12ae9e073b878"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/index\\.b9031745\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9ede2d559a6b09abdb33d070673bc8741983d99dea02d644265c6eccdfa101f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/image-banner\\.ee37a1d2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/image-banner\\.e7ae457d\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e8282ee25c06bb376efac8e2c88ab3c89b4802813f2b155744e69f8c846ce581"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/stateful-link-list\\.d66dd77d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2284903422fb0b9a822f2562685a70f71592c1d11aab513b4d3484437c9d0390"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/stateful-link-list\\.9dbb622f\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4776db400ae04c34a39b1133fb7c06782b9a31ed6b694c90b95cac14be081bea"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/voxus-campaign\\.8ff53add\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f2f0eb0d17c792ef3df24238457fd0962d640359456a57c464b33a03d151ac00"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/related-articles\\.3fc1f24e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ed6c8f44c0c77096aa7f529f45d8e31d6a67036e156959498b55fc198f23e7f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/ui-article\\.eca64726\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4efad62b939296863678dda3b967c0c44e0bcab13825d64728e5e5ad5bbfa8f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/ui-article\\.d237d01b\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a74f84a11eb1f32b0b6711b8f1de1bc790af92ed9d541f9b5b0150fc4851c52b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/list-section\\.9ad42cbe\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dd827b6607acd1aa8d8d85c4d8b451983fa024686099a6b822d5aaeb9b685ffb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/article-page-most-read\\.6c2633b4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9a917c01f3caa02f2bf21b0e7d98d8b196da9114af6bd8689d5c39f83baa0c1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/uploads\\/2019\\/01\\/young-adults-meeting-up-study-2\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wordpress-cms-gc-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e68b38e89d3aad29dbcb8a3a7e31379d7301c5dc89481de2a39e27ca25a51505"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/error-component\\.21f0bf80\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/uploads\\/2023\\/03\\/Prouni-Medicina\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wordpress-cms-gc-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ec3fe6e93f834442ef0c86f3ba31cd9914e1f2191527fa3e762cba884cbf2c19"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/uploads\\/2023\\/02\\/inscricoes-prouni\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wordpress-cms-gc-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7880a9e8e571cc20224232678b76dd82d70757d0f4459761331735109e042fe9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/uploads\\/2023\\/02\\/sisu-2023-5\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wordpress-cms-gc-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8470b050da33ae065fd7711e1e400509993c0c54b555b4427abcc860f7adf80e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/uploads\\/2023\\/02\\/Nota-do-Enem-8\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wordpress-cms-gc-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4e5e7cbded25f78d3add3a152d772208308acd0c5ce38acaedf6adbc3f0a851d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/uploads\\/2023\\/02\\/Se-inscrever-no-Sisu\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wordpress-cms-gc-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "820935f50b575b7977a68ed0d81d8a0b59bf8f341f9ca0a73cd95f54df7d174e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/uploads\\/2019\\/01\\/nota-do-enem-5\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wordpress-cms-gc-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1591572ac6b8b614a16c9426a574a5b04c4c30974933a424532913a4da56eee6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/_postSlug_\\.c5273b8b\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5a25deb734178e2f35273a9e0be4a94276afbb977dda9b4dc867d906b0f63381"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/error-component\\.21f0bf80\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f8109d2b60c889614e4b6b37a93c4d2dff79662471747775b5860069cc379d66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/error-500\\.08715dcd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "82688c34864cbfe16e3d08cd2073a7179e9656a4186777e789a38d59e5f3af86"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/_nuxt\\/error-500\\.b5e9cca7\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qblogs-guiadacarreira-ssr-prod-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b5e9cca781ab1b360a6e3cb2a127dd02f87085a318a947d568b763263ffe9ede"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/api\\/qb\\/v1\\/universities\\/universities_home_showcase",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-prod-sp-cluster"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "qb-api.guiadacarreira.com.br",
+                    "resolved": "public-prod-sp-cluster.quero.space"
+                }
+            ],
+            "responseHashes": [
+                "dea6fa9eb1e70a4f36f8d08098425f9a1ea043c05c033f6f91bf3ef83f267670"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        },
+        {
+            "rule": "quero\\.space\\/api\\/qb\\/v1\\/universities\\/universities_home_showcase",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-prod-sp-cluster"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "qb-api.guiadacarreira.com.br",
+                    "resolved": "public-prod-sp-cluster.quero.space"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guiadacarreira.com.br",
+                "www.guiadacarreira.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9552238805970149
+        },
+        {
+            "domain": "rollbar.com",
+            "prevalence": 0.04477611940298507
+        }
+    ],
+    "types": {
+        "Stylesheet": 14,
+        "Script": 30,
+        "Image": 14,
+        "Other": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "edna.ns.cloudflare.com",
+        "scott.ns.cloudflare.com"
+    ]
+}

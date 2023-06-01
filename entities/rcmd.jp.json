@@ -1,0 +1,86 @@
+{
+    "domain": "rcmd.jp",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "d"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rcmd\\.jp\\/rview\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a9de149501872c7d540b5a9a9ec752837b29be1dfaf091b68be01f562520360e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_rcmdjp_user_id": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "kawashima-ya.jp",
+                "www.baystars.co.jp"
+            ]
+        },
+        {
+            "rule": "rcmd\\.jp\\/www\\.kohnan-eshop\\.com\\/new\\/recommend\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "be72e847e15c5c9058eccbf74fcc2ba58f65c6d9075f3a2c053813965c7f57cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kohnan-eshop.com",
+                "www.kohnan-eshop.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1246.awsdns-27.org",
+        "ns-296.awsdns-37.com",
+        "ns-953.awsdns-55.net",
+        "ns-1910.awsdns-46.co.uk"
+    ]
+}

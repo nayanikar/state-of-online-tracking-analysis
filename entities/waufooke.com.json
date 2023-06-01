@@ -1,0 +1,78 @@
+{
+    "domain": "waufooke.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "waufooke\\.com\\/5\\/3280302\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aniworld.to"
+            ]
+        },
+        {
+            "rule": "waufooke\\.com\\/tag\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "39c1c09cefd80b879489efb4f699382dd0fa042e99ea01d0a1b3a02f668acd1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aniworld.to"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1332.awsdns-38.org",
+        "ns-559.awsdns-05.net",
+        "ns-242.awsdns-30.com",
+        "ns-1578.awsdns-05.co.uk"
+    ]
+}

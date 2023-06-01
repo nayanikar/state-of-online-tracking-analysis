@@ -1,0 +1,186 @@
+{
+    "domain": "broadstreetads.com",
+    "owner": {
+        "name": "Broadstreet Ads, Inc",
+        "displayName": "Broadstreet Ads"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "cdn",
+        "ad"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "broadstreetads\\.com\\/init\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fishingmonthly.com.au",
+                "www.dendy.com.au"
+            ]
+        },
+        {
+            "rule": "broadstreetads\\.com\\/init-2\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a47e0ffbef12a31a2292b063731de67a772922992d30151accfd6117a48f6729"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arthritis.org",
+                "www.mondaq.com",
+                "www.stereonet.com"
+            ]
+        },
+        {
+            "rule": "broadstreetads\\.com\\/ndisplay\\/3969\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "797aa8886bfdb2b6b3f9d8237403336a9d5dd27dd58ae367e40763a2800ff84f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stereonet.com",
+                "www.stereonet.com"
+            ]
+        },
+        {
+            "rule": "broadstreetads\\.com\\/zdisplay\\/49787\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3db87ff3fa1bc647dcbbac7e298966d8c47ec64d6d29feb213b980f2af14cc33"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stereonet.com",
+                "www.stereonet.com"
+            ]
+        },
+        {
+            "rule": "broadstreetads\\.com\\/stencil-files\\/81461d9c-f7bb-40e2-876d-a45813c30d5e\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e20b9aabbbb094cb3241c3fa040d04ea7677bd1c711276efccbafaa2a3c25008"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stereonet.com",
+                "www.stereonet.com"
+            ]
+        },
+        {
+            "rule": "broadstreetads\\.com\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stereonet.com",
+                "www.stereonet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.18181818181818182
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Document": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "jay.ns.cloudflare.com",
+        "tara.ns.cloudflare.com"
+    ]
+}

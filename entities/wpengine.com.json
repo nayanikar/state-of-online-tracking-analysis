@@ -1,0 +1,147 @@
+{
+    "domain": "wpengine.com",
+    "owner": {
+        "name": "WPEngine, Inc.",
+        "displayName": "WPEngine"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00191,
+    "sites": 19,
+    "subdomains": [
+        "newblogs",
+        "flindersslider",
+        "edperf"
+    ],
+    "cnames": [
+        {
+            "original": "blogs.flinders.edu.au",
+            "resolved": "newblogs.wpengine.com"
+        },
+        {
+            "original": "slider.flinders.edu.au",
+            "resolved": "flindersslider.wpengine.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wpengine\\.com\\/student-news\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newblogs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "blogs.flinders.edu.au",
+                    "resolved": "newblogs.wpengine.com"
+                }
+            ],
+            "responseHashes": [
+                "f582b9e4847ec48f404243aa3c39bf91f50ce3992a752433b939fad4cf986ce5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flinders.edu.au",
+                "students.flinders.edu.au"
+            ]
+        },
+        {
+            "rule": "wpengine\\.com\\/wp-includes\\/js\\/wp-emoji-release\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "flindersslider"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "slider.flinders.edu.au",
+                    "resolved": "flindersslider.wpengine.com"
+                }
+            ],
+            "responseHashes": [
+                "5aad5fbd4238981a9ff5e2772ff1353dfe1a801fb49542fe157418c1438f7782"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flinders.edu.au",
+                "students.flinders.edu.au",
+                "www.flinders.edu.au"
+            ]
+        },
+        {
+            "rule": "wpengine\\.com\\/wp-content\\/uploads\\/2021\\/11\\/Education-Perfect-Home-Page-Showreel\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edperf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "educationperfect.com",
+                "www.educationperfect.com"
+            ]
+        },
+        {
+            "rule": "wpengine\\.com\\/wp-content\\/uploads\\/2021\\/11\\/Education-Perfect-Home-Page-Showreel\\.webm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edperf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "educationperfect.com",
+                "www.educationperfect.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9375
+        },
+        {
+            "domain": "flindersslider.wpenginepowered.com",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 3,
+        "Media": 4
+    },
+    "nameservers": [
+        "jim.ns.cloudflare.com",
+        "kara.ns.cloudflare.com"
+    ]
+}

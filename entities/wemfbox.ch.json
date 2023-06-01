@@ -1,0 +1,86 @@
+{
+    "domain": "wemfbox.ch",
+    "owner": {
+        "name": "NET-Metrix AG",
+        "displayName": "NET-Metrix"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "teletext",
+        "rts-ssl",
+        "rts"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "wemfbox\\.ch\\/2004\\/01\\/survey\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "teletext",
+                "rts-ssl"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "txt.ch",
+                "pages.rts.ch",
+                "programmesradio.rts.ch"
+            ]
+        },
+        {
+            "rule": "wemfbox\\.ch\\/cgi-bin\\/ivw\\/CP\\/programmesradio",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rts.ch",
+                "programmesradio.rts.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9230769230769231
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Image": 2
+    },
+    "nameservers": [
+        "ch.ch-inter.net",
+        "de.ch-inter.net"
+    ]
+}

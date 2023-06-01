@@ -1,0 +1,427 @@
+{
+    "domain": "vwdservices.com",
+    "owner": {
+        "name": "vwd group Netherlands B.V.",
+        "displayName": "vwd group Netherlands"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "quotecast",
+        "solutions",
+        "charting"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/request_session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "6a4acf37a2dd76cec0e95ea136f36c13b6b96d528f2e544d410798c8ef2ec08f",
+                "7c9b66b1362448a1458e1060fbabeb490ec36a36bbf712682762b74962894297",
+                "24a6c52a46436cc3cbc0ed8be4532d19dff09451a716f7306c81c70c06fbad07",
+                "c4d744f57cd08aa3457b2a223461b9638c78ecd7b90864578f7abfcab6d2201d",
+                "41d8f34313262d90d5bd5a92e58dd9f021a1a67e0ca86040fc9fc89f23625617",
+                "f740db3c64ef7877100f561c86f5f40cc53fad1a458293b0f08f6cf96954c223",
+                "5dbce20c80e5b7d0c3649d07a2a227d11b003c9c66bca462d495b99594e2c16b",
+                "5d3a98bda16002cdfa4e0e4d0d8d1f6c76ef741ed8950490b3bad7cae01d493d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fd.nl",
+                "monitor.iex.nl",
+                "www.belegger.nl",
+                "www.beleggen.nl",
+                "www.beurs.nl",
+                "www.beursgorilla.nl",
+                "www.deaandeelhouder.nl",
+                "www.iex.nl",
+                "www.tijd.be"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/6e612d76-4feb-4741-bbb2-32ddcde11c2c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fd.nl",
+                "beurs.fd.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/products\\/quotecast\\/lib\\/vwd-streamer-1\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "solutions"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Date.prototype.getTime": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "02fc7ddb5fffaf5a236720d3cdf2f148cc3c7d0d9256bf28e73d09305d29de28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iex.nl",
+                "www.beleggen.nl",
+                "www.belegger.nl",
+                "www.beurs.nl",
+                "www.beursgorilla.nl",
+                "www.deaandeelhouder.nl",
+                "www.iex.nl",
+                "www.tijd.be"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/921a5144-0db4-42dd-93e5-16e660a895b6",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iex.nl",
+                "monitor.iex.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/89d447ae-3c0c-4789-a28a-e6afd46dbcfb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belegger.nl",
+                "www.belegger.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/386b5c5e-1e86-4447-9756-5f26815259b7",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beleggen.nl",
+                "www.beleggen.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/cf68b7f4-980f-456e-8506-3a218704ce54",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beurs.nl",
+                "www.beurs.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/customers\\/beursgorilla\\.nl\\/chart-module\\/chartwithnavigator",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "solutions"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "29c9b4d30d479a359cb65d173bf19222cf8e0eeb753e77d49299607f4ab6eb70"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beursgorilla.nl",
+                "www.beursgorilla.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/customers\\/beursgorilla\\.nl\\/chart-module\\/Content\\/Style\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "solutions"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7ec310c38b0ff7d9e8f212364bd1d0828ddcc574a11558585e9730c01ba7bfbe"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beursgorilla.nl",
+                "www.beursgorilla.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/customers\\/beursgorilla\\.nl\\/chart-module\\/Scripts\\/config\\.beursgorilla\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "solutions"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cbddd367f8bae31a054bba742b6559cd201ff8393446a00018d871bfbce96553"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beursgorilla.nl",
+                "www.beursgorilla.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/customers\\/beursgorilla\\.nl\\/chart-module\\/Scripts\\/bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "solutions"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e389a03e60f009128e4ad753b07642a240887528840a0f056fd5df14f9e46233"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beursgorilla.nl",
+                "www.beursgorilla.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/hchart\\/v1\\/OPTA-IEX\\/data\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "charting"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cd209e74d60183e55ae284c4ea75d1b03e79077785bbcd89b359385587369c85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beursgorilla.nl",
+                "www.beursgorilla.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/a44bd17e-0396-49b6-97ff-24735a50863b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beursgorilla.nl",
+                "www.beursgorilla.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/775ba30c-c0e4-4c27-bc9d-753932079568",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deaandeelhouder.nl",
+                "www.deaandeelhouder.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/df87f83a-2972-4f42-9002-713deb94308b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iex.nl",
+                "www.iex.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/9e3c3ddf-fb04-4046-8bcb-94b20b08dc7e",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tijd.be",
+                "www.tijd.be"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.961038961038961
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.03463203463203463
+        },
+        {
+            "domain": "vwdservices.com",
+            "prevalence": 0.004329004329004329
+        }
+    ],
+    "types": {
+        "Fetch": 27,
+        "Script": 14,
+        "Document": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns1.tijdbeursmedia.nl",
+        "ns2.tijdbeursmedia.nl"
+    ]
+}

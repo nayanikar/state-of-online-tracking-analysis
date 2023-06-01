@@ -1,0 +1,130 @@
+{
+    "domain": "push4site.com",
+    "owner": {
+        "name": "LLC LOOK GIFT",
+        "displayName": "LOOK GIFT"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "iz",
+        "cybersport"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "push4site\\.com\\/sdk",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "iz",
+                "cybersport"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Notification.permission": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f352a56634ef8bc905445b5a4fbd14815cce02beb061c62b2d7574981d5a7acd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iz.ru",
+                "www.cybersport.ru"
+            ]
+        },
+        {
+            "rule": "push4site\\.com\\/Static\\/Script\\/cybersport\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cybersport"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f352a56634ef8bc905445b5a4fbd14815cce02beb061c62b2d7574981d5a7acd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cybersport.ru",
+                "www.cybersport.ru"
+            ]
+        },
+        {
+            "rule": "push4site\\.com\\/static\\/sw\\/cybersport\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d52cc73185c9c4aafc41c706cc2f2a85c6c89905f501e37dddcf5877bcd11095"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cybersport.ru",
+                "www.cybersport.ru"
+            ]
+        },
+        {
+            "rule": "push4site\\.com\\/Sdk\\/WidgetDisplayed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cybersport.ru",
+                "www.cybersport.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Other": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "gene.ns.cloudflare.com",
+        "scott.ns.cloudflare.com"
+    ]
+}

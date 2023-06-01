@@ -1,0 +1,110 @@
+{
+    "domain": "memberspace.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "memberspace\\.com\\/scripts\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fd9298a375400008a2baddf242bf4e173fbcec66c7b9981afc8701ede75074e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unlimitedhangout.com",
+                "www.amandalinettemeder.com"
+            ]
+        },
+        {
+            "rule": "memberspace\\.com\\/widget\\/20230418T193420X252112618\\/scripts\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.availWidth": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "03ae9980edfc1261f26286de2825fc3e5a7055e2b328673a8be6ddf713c43c64"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unlimitedhangout.com",
+                "www.amandalinettemeder.com"
+            ]
+        },
+        {
+            "rule": "memberspace\\.com\\/widget\\/20230418T193420X252112618\\/styles\\/widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c778e54b2b1ee6bc852d3bd459ad5ae26d201987fcdc1f9d597ee1677a6b2902"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unlimitedhangout.com",
+                "www.amandalinettemeder.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "emma.ns.cloudflare.com",
+        "todd.ns.cloudflare.com"
+    ]
+}

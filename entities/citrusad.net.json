@@ -1,0 +1,87 @@
+{
+    "domain": "citrusad.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "citrusad\\.net\\/citrusjs\\/0\\.1\\.0\\/citrus\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1373a779bfd8cada79bc4e2c85504d1628f7b40639d297f62a9cf759b140ee3e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bws.com.au",
+                "www.amcal.com.au"
+            ]
+        },
+        {
+            "rule": "citrusad\\.net\\/citrusjs\\/1\\.2\\.0\\/citrus\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5ace7d80d994cb51917b1bb95637bf743165f5d2f545822db1cd90c3750e400b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ocado.com",
+                "www.officeworks.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-708.awsdns-24.net",
+        "ns-1918.awsdns-47.co.uk",
+        "ns-201.awsdns-25.com",
+        "ns-1086.awsdns-07.org"
+    ]
+}

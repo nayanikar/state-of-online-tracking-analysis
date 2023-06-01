@@ -1,0 +1,103 @@
+{
+    "domain": "mediaoutcast.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "static",
+        "moa"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mediaoutcast\\.com\\/embed\\/js\\/mov-init\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "24995cc18052090a0f0e3edb3aaaf4f3913b45fe68cf0edbd711586782353312"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kurir.rs",
+                "stil.kurir.rs",
+                "www.espreso.co.rs"
+            ]
+        },
+        {
+            "rule": "mediaoutcast\\.com\\/js\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "moa"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6c8987ed11c5820dc163dedd5ce0e62d932a1dea3fe6f2ef4198a63f8208e6f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espreso.co.rs",
+                "www.espreso.co.rs"
+            ]
+        },
+        {
+            "rule": "mediaoutcast\\.com\\/api\\/ws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "moa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espreso.co.rs",
+                "www.espreso.co.rs"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "WebSocket": 2
+    },
+    "nameservers": [
+        "ns3dty.name.com",
+        "ns1bqx.name.com",
+        "ns4fmw.name.com",
+        "ns2fln.name.com"
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "domain": "feratel.com",
+    "owner": {
+        "name": "feratel media technologies AG",
+        "displayName": "feratel media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "wtvpict",
+        "webtv"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "feratel\\.com\\/picture\\/35\\/5970\\/0da99aa5-182a-4304-abde-3d0206f9ef1f\\.jpeg",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wtvpict"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "24491ef619565cb1cb63c58a2f91c108bee956a00ee5a8496b5dfc5797efe264"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wien.info",
+                "www.wien.info"
+            ]
+        },
+        {
+            "rule": "feratel\\.com\\/webtv\\/AjaxSessionSaveServlet",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webtv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wien.info",
+                "www.wien.info"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns2.feratel.at",
+        "ns1.feratel.at",
+        "ns4.feratel.at",
+        "ns3.feratel.at"
+    ]
+}

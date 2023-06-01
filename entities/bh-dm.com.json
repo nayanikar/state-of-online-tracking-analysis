@@ -1,0 +1,177 @@
+{
+    "domain": "bh-dm.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bh-dm\\.com\\/common\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "18bb276ab6a2dd62ed7d50b1cc554951ecfb93b04df08fa4e2dfcbaaf231b2c0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gpucheck.com",
+                "www.gpucheck.com",
+                "www.mycarspecs.com",
+                "www.thefastcode.com"
+            ]
+        },
+        {
+            "rule": "bh-dm\\.com\\/view\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.innerWidth": 4,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "f4bd230c62f9fa811b50ca0326649e1d0867a90fe83beef883549de5c4147abf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gpucheck.com",
+                "www.gpucheck.com",
+                "www.mycarspecs.com",
+                "www.thefastcode.com"
+            ]
+        },
+        {
+            "rule": "bh-dm\\.com\\/admgr_gpucheck\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a0015e48120abf073c4ff5d32dc8a6bb8ebc755cb33696e11e09b471fd288d9a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gpucheck.com",
+                "www.gpucheck.com"
+            ]
+        },
+        {
+            "rule": "bh-dm\\.com\\/country\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "30c714bf4216e577686d238b98561d093672cb25bf90baab50dd956f75cda4b3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gpucheck.com",
+                "www.gpucheck.com",
+                "www.mycarspecs.com",
+                "www.thefastcode.com"
+            ]
+        },
+        {
+            "rule": "bh-dm\\.com\\/admgr_mycarspecs\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "77f568e05e426ccf539485a25070850cb97af932d2a6bb7752afcfab4b720cb0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mycarspecs.com",
+                "www.mycarspecs.com"
+            ]
+        },
+        {
+            "rule": "bh-dm\\.com\\/admgr_thefastcode\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6eefdb8d255b668a91925b7c0c15001b88e86d9fec0838545db1ffa2337dcbbe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thefastcode.com",
+                "www.thefastcode.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 4,
+        "Script": 10,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "graham.ns.cloudflare.com",
+        "kia.ns.cloudflare.com"
+    ]
+}

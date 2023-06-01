@@ -1,0 +1,79 @@
+{
+    "domain": "sb-amx.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "cartn"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sb-amx\\.com\\/api\\/v1\\/get-user-cart",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cartn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amxsuperstores.com.au",
+                "www.amxsuperstores.com.au"
+            ]
+        },
+        {
+            "rule": "sb-amx\\.com\\/api\\/v1\\/get-user-cart",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cartn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7eba052abe37fd268146a2da3ac204b9a736ab98c42c0b51cf05f5e71d4e7719"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amxsuperstores.com.au",
+                "www.amxsuperstores.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "cruz.ns.cloudflare.com",
+        "kareem.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "domain": "push-sdk.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "push-sdk\\.net\\/f\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.indexedDB": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Notification.permission": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "649cda8f506e4e72ce855cca025cbd8180c5d6be705f1363bdbd789e5fff48aa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "filmpalast.to",
+                "getmodsapk.com"
+            ]
+        },
+        {
+            "rule": "push-sdk\\.net\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "filmpalast.to",
+                "getmodsapk.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "aspen.ns.cloudflare.com",
+        "braden.ns.cloudflare.com"
+    ]
+}

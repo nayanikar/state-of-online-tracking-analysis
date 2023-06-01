@@ -1,0 +1,124 @@
+{
+    "domain": "jabra.com",
+    "owner": {
+        "name": "GN Store Nord A/S",
+        "displayName": "GN Store Nord"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "productcatalogueapi",
+        "sitesettingsapi",
+        "sfcc-prod-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "jabra\\.com\\/\\/v1\\/family\\/filter",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productcatalogueapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "196883f413ccf48b2b796c1ecf566c9c680d5eb5949c07466ccd70634613dd53"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jabra.com.de",
+                "www.jabra.com.de"
+            ]
+        },
+        {
+            "rule": "jabra\\.com\\/api\\/v1\\/settings",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sitesettingsapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a29295345927d3f9a2f0012fff95dd2d30b92d5b105fe86c241ee6864f8942cb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jabra.com.de",
+                "www.jabra.com.de"
+            ]
+        },
+        {
+            "rule": "jabra\\.com\\/s\\/jabra-emea\\/dw\\/shop\\/v21_3\\/product_search\\/prices",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sfcc-prod-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jabra.com.de",
+                "www.jabra.com.de"
+            ]
+        },
+        {
+            "rule": "jabra\\.com\\/s\\/jabra-emea\\/dw\\/shop\\/v21_3\\/product_search\\/prices",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sfcc-prod-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "25c8597d2de8214866b5be98c49e64c0653b00444d6e70cf839009e78f4c34d2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jabra.com.de",
+                "www.jabra.com.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "dns2.cscdns.net",
+        "dns1.cscdns.net"
+    ]
+}

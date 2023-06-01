@@ -1,0 +1,88 @@
+{
+    "domain": "fceos.x.incapdns.net",
+    "owner": {
+        "name": "Imperva Inc.",
+        "displayName": "Imperva"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "gekko.spiceworks.com",
+            "resolved": "fceos.x.incapdns.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "fceos\\.x\\.incapdns\\.net\\/px\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "gekko.spiceworks.com",
+                    "resolved": "fceos.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [
+                "2852ab84149204c62f43abccbc31a6cfc4c8db5e979c8d53f796363f03a29a1e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiceworks.com",
+                "community.spiceworks.com"
+            ]
+        },
+        {
+            "rule": "fceos\\.x\\.incapdns\\.net\\/px\\/impr",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "gekko.spiceworks.com",
+                    "resolved": "fceos.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiceworks.com",
+                "community.spiceworks.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": []
+}

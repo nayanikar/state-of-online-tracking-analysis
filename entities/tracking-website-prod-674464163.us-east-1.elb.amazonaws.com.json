@@ -1,0 +1,90 @@
+{
+    "domain": "tracking-website-prod-674464163.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "tracking.unrealengine.com",
+            "resolved": "tracking-website-prod-674464163.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tracking-website-prod-674464163\\.us-east-1\\.elb\\.amazonaws\\.com\\/tracking\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tracking.unrealengine.com",
+                    "resolved": "tracking-website-prod-674464163.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "cb6efd4b948cdbd64e61aa38689687b98f04e87db28d49ab43d37eb9d08e1d56"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unrealengine.com",
+                "forums.unrealengine.com"
+            ]
+        },
+        {
+            "rule": "tracking-website-prod-674464163\\.us-east-1\\.elb\\.amazonaws\\.com\\/track\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tracking.unrealengine.com",
+                    "resolved": "tracking-website-prod-674464163.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unrealengine.com",
+                "forums.unrealengine.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "d3kjluh73b9h9o.cloudfront.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": []
+}

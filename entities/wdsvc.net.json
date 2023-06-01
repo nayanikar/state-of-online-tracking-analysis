@@ -1,0 +1,160 @@
+{
+    "domain": "wdsvc.net",
+    "owner": {
+        "name": "Wiland, Inc.",
+        "displayName": "Wiland"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "tags"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wdsvc\\.net\\/controller\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wds_random": {
+                    "ttl": 94608012,
+                    "length": 70,
+                    "prevalence": 0.000502008032128514,
+                    "uniqueness": 1
+                },
+                "__WDS1": {
+                    "ttl": 94608012,
+                    "length": 75,
+                    "prevalence": 0.000502008032128514,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cancer.org",
+                "www.firstthings.com",
+                "www.gaia.com",
+                "www.ncregister.com",
+                "www.theepochtimes.com"
+            ]
+        },
+        {
+            "rule": "wdsvc\\.net\\/container\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "994656ab080209b7a5900022d47d1d434bb6966ad9f3aa95d9042c7a2c64ff54",
+                "d64ff48cc8cdb364f1bcc88e13d7d947ddf9d13c1390b3765bc41b65fd9e3d64",
+                "cd644aae80acb2f3c30f30463946c79650d734660e652bdd2904edce8f297bd3",
+                "439e1d6a5495ea9293f3116ce297ec8284816455026c06c46291dd4ee72a90d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cancer.org",
+                "www.firstthings.com",
+                "www.gaia.com",
+                "www.ncregister.com",
+                "www.theepochtimes.com"
+            ]
+        },
+        {
+            "rule": "wdsvc\\.net\\/tpc-eval\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "b0e70b299ab9c122ad93531fa8e5309833baecd53dd55c992c538f8b33bfa22d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cancer.org",
+                "www.firstthings.com",
+                "www.gaia.com",
+                "www.ncregister.com",
+                "www.theepochtimes.com"
+            ]
+        },
+        {
+            "rule": "wdsvc\\.net\\/post-log",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cancer.org",
+                "www.firstthings.com",
+                "www.gaia.com",
+                "www.ncregister.com",
+                "www.theepochtimes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "XHR": 5
+    },
+    "nameservers": [
+        "ns-629.awsdns-14.net",
+        "ns-457.awsdns-57.com",
+        "ns-2024.awsdns-61.co.uk",
+        "ns-1491.awsdns-58.org"
+    ]
+}

@@ -1,0 +1,357 @@
+{
+    "domain": "cohesionapps.com",
+    "owner": {
+        "name": "Tagular Analytics, LLC",
+        "displayName": "Tagular Analytics"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "cdn",
+        "monarch",
+        "navi"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cohesionapps\\.com\\/cohesion\\/cohesion-latest\\.min\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "Screen.prototype.orientation": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "d0d8e8a2609ebb9eed8bfee94cc15caf4b1b95584909c5f1d8f8b4c6ac1e53bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "chsn_cnsnt": {
+                    "ttl": 63072007,
+                    "length": 57,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "tglr_anon_id": {
+                    "ttl": 63072008,
+                    "length": 36,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "tglr_sess_id": {
+                    "ttl": 1808,
+                    "length": 36,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "tglr_req": {
+                    "ttl": 1808,
+                    "length": 28,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "tglr_sess_count": {
+                    "ttl": 63072008,
+                    "length": 1,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "tglr_tenant_id": {
+                    "ttl": 63072008,
+                    "length": 33,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "tglr_smpl": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "pmpdid": {
+                    "ttl": 63072007,
+                    "length": 36,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "cohsn_xs_id": {
+                    "ttl": 63072008,
+                    "length": 36,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthline.com",
+                "download.cnet.com",
+                "thepointsguy.com",
+                "www.zdnet.com"
+            ]
+        },
+        {
+            "rule": "cohesionapps\\.com\\/cohesion\\/ext\\/experimental\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "72dcd9ad7e7ea460e601d2a3aa63ec786ef012eaa3109a037d889ba262c8172a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthline.com",
+                "greatist.com",
+                "psychcentral.com",
+                "www.healthline.com",
+                "www.medicalnewstoday.com"
+            ]
+        },
+        {
+            "rule": "cohesionapps\\.com\\/preamp\\/api\\/v1\\/decisions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "8d1b1145c035b357ee4a82cf780e1300b9b2a9166d1cf7bd18e6c75124b7e68a",
+                "9b94462bdf170c85e08af9eaa5bb6829faeb2aaa8516d4711cac7dda86b248ca",
+                "d38797e78828bb6a1bc4a840474486bf098724a596341501ff0bdf393b060168",
+                "7ef13839d5e21db530a24c50383ceab580295f787de4147a6b4596e51ca95c24",
+                "4b234366e0ea64354a1bc5a0c7e50c18260f046ea36235c4f8312d2df89fb452",
+                "a770ac4a0c73a7b8c317474f6c91887c1a422980ffcbfd41bb33cc594ef72e4b",
+                "6f2baf491779e7c7de83f497b4465059e499c01089546246ef4d747dcdb406cc",
+                "37723c4cd4e123f0d08bd498aa979a042e4fc76c2e6fd8c172d5985398d3de2f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthline.com",
+                "ahoy-stage.healthline.com",
+                "greatist.com",
+                "psychcentral.com",
+                "thepointsguy.com",
+                "www.cnet.com",
+                "www.healthline.com",
+                "www.medicalnewstoday.com",
+                "www.zdnet.com"
+            ]
+        },
+        {
+            "rule": "cohesionapps\\.com\\/cohesion\\/xs1\\.html",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 8,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "cdd44dd919056252b70ec530942b6ba656fc4e47dff1e7d87a935ac19ecc2ef5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthline.com",
+                "download.cnet.com",
+                "greatist.com",
+                "psychcentral.com",
+                "thepointsguy.com",
+                "www.cnet.com",
+                "www.healthline.com",
+                "www.medicalnewstoday.com"
+            ]
+        },
+        {
+            "rule": "cohesionapps\\.com\\/cohesion\\/xs2\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "9ae13ddab63acb296700ae3579ebf12ca93759bcf6285822acc5f831fc6f62f0"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthline.com",
+                "download.cnet.com",
+                "greatist.com",
+                "psychcentral.com",
+                "thepointsguy.com",
+                "www.cnet.com",
+                "www.healthline.com",
+                "www.medicalnewstoday.com"
+            ]
+        },
+        {
+            "rule": "cohesionapps\\.com\\/preamp\\/api\\/v1\\/confirmation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "27badc983df1780b60c2b3fa9d3a19a00e46aac798451f0febdca52920faaddf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthline.com",
+                "ahoy-stage.healthline.com",
+                "greatist.com",
+                "psychcentral.com",
+                "thepointsguy.com",
+                "www.cnet.com",
+                "www.healthline.com",
+                "www.medicalnewstoday.com",
+                "www.zdnet.com"
+            ]
+        },
+        {
+            "rule": "cohesionapps\\.com\\/api\\/v1\\/evaluate\\/ruleset\\/6c8c3ead-bc7a-4fe6-98e6-532258665aee\\/57ab7954-a37c-4779-9e02-b364f56ce84c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "monarch"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnet.com",
+                "www.cnet.com"
+            ]
+        },
+        {
+            "rule": "cohesionapps\\.com\\/api\\/v1\\/evaluate\\/ruleset\\/6c8c3ead-bc7a-4fe6-98e6-532258665aee\\/57ab7954-a37c-4779-9e02-b364f56ce84c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "monarch"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5a0cf5d16ba3d475ac1dc937f6e732bfaa50201fa070ff7490a844323c1d9a44"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnet.com",
+                "www.cnet.com"
+            ]
+        },
+        {
+            "rule": "cohesionapps\\.com\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "navi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "psychcentral.com",
+                "www.cnet.com",
+                "www.healthline.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9722222222222222
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.027777777777777776
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 18,
+        "Document": 16,
+        "Preflight": 2,
+        "Fetch": 2,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns-1139.awsdns-14.org",
+        "ns-1577.awsdns-05.co.uk",
+        "ns-105.awsdns-13.com",
+        "ns-920.awsdns-51.net"
+    ]
+}

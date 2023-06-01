@@ -1,0 +1,150 @@
+{
+    "domain": "sbi-push.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "events"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sbi-push\\.com\\/sonobi-library-push\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.indexedDB": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "18c0abd0681dfec31b40e21d0fb8297ad4202d8aff21dcd155848d6826c55aef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "druggenius.com",
+                "homehacks.co",
+                "living.alot.com"
+            ]
+        },
+        {
+            "rule": "sbi-push\\.com\\/api\\/ctl\\/prompt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "2154eab589d6a0b5b946992be387f5cbc7ff7b96f7a8289580e733208b108599",
+                "497be18f8a24c95698979f79731790cd6e08d552ccebc7824f6212fb1a57fa2a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "druggenius.com",
+                "homehacks.co",
+                "living.alot.com"
+            ]
+        },
+        {
+            "rule": "sbi-push\\.com\\/pn\\/vapid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "3e4bf16fafd41604ab0236bd3f2e3561d4092caf9160b593b73675ab5b87ec98",
+                "0e75b91ffbf827c4b4974d002cc7e13840a6dcc75059df1937c73e046568ccc4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "druggenius.com",
+                "homehacks.co",
+                "living.alot.com"
+            ]
+        },
+        {
+            "rule": "sbi-push\\.com\\/sbi_service_worker_import_v1\\.0\\.4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0e482a1f389f908d00a12604313bdc923e1a31a22d952b0389a0296639cde501"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "druggenius.com",
+                "living.alot.com"
+            ]
+        },
+        {
+            "rule": "sbi-push\\.com\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "druggenius.com",
+                "living.alot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7058823529411765
+        },
+        {
+            "domain": "d14pdm1b7fi5kh.cloudfront.net",
+            "prevalence": 0.29411764705882354
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 8,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns-1034.awsdns-01.org",
+        "ns-224.awsdns-28.com",
+        "ns-1585.awsdns-06.co.uk",
+        "ns-882.awsdns-46.net"
+    ]
+}

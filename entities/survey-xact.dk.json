@@ -1,0 +1,108 @@
+{
+    "domain": "survey-xact.dk",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "popin"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "survey-xact\\.dk\\/popin\\/popin-material\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "popin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "55aadb4b3fe119209ecddcf3ad0944dcb8bc9d275813d5a674deebde3b3461b3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordjyske.dk",
+                "www.hemtrevligt.se"
+            ]
+        },
+        {
+            "rule": "survey-xact\\.dk\\/popin\\/popin\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "popin"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "114b0206f7d4c34b9b303a5d19ad05a49bb4b12521e4e541d77c83d1614edfe7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordjyske.dk",
+                "www.hemtrevligt.se",
+                "www.sundhed.dk"
+            ]
+        },
+        {
+            "rule": "survey-xact\\.dk\\/cookies\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "popin"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "00093dac4cd275101a8d9632c0f93b3d51b41f43b608960cd4be8413f2eb67b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordjyske.dk",
+                "www.hemtrevligt.se",
+                "www.sundhed.dk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7333333333333333
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.26666666666666666
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 6
+    },
+    "nameservers": [
+        "ns01.one.com",
+        "ns02.one.com"
+    ]
+}

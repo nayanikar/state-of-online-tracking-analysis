@@ -1,0 +1,61 @@
+{
+    "domain": "nprinfra.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "organization-service-bucket"
+    ],
+    "cnames": [
+        {
+            "original": "organization.api.npr.org",
+            "resolved": "organization-service-bucket.nprinfra.org"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "nprinfra\\.org\\/v4\\/stations\\/1037",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "organization-service-bucket"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "organization.api.npr.org",
+                    "resolved": "organization-service-bucket.nprinfra.org"
+                }
+            ],
+            "responseHashes": [
+                "a1e9bb686cc485eebd6e30379f5a3245c97efd9c0411d7238f34c3087f9cd271"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "npr.org",
+                "prod-www-origin.npr.org",
+                "www.npr.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-1932.awsdns-49.co.uk",
+        "ns-630.awsdns-14.net",
+        "ns-203.awsdns-25.com",
+        "ns-1144.awsdns-15.org"
+    ]
+}

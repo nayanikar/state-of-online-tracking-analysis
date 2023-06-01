@@ -1,0 +1,107 @@
+{
+    "domain": "vibe.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "s",
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vibe\\.co\\/vbpx\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "07aa83ac8d21e4b15f28ff9afaf7c9443b0fd19f827f93b0af86cc152fc841d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_vb": {
+                    "ttl": 2592001,
+                    "length": 36,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fubo.tv",
+                "saffordequipment.com",
+                "www.fubo.tv",
+                "www.uslawshield.com",
+                "www.wizard101.com"
+            ]
+        },
+        {
+            "rule": "vibe\\.co\\/pixel\\/s",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "fbf82eb337730c7daeb7974e56cb7dfcc7e9146abcb17d039cc6455f13579cd9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00004084244346725117,
+                "_vb": 0.000027228295644834112,
+                "IR_gbd": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "fubo.tv",
+                "saffordequipment.com",
+                "www.fubo.tv",
+                "www.uslawshield.com",
+                "www.wizard101.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000545,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 5
+    },
+    "nameservers": [
+        "marge.ns.cloudflare.com",
+        "rory.ns.cloudflare.com"
+    ]
+}

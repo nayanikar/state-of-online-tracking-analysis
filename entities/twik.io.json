@@ -1,0 +1,124 @@
+{
+    "domain": "twik.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "twik\\.io\\/tcs\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Screen.prototype.orientation": 2,
+                "window.devicePixelRatio": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "da2e61ce1c668601d1273b0775c54942ef9c2902246a8dcbb900d06c8b7acd0a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lavinialingerie.com",
+                "rapidapi.com"
+            ]
+        },
+        {
+            "rule": "twik\\.io\\/twik",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "31e5286313541ddf6c7dc17d7f2f558b8cd59953c7f14e42e620c988bff87279"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lavinialingerie.com",
+                "rapidapi.com"
+            ]
+        },
+        {
+            "rule": "twik\\.io\\/twik",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lavinialingerie.com",
+                "rapidapi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns44.domaincontrol.com",
+        "ns43.domaincontrol.com"
+    ]
+}

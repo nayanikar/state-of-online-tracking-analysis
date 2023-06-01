@@ -1,0 +1,131 @@
+{
+    "domain": "regiogroei.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.0011,
+    "sites": 11,
+    "subdomains": [
+        "s",
+        "i"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "regiogroei\\.cloud\\/plugins\\/consent-plugin\\.v1\\.1\\.1\\.js",
+            "cookies": 0.001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "window.innerWidth": 10,
+                "Document.cookie setter": 10,
+                "Navigator.prototype.userAgent": 10
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "24c686a134e7331560c7fbf072078e48bb42363f7b2924115d2bbefa5ea4278c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "consent-cookie-toggles": {
+                    "ttl": 31536002,
+                    "length": 92,
+                    "prevalence": 0.0010043185698503565,
+                    "uniqueness": 0.1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1limburg.nl",
+                "www.gld.nl",
+                "www.omroepwest.nl",
+                "www.omroepzeeland.nl",
+                "www.omropfryslan.nl",
+                "www.rijnmond.nl",
+                "www.rtvdrenthe.nl",
+                "www.rtvnoord.nl",
+                "www.rtvoost.nl",
+                "www.rtvutrecht.nl"
+            ]
+        },
+        {
+            "rule": "regiogroei\\.cloud\\/plugins\\/consent-plugin\\.v1\\.1\\.1\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "4c8d80ce06ee3a5d26cb7875971760d1585144362d8ba78339cf01e3011a061f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1limburg.nl",
+                "www.gld.nl",
+                "www.omroepwest.nl",
+                "www.omroepzeeland.nl",
+                "www.omropfryslan.nl",
+                "www.rijnmond.nl",
+                "www.rtvdrenthe.nl",
+                "www.rtvnoord.nl",
+                "www.rtvoost.nl",
+                "www.rtvutrecht.nl"
+            ]
+        },
+        {
+            "rule": "regiogroei\\.cloud\\/fn_checksum,6049f7bbddd44cca78de694e2fdffe8a\\/264x148\\/f8600deb-fa2b-36bc-b17f-2da19172a1ba\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7e7776f5a65aaa2f0370704ca639834126b10fea01f636db1dcd05983b8adaff"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rtvutrecht.nl",
+                "www.rtvutrecht.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Stylesheet": 10,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1217.awsdns-24.org",
+        "ns-1723.awsdns-23.co.uk",
+        "ns-1019.awsdns-63.net",
+        "ns-42.awsdns-05.com"
+    ]
+}

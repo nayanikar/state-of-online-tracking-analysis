@@ -1,0 +1,210 @@
+{
+    "domain": "adtrue.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "exchange",
+        "track"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adtrue\\.com\\/rtb\\/async\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "f979285e29b7738e79983b46d15f2c865f36ca1033937b4fd938af11798ef40f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animefever.cc",
+                "movie.douban.com",
+                "pinoyhdflixs.su",
+                "www.creaders.net"
+            ]
+        },
+        {
+            "rule": "adtrue\\.com\\/delivery\\/impress",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "exchange"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "92fef6c288598d610bb7b234b3f097d9151fdacf6a4af1176afe563365694043"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animefever.cc",
+                "movie.douban.com",
+                "pinoyhdflixs.su",
+                "www.creaders.net"
+            ]
+        },
+        {
+            "rule": "adtrue\\.com\\/track\\/request",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "f4e125313753d65db851e4b47334123f4f71ac3ee6e28f3c87ee5264a874da78"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animefever.cc",
+                "movie.douban.com",
+                "pinoyhdflixs.su"
+            ]
+        },
+        {
+            "rule": "adtrue\\.com\\/pb\\/prebid\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appName": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.doNotTrack": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.width": 1,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "825d5cd71dbdd99c5c8181e2e88e24573f837019cc0b15a6a15fa98bdffc506e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592014,
+                    "length": 16,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animefever.cc",
+                "movie.douban.com",
+                "pinoyhdflixs.su"
+            ]
+        },
+        {
+            "rule": "adtrue\\.com\\/rtb\\/passback\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "43bda1428a5263bac1077be4600446811177d2517529640d7cf560363d67a629"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animefever.cc",
+                "movie.douban.com",
+                "pinoyhdflixs.su"
+            ]
+        },
+        {
+            "rule": "adtrue\\.com\\/tag\\/passback",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "exchange"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animefever.cc",
+                "movie.douban.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "vkspeed.com",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "dolphincdn.xyz",
+            "prevalence": 0.047619047619047616
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.047619047619047616
+        },
+        {
+            "domain": "tribalfusion.com",
+            "prevalence": 0.047619047619047616
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Document": 3
+    },
+    "nameservers": [
+        "tricia.ns.cloudflare.com",
+        "micah.ns.cloudflare.com"
+    ]
+}

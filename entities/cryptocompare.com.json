@@ -1,0 +1,210 @@
+{
+    "domain": "cryptocompare.com",
+    "owner": {
+        "name": "Crypto Coin Comparison Ltd",
+        "displayName": "Crypto Coin Comparison"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000749,
+    "sites": 11,
+    "subdomains": [
+        "streamer",
+        "min-api",
+        "widgets",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cryptocompare\\.com\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "streamer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coinguides.org",
+                "www.eldiestro.es"
+            ]
+        },
+        {
+            "rule": "cryptocompare\\.com\\/data\\/pricemultifull",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "min-api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e43d6f92d608e4f609f9b030d6ccaf058b8d450b233dc46b97dd4f56d6873dfb",
+                "f348cda287718311f68d484b29473ca9f2a624ce6b4ed0c66ac7dbc49234abdf",
+                "c746f938e88ac35408789c3ca45722809307737fdb855d33402ffc37cc2c5ba3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coinguides.org",
+                "www.bitcoinprice.com",
+                "www.cryptoglobe.com",
+                "www.luffarn.com"
+            ]
+        },
+        {
+            "rule": "cryptocompare\\.com\\/data\\/histominute",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "min-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8262410478ca20aa589e0aaf4bbe504ca9f7f8dd282970e0b60697d7bcea235c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinprice.com",
+                "www.bitcoinprice.com"
+            ]
+        },
+        {
+            "rule": "cryptocompare\\.com\\/data\\/histoday",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "min-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2736d6311c901cbe236b517994ca6ab422b9090fe0b63e55bb116f21d61e5775"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinprice.com",
+                "www.bitcoinprice.com"
+            ]
+        },
+        {
+            "rule": "cryptocompare\\.com\\/serve\\/v2\\/coin\\/header",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "16166ddd4ffae46a89b6be5b6b26304af04f0197d0651dbe56eff88a2a309a5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptoglobe.com",
+                "www.cryptoglobe.com"
+            ]
+        },
+        {
+            "rule": "cryptocompare\\.com\\/media\\/37746251\\/btc\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "baa11e0117879c4e67d975ad08f65b4b0130a5326334ca1806ff82dd6c0333d2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luffarn.com",
+                "www.mmnews.de"
+            ]
+        },
+        {
+            "rule": "cryptocompare\\.com\\/serve\\/v1\\/coin\\/chart",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 1,
+                "CanvasRenderingContext2D.prototype.measureText": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bb5fc8f2ac4ab53557be9244c425bbf4f2a2ddb2a3d7f6234645eaa50f7c7679"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mmnews.de",
+                "www.mmnews.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7727272727272727
+        },
+        {
+            "domain": "co-in.io",
+            "prevalence": 0.13636363636363635
+        },
+        {
+            "domain": "s3wfg.com",
+            "prevalence": 0.09090909090909091
+        }
+    ],
+    "types": {
+        "WebSocket": 2,
+        "XHR": 8,
+        "Script": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "brit.ns.cloudflare.com",
+        "elmo.ns.cloudflare.com"
+    ]
+}

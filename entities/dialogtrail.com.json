@@ -1,0 +1,105 @@
+{
+    "domain": "dialogtrail.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "headless",
+        "scriptman"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dialogtrail\\.com\\/static\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "headless"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "window.indexedDB": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "4f420f8497eb3d7be2b9c7aa8d77a293920a092a3f62c14440f223c040c808c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "byggmax.se",
+                "www.outnorth.no",
+                "www.outnorth.com"
+            ]
+        },
+        {
+            "rule": "dialogtrail\\.com\\/public\\/bfafab2d-b7fe-4d54-82cc-e628e06cbef5\\/placement",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scriptman"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outnorth.com",
+                "www.outnorth.no"
+            ]
+        },
+        {
+            "rule": "dialogtrail\\.com\\/public\\/bfafab2d-b7fe-4d54-82cc-e628e06cbef5\\/placement",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scriptman"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outnorth.com",
+                "www.outnorth.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns01.one.com",
+        "ns02.one.com"
+    ]
+}

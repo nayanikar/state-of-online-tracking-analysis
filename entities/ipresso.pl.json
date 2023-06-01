@@ -1,0 +1,235 @@
+{
+    "domain": "ipresso.pl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "media-ddtvn",
+        "media-tvn24",
+        "media-esky-pl",
+        "perun"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ipresso\\.pl\\/pushServiceWorker\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-ddtvn",
+                "media-tvn24",
+                "media-esky-pl"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "c12be49f4af4d498ce313c8eda4630d5aa8e8fbea7eaf4a30ca22649fd3add4e",
+                "2d8d1a2ce7bb7505c763bfbf06162d5b4a24e332e66b212d2855497a09046641"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvn.pl",
+                "tvn24.pl",
+                "www.esky.pl"
+            ]
+        },
+        {
+            "rule": "ipresso\\.pl\\/js\\/firebase-app\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-ddtvn",
+                "media-tvn24",
+                "media-esky-pl"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6e0633c9d7c350c2a929833a7db2a0d4d90f266e5f371fe0e09df6bd89f4dacf"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvn.pl",
+                "tvn24.pl",
+                "www.esky.pl"
+            ]
+        },
+        {
+            "rule": "ipresso\\.pl\\/js\\/firebase-messaging\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media-ddtvn",
+                "media-tvn24",
+                "media-esky-pl"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 1,
+                "Notification.permission": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "f4ef130eb63fc4d9608230bf4949e01ff659a1eac1c07dbaaf5985efb4a30c5a"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvn.pl",
+                "tvn24.pl",
+                "www.esky.pl"
+            ]
+        },
+        {
+            "rule": "ipresso\\.pl\\/monitoridentification\\/rKJGnr7F-ClNW1bCK3jIO0jodNbDdP2CZkWDQotjJms\\.\\/72Ypz8SvKrc4P7GsGAT2WKO5zX88QVROVnHgq9dZ5jY\\.\\/monitoridentification\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "media-esky-pl"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Notification.permission": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "82b33ba46ce211f364c2b76c13448be903debbe06319d257fbf4966539676394"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__ipcan_rKJGnr7F-ClNW1bCK3jIO0jodNbDdP2CZkWDQotjJms.": {
+                    "ttl": 31104011,
+                    "length": 44,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esky.pl",
+                "www.esky.pl"
+            ]
+        },
+        {
+            "rule": "ipresso\\.pl\\/js\\/firebase-app\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-esky-pl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6e0633c9d7c350c2a929833a7db2a0d4d90f266e5f371fe0e09df6bd89f4dacf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esky.pl",
+                "www.esky.pl"
+            ]
+        },
+        {
+            "rule": "ipresso\\.pl\\/perun\\/rKJGnr7F-ClNW1bCK3jIO0jodNbDdP2CZkWDQotjJms\\.\\/72Ypz8SvKrc4P7GsGAT2WKO5zX88QVROVnHgq9dZ5jY\\.\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "perun"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__ipcan_rKJGnr7F-ClNW1bCK3jIO0jodNbDdP2CZkWDQotjJms.": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "esky.pl",
+                "www.esky.pl"
+            ]
+        },
+        {
+            "rule": "ipresso\\.pl\\/js\\/firebase-messaging\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media-esky-pl"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2,
+                "Notification.permission": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f4ef130eb63fc4d9608230bf4949e01ff659a1eac1c07dbaaf5985efb4a30c5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esky.pl",
+                "www.esky.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7727272727272727
+        },
+        {
+            "domain": "cdntvn.pl",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "tvn.pl",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "Other": 9,
+        "Script": 8
+    },
+    "nameservers": [
+        "dns3.home.pl",
+        "dns2.home.pl",
+        "dns.home.pl"
+    ]
+}

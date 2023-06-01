@@ -1,0 +1,130 @@
+{
+    "domain": "newspassid.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "bidder"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "newspassid\\.com\\/openrtb2\\/auction",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bidder"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a0cb887f4b1a45f13c592f53c0074f629106713009af25b2a49c5a44086af488"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "miamiherald.com",
+                "www.seattletimes.com"
+            ]
+        },
+        {
+            "rule": "newspassid\\.com\\/static\\/load-cookie\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bidder"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "202b65f7735476b526548db88f43f49a959907ed4078132204f0cb1c4503f9e2"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "sharedid": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "seattletimes.com",
+                "www.seattletimes.com"
+            ]
+        },
+        {
+            "rule": "newspassid\\.com\\/cookie_sync",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bidder"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "233d8ca0bee901899b812fe58115b6428ec4a76fc21f5ce18f1374ea1a248e97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seattletimes.com",
+                "www.seattletimes.com"
+            ]
+        },
+        {
+            "rule": "newspassid\\.com\\/setuid",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bidder"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seattletimes.com",
+                "www.seattletimes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "htlbid.com",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "pubmatic.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Document": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns2.wixdns.net",
+        "ns3.wixdns.net"
+    ]
+}

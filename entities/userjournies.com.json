@@ -1,0 +1,113 @@
+{
+    "domain": "userjournies.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "userjournies\\.com\\/journey\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "a7f5c46c07be491d34991aa04c0ce81e0bc80dabbac9af989d49150494d972b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "userjournies": {
+                    "ttl": 2592014,
+                    "length": 36,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anker.com",
+                "luxuryescapes.com",
+                "www.anker.com",
+                "www.banggood.com"
+            ]
+        },
+        {
+            "rule": "userjournies\\.com\\/trackk\\/user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anker.com",
+                "de.anker.com",
+                "luxuryescapes.com",
+                "www.anker.com",
+                "www.banggood.com"
+            ]
+        },
+        {
+            "rule": "userjournies\\.com\\/trackk\\/user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anker.com",
+                "luxuryescapes.com",
+                "www.anker.com",
+                "www.banggood.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "omguk.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 5,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "jack.ns.cloudflare.com",
+        "melinda.ns.cloudflare.com"
+    ]
+}

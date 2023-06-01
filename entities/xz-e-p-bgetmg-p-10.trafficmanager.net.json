@@ -1,0 +1,107 @@
+{
+    "domain": "xz-e-p-bgetmg-p-10.trafficmanager.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "secure.bge.com",
+            "resolved": "xz-e-p-bgetmg-p-10.trafficmanager.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "xz-e-p-bgetmg-p-10\\.trafficmanager\\.net\\/api\\/Services\\/MyAccountService\\.svc\\/GetWebUserName",
+            "cookies": 0.00000681,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "secure.bge.com",
+                    "resolved": "xz-e-p-bgetmg-p-10.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bge.com",
+                "www.bge.com"
+            ]
+        },
+        {
+            "rule": "xz-e-p-bgetmg-p-10\\.trafficmanager\\.net\\/api\\/Services\\/MyAccountService\\.svc\\/IsMaintenanceMode",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "secure.bge.com",
+                    "resolved": "xz-e-p-bgetmg-p-10.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bge.com",
+                "www.bge.com"
+            ]
+        },
+        {
+            "rule": "xz-e-p-bgetmg-p-10\\.trafficmanager\\.net\\/api\\/Services\\/MyAccountService\\.svc\\/GetWebUserName",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "secure.bge.com",
+                    "resolved": "xz-e-p-bgetmg-p-10.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bge.com",
+                "www.bge.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000681,
+    "types": {
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,105 @@
+{
+    "domain": "ecomtrack.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ecomtrack\\.io\\/v1\\/tag\\/script",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eda65f7f18aa91fdc3bad0abc369ae3fff9db430df4a54bb5c334f8e2c74f3a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oliverwicks.com",
+                "www.oliverwicks.com"
+            ]
+        },
+        {
+            "rule": "ecomtrack\\.io\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "762c2749580c286a68d4528d912a4afa02a17dc2025c6c65b17b0dfab8291408"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oliverwicks.com",
+                "www.oliverwicks.com"
+            ]
+        },
+        {
+            "rule": "ecomtrack\\.io\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oliverwicks.com",
+                "www.oliverwicks.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-cloud-a4.googledomains.com",
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a1.googledomains.com"
+    ]
+}

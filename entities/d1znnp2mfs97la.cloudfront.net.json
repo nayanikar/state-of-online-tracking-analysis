@@ -1,0 +1,135 @@
+{
+    "domain": "d1znnp2mfs97la.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "d1znnp2mfs97la\\.cloudfront\\.net\\/202304071425\\/combined\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4ce27f2fc13b202a40861f93a430fb71d18ceb50cd62f0f10dc16340f0fe943e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playlistpush.com",
+                "app.playlistpush.com"
+            ]
+        },
+        {
+            "rule": "d1znnp2mfs97la\\.cloudfront\\.net\\/jquery\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playlistpush.com",
+                "app.playlistpush.com"
+            ]
+        },
+        {
+            "rule": "d1znnp2mfs97la\\.cloudfront\\.net\\/202304071425\\/combined\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "58b130011e0c46b4f49be8ab970bf8d5c2fc14da0aa58adef3072d637ff5e367"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cc-dtz": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playlistpush.com",
+                "app.playlistpush.com"
+            ]
+        },
+        {
+            "rule": "d1znnp2mfs97la\\.cloudfront\\.net\\/2022\\/vuejs2\\.prod\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "29296ccacaa9ed35ed168fc51e36f54fd6f8db9c7786bbf38cc59a27229ba5c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playlistpush.com",
+                "app.playlistpush.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-465.awsdns-58.com",
+        "ns-1262.awsdns-29.org",
+        "ns-1827.awsdns-36.co.uk",
+        "ns-653.awsdns-17.net"
+    ]
+}

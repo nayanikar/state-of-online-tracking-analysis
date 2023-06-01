@@ -1,0 +1,502 @@
+{
+    "domain": "intuit.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [
+        "mktg",
+        "ipv6-prod-turbotax",
+        "accounts-prd",
+        "digitalasset"
+    ],
+    "cnames": [
+        {
+            "original": "accounts-tax.intuit.com",
+            "resolved": "accounts-prd.intuit.com.edgekey.net"
+        },
+        {
+            "original": "accounts.intuit.ca",
+            "resolved": "accounts-prd.intuit.com.edgekey.net"
+        },
+        {
+            "original": "digitalasset.intuit.com",
+            "resolved": "digitalasset.intuit.com.edgekey.net"
+        },
+        {
+            "original": "quickbooks.intuit.com",
+            "resolved": "mktg.intuit.com.edgekey.net"
+        },
+        {
+            "original": "turbotax.intuit.com",
+            "resolved": "ipv6-prod-turbotax.intuit.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/analytics-core\\/track-event-lib-init\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "quickbooks.intuit.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c71c96e971f8f5635aaf2e3e8e3b3b9418ed44c37244040d551e16b9933ea621"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "www.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/proxy\\/t\\/cj\\/tags\\/11007\\/tag\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ipv6-prod-turbotax"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "turbotax.intuit.com",
+                    "resolved": "ipv6-prod-turbotax.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f959db26ba758f320b02b9ab133a194f9260c59c94b9cd37789da0147d4c9b3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cjConsent": {
+                    "ttl": 34128009,
+                    "length": 12,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "cjCountry": {
+                    "ttl": 34128009,
+                    "length": 2,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "ttlc.intuit.com",
+                "turbotax.community.intuit.ca"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/proxy\\/t\\/cj\\/11007\\/pageInfo",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ipv6-prod-turbotax"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "turbotax.intuit.com",
+                    "resolved": "ipv6-prod-turbotax.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "ttlc.intuit.com",
+                "turbotax.community.intuit.ca"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/fe_logger",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts-prd"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "accounts-tax.intuit.com",
+                    "resolved": "accounts-prd.intuit.com.edgekey.net"
+                },
+                {
+                    "original": "accounts.intuit.ca",
+                    "resolved": "accounts-prd.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "turbotax.intuit.com",
+                "turboimpot.intuit.ca",
+                "turbotax.intuit.ca"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/proxy\\/t\\/cj\\/11007\\/report",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ipv6-prod-turbotax"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "turbotax.intuit.com",
+                    "resolved": "ipv6-prod-turbotax.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "ttlc.intuit.com",
+                "turbotax.community.intuit.ca"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/IMAGE\\/A5DWTqyj4\\/n-result-icon\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0cb36d15f551bdbf9db19f524258449c3f9275b754c90d3df62ffc9b65dee573"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "turbotax.community.intuit.ca"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/IMAGE\\/A0B8E90nJ\\/e-file\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "fa383b31768593885423ed517374f46ab51ead36333a57f9d6e03995215fb1b8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "turbotax.community.intuit.ca"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/IMAGE\\/A2M56YOAs\\/c-level\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "71b23f65c182fce49697d0306918b741a781a0ea6a9116b2802646d0785440e4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "turbotax.community.intuit.ca"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/IMAGE\\/A51TCUC1c\\/Intuit-1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "bfb9ad9c9fb786f6c85f1c196f0863d50664d986c01d6521e001983efac02f8e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "turbotax.community.intuit.ca"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/ius_proxy\\/v1\\/users\\/me",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts-prd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "accounts.intuit.ca",
+                    "resolved": "accounts-prd.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.ca",
+                "turbotax.community.intuit.ca"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/ius_proxy\\/v1\\/users\\/me",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts-prd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "accounts.intuit.ca",
+                    "resolved": "accounts-prd.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f1d1bd267b1938d04363a2b93f55e65c200b74ed1a127fe9dd1751cca83ae314"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.ca",
+                "turbotax.community.intuit.ca"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/IUS-Plugins\\/v2\\/scripts\\/iux-core\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "accounts-prd"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "accounts-tax.intuit.com",
+                    "resolved": "accounts-prd.intuit.com.edgekey.net"
+                },
+                {
+                    "original": "accounts.intuit.ca",
+                    "resolved": "accounts-prd.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4e67e52aebee5ae9c4f8ec9f488cf379f3c223e8b70599b27577999975fbc07b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "turboimpot.intuit.ca",
+                "turbotax.intuit.ca"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/IMAGE\\/A2s443VLd\\/TTcca-credit-karma-logo-color\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7c1fad050aeea301697e077086de452069e334e28a0d2d899e2cb67c5afb6caf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.ca",
+                "turbotax.intuit.ca"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/IMAGE\\/A7Aq9134m\\/logo-quickbooks\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ca35ede1321a42a2ee619eedcd198a4844ecc0361f0cc0283572e1e2eb58dcb0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.ca",
+                "turbotax.intuit.ca"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/IMAGE\\/A60Iqojr7\\/TTca-mailchimp-logo-color\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d6e04c255774c2eaa84a5531b165a5e3648899ddb55a293f238164f3190c94cd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.ca",
+                "turbotax.intuit.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6962025316455697
+        },
+        {
+            "domain": "intuitcdn.net",
+            "prevalence": 0.17721518987341772
+        },
+        {
+            "domain": "quickbooks.com",
+            "prevalence": 0.08860759493670886
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.0379746835443038
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Fetch": 5,
+        "Ping": 3,
+        "Image": 14,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

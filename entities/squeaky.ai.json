@@ -1,0 +1,106 @@
+{
+    "domain": "squeaky.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "squeaky\\.ai\\/g\\/0\\.4\\.0\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "fc863dd6c1d660fc971ca2452427204d4fec1ec6e3bbe620cf9fc9515554e403"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "promgirl.com",
+                "www.promgirl.com",
+                "www.simplydresses.com"
+            ]
+        },
+        {
+            "rule": "squeaky\\.ai\\/api\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "promgirl.com",
+                "www.promgirl.com",
+                "www.simplydresses.com"
+            ]
+        },
+        {
+            "rule": "squeaky\\.ai\\/api\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d6080d5c6092c42e9bcec64902d45247459ffd8f7b725820aab36648d467e444",
+                "cd5ff04609d70b2a5a91a3049cb79538f442749d6c96ab48f19ec7051c8f9206"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "promgirl.com",
+                "www.promgirl.com",
+                "www.simplydresses.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-92.awsdns-11.com",
+        "ns-1429.awsdns-50.org",
+        "ns-2035.awsdns-62.co.uk",
+        "ns-559.awsdns-05.net"
+    ]
+}

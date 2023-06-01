@@ -1,0 +1,733 @@
+{
+    "domain": "parsely.com",
+    "owner": {
+        "name": "Parsely, Inc.",
+        "displayName": "Parsely",
+        "privacyPolicy": "https://www.parse.ly/privacy-policy/",
+        "url": "http://parse.ly"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0224,
+    "sites": 223,
+    "subdomains": [
+        "cdn",
+        "p1",
+        "srv-2023-04-20-02.pixel",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "parsely\\.com\\/keys\\/7news\\.com\\.au\\/p\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2129ef864ccb70c8bfc6638a97438f133c30908c27254a98f39184bf1cd34101"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js_dtest": {
+                    "ttl": 9,
+                    "length": 9,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "parsely_uuid": {
+                    "ttl": 9,
+                    "length": 9,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "_parsely_session": {
+                    "ttl": 1814,
+                    "length": 117,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "_parsely_visitor": {
+                    "ttl": 34164014,
+                    "length": 16,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "7news.com.au",
+                "www.7news.com.au"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/plogger\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p1",
+                "srv-2023-04-20-02.pixel"
+            ],
+            "apis": {},
+            "sites": 182,
+            "prevalence": 0.0183,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__li_idex_cache": 0.00030120481927710846,
+                "pbjs_li_nonid": 0.000502008032128514,
+                "lotame_domain_check": 0.0017068273092369479,
+                "_li_dcdm_c": 0.002710843373493976,
+                "__pid": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "9to5mac.com",
+                "arstechnica.com",
+                "dailycaller.com",
+                "fortune.com",
+                "nypost.com",
+                "slate.com",
+                "techcrunch.com",
+                "thechive.com",
+                "time.com",
+                "www.accuweather.com",
+                "www.marieclaire.com",
+                "www.the-sun.com",
+                "www.thetimes.co.uk",
+                "www.yogajournal.com",
+                "www.theloadout.com",
+                "food52.com",
+                "www.advrider.com",
+                "www.vox.com",
+                "pitchfork.com",
+                "www.cyclingweekly.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/videoplugins\\/brightcove\\/videojs-parsely-loader-v1-latest\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7ea3a6dd9085e9af0c3cf79341e524a1410c0d973fcccdabaedca4526d076757"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "7news.com.au",
+                "www.7news.com.au"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/videoplugins\\/brightcove\\/videojs-parsely-v1-latest\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e273516147efdec348c36e791cb4861c7df42730288664abe71360de6eac3fd8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "7news.com.au",
+                "www.7news.com.au"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/v2\\/profile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "4c5a20c2959ad33049414ceb2f2dcf3b08f3780a40323a54ba730d2007da02d3",
+                "f5d024675721182ba876f5cfaa7256ebb69802f437db63bbfd645fd8c15fb31d",
+                "569f080a193046c88b148c831a8988f0ea58fc1d81a55d3d32f4d349a9b19f1b",
+                "530480661cf1ada32242cfec444b09b5b9eee0b01b792aafda4d711b40b1c258",
+                "add237f28f907b6b43c7fb2354d27c5e32ab74b9f953dd9aa1f20a1ae2ff1128",
+                "4b1c81ab24ef668d61595df2a2b022dab849ca339dcd5c768159705cbe69520c",
+                "b8e6f222e174926aab7a0092e3807adcf8e50d605cb8832c914e27ba497c840c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "bestlifeonline.com",
+                "ideas.ted.com",
+                "musicfeeds.com.au",
+                "unherd.com",
+                "www.eatthis.com",
+                "www.gamerevolution.com",
+                "www.insidehook.com",
+                "www.pewresearch.org"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/keys\\/dailycaller\\.com\\/p\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a65ab47df90c71a40e8b3873c05962c7da5bb93534034010a99f14f606521dd2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js_dtest": {
+                    "ttl": 6,
+                    "length": 9,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "parsely_uuid": {
+                    "ttl": 6,
+                    "length": 9,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "_parsely_session": {
+                    "ttl": 1811,
+                    "length": 119,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "_parsely_visitor": {
+                    "ttl": 34164011,
+                    "length": 16,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "checkyourfact.com",
+                "dailycaller.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/keys\\/tomsguide\\.com\\/p\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2e3b72b73c3515d726bf930bf8911fc70746f4cd1763b0b432fee146c5e202ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js_dtest": {
+                    "ttl": 4,
+                    "length": 9,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "parsely_uuid": {
+                    "ttl": 4,
+                    "length": 9,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "_parsely_session": {
+                    "ttl": 1813,
+                    "length": 122,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "_parsely_visitor": {
+                    "ttl": 34164013,
+                    "length": 16,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "tomsguide.com",
+                "www.tomsguide.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/px\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p1"
+            ],
+            "apis": {},
+            "sites": 34,
+            "prevalence": 0.00341,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000502008032128514,
+                "__li_idex_cache": 0.00030120481927710846,
+                "pbjs_li_nonid": 0.00030120481927710846
+            },
+            "exampleSites": [
+                "usatoday.com",
+                "healthyeating.sfgate.com",
+                "homeguides.sfgate.com",
+                "www.cosmopolitan.com",
+                "www.nbcnews.com",
+                "www.usatoday.com",
+                "www.popularmechanics.com",
+                "www.sfgate.com",
+                "www.housebeautiful.com",
+                "www.oxygen.com",
+                "www.wellandgood.com",
+                "www.bicycling.com",
+                "www.bestproducts.com",
+                "www.seventeen.com",
+                "www.menshealth.com",
+                "www.goodhousekeeping.com",
+                "www.townandcountrymag.com",
+                "www.timeout.com",
+                "www.msnbc.com",
+                "www.delish.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/keys\\/sfgate\\.com\\/p\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.vendor": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availHeight": 3,
+                "Screen.prototype.colorDepth": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "08816dfced0c0ddb70d131a45a4698a489cf47b20105b3fa279f2c880264ade3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js_dtest": {
+                    "ttl": 29,
+                    "length": 9,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "parsely_uuid": {
+                    "ttl": 29,
+                    "length": 9,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_parsely_session": {
+                    "ttl": 1815,
+                    "length": 123,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "_parsely_visitor": {
+                    "ttl": 34164015,
+                    "length": 16,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sfgate.com",
+                "homeguides.sfgate.com",
+                "www.sfgate.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/keys\\/stuff\\.co\\.nz\\/p\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "635a136e36d4a58ca3d882b71061c4764b613fe4361ea61b22dade8abda2c4b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js_dtest": {
+                    "ttl": 21,
+                    "length": 9,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "parsely_uuid": {
+                    "ttl": 21,
+                    "length": 9,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "_parsely_session": {
+                    "ttl": 1822,
+                    "length": 118,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "_parsely_visitor": {
+                    "ttl": 34164022,
+                    "length": 16,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stuff.co.nz",
+                "www.stuff.co.nz"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/keys\\/smh\\.com\\.au\\/p\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.vendor": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availHeight": 3,
+                "Screen.prototype.colorDepth": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d5cb6d9ae78ba3779eba67ce334379bded8d55b81241e2c8c0567d272d29f9ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js_dtest": {
+                    "ttl": 13,
+                    "length": 9,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "parsely_uuid": {
+                    "ttl": 13,
+                    "length": 9,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "_parsely_session": {
+                    "ttl": 1814,
+                    "length": 117,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "_parsely_visitor": {
+                    "ttl": 34164014,
+                    "length": 16,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodfood.com.au",
+                "www.smh.com.au",
+                "www.traveller.com.au"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/keys\\/nbcnews\\.com\\/p\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e7bb419c1b94fa3e7556cbe4fe84fb3bd2d3e0a99d634c8723a7b1942908e90d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js_dtest": {
+                    "ttl": 19,
+                    "length": 9,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "parsely_uuid": {
+                    "ttl": 19,
+                    "length": 9,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "_parsely_session": {
+                    "ttl": 1820,
+                    "length": 118,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "_parsely_visitor": {
+                    "ttl": 34164020,
+                    "length": 16,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcnews.com",
+                "www.telemundo.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/keys\\/nhl\\.com\\/p\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f16b43db3da33986ef5d7a1f5f70c81633e64ffae2f722d58ac0803e8b62a520"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js_dtest": {
+                    "ttl": 9,
+                    "length": 9,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "parsely_uuid": {
+                    "ttl": 9,
+                    "length": 9,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "_parsely_session": {
+                    "ttl": 1810,
+                    "length": 114,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "_parsely_visitor": {
+                    "ttl": 34164010,
+                    "length": 16,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhl.com",
+                "www.nhl.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing",
+        "Action Pixels"
+    ],
+    "performance": {},
+    "cookies": 0.0211,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6438356164383562
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.136986301369863
+        },
+        {
+            "domain": "d1z2jf7jlzjs58.cloudfront.net",
+            "prevalence": 0.10273972602739725
+        },
+        {
+            "domain": "bustle.com",
+            "prevalence": 0.0273972602739726
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.0136986301369863
+        },
+        {
+            "domain": "smh.com.au",
+            "prevalence": 0.0136986301369863
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.010273972602739725
+        },
+        {
+            "domain": "d1kcs7xqcuzm6v.cloudfront.net",
+            "prevalence": 0.00684931506849315
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.00684931506849315
+        },
+        {
+            "domain": "hearstapps.com",
+            "prevalence": 0.00684931506849315
+        }
+    ],
+    "types": {
+        "Script": 22,
+        "Image": 216,
+        "Fetch": 8
+    },
+    "nameservers": [
+        "ns-973.awsdns-57.net",
+        "ns-217.awsdns-27.com",
+        "ns-1076.awsdns-06.org",
+        "ns-1808.awsdns-34.co.uk"
+    ]
+}

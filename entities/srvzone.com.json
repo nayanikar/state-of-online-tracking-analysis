@@ -1,0 +1,103 @@
+{
+    "domain": "srvzone.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "app",
+        "video"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "srvzone\\.com\\/show\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2fd089155c7417c377b97d4dae834324a2591a0ac9def3b9b342e441092751a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestmalevideos.com",
+                "www.gaydemon.com"
+            ]
+        },
+        {
+            "rule": "srvzone\\.com\\/load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "2990bea80bb1e98741c183e6209855d3a38993e7f79c4fde8821d25ce3399d21",
+                "686683ac09acb6f230fa40e8b1425ac276e443c6a235e017a48cd93b9f16d096"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestmalevideos.com",
+                "www.bestmalevideos.com",
+                "www.gaydemon.com"
+            ]
+        },
+        {
+            "rule": "srvzone\\.com\\/01GX7GKQXGMKS118X3A8D217XG\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "video"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "efc85b653d9afe72a990ac43f8c4ca3356f7073a1746999fc4fcc238a9ac0001"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gaydemon.com",
+                "www.gaydemon.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 3,
+        "Media": 2
+    },
+    "nameservers": [
+        "lisa.ns.cloudflare.com",
+        "eric.ns.cloudflare.com"
+    ]
+}

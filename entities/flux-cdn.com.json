@@ -1,0 +1,81 @@
+{
+    "domain": "flux-cdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "flux-cdn\\.com\\/client\\/jorudan\\/jorudan\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "window.name": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c494d1bc94b952bca7fa39aca8aadfa90a42d512a97ce9c28627d9622e901223"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_flux_dataharbor": {
+                    "ttl": 7776002,
+                    "length": 1,
+                    "prevalence": 0.00020110608345902463,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jorudan.co.jp",
+                "www.jorudan.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-87.awsdns-10.com",
+        "ns-981.awsdns-58.net",
+        "ns-1934.awsdns-49.co.uk",
+        "ns-1419.awsdns-49.org"
+    ]
+}

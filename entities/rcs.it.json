@@ -1,0 +1,143 @@
+{
+    "domain": "rcs.it",
+    "owner": {
+        "name": "RCS Mediagroup S.p.A",
+        "displayName": "RCS Mediagroup"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "toprated",
+        "wfprmag",
+        "sslweb"
+    ],
+    "cnames": [
+        {
+            "original": "abbonamenti.gazzetta.it",
+            "resolved": "wfprmag.rcs.it"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rcs\\.it\\/toprated\\/rest\\/request\\.action",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "toprated"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "696aab133a7198d6c80be0f0e5fca5ef36f728d113d5011ef8fd09e27a8c4aba",
+                "4618eb04cf3e3700122e7d8c9374e34fa014322c14957c57bd50c2f37247128f",
+                "06fb53aecbdef87e696e9adfe7eca01c6d2e9a6e0a5496acc8227f2a52ab765c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fcinter1908.it",
+                "www.fcinter1908.it",
+                "www.forzaroma.info",
+                "www.gazzetta.it"
+            ]
+        },
+        {
+            "rule": "rcs\\.it\\/wp-content\\/uploads\\/json\\/topBarOfferteGazzetta\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wfprmag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "abbonamenti.gazzetta.it",
+                    "resolved": "wfprmag.rcs.it"
+                }
+            ],
+            "responseHashes": [
+                "fd5340275b7fcadc9e6a685117b2d16898a5c69492e6adc343cb0cc3813522fa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gazzetta.it",
+                "www.gazzetta.it"
+            ]
+        },
+        {
+            "rule": "rcs\\.it\\/rsle\\/idmgmt\\/KE7MyrxDxsNdQ6\\/hello\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sslweb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iodonna.it",
+                "www.iodonna.it"
+            ]
+        },
+        {
+            "rule": "rcs\\.it\\/rsle\\/idmgmt\\/KE7MyrxDxsNdQ6\\/hello\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sslweb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5310dbf48b9265c7cfeaf6820108fd31171cfc26f0bcdccfd3d4b77c4fe0a8fb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iodonna.it",
+                "www.iodonna.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "gazzettaobjects.it",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.18181818181818182
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "dnsgeo6.tuonomeregistrar.net",
+        "dnsgeo5.tuonomeregistrar.com"
+    ]
+}

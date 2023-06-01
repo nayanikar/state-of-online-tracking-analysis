@@ -1,0 +1,128 @@
+{
+    "domain": "helixo.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "ufe",
+        "engine.ufe"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "helixo\\.co\\/scripts\\/sdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ufe"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "window.localStorage": 7,
+                "window.sessionStorage": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "7ff59e264bb3b1cfd3a0a76c010459c913c2413b3e2465fc10638ce7f3a9aada"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagstogo.com.au",
+                "decathlon.com.au",
+                "frankie4.com",
+                "instavape.com.au",
+                "mywaterfilter.com.au",
+                "orgoneffectsaustralia.com.au",
+                "www.thesurfboardwarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/scripts\\/ufe\\.styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ufe"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "22b770a3d56121e27f4e9d94813079c54f47830b10f0ffba60c07336251d747a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagstogo.com.au",
+                "decathlon.com.au",
+                "frankie4.com",
+                "instavape.com.au",
+                "mywaterfilter.com.au",
+                "orgoneffectsaustralia.com.au",
+                "www.thesurfboardwarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/api\\/v1\\/public\\/funnel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engine.ufe"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "47ac84fe50e0bf21fa39edc152543cb14e02675cdf428abcb9b8f24beec40965"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagstogo.com.au",
+                "decathlon.com.au",
+                "frankie4.com",
+                "instavape.com.au",
+                "mywaterfilter.com.au",
+                "orgoneffectsaustralia.com.au",
+                "www.thesurfboardwarehouse.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.2916666666666667
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Stylesheet": 7,
+        "XHR": 7
+    },
+    "nameservers": [
+        "newt.ns.cloudflare.com",
+        "barbara.ns.cloudflare.com"
+    ]
+}

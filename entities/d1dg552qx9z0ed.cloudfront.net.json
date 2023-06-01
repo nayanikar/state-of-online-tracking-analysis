@@ -1,0 +1,109 @@
+{
+    "domain": "d1dg552qx9z0ed.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "d1dg552qx9z0ed\\.cloudfront\\.net\\/v3\\.0\\/fenix-all-shipping-options\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a38f5d2c414447b20fe0573c3e796ef6324b6196fa8b23b4f7864b3b447ca227"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "speedcubeshop.com",
+                "sundaygolf.com"
+            ]
+        },
+        {
+            "rule": "d1dg552qx9z0ed\\.cloudfront\\.net\\/v4\\.0\\/fenix-fixd-estimate-4\\.0\\.0-beta\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f40df5a551966e667dc10ca50067ad29b8c4ebe33564ad49179fdec6f2e5a2ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "location": {
+                    "ttl": 604803,
+                    "length": 5,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "fenixcountry": {
+                    "ttl": 1209603,
+                    "length": 2,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "fenixcity": {
+                    "ttl": 1209603,
+                    "length": 11,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "fenixstate": {
+                    "ttl": 1209603,
+                    "length": 8,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "speedcubeshop.com",
+                "sundaygolf.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000408,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-1512.awsdns-61.org",
+        "ns-2006.awsdns-58.co.uk",
+        "ns-410.awsdns-51.com",
+        "ns-637.awsdns-15.net"
+    ]
+}

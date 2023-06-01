@@ -1,0 +1,100 @@
+{
+    "domain": "autodesk.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "universal-search",
+        "app.ua"
+    ],
+    "cnames": [
+        {
+            "original": "app.ua.autodesk.com",
+            "resolved": "app.ua.autodesk.com.edgekey.net"
+        },
+        {
+            "original": "universal-search.autodesk.com",
+            "resolved": "universal-search.autodesk.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "autodesk\\.com\\.edgekey\\.net\\/universal-search-field\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "universal-search"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "universal-search.autodesk.com",
+                    "resolved": "universal-search.autodesk.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "22cba1aea1907c98b5669255f42a63ac19ff4ab5dc58ccc52219e206de7c2509"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autodesk.com",
+                "knowledge.autodesk.com",
+                "www.autodesk.com"
+            ]
+        },
+        {
+            "rule": "autodesk\\.com\\.edgekey\\.net\\/universal-assistant\\/current\\/7ac1bc3ae818d1a30ed1\\.worker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app.ua"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "app.ua.autodesk.com",
+                    "resolved": "app.ua.autodesk.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "cf3a649633169617179eb559dac7b2d93106d3a2381e24536e74613bf081e5df"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autodesk.com",
+                "www.autodesk.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "autodesk.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Other": 2
+    },
+    "nameservers": []
+}

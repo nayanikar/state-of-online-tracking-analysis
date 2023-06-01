@@ -1,0 +1,135 @@
+{
+    "domain": "e.sni.global.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "cmp.courrierinternational.com",
+            "resolved": "e.sni.global.fastly.net"
+        },
+        {
+            "original": "cmp.lemonde.fr",
+            "resolved": "e.sni.global.fastly.net"
+        },
+        {
+            "original": "img.nzz.ch",
+            "resolved": "e.sni.global.fastly.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "e\\.sni\\.global\\.fastly\\.net\\/api\\/impression",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "cmp.courrierinternational.com",
+                    "resolved": "e.sni.global.fastly.net"
+                },
+                {
+                    "original": "cmp.lemonde.fr",
+                    "resolved": "e.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "courrierinternational.com",
+                "www.lemonde.fr"
+            ]
+        },
+        {
+            "rule": "e\\.sni\\.global\\.fastly\\.net\\/api\\/impression",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "cmp.courrierinternational.com",
+                    "resolved": "e.sni.global.fastly.net"
+                },
+                {
+                    "original": "cmp.lemonde.fr",
+                    "resolved": "e.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "courrierinternational.com",
+                "www.lemonde.fr"
+            ]
+        },
+        {
+            "rule": "e\\.sni\\.global\\.fastly\\.net\\/2023\\/04\\/19\\/104e9902-f2f4-4033-867d-2478f5d02387\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "img.nzz.ch",
+                    "resolved": "e.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "cf0f53d136ff0264375b900a06b1c55bb220bdbea2f28fb123bce452f7ac426c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nzz.ch",
+                "www.nzz.ch"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "static-nzz.ch",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2,
+        "Image": 2
+    },
+    "nameservers": []
+}

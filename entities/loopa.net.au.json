@@ -1,0 +1,110 @@
+{
+    "domain": "loopa.net.au",
+    "owner": {
+        "name": "Signifi Media Pty Ltd",
+        "displayName": "Signifi Media"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000904,
+    "sites": 9,
+    "subdomains": [
+        "rtb"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "loopa\\.net\\.au\\/Pub\\/SmartEvents",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "050aa4063a7607710fc4c8954c3f0766285726b3c2bc891ccdfc11050e3a3c4f",
+                "9efdb79b0cddf9c75aecb3b3fe43b98166b340ea82b00f16a4418c899caf21f0",
+                "ef29b278011ff0d723acd3311e4d7aa227e420b85725087728c21bd9e4c4e4d7",
+                "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+                "496a69d1bed98b4ebcd6f2b4b0741d5440b7b03872e13dac41c86b9c9d0ce134",
+                "51700916e7f29f062cdd235927277bcd1a3e91823b76780fb1b55966453b34be",
+                "f94ad8cb58d778acd2bd7754a293cfe3286c40f084b2640a8f6df7ed79674294"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farmbuy.com",
+                "thehealthychef.com",
+                "www.boatsonline.com.au",
+                "www.petrescue.com.au",
+                "www.surfstitch.com",
+                "www.tabtouch.com.au",
+                "www.trademe.co.nz",
+                "www.westcoasteagles.com.au",
+                "yachthub.com"
+            ]
+        },
+        {
+            "rule": "loopa\\.net\\.au\\/Scripts\\/Publisher\\/loopaSmartEvents\\.min\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "855eeb718b109c4a503eba4873f01360971af13e4121c077023555641eaa01a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "___lpVp1": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thehealthychef.com",
+                "www.boatsonline.com.au",
+                "www.surfstitch.com",
+                "www.tabtouch.com.au",
+                "www.westcoasteagles.com.au",
+                "yachthub.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7058823529411765
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.29411764705882354
+        }
+    ],
+    "types": {
+        "Script": 15
+    },
+    "nameservers": [
+        "kirk.ns.cloudflare.com",
+        "kara.ns.cloudflare.com"
+    ]
+}

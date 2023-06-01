@@ -1,0 +1,77 @@
+{
+    "domain": "radio.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "mercure",
+        "embed"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "radio\\.co\\/\\.well-known\\/mercure",
+            "cookies": 0.00000681,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mercure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "EventSource",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "groundzeromedia.org",
+                "nationaldaycalendar.com"
+            ]
+        },
+        {
+            "rule": "radio\\.co\\/fonts\\/lineto-brown\\/lineto-brown-light\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "68f02f1a1c9752bd4abd3c08b3e2d4283211603ba63aa67a9ca30d99a5df2e12"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "groundzeromedia.org",
+                "nationaldaycalendar.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "EventSource": 2,
+        "Font": 2
+    },
+    "nameservers": [
+        "ns1.radio.co",
+        "ns3.radio.co",
+        "ns2.radio.co"
+    ]
+}

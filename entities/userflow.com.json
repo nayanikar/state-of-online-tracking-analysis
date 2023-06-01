@@ -1,0 +1,85 @@
+{
+    "domain": "userflow.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "js",
+        "e"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "userflow\\.com\\/es2020\\/userflow\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "83d24b89f9f9956b65d577dcbe3bfcd4a910cae6517c0ae6074b4c4b2d961225",
+                "757e26a450847a0068c20bc9c5aaa84bdbef587ae2a20ee43f81299f3ee32bc5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "murf.ai",
+                "www.prestashop.com",
+                "www.southwire.com"
+            ]
+        },
+        {
+            "rule": "userflow\\.com\\/end-users\\/ct_ovm3ixdqd5exdcxxkbpnarflja\\/socket\\/websocket",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "southwire.com",
+                "www.southwire.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "WebSocket": 2
+    },
+    "nameservers": [
+        "saanvi.ns.cloudflare.com",
+        "clark.ns.cloudflare.com"
+    ]
+}

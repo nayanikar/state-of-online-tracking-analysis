@@ -1,0 +1,156 @@
+{
+    "domain": "d41.co",
+    "owner": {
+        "name": "Dun & Bradstreet, Inc.",
+        "displayName": "Dun & Bradstreet"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [
+        "vid1005",
+        "paapi8935",
+        "api3469",
+        "vid1374",
+        "vi4820",
+        "cdn-0",
+        "vid9430"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "d41\\.co\\/sync\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vid1005",
+                "paapi8935",
+                "api3469",
+                "vid1374"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "support-en.wd.com",
+                "www.servicenow.com",
+                "www.weareteachers.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "d41\\.co\\/api",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vi4820",
+                "paapi8935"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2c597dbb1a6d5487beff1f6e24fa9d8e61fca43bd82431be859c437920f6f7fd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "support-en.wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "d41\\.co\\/tags\\/dnb_coretag_v5\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-0"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6cc0b251ec54fdd5cd55d98cbe7a7af00bd34f9cfd71fd01ca08c83121c89720"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "d41\\.co\\/api\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vid9430",
+                "vid1374"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dbab4e063d603516e132adf2c298cb16782a431e99fcbc14ca665aed0f841842"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hpe.com",
+                "www.weareteachers.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.4375
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "gatedcontent.com",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Fetch": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-976.awsdns-58.net",
+        "ns-313.awsdns-39.com",
+        "ns-1651.awsdns-14.co.uk",
+        "ns-1457.awsdns-54.org"
+    ]
+}

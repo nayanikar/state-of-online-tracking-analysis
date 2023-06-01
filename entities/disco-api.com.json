@@ -1,0 +1,203 @@
+{
+    "domain": "disco-api.com",
+    "owner": {
+        "name": "Discovery Communications Europe Limited",
+        "displayName": "Discovery Communications Europe"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "us1-prod"
+    ],
+    "cnames": [
+        {
+            "original": "us1-prod-direct.discoveryplus.com",
+            "resolved": "us1-prod.disco-api.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "disco-api\\.com\\/users\\/me\\/partners",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "us1-prod-direct.discoveryplus.com",
+                    "resolved": "us1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "995c5f93edd891591b005a5977f6f082bafd64f178c16322c86e71962958a8b5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/users\\/me",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "us1-prod-direct.discoveryplus.com",
+                    "resolved": "us1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "bba9570127573eeb35d82c399d92a1edd4d353f165838f2ad7434b45c7906838"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/entitlements\\/userEntitlementsSummary\\/me",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "us1-prod-direct.discoveryplus.com",
+                    "resolved": "us1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "02fa72f63a127f8d8936d7335cd63ff3e587259acce08b9480b896fcb7ae7314"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/cms\\/configs\\/web-prod",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "us1-prod-direct.discoveryplus.com",
+                    "resolved": "us1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "3754783e2390eb6398c811ec5c18454904862b9d543d39fc67bb2fc9cd58b5cc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/token",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "us1-prod-direct.discoveryplus.com",
+                    "resolved": "us1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "315de94ece183ea239426cc26c3dd77cf30a75e4e38a8a5531ffd35bfab072a9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "us1-prod-direct.discoveryplus.com",
+                    "resolved": "us1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 10,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-235.awsdns-29.com",
+        "ns-722.awsdns-26.net",
+        "ns-1647.awsdns-13.co.uk",
+        "ns-1277.awsdns-31.org"
+    ]
+}

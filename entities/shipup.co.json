@@ -1,0 +1,103 @@
+{
+    "domain": "shipup.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "shipup\\.co\\/latest_v2\\/shipup-shopify\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4cdb476927a80326359f90bb1c752ada229a4c1a6380928e8dac3be3fe3ac3bc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balzac-paris.fr",
+                "www.nutrimuscle.com"
+            ]
+        },
+        {
+            "rule": "shipup\\.co\\/latest_v2\\/shipup-js\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.product": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e0b6dfdce938788ea981e811b5e0ca08fc62bc83b388bdb4896616e7f9ce422c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balzac-paris.fr",
+                "www.nutrimuscle.com"
+            ]
+        },
+        {
+            "rule": "shipup\\.co\\/latest_v2\\/shipup\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e6657f0623aab3eed01ed1f113754576ac4e413207cd6eb9f646b743f81aa416"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balzac-paris.fr",
+                "www.nutrimuscle.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "dns2.registrar-servers.com",
+        "dns1.registrar-servers.com"
+    ]
+}

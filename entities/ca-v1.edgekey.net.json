@@ -1,0 +1,113 @@
+{
+    "domain": "ca-v1.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "uie.data.cbc"
+    ],
+    "cnames": [
+        {
+            "original": "uie.data.cbc.ca",
+            "resolved": "uie.data.cbc.ca-v1.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ca-v1\\.edgekey\\.net\\/v0\\/current_user",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uie.data.cbc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "uie.data.cbc.ca",
+                    "resolved": "uie.data.cbc.ca-v1.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "158ff46a5e2c7eac25b782c1a8208c60f3b6d4580c19419b58e3d99c36d0cfcc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbc.ca",
+                "www.cbc.ca"
+            ]
+        },
+        {
+            "rule": "ca-v1\\.edgekey\\.net\\/v0\\/ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uie.data.cbc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "uie.data.cbc.ca",
+                    "resolved": "uie.data.cbc.ca-v1.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "050ac4c5801e781359e3d65ac275aacba904139faa5ab62ef25352f4946058fa"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbc.ca",
+                "www.cbc.ca"
+            ]
+        },
+        {
+            "rule": "ca-v1\\.edgekey\\.net\\/v0\\/ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uie.data.cbc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "uie.data.cbc.ca",
+                    "resolved": "uie.data.cbc.ca-v1.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbc.ca",
+                "www.cbc.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "types": {
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

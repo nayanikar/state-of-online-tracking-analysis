@@ -1,0 +1,107 @@
+{
+    "domain": "nike.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "api",
+        "unite"
+    ],
+    "cnames": [
+        {
+            "original": "api.nike.com",
+            "resolved": "api.nike.com.edgekey.net"
+        },
+        {
+            "original": "unite.nike.com",
+            "resolved": "unite.nike.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "nike\\.com\\.edgekey\\.net\\/149e9513-01fa-4fb0-aad4-566afd725d1b\\/2d206a39-8ed7-437e-a3be-862e0f06eea3\\/fp",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "unite"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.nike.com",
+                    "resolved": "api.nike.com.edgekey.net"
+                },
+                {
+                    "original": "unite.nike.com",
+                    "resolved": "unite.nike.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "eebc754472e0503171ebbe548541270f3196a7f654cdf0d231d1dcf37cc43de2"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nike.com",
+                "www.nike.com"
+            ]
+        },
+        {
+            "rule": "nike\\.com\\.edgekey\\.net\\/149e9513-01fa-4fb0-aad4-566afd725d1b\\/2d206a39-8ed7-437e-a3be-862e0f06eea3\\/ips\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 3,
+            "subdomains": [
+                "unite",
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "unite.nike.com",
+                    "resolved": "unite.nike.com.edgekey.net"
+                },
+                {
+                    "original": "api.nike.com",
+                    "resolved": "api.nike.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nike.com",
+                "www.nike.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "nikecdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Script": 2
+    },
+    "nameservers": []
+}

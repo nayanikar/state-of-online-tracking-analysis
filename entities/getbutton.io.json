@@ -1,0 +1,82 @@
+{
+    "domain": "getbutton.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "getbutton\\.io\\/widget-send-button\\/js\\/init\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.platform": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Event.prototype.timeStamp": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "dc1cbdbbb3abee25ba8741382fd3ce4304a660502b8b03e83ef8dc9514e1ef66",
+                "6289798d9808a7ae92b05debca5b89e9a6bb7118f0ed760c9ed54c8932178412"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rebahin21.me"
+            ]
+        },
+        {
+            "rule": "getbutton\\.io\\/widget\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "dc1cbdbbb3abee25ba8741382fd3ce4304a660502b8b03e83ef8dc9514e1ef66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rebahin21.me"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "pam.ns.cloudflare.com",
+        "ken.ns.cloudflare.com"
+    ]
+}

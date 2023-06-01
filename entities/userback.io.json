@@ -1,0 +1,109 @@
+{
+    "domain": "userback.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "static",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "userback\\.io\\/widget\\/v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Date.prototype.getTime": 2,
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7501d23ad88adc21df421444a5c6b9bbf76304c6ba25815a5b2a5d45182d48bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bibleproject.com",
+                "ca.store.ui.com"
+            ]
+        },
+        {
+            "rule": "userback\\.io\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bc0d255759b92e3c424ccacd74a11bfcf87c44d7f5903a0f9e39d98d6355bd6b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bibleproject.com",
+                "ca.store.ui.com"
+            ]
+        },
+        {
+            "rule": "userback\\.io\\/widget\\/v1\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "03dc08e805c44acd470168cd4469dc95276b1592dd79743a5c290f69dad9567c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bibleproject.com",
+                "ca.store.ui.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-695.awsdns-22.net",
+        "ns-437.awsdns-54.com",
+        "ns-1184.awsdns-20.org",
+        "ns-1729.awsdns-24.co.uk"
+    ]
+}

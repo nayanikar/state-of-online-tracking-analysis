@@ -1,0 +1,107 @@
+{
+    "domain": "veoxa.com",
+    "owner": {
+        "name": "J S WEB PRODUCTION",
+        "displayName": "J S WEB PRODUCTION"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "profiling"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "veoxa\\.com\\/boot\\/request\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "profiling"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "c3bd3768085e825714aa6e6f0a5278f1a68996c9e8a0cf0b37e7b1fc58340750",
+                "7ba17ec06253646ae0711392498ad52e975cf64316f7de3c7607ce2123baa348"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "achat-or-et-argent.fr",
+                "www.mathon.fr",
+                "www.relaiscolis.com"
+            ]
+        },
+        {
+            "rule": "veoxa\\.com\\/store\\/js",
+            "cookies": 0.000302,
+            "fingerprinting": 1,
+            "subdomains": [
+                "profiling"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "a80a127af4aec4c5fe52973b9147c145219cdd4ba11ff8849eafee889729e08d",
+                "d24feeb6b8021996e1effab14082e49d3f1ab775f395cff9c7ac8512ed9a4f73"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vuidck": {
+                    "ttl": 7776006,
+                    "length": 36,
+                    "prevalence": 0.0003015378429992964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "achat-or-et-argent.fr",
+                "www.mathon.fr",
+                "www.relaiscolis.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "tradedoubler.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "dwin1.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-713.awsdns-25.net",
+        "ns-1729.awsdns-24.co.uk",
+        "ns-475.awsdns-59.com",
+        "ns-1096.awsdns-09.org"
+    ]
+}

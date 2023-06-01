@@ -1,0 +1,1780 @@
+{
+    "domain": "liveperson.net",
+    "owner": {
+        "name": "LivePerson, Inc",
+        "displayName": "LivePerson",
+        "privacyPolicy": "https://www.liveperson.com/policies/privacy",
+        "url": "http://liveperson.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00653,
+    "sites": 65,
+    "subdomains": [
+        "lptag",
+        "sy.v",
+        "va.v",
+        "sy.idp",
+        "lo.idp",
+        "va.idp",
+        "lo0.v",
+        "lo1.v",
+        "lo.v"
+    ],
+    "cnames": [
+        {
+            "original": "lp-07.customermessaging.bupa.com.au",
+            "resolved": "sy.v.liveperson.net"
+        },
+        {
+            "original": "lp-07.messaging.optus.com.au",
+            "resolved": "sy.v.liveperson.net"
+        },
+        {
+            "original": "lptag.customermessaging.bupa.com.au",
+            "resolved": "lptag.liveperson.net"
+        },
+        {
+            "original": "lptag.messaging.optus.com.au",
+            "resolved": "lptag.liveperson.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "liveperson\\.net\\/tag\\/tag\\.js",
+            "cookies": 0.00612,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 60,
+                "NavigatorUAData.prototype.brands": 60,
+                "NavigatorUAData.prototype.getHighEntropyValues": 60,
+                "window.sessionStorage": 60,
+                "window.localStorage": 60,
+                "Date.prototype.getTime": 60,
+                "Document.cookie setter": 59,
+                "Document.cookie getter": 59
+            },
+            "sites": 63,
+            "prevalence": 0.00633,
+            "cnames": [
+                {
+                    "original": "lptag.customermessaging.bupa.com.au",
+                    "resolved": "lptag.liveperson.net"
+                },
+                {
+                    "original": "lptag.messaging.optus.com.au",
+                    "resolved": "lptag.liveperson.net"
+                }
+            ],
+            "responseHashes": [
+                "5624aeb2703037c9b669b4903e1961a38778408edcd3bea47e370e5de9f6c571"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "LPVID": {
+                    "ttl": 31536013,
+                    "length": 22,
+                    "prevalence": 0.004819277108433735,
+                    "uniqueness": 1
+                },
+                "LPSID-44900486": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "LPSID-12757882": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "LPSID-6899673": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-69780616": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-18781202": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-89127130": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-3178090": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "LPSID-21991129": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00040160642570281126,
+                    "uniqueness": 1
+                },
+                "LPSID-16303569": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "LPSID-68764455": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-2422064": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-28418749": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-54022801": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-75925745": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-72058732": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "LPSID-51736269": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-4877653": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-42694146": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-77499003": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-16530877": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-48148637": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "LPSID-55859416": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-3092561": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-30187337": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-16205970": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-21508700": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-35811534": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-50086840": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-60671217": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-32842804": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-75963118": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-63033177": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-13767002": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-41967856": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-27906322": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-84608747": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-67105767": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LPSID-68741299": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.anz.com.au",
+                "members.medibank.com.au",
+                "www.energy.vic.gov.au",
+                "rest.com.au",
+                "www.hawaiianairlines.com.au",
+                "www.budgetdirect.com.au",
+                "www.bupa.com.au",
+                "www.southernphone.com.au",
+                "www.ford.com.au",
+                "www.thetimes.co.uk",
+                "www.anz.com",
+                "www.agl.com.au",
+                "www.seton.net.au",
+                "au.burberry.com",
+                "www.land.vic.gov.au",
+                "login.anz.com",
+                "onlineinvesting.westpac.com.au",
+                "www.universalstore.com",
+                "www.globalshop.com.au",
+                "www.planning.vic.gov.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/lptag\\/api\\/account\\/44900486\\/configuration\\/applications\\/taglets\\/\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.onLine": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.availHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "846d494fb45c886bc18af313a74e9969a4a026b002eeb3cc952313eab0c50baa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ahm.com.au",
+                "members.ahm.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/44900486",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "92b673375bb0badc760b4c4c414a33e55135c35e2ed8a377db2eaea6bf2395a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_hjTLDTest": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "ahm.com.au",
+                "members.ahm.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/lptag\\/api\\/account\\/12757882\\/configuration\\/applications\\/taglets\\/\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.onLine": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.availHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4752ef47af1139b40af21c757571343b96bd137680b7c3db2b9258fd3ed7a75a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mouser.com",
+                "www.mouser.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/12757882",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "va.v"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ca89b91cb56ba7bf53e40191ea39aeaba5e3e2f504ce57672ac0990d6378cb1a",
+                "90db767694e962a48b9f72d5c9fa9f1a9b4f5fe4804f6b4aa0f116a696002c6e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-12757882": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "mouser.com",
+                "au.mouser.com",
+                "www.mouser.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/69780616",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "250f894728ddb690636d4780af535bf9e12b909d75b50416b8640fff188dff1e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-69780616": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "rs-online.com",
+                "au.rs-online.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/postmessage\\/postmessage\\.min\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sy.idp",
+                "lo.idp",
+                "va.v",
+                "va.idp"
+            ],
+            "apis": {
+                "window.sessionStorage": 11,
+                "Date.prototype.getTime": 13
+            },
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "c8cd0b0d514cecdaf4e7214325a70bba9bae301e156265bd0d880f9065d1d183"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aware.com.au",
+                "mcc.org.au",
+                "support.spotify.com",
+                "www.cityofsydney.nsw.gov.au",
+                "www.energy.vic.gov.au",
+                "www.godaddy.com",
+                "www.gww.com.au",
+                "www.land.vic.gov.au",
+                "www.net-a-porter.com",
+                "www.open.edu.au",
+                "www.planning.vic.gov.au",
+                "www.rex.com.au",
+                "www.specialized.com",
+                "www.theoutnet.com",
+                "www.tmr.qld.gov.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/lptag\\/api\\/account\\/6899673\\/configuration\\/applications\\/taglets\\/\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.appName": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.onLine": 1,
+                "window.innerWidth": 1,
+                "Screen.prototype.availHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "668f05353706401276e0a6efe8f6a9fa610f0a1f9939b74935dd317dc023717d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "burberry.com",
+                "au.burberry.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/6899673",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lo0.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c8d136df8c44afd3e63a3c43235a07319879ae55c443f4d1a1cc59a9730ab8ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-6899673": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "burberry.com",
+                "au.burberry.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/lptag\\/api\\/account\\/54022801\\/configuration\\/applications\\/taglets\\/\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.onLine": 3,
+                "window.innerWidth": 3,
+                "Screen.prototype.availHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "635d0ebe506c931d626ccb7c162adb6f2c8751fb1c1dfc211cb2586db3d01230",
+                "33a1586e9ac24b541b02b077879fd4c0aa0f3fc657ea90e38401dee5c7b6fd0c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anz.com",
+                "www.anz.com.au",
+                "www.anz.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/54022801",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "683455fdb1dba8043566d7668c33af5cf7ab0f58b89f307b5ca667a6126a8a67",
+                "378d8ffc583357b086cfd562a5840d16cd684b6c63d98b11495b92a0d3bacb29",
+                "4a2d7b51fa7a691759ba10ad35154357320f9db9f50d13c01f58ee8f8a1414d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "anz_gpv_pN": 0.00030120481927710846,
+                "LPVID": 0.00010040160642570282,
+                "LPSID-54022801": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "anz.com",
+                "login.anz.com",
+                "www.anz.com.au",
+                "www.anz.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/lptag\\/api\\/account\\/3178090\\/configuration\\/applications\\/taglets\\/\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.onLine": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dbf73c3fecc2d644aed0678f79ee64ea39fe220c5befc37409f6f306e78c4588"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medibank.com.au",
+                "www.medibank.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/3178090",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2647442feb7cd731656cfa5ba6ae605f418d068aa5853ea8e0869a0740cf1576",
+                "68f9bbad76521b29a101adb5405aac531f9324a9c487f73012fe9d25273cdc77"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-3178090": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "medibank.com.au",
+                "members.medibank.com.au",
+                "www.medibank.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/lptag\\/api\\/account\\/21991129\\/configuration\\/applications\\/taglets\\/\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.appName": 4,
+                "Navigator.prototype.appVersion": 4,
+                "Navigator.prototype.onLine": 4,
+                "window.innerWidth": 4,
+                "Screen.prototype.availHeight": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "1b14b85cfc79d6ef68c5c968d17b1785ab0407a23bb5ea227ede4b0b256c4984",
+                "c2cf4d9a0eb14481b5a2d925a22e06864e69da9f12b90d580e315b921af33fc5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telstra.com.au",
+                "outages.telstra.com.au",
+                "recharge.telstra.com.au",
+                "www.telstra.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/21991129",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "12ae5a19479205023af973131e5f1f6994bd7c58259cfacd3cba7611b09bb9e9",
+                "1f2e01280228888ca0e3dafe4c4462273f998186ee90fb8f709898426458bb15",
+                "e07c7c7596092e67e118675e9b1332485de2a069dcef08fab2912bfbfb671005",
+                "74f30d2a897f930fe1ea2494d1c8a343f72429fe364a3fd9573e524b13ca55d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-21991129": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "telstra.com.au",
+                "mobilesupport.telstra.com.au",
+                "outages.telstra.com.au",
+                "recharge.telstra.com.au",
+                "www.telstra.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/lptag\\/api\\/account\\/77499003\\/configuration\\/applications\\/taglets\\/\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.onLine": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.availHeight": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "lptag.customermessaging.bupa.com.au",
+                    "resolved": "lptag.liveperson.net"
+                }
+            ],
+            "responseHashes": [
+                "0ed5ce9c8fd4ceaf8a0f9b0d4e61e331dbd66b4ca31c7c456a584e53c58f9af6",
+                "34359f22a5dfb4dd07fea54bbe007ff5c2d7f58895cc8635b162763d0ed89136"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cookies.js": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "bupa.com.au",
+                "www.bupa.com.au",
+                "www.bupadental.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/77499003",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "lp-07.customermessaging.bupa.com.au",
+                    "resolved": "sy.v.liveperson.net"
+                }
+            ],
+            "responseHashes": [
+                "99a3ca9b7e3f9d17e7fd7493d4a8ea6d86e55f2b59036d19911fe82b6b071949"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bupa.com.au",
+                "my.bupa.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/lptag\\/api\\/account\\/16303569\\/configuration\\/applications\\/taglets\\/\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.onLine": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.availHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2ed4ca34af505b338229b4dad9f122551b045dab700cfbae55716a0309d7b62e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "westpac.com.au",
+                "www.rams.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/16303569",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "152e6c4a101c76a36e4b0d6c78ccc782637ffbe38ed2a8a18fcaea93e73a29b6",
+                "679eec2c641d0d60f99d2ee1f56e0d56abac2ea60971b4cf77be7ae8af285b4c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-16303569": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "westpac.com.au",
+                "onlineinvesting.westpac.com.au",
+                "www.rams.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/2422064",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lo1.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8a540de8212844e65899154a027bb70d7bba6a9bb6168a186d1f0d8f537d7892"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-2422064": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "spotify.com",
+                "support.spotify.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/28418749",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eae067549cb2763e42a0f9dcba82d2cc95b48f3db3b88c9fc69600b4f5515486"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-28418749": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "agl.com.au",
+                "www.agl.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/75925745",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "04e83079789c61b139cecaa3803a95ee7c528106b679c3ecd4ae97967e8911ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-75925745": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "australiansuper.com",
+                "www.australiansuper.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/lptag\\/api\\/account\\/72058732\\/configuration\\/applications\\/taglets\\/\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.onLine": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.availHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8c6f3965251d55478226e08e9ab0642aa4721b49ae2b6f8715fac21500a7a7b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcu.com.au",
+                "www.pnbank.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/72058732",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a7b2801e95b42d214d6d0b971a446b7fa0bfdcd50b2af40d83b134ac59e661b8",
+                "72715c0465aaa30cc6af780d0d086474c0943446e71ec736aa084a5a8d761a2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-72058732": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "bcu.com.au",
+                "www.bcu.com.au",
+                "www.pnbank.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/51736269",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f95b5b916b707565371a21550bc99ebd4f8fdc3c32114110bf2785576eb2ddfc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-51736269": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "bankwest.com.au",
+                "www.bankwest.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/4877653",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "02dfd552cb86b3ce708e775212bf9269c3a1f79d1dcc2ff2bc092098dcd751a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-4877653": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "bendigobank.com.au",
+                "www.bendigobank.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/42694146",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0e368247c5fbb24250b746aeb86a1b0cba699b4f7d785599f20a0d6b4ce19b1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-42694146": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "budgetdirect.com.au",
+                "www.budgetdirect.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/16530877",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8fded6aacc174cfde327683c5c1f48371fa9e60d68833761377be66864c664ea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-16530877": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "nsw.gov.au",
+                "www.cityofsydney.nsw.gov.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/lptag\\/api\\/account\\/48148637\\/configuration\\/applications\\/taglets\\/\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.onLine": 3,
+                "window.innerWidth": 3,
+                "Screen.prototype.availHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d2c736d79e584651eea215b9a7bb4a935c6b32b35f18c3626f2fba5ec4e69231",
+                "54f383e1725b82b7b03630ec7b541ac4bbfaa8cdb61815953984903d9d473fd4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "energy.vic.gov.au",
+                "www.land.vic.gov.au",
+                "www.planning.vic.gov.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/account\\/48148637\\/anonymous\\/authorize",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.idp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "62b7ccbc713304d66d0310f37e0885d8ba2c01c4b48c0a841ec4747eeaa46784",
+                "f029478d744ee52041fef7ae74cba174943c5fdb4c04db685a7dcf5280c67610"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "energy.vic.gov.au",
+                "www.land.vic.gov.au",
+                "www.planning.vic.gov.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/48148637",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "4d69f1f1fd70cbf5f8cce7733eae1b1ab1fe3587795a51a83f61125f3989b41a",
+                "c1fffd6c5994326051c4b9a087b0b41d6c28e452f5ca9d8f47634b7a4b7673aa",
+                "8fdeb51e386f66d506645ed99e5a3e0869a73eea3cc540377d14a346719f64be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-48148637": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "energy.vic.gov.au",
+                "www.energy.vic.gov.au",
+                "www.land.vic.gov.au",
+                "www.planning.vic.gov.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/55859416",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lo.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "38fb18de3e14dd2d16a0b0185d0931f229b937c69f05f7f3ee121f1ca1a49c1a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ipe.308.domain": 0.00010040160642570282,
+                "LPVID": 0.00010040160642570282,
+                "LPSID-55859416": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "ford.com.au",
+                "www.ford.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/3092561",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "va.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5a6c4e91e0edc2f251301cba1a23b6eac07b0ee912f28701d19f11e9d244a3cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-3092561": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "globalshop.com.au",
+                "www.globalshop.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/30187337",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "va.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPSID-30187337": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "godaddy.com",
+                "www.godaddy.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/16205970",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "952ecc46546db80aa6f433dee4049fe76fadb7fef2257fcf4c5310628e2aa914"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-16205970": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "gww.com.au",
+                "www.gww.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/21508700",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d5cd4a41111a72658a7569bdd0f27b398b2977b0a1ec56423029cacd1d84582d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-21508700": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "hsbc.com.au",
+                "www.hsbc.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/35811534",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bbd20e5793dffd8d4d12cc8545549cd702b8aedb0a79244ef1a743162879d967"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00010040160642570282,
+                "LPVID": 0.00010040160642570282,
+                "LPSID-35811534": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "imb.com.au",
+                "www.imb.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/50086840",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d91beab971903d8b89505ec11021e00eaeb113efed938c4014bb49431adcdb88"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-50086840": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "mlc.com.au",
+                "www.mlc.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/lptag\\/api\\/account\\/73583570\\/configuration\\/applications\\/taglets\\/\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.onLine": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.availHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cffdc02d4d1d782133504b08fad15812da9e542483a111dcca8428eecbe9422b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "net-a-porter.com",
+                "www.theoutnet.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/account\\/73583570\\/anonymous\\/authorize",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lo.idp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7d07b446d8a8c325ce84c1b8a594faed2c35b62e2646b6b718f2ed088c1be351"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "net-a-porter.com",
+                "www.theoutnet.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/60671217",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b0ba650615fcf4a8ab7813533c769a382300542425c6347f254ca70d39022cc3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-60671217": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "open.edu.au",
+                "www.open.edu.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/63627617",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "lp-07.messaging.optus.com.au",
+                    "resolved": "sy.v.liveperson.net"
+                }
+            ],
+            "responseHashes": [
+                "887678b0100af02882ee3777fa5f33a7652a13f3c5eff4df32cdd12f75663d17"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optus.com.au",
+                "www.optus.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/32842804",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "beca015ea676bd111d74b06fd35481fded1708a5cbde652022f020cac76d1094"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-32842804": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "qbe.com",
+                "www.qbe.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/75963118",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8b84bdc8ecb2079c003547131d68fc4fa7bcd981d01288af33e3f0c3a04d24fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-75963118": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "rex.com.au",
+                "www.rex.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/63033177",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "va.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f75757a22af059b6fda93ceef177ee036d9851d50dcde1704b26d19601e724d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-63033177": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "rexel.com.au",
+                "www.rexel.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/13767002",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "va.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "99e7e34dfd03b258688cf205616eb6a31ff90cc89ce64554e7de7d24040f9663"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-13767002": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "seton.net.au",
+                "www.seton.net.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/41967856",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b3af6372f9357381260d364985d386da8e06826d750e30a1cce440581b3c7e76"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-41967856": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "southernphone.com.au",
+                "www.southernphone.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/73583570",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lo0.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "945a8ef550a0a8f7cc073f39e6841ef68380f336e6dc16f376cbd0952787c126"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theoutnet.com",
+                "www.theoutnet.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/27906322",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "02de1bc28b3553b3ef6b595535894d3857965426750960a7638f62926f6f3fb1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-27906322": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "universalstore.com",
+                "www.universalstore.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/84608747",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "va.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "62bca75f4b3f09153f9fa2f39be9b85091c4c3238738adea354b9b234f1040d2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-84608747": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "united.com",
+                "www.united.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/67105767",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0ecee8f0cbc050a3878e7d27935c79c8d684928f75e1333db58058bd050aed62"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-67105767": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "watercorporation.com.au",
+                "www.watercorporation.com.au"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/68741299",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "179e6ef9f9080db964032c278a28f6e350dbb020b434dae0ee90d4b06f5aae63"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010040160642570282,
+                "LPSID-68741299": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "westernsydney.edu.au",
+                "www.westernsydney.edu.au"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Analytics",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00622,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5253456221198156
+        },
+        {
+            "domain": "lpsnmedia.net",
+            "prevalence": 0.28110599078341014
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.055299539170506916
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.04608294930875576
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "scdn.co",
+            "prevalence": 0.02304147465437788
+        },
+        {
+            "domain": "anz.com.au",
+            "prevalence": 0.018433179723502304
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.009216589861751152
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.009216589861751152
+        }
+    ],
+    "types": {
+        "Script": 173,
+        "Document": 15,
+        "XHR": 7
+    },
+    "nameservers": [
+        "a1-175.akam.net",
+        "a12-64.akam.net",
+        "me.lp-prun-web",
+        "a3-64.akam.net",
+        "edns1.ultradns.biz",
+        "edns1.ultradns.net",
+        "edns1.ultradns.org",
+        "edns1.ultradns.com"
+    ]
+}

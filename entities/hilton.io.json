@@ -1,0 +1,154 @@
+{
+    "domain": "hilton.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "kapi",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hilton\\.io\\/dist\\/hrcc\\/click2call\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "kapi"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2a5276377d1a52198db2d25d1d963ce58e321993cbb5806af8a04cb2ed20a286"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hilton.com",
+                "help.hilton.com"
+            ]
+        },
+        {
+            "rule": "hilton\\.io\\/extended-customer\\/v2\\/guestsupport\\/callback\\/topicCategories",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hilton.com",
+                "help.hilton.com"
+            ]
+        },
+        {
+            "rule": "hilton\\.io\\/extended-customer\\/v2\\/guestsupport\\/callback\\/topicCategories",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4a128068f5c76dbae838547c5e4e09d55b7f9d7ef163fee625d2b6397c6de684"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hilton.com",
+                "help.hilton.com"
+            ]
+        },
+        {
+            "rule": "hilton\\.io\\/extended-customer\\/v2\\/guestsupport\\/callback\\/profile",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a53b07374b29c0c793a689c01b057e5e6e0dd8718d699a42f60e9485f9329562"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hilton.com",
+                "help.hilton.com"
+            ]
+        },
+        {
+            "rule": "hilton\\.io\\/extended-customer\\/v2\\/guestsupport\\/callback\\/profile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hilton.com",
+                "help.hilton.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns1-7.akam.net",
+        "use1.akam.net",
+        "use4.akam.net",
+        "asia9.akam.net",
+        "ns1-104.akam.net",
+        "eur5.akam.net",
+        "asia1.akam.net",
+        "eur6.akam.net"
+    ]
+}

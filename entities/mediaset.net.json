@@ -1,0 +1,89 @@
+{
+    "domain": "mediaset.net",
+    "owner": {
+        "name": "R.T.I S.p.A.",
+        "displayName": "R.T.I"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "api",
+        "api-msfnews"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mediaset\\.net\\/geoip\\/getDataJson\\.jsp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "my-personaltrainer.it",
+                "mediasetinfinity.mediaset.it",
+                "ricette.giallozafferano.it",
+                "www.giallozafferano.it",
+                "www.my-personaltrainer.it",
+                "www.studenti.it",
+                "www.tgcom24.mediaset.it"
+            ]
+        },
+        {
+            "rule": "mediaset\\.net\\/social\\/fb\\/stats\\/content\\/undefined",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-msfnews"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fa3421715ab014e9c7e4549bd76956c7dc788a98fe13954d24cbc36c808499fb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediaset.it",
+                "www.tgcom24.mediaset.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6111111111111112
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.3888888888888889
+        }
+    ],
+    "types": {
+        "XHR": 9
+    },
+    "nameservers": [
+        "ns1.mediaset.net",
+        "ns2.mediaset.net",
+        "ns4.mediaset.net",
+        "ns3.mediaset.net"
+    ]
+}

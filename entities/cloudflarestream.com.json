@@ -1,0 +1,162 @@
+{
+    "domain": "cloudflarestream.com",
+    "owner": {
+        "name": "Cloudflare, Inc.",
+        "displayName": "Cloudflare",
+        "privacyPolicy": "https://www.cloudflare.com/privacypolicy/",
+        "url": "http://cloudflare.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "customer-jxo27cr6zvphiygs",
+        "customer-eys56ln34wdktovm",
+        "customer-4g2obnknkscfxnre"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "cloudflarestream\\.com\\/embed\\/sdk-iframe-integration\\.fla9\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "customer-jxo27cr6zvphiygs",
+                "customer-eys56ln34wdktovm",
+                "customer-4g2obnknkscfxnre"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "console.memory": 3,
+                "Navigator.prototype.vendor": 3,
+                "MediaSource.isTypeSupported": 3,
+                "Screen.prototype.orientation": 3,
+                "Navigator.prototype.storage": 3,
+                "Navigator.prototype.mediaCapabilities": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.connection": 3,
+                "Navigator.prototype.language": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "Event.prototype.timeStamp": 3,
+                "URL.createObjectURL": 3,
+                "window.innerHeight": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "9924f6218524f3ef0ec85e8d5014cc82da5a4b3fda0471ba189896ec0095813f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elitebabes.com",
+                "www.elitebabes.com",
+                "www.harveynormancommercial.com.au",
+                "www.moneymanagement.com.au"
+            ]
+        },
+        {
+            "rule": "cloudflarestream\\.com\\/embed\\/437\\.801d47c8\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "customer-eys56ln34wdktovm",
+                "customer-4g2obnknkscfxnre"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b62fdce22fe976f0097b1342eed8bd9ae117e9a76e342585f61a2960bba45ca7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harveynormancommercial.com.au",
+                "www.moneymanagement.com.au"
+            ]
+        },
+        {
+            "rule": "cloudflarestream\\.com\\/embed\\/887\\.f34fb711\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customer-eys56ln34wdktovm",
+                "customer-4g2obnknkscfxnre"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ca264ca046926ece4542bf6ca1e5b6a337e8e89cec0bf238701bab7d3fcadd98"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harveynormancommercial.com.au",
+                "www.moneymanagement.com.au"
+            ]
+        },
+        {
+            "rule": "cloudflarestream\\.com\\/https:\\/\\/customer-4g2obnknkscfxnre\\.cloudflarestream\\.com\\/748dbf3badfb43718961e15b2a6049f4\\/iframe",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customer-4g2obnknkscfxnre"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moneymanagement.com.au",
+                "www.moneymanagement.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "videodelivery.net",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "camschat.net",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Document": 2
+    },
+    "nameservers": [
+        "val.ns.cloudflare.com",
+        "jim.ns.cloudflare.com"
+    ]
+}

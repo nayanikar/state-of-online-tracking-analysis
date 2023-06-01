@@ -1,0 +1,89 @@
+{
+    "domain": "cnt.my",
+    "owner": {
+        "name": "INTER CITY ADS (MALAYSIA) SDN. BHD",
+        "displayName": "INTER CITY ADS (MALAYSIA) SDN"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "x"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cnt\\.my\\/async\\/track\\/",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "x"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ad2973457e9e9573b2f3de433093041633f2d74ee37657cdc2f1af51a8a383b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ivi.ru",
+                "www.movavi.com"
+            ]
+        },
+        {
+            "rule": "cnt\\.my\\/px\\/",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "x"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ivi.ru",
+                "www.movavi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1982.awsdns-55.co.uk",
+        "ns-1070.awsdns-05.org",
+        "ns-8.awsdns-01.com",
+        "ns-981.awsdns-58.net"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "domain": "fusebox.fm",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "fusebox\\.fm\\/embed\\/player\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.devicePixelRatio": 4,
+                "Event.prototype.timeStamp": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "319691ab09d639b0d8b80032109c422a191a158b0606f30937062e8ef57ea3b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bengreenfieldlife.com",
+                "theeverygirl.com",
+                "theeverymom.com",
+                "whatismyipaddress.com",
+                "www.lw.com"
+            ]
+        },
+        {
+            "rule": "fusebox\\.fm\\/api\\/players\\/archive\\/oBPZxlRV8v\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "31b00eafb16160ebdf05fa065b64707f642d5b80fb593181ebefcabf08341ced"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theeverygirl.com",
+                "theeverymom.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "armfazh.ns.cloudflare.com",
+        "vera.ns.cloudflare.com"
+    ]
+}

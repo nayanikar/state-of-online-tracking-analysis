@@ -1,0 +1,181 @@
+{
+    "domain": "cdnma.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "beacon",
+        "sc"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cdnma\\.com\\/apps\\/capture\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__mauuid": 0.000006807073911208528,
+                "__acuuid": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "americanmotorcyclist.com",
+                "www.americancruiselines.com",
+                "www.communitytax.com"
+            ]
+        },
+        {
+            "rule": "cdnma\\.com\\/apps\\/17577\\/capture\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a93f3185c7a7dca60541c602271513ea7c56754fedc92a55c1aef6c95f905afd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__mauuid": {
+                    "ttl": 63158403,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "__acuuid": {
+                    "ttl": 5,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americancruiselines.com",
+                "www.americancruiselines.com"
+            ]
+        },
+        {
+            "rule": "cdnma\\.com\\/apps\\/19947\\/capture\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sc"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a93f3185c7a7dca60541c602271513ea7c56754fedc92a55c1aef6c95f905afd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "communitytax.com",
+                "www.communitytax.com"
+            ]
+        },
+        {
+            "rule": "cdnma\\.com\\/apps\\/19945\\/capture\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fastenal.ca",
+                "www.fastenal.ca"
+            ]
+        },
+        {
+            "rule": "cdnma\\.com\\/apps\\/22088\\/capture\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a93f3185c7a7dca60541c602271513ea7c56754fedc92a55c1aef6c95f905afd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__mauuid": {
+                    "ttl": 63158407,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "imperialsupplies.com",
+                "www.imperialsupplies.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 11
+    },
+    "nameservers": [
+        "ns76.domaincontrol.com",
+        "ns75.domaincontrol.com"
+    ]
+}

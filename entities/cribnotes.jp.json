@@ -1,0 +1,137 @@
+{
+    "domain": "cribnotes.jp",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "log",
+        "tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cribnotes\\.jp\\/t\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "2e977bdccc768f21f5e6e93aa077f55edb9a01c32429d8ac18752fd59fe30f1c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "notepm.jp",
+                "www.aeon.co.jp",
+                "www.donki.com"
+            ]
+        },
+        {
+            "rule": "cribnotes\\.jp\\/container_manager\\/91d3cc54-cb55-43a6-b131-d58f5136f4d0\\/atm\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3de4b2b070487e29f43fccdf74ed52d3285730dee92f4b6d18f269664c6a6c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__cribnotes_prm": {
+                    "ttl": 15552019,
+                    "length": 79,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeon.co.jp",
+                "www.aeon.co.jp"
+            ]
+        },
+        {
+            "rule": "cribnotes\\.jp\\/container_manager\\/04bfbc02-6747-4a51-b135-896350e8f442\\/atm\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fee3f1f500cfbab3ca663cca646828f9153a2895b9aa2a9bb83af5eb0e3a01a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__cribnotes_prm": {
+                    "ttl": 15552006,
+                    "length": 79,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donki.com",
+                "www.donki.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "yjtag.jp",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+    ]
+}

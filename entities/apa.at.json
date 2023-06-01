@@ -1,0 +1,185 @@
+{
+    "domain": "apa.at",
+    "owner": {
+        "name": "APA-Austria Presse Agentur eG",
+        "displayName": "APA-Austria Presse Agentur"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "apasfiis.sf",
+        "uvp-cineplexx.sf",
+        "vs-dl-cineplexx.sf",
+        "uvp-vg-news.sf"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "apa\\.at\\/admin\\/geocheck\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apasfiis.sf"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6a8448318edc542bd0ed4c6a055eb63bd517279991b44087501453b2fdebac73"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "tirol.orf.at",
+                "wien.orf.at"
+            ]
+        },
+        {
+            "rule": "apa\\.at\\/admin\\/geocheck\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apasfiis.sf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6a8448318edc542bd0ed4c6a055eb63bd517279991b44087501453b2fdebac73"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "tvthek.orf.at"
+            ]
+        },
+        {
+            "rule": "apa\\.at\\/Scripts\\/jquery\\.uvp\\.stable\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "uvp-cineplexx.sf"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "018ff245ac5c661e95547a56d3dbd2cbe82b04f1acb0ca90c6992b94b75d023f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cineplexx.at",
+                "www.cineplexx.at"
+            ]
+        },
+        {
+            "rule": "apa\\.at\\/player\\/74074c50-bc11-4b05-9601-a4887548f9a1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uvp-cineplexx.sf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "45bad2a3c34e9b6140ef6b558fbaa1b260b0fe5778e766bcbf63b82df2e7c5e1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cineplexx.at",
+                "www.cineplexx.at"
+            ]
+        },
+        {
+            "rule": "apa\\.at\\/apavideoservice\\/cineplexx\\/20230310_30_705934_MRO_TrailerG_AT-de-DUB_ATGFX_1920x1080_24_H264_404\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vs-dl-cineplexx.sf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b3e3759f1b6fb3e5e4c8932541af605ade5b5ff1091a84db9ef0fd52bbf7832e"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cineplexx.at",
+                "www.cineplexx.at"
+            ]
+        },
+        {
+            "rule": "apa\\.at\\/scripts\\/jquery\\.uvp\\.stable\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uvp-vg-news.sf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2acee9f70a664fc8bdd5e8309e348d179e3b0a1dea4f907905398b01ee89f881"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "news.at",
+                "www.news.at"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "bitmovin.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "XHR": 4,
+        "Script": 4,
+        "Media": 2
+    },
+    "nameservers": [
+        "ns2.apa.at",
+        "ns1.apa.at",
+        "ns5.univie.ac.at"
+    ]
+}

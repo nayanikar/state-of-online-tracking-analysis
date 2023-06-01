@@ -1,0 +1,85 @@
+{
+    "domain": "tctm.co",
+    "owner": {
+        "name": "Call Tracking Metrics LLC",
+        "displayName": "Call Tracking Metrics"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "94058",
+        "310659",
+        "162503",
+        "64459"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tctm\\.co\\/t\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "94058",
+                "310659",
+                "162503",
+                "64459"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "5a27a5d06524c2894d520ec7a7d1a288369252c545a0f79b0398e7e8beeb8b0e",
+                "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__ctmid": {
+                    "ttl": 2592001,
+                    "length": 24,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baybloorradio.com",
+                "propertyguys.com",
+                "www.cubcadet.ca",
+                "www.vbce.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-1163.awsdns-17.org",
+        "ns-603.awsdns-11.net",
+        "ns-425.awsdns-53.com",
+        "ns-1852.awsdns-39.co.uk"
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "domain": "altontowersholidays.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "search-form",
+        "search-form-service"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "altontowersholidays\\.com\\/v2\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-form"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e4e60bae23463af91d8d1de6b6e35fa79bbc0585d09a9df255a7db445c4ca8c3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "altontowers.com",
+                "www.altontowers.com"
+            ]
+        },
+        {
+            "rule": "altontowersholidays\\.com\\/v2\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "search-form"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8f86e31eab31be869b4d159abeeeb72e2753d5a778e067180e96a353c2e00842"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "altontowers.com",
+                "www.altontowers.com"
+            ]
+        },
+        {
+            "rule": "altontowersholidays\\.com\\/packaging",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-form-service"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7d24b075ee2d6bc2600e4b3d3f8d12c2602804bf34ff2195c5fc763fab2cbe53"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "altontowers.com",
+                "www.altontowers.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-379.awsdns-47.com",
+        "ns-951.awsdns-54.net",
+        "ns-1581.awsdns-05.co.uk",
+        "ns-1314.awsdns-36.org"
+    ]
+}

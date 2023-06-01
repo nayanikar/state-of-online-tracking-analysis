@@ -1,0 +1,89 @@
+{
+    "domain": "wehaa.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "analytics-prd.aws"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wehaa\\.net\\/api\\/v1\\/trackings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics-prd.aws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "5f28730aee5fcd89954f0e87d1de2c2f6f2eb587e816ff63b2e0e60e16548f6c",
+                "dc9fdc192f6b348c5aed3e3be706c8536f0e02f2fc73e986085304865d4e8001",
+                "754dc2a8727ebbe6e287fea49810763a44ef56aaad88e527033573bb371d90a9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapleridgenews.com",
+                "www.mapleridgenews.com",
+                "www.tampabay.com",
+                "www.yukon-news.com"
+            ]
+        },
+        {
+            "rule": "wehaa\\.net\\/api\\/v1\\/trackings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics-prd.aws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapleridgenews.com",
+                "www.mapleridgenews.com",
+                "www.tampabay.com",
+                "www.yukon-news.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.22857142857142856
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.05714285714285714
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns1.wehaa-server10.com",
+        "ns2.wehaa-server10.com"
+    ]
+}

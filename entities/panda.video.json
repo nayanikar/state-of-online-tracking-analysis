@@ -1,0 +1,81 @@
+{
+    "domain": "panda.video",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "player"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "panda\\.video\\/playerCluster\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0c039705fbb6b47e87ae85a39d872499ab1d2212696de1f3de373b3198db4f28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ftimes.ru",
+                "pronedra.ru"
+            ]
+        },
+        {
+            "rule": "panda\\.video\\/cluster\\/json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "ccdcc9c778356f0710747ae786bea888556172389f6337811f66a7ce33d48fe7",
+                "7638c395c001af88e5c9f5758ddfd795056a7bbcdf9370f50dc4b4e763febfa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ftimes.ru",
+                "pronedra.ru",
+                "smi2.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns0.mirtesen.ru",
+        "ns1.mirtesen.ru",
+        "ns2.mirtesen.ru",
+        "ns3.mirtesen.ru"
+    ]
+}

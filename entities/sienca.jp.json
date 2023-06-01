@@ -1,0 +1,168 @@
+{
+    "domain": "sienca.jp",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "ocn-tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sienca\\.jp\\/sienca\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ocn-tag"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "bad68e9eed476665d453e6a5ea538b0093d17c688aff894b214495d13ae5759e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sienca.vid": {
+                    "ttl": 63072012,
+                    "length": 16,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goo.ne.jp",
+                "service.ocn.ne.jp",
+                "www.goo.ne.jp",
+                "www.ocn.ne.jp"
+            ]
+        },
+        {
+            "rule": "sienca\\.jp\\/api\\/v1\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ocn-tag"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "099a2c0093a8bf9d5d6bd4639243ae05f4690454d657c1f8068200e673b42401",
+                "56c8767d67c3a01518d9582ab8b8d16a950b5bf21d4202b523c635b2777cf2ba"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goo.ne.jp",
+                "service.ocn.ne.jp",
+                "www.goo.ne.jp",
+                "www.ocn.ne.jp"
+            ]
+        },
+        {
+            "rule": "sienca\\.jp\\/api\\/v1\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ocn-tag"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goo.ne.jp",
+                "service.ocn.ne.jp",
+                "www.goo.ne.jp",
+                "www.ocn.ne.jp"
+            ]
+        },
+        {
+            "rule": "sienca\\.jp\\/api\\/v1\\/event\\/pv",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ocn-tag"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goo.ne.jp",
+                "service.ocn.ne.jp",
+                "www.goo.ne.jp"
+            ]
+        },
+        {
+            "rule": "sienca\\.jp\\/api\\/v1\\/event\\/pv",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ocn-tag"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goo.ne.jp",
+                "service.ocn.ne.jp",
+                "www.goo.ne.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "yjtag.jp",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 7,
+        "Preflight": 7
+    },
+    "nameservers": [
+        "ns-1405.awsdns-47.org",
+        "ns-328.awsdns-41.com",
+        "ns-1951.awsdns-51.co.uk",
+        "ns-771.awsdns-32.net"
+    ]
+}

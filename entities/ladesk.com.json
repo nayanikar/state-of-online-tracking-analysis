@@ -1,0 +1,415 @@
+{
+    "domain": "ladesk.com",
+    "owner": {
+        "name": "Quality Unit LLC",
+        "displayName": "Quality Unit"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "bendonlingerie",
+        "rebootit",
+        "sterlingcurrency",
+        "timbecon",
+        "1-vbus-sg",
+        "1-vbus-us-tx",
+        "2-vbus-sg"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ladesk\\.com\\/scripts\\/track\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bendonlingerie",
+                "rebootit",
+                "sterlingcurrency",
+                "timbecon"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "96138ca6d15bfcc73b7a0d868699290c7eff05052e5fb8f577ade7c88653ce08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "LaVisitorNew": {
+                    "ttl": 86410,
+                    "length": 1,
+                    "prevalence": 0.00040160642570281126,
+                    "uniqueness": 0.25
+                },
+                "LaVisitorId_YmVuZG9ubGluZ2VyaWUubGFkZXNrLmNvbS8": {
+                    "ttl": null,
+                    "length": 29,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LaSID": {
+                    "ttl": null,
+                    "length": 29,
+                    "prevalence": 0.00040160642570281126,
+                    "uniqueness": 1
+                },
+                "LaVisitorId_cmVib290aXQubGFkZXNrLmNvbS8": {
+                    "ttl": null,
+                    "length": 29,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LaVisitorId_c3RlcmxpbmdjdXJyZW5jeS5sYWRlc2suY29tLw": {
+                    "ttl": null,
+                    "length": 29,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "LaVisitorId_dGltYmVjb24ubGFkZXNrLmNvbS8": {
+                    "ttl": null,
+                    "length": 29,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bendonlingerie.com.au",
+                "www.reboot-it.com.au",
+                "www.sterlingcurrency.com.au",
+                "www.timbecon.com.au"
+            ]
+        },
+        {
+            "rule": "ladesk\\.com\\/scripts\\/button\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bendonlingerie",
+                "rebootit",
+                "sterlingcurrency",
+                "timbecon"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "c0cfc4d5eb0894676a5ee5333b5f913b6d0fa0d319b92b6427fa6daaa1d4ce74",
+                "040350d3528458b61ec7cb16fb248e70911adb21a8145c02fcf64ebff54cf83e",
+                "cfc2012ef589ab3db3f7fc8e6e4bcc09086389e784a9f26ca27e7410b17ac8b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bendonlingerie.com.au",
+                "www.reboot-it.com.au",
+                "www.sterlingcurrency.com.au",
+                "www.timbecon.com.au"
+            ]
+        },
+        {
+            "rule": "ladesk\\.com\\/scripts\\/track_visit\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bendonlingerie",
+                "rebootit",
+                "sterlingcurrency",
+                "timbecon"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "ff32c1a1be55a3188a2b57a8770c8689e19377b11939df3b041f92434047bc6d",
+                "c2610c4cfc1605484c573636c4bbd40cb75cb32f54fdd5840d11bbc73560d11a",
+                "86c753840dc861a26235c8ebb3a5c2bf5abe28d2f1d30e71bf2e98b489c6fcdb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LaVisitorId_YmVuZG9ubGluZ2VyaWUubGFkZXNrLmNvbS8": 0.00010040160642570282,
+                "LaSID": 0.00040160642570281126,
+                "LaVisitorId_cmVib290aXQubGFkZXNrLmNvbS8": 0.00010040160642570282,
+                "LaVisitorId_c3RlcmxpbmdjdXJyZW5jeS5sYWRlc2suY29tLw": 0.00010040160642570282,
+                "LaVisitorId_dGltYmVjb24ubGFkZXNrLmNvbS8": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "bendonlingerie.com.au",
+                "www.reboot-it.com.au",
+                "www.sterlingcurrency.com.au",
+                "www.timbecon.com.au"
+            ]
+        },
+        {
+            "rule": "ladesk\\.com\\/scripts\\/generateWidget\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bendonlingerie",
+                "rebootit",
+                "sterlingcurrency",
+                "timbecon"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1999fa493380e7d86bfeeabf4b3c930e2590c8b82c15bf52ed88eb45501eec70",
+                "1dbbc1c201609c68d2379797e415fe7bcb24540a859954b163908ef6821c9291",
+                "fc5f635e38a10adb355b8ac36336c505d035fc3a022853d2c3fbfab6f1d12fff",
+                "d2298e34f93182521e0be411ab63720efe9b64869961788f9595642e072f2894"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bendonlingerie.com.au",
+                "www.bendonlingerie.com.au",
+                "www.reboot-it.com.au",
+                "www.sterlingcurrency.com.au",
+                "www.timbecon.com.au"
+            ]
+        },
+        {
+            "rule": "ladesk\\.com\\/5_37_2_18\\/scripts\\/lib\\/bus\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "1-vbus-sg",
+                "1-vbus-us-tx",
+                "2-vbus-sg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "5a4164cdbb38651f2f2d28e25101780515ff8c1072ba99d0a5761500cf306ee3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bendonlingerie.com.au",
+                "www.reboot-it.com.au",
+                "www.timbecon.com.au"
+            ]
+        },
+        {
+            "rule": "ladesk\\.com\\/scripts\\/static\\/webpack\\/liveagent-common-bundle\\/bundle-ac57b370c29b21849aef\\.esm\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bendonlingerie",
+                "rebootit",
+                "timbecon"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "b41d4f6b8500b1f1c0e53ac1652a666543cf4f845e096a3099cacb4d24a78b67"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bendonlingerie.com.au",
+                "www.bendonlingerie.com.au",
+                "www.reboot-it.com.au",
+                "www.timbecon.com.au"
+            ]
+        },
+        {
+            "rule": "ladesk\\.com\\/scripts\\/static\\/webpack\\/liveagent-common-bundle\\/stringutils-42edb97e83224380ff39\\.esm\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bendonlingerie",
+                "rebootit",
+                "timbecon"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "275c93a3a9c650335ed023f5fa2d484d56d7a91b9cac5ea867dcebad898185d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bendonlingerie.com.au",
+                "www.bendonlingerie.com.au",
+                "www.reboot-it.com.au",
+                "www.timbecon.com.au"
+            ]
+        },
+        {
+            "rule": "ladesk\\.com\\/scripts\\/file\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bendonlingerie",
+                "rebootit",
+                "timbecon"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e7793f4794ccba5dab7057f28ca414036b2e2973c772b5141b4c1587283fc1de",
+                "076d224dcc155a3d77766ead8b422af4b31f0d4ee3037b0a3152aed826605483"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bendonlingerie.com.au",
+                "www.reboot-it.com.au",
+                "www.timbecon.com.au"
+            ]
+        },
+        {
+            "rule": "ladesk\\.com\\/5_37_2_18\\/static\\/webpack\\/js_bundle\\/postmessage_bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "1-vbus-sg",
+                "1-vbus-us-tx",
+                "2-vbus-sg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "faa8e9370329c0b337f2c2dbbac451c8a5444d45f742f9acec42465452a87eb3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bendonlingerie.com.au",
+                "www.reboot-it.com.au",
+                "www.timbecon.com.au"
+            ]
+        },
+        {
+            "rule": "ladesk\\.com\\/5_37_2_18\\/static\\/webpack\\/js_bundle\\/pushstream_bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "1-vbus-sg",
+                "1-vbus-us-tx",
+                "2-vbus-sg"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ab1f85d6560124d8d3d99ab7fd875a5c2ff35da42f7d9c8c138e08dd198298f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bendonlingerie.com.au",
+                "www.reboot-it.com.au",
+                "www.timbecon.com.au"
+            ]
+        },
+        {
+            "rule": "ladesk\\.com\\/5_37_2_18\\/static\\/webpack\\/js_bundle\\/bus_bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "1-vbus-sg",
+                "1-vbus-us-tx",
+                "2-vbus-sg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2df69b6b5eabdfc3a041b51249904b1f2355bd5a3635be0ff03750df349fab24"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bendonlingerie.com.au",
+                "www.reboot-it.com.au",
+                "www.timbecon.com.au"
+            ]
+        },
+        {
+            "rule": "ladesk\\.com\\/themes\\/embedded_chat\\/ascent\\/chat\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sterlingcurrency",
+                "timbecon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "71d45b785524372a38c3b09b5d3592c40903a4875d59ebf8464592690e30474c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sterlingcurrency.com.au",
+                "www.timbecon.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 29,
+        "Document": 8,
+        "Image": 3,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "pdns3.qualityunit.com",
+        "pdns4.qualityunit.com"
+    ]
+}

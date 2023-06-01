@@ -1,0 +1,231 @@
+{
+    "domain": "vox.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "prod"
+    ],
+    "cnames": [
+        {
+            "original": "apps.voxmedia.com",
+            "resolved": "prod.vox.map.fastly.net"
+        },
+        {
+            "original": "cdn.concert.io",
+            "resolved": "prod.vox.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vox\\.map\\.fastly\\.net\\/lib\\/concert-ads\\/v2-latest\\/concert_ads\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "cdn.concert.io",
+                    "resolved": "prod.vox.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "fc4079c7e8ec2ba958b526cb6d085b76ba054f081b0a3e88eb98e8ea43a0a75d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mmafighting.com",
+                "www.polygon.com",
+                "www.theverge.com",
+                "www.vox.com"
+            ]
+        },
+        {
+            "rule": "vox\\.map\\.fastly\\.net\\/lib\\/concert-concierge\\.2\\.8\\.0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "cdn.concert.io",
+                    "resolved": "prod.vox.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "68aa9818e0d0f8c60c5fc7e2b7921aa1a48a52e72e7da4caae29de34d030a6bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mmafighting.com",
+                "www.polygon.com",
+                "www.vox.com"
+            ]
+        },
+        {
+            "rule": "vox\\.map\\.fastly\\.net\\/ad-block-detect\\/test_ads_prebid_blocker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "apps.voxmedia.com",
+                    "resolved": "prod.vox.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "d2abcf4ca4f543d63ed37e00a7c7daabed4a60822c15bea1d388d6b4fbfc4a5e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mmafighting.com",
+                "www.polygon.com",
+                "www.theverge.com",
+                "www.vox.com"
+            ]
+        },
+        {
+            "rule": "vox\\.map\\.fastly\\.net\\/lookup\\/client\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "cdn.concert.io",
+                    "resolved": "prod.vox.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "f3caeb1688453aaa314d1d7f087b3370b317a7b178b9c8f7b9ca2248ffd304ab"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mmafighting.com",
+                "www.polygon.com"
+            ]
+        },
+        {
+            "rule": "vox\\.map\\.fastly\\.net\\/segments_prod2\\/v1\\.0\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "cdn.concert.io",
+                    "resolved": "prod.vox.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "6aebfc4e8ba630255bcafb813c038ecaaf4ce9294607559e9ff6f2a6ec703b7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mmafighting.com",
+                "www.polygon.com",
+                "www.theverge.com"
+            ]
+        },
+        {
+            "rule": "vox\\.map\\.fastly\\.net\\/lookup\\/client\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "cdn.concert.io",
+                    "resolved": "prod.vox.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "f3caeb1688453aaa314d1d7f087b3370b317a7b178b9c8f7b9ca2248ffd304ab"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mmafighting.com",
+                "www.polygon.com",
+                "www.theverge.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5833333333333334
+        },
+        {
+            "domain": "vox-cdn.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "concert.io",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "XHR": 5,
+        "Other": 3
+    },
+    "nameservers": []
+}

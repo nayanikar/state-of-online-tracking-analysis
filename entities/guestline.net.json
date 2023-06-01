@@ -1,0 +1,86 @@
+{
+    "domain": "guestline.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "guestline\\.net\\/static\\/js\\/tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5a6a45162ef4f61db1ec420b0e00be28965809106c8a2ab649bf4a8dd634c51e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jdwetherspoon.com",
+                "www.jdwetherspoon.com"
+            ]
+        },
+        {
+            "rule": "guestline\\.net\\/static\\/js\\/monitoring\\.8a85a060\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "71cc87e7090a27ff5c0483ad1ce90236ac648222bbc3f74b7484fe04406fda76"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jdwetherspoon.com",
+                "www.jdwetherspoon.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns1-02.azure-dns.com",
+        "ns4-02.azure-dns.info",
+        "ns3-02.azure-dns.org",
+        "ns2-02.azure-dns.net"
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "domain": "blackbelthelp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "bbh-preprod-bot",
+        "ccsfkb"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "blackbelthelp\\.com\\/preprod\\/chat\\/chat-client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bbh-preprod-bot"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bcd4da1baea20fdfd4ed574a2aee94f005041dd0b67043de7356d37649a8dbc3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccsf.edu",
+                "www.ccsf.edu"
+            ]
+        },
+        {
+            "rule": "blackbelthelp\\.com\\/preprod\\/v1\\/bot\\/CCSFBot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bbh-preprod-bot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5a6ce4336704179fbf539c0951184503a19568305630fe5f6edf1f21c2e07e63"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccsf.edu",
+                "www.ccsf.edu"
+            ]
+        },
+        {
+            "rule": "blackbelthelp\\.com\\/preprod\\/v1\\/bot\\/CCSFBot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bbh-preprod-bot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccsf.edu",
+                "www.ccsf.edu"
+            ]
+        },
+        {
+            "rule": "blackbelthelp\\.com\\/preprod\\/v1\\/impsuggestions\\/CCSFBot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bbh-preprod-bot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "90e7c08064c80262732dde6988a963fceef8a505e83593b2eed30403a1a688d0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccsf.edu",
+                "www.ccsf.edu"
+            ]
+        },
+        {
+            "rule": "blackbelthelp\\.com\\/wp-content\\/uploads\\/2021\\/04\\/RockyB\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ccsfkb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3be643f5fa1d076f3a1b47581928fc8be582fd35cd8e09faea5a7733f58dd430"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccsf.edu",
+                "www.ccsf.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 4,
+        "Preflight": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns16.worldnic.com",
+        "ns15.worldnic.com"
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "domain": "granify.com",
+    "owner": {
+        "name": "Granify Inc.",
+        "displayName": "Granify"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "matching"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "granify\\.com\\/assets\\/javascript\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a1ec75979b84b512dd485a90c43770cb67fde508bca248e798b071cc83cc972b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "granify.uuid": {
+                    "ttl": 157680010,
+                    "length": 36,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "granify.session.Vb5t1": {
+                    "ttl": 157680010,
+                    "length": 2,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "granify.new_user.Vb5t1": {
+                    "ttl": 157680012,
+                    "length": 4,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "etsy.com",
+                "www.etsy.com"
+            ]
+        },
+        {
+            "rule": "granify\\.com\\/match",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matching"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "635f5c8b7794784c01fa682cda1e3efe21059029d5fa5ed9a3b1f403f158929b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "etsy.com",
+                "www.etsy.com"
+            ]
+        },
+        {
+            "rule": "granify\\.com\\/match",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matching"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "etsy.com",
+                "www.etsy.com"
+            ]
+        },
+        {
+            "rule": "granify\\.com\\/metric",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matching"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "etsy.com",
+                "www.etsy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1081.awsdns-07.org",
+        "ns-1996.awsdns-57.co.uk",
+        "ns-327.awsdns-40.com",
+        "ns-733.awsdns-27.net"
+    ]
+}

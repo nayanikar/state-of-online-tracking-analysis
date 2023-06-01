@@ -1,0 +1,162 @@
+{
+    "domain": "sohatv.vn",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000102,
+    "sites": 15,
+    "subdomains": [
+        "adminplayer",
+        "player"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sohatv\\.vn\\/resource\\/init-script\\/playerInitScript\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adminplayer"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "2cffcfaacd57b1261f9528bf5cf177907f5dbfc64d5f39796a8bb329e8d1a430"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "sohatv\\.vn\\/resource\\/concat\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "42e3b4e51a06c03340b224c6e613f49587ec30a9199f23d74a37e66c64f9c6cc",
+                "2e4f2361f5993fa0d73ffa5f5434ff56478f950574668554fe2e54f229be099c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "kenh14.vn",
+                "thanhnien.vn"
+            ]
+        },
+        {
+            "rule": "sohatv\\.vn\\/resource\\/concat\\/",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1,
+                "window.name": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.platform": 1,
+                "window.devicePixelRatio": 1,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "85ee05abb9c6da1c556ef7c0e73ba1ccdf553f9cbae9a250e5581b29aef5aee7",
+                "b1ae2c543196ef76b67725297dcca96a7a9c124c8c3d0aeaf44ddfc3156b07d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "kenh14.vn",
+                "thanhnien.vn"
+            ]
+        },
+        {
+            "rule": "sohatv\\.vn\\/geoip\\/country",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adminplayer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "db50d2d6e1a15c56642281e651c17e084959a6b0161e4c9cd08906a77a022263"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kenh14.vn",
+                "thanhnien.vn"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "admicro.vn",
+            "prevalence": 0.3157894736842105
+        },
+        {
+            "domain": "kenh14cdn.com",
+            "prevalence": 0.3157894736842105
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.21052631578947367
+        },
+        {
+            "domain": "mediacdn.vn",
+            "prevalence": 0.13157894736842105
+        },
+        {
+            "domain": "phunuvietnam.vn",
+            "prevalence": 0.02631578947368421
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Stylesheet": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns6.synerfy.vn",
+        "ns8.synerfy.vn",
+        "ns7.synerfy.vn"
+    ]
+}

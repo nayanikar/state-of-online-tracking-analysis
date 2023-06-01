@@ -1,0 +1,127 @@
+{
+    "domain": "shenyunonline.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "marketing"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "shenyunonline\\.com\\/mtc\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "marketing"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c0eab365b816c98e078b9ea6e286b99fac8f24e196afb72d89dc3769793b7e0f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mtc_id": {
+                    "ttl": null,
+                    "length": 8,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "mtc_sid": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "mautic_device_id": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shenyun.com",
+                "www.shenyun.com"
+            ]
+        },
+        {
+            "rule": "shenyunonline\\.com\\/mtc\\/event",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marketing"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4c63853fdaed044761f7101be25dc7e3dda9f71070768be6224444210f5bbb2d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shenyun.com",
+                "www.shenyun.com"
+            ]
+        },
+        {
+            "rule": "shenyunonline\\.com\\/mtc\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marketing"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shenyun.com",
+                "www.shenyun.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "josh.ns.cloudflare.com",
+        "dee.ns.cloudflare.com"
+    ]
+}

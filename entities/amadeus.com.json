@@ -1,0 +1,223 @@
+{
+    "domain": "amadeus.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "chat.4z",
+        "chat.kq",
+        "csp-reporting.saas"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "amadeus\\.com\\/airlinebot\\/v2\\/webchat\\/webchat\\/scripts\\/webchat-bubble\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat.4z",
+                "chat.kq"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ac6fee7a4915bde7e98f36fbf2dd28dffe3f54c0d6cc0b8bb99a73e4385de630"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flyairlink.com",
+                "www.kenya-airways.com"
+            ]
+        },
+        {
+            "rule": "amadeus\\.com\\/postCspReport",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csp-reporting.saas"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frenchbee.com",
+                "www.frenchbee.com"
+            ]
+        },
+        {
+            "rule": "amadeus\\.com\\/airlinebot\\/v2\\/webchat\\/webchat\\/externalJS\\/jquery\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat.kq"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1a93f6613c08f9df1b3f463fe74d6dff53e0fb9af65a4f75719ed131cacf04b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kenya-airways.com",
+                "www.kenya-airways.com"
+            ]
+        },
+        {
+            "rule": "amadeus\\.com\\/airlinebot\\/v2\\/webchat\\/version\\.json",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat.kq"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c697d1501af703e17c1d39b0ee609419a755225c7a6edd5e72028dbfc80a9fac"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kenya-airways.com",
+                "www.kenya-airways.com"
+            ]
+        },
+        {
+            "rule": "amadeus\\.com\\/airlinebot\\/v2\\/webchat\\/webchat\\/scripts\\/webchat-bundle\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat.kq"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0727daec84acc2cd1472cc876452277c7c141c0c575535e56628518c7d9d46c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kenya-airways.com",
+                "www.kenya-airways.com"
+            ]
+        },
+        {
+            "rule": "amadeus\\.com\\/airlinebot\\/v2\\/webchat\\/\\/webchat\\/styles\\/airlinebot\\.css",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat.kq"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "20eb7fc643662a56d67edb3ab456836e17bedf026a416bf4c03eda1c6a5c25b5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kenya-airways.com",
+                "www.kenya-airways.com"
+            ]
+        },
+        {
+            "rule": "amadeus\\.com\\/airlinebot\\/api\\/webchat\\/initConfigAndLabels",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat.kq"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "02451233f8f4ec8a5d8b6ccb04d46201d15d9050c505c2895d08da890b9eb8b6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kenya-airways.com",
+                "www.kenya-airways.com"
+            ]
+        },
+        {
+            "rule": "amadeus\\.com\\/airlinebot\\/api\\/webchat\\/webhook",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat.kq"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ad49e9aa0544e27c8cb1bae1453a2a00623a979a96ff97a96f830489aae9d12e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kenya-airways.com",
+                "www.kenya-airways.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Other": 2,
+        "XHR": 6,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "auth02.ns.de.uu.net",
+        "auth01.ns.uu.net",
+        "auth52.ns.de.uu.net",
+        "auth61.ns.uu.net",
+        "mucdns01.amadeus-dns.com",
+        "mucdns02.amadeus-dns.com"
+    ]
+}

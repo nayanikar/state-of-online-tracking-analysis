@@ -1,0 +1,97 @@
+{
+    "domain": "google.co.jp",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000129,
+    "sites": 19,
+    "subdomains": [
+        "www",
+        "cse"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "google\\.co\\.jp\\/cse\\/brand",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.platform": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6395e6f9f6fbcd953f0ffa40615094c565d86c265fb5028e64dd2dc872b5ce69"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nicovideo.jp",
+                "dic.nicovideo.jp",
+                "www.wowgame.jp"
+            ]
+        },
+        {
+            "rule": "google\\.co\\.jp\\/coop\\/cse\\/brand",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www",
+                "cse"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 5,
+                "Navigator.prototype.platform": 5
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "6395e6f9f6fbcd953f0ffa40615094c565d86c265fb5028e64dd2dc872b5ce69"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jr-shinkansen.net",
+                "milestone-of-se.nesuke.com",
+                "pokemon-matome.net",
+                "thehikaku.net",
+                "www.animatetimes.com",
+                "www.gigafree.net",
+                "www.time-j.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10
+    },
+    "nameservers": [
+        "ns4.google.com",
+        "ns1.google.com",
+        "ns3.google.com",
+        "ns2.google.com"
+    ]
+}

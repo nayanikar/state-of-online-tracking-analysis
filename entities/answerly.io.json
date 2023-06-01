@@ -1,0 +1,130 @@
+{
+    "domain": "answerly.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "f",
+        "registry.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "answerly\\.io\\/fn\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "f"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "window.innerWidth": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "0f8d2f7931232ccd2bae4e46de2636b0c205d5f89c2badf26376e01a1416bfe7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blogoftom.com",
+                "www.blogoftom.com",
+                "www.margitkaufmann.com"
+            ]
+        },
+        {
+            "rule": "answerly\\.io\\/instant-embed\\/connection\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "registry.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6ec0aa7691d68e352eaeafc797df3aa4b4116509cf3ae7aba798db29528fbb73",
+                "6b80dfb666f9158357f827c5b77173c9d8afac2809e8dd3ba69c179e4a1fb7eb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blogoftom.com",
+                "www.blogoftom.com",
+                "www.margitkaufmann.com"
+            ]
+        },
+        {
+            "rule": "answerly\\.io\\/instant-embed\\/connection\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "registry.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blogoftom.com",
+                "www.blogoftom.com",
+                "www.margitkaufmann.com"
+            ]
+        },
+        {
+            "rule": "answerly\\.io\\/135f46ce-997e-4faa-b07c-36b1fc4ed317\\/fn\\/www\\.blogoftom\\.com\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "f"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "858358f0b3885a36d0eb91b939ca5f8ec8f5881be271b55ac29cb4c64f31cd6f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "blogoftom.com",
+                "www.blogoftom.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 5,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "kiki.bunny.net",
+        "coco.bunny.net"
+    ]
+}

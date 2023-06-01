@@ -1,0 +1,130 @@
+{
+    "domain": "jsrdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "c",
+        "s",
+        "i"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "jsrdn\\.com\\/s\\/cs\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.language": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "window.devicePixelRatio": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "9f474569318d03948a8c0bde3dcd4fb68a30618654bb8573150dc19c35940baa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babynames.com",
+                "www.inspiredtaste.net",
+                "www.muscleandfitness.com",
+                "www.theodysseyonline.com"
+            ]
+        },
+        {
+            "rule": "jsrdn\\.com\\/s\\/1\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "3c54f2af57f711e8714fdaaf1410c307a721a219ff03e9613895f0baf3d226ed",
+                "67a34b8bacf465cdfd7a74a722e533699263858552e516893d60a63c901c4ac5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babynames.com",
+                "www.inspiredtaste.net",
+                "www.muscleandfitness.com",
+                "www.theodysseyonline.com"
+            ]
+        },
+        {
+            "rule": "jsrdn\\.com\\/i\\/1\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "muscleandfitness.com",
+                "www.muscleandfitness.com",
+                "www.theodysseyonline.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "htlbid.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns-745.awsdns-29.net",
+        "ns-436.awsdns-54.com",
+        "ns-1941.awsdns-50.co.uk",
+        "ns-1345.awsdns-40.org"
+    ]
+}

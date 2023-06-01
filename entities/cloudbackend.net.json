@@ -1,0 +1,60 @@
+{
+    "domain": "cloudbackend.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "afc-assets",
+        "mattressfirm-pages"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cloudbackend\\.net\\/stat\\/jsutils\\/js\\/form_ajax\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "afc-assets",
+                "mattressfirm-pages"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7919a1e86226c3a4b115ba693ec2a983d5a9e310edcc2e6e3a9f1cc20d4c9366"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afcurgentcare.com",
+                "www.mattressfirm.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns2.slicehost.net",
+        "ns1.slicehost.net",
+        "ns3.slicehost.net"
+    ]
+}

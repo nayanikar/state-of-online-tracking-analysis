@@ -1,0 +1,394 @@
+{
+    "domain": "zetacx.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000817,
+    "sites": 12,
+    "subdomains": [
+        "newbalance.search",
+        "unitedarrows.search",
+        "marui.recommend",
+        "marui.search",
+        "amiami.search",
+        "palcloset.search",
+        "komeri.search"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zetacx\\.net\\/api\\/trend",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newbalance.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f83099bafe09896410126c0dd7d2558c19550948866e2898329b20a777356c11"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newbalance.jp",
+                "shop.newbalance.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/static\\/zh_register_prd\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "unitedarrows.search"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6e60572fc6c07e95529e52ac3eb1bb42852ede05dbd03a69599344a9619fb5c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zd-cookie-user-id": {
+                    "ttl": 86400005,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "zd-cookie-session-id": {
+                    "ttl": 1805,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/static\\/__zh\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unitedarrows.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "zd-cookie-user-id": 0.000013614147822417056,
+                "zd-cookie-session-id": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/static\\/zd_register\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "marui.recommend"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "233caa5862258fdef1a5b98254608b1bd4d5b6008ec7b15964fa9cacba4ba896"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zd-cookie-user-id": {
+                    "ttl": 86400016,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "zd-cookie-session-id": {
+                    "ttl": 1816,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "0101.co.jp",
+                "voi.0101.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/api\\/trendword",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marui.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8ff844ff9390cb9bfb1018ab58fc8a55d2c51994d4da04e25196ab9b3d96ea95"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "0101.co.jp",
+                "voi.0101.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/static\\/__zd\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marui.recommend",
+                "amiami.search",
+                "palcloset.search"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "zd-cookie-user-id": 0.000020421221733625584,
+                "zd-cookie-session-id": 0.000020421221733625584,
+                "zd_cookie_user_id": 0.000006807073911208528,
+                "zd_cookie_session_id": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "0101.co.jp",
+                "voi.0101.co.jp",
+                "www.amiami.com",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/api\\/recommend\\/item",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marui.recommend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "122efd768ff482868a0296519210de36696beeab4bbcc4d6a0deb9f85f8853cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "0101.co.jp",
+                "voi.0101.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/api\\/ranking",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marui.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2dd832a537933fcdef5d7ad69528f922abff6abfba683863e98fe44c23271b24"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "0101.co.jp",
+                "voi.0101.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/api\\/productdetail",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marui.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ee9addbbe8848390bb27dba6cfe1e2e154ffb62b2d22c1f200b1ec27d29b820b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "0101.co.jp",
+                "voi.0101.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/static\\/zd_register_prd\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "amiami.search",
+                "palcloset.search"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d2a7254efa6320fe3abe0cb3122377f4d6101297b5613e3450b55370e151c24e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zd-cookie-user-id": {
+                    "ttl": 86400007,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "zd-cookie-session-id": {
+                    "ttl": 1807,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "zd_cookie_user_id": {
+                    "ttl": 86400012,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "zd_cookie_session_id": {
+                    "ttl": 1812,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amiami.com",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/static\\/zd\\/zd_register_prd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "komeri.search"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "de5859c7aab91f74197e992087858c7a6320f24bee73292f104b3abc825e0bd4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "komeri.com",
+                "www.komeri.com"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/static\\/zd\\/__zd\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "komeri.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "komeri.com",
+                "www.komeri.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Script": 10,
+        "Image": 8,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-582.awsdns-08.net",
+        "ns-231.awsdns-28.com",
+        "ns-2018.awsdns-60.co.uk",
+        "ns-1250.awsdns-28.org"
+    ]
+}

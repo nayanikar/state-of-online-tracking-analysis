@@ -1,0 +1,258 @@
+{
+    "domain": "datadome.co",
+    "owner": {
+        "name": "DataDome",
+        "displayName": "DataDome"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00402,
+    "sites": 40,
+    "subdomains": [
+        "js",
+        "sslgen-auspost",
+        "dwt.soundcloud.com.first-party-js",
+        "sslgen-nyt",
+        "api-js"
+    ],
+    "cnames": [
+        {
+            "original": "dd.auspost.com.au",
+            "resolved": "sslgen-auspost.datadome.co"
+        },
+        {
+            "original": "dd.nytimes.com",
+            "resolved": "sslgen-nyt.datadome.co"
+        },
+        {
+            "original": "dwt.soundcloud.com",
+            "resolved": "dwt.soundcloud.com.first-party-js.datadome.co"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "datadome\\.co\\/tags\\.js",
+            "cookies": 0.00171,
+            "fingerprinting": 3,
+            "subdomains": [
+                "js",
+                "sslgen-auspost",
+                "dwt.soundcloud.com.first-party-js",
+                "sslgen-nyt"
+            ],
+            "apis": {
+                "window.localStorage": 13,
+                "Navigator.prototype.userAgent": 13,
+                "Navigator.prototype.hardwareConcurrency": 12,
+                "Navigator.prototype.webdriver": 12,
+                "Navigator.prototype.platform": 12,
+                "Navigator.prototype.languages": 12,
+                "Navigator.prototype.maxTouchPoints": 12,
+                "Navigator.prototype.plugins": 12,
+                "WebGLRenderingContext.prototype.getExtension": 12,
+                "WebGLRenderingContext.prototype.getParameter": 12,
+                "window.outerHeight": 12,
+                "window.outerWidth": 12,
+                "Navigator.prototype.deviceMemory": 12,
+                "window.innerHeight": 12,
+                "window.innerWidth": 12,
+                "Document.cookie getter": 12,
+                "Screen.prototype.height": 12,
+                "Screen.prototype.width": 12,
+                "Screen.prototype.colorDepth": 12,
+                "Navigator.prototype.language": 12,
+                "window.devicePixelRatio": 12,
+                "Screen.prototype.availHeight": 12,
+                "Screen.prototype.availWidth": 12,
+                "Date.prototype.getTimezoneOffset": 12,
+                "window.sessionStorage": 12,
+                "window.indexedDB": 12,
+                "Navigator.prototype.productSub": 12,
+                "Navigator.prototype.vendor": 12,
+                "Navigator.prototype.mimeTypes": 12,
+                "Navigator.prototype.mediaDevices": 12,
+                "HTMLMediaElement.prototype.canPlayType": 12,
+                "MediaSource.isTypeSupported": 12,
+                "Screen.prototype.orientation": 12,
+                "Navigator.prototype.permissions": 12,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 12,
+                "Notification.permission": 12,
+                "Document.cookie setter": 11,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 38,
+            "prevalence": 0.00382,
+            "cnames": [
+                {
+                    "original": "dd.auspost.com.au",
+                    "resolved": "sslgen-auspost.datadome.co"
+                },
+                {
+                    "original": "dwt.soundcloud.com",
+                    "resolved": "dwt.soundcloud.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.nytimes.com",
+                    "resolved": "sslgen-nyt.datadome.co"
+                }
+            ],
+            "responseHashes": [
+                "d991707fe699ad85ca4cf4f6449b2a24f24bb01f7fe9926db8e6a52c25ece2bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "datadome": {
+                    "ttl": 31536000,
+                    "length": 128,
+                    "prevalence": 0.0009036144578313253,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soundcloud.com",
+                "www.nytimes.com",
+                "www.hypedc.com",
+                "www.singlecare.com",
+                "www.nyt.com",
+                "www.thebody.com",
+                "www.redbook.com.au",
+                "www.thetrainline.com",
+                "tidal.com",
+                "www.thefork.com.au",
+                "www.musicnotes.com",
+                "www.coingecko.com",
+                "www.idealista.it",
+                "jooble.org",
+                "www.prezzee.com.au",
+                "www.names.org",
+                "www.vans.com",
+                "auspost.com.au",
+                "iporntv.net",
+                "www.realclearpolitics.com"
+            ]
+        },
+        {
+            "rule": "datadome\\.co\\/js\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-js",
+                "sslgen-auspost",
+                "dwt.soundcloud.com.first-party-js",
+                "sslgen-nyt"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.00221,
+            "cnames": [
+                {
+                    "original": "dd.auspost.com.au",
+                    "resolved": "sslgen-auspost.datadome.co"
+                },
+                {
+                    "original": "dwt.soundcloud.com",
+                    "resolved": "dwt.soundcloud.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.nytimes.com",
+                    "resolved": "sslgen-nyt.datadome.co"
+                }
+            ],
+            "responseHashes": [
+                "17e372d62448a7defc5e201e950a78bf855e03039673f57d72d60a733316d96e",
+                "6541b9d2efa8686972fa4bda595876850316ebc5c6a728ec9295ad72a7ec1d72",
+                "6a5d5dc00d11fb626b4e1763d123e38a29e7bdbaf06533c0bb573b0264f7398c",
+                "e0234673c193f8607ad9e76bc7b0a8c5f65b1c43f0da237cb8147a607ddeb159",
+                "b367d337c855fbce1d3408ddcbc32becd70817bf43ce495c5d578c9814dd4e22",
+                "c055d9632b053336ffb56cc71add13b5501a741a3994fed95912ccb011c70620",
+                "ee983f5fb126cd2ed4146950dec1f14de76590ea517ae48485774fa7e0ccaf1e",
+                "4684bd8ee3c642a97e5418b2205c10207c928a1adcc0282d55655fec2d4152e3",
+                "96f6a211ea2dac2504db6b247cc270cb4246260e120d30a7633aad719c167f76",
+                "6f4af76763cd24e8768c9efa761b6a8bcc429372fbd8395f76ae0500b1147a93",
+                "f1787ef7d27becd4506eca2babc0387bd5f59b65e0ffb2e468771f5f896fa47b",
+                "5e14ae4c7031d8ac8d76cfbded8453f201f4c56f6807b96a3b2a26a8ccaae9dd",
+                "50c2871b64cdea5075193f58b9daf96161e541ec02563eae5751fbaa0a117681",
+                "a9b93974b6feefd2dc10d39ec0cdadfccf4a7815ffad74ebde97e14f2546889c",
+                "e4cb1d7e2d86573812c737dcf3eabac8d325c98d51592ca88254a8aafa6381c4",
+                "9ddebe9919cee1d6d0067bdff52f61e61e678a14dafdffdb99d3ce14f9e87733",
+                "83337c0fa48c31040b598d301d2d247ce007cfc598de162d208f4dd6366edb5a",
+                "4682711e72ddbd4e9b704bf5059f9f6dd0b00337b385b1499cb6de1fd10a4f73"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soundcloud.com",
+                "www.nytimes.com",
+                "www.reddit.com",
+                "ra.co",
+                "jooble.org",
+                "iporntv.net",
+                "www.stylerunner.com",
+                "www.psycom.net",
+                "hot.com",
+                "auspost.com.au",
+                "www.tyresales.com.au",
+                "www.vans.com",
+                "www.viator.com",
+                "www.thetrainline.com",
+                "www.footlocker.com.au",
+                "m.soundcloud.com",
+                "www.coingecko.com",
+                "www.nyt.com",
+                "www.mlb.com",
+                "movies2.nytimes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00171,
+    "topInitiators": [
+        {
+            "domain": "captcha-delivery.com",
+            "prevalence": 0.4423076923076923
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2692307692307692
+        },
+        {
+            "domain": "sndcdn.com",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.057692307692307696
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.019230769230769232
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.019230769230769232
+        },
+        {
+            "domain": "redditstatic.com",
+            "prevalence": 0.019230769230769232
+        },
+        {
+            "domain": "csnglobal.net",
+            "prevalence": 0.019230769230769232
+        }
+    ],
+    "types": {
+        "Script": 38,
+        "XHR": 22
+    },
+    "nameservers": [
+        "ns-888.awsdns-47.net",
+        "ns-359.awsdns-44.com",
+        "ns-1801.awsdns-33.co.uk",
+        "ns-1139.awsdns-14.org"
+    ]
+}

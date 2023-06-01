@@ -1,0 +1,166 @@
+{
+    "domain": "surfly.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "surfly\\.com\\/surfly\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d03a2d264894e6e4422293bc5327aaecfa320354b20071ef33bb97fa32f4657f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beneva.ca",
+                "www.ssq.ca"
+            ]
+        },
+        {
+            "rule": "surfly\\.com\\/static\\/bundles\\/widget\\/apiframe\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.appName": 1,
+                "Navigator.prototype.vendor": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Navigator.prototype.mediaDevices": 1,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a547dd842627e139c6afdacfcb2312eafae81f0b0ef4e52d2272938032976ced"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beneva.ca",
+                "www.ssq.ca"
+            ]
+        },
+        {
+            "rule": "surfly\\.com\\/v2\\/company\\/options\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bd4cb298983f9e731a73e67a2faec41bddd845c96967ac0818138fc96da022c9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beneva.ca",
+                "www.ssq.ca"
+            ]
+        },
+        {
+            "rule": "surfly\\.com\\/3rdpartycookietest\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1d0497b60006cc3cdd1eab8a69a029b0415d29849dfd96d4d67dcee3ad03ac14"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beneva.ca",
+                "www.ssq.ca"
+            ]
+        },
+        {
+            "rule": "surfly\\.com\\/static\\/dashboard\\/translations\\/fr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "20a64ac634fee586bfb5dd1f8220075ca54090a1f39de1cb5c299417f34814ad"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beneva.ca",
+                "www.ssq.ca"
+            ]
+        },
+        {
+            "rule": "surfly\\.com\\/static\\/bundles\\/dashboard\\/translate_global\\.8158587a972577219731\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "48d0360f09c1c8c2911a06a3613995b080b91b2b9f48637681050d491d734d65"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beneva.ca",
+                "www.ssq.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 4,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns4.surfly.com",
+        "ns2.surfly.com",
+        "ns0.surfly.com",
+        "ns5.surfly.com",
+        "ns1.surfly.com",
+        "ns3.surfly.com"
+    ]
+}

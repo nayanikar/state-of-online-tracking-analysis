@@ -1,0 +1,151 @@
+{
+    "domain": "adsquirrel.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000102,
+    "sites": 15,
+    "subdomains": [
+        "cdn",
+        "ue",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adsquirrel\\.ai\\/protothema\\.gr\\/chirp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "0a30d2dd5658661510fbfa3f0e9015e969d89d0531aea0faceb9fee30ed1fc49"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "protothema.gr",
+                "en.protothema.gr",
+                "www.protothema.gr"
+            ]
+        },
+        {
+            "rule": "adsquirrel\\.ai\\/insert",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ue"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "0501ff0326680044298a3aee49f95e4ca72db046a7f520b6c7f64683da02ff26"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "efsyn.gr",
+                "www.el.gr",
+                "www.lifo.gr",
+                "www.news247.gr",
+                "www.pentapostagma.gr",
+                "www.sdna.gr"
+            ]
+        },
+        {
+            "rule": "adsquirrel\\.ai\\/insert",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ue"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "efsyn.gr",
+                "www.el.gr",
+                "www.lifo.gr",
+                "www.news247.gr",
+                "www.pentapostagma.gr",
+                "www.sdna.gr"
+            ]
+        },
+        {
+            "rule": "adsquirrel\\.ai\\/ask",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e6c9049d8860066da5b2bd132870a75c3201ae7b1c2b06da3b8ee3ce5b02e47d",
+                "de4cf28594cd1e4c78c345569191facb641e6b3b0ce67626895d81e446e95c3b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "el.gr",
+                "www.lifo.gr",
+                "www.news247.gr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "orangeclickmedia.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.23809523809523808
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.047619047619047616
+        },
+        {
+            "domain": "cleverpush.com",
+            "prevalence": 0.047619047619047616
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 9,
+        "Preflight": 6
+    },
+    "nameservers": [
+        "ashley.ns.cloudflare.com",
+        "marek.ns.cloudflare.com"
+    ]
+}

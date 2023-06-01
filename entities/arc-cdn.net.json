@@ -1,0 +1,409 @@
+{
+    "domain": "arc-cdn.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "bostonglobe-config-prod.api",
+        "irishtimes-config-prod.api",
+        "lescoopsdelinformation-latribune-prod.web",
+        "lescoopsdelinformation-le-droit-prod.web",
+        "lescoopsdelinformation-le-soleil-prod.web",
+        "lescoopsdelinformation-latribune-prod.api",
+        "lescoopsdelinformation-le-droit-prod.api",
+        "lescoopsdelinformation-le-soleil-prod.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "arc-cdn\\.net\\/video\\/v1\\/ansvideos\\/findByUuid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bostonglobe-config-prod.api",
+                "irishtimes-config-prod.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "53c56275ce20f09f3c3e98e70c88a8e3edac537b9daf305a9f092576820fec4c",
+                "da1226499304ac3a481e4207af722cf3035c3bfbb41adb46374fbef70175fa24"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bostonglobe.com",
+                "www.bostonglobe.com",
+                "www.irishtimes.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/A7I_dP9KNUguESlLjH7CBAgEiSs=\\/600x400\\/filters:format\\(jpg\\):quality\\(70\\)\\/cloudfront-us-east-1\\.images\\.arcpublishing\\.com\\/lescoopsdelinformation\\/GXJHHHLAUZAP5E4SH2OU6LH5PA\\.JPG",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-latribune-prod.web",
+                "lescoopsdelinformation-le-droit-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a3863c41ce61eaea3bf8c53510a462a0f2e4dff24092f9b58e7f91ef1cb252fb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latribune.ca",
+                "www.ledroit.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/2GVBTGm2S1CccCUIzKPu5Dn-Ot0=\\/600x400\\/filters:format\\(jpg\\):quality\\(70\\)\\/cloudfront-us-east-1\\.images\\.arcpublishing\\.com\\/lescoopsdelinformation\\/EJMBYP6WNFC2TMG53NZAXTTX3I\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-latribune-prod.web",
+                "lescoopsdelinformation-le-droit-prod.web",
+                "lescoopsdelinformation-le-soleil-prod.web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a4033d151df321e31ebc7679fe9125a1e101856f298bdeb2dc3b9a15bc57b892"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latribune.ca",
+                "www.ledroit.com",
+                "www.lesoleil.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/identity\\/public\\/v1\\/profile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-latribune-prod.api",
+                "lescoopsdelinformation-le-droit-prod.api",
+                "lescoopsdelinformation-le-soleil-prod.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "fbd835d0b8106fd35626a6e11a12eb3b86b954d5d907d1d4d9560b25f67dc463"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latribune.ca",
+                "www.ledroit.com",
+                "www.lesoleil.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/identity\\/public\\/v1\\/profile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-latribune-prod.api",
+                "lescoopsdelinformation-le-droit-prod.api",
+                "lescoopsdelinformation-le-soleil-prod.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latribune.ca",
+                "www.ledroit.com",
+                "www.lesoleil.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/sales\\/public\\/v1\\/subscription\\/allactive",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-latribune-prod.api",
+                "lescoopsdelinformation-le-droit-prod.api",
+                "lescoopsdelinformation-le-soleil-prod.api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latribune.ca",
+                "www.latribune.ca",
+                "www.ledroit.com",
+                "www.lesoleil.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/sales\\/public\\/v1\\/subscription\\/allactive",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-latribune-prod.api",
+                "lescoopsdelinformation-le-droit-prod.api",
+                "lescoopsdelinformation-le-soleil-prod.api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "fbd835d0b8106fd35626a6e11a12eb3b86b954d5d907d1d4d9560b25f67dc463"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latribune.ca",
+                "www.latribune.ca",
+                "www.ledroit.com",
+                "www.lesoleil.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/mN5CHJh5KjOJRd-YINuk19XbZ1o=\\/600x400\\/filters:format\\(png\\):quality\\(70\\)\\/cloudfront-us-east-1\\.images\\.arcpublishing\\.com\\/lescoopsdelinformation\\/75YVC2EOYZB6JFLTWBGY5MVSC4\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-le-droit-prod.web",
+                "lescoopsdelinformation-le-soleil-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "363c7acd23f1ebfab6320bf9aca9df0dd3b7d8ed6838319bffdbe287e269ef2d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ledroit.com",
+                "www.lesoleil.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/AtEH2mAEEz5vPvtjzLhsd861Hb0=\\/600x400\\/filters:format\\(jpg\\):quality\\(70\\)\\/cloudfront-us-east-1\\.images\\.arcpublishing\\.com\\/lescoopsdelinformation\\/N7DBUKRXUNDBFKT45IQ5WTA2VU\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-le-droit-prod.web",
+                "lescoopsdelinformation-le-soleil-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8f2655fcaab773b7137fb2d323294502f3dc00d27295d833193269fc4e6a1cea"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ledroit.com",
+                "www.lesoleil.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/3rY_Fty0J4S3MnZ8h1jrJib_TBk=\\/600x400\\/filters:format\\(jpg\\):quality\\(70\\)\\/cloudfront-us-east-1\\.images\\.arcpublishing\\.com\\/lescoopsdelinformation\\/WING74ETMBAIPJTACXZN7R74WI\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-le-droit-prod.web",
+                "lescoopsdelinformation-le-soleil-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c3005d57cdc278a131684b66420234eccdae949a4747522ebb18b7d332f917b1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ledroit.com",
+                "www.lesoleil.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/5dX9j4IC0lMA4eep8mGQRuhQ-iI=\\/600x400\\/filters:format\\(jpg\\):quality\\(70\\):focal\\(1239x763:1249x773\\)\\/cloudfront-us-east-1\\.images\\.arcpublishing\\.com\\/lescoopsdelinformation\\/M4MFCUXMJNA4BBP2T7NBOEHOCY\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-le-droit-prod.web",
+                "lescoopsdelinformation-le-soleil-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5b9df5031320984c457e7994cb457886c8931720118b2883b44316eb60bc5d42"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ledroit.com",
+                "www.lesoleil.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/m1pkz26yCvoJHyUFdntkmBcC8VM=\\/600x400\\/filters:format\\(jpg\\):quality\\(70\\)\\/cloudfront-us-east-1\\.images\\.arcpublishing\\.com\\/lescoopsdelinformation\\/NA3FL7EDLNFJXBXIULORVKFQSA\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-le-droit-prod.web",
+                "lescoopsdelinformation-le-soleil-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "db5daf3be04f0523504b70effed428526c6739a86767052f938e6246c199337d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ledroit.com",
+                "www.lesoleil.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/3dY6lJYPFnbN1HSVySF2KW70oIY=\\/600x400\\/filters:format\\(png\\):quality\\(70\\)\\/cloudfront-us-east-1\\.images\\.arcpublishing\\.com\\/lescoopsdelinformation\\/YMTTKTJ7VFHLDJ3XS5CM4VFGTI\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-le-droit-prod.web",
+                "lescoopsdelinformation-le-soleil-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a631a6bf56fc740022cdf41232a44360f7a7fd1c7bb6555345089537fd9cc00a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ledroit.com",
+                "www.lesoleil.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/-1M4EiDggVsf0KbAtFKUHXVSmlc=\\/600x400\\/filters:format\\(png\\):quality\\(70\\)\\/cloudfront-us-east-1\\.images\\.arcpublishing\\.com\\/lescoopsdelinformation\\/KGEVNSIM7JAHZHR7FMW6SZCC44\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-le-droit-prod.web",
+                "lescoopsdelinformation-le-soleil-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "28c767481278a9687df2869027005963cdc73450d73cd783eeb0e4e7c92984f4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ledroit.com",
+                "www.lesoleil.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/n1FU1EgTtJFQhwGxnTiU48i1gHo=\\/600x400\\/filters:format\\(jpg\\):quality\\(70\\)\\/cloudfront-us-east-1\\.images\\.arcpublishing\\.com\\/lescoopsdelinformation\\/KTKLRF5SJVBYTGTDBKUK7YI6LE\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lescoopsdelinformation-le-droit-prod.web",
+                "lescoopsdelinformation-le-soleil-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8a95b450b3429c2abe1c980a6d1f393eb93ab4df4c6123e056d5d61e4a743501"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ledroit.com",
+                "www.lesoleil.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.963855421686747
+        },
+        {
+            "domain": "d1zokzhal29fpg.cloudfront.net",
+            "prevalence": 0.024096385542168676
+        },
+        {
+            "domain": "arcpublishing.com",
+            "prevalence": 0.012048192771084338
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Image": 21,
+        "Fetch": 7,
+        "Preflight": 7
+    },
+    "nameservers": [
+        "a1-56.akam.net",
+        "a18-65.akam.net",
+        "a9-65.akam.net",
+        "a7-64.akam.net",
+        "a24-67.akam.net",
+        "a20-66.akam.net"
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "domain": "datafyhq.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "pxl"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "datafyhq\\.com\\/js\\/pxl\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "pxl"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Date.prototype.getTimezoneOffset": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "fd73ad1c8c4492d4edd204cbad620dd26ee54a2cff46b290f8ca4e4bc288cfd6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__opix_uid": {
+                    "ttl": 63072003,
+                    "length": 19,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "exploreminnesota.com",
+                "www.exploreminnesota.com",
+                "www.visitwichita.com"
+            ]
+        },
+        {
+            "rule": "datafyhq\\.com\\/imp\\/pxl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pxl"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__opix_uid": 0.000020421221733625584,
+                "__tld": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "exploreminnesota.com",
+                "www.exploreminnesota.com",
+                "www.visitwichita.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Ping": 3
+    },
+    "nameservers": [
+        "millie.ns.cloudflare.com",
+        "dante.ns.cloudflare.com"
+    ]
+}

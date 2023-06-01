@@ -1,0 +1,102 @@
+{
+    "domain": "rapidapi.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "telize-v1.p"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rapidapi\\.com\\/geoip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "telize-v1.p"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autonomous.ai",
+                "www.autonomous.ai"
+            ]
+        },
+        {
+            "rule": "rapidapi\\.com\\/geoip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "telize-v1.p"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ebbdafdd07df85683104828384202968cc274a4c4ae63b38b60023ee778afba2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autonomous.ai",
+                "www.autonomous.ai"
+            ]
+        },
+        {
+            "rule": "rapidapi\\.com\\/location",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "telize-v1.p"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6697643be19d8defb99080b73fca30741dd31d49e7bc65030aec2b9bbfbace09"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windermere.com",
+                "www.windermere.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "gina.ns.cloudflare.com",
+        "jim.ns.cloudflare.com"
+    ]
+}

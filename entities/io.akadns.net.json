@@ -1,0 +1,100 @@
+{
+    "domain": "io.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "dc.oracleinfinity"
+    ],
+    "cnames": [
+        {
+            "original": "dc.oracleinfinity.io",
+            "resolved": "dc.oracleinfinity.io.akadns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "io\\.akadns\\.net\\/v4\\/account\\/wh3g12c3gg\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc.oracleinfinity"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "dc.oracleinfinity.io",
+                    "resolved": "dc.oracleinfinity.io.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "6cb45e83b9d3b03c912a17ad4fe42246b5fa57dc2ff800b5513ed42c3093c591",
+                "b5d3063a758ab17923945058ced9279b3a8a9ae4b068628dfcce37438dbe9161"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mysql.com",
+                "www.java.com",
+                "www.oracle.com"
+            ]
+        },
+        {
+            "rule": "io\\.akadns\\.net\\/wh3g12c3gg\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc.oracleinfinity"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "dc.oracleinfinity.io",
+                    "resolved": "dc.oracleinfinity.io.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mysql.com",
+                "dev.mysql.com",
+                "www.java.com",
+                "www.oracle.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Image": 4
+    },
+    "nameservers": []
+}

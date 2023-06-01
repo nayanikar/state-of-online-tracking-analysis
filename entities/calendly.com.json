@@ -1,0 +1,87 @@
+{
+    "domain": "calendly.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "calendly\\.com\\/assets\\/external\\/widget\\.css",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "fcb209ef6d7ca07243d60aa46a83865255672006c403b988209cfbb6eacf88a6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stockspot.com.au",
+                "euka.edu.au",
+                "www.matrix.edu.au",
+                "www.medshop.com.au",
+                "www.naturalchemist.com.au"
+            ]
+        },
+        {
+            "rule": "calendly\\.com\\/assets\\/external\\/widget\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.platform": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "f410a3f7fd756255808c81acc7244e4682a90f15e941a1eba37065aa6cf7abd7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stockspot.com.au",
+                "euka.edu.au",
+                "www.matrix.edu.au",
+                "www.medshop.com.au",
+                "www.naturalchemist.com.au",
+                "www.weddingwire.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 5,
+        "Script": 6
+    },
+    "nameservers": [
+        "roan.ns.cloudflare.com",
+        "hope.ns.cloudflare.com"
+    ]
+}

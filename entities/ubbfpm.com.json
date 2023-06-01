@@ -1,0 +1,69 @@
+{
+    "domain": "ubbfpm.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ubbfpm\\.com\\/yd\\/1068134\\/pop\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2,
+                "URL.createObjectURL": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e559bda8e8e54766df07acebd83828bcde04ed587722147c7577da3bcf6dd05e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_rce": {
+                    "ttl": 2592013,
+                    "length": 2,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javhdporn.net",
+                "www4.bestjavporn.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.topdns.me",
+        "ns2.topdns.me",
+        "ns3.topdns.me"
+    ]
+}

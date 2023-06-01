@@ -1,0 +1,126 @@
+{
+    "domain": "dt4ever.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "dt4ever\\.com\\/scripts\\/main\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b5e074e1bc6d1d82955274e0624badbbd2a343852a726db3b7b34fb9e5908dc1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dt4_triggers": {
+                    "ttl": 86406,
+                    "length": 41,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "dt4_scriptId": {
+                    "ttl": 86406,
+                    "length": 2,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "dt4_platform": {
+                    "ttl": 86406,
+                    "length": 7,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fakings.com",
+                "tv.fakings.com"
+            ]
+        },
+        {
+            "rule": "dt4ever\\.com\\/analytics\\/static\\/json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4ef62347aec340692d01eaa9b57a2e998da246f274ea71f5a92bd5bc37907b60"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fakings.com",
+                "tv.fakings.com"
+            ]
+        },
+        {
+            "rule": "dt4ever\\.com\\/scripts\\/static\\/json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cf63fdfcffade8377513e94d701d665bea794f00486dac114a0260437053b63c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fakings.com",
+                "tv.fakings.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns4.cdmondns-01.org",
+        "ns5.cdmondns-01.com",
+        "ns3.cdmon.net",
+        "ns1.cdmon.net",
+        "ns2.cdmon.net"
+    ]
+}

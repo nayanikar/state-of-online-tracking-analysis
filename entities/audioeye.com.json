@@ -1,0 +1,503 @@
+{
+    "domain": "audioeye.com",
+    "owner": {
+        "name": "AudioEye, Inc.",
+        "displayName": "AudioEye"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "ws",
+        "wsv3cdn",
+        "analytics",
+        "wsmcdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "audioeye\\.com\\/ae\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "9e56bd6105d6e24d804d3db97049f580c26390f475a87f7535e066bdc815b2f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "www.cars.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wsv3cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6,
+                "window.localStorage": 6,
+                "Document.cookie getter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "d38ead98ffcc568a219830d0a167a94d31bc21e8f8a6b79f0f05f961d74703ce",
+                "b27e16adaf84d06ef510391dc946ad2250ae600860218bbfb6a4b27010af4396",
+                "259a466fa31944481c74c48de5f46319ed511b5854bb4c45ad3f1d197dced8e1",
+                "693a541575dc8f599f66f8907adb326cc4edfd84df5b7684562ce76a1bee4944",
+                "862b84b31a7a59520df2c99c429f2ff920ca95b2ec16a9cb2f753affa4aedf75"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "ecco.com",
+                "enduringword.com",
+                "www.cars.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com",
+                "www.usmagazine.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/v2\\/scripts\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wsv3cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "82c37b6c898ebb7bb1f7ea3390b74a8f0c30fa7b2b75b7a8fa08bc6ed977bb91",
+                "e45d101a06f8062dfb4fcd7b96bbebc41ca879da298f05e525d735106f27f276",
+                "ffc18bbbb91ba52848aecea20bdba2582c8588daacd39416e00cf84e6159b13e",
+                "74fa9b17e21b699b911585320641ce1141d82272f70dcf092b2d12c450096bf1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "enduringword.com",
+                "www.cars.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com",
+                "www.usmagazine.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/v2\\/build\\/jquery\\.bundle\\.e33abbb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wsv3cdn"
+            ],
+            "apis": {
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "da5190331705775352022ee20a8968572028a2e725575589c13d978be09302a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "enduringword.com",
+                "www.cars.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com",
+                "www.usmagazine.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/v2\\/build\\/startup\\.bundle\\.e33abbb\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 2,
+            "subdomains": [
+                "wsv3cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.product": 5,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5,
+                "window.sessionStorage": 3
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "0cfe961b7d2b653826fa791292e6f75d1d5cd0c02010598d49d9e675a79a50ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_aeaid": {
+                    "ttl": 31536018,
+                    "length": 36,
+                    "prevalence": 0.000502008032128514,
+                    "uniqueness": 1
+                },
+                "aelastsite": {
+                    "ttl": 86403627,
+                    "length": 68,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "aelreadersettings": {
+                    "ttl": null,
+                    "length": 315,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "aeatstartmessage": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "enduringword.com",
+                "www.cars.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com",
+                "www.usmagazine.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/v2\\/build\\/smartrems\\.bundle\\.e33abbb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wsv3cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "15c9f823e545a9686e974826b0568a53a651eff347af2f7abae879ed0a5ba3dd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "enduringword.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com",
+                "www.usmagazine.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/v2\\/frame\\/cookieStorage\\.html",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wsv3cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "fdd357508c4cd326fd421f0893d124d018d55acb5dbb457d7eca24fecfbe4c8c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "aelastsite": {
+                    "ttl": 86403627,
+                    "length": 68,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "aelreadersettings": {
+                    "ttl": null,
+                    "length": 315,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "aeatstartmessage": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "enduringword.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com",
+                "www.usmagazine.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/air\\/v0\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "enduringword.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com",
+                "www.usmagazine.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/v2\\/build\\/3772\\.bundle\\.e33abbb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wsv3cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "6db9473433810ec1cb3117726b26aab3d002201382e526a11c5ef6b16aa514f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "enduringword.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com",
+                "www.usmagazine.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/v2\\/build\\/5121\\.bundle\\.e33abbb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wsv3cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "903cf6b79d15c1159628f9edf09b933327c9a54efb41023641c09db4696ded7e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "enduringword.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com",
+                "www.usmagazine.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/v2\\/build\\/874\\.bundle\\.e33abbb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wsv3cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "20f86b062157fbf2af91b2a5013cb09570b608b2993b430e2b41ae0c34ed4d75"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "enduringword.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com",
+                "www.usmagazine.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/v2\\/build\\/launcher\\.bundle\\.e33abbb\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wsv3cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "3ca11d1428bc0be4d01394845ac8038051f9a473d59de50723e29f1d886396ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "enduringword.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com",
+                "www.usmagazine.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/v2\\/build\\/compliance\\.bundle\\.e33abbb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wsv3cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "455952893d3f0ffb7e716a5591f32f0113a575fee5f757478a1d7990f9f2e1ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "enduringword.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com",
+                "www.usmagazine.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/v2\\/build\\/site-menu\\.bundle\\.e33abbb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wsv3cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "www.lifeandstylemag.com",
+                "www.muscleandfitness.com"
+            ]
+        },
+        {
+            "rule": "audioeye\\.com\\/aem\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wsmcdn"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9e56bd6105d6e24d804d3db97049f580c26390f475a87f7535e066bdc815b2f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "enduringword.com",
+                "www.usmagazine.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "d17tqr44y57o31.cloudfront.net",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.06666666666666667
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.03333333333333333
+        }
+    ],
+    "types": {
+        "Script": 63,
+        "Document": 5,
+        "Ping": 5
+    },
+    "nameservers": [
+        "ns-221.awsdns-27.com",
+        "ns-885.awsdns-46.net",
+        "ns-1086.awsdns-07.org",
+        "ns-1995.awsdns-57.co.uk"
+    ]
+}

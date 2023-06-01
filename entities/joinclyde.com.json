@@ -1,0 +1,365 @@
+{
+    "domain": "joinclyde.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000191,
+    "sites": 28,
+    "subdomains": [
+        "js",
+        "api",
+        "widgets",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "joinclyde\\.com\\/widget\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "9d5dad3224efbe208abb7d95bf35ff52f443126220a56a7aa81dd6b18dcd50b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mTrackingTimeOnSite": {
+                    "ttl": 1813,
+                    "length": 4,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "furrion.com",
+                "hellotushy.com",
+                "hoover.com",
+                "molekule.com",
+                "www.marshallheadphones.com",
+                "www.tuftandneedle.com"
+            ]
+        },
+        {
+            "rule": "joinclyde\\.com\\/products\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "f1460839db922b0b1ac1e23d40da4119d00e9a53a7bedba148109d4b7dd54bc1",
+                "e933edc6357271210901ecb9c796a435617de873e8f27c627e0c98cce567ff6e",
+                "79d567da8f88b67c9ea92c9d827462323b459df3d5e7a8cce2f004496d88e75d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellotushy.com",
+                "hoover.com",
+                "molekule.com",
+                "www.tuftandneedle.com"
+            ]
+        },
+        {
+            "rule": "joinclyde\\.com\\/products\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellotushy.com",
+                "hoover.com",
+                "molekule.com",
+                "www.tuftandneedle.com"
+            ]
+        },
+        {
+            "rule": "joinclyde\\.com\\/modal\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "670458b0e878dc846cea9e79e0da2ab4bb0fdb4cbfc8ed4ae3ebc98c3eeddd94"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellotushy.com",
+                "hoover.com",
+                "molekule.com",
+                "teddybaldassarre.com",
+                "www.shocksurplus.com",
+                "www.tuftandneedle.com"
+            ]
+        },
+        {
+            "rule": "joinclyde\\.com\\/static\\/js\\/modal\\.9a0708dd\\.0edc1292\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.platform": 5,
+                "Navigator.prototype.language": 5,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "b9b16c7fc7decfc92585d2c60908ded4b7a4f4520fce20325cd3f3691730c0d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellotushy.com",
+                "hoover.com",
+                "molekule.com",
+                "teddybaldassarre.com",
+                "www.shocksurplus.com",
+                "www.tuftandneedle.com"
+            ]
+        },
+        {
+            "rule": "joinclyde\\.com\\/static\\/css\\/modal\\.9a0708dd\\.fbbc26ef\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "9b715c0dca72aceeba8c47aa1f5da03573b3c5eb47b90a22e8f89391f807ec32"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellotushy.com",
+                "hoover.com",
+                "molekule.com",
+                "teddybaldassarre.com",
+                "www.shocksurplus.com",
+                "www.tuftandneedle.com"
+            ]
+        },
+        {
+            "rule": "joinclyde\\.com\\/pdp\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "02cfb27354df369033d870491146f4407965a23385606489512fb239db126f9f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hoover.com",
+                "teddybaldassarre.com",
+                "www.shocksurplus.com",
+                "www.tuftandneedle.com"
+            ]
+        },
+        {
+            "rule": "joinclyde\\.com\\/static\\/js\\/pdp\\.4c4878e4\\.6b8735f2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.platform": 4,
+                "Navigator.prototype.language": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "07b3570cfbc25a4934e7956d41a4ddd45dc8f72073351678ecf76ee76c7f5807"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hoover.com",
+                "teddybaldassarre.com",
+                "www.shocksurplus.com",
+                "www.tuftandneedle.com"
+            ]
+        },
+        {
+            "rule": "joinclyde\\.com\\/static\\/css\\/pdp\\.4c4878e4\\.fbbc26ef\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "15fc178b44dbda92c2a32d634abdedb47cdafbb4a32ade6840d9372178909c32"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hoover.com",
+                "teddybaldassarre.com",
+                "www.shocksurplus.com",
+                "www.tuftandneedle.com"
+            ]
+        },
+        {
+            "rule": "joinclyde\\.com\\/scripts\\/shopify-storefront\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn",
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "9c2dcf98b115385130e757fe78ea8d36c574f7f2d6e111629cf1362ac001759c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oreck.com",
+                "rayconglobal.com",
+                "thecoldplunge.com",
+                "www.greenworkstools.com",
+                "www.shocksurplus.com"
+            ]
+        },
+        {
+            "rule": "joinclyde\\.com\\/scripts\\/bc-storefront\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "0ecee8ce71485f42b00782102c5f5b0d7cf1940ab80bf4fa8c32e459d153a7dd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "winegard.com",
+                "www.moon-audio.com",
+                "www.rcsuperstore.com",
+                "www.skullcandy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6756756756756757
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.1891891891891892
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.05405405405405406
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.05405405405405406
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.02702702702702703
+        }
+    ],
+    "types": {
+        "Script": 25,
+        "XHR": 4,
+        "Preflight": 4,
+        "Document": 10,
+        "Stylesheet": 10
+    },
+    "nameservers": [
+        "ns-279.awsdns-34.com",
+        "ns-1471.awsdns-55.org",
+        "ns-1548.awsdns-01.co.uk",
+        "ns-861.awsdns-43.net"
+    ]
+}

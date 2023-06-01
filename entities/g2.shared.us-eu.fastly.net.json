@@ -1,0 +1,97 @@
+{
+    "domain": "g2.shared.us-eu.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "secure.donorschoose.org",
+            "resolved": "g2.shared.us-eu.fastly.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "g2\\.shared\\.us-eu\\.fastly\\.net\\/common\\/keepalive\\.html",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "secure.donorschoose.org",
+                    "resolved": "g2.shared.us-eu.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e31b73de4124b7f9290f93bb5cb091c67914d560c6de43dd42ad42e85c342d2e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donorschoose.org",
+                "www.donorschoose.org"
+            ]
+        },
+        {
+            "rule": "g2\\.shared\\.us-eu\\.fastly\\.net\\/localstorage\\/server\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "secure.donorschoose.org",
+                    "resolved": "g2.shared.us-eu.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "445e64eb948a3f6aebed59d2e2b938c9f3aabcebc5a156826145bfcfeb407615"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donorschoose.org",
+                "www.donorschoose.org"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "donorschoose.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,1435 @@
+{
+    "domain": "serving-sys.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0157,
+    "sites": 156,
+    "subdomains": [
+        "bs",
+        "secure-ds",
+        "lm"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "serving-sys\\.com\\/Serving\\/adServer\\.bs",
+            "cookies": 0.000703,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "cc74ddc65f11441c18cfe0f9b79fd7742441152f56fc649ab2f82728c616e534",
+                "15bfbeb6353e5bf3fa33fcc838c447b8a64fc9547f38c048f6dc9d6c5b888010",
+                "f0b79a1421f8d827e8a882c7321ad3e13bcdae358492c8bc38448c75b2e1fb9b",
+                "f5c3d2be30dd2d8616ddb6e4aaa7faf894cae037c10165ef4afb7cff4d3f35b6",
+                "3cf8f4984968cebc9a2701a72171fdd8e5b9c0d47b9137ff91a7fddfc80160bb",
+                "4ff8dd828ca67825ab79a94d417c8caa55de321d9228081fec087f99154f05e3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "cararac.com",
+                "tonedeaf.thebrag.com",
+                "www.broadsheet.com.au",
+                "www.glamour.com",
+                "www.ukulele-tabs.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_234_3_0\\/ebHtml5PoliteBanner\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "window.outerHeight": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cd994f3cd4ef6e22b0c325665c414d70d3528458347a10f3cf73002b522942ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/Modules_1_101_0_0\\/TCFDetector\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "838ac4abe6e6420734aad1d2edbd7994626a7819b511336aa586b90a083a3a7b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "tonedeaf.thebrag.com",
+                "www.broadsheet.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/Modules_1_101_0_0\\/URLUtil\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "269bd69d6c1d25e848132ecfb48ec214040e49fd45e444760c3e226ca5fd7962"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "cararac.com",
+                "tonedeaf.thebrag.com",
+                "www.broadsheet.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/Modules_1_101_0_0\\/LiveRamp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "4b3c520d9b781fa7d6b4c79228f3a42670be75ba2db7fe78f0c6c2ad7afbeeba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "cararac.com",
+                "tonedeaf.thebrag.com",
+                "www.broadsheet.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/lm\\/evt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lm"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "cararac.com",
+                "tonedeaf.thebrag.com",
+                "www.broadsheet.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/Serving",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "2e7778c6ed3c31a131da378d6e573a1b3b6723037cdeea4c4832da83e60c9399"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "cararac.com",
+                "tonedeaf.thebrag.com",
+                "www.broadsheet.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/Modules_1_101_0_0\\/SafeFrameVisibilityProvider\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "cd2a92268240bf123a90f34d5d040c32d3b292a8ebf29186c8839449a45e8652"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "www.broadsheet.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingScript\\/adKit\\/adkit\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c882cfe8a299ca410b302d9bf7a46332fce12fe63fd373dd7212d4e5f3989438"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "cararac.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/adkit\\/1_0_41_5\\/adkit\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a047140cc174d554a323b1b787199a21c2c976e9991fa0428ac9a94a641190ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "cararac.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/lm\\/int",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lm"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "cararac.com",
+                "tonedeaf.thebrag.com",
+                "www.broadsheet.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/Serving\\/adServer\\.bs",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "cararac.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/adkit\\/1_0_41_5\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0089aa050b89192e6bb4f33c9ca831d4215f30a24cff294ed17a1a187131e267"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingScript\\/EBLoader\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.indexedDB": 3,
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7ae0b8e3f80fd2c97dea35c4a3643b17368ea41e6e63f083065bfb2a38caf37c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "cararac.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/adkit\\/1_0_41_5\\/core\\/client\\/ebLoader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "75f73129bc477032125b5235e71e2e9e66bf87fb2eda4aad151ba9798e13627c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "cararac.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/HTML5Res_2_163_1_0\\/EB\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "03aea036d7101b727344ac9853097ca385fec3cb43dcd3d9763365a69df06e41"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com",
+                "cararac.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/html5\\/1073747186\\/20230417\\/1077029815\\/78697898308559040\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ba4c47b219ea60feae02f1f2f02b7aaa3ce3b47be87112b75b4c258206d7b1c0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/html5\\/1073747186\\/20230417\\/1077029815\\/78697898308559040\\/2999ccf99ec969ec8c3ab719ecc052c7\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.appName": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "28566b308834a02207b8fa3501b2b76a1bf585adf14fda0dae357c2a0e6d1334"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/html5\\/1073747186\\/20230417\\/1077029815\\/78697898308559040\\/media\\/d1132789f1daabb01355962b596a69f7\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0243b1b831268ae40fdc6837bb64a9f406c84a627ce72a1953c29bdc0f6f4da5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/html5\\/1073747186\\/20230417\\/1077029815\\/78697898308559040\\/media\\/86afce20be5a26a8222b54465983beaa\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f062659dc25b444d3a68131d1444613a28bd65b718f65f3af5c4677a8852c84"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/html5\\/1073747186\\/20230417\\/1077029815\\/78697898308559040\\/media\\/5873649876814feb70c8e8e8d991486d\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "688c11329879873e5fe4066e82f6a59c316cb2e75995fcc4067cc111c69167be"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/html5\\/1073747186\\/20230417\\/1077029815\\/78697898308559040\\/media\\/ce4098c3524197c008cbedbe93bda479\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a0e9f816c5de690e232f5a7a8aba4fdf4dd8f5be8c9a08e986e2fcb6f8089e58"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/html5\\/1073747186\\/20230417\\/1077029815\\/78697898308559040\\/media\\/856c7825b8b738958e952a876d61ed86\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "833b981c31dec676c872d357640088b6e62bd7cd8f44c4efa09d6de1529c898f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/html5\\/1073747186\\/20230417\\/1077029815\\/78697898308559040\\/media\\/dbef1464ac608c0d2bb9977b111c8e87\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6856e63648cba1a2b001722685a91c05c33e6a056ec8ee34a048902fadc350c2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/html5\\/1073747186\\/20230417\\/1077029815\\/78697898308559040\\/media\\/ba46b8fb155b322b8c74faa110d7f280\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "50b3ea2765339c5ea5df07077639d6453ace06f5934c6bb794f4761b64e27619"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/html5\\/1073747186\\/20230417\\/1077029815\\/78697898308559040\\/media\\/b73790ef710a4c536a216cb9f548ba06\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/html5\\/1073747186\\/20230417\\/1077029815\\/78697898308559040\\/media\\/6c11604e9de321259037a6b501f5a16c\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "89066032a678048577220745776b2e6a84cb2caec9198d761d1a6d7c1acec275"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "au.finance.yahoo.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/SemiCachedScripts\\/ebOneTag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 101,
+                "window.localStorage": 101,
+                "Navigator.prototype.userAgent": 101
+            },
+            "sites": 103,
+            "prevalence": 0.0103,
+            "cnames": [],
+            "responseHashes": [
+                "c95549b88f1d5b697c6961013a59ccf88c4a478088a841c26b5d451ac255e36d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.foodnetwork.com",
+                "www.unisq.edu.au",
+                "www.hamiltonisland.com.au",
+                "canberracentre.qicre.com",
+                "www.stihl.com.au",
+                "www.simplyenergy.com.au",
+                "www.travelmoneyoz.com",
+                "www.mitsubishi-motors.com.au",
+                "www.tripadeal.com.au",
+                "mcec.com.au",
+                "bond.edu.au",
+                "www.aegpowertools.com.au",
+                "www.adelaide.edu.au",
+                "www.aa.com",
+                "www.lubemobile.com.au",
+                "www.anytimefitness.com.au",
+                "www.wilsonparking.com.au",
+                "www.hertz.com",
+                "flannerys.com.au",
+                "www.themercury.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/Serving",
+            "cookies": 0.00713,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 94,
+            "prevalence": 0.00944,
+            "cnames": [],
+            "responseHashes": [
+                "40b5a5b20175216a0b786b478f71ccefb5c3d78af52905c6d24878c21b27789b",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "bfff9f3da8fa6fb109df3c7e8f84907c88c973bad1c16d2daacc2b1ce4663309",
+                "ee4032132a4c73344af0c278fc337edd202e821373374f57d430e2f3aa31b88a",
+                "bec6c5d636ce72434a2b8d01997389541877d6fc3d547aabb2f914cd5ace028b",
+                "1ebf93876eb86d2a4bad5b3843bc09634c78c9b849354119bda5cccd918b88cb",
+                "b3f44f1d001740f555a707f8cb47bb6eb34760121bd7bdc6df5e1a42aa966540",
+                "7177d5d872eb9e904731f007db7e5f3ea0e425570ad4b62e467d93512bc3e371",
+                "9eec4a2ce1fb0eb895fcca25dce2ed6a853f6fcaa00450b4c4963cbd11867df0",
+                "da67ea0f8326e2924e3fda1234d836ac6fefc226f1638c25f3904254c45570df",
+                "a8b29c371747822489068c7d96440fdf2bb631ba485f1d00a747f3d37695ce63",
+                "8d1acf3e1bbf2fb35fffdd79ce99d15633562822af38599e6b095880344da3a2",
+                "bd0f8bf35ba9b44c6dfb42c7f749ca8d2d244ca99d13250146ad484c46650d45",
+                "8126c2cca773f71e7dd8b63859d6ac40909e6afdcb1e8c3c4bf30516358bd632",
+                "e84779bc02016bbe3a52cd87a05c7c3d34506646d9c667a219017dcc0f7008f1",
+                "86f7c61d8763266608c62b4a9bc9f88f73f95496e25640511686b3e4a28d3219",
+                "803977f128193bcb1ec480174f430147028ad943b2fa8b11c12866909c94a9de",
+                "24e1f1e9ec629246764a4501a34fe8130b47ddffa11f3252e7d6aff127bdd204",
+                "7b1eed1f709f63eca36c8b22a124a16713c6e2c064cb0e3e7060d9da0483b7cf",
+                "b00d32d866bad3cb938ae3fdc36dcc1f1e5238c4f7c3bc41bacec3434c1375e2",
+                "2ff5d6ba35887503c2c21853e71e646287f88534a0828fe3d906232f7346abb6",
+                "429041840245e24cc50a7a19e121768c1f6ea8983d9763e6dc5123e16323139f",
+                "4319430a97e1bebd9d697edd25ba3bc5087694c0fbfd50435c4a2bd15dfb7a03",
+                "e56e0a7dbb58924a01d98e81dc0ce0aa90d9515346d52573071b89299e77204d",
+                "6697783e94c031199e19ca266172083cb732d822b2387ee033c74aaa0485f36a",
+                "c46b98491a806147bbbf9d538253caafb9e5806b8dbb2ec2ae03529329150e96",
+                "a04e08e1fcd3c2faf886eb2a8f197f5e5aa939e54f518c1374607738173412d6",
+                "e3383eeb562ab69b61e7f464ebfe3f03d45f52ee1683ff811b2e03b1ea318b7e",
+                "fbdd833a2d2bb24f973560ee2abf8b5fb7a4ee7050371c8c8720de185a0e53f8",
+                "21bf71a4d8f0577ca50d1758eb08d3dec95d640f034dbdd8d04e232411a10f51",
+                "46d3185ddcb8e26da32e4c2bb532d35000178f7c15b6944bc0945119963b7f50",
+                "82a9928bc885a1d3d83c8abc6668efb846124a7a684bc02fc0deef773f47d129",
+                "ddeab12faadd61b3ef4ffedacece83d611e124ce99f8453c72a3c7243e2cb3d2",
+                "0bb4e19db119e2803f716ebd70414ffc8d2e7ff89d6f7586b61a0c3fed0e813f",
+                "37dcec3706ab77c3c35cb82f3c675c49516ee4350598494d458d8727cb677f25",
+                "f41971f1474906adb2feea2315b997d430794bcfa05e76e487a95b4a05cd98a0",
+                "2439cb185b2d8ebbbf2f481e0599a61ead497733e69b1dedeb9b3daa64cc00fc",
+                "f18bbee1f8c135b27f92083bf27651f998c3f0a9881bbcc06ccf7b5c33172ef0",
+                "e5b742fd6a33f34b25db3993ce9c4af11fe56951b4a393024894fbb1f45c619b",
+                "8eaba1c412e6740c05fdb32a30d4f46631f53318e2168c45bb3d87c4ae128ed1",
+                "5eb9ba92802351a5ce04911cb5f335bad9a347bb58240184c0456d4cd18f4949",
+                "0be5671e207869f372c6bf39a0974350b09c17c75e46e64a6c306ddc4c3e7894",
+                "eee920c4187bfd10d9c498ac62139f014010c0877e06b7cb17f173c2e0d79b02",
+                "db2e2b248dd10a42ac2f6f63a458453632d44dbf02f0cb2d0c35c075617fcd89",
+                "c507be9e70a12fc04835c57501af6a07b7f0b5b46dd2e84ac31f0fb2e8bf395f",
+                "fb8f66fa9a843228f3b6cdc602b072d4913779127dd5c23fda71288a0247844a",
+                "3377fb96270bb39c3e1473a8cfa97acf713070a90013bc951df281f876074428",
+                "9d723bc37c7af5efccfdfe9f48eadf121ae3406b7758652f3aa16b45f5f20009",
+                "a4842edfea50d91932d48a7db2fba866082e6e828ea841adf7f47d71f46023c1",
+                "9bd5df584a4c2c5f0cdb1c35e30779ce581d8775529e0ee39c90297df09b5e3d",
+                "48307881f786f3f4e4b93dc479d1b23ed8dfcb7fc0f47b1904ea9de109f3f4ca",
+                "f626ee7194485ae2a308face7d80ce0752623cc7561c97f65bc7529118e0c4aa",
+                "df4a0853f02527d97e65639121f1cd2a82156d6e42ade3cb61b8d3264976b49d",
+                "ef788724f58df8e0737dfa1109e2ab590a3ca2f9db075c695667544af9105cf1",
+                "c177cec6f7399cd4080a85d04756b0404b0a0854d9ece934665061fd74a9b889",
+                "e497540a322c7858256ad791f29a35cdb51c7d2587f2ccfd1b8e509026e2d847",
+                "d7d21d2df699e6bbccf6b8d0c09b3812c1ee734e2fa1d207c7835d3ca3ad3e0f",
+                "f445e180fa57337bd6957a195df4ba7f2d2ab04c794679065c26f1301a87eaef",
+                "e0696b09d61396d17902609447c4dd8c74427243fadd3852a2b935b36c63bd0a",
+                "e8a31162958e7225bd8ecf83d707a4a6f917f564a2571c167b497fa7fcdead22",
+                "608e573396314bb8fb4c811016901ac3a2f2786c1c2f156f30a9d57c57a26d07",
+                "6d96773b47b412d217ee52e966e2f3ba1e8504375651c5e97bcf8d567f8f6918",
+                "03f01887ee0d3fc604b0aadf5a4a0829fe4d69897addd52d9714fa79af347827",
+                "a9f0398bb7a8407753329a7e2d17948011813a27348fd626d8ca9c74a99a4810",
+                "b620894b3baa2a0b3f2f6b9b3121262b79aab641379f52415e5724d13fdbcc99",
+                "04b394b726adf2e83e4af03a902f2cc70db203b449628d5fc92acd45683c33b7",
+                "d5ef7c7c6aa1e20a29e5b34c8baae4fa185c6ba9847c9a6d65e60da225a290c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_hjTLDTest": 0.00040160642570281126,
+                "lotame_domain_check": 0.00020080321285140563,
+                "_li_dcdm_c": 0.00020080321285140563,
+                "IR_gbd": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "www.foodnetwork.com",
+                "www.yourtown.com.au",
+                "www.english-heritage.org.uk",
+                "www.eldersrealestate.com.au",
+                "www.centurybatteries.com.au",
+                "www.tripadeal.com.au",
+                "www.townsvillebulletin.com.au",
+                "www.wilsonparking.com.au",
+                "www.arlo.com",
+                "www.bridgestone.com.au",
+                "www.budgettrucks.com.au",
+                "www.dnb.com",
+                "www.qbcc.qld.gov.au",
+                "www.discountdrugstores.com.au",
+                "www.codesports.com.au",
+                "www.surfstitch.com",
+                "pir.sa.gov.au",
+                "qicre.com",
+                "www.unisq.edu.au",
+                "www.ebgames.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_234_3_0\\/ebHtml5Banner\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Screen.prototype.width": 1,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "window.outerHeight": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7dd6d65899ac0ff6050221cd39ab804bc4862a6b70428fb93f2916b66c995a93"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cararac.com",
+                "www.broadsheet.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/Serving",
+            "cookies": 0.00291,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 36,
+            "prevalence": 0.00361,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "draxe.com",
+                "www.healthline.com",
+                "www.zillow.com",
+                "www.mlb.com",
+                "www.lumoenergy.com.au",
+                "squareup.com",
+                "www.juniper.net",
+                "www.hellotech.com",
+                "www.ufc.com",
+                "www.fiverr.com",
+                "www.apeel.com",
+                "www.finewoodworking.com",
+                "www.elgato.com",
+                "www.tripadeal.com.au",
+                "www.hcf.com.au",
+                "www.mthotham.com.au",
+                "perfectketo.com",
+                "www.cruisecritic.com.au",
+                "www.interflora.com.au",
+                "www.vodafone.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/lm\\/acs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lm"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.00281,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "draxe.com",
+                "www.zillow.com",
+                "www.cruisecritic.com.au",
+                "www.ancestry.com",
+                "www.elgato.com",
+                "www.apeel.com",
+                "perfectketo.com",
+                "www.squarespace.com",
+                "www.hellotech.com",
+                "www.mlb.com",
+                "www.aura.com",
+                "www.hollandamerica.com",
+                "www.sony.com.au",
+                "www.perisher.com.au",
+                "www.canon.com.au",
+                "store.sony.com.au",
+                "www.cruisecritic.com",
+                "www.finewoodworking.com",
+                "www.splunk.com",
+                "www.lumoenergy.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/serving",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "aam_uuid": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "samsung.com",
+                "www.commbiz.commbank.com.au",
+                "www.commbank.com.au",
+                "www.ford.com.au",
+                "www.hawaiianairlines.com.au",
+                "www.thermofisher.com",
+                "www.ups.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/OneTagDefaultConfig\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.00281,
+            "cnames": [],
+            "responseHashes": [
+                "9a0f6d26b776c4a0c7c1bdb059e4d204e3312ee5eda177cf55a43fcf033e3308"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.foodnetwork.com",
+                "www.stockland.com.au",
+                "rac.com.au",
+                "www.aegpowertools.com.au",
+                "www.anytimefitness.com.au",
+                "www.osprey.com",
+                "www.shiels.com.au",
+                "www.thermofisher.com",
+                "www.avant.org.au",
+                "www.scenic.com.au",
+                "www.westernpower.com.au",
+                "www.wilsonparking.com.au",
+                "www.surfstitch.com",
+                "www.pocruises.com.au",
+                "www.arlo.com",
+                "hisense.com.au",
+                "www.atptour.com",
+                "www.mtbuller.com.au",
+                "www.police.vic.gov.au",
+                "www.stihl.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/lm\\/tme",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lm"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.00261,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.foodnetwork.com",
+                "www.pickles.com.au",
+                "hisense.com.au",
+                "stjohnwa.com.au",
+                "www.aa.com",
+                "www.westernpower.com.au",
+                "www.harrisscarfe.com.au",
+                "www.mtbuller.com.au",
+                "www.arlo.com",
+                "www.budgettrucks.com.au",
+                "www.stihl.com.au",
+                "www.centurybatteries.com.au",
+                "www.aegpowertools.com.au",
+                "rac.com.au",
+                "www.hgtv.com",
+                "www.english-heritage.org.uk",
+                "www.surfstitch.com",
+                "www.ryobi.com.au",
+                "www.geelongadvertiser.com.au",
+                "www.avant.org.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/SemiCachedScripts\\/ebAttribution\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "d7ca90f5224456c5b0b3377d1dd87a5a96ee9f07b6b9ca0b86e4e757b3a0f50b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "headspace.org.au",
+                "osko.com.au",
+                "www.anytimefitness.com.au",
+                "www.atptour.com",
+                "www.cartier.com.au",
+                "www.english-heritage.org.uk",
+                "www.officeworks.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/Serving\\/ActivityServer\\.bs",
+            "cookies": 0.000602,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "dc157ad60af5266ab1f81681d32f4bfe268913e89ff69b66bd3d91cf3ec2f5c0",
+                "bb498491b4cee1842b75622f408d8b15c573a8a786871ebf9eb60dc91f5d0597",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "3bfec1e374ba08f7e1db37b6a7cd2e510bfdda70ecdedc63ae865387e4a0abb9",
+                "06c86edab84d0d7715a4fa4274447587ba6cb4685e034eeeab853bfe5cc26a2a",
+                "67b2965262b84827e8bac6f5a98ef1e08b65b3f7d3afebccd4e34ea27dd16cf8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cybSessionID": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "osko.com.au",
+                "www.anytimefitness.com.au",
+                "www.atptour.com",
+                "www.caresuper.com.au",
+                "www.cartier.com.au",
+                "www.colgate.com",
+                "www.english-heritage.org.uk",
+                "www.officeworks.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/adServingData\\/PROD\\/TMClient\\/0\\/6630",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "64bef2d8024ff0095b597adc6b85c3ea22a68bc266e7bd22d49d90e7abdefa82"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heraldsun.com.au",
+                "www.adelaidenow.com.au",
+                "www.cairnspost.com.au",
+                "www.couriermail.com.au",
+                "www.dailytelegraph.com.au",
+                "www.geelongadvertiser.com.au",
+                "www.goldcoastbulletin.com.au",
+                "www.heraldsun.com.au",
+                "www.ntnews.com.au",
+                "www.theaustralian.com.au",
+                "www.townsvillebulletin.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_234_3_0\\/ebStdBanner\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "window.outerHeight": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "029f75e152bea067bdc45e34a4ff406d9ad200c9d4dcfcefc442bc84b24254df"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thebrag.com",
+                "tonedeaf.thebrag.com",
+                "www.glamour.com",
+                "www.ukulele-tabs.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/asset\\/1073743736\\/IMAGE\\/20230316\\/AUEN_REST_STATIC_970x250_BAN_APODP_2ANC_NA_LEM_NA_NA_DISPBST_77971855288351539\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d91006362f96e7c4f85a21039da6e1972fa586aa51a389ed9811dd8ed2809526"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thebrag.com",
+                "tonedeaf.thebrag.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/asset\\/1073743736\\/IMAGE\\/20230316\\/AUEN_REST_STATIC_300x250_BAN_APODP_2ANC_NA_LEM_NA_NA_DISPBST_77971853140868388\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7418c9ef151bc9b42d20342960951878590d388205979ccfa74eeb71b604d5e2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thebrag.com",
+                "tonedeaf.thebrag.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/resources\\/PROD\\/asset\\/1073743736\\/IMAGE\\/20230316\\/AUEN_REST_STATIC_300x600_BAN_APODP_2ANC_NA_LEM_NA_NA_DISPBST_77971853409303345\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1aacb42ef6bcf50bb46fd51ecd0172207c035abf627d12ee3c0225099ccfa723"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thebrag.com",
+                "tonedeaf.thebrag.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/adServingData\\/PROD\\/TMClient\\/2\\/1073746292",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d897f51e7b05d409548e802a07131fadeeabf65c61ca6665c2b9bf8d53221602"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beyondbank.com.au",
+                "www.beyondbank.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/adServingData\\/PROD\\/TMClient\\/0\\/3290",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a1f8a088b4c92be93e576c06d67e0470522d998bbcaff5c5c233176167e4ea18"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertz.com.au",
+                "www.hertz.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/adServingData\\/PROD\\/TMClient\\/9\\/3699",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9ae360af2a9a3ed5af3c9a9333ea7ea46bb7b9a4a76738e8d2eb8781c721e1c4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journeybeyondrail.com.au",
+                "www.journeybeyondrail.com.au"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/Serving\\/ActivityServer\\.bs",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "news.com.au",
+                "www.realtor.com"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/adServingData\\/PROD\\/TMClient\\/2\\/6512",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9a0f6d26b776c4a0c7c1bdb059e4d204e3312ee5eda177cf55a43fcf033e3308"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wilsonparking.com.au",
+                "www.wilsonparking.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.011,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.20923913043478262
+        },
+        {
+            "domain": "amazon-adsystem.com",
+            "prevalence": 0.19293478260869565
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16304347826086957
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.14673913043478262
+        },
+        {
+            "domain": "yimg.com",
+            "prevalence": 0.07880434782608696
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.057065217391304345
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.04891304347826087
+        },
+        {
+            "domain": "demdex.net",
+            "prevalence": 0.019021739130434784
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.010869565217391304
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.010869565217391304
+        }
+    ],
+    "types": {
+        "Script": 260,
+        "XHR": 70,
+        "Image": 95,
+        "Media": 2,
+        "Ping": 26
+    },
+    "nameservers": [
+        "ns-131.awsdns-16.com",
+        "ns-1502.awsdns-59.org",
+        "ns-1867.awsdns-41.co.uk",
+        "ns-787.awsdns-34.net"
+    ]
+}

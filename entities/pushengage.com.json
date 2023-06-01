@@ -1,0 +1,131 @@
+{
+    "domain": "pushengage.com",
+    "owner": {
+        "name": "Ravi Trivedi",
+        "displayName": "Ravi Trivedi"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00161,
+    "sites": 16,
+    "subdomains": [
+        "games-washingtonpost-com",
+        "theconstructor",
+        "arkadium",
+        "clientcdn",
+        "crikey",
+        "smartcompany",
+        "themandarin"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pushengage\\.com\\/service-worker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "games-washingtonpost-com",
+                "theconstructor",
+                "arkadium"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "308b6b86d2dc1df4543276a5ad41b761527da6698c83551244373cf6ebc760c7",
+                "c37a65577ec76a1475fc86383288bff83f5870174fa71a6287905e67af57d20d"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "washingtonpost.com",
+                "theconstructor.org",
+                "www.arkadium.com"
+            ]
+        },
+        {
+            "rule": "pushengage\\.com\\/pushengage\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "clientcdn"
+            ],
+            "apis": {
+                "Notification.permission": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "2df1753719c77f2f94c4c1cc08ec9f0cffc14c6f58112c09b231d40fb9c473c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minimalistbaker.com",
+                "theconstructor.org",
+                "www.arkadium.com",
+                "www.marketdirect.com.au",
+                "www.wellplated.com"
+            ]
+        },
+        {
+            "rule": "pushengage\\.com\\/dialog\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "crikey",
+                "smartcompany",
+                "themandarin"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "bed87ccdb41fe7089a16ff17d62243f74ceff43688d671782f8b593510b181f3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crikey.com.au",
+                "www.smartcompany.com.au",
+                "www.themandarin.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Other": 3,
+        "Script": 5,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "ns-722.awsdns-26.net",
+        "ns-387.awsdns-48.com",
+        "ns-1125.awsdns-12.org",
+        "ns-1794.awsdns-32.co.uk"
+    ]
+}

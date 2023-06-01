@@ -1,0 +1,236 @@
+{
+    "domain": "im-apps.net",
+    "owner": {
+        "name": "Intimate Merger, Inc.",
+        "displayName": "Intimate Merger"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00582,
+    "sites": 58,
+    "subdomains": [
+        "sync-jp",
+        "sync",
+        "dmp",
+        "audiencedata"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "im-apps\\.net\\/imid\\/set",
+            "cookies": 0.000803,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-jp",
+                "sync"
+            ],
+            "apis": {},
+            "sites": 54,
+            "prevalence": 0.00542,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44",
+                "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__uuiduz": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "globalnews.ca",
+                "hollywoodlife.com",
+                "nypost.com",
+                "people.com",
+                "www.cnn.com",
+                "www.foxnews.com",
+                "www.msn.com",
+                "investing.com",
+                "www.crazydaysandnights.net",
+                "beachgrit.com",
+                "www.polygon.com",
+                "ejje.weblio.jp",
+                "www.vox.com",
+                "www.mmafighting.com",
+                "checkyourfact.com",
+                "www.ana.co.jp",
+                "www.6pr.com.au",
+                "honey.nine.com.au",
+                "forums.sherdog.com",
+                "coach.nine.com.au"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/scripts\\/im-uid-hook\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1b6c8f5fce9bf4ab6ba5e8c24fcc8205515bad3b2da9f86f9360eb9adacf7741",
+                "21bd977042a76480805895c3bc4371d79fe7da93c8cf7af08687e0b58f4e39ad",
+                "69fa4215009a4325ef2d8ed36a318853ec8597bfa8fc52197de529582b85a965"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp",
+                "en.whotwi.com",
+                "picrew.me",
+                "readcomiconline.li"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/sdk\\/im-uid\\.js",
+            "cookies": 0.000703,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie setter": 7,
+                "window.localStorage": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "0fe40c5652ce04b1e56ca22a7ab824498d35aaff5e4fa1d06771260a46339c6d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_im_vid": {
+                    "ttl": 2592024,
+                    "length": 26,
+                    "prevalence": 0.0007028112449799197,
+                    "uniqueness": 0.8571428571428571
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp",
+                "en.whotwi.com",
+                "eikaiwa.dmm.com",
+                "picrew.me",
+                "readcomiconline.li",
+                "www.ana.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/imuid\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "audiencedata"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "bb54369234516c2f2469a9989fce0f73145879defec57a2b276b5b1e0bf92336"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.0006024096385542169
+            },
+            "exampleSites": [
+                "weblio.jp",
+                "en.whotwi.com",
+                "eikaiwa.dmm.com",
+                "picrew.me",
+                "readcomiconline.li",
+                "www.ana.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/imid\\/redirect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amazon.co.jp",
+                "www.cnn.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0012,
+    "topInitiators": [
+        {
+            "domain": "outbrain.com",
+            "prevalence": 0.6075949367088608
+        },
+        {
+            "domain": "ladsp.com",
+            "prevalence": 0.06329113924050633
+        },
+        {
+            "domain": "akamaized.net",
+            "prevalence": 0.05063291139240506
+        },
+        {
+            "domain": "gsspcln.jp",
+            "prevalence": 0.0379746835443038
+        },
+        {
+            "domain": "gmossp-sp.jp",
+            "prevalence": 0.02531645569620253
+        },
+        {
+            "domain": "microad.jp",
+            "prevalence": 0.02531645569620253
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.02531645569620253
+        },
+        {
+            "domain": "fout.jp",
+            "prevalence": 0.02531645569620253
+        },
+        {
+            "domain": "logly.co.jp",
+            "prevalence": 0.02531645569620253
+        },
+        {
+            "domain": "i-mobile.co.jp",
+            "prevalence": 0.02531645569620253
+        }
+    ],
+    "types": {
+        "Image": 56,
+        "Script": 12,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-764.awsdns-31.net",
+        "ns-413.awsdns-51.com",
+        "ns-1624.awsdns-11.co.uk",
+        "ns-1291.awsdns-33.org"
+    ]
+}

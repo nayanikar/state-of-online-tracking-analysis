@@ -1,0 +1,96 @@
+{
+    "domain": "fontplus.jp",
+    "owner": {
+        "name": "SoftBank Group Corp.",
+        "displayName": "SoftBank"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "webfont"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fontplus\\.jp\\/accessor\\/script\\/fontplus\\.js",
+            "cookies": 0.0000408,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webfont"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTime": 4,
+                "document.fonts.check": 4
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "c9d7ad03824d334b98ccd32c3b1bf9f117fc3791cfde349aefcfb9af8a535074",
+                "86f2cacfc24ca001714b973a1adc028f44a4aaa77a73af48be09a9560e51defb",
+                "40fc5464e637666c6c63a0cd64bf745cd47c2a6661b4ef0a3144bd1a03e108d0",
+                "460244974bb860de2d5fc3d1732ac715e6ff2db34daba64d40848ce117f90700",
+                "6e6c6b0e51981e140fbcb444a2956c984d7c43af11658c23771f2e36c9dcebba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go2senkyo.com",
+                "peraichi.com",
+                "www.konami.com",
+                "www.ntv.co.jp",
+                "www.otsuka.co.jp",
+                "www.tyojyu.or.jp"
+            ]
+        },
+        {
+            "rule": "fontplus\\.jp\\/accessor\\/reql",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webfont"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go2senkyo.com",
+                "www.konami.com",
+                "www.ntv.co.jp",
+                "www.otsuka.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000545,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 4
+    },
+    "nameservers": [
+        "ns-910.awsdns-49.net",
+        "ns-1706.awsdns-21.co.uk",
+        "ns-311.awsdns-38.com",
+        "ns-1064.awsdns-05.org"
+    ]
+}

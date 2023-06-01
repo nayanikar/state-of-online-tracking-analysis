@@ -1,0 +1,112 @@
+{
+    "domain": "solteq.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "dvap.deepvision.cloud",
+        "atea.deepvision.cloud",
+        "sj.deepvision.cloud",
+        "dvendxl1.deepvision.cloud"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "solteq\\.com\\/TealeafTarget\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dvap.deepvision.cloud",
+                "atea.deepvision.cloud",
+                "sj.deepvision.cloud"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apotek1.no",
+                "www.atea.no",
+                "www.sj.se"
+            ]
+        },
+        {
+            "rule": "solteq\\.com\\/TealeafTarget\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dvap.deepvision.cloud",
+                "atea.deepvision.cloud",
+                "sj.deepvision.cloud"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "48d68080874a45d49ee832103cef755341876efbfbc2d87bcd603595285acf93",
+                "626853e79e7f8710c196acfefc42c26f785ffc72ae1d232c1e0f8a632222f93f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apotek1.no",
+                "www.atea.no",
+                "www.sj.se"
+            ]
+        },
+        {
+            "rule": "solteq\\.com\\/DiscoverUIPost\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dvendxl1.deepvision.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e93d6ca3c18445938ef1a0a21a6b6d1ce7e64ea03ba9df5ac7a7724242ce1f64"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xl-byg.dk",
+                "www.xl-byg.dk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "solteq.solutions",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Fetch": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-se.elisa.net",
+        "ns-fi.elisa.net"
+    ]
+}

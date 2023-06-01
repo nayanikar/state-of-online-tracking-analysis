@@ -1,0 +1,169 @@
+{
+    "domain": "dailymail.co.uk",
+    "owner": {
+        "name": "Associated Newspapers Limited",
+        "displayName": "Associated Newspapers"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "crta",
+        "ted",
+        "t",
+        "www",
+        "i"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "dailymail\\.co\\.uk\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "crta"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a00fb0c50741f81bb51d35b4475a4357f8039aabd896a21036bc516839401595"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inews.co.uk",
+                "www.dailymail.com"
+            ]
+        },
+        {
+            "rule": "dailymail\\.co\\.uk\\/s\\/3",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ted",
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2f6f79d9bdcda364a52944f70688c5b548b10edc137e0b925bee567a822252f1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailymail.com",
+                "www.dailymail.com"
+            ]
+        },
+        {
+            "rule": "dailymail\\.co\\.uk\\/ushome\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailymail.com",
+                "www.dailymail.com"
+            ]
+        },
+        {
+            "rule": "dailymail\\.co\\.uk\\/1s\\/2023\\/04\\/17\\/22\\/69931975-0-image-m-133_1681766579252\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e8c79fe149fd259c475b885c70d62fd7602b0c88cd13648a6a82eae33e7ae36e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailymail.com",
+                "www.dailymail.com"
+            ]
+        },
+        {
+            "rule": "dailymail\\.co\\.uk\\/s\\/3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ted",
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailymail.com",
+                "www.dailymail.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "dailymail.co.uk",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "anm.co.uk",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Ping": 4,
+        "XHR": 2,
+        "Image": 4
+    },
+    "nameservers": [
+        "a16-67.akam.net",
+        "a1-204.akam.net",
+        "a4-67.akam.net",
+        "a6-64.akam.net",
+        "a24-65.akam.net",
+        "a7-66.akam.net"
+    ]
+}

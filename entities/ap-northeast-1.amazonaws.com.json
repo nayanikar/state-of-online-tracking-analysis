@@ -1,0 +1,824 @@
+{
+    "domain": "ap-northeast-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00066,
+    "sites": 97,
+    "subdomains": [
+        "cognito-identity",
+        "firehose",
+        "kinesis",
+        "s3",
+        "8n3tgod6p4.execute-api",
+        "rzf7kltsg4.execute-api",
+        "conel-user-media-main.s3",
+        "oknvgsdsyl.execute-api",
+        "q6u5ke5hpf.execute-api",
+        "d-zsy128fsd3.execute-api",
+        "d-i1bs1i514j.execute-api",
+        "d-0qs02eb7ok.execute-api",
+        "d-tjr8m4qub0.execute-api",
+        "d-9vta3pved9.execute-api",
+        "p1tiwbpq53.execute-api"
+    ],
+    "cnames": [
+        {
+            "original": "ap.nextage.jp",
+            "resolved": "d-zsy128fsd3.execute-api.ap-northeast-1.amazonaws.com"
+        },
+        {
+            "original": "ask.nissen.co.jp",
+            "resolved": "d-tjr8m4qub0.execute-api.ap-northeast-1.amazonaws.com"
+        },
+        {
+            "original": "browsing.nissen.co.jp",
+            "resolved": "d-i1bs1i514j.execute-api.ap-northeast-1.amazonaws.com"
+        },
+        {
+            "original": "cate-hist.nissen.co.jp",
+            "resolved": "d-0qs02eb7ok.execute-api.ap-northeast-1.amazonaws.com"
+        },
+        {
+            "original": "notif.nissen.co.jp",
+            "resolved": "d-9vta3pved9.execute-api.ap-northeast-1.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity",
+                "firehose"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "84dad5475d0af6400694ccdb016b3278b8a535c89ec57aeea0707671b5d54802",
+                "c1ca8c51b02006c5df630d1cc3c31c8bd674d89c02053ac746d898eddcc04950",
+                "3edae9afbb771948460fca4fa6a7b9f8220123ef0020c79168c6f3d2269ed658",
+                "9bc7149945afa9136d2cb3a7ff65ef1f72a74466d311fd50330c3a0db157ec38",
+                "8837f97c6b918e04c293d5ada2327a9266413f2512a3d6636ee50e8c6dfb2916",
+                "dcb032449e209cc0a7e523d7ddf96b766c44dd996af5f0637fa658cc5d879a71"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arine.jp",
+                "coloria.jp",
+                "delishkitchen.tv",
+                "hataractive.jp",
+                "tokubai.co.jp",
+                "www.askdoctors.jp",
+                "www.autobacs.com"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity",
+                "firehose",
+                "kinesis"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000953,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arine.jp",
+                "coloria.jp",
+                "delishkitchen.tv",
+                "eplus.jp",
+                "hataractive.jp",
+                "spice.eplus.jp",
+                "tokubai.co.jp",
+                "www.askdoctors.jp",
+                "www.autobacs.com",
+                "www.benq.com",
+                "www.benq.eu",
+                "www.furusato-tax.jp",
+                "www.kurashiru.com",
+                "www.nissen.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/s3\\.cc\\.minkabu\\.jp\\/uploads\\/blog\\/3841\\/thumbnail\\/large-a13586af484c024f981b6cd28725d18b\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5c5c8fa4b1dd77abb4cea07884a8104c2138d20ef38f7d84533a32f840b8f73c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minkabu.jp",
+                "cc.minkabu.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/s3\\.cc\\.minkabu\\.jp\\/uploads\\/blog\\/3840\\/thumbnail\\/large-463f6c5d1504d333946e6015a1d7aa56\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "edf8090ec6210ce6c8e33d6c3e287261d6217fa40cef7c799bceec1498b69f52"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minkabu.jp",
+                "cc.minkabu.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/s3\\.cc\\.minkabu\\.jp\\/uploads\\/blog\\/3839\\/thumbnail\\/large-c0e17bcae94cd96858644752d8d9d089\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "edf8090ec6210ce6c8e33d6c3e287261d6217fa40cef7c799bceec1498b69f52"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minkabu.jp",
+                "cc.minkabu.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/beacon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "8n3tgod6p4.execute-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coloria.jp",
+                "pouchs.jp",
+                "www.nta.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinesis",
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "4a4ae3e3e46fd66ceac19053f1e90725884c1b87dd663f210fd8f8edfd394cf8",
+                "1861dd2327deac01cb5732dec6abc7e4136d1b6be4b606f58098922e265a31b5",
+                "3419306a4d3ae84e2d0af8b2f9121275ad6ac793a4814982cc28104e308f548f",
+                "412e7e4839b6e997ccdf5af678037ecfb9f722dd9179a009d6dc3af5d05c8f26",
+                "85f5fbc568129d719ca11ef9b4af42488f3380a233c950169f762e00f06ddbdb",
+                "e2c871030ceeb01f63d75b40d024c827f145a030ece4fe81222d359b24291267"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eplus.jp",
+                "spice.eplus.jp",
+                "www.benq.com",
+                "www.benq.eu",
+                "www.furusato-tax.jp",
+                "www.kurashiru.com",
+                "www.nissen.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/production\\/v1\\/seg-jsonp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rzf7kltsg4.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "244552e7789284f878ca78fa608089b803cf75ef816b028f33e4f5a888977725"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_td": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "cnet.com",
+                "japan.cnet.com"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/19b40e20-2c65-4b5c-824b-a1b772b0fa8a\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "conel-user-media-main.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b9b49efbd5f4cb269a82b1adb39c7be433a82bfde80502ecffa170524a690688"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lovely-media.jp",
+                "plush-fortune.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/default\\/hippo_dll",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "oknvgsdsyl.execute-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "city.nagoya.jp",
+                "www.city.nagoya.jp",
+                "www.moj.go.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/default\\/hippo_dll",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "oknvgsdsyl.execute-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "58555c5c1655f087f77afc852c6c4e51693ee3592ed05e36d3c10376e405ac1c",
+                "8534f1a691656f4efa03d2454e04d6de34d55ce307f3608d7a80ccb570579666"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "city.nagoya.jp",
+                "www.city.nagoya.jp",
+                "www.moj.go.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/prod\\/v1\\/users\\/clients\\/71da21a9-ead1-4cb6-b07c-b6981527f807",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "q6u5ke5hpf.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2d9ca2601718c8158d0e9db7e5fa401290adf26640c4040c1939f6056219fb10"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldwin.co.jp",
+                "www.goldwin.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/prod\\/v1\\/users\\/xpers_customer_behaviors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "q6u5ke5hpf.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldwin.co.jp",
+                "www.goldwin.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/user\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-zsy128fsd3.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "ap.nextage.jp",
+                    "resolved": "d-zsy128fsd3.execute-api.ap-northeast-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nextage.jp",
+                "www.nextage.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/select\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-i1bs1i514j.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "browsing.nissen.co.jp",
+                    "resolved": "d-i1bs1i514j.execute-api.ap-northeast-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "6869670f022abaf5b076f651d3a2efe880a05a3954b2eafa9cc70382a78aee18"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissen.co.jp",
+                "www.nissen.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/select\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-i1bs1i514j.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "browsing.nissen.co.jp",
+                    "resolved": "d-i1bs1i514j.execute-api.ap-northeast-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissen.co.jp",
+                "www.nissen.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/select",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-0qs02eb7ok.execute-api",
+                "d-tjr8m4qub0.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cate-hist.nissen.co.jp",
+                    "resolved": "d-0qs02eb7ok.execute-api.ap-northeast-1.amazonaws.com"
+                },
+                {
+                    "original": "ask.nissen.co.jp",
+                    "resolved": "d-tjr8m4qub0.execute-api.ap-northeast-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "9024e28455f94ba36777070107328f582bd93b6a6915cba94ff59de433034ba9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissen.co.jp",
+                "www.nissen.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/select",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-0qs02eb7ok.execute-api",
+                "d-tjr8m4qub0.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cate-hist.nissen.co.jp",
+                    "resolved": "d-0qs02eb7ok.execute-api.ap-northeast-1.amazonaws.com"
+                },
+                {
+                    "original": "ask.nissen.co.jp",
+                    "resolved": "d-tjr8m4qub0.execute-api.ap-northeast-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissen.co.jp",
+                "www.nissen.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/create\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-9vta3pved9.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "notif.nissen.co.jp",
+                    "resolved": "d-9vta3pved9.execute-api.ap-northeast-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "31d4cbb01f3ecbe71b574a6a9c6d09076776fc349e5e4cdc37013948dc1b3e5f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissen.co.jp",
+                "www.nissen.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/create\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-9vta3pved9.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "notif.nissen.co.jp",
+                    "resolved": "d-9vta3pved9.execute-api.ap-northeast-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissen.co.jp",
+                "www.nissen.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/count\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-9vta3pved9.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "notif.nissen.co.jp",
+                    "resolved": "d-9vta3pved9.execute-api.ap-northeast-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissen.co.jp",
+                "www.nissen.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/count\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-9vta3pved9.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "notif.nissen.co.jp",
+                    "resolved": "d-9vta3pved9.execute-api.ap-northeast-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "3e15f4d18c053f85c0b8ea6d35ed144ea83e3378022d8871fabb5ba6e95c6d18"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissen.co.jp",
+                "www.nissen.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/rankings\\/zak\\/h",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p1tiwbpq53.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ec8d3b105b20f544aa9522eefbf542c8585f0e4cee5fe4dc976e503ccf71c9d0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zakzak.co.jp",
+                "www.zakzak.co.jp"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/prd-zeiri4com\\/firmImage\\/2741\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ec6eda8ee9a0d64f84bd24635068f04d52be0dcba87f080675f474098162afc9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zeiri4.com",
+                "www.zeiri4.com"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/prd-zeiri4com\\/firmImage\\/4519\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f59eba2e31dac06a58f4d82694ec7558808e98aa0694316e4f7736585ed18e51"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zeiri4.com",
+                "www.zeiri4.com"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/prd-zeiri4com\\/firmImage\\/1357\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "258c7bc4882fbcdaea39a2e4317b6d3e83d72c77b1f55675167b1e05dd54d8e4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zeiri4.com",
+                "www.zeiri4.com"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/prd-zeiri4com\\/firmImage\\/6545\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "54bfacf39147c16958eece704d65527f0f514e3efa6a252efd788d0d1fefc60a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zeiri4.com",
+                "www.zeiri4.com"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/prd-zeiri4com\\/firmImage\\/6857\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "771dbb25608ee3a8105ecbcd5671f8265a3205527af1624d9245e871a176cc92"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zeiri4.com",
+                "www.zeiri4.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8124031007751938
+        },
+        {
+            "domain": "contentanalytics.jp",
+            "prevalence": 0.07131782945736434
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.020155038759689922
+        },
+        {
+            "domain": "rum.us-east-1.amazonaws.com",
+            "prevalence": 0.018604651162790697
+        },
+        {
+            "domain": "welltool.io",
+            "prevalence": 0.013953488372093023
+        },
+        {
+            "domain": "adtdp.com",
+            "prevalence": 0.012403100775193798
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.010852713178294573
+        },
+        {
+            "domain": "ravenjs.com",
+            "prevalence": 0.009302325581395349
+        },
+        {
+            "domain": "reviewbank.io",
+            "prevalence": 0.007751937984496124
+        },
+        {
+            "domain": "clipkit.co",
+            "prevalence": 0.006201550387596899
+        }
+    ],
+    "types": {
+        "Fetch": 12,
+        "Preflight": 25,
+        "Image": 18,
+        "XHR": 24,
+        "Script": 2
+    },
+    "nameservers": [
+        "u3.amazonaws.com",
+        "u2.amazonaws.com",
+        "u4.amazonaws.com",
+        "pdns1.ultradns.net",
+        "u5.amazonaws.com",
+        "pdns3.ultradns.org",
+        "u1.amazonaws.com",
+        "ns2.p31.dynect.net",
+        "pdns5.ultradns.info",
+        "ns3.p31.dynect.net",
+        "ns1.p31.dynect.net",
+        "u6.amazonaws.com",
+        "ns4.p31.dynect.net"
+    ]
+}

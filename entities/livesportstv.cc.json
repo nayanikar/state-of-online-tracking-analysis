@@ -1,0 +1,74 @@
+{
+    "domain": "livesportstv.cc",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "dapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "livesportstv\\.cc\\/api\\/config\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "db6c5a719afae66f008f60dcd406059c89754d5dc26df9a83de0fc5ff8246ebd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "score808.world",
+                "pt.score808.world"
+            ]
+        },
+        {
+            "rule": "livesportstv\\.cc\\/api\\/vc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "score808.world",
+                "pt.score808.world"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4
+    },
+    "nameservers": [
+        "delilah.ns.cloudflare.com",
+        "josh.ns.cloudflare.com"
+    ]
+}

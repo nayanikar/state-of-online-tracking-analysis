@@ -1,0 +1,126 @@
+{
+    "domain": "jaxforms.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "ktbe"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "jaxforms\\.com\\/xdomain\\/xdomain\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ktbe"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f5db4b4ff2f82e7232cd8ca70b0950de2f46af9e15c28a415f425ef48303838"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "be.ch",
+                "www.police.be.ch"
+            ]
+        },
+        {
+            "rule": "jaxforms\\.com\\/formservice\\/eforms",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ktbe"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a42b835f2f3da057434540afcf5adfaad5926051d97558feec5375346b6da2bc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "be.ch",
+                "www.police.be.ch"
+            ]
+        },
+        {
+            "rule": "jaxforms\\.com\\/formservice\\/eforms",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ktbe"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "da23e4e1d2f7ba563065f345445ec396d10cdd5182a43a68dcaacf219929d604"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "be.ch",
+                "www.police.be.ch"
+            ]
+        },
+        {
+            "rule": "jaxforms\\.com\\/formservice\\/eforms",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ktbe"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7a84518cd348260d5c820f0f11036915e85fcee63a5f2fffee0e79fdeaca8fc0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "be.ch",
+                "www.police.be.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns1.hoststar.hosting",
+        "ns2.hoststar.hosting"
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "domain": "cdn-spurit.com",
+    "owner": {
+        "name": "SpurIT UAB",
+        "displayName": "SpurIT"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cdn-spurit\\.com\\/all-apps\\/spurit\\.global-2\\.x\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4280400be31da0b2e55cbe60e3f287af2b30e202bd905f02c4e1660f70695d4b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toolswarehouse.com.au",
+                "www.metrohobbies.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "arch.ns.cloudflare.com",
+        "sky.ns.cloudflare.com"
+    ]
+}

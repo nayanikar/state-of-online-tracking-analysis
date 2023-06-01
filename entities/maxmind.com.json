@@ -1,0 +1,163 @@
+{
+    "domain": "maxmind.com",
+    "owner": {
+        "name": "MaxMind Inc.",
+        "displayName": "MaxMind",
+        "privacyPolicy": "https://www.maxmind.com/en/privacy-policy",
+        "url": "http://maxmind.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "js",
+        "device"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "maxmind\\.com\\/js\\/apis\\/geoip2\\/v2\\.1\\/geoip2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "94a96a4fc313fe6dfba290ed6bc0e802eaab40810e59032a06f6774553b1c6ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "databricks.com",
+                "docs.databricks.com",
+                "simcorner.com",
+                "www.databricks.com",
+                "www.directferries.com.au",
+                "www.fujifilm.com",
+                "www.honeybirdette.com",
+                "www.kookai.com.au",
+                "www.lovisa.com.au",
+                "www.ottostackleworld.com.au",
+                "www.westernaustralia.com"
+            ]
+        },
+        {
+            "rule": "maxmind\\.com\\/js\\/device\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 3,
+            "subdomains": [
+                "device"
+            ],
+            "apis": {
+                "window.indexedDB": 3,
+                "Navigator.prototype.getBattery": 3,
+                "HTMLCanvasElement.prototype.toDataURL": 3,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 3,
+                "MediaSource.isTypeSupported": 3,
+                "Date.prototype.getTime": 3,
+                "document.fonts.check": 3,
+                "Navigator.prototype.vendorSub": 3,
+                "Navigator.prototype.productSub": 3,
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Navigator.prototype.connection": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.webkitTemporaryStorage": 3,
+                "Navigator.prototype.webkitPersistentStorage": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.appCodeName": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.languages": 3,
+                "Navigator.prototype.onLine": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Navigator.prototype.keyboard": 3,
+                "Navigator.prototype.mediaDevices": 3,
+                "Navigator.prototype.storage": 3,
+                "Navigator.prototype.deviceMemory": 3,
+                "Navigator.prototype.mediaCapabilities": 3,
+                "Navigator.prototype.permissions": 3,
+                "Navigator.prototype.presentation": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availHeight": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "Screen.prototype.availLeft": 3,
+                "Screen.prototype.availTop": 3,
+                "Screen.prototype.orientation": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d920363af3e8f84e9c6e997df4f6adc2ccc318facf005123c33cb1435d2a8f26"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__mmapiwsid": {
+                    "ttl": 63158413,
+                    "length": 77,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anguscoote.com.au",
+                "www.goldmark.com.au",
+                "www.prouds.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Ad Fraud",
+        "Analytics",
+        "Audience Measurement"
+    ],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 14
+    },
+    "nameservers": [
+        "josh.ns.cloudflare.com",
+        "kim.ns.cloudflare.com"
+    ]
+}

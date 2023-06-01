@@ -1,0 +1,106 @@
+{
+    "domain": "joins.com",
+    "owner": {
+        "name": "Joins Corporation",
+        "displayName": "Joins"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "ir",
+        "cast.imp"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "joins\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ir"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e588f0b6786f4134bcab06496787082d614d42e1b394f08e32b3b63ede45865f",
+                "0e8699a33dfb3ecdd5f0880ea867c7f843a237908e1e5790c7cd19e182a0e536"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dcinside.com",
+                "gall.dcinside.com",
+                "m.dcinside.com"
+            ]
+        },
+        {
+            "rule": "joins\\.com\\/persona\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cast.imp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dcfd0a71dbe2933e9d2de407ebb0e9abb03ea911f3ff139d7853e1b4af08719d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joongang.co.kr",
+                "www.joongang.co.kr"
+            ]
+        },
+        {
+            "rule": "joins\\.com\\/trac",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cast.imp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joongang.co.kr",
+                "www.joongang.co.kr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns.joins.com",
+        "ns2.joins.com"
+    ]
+}

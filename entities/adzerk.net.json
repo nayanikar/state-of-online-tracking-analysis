@@ -1,0 +1,141 @@
+{
+    "domain": "adzerk.net",
+    "owner": {
+        "name": "Adzerk",
+        "displayName": "Adzerk"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [
+        "e-10875",
+        "e-10857",
+        "e-10860",
+        "e-10220",
+        "e-10457",
+        "e-10398"
+    ],
+    "cnames": [
+        {
+            "original": "data.carexpert.com.au",
+            "resolved": "e-10857.adzerk.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "adzerk\\.net\\/api\\/v2",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e-10875",
+                "e-10857",
+                "e-10860"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "data.carexpert.com.au",
+                    "resolved": "e-10857.adzerk.net"
+                }
+            ],
+            "responseHashes": [
+                "5a08b9168dbf530bcda890c1c02f40efeb65daab1fcd590653f1752b091b6bd1",
+                "f8ceea6d3889a8d88e257fbea62e0f1370b4361d0baded7271cbd2e32f2edbb6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coinmarketcap.com",
+                "www.carexpert.com.au",
+                "www.lawyersweekly.com.au"
+            ]
+        },
+        {
+            "rule": "adzerk\\.net\\/api\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e-10875",
+                "e-10220",
+                "e-10857",
+                "e-10860"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "data.carexpert.com.au",
+                    "resolved": "e-10857.adzerk.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coinmarketcap.com",
+                "wetransfer.com",
+                "www.carexpert.com.au",
+                "www.lawyersweekly.com.au"
+            ]
+        },
+        {
+            "rule": "adzerk\\.net\\/i\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e-10457",
+                "e-10398"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unsplash.com",
+                "www.united.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "wetransfer.net",
+            "prevalence": 0.0625
+        },
+        {
+            "domain": "casalemedia.com",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Preflight": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-106.awsdns-13.com",
+        "ns-1272.awsdns-31.org",
+        "ns-817.awsdns-38.net",
+        "ns-1608.awsdns-09.co.uk"
+    ]
+}

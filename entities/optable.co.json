@@ -1,0 +1,213 @@
+{
+    "domain": "optable.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00151,
+    "sites": 15,
+    "subdomains": [
+        "cdn",
+        "lapresse.cloud"
+    ],
+    "cnames": [
+        {
+            "original": "optable.lapresse.ca",
+            "resolved": "lapresse.cloud.optable.co"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "optable\\.co\\/web-sdk\\/v0\\.10\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 10
+            },
+            "sites": 13,
+            "prevalence": 0.00131,
+            "cnames": [],
+            "responseHashes": [
+                "03c6995021f979eb5f6adbb0b0836f30ba3f3d7f8710db4eb4d00c4ccac07d5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fizz.ca",
+                "ressourcessante.salutbonjour.ca",
+                "videotron.com",
+                "www.24heures.ca",
+                "www.coupdepouce.com",
+                "www.guideautoweb.com",
+                "www.journaldequebec.com",
+                "www.journaldemontreal.com",
+                "www.qub.ca",
+                "www.tvhebdo.com",
+                "www.tvanouvelles.ca",
+                "www.tvasports.ca",
+                "www.zeste.ca"
+            ]
+        },
+        {
+            "rule": "optable\\.co\\/web-sdk\\/v0\\.6\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d9ef98de23379bca12097fcab0eb9fbc8193fc2a9855199598dc291a0a450b8b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lapresse.ca",
+                "www.lapresse.ca"
+            ]
+        },
+        {
+            "rule": "optable\\.co\\/lapresse\\/identify",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lapresse.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "optable.lapresse.ca",
+                    "resolved": "lapresse.cloud.optable.co"
+                }
+            ],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lapresse.ca",
+                "www.lapresse.ca"
+            ]
+        },
+        {
+            "rule": "optable\\.co\\/lapresse\\/targeting",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lapresse.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "optable.lapresse.ca",
+                    "resolved": "lapresse.cloud.optable.co"
+                }
+            ],
+            "responseHashes": [
+                "c4215ea05ec0cacec7034528057b0d62014cd9cecec1c7100fd68f9c6d5d35a2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lapresse.ca",
+                "www.lapresse.ca"
+            ]
+        },
+        {
+            "rule": "optable\\.co\\/lapresse\\/identify",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lapresse.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "optable.lapresse.ca",
+                    "resolved": "lapresse.cloud.optable.co"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lapresse.ca",
+                "www.lapresse.ca"
+            ]
+        },
+        {
+            "rule": "optable\\.co\\/lapresse\\/targeting",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lapresse.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "optable.lapresse.ca",
+                    "resolved": "lapresse.cloud.optable.co"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lapresse.ca",
+                "www.lapresse.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00121,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.631578947368421
+        },
+        {
+            "domain": "optable.co",
+            "prevalence": 0.21052631578947367
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.15789473684210525
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "Fetch": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b4.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b1.googledomains.com"
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "domain": "jabpc-public-prod-tfm.trafficmanager.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "productcatalogueapi.jabra.com",
+            "resolved": "jabpc-public-prod-tfm.trafficmanager.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "jabpc-public-prod-tfm\\.trafficmanager\\.net\\/\\/v1\\/family\\/filter",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "productcatalogueapi.jabra.com",
+                    "resolved": "jabpc-public-prod-tfm.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "59357184c8ec5353c62ddd4074755f2cbd5819a516fc6c0c167e4b194d230a59"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jabra.com",
+                "www.jabra.com"
+            ]
+        },
+        {
+            "rule": "jabpc-public-prod-tfm\\.trafficmanager\\.net\\/v1\\/Family\\/1035\\/attributes",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "productcatalogueapi.jabra.com",
+                    "resolved": "jabpc-public-prod-tfm.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "83b9aa35ce529edd3ab5ff517e937a9027650e8e02dbb2802acde62101109945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jabra.com",
+                "www.jabra.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": []
+}

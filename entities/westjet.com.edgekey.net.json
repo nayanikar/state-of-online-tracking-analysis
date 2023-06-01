@@ -1,0 +1,124 @@
+{
+    "domain": "westjet.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [
+        {
+            "original": "apiw.westjet.com",
+            "resolved": "www.westjet.com.edgekey.net"
+        },
+        {
+            "original": "sso.westjet.com",
+            "resolved": "www.westjet.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "westjet\\.com\\.edgekey\\.net\\/destination-service\\/v1\\/en-CA\\/airports",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "apiw.westjet.com",
+                    "resolved": "www.westjet.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "71036d43826e90a1a7ce5b9a564b50679357bc924f150c501502232665825f0f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "westjet.com",
+                "www.westjet.com"
+            ]
+        },
+        {
+            "rule": "westjet\\.com\\.edgekey\\.net\\/price-points\\/v1\\/retail",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "apiw.westjet.com",
+                    "resolved": "www.westjet.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c41c4fab486d79385a885b04ff62949a1b5bf6421653a922709e19002a7ac61d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "westjet.com",
+                "www.westjet.com"
+            ]
+        },
+        {
+            "rule": "westjet\\.com\\.edgekey\\.net\\/login\\/guest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "sso.westjet.com",
+                    "resolved": "www.westjet.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d8edbaae089a7b9e30bb94dbf450a1580e937d65785385e71fea39b430b94eba"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "westjet.com",
+                "www.westjet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "clicktale.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 6
+    },
+    "nameservers": []
+}

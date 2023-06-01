@@ -1,0 +1,163 @@
+{
+    "domain": "boldem.cz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "front"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "boldem\\.cz\\/boldem\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "front"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5f8c63dfe9655ffc52aacd066731b4b712868704a388ec0f164ccce5b87c1b7d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "boldemVisitorId": {
+                    "ttl": 315360003,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "boldemSessionId": {
+                    "ttl": 315360003,
+                    "length": 48,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prague.eu",
+                "www.prague.eu"
+            ]
+        },
+        {
+            "rule": "boldem\\.cz\\/api\\/forms\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prague.eu",
+                "www.prague.eu"
+            ]
+        },
+        {
+            "rule": "boldem\\.cz\\/api\\/forms\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prague.eu",
+                "www.prague.eu"
+            ]
+        },
+        {
+            "rule": "boldem\\.cz\\/api\\/pages\\/view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prague.eu",
+                "www.prague.eu"
+            ]
+        },
+        {
+            "rule": "boldem\\.cz\\/api\\/pages\\/view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prague.eu",
+                "www.prague.eu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns1.ignum.eu",
+        "ns2.ignum.eu",
+        "ns3.ignum.eu",
+        "ns4.ignum.eu"
+    ]
+}

@@ -1,0 +1,185 @@
+{
+    "domain": "webengage.com",
+    "owner": {
+        "name": "Webklipper Technologies Pvt Ltd",
+        "displayName": "Webklipper"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "ssl.widgets",
+        "c"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "webengage\\.com\\/js\\/service-worker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssl.widgets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "500c6bd4d6ab2244550377f1d1a4aa40a14f1775b07cbc4686ca0a5bb37e49a8"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "traveltriangle.com",
+                "www.cuemath.com",
+                "www.lybrate.com"
+            ]
+        },
+        {
+            "rule": "webengage\\.com\\/js\\/webengage-min-v-6\\.0\\.js",
+            "cookies": 0.000602,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ssl.widgets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 6,
+                "Navigator.prototype.platform": 6,
+                "window.sessionStorage": 6,
+                "window.innerHeight": 6,
+                "window.innerWidth": 6,
+                "Navigator.prototype.storage": 3,
+                "Notification.permission": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "794c865bc31cf6af26394f08941757145287ee2d6ddb367273f997b9577ed392"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_we_wk_ss_lsf_": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "luid": {
+                    "ttl": 31536000,
+                    "length": 40,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "we_luid": {
+                    "ttl": 31536018,
+                    "length": 40,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bookyogaretreats.com",
+                "www.cuemath.com",
+                "www.fluentu.com",
+                "www.g2a.com",
+                "www.hindustantimes.com",
+                "www.lybrate.com"
+            ]
+        },
+        {
+            "rule": "webengage\\.com\\/upf\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "268035134c9d5ac90996c32e6954472b63279743d504cf231f37e06d3da980a3",
+                "c04b1ffb414f35fe2928b8022c1990e653b325be2490327c3df6c47ed292bc9e",
+                "fd006c197399900dee5c2dbc8029bd0fa4ba6c5f675de7d255376147d8a5a6ec",
+                "46aec6efebfc0a2a8976a0af7493d6526fe9e5e2fbf49933ed67e584754a44c6",
+                "e38f3f5ca74856cbb77c1c44c65a9a81d7102b33d768c845509d534abbdb6390"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "luid": 0.00010040160642570282,
+                "lotame_domain_check": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "bookyogaretreats.com",
+                "www.cuemath.com",
+                "www.fluentu.com",
+                "www.g2a.com",
+                "www.hindustantimes.com",
+                "www.lybrate.com"
+            ]
+        },
+        {
+            "rule": "webengage\\.com\\/l4\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bookyogaretreats.com",
+                "www.cuemath.com",
+                "www.fluentu.com",
+                "www.g2a.com",
+                "www.hindustantimes.com",
+                "www.lybrate.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "webengage.co",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Other": 3,
+        "Script": 12,
+        "Ping": 6
+    },
+    "nameservers": [
+        "ns66.domaincontrol.com",
+        "ns65.domaincontrol.com"
+    ]
+}

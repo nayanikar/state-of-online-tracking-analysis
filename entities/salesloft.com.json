@@ -1,0 +1,174 @@
+{
+    "domain": "salesloft.com",
+    "owner": {
+        "name": "SalesLoft",
+        "displayName": "SalesLoft"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000904,
+    "sites": 9,
+    "subdomains": [
+        "scout-cdn",
+        "scout"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "salesloft\\.com\\/sl\\.js",
+            "cookies": 0.000703,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scout-cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 9,
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 7
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "4a007af67f716c30c8848ab0ad0bfaab8a5fcf3e36dedf918b59c9429d522440"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "slireg": {
+                    "ttl": 604808,
+                    "length": 31,
+                    "prevalence": 0.0007028112449799197,
+                    "uniqueness": 0.2857142857142857
+                },
+                "sliguid": {
+                    "ttl": 31536009,
+                    "length": 36,
+                    "prevalence": 0.0007028112449799197,
+                    "uniqueness": 1
+                },
+                "slirequested": {
+                    "ttl": 31536009,
+                    "length": 4,
+                    "prevalence": 0.0007028112449799197,
+                    "uniqueness": 0.14285714285714285
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitwarden.com",
+                "docs.cypress.io",
+                "untappd.com",
+                "www.foxit.com",
+                "www.healthgrades.com",
+                "www.naturaltherapypages.com.au",
+                "www.serviceseeking.com.au",
+                "www.techtarget.com",
+                "www.trendhunter.com"
+            ]
+        },
+        {
+            "rule": "salesloft\\.com\\/r",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scout"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "1cfea949b0b2925d27b84d56d18f2ea1c6b948fdf3ae95c534a14706043da178",
+                "aa011ed383cb780028a85caaa0dda67dce19b0f4bc596f4f708d1857015c1362",
+                "e05ae076790852a21a47535d8a06e4ebdfc3079536d9c3f9f91d9f5b29303f0e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitwarden.com",
+                "docs.cypress.io",
+                "untappd.com",
+                "www.foxit.com",
+                "www.healthgrades.com",
+                "www.naturaltherapypages.com.au",
+                "www.serviceseeking.com.au",
+                "www.techtarget.com",
+                "www.trendhunter.com"
+            ]
+        },
+        {
+            "rule": "salesloft\\.com\\/i",
+            "cookies": 0.000904,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scout"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "6c539d956158eddd0f108742ca5d6d7b829467d932d43552e729376b306b333e",
+                "8c604c6b8170f6164a864fab2a25f907b430d51856dc7b562abcf385b7949a9c",
+                "18d0c5bc511edcfba834f1e81aa2f5cbe99acaf7117d14097f69d78778164dfd",
+                "ff9f25441591839b5da7ece4890fbdc0d713674dca13acd6e329bb9618c6aec6",
+                "65604d1a33ae1692ad5eb789e9d596eea3f712238bef5722a4f2a8cef5c99cfc",
+                "3d5a5a4f6d19f0a528bdefe08fbcfc9809e1a5243e4b0c42c8196769c0cfd784",
+                "a01daecddddd03fc27f301233e06b83bbe79ed36c4d128bb93dc09cdbfbce1b2",
+                "86757bb474236d82a9cce3cb54401f506b80f3a4cfbdad74d7e4a10608c01dfd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitwarden.com",
+                "docs.cypress.io",
+                "untappd.com",
+                "www.foxit.com",
+                "www.healthgrades.com",
+                "www.naturaltherapypages.com.au",
+                "www.serviceseeking.com.au",
+                "www.techtarget.com",
+                "www.trendhunter.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000904,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.36363636363636365
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2727272727272727
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.18181818181818182
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "sp-prod.net",
+            "prevalence": 0.09090909090909091
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 18
+    },
+    "nameservers": [
+        "ns-482.awsdns-60.com",
+        "ns-834.awsdns-40.net",
+        "ns-1651.awsdns-14.co.uk",
+        "ns-1248.awsdns-28.org"
+    ]
+}

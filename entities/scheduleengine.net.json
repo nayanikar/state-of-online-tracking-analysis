@@ -1,0 +1,129 @@
+{
+    "domain": "scheduleengine.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "embed",
+        "webchat",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "scheduleengine\\.net\\/schedule-engine-v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ab173fbdeb26280b42db9bf82f9bc3f073649f1265a8ab837d87ae974e63b1be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rheem.com",
+                "www.rheem.com"
+            ]
+        },
+        {
+            "rule": "scheduleengine\\.net\\/webchat-v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fbde780f512b399005fcc20be47562778876e9e5187139578e96ea7c9e287538"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rheem.com",
+                "www.rheem.com"
+            ]
+        },
+        {
+            "rule": "scheduleengine\\.net\\/se-analytics-service\\/v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "743190e9d41b26d305232ec3334a6436fb8161eb1c235a4562e83f099342613f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rheem.com",
+                "www.rheem.com"
+            ]
+        },
+        {
+            "rule": "scheduleengine\\.net\\/se-web-api\\/v1\\/subscriptions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rheem.com",
+                "www.rheem.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 2,
+        "WebSocket": 2
+    },
+    "nameservers": [
+        "leah.ns.cloudflare.com",
+        "bradley.ns.cloudflare.com"
+    ]
+}

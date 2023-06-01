@@ -1,0 +1,317 @@
+{
+    "domain": "inbenta.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "api",
+        "api-gce1",
+        "api-gce2",
+        "sdk"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "inbenta\\.io\\/v1\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "7121ccd6585e7612affb3a5f4c920c7346eaf315a609022dd175a9610c035b2c",
+                "27cad8f83348464575788216748b99e053ab583c2cd3584853caf8f1048da369"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audiens.org",
+                "www.monabanq.com",
+                "www.secourspopulaire.fr"
+            ]
+        },
+        {
+            "rule": "inbenta\\.io\\/v1\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audiens.org",
+                "www.monabanq.com",
+                "www.secourspopulaire.fr"
+            ]
+        },
+        {
+            "rule": "inbenta\\.io\\/prod\\/km\\/v1\\/app\\/data\\/app_data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-gce1",
+                "api-gce2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "637f3d3e71a2ae15f22eee10ac32f034adfdd9e0200ad41526837a6f0a0be521"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audiens.org",
+                "www.monabanq.com"
+            ]
+        },
+        {
+            "rule": "inbenta\\.io\\/prod\\/km\\/v1\\/app\\/data\\/app_data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-gce1",
+                "api-gce2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audiens.org",
+                "www.monabanq.com"
+            ]
+        },
+        {
+            "rule": "inbenta\\.io\\/search\\/1\\.42\\/inbenta-search-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.product": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "0e94826e7c6a41a738b55d1002e6b199aef6dc7e10653177bdaece96e05d13ea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "banquepopulaire.fr",
+                "www.caisse-epargne.fr",
+                "www.credit-cooperatif.coop"
+            ]
+        },
+        {
+            "rule": "inbenta\\.io\\/search\\/1\\.42\\/inbenta-search-sdk-space-cowboy\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "f48ee67e2d706a31b3e9b3cf92fe87f909df9e8c64187fb3bbdaf46a6a38bfe9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "banquepopulaire.fr",
+                "www.caisse-epargne.fr",
+                "www.credit-cooperatif.coop"
+            ]
+        },
+        {
+            "rule": "inbenta\\.io\\/prod\\/km\\/v1\\/inbtrck\\/session",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-gce2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e5c98bd55cf370625f24bd2a15ac09d74909bb76b878d903a33b94e4aebc1a05"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lolivier.fr",
+                "www.monabanq.com"
+            ]
+        },
+        {
+            "rule": "inbenta\\.io\\/prod\\/km\\/v1\\/inbtrck\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-gce2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lolivier.fr",
+                "www.monabanq.com"
+            ]
+        },
+        {
+            "rule": "inbenta\\.io\\/prod\\/km\\/v1\\/contents\\/popular",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-gce2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lolivier.fr",
+                "www.monabanq.com"
+            ]
+        },
+        {
+            "rule": "inbenta\\.io\\/prod\\/km\\/v1\\/contents\\/popular",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-gce2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a9704494148ee6a548f0557736a30485794b146b5e990f77aa88497bf18ea07e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lolivier.fr",
+                "www.monabanq.com"
+            ]
+        },
+        {
+            "rule": "inbenta\\.io\\/prod\\/km\\/v1\\/inbtrck\\/session\\/user",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-gce2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lolivier.fr",
+                "www.monabanq.com"
+            ]
+        },
+        {
+            "rule": "inbenta\\.io\\/prod\\/km\\/v1\\/inbtrck\\/session\\/user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-gce2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lolivier.fr",
+                "www.monabanq.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7391304347826086
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.13043478260869565
+        },
+        {
+            "domain": "e-i.com",
+            "prevalence": 0.10869565217391304
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.021739130434782608
+        }
+    ],
+    "types": {
+        "XHR": 11,
+        "Preflight": 11,
+        "Script": 3,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "ns-1207.awsdns-22.org",
+        "ns-1752.awsdns-27.co.uk",
+        "ns-726.awsdns-26.net",
+        "ns-406.awsdns-50.com"
+    ]
+}

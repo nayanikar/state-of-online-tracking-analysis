@@ -1,0 +1,66 @@
+{
+    "domain": "comv2.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "recherche-api.quebecormedia"
+    ],
+    "cnames": [
+        {
+            "original": "recherche-api.quebecormedia.com",
+            "resolved": "recherche-api.quebecormedia.comv2.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "comv2\\.edgekey\\.net\\/sites\\/common\\/cx\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recherche-api.quebecormedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "recherche-api.quebecormedia.com",
+                    "resolved": "recherche-api.quebecormedia.comv2.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "canadianliving.com",
+                "www.recettes.qc.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": []
+}

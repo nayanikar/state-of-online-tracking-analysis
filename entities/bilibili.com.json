@@ -1,0 +1,231 @@
+{
+    "domain": "bilibili.com",
+    "owner": {
+        "name": "BiliBili Inc.",
+        "displayName": "BiliBili"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "player",
+        "api",
+        "data"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bilibili\\.com\\/player\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d7ec84d77ed6c1079211abece9eadb0fe8c7ba5709b36c8d8cf6c513d61a8055"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamersky.com",
+                "xbeibeix.com"
+            ]
+        },
+        {
+            "rule": "bilibili\\.com\\/main\\/libs\\/jquery\\.mCustomScrollbar\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "06b87d59b5539cc96b673fe685aa2347cfc10927e5c5559289ef082c60f9b702"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamersky.com",
+                "xbeibeix.com"
+            ]
+        },
+        {
+            "rule": "bilibili\\.com\\/main\\/libs\\/jquery-1\\.7\\.2\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "47b68dce8cb6805ad5b3ea4d27af92a241f4e29a5c12a274c852e4346a0500b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamersky.com",
+                "xbeibeix.com"
+            ]
+        },
+        {
+            "rule": "bilibili\\.com\\/main\\/libs\\/jquery\\.mCustomScrollbar\\.concat\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9a2b746126cdaf0841384b61b1b46d0871eff559e858385d62c0f3f1bd898545"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamersky.com",
+                "xbeibeix.com"
+            ]
+        },
+        {
+            "rule": "bilibili\\.com\\/x\\/frontend\\/finger\\/spi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "61729aff26c1356e349fa130f58f4aa23ea77caee103c67060dcb0ce9731e209"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamersky.com",
+                "xbeibeix.com"
+            ]
+        },
+        {
+            "rule": "bilibili\\.com\\/log\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "b_lsid": 0.000013614147822417056,
+                "_uuid": 0.000006807073911208528,
+                "b_nut": 0.000020421221733625584
+            },
+            "exampleSites": [
+                "gamersky.com",
+                "www.gamersky.com",
+                "xbeibeix.com"
+            ]
+        },
+        {
+            "rule": "bilibili\\.com\\/x\\/internal\\/gaia-gateway\\/ExClimbWuzhi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "97c702e5140d7f63176444978f13fb183d8c83da4e648b46201c470755fa1eca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamersky.com",
+                "xbeibeix.com"
+            ]
+        },
+        {
+            "rule": "bilibili\\.com\\/x\\/internal\\/gaia-gateway\\/ExClimbWuzhi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamersky.com",
+                "xbeibeix.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "hdslb.com",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Stylesheet": 2,
+        "Script": 4,
+        "XHR": 4,
+        "Ping": 3,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns4.dnsv5.com",
+        "ns3.dnsv5.com"
+    ]
+}

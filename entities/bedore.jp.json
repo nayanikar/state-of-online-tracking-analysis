@@ -1,0 +1,380 @@
+{
+    "domain": "bedore.jp",
+    "owner": {
+        "name": "PKSHA Technology Inc.",
+        "displayName": "PKSHA"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [
+        "webagent",
+        "webswitcher",
+        "search",
+        "cdn.search",
+        "image"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bedore\\.jp\\/init\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webagent"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "df5303f94fd6177cd3a05de146ab29285cd54bb4ccc1c037fec5754e09e4c043"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moneykit.net",
+                "povo.jp",
+                "www.aeon.co.jp",
+                "www.jcb.co.jp",
+                "www.nanaco-net.jp",
+                "www.nojima.co.jp"
+            ]
+        },
+        {
+            "rule": "bedore\\.jp\\/7\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "webagent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Event.prototype.timeStamp": 4,
+                "Navigator.prototype.product": 5,
+                "window.localStorage": 3,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.language": 5,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "NavigatorUAData.prototype.getHighEntropyValues": 5,
+                "Date.prototype.getTime": 6,
+                "window.innerWidth": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "2edc7045b94ff0e8de37cc0523081419fe587a4a7a6404f5c83c569400d71b96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moneykit.net",
+                "povo.jp",
+                "www.aeon.co.jp",
+                "www.jcb.co.jp",
+                "www.nanaco-net.jp",
+                "www.nojima.co.jp"
+            ]
+        },
+        {
+            "rule": "bedore\\.jp\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webswitcher"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moneykit.net",
+                "www.aeon.co.jp",
+                "www.jcb.co.jp",
+                "www.nanaco-net.jp",
+                "www.nojima.co.jp"
+            ]
+        },
+        {
+            "rule": "bedore\\.jp\\/conf\\/c98e9225-b7e9-40d4-9f5e-88828a997389\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webagent"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d63e1037dcf207d9b3617a692dec64c24cb54979b0241bbc5227eabf004d802a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeon.co.jp",
+                "www.aeon.co.jp"
+            ]
+        },
+        {
+            "rule": "bedore\\.jp\\/public\\/agent\\/init\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5c66128f1c2cadc3fca2a6f473a8a1e64bfeeca862d4418aecb3fb9a52539b37"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeon.co.jp",
+                "www.aeon.co.jp"
+            ]
+        },
+        {
+            "rule": "bedore\\.jp\\/public\\/agent\\/init-8510c8c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5c66128f1c2cadc3fca2a6f473a8a1e64bfeeca862d4418aecb3fb9a52539b37"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeon.co.jp",
+                "www.aeon.co.jp"
+            ]
+        },
+        {
+            "rule": "bedore\\.jp\\/external\\/api\\/company\\/acs\\/agent-config-entries\\/8f268e40-e775-11ea-a534-055cef7c8cf5",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeon.co.jp",
+                "www.aeon.co.jp"
+            ]
+        },
+        {
+            "rule": "bedore\\.jp\\/external\\/api\\/company\\/acs\\/agent-config-entries\\/8f268e40-e775-11ea-a534-055cef7c8cf5",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9e3db2fff6bb475dc4f9094d437c8d08a274065c680d8036c79f259f6f5c6d9e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeon.co.jp",
+                "www.aeon.co.jp"
+            ]
+        },
+        {
+            "rule": "bedore\\.jp\\/api\\/healthcheck\\/1382d1b34530b016\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeon.co.jp",
+                "www.aeon.co.jp"
+            ]
+        },
+        {
+            "rule": "bedore\\.jp\\/c98e9225-b7e9-40d4-9f5e-88828a997389\\/55e0f60a-eaee-44bd-ad78-c5f94c1c72b2\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b8c097a1b1bdff7e4eb7b2c0523c3f7ab6b2c29e5e83bbcecd51be50477fedde"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeon.co.jp",
+                "www.aeon.co.jp"
+            ]
+        },
+        {
+            "rule": "bedore\\.jp\\/757aeb45-66eb-4f37-8654-6e3dcef27f5c\\/d0f92b2d-ccd4-41b3-97b5-0d5fc517344f\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cc8177cb6168f4a47f0c3b5506d56b650a55422b4ea8f1f43cf9ed43cf8ef4c3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeon.co.jp",
+                "www.aeon.co.jp"
+            ]
+        },
+        {
+            "rule": "bedore\\.jp\\/c98e9225-b7e9-40d4-9f5e-88828a997389\\/866082ab-f4db-4241-898d-d8873fc7c07d\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3ba52a34dafbac9ea49f4dd60e6d397443f9cea6c02e9c5ebaf134000fb512a5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeon.co.jp",
+                "www.aeon.co.jp"
+            ]
+        },
+        {
+            "rule": "bedore\\.jp\\/c98e9225-b7e9-40d4-9f5e-88828a997389\\/d62311d1-342a-4e12-a343-6e117cfb799e\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b77da158b775ea4e6fa2f45e5b8041672cee95ff9783373a450a0013907e63e5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeon.co.jp",
+                "www.aeon.co.jp"
+            ]
+        },
+        {
+            "rule": "bedore\\.jp\\/api\\/healthcheck\\/1dcc9f7804818ed6\\/9\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mufg.jp",
+                "www.cr.mufg.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.46153846153846156
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.38461538461538464
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.15384615384615385
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "WebSocket": 5,
+        "XHR": 6,
+        "Preflight": 2,
+        "Fetch": 2,
+        "Image": 8
+    },
+    "nameservers": [
+        "ns-1395.awsdns-46.org",
+        "ns-869.awsdns-44.net",
+        "ns-116.awsdns-14.com",
+        "ns-1795.awsdns-32.co.uk"
+    ]
+}

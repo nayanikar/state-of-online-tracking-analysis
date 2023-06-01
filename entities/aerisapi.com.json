@@ -1,0 +1,208 @@
+{
+    "domain": "aerisapi.com",
+    "owner": {
+        "name": "Whether or Knot LLC",
+        "displayName": "Whether or Knot"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "aerisapi\\.com\\/wxblox\\/latest\\/aeris-wxblox\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9d2443a3bd3f33e83dc27ab672ff272378ec97e923d58cd20f0672d6a6173435"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agfax.com",
+                "www.agfax.com"
+            ]
+        },
+        {
+            "rule": "aerisapi\\.com\\/wxblox\\/latest\\/aeris-wxblox\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bf8384447b359b3602b45d5c36e44c2643f641b26fa560092ceb3b140cd61806"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wxblox_AWXWCookie": {
+                    "ttl": -1,
+                    "length": 9,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agfax.com",
+                "www.agfax.com"
+            ]
+        },
+        {
+            "rule": "aerisapi\\.com\\/oauth2\\/permissions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d885ac30a8b124a99caddd6a0ab68682dd4977350f22f0042cfb8474f69a8874"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agfax.com",
+                "www.agfax.com"
+            ]
+        },
+        {
+            "rule": "aerisapi\\.com\\/wxblox\\/latest\\/aeris-wxblox\\.timezones\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bb86b87a3717b223baf4cdb468677d7285e599b1456474426d111950267a09ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agfax.com",
+                "www.agfax.com"
+            ]
+        },
+        {
+            "rule": "aerisapi\\.com\\/conditions\\/%3Aauto",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "71c820db1684cb9fc140d8fb45c7ca59cf338215fc75703fa175916e1a58e815"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agfax.com",
+                "www.agfax.com"
+            ]
+        },
+        {
+            "rule": "aerisapi\\.com\\/alerts\\/%3Aauto",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5b4eb886b6f2a2c8e599fbc181f4337d076388550629b1ba35527ad093853864"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agfax.com",
+                "www.agfax.com"
+            ]
+        },
+        {
+            "rule": "aerisapi\\.com\\/wxblox\\/icons\\/sunny\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dcdd3a0bc9f09f3e6587202c2031d2a362bfce2db812314512c600e6573767b7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agfax.com",
+                "www.agfax.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 4,
+        "XHR": 6,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-61.awsdns-07.com",
+        "ns-681.awsdns-21.net",
+        "ns-1831.awsdns-36.co.uk",
+        "ns-1521.awsdns-62.org"
+    ]
+}

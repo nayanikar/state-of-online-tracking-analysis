@@ -1,0 +1,162 @@
+{
+    "domain": "lifterapps.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "popup3",
+        "popup"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "lifterapps\\.com\\/js\\/modal\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "popup3",
+                "popup"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie getter": 5,
+                "window.sessionStorage": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "ff10e18aad6988d0075e073a12486496c257c8305987513df13f6594de8dadcd",
+                "62140320e4e4755c5cbd0faee9dbab54dabed19442e9007b6179f3fafe40c30f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aquaticarts.com",
+                "www.bettystoybox.com",
+                "www.puffco.com",
+                "www.reneesgarden.com",
+                "www.vanguardmil.com"
+            ]
+        },
+        {
+            "rule": "lifterapps\\.com\\/modals\\/json\\/bettys-toy-box\\.myshopify\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "popup"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6061bc1ebc90a55defda72debb7c4aeac88f3ded8e05a38cc26ea01384d0737b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bettystoybox.com",
+                "www.bettystoybox.com"
+            ]
+        },
+        {
+            "rule": "lifterapps\\.com\\/modals\\/json\\/puffco\\.myshopify\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "popup"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cd9bdb0fb5361add5b54e19f15b266fcf6029821a8eaa29d37eefffb6bf33972"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "puffco.com",
+                "www.puffco.com"
+            ]
+        },
+        {
+            "rule": "lifterapps\\.com\\/modals\\/json\\/renees-garden\\.myshopify\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "popup3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c7f21213a24a8193e46ac73efc33546cc6e9cefaef6f6bdaf3a04abc75c58d8d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reneesgarden.com",
+                "www.reneesgarden.com"
+            ]
+        },
+        {
+            "rule": "lifterapps\\.com\\/modals\\/json\\/vanguardmil\\.myshopify\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "popup3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7fc8dfb45635763afaec8e3bfbec42c5e43698c291fd718f96567904913f02e7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vanguardmil.com",
+                "www.vanguardmil.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "shopifyorderlimits.s3.amazonaws.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 8
+    },
+    "nameservers": [
+        "fred.ns.cloudflare.com",
+        "vera.ns.cloudflare.com"
+    ]
+}

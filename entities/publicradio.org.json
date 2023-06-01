@@ -1,0 +1,100 @@
+{
+    "domain": "publicradio.org",
+    "owner": {
+        "name": "Minnesota Public Radio",
+        "displayName": "Minnesota Public Radio"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "cmsapi",
+        "nowplayingv2"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "publicradio\\.org\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmsapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yourclassical.org",
+                "www.yourclassical.org"
+            ]
+        },
+        {
+            "rule": "publicradio\\.org\\/schedule\\/classical-24",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nowplayingv2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yourclassical.org",
+                "www.yourclassical.org"
+            ]
+        },
+        {
+            "rule": "publicradio\\.org\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmsapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2aa98ea49b62b161b7550e11b79ea0e236c838a5cc39d118f071c5a2b8ed29d8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yourclassical.org",
+                "www.yourclassical.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "WebSocket": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns2.mpr.org",
+        "ns1.mpr.org"
+    ]
+}

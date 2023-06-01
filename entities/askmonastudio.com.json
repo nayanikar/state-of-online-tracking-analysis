@@ -1,0 +1,285 @@
+{
+    "domain": "askmonastudio.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "api",
+        "apiv3-chat-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "askmonastudio\\.com\\/webchat\\/askmona\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 5,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4,
+                "Event.prototype.timeStamp": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "58adba4a01c76f7dbda2250f449aaa67e1c4f4cb4f5e2a40a5244698061265a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "isClosed": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.0004020504573323952,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "philharmoniedeparis.fr",
+                "www.guimet.fr",
+                "www.lestheatres.net",
+                "www.parismusees.paris.fr",
+                "www.petitpalais.paris.fr"
+            ]
+        },
+        {
+            "rule": "askmonastudio\\.com\\/rest\\/webchat\\/endpoint",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "ece86076893cf4e8a4927a8d8ba735bf7e13acd9dc4e926ffb58fca3db8126c8",
+                "c5647b104abd6236c4aa7aae28aaad7fd4820e04498b061f4354efe7d0d0cd27",
+                "36a0fe2187f6bd7b8eeb74e00210c5a542613a335b95421e6090c7780b94a3d4",
+                "2c7d88e71afb1e273a73af164fe91d370e1685e3fff4ab24b2b34e174cbdae98",
+                "15dfd49e2b9b9564f0051293b849e23ec5e3abf505596ea9949eff1c1ae32704"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "philharmoniedeparis.fr",
+                "theatre-chaillot.fr",
+                "www.guimet.fr",
+                "www.lestheatres.net",
+                "www.parismusees.paris.fr",
+                "www.petitpalais.paris.fr"
+            ]
+        },
+        {
+            "rule": "askmonastudio\\.com\\/rest\\/webchat\\/endpoint",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "philharmoniedeparis.fr",
+                "theatre-chaillot.fr",
+                "www.guimet.fr",
+                "www.lestheatres.net",
+                "www.parismusees.paris.fr",
+                "www.petitpalais.paris.fr"
+            ]
+        },
+        {
+            "rule": "askmonastudio\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiv3-chat-api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "d90d1517ab54c8c2db0876f3bfabbaf30faa02d910dbf2838b6184691882d2ef"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "philharmoniedeparis.fr",
+                "theatre-chaillot.fr",
+                "www.guimet.fr",
+                "www.parismusees.paris.fr",
+                "www.petitpalais.paris.fr"
+            ]
+        },
+        {
+            "rule": "askmonastudio\\.com\\/hub\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apiv3-chat-api"
+            ],
+            "apis": {
+                "window.localStorage": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "76181750bb2a824cc79d1c940b9e14a3e393ae1efc93965117e3965c136acaa6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "philharmoniedeparis.fr",
+                "theatre-chaillot.fr",
+                "www.guimet.fr",
+                "www.parismusees.paris.fr",
+                "www.petitpalais.paris.fr"
+            ]
+        },
+        {
+            "rule": "askmonastudio\\.com\\/rest\\/webchat\\/subscribe",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "38f74227d7a571abaac79a760aa8a30e7506613560cb2b20d9019ca73f82c4ba",
+                "ba1cbeafec509c49f859d04cf95253d92a69d76322c8e07e32218b8e97c391d1",
+                "e6b2eb200ea36bd7dc413e48e407c47bb22953a296c666d8f837ca3981d675f5",
+                "1570af1f460359c844af5c97525a98cad9c250a4202181706c3150361cfbc69c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "philharmoniedeparis.fr",
+                "theatre-chaillot.fr",
+                "www.guimet.fr",
+                "www.parismusees.paris.fr",
+                "www.petitpalais.paris.fr"
+            ]
+        },
+        {
+            "rule": "askmonastudio\\.com\\/rest\\/webchat\\/subscribe",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "philharmoniedeparis.fr",
+                "theatre-chaillot.fr",
+                "www.guimet.fr",
+                "www.parismusees.paris.fr",
+                "www.petitpalais.paris.fr"
+            ]
+        },
+        {
+            "rule": "askmonastudio\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiv3-chat-api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "d90d1517ab54c8c2db0876f3bfabbaf30faa02d910dbf2838b6184691882d2ef"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "philharmoniedeparis.fr",
+                "theatre-chaillot.fr",
+                "www.guimet.fr",
+                "www.parismusees.paris.fr",
+                "www.petitpalais.paris.fr"
+            ]
+        },
+        {
+            "rule": "askmonastudio\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiv3-chat-api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "philharmoniedeparis.fr",
+                "theatre-chaillot.fr",
+                "www.guimet.fr",
+                "www.parismusees.paris.fr",
+                "www.petitpalais.paris.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000503,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Fetch": 16,
+        "Preflight": 16,
+        "Document": 5
+    },
+    "nameservers": [
+        "ns-704.awsdns-24.net",
+        "ns-1574.awsdns-04.co.uk",
+        "ns-299.awsdns-37.com",
+        "ns-1126.awsdns-12.org"
+    ]
+}

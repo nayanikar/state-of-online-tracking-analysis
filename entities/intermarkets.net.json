@@ -1,0 +1,83 @@
+{
+    "domain": "intermarkets.net",
+    "owner": {
+        "name": "Intermarkets, Inc.",
+        "displayName": "Intermarkets"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "rtb"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "intermarkets\\.net\\/1103\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "43698b181523c7d0f2fd0ae5b4efa6cb439b0bc19a0e2cd33aae1f609e9e5ca4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnsnews.com",
+                "www.cnsnews.com"
+            ]
+        },
+        {
+            "rule": "intermarkets\\.net\\/1102\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f49e9286dfb9d8db45da686f777e1d2010956fd8ffac041d6569c040f98a7728"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "kim.ns.cloudflare.com",
+        "bart.ns.cloudflare.com"
+    ]
+}

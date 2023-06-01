@@ -1,0 +1,678 @@
+{
+    "domain": "p24.hu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000817,
+    "sites": 12,
+    "subdomains": [
+        "ad-blacklist",
+        "segment",
+        "geoip",
+        "bt",
+        "stat"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "p24\\.hu\\/adx_blacklist\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad-blacklist"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "df6cd216707ff18934600f34e37fa63bc37dd28fa12e9ae23de5f5bee48a6c3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24.hu",
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.hirstart.hu",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/rubicon_blacklist\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad-blacklist"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "38870d34b09d88b045560b605592e98b870aa8a0e85e060f11e01ea804bd9607"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24.hu",
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.hirstart.hu",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/cerment\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "segment"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "92556d255640b446722f07be228bb3370de27d6cf142b54d038f2342dcc4fba9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24.hu",
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.hirstart.hu",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/geoip\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geoip"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "b48e85aaab1218874cc1f22e533d832bfca2c083cdef16aef302ad9b56a94280"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24.hu",
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.nosalty.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/btarget\\.js",
+            "cookies": 0.0000408,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bt"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "PerformanceTiming.prototype.navigationStart": 6,
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "7596bf5bd2323c99a57eff7f82ff89947a5231d4fa696044a86dd8a679542f4b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "SID": {
+                    "ttl": 63072006,
+                    "length": 26,
+                    "prevalence": 0.00004084244346725117,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24.hu",
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.hirstart.hu",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/commHost\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "segment"
+            ],
+            "apis": {
+                "window.localStorage": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "617748e501f5bb41d3b3c66c587700c93bf0e84834182095c0925eb22c58f54b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24.hu",
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.hirstart.hu",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/js\\/A42A6C\\/_ads\\/ad-banner-ad\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stat"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "fd5b444b8899feb3f45ae9dea08daffbac1adf3ab9bc11e34614abdbd9bc2e78"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24.hu",
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/session\\/",
+            "cookies": 0.0000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bt"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "990a08742a252c48eda0de91b468047401b01eafc627493b0879af2be1556e76",
+                "5945dc00bb03f0efaf054a0ceaa9b777de8f26b0ebabd5cd5ef4d746ceae550a",
+                "8dbacb89e721b5972db0e0c7d2fcef5e215d5bd4e8274b961c4d03984a7908df",
+                "64d4021c08d1d3b787d13111b126e76a52a02fa4f95bf32e49388a3eb11575f6",
+                "3803d5d6a14e5067faddcd75de6f585e10c11f32d2115f739c3e7fcd1c4edc0d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24.hu",
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.hirstart.hu",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/source\\/ru_mapping_simplified\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "segment"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "91f2d5c2851cdb5f0c7e2dd6d8cf5e1ab9ecf6003f44470a839c7450f27d569e",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24.hu",
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.hirstart.hu",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/source\\/invalidate\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "segment"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "00c6f6131daf316b074e12f8617bb17c2ef7eb523108ccf40ebee7f5f77758e7",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24.hu",
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.hirstart.hu",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/source\\/kw_mapping\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "segment"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "03f61050f32cb39c16785a2a66d523a1479a90c718fa45c39586078aa73c20d7",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24.hu",
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.hirstart.hu",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/bt\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bt"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "SID": 0.00004084244346725117,
+                "__utmc": 0.000013614147822417056,
+                "__utmz": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "24.hu",
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.hirstart.hu",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/mobile_detect\\/mobile_detect\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "stat"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Navigator.prototype.appCodeName": 5,
+                "Navigator.prototype.appName": 5,
+                "Navigator.prototype.appVersion": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "65b61442bee96b54b2d3001dc2e5760464195b466b1bd6d09756e5fba942062a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.hirstart.hu",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/CTS\\/helper-scripts\\/ip2isp\\/ip2isp\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stat"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e1502eca97dbbe4f08fc61cc70d7c9c273a089035a2a4e451e026d484f002475"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.nosalty.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/CTS\\/helper-scripts\\/adverts\\/lazyload\\/lazyad\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "stat"
+            ],
+            "apis": {
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "131a4f7921a10ca907c7363ac68d300ffc5bafd1d790c03d1b9e252749c199c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nlc.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/CTS\\/helper-scripts\\/waterfall_empty\\/closer\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stat"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "843c9794e3478f636f25115e806ec38d25ef3f45aabd49bba009050f2d6a599f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/CTS\\/measuring-codes\\/gem_stream\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stat"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "324fc7a2eb9623770d7e7d802794261dceacc9625463f4a0fd94799dbcd051c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nlc.hu",
+                "www.hazipatika.com",
+                "www.hirstart.hu",
+                "www.nosalty.hu",
+                "www.startlap.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/CTS\\/measuring-codes\\/hp\\.main\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "stat"
+            ],
+            "apis": {
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e9e828a60765cff58827f1f46e36f7e8eebb3ec6a0570dd43c3c7d58b06b8519"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hazipatika.com",
+                "www.hazipatika.com"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/CTS\\/helper-scripts\\/subscriptionDetect\\/subscriptionDetect\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stat"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "09b75e7992f61f4333fa6357fa343109331516f9a1c52eaafb78b64d69d2f53b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hazipatika.com",
+                "www.hazipatika.com",
+                "www.nosalty.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/hirstart\\/cts\\/jquery\\.blockUI\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "stat"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4d3c83c357ac3cf6f02129366bb555b5b549b5e6871c301bf7b12bbb35d8ea35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hirstart.hu",
+                "www.hirstart.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/centrallogo\\/cm5_102x16\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b4de38c44a65fa634cc6822b11c1182f7aeb784a389c261c9b6fa6dea7001c3a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hirstart.hu",
+                "www.hirstart.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/switcher\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1c7030ba74ec78b55e2edff620b6776018a6cc4fc1bce9f0f49b76c19b1df42b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hirstart.hu",
+                "www.hirstart.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/CTS\\/measuring-codes\\/nosalty\\.main\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7028da490bb2c0f91d3ab15dc0e97270132db7e99a82247e7996de20c3ddef9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nosalty.hu",
+                "www.nosalty.hu"
+            ]
+        },
+        {
+            "rule": "p24\\.hu\\/startlap\\/bt\\/btHelper\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "69c197ddac5d5a218138747b961726ca25989098e305a2445d56ee909310b448"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "startlap.hu",
+                "www.startlap.hu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000817,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9057971014492754
+        },
+        {
+            "domain": "p3g.hu",
+            "prevalence": 0.07246376811594203
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.021739130434782608
+        }
+    ],
+    "types": {
+        "Script": 89,
+        "Document": 6,
+        "Image": 8
+    },
+    "nameservers": [
+        "ns2.p24.hu",
+        "ns1.p24.hu",
+        "ns3.p24.hu"
+    ]
+}

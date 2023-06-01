@@ -1,0 +1,88 @@
+{
+    "domain": "tm-xm-gw2-prod.trafficmanager.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api-gw-prod-cus.xome.com",
+            "resolved": "tm-xm-gw2-prod.trafficmanager.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tm-xm-gw2-prod\\.trafficmanager\\.net\\/xda-data\\/api\\/widgets\\/price-history",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api-gw-prod-cus.xome.com",
+                    "resolved": "tm-xm-gw2-prod.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xome.com",
+                "www.xome.com"
+            ]
+        },
+        {
+            "rule": "tm-xm-gw2-prod\\.trafficmanager\\.net\\/xda-data\\/api\\/widgets\\/price-history",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api-gw-prod-cus.xome.com",
+                    "resolved": "tm-xm-gw2-prod.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "19cab3f34241ebe5518f5811869d9f075987d93c431793607003f192d9645114"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xome.com",
+                "www.xome.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "azure.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

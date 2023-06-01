@@ -1,0 +1,76 @@
+{
+    "domain": "revenuehunt.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "admin"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "revenuehunt\\.com\\/embed\\.js",
+            "cookies": 0.001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "admin"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "Date.prototype.getTime": 10,
+                "Document.cookie setter": 10,
+                "Navigator.prototype.userAgent": 10
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "8c95fb9f7fe0633ea94501b222eba5e1a485e741d0259437bd1a748ac1e9106b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "data-timeout": {
+                    "ttl": 604814,
+                    "length": 12,
+                    "prevalence": 0.001004016064257028,
+                    "uniqueness": 0.1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "utmSource": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "ausnaturalcare.com.au",
+                "www.boody.com.au",
+                "www.clubx.com.au",
+                "www.debras.com.au",
+                "www.electrickicks.com.au",
+                "www.hillshome.com.au",
+                "www.lovisa.com.au",
+                "www.nourishmeorganics.com.au",
+                "www.theteacentre.com.au",
+                "www.wolf4x4.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10
+    },
+    "nameservers": [
+        "martha.ns.cloudflare.com",
+        "arturo.ns.cloudflare.com"
+    ]
+}

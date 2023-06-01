@@ -1,0 +1,133 @@
+{
+    "domain": "spinnaker-js.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00221,
+    "sites": 22,
+    "subdomains": [
+        "apil1",
+        "cdn",
+        "polyfill"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "spinnaker-js\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apil1"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00191,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evenstadmusikk.no",
+                "hoie.no",
+                "lady.inspirasjonsblogg.jotun.no",
+                "morgenlevering.no",
+                "serie.no",
+                "uteinspirasjon.jotun.no",
+                "www.apotekhjem.no",
+                "www.brl.se",
+                "www.chilimobil.no",
+                "www.danmusikk.no",
+                "www.fineart.no",
+                "www.extra-leker.no",
+                "www.huseierne.no",
+                "www.komplettbank.no",
+                "www.megaflis.no",
+                "www.nito.no",
+                "www.rightpricetiles.no",
+                "www.skittfiske.no",
+                "www.skittjakt.no"
+            ]
+        },
+        {
+            "rule": "spinnaker-js\\.com\\/rc\\/30067\\/scripts\\/s\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ccf71f3eab3b7e8f211c7309575d28507958773982cd411705f20f1208085eca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jotun.no",
+                "uteinspirasjon.jotun.no"
+            ]
+        },
+        {
+            "rule": "spinnaker-js\\.com\\/v2\\/polyfill\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polyfill"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "34e4e4e998d1023cadeeda959be0f4fce5abe4eaf9d241782ae404e36446ecbf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apotekhjem.no",
+                "www.nito.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5454545454545454
+        },
+        {
+            "domain": "d2df291ti5v5sq.cloudfront.net",
+            "prevalence": 0.2727272727272727
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.18181818181818182
+        }
+    ],
+    "types": {
+        "Ping": 19,
+        "Script": 4
+    },
+    "nameservers": [
+        "skrue.drlinux.no",
+        "magica.drlinux.no"
+    ]
+}

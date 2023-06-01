@@ -1,0 +1,102 @@
+{
+    "domain": "soboten.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "smzdm"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "soboten\\.com\\/chat\\/frame\\/v2\\/entrance\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "smzdm"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3e4107428164f1f346dd41ba6fea6e76662f3f1fe9e481b033c81add308c5a5d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smzdm.com",
+                "post.smzdm.com"
+            ]
+        },
+        {
+            "rule": "soboten\\.com\\/chat\\/user\\/load\\.action",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smzdm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6e31ff878adedd03e769f8c2a565f5cbdbdff0237355899a6564d1f0131e6554"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smzdm.com",
+                "post.smzdm.com"
+            ]
+        },
+        {
+            "rule": "soboten\\.com\\/chat\\/msgOffline\\/offlineMsgSize\\.action",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smzdm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "53f8e9f606c1d6550d1c141b82d2f03513cb8581a5f0859088b2813fd0696421"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smzdm.com",
+                "post.smzdm.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns3.dnsv4.com",
+        "ns4.dnsv4.com"
+    ]
+}

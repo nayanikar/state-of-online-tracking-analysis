@@ -1,0 +1,95 @@
+{
+    "domain": "freshmarketer.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "freshmarketer\\.com\\/665667\\/1716784\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harveynorman.com.au",
+                "www.harveynorman.com.au"
+            ]
+        },
+        {
+            "rule": "freshmarketer\\.com\\/231705\\/804023\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d662c84202e92c466562e95260a3f52f4f90a643c1d46967ae60dcf1732eb61f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zarget_user_id": {
+                    "ttl": 31536004,
+                    "length": 36,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ramtrucks.com.au",
+                "www.renault.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-1236.awsdns-26.org",
+        "ns-284.awsdns-35.com",
+        "ns-800.awsdns-36.net",
+        "ns-1733.awsdns-24.co.uk"
+    ]
+}

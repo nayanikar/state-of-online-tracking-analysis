@@ -1,0 +1,182 @@
+{
+    "domain": "outseta.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "config"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "outseta\\.com\\/auth\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.languages": 1,
+                "window.sessionStorage": 1,
+                "window.localStorage": 1,
+                "document.fonts.check": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7389764760ad97f227b0b68d756a1fde165875d5d5ff5de6f6b949700a36368e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tinyhouse.com",
+                "www.tinyhouse.com"
+            ]
+        },
+        {
+            "rule": "outseta\\.com\\/profile\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "70c09910a06fee43fc24ebfa843d36369cfa80ecf1f919fbaf68c3e0219ec0bd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tinyhouse.com",
+                "www.tinyhouse.com"
+            ]
+        },
+        {
+            "rule": "outseta\\.com\\/nocode\\/tinyhouse\\.outseta\\.com\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c4b6a96c49bf66b972d95ffd3ffd24d5732fd9086a9ddb74a904dfd82ef9684d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tinyhouse.com",
+                "www.tinyhouse.com"
+            ]
+        },
+        {
+            "rule": "outseta\\.com\\/923\\.045d4f1bbfca0bfdd933\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "console.memory": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "22a62063187b50d59c33d808ad77ced521a88d85262fa4ff022cfd03652c8f1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tinyhouse.com",
+                "www.tinyhouse.com"
+            ]
+        },
+        {
+            "rule": "outseta\\.com\\/en-US\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tinyhouse.com",
+                "www.tinyhouse.com"
+            ]
+        },
+        {
+            "rule": "outseta\\.com\\/auth\\/tinyhouse\\.outseta\\.com\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tinyhouse.com",
+                "www.tinyhouse.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "jay.ns.cloudflare.com",
+        "lila.ns.cloudflare.com"
+    ]
+}

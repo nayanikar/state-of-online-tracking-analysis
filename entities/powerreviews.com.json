@@ -1,0 +1,135 @@
+{
+    "domain": "powerreviews.com",
+    "owner": {
+        "name": "PowerReviews, Inc.",
+        "displayName": "PowerReviews"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "ui"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "powerreviews\\.com\\/stable\\/4\\.0\\/ui\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ui"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "0b88f32471677fe1a70f788b5932d7e98e9ee06cd10ef419868f1b6c19bc32d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thenorthface.com.au",
+                "www.hillspet.com.au",
+                "www.hillspet.com"
+            ]
+        },
+        {
+            "rule": "powerreviews\\.com\\/stable\\/stable-4\\.0-version\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ui"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1024f615621ffa67cf9683a17bce6170cca75641c7bcd6197109da7ef5f202be"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thenorthface.com.au",
+                "www.hillspet.com.au",
+                "www.hillspet.com"
+            ]
+        },
+        {
+            "rule": "powerreviews\\.com\\/tag-builds\\/10415\\/4\\.0\\/styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ui"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "5dac88ac78f2c6747893150e7c267782b348beda603fb683cd8124e1c2ed1772"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thenorthface.com.au",
+                "www.hillspet.com.au",
+                "www.hillspet.com"
+            ]
+        },
+        {
+            "rule": "powerreviews\\.com\\/tag-builds\\/10415\\/4\\.0\\/ui\\.engine\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ui"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "622fc63407e12fd92010c0d2606cdcf1c336f64618a6e7c41b833d66f656b56d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hillspet.com.au",
+                "www.hillspet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 3,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "ns-1993.awsdns-57.co.uk",
+        "ns-12.awsdns-01.com",
+        "ns-1231.awsdns-25.org",
+        "ns-771.awsdns-32.net"
+    ]
+}

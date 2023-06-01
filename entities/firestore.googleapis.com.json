@@ -1,0 +1,142 @@
+{
+    "domain": "firestore.googleapis.com",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0012,
+    "sites": 12,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "firestore\\.googleapis\\.com\\/google\\.firestore\\.v1\\.Firestore\\/Listen\\/channel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "b239f58a902267abcb65021de0ff2a7f0065c1a552ed51c7d82895b386c23449",
+                "4f6975e506427be67f8744eb8736c508fb105a00baafc692eaecb6d18f95440d",
+                "c086cb8f59bd714e87ed1411cbed3d039e50bcb8f272a210488b066f86527f5a",
+                "b46a74a3cd4fc6324a14829e9c9cee16034600844e1adbf1f41c44b9e6786406",
+                "3f5ff879eb116d58c66ead45b6d319906c26552553396caee56226d04e1212cd",
+                "6915ead0195ae3509f5fdadf0ed9eb2730fbe80aeb273b04e92fe1868b5968d9",
+                "095ba8f53ce211004593d32df0fe9f3b2570f3d60a0b075f0855dea7615f63e4",
+                "63198a9e5ae60051bd7d1c9ab98c5a86a7de35568fbff693c6d8f45246f921fe"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baredfootwear.com",
+                "drizabone.com.au",
+                "hackernoon.com",
+                "quackr.io",
+                "rbsellars.com.au",
+                "rossiboots.com.au",
+                "www.ndtv.com",
+                "www.thegoodguys.com.au",
+                "www.tvguide.com"
+            ]
+        },
+        {
+            "rule": "firestore\\.googleapis\\.com\\/google\\.firestore\\.v1\\.Firestore\\/Listen\\/channel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f6bc8d148a76b8fb8f309d2cf1dd3316c19a7c7e7677211c3829ecd17af2641"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pornpen.ai",
+                "www.sparkydirect.com.au"
+            ]
+        },
+        {
+            "rule": "firestore\\.googleapis\\.com\\/google\\.firestore\\.v1\\.Firestore\\/Write\\/channel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a96c079a315cfe48681799497cf50d7fd512b9b61886a65f54db3015869da1c1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sparkydirect.com.au",
+                "www.sparkydirect.com.au"
+            ]
+        },
+        {
+            "rule": "firestore\\.googleapis\\.com\\/v1\\/projects\\/tgg-web-api\\/databases\\/\\(default\\)\\/documents:runQuery",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "11053579f5c71096d1c4846b53941c2c0627ef00f9826ca983cb918759178bdf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thegoodguys.com.au",
+                "www.thegoodguys.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7194244604316546
+        },
+        {
+            "domain": "letsconnect.at",
+            "prevalence": 0.17266187050359713
+        },
+        {
+            "domain": "sirv.com",
+            "prevalence": 0.07913669064748201
+        },
+        {
+            "domain": "gstatic.com",
+            "prevalence": 0.02877697841726619
+        }
+    ],
+    "types": {
+        "XHR": 9,
+        "Fetch": 6
+    },
+    "nameservers": []
+}

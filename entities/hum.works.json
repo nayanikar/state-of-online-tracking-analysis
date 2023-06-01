@@ -1,0 +1,305 @@
+{
+    "domain": "hum.works",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "mit",
+        "aap",
+        "dup"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hum\\.works\\/js\\/main\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mit",
+                "aap",
+                "dup"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "window.name": 4,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "70833e3f50625dcc083804d9ef60abcd21821035212206533a160eff3af2f2f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "hum_mit_visitor": {
+                    "ttl": 630720003,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "hum_aap_visitor": {
+                    "ttl": 630720003,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "hum_dup_visitor": {
+                    "ttl": 630720003,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mit.edu",
+                "direct.mit.edu",
+                "publications.aap.org",
+                "read.dukeupress.edu"
+            ]
+        },
+        {
+            "rule": "hum\\.works\\/events\\/api\\/tracker\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mit",
+                "aap",
+                "dup"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mit.edu",
+                "direct.mit.edu",
+                "publications.aap.org",
+                "read.dukeupress.edu"
+            ]
+        },
+        {
+            "rule": "hum\\.works\\/events\\/api\\/tracker\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mit",
+                "aap",
+                "dup"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "3dc41783bc210610411eea7d74719f665bc7f2dca1b9e65e220bc59db67d291f",
+                "f1897a24dd895a894565f624c6f89b533f3b3cd55b079cb2b120d4f2fd615d38",
+                "7e9395e27d8504a5eb6d4a5a3d666197b9de333795e879fe13665bc1d7fd4a7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mit.edu",
+                "direct.mit.edu",
+                "publications.aap.org",
+                "read.dukeupress.edu"
+            ]
+        },
+        {
+            "rule": "hum\\.works\\/events\\/api\\/visitor",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mit",
+                "aap",
+                "dup"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "d30684e4f041bb320852814805b68fc31aad868781ccfbc8984fd9544cd52660",
+                "8a2d11bc6b8344f611af44a41d6d578cc57c899b76e6837925f66f3c49294a38",
+                "916cdbbeff98041c3f1a025c29ba672279f3e0190c6476de3e2a93ec88461a66"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mit.edu",
+                "direct.mit.edu",
+                "publications.aap.org",
+                "read.dukeupress.edu"
+            ]
+        },
+        {
+            "rule": "hum\\.works\\/events\\/api\\/visitor",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mit",
+                "aap",
+                "dup"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mit.edu",
+                "direct.mit.edu",
+                "publications.aap.org",
+                "read.dukeupress.edu"
+            ]
+        },
+        {
+            "rule": "hum\\.works\\/events\\/api\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mit",
+                "aap",
+                "dup"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e5f1eb4d806641698a35efe20e098efd20d7d57a9b90ee69079d5bb650920726"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mit.edu",
+                "direct.mit.edu",
+                "publications.aap.org",
+                "read.dukeupress.edu"
+            ]
+        },
+        {
+            "rule": "hum\\.works\\/events\\/api\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mit",
+                "aap",
+                "dup"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mit.edu",
+                "direct.mit.edu",
+                "publications.aap.org",
+                "read.dukeupress.edu"
+            ]
+        },
+        {
+            "rule": "hum\\.works\\/events\\/api\\/tracker\\/campaigns",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mit",
+                "aap",
+                "dup"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "1c6b0187012f059c3de5dcb5f02981c3e0496141e3a98373ddf0aa2d094bc6f2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "hum_mit_visitor": 0.000013614147822417056,
+                "hum_aap_visitor": 0.000006807073911208528,
+                "hum_dup_visitor": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "mit.edu",
+                "direct.mit.edu",
+                "publications.aap.org",
+                "read.dukeupress.edu"
+            ]
+        },
+        {
+            "rule": "hum\\.works\\/events\\/api\\/tracker\\/campaigns",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mit",
+                "aap",
+                "dup"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "hum_mit_visitor": 0.000013614147822417056,
+                "hum_aap_visitor": 0.000006807073911208528,
+                "hum_dup_visitor": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "mit.edu",
+                "direct.mit.edu",
+                "publications.aap.org",
+                "read.dukeupress.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000408,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Preflight": 16,
+        "Fetch": 16
+    },
+    "nameservers": [
+        "ns-cloud-b4.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b2.googledomains.com"
+    ]
+}

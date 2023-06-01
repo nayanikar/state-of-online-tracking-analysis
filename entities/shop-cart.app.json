@@ -1,0 +1,65 @@
+{
+    "domain": "shop-cart.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "shop-cart\\.app\\/_product\\.ja",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a96ebd9cbcd8d602345d93ba3ce472999339cf915260bffb647285b3aeb16670"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "uCtrl2": {
+                    "ttl": 30,
+                    "length": 1,
+                    "prevalence": 0.00010068465565847765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alibaba.com",
+                "www.dhgate.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "alicdn.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "aprtn.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns38.domaincontrol.com",
+        "ns37.domaincontrol.com"
+    ]
+}

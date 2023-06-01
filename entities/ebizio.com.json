@@ -1,0 +1,138 @@
+{
+    "domain": "ebizio.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000136,
+    "sites": 20,
+    "subdomains": [
+        "cdn",
+        "checkout"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ebizio\\.com\\/ebizio-checkout\\/storefront-script\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 7,
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 9,
+                "window.localStorage": 8,
+                "Document.cookie getter": 1
+            },
+            "sites": 10,
+            "prevalence": 0.0000681,
+            "cnames": [],
+            "responseHashes": [
+                "1c00e4f648bdbf8147c429101a1dc75e45f3cf40058ae5de2a9d68c3f74b1921"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aimpoint.us",
+                "lapolicegear.com",
+                "skygeek.com",
+                "timneytriggers.com",
+                "www.aftfasteners.com",
+                "www.bbwheelsonline.com",
+                "www.penntoolco.com",
+                "www.rockbottomgolf.com",
+                "www.tobaccopipes.com",
+                "xssights.com"
+            ]
+        },
+        {
+            "rule": "ebizio\\.com\\/app\\/module_access",
+            "cookies": 0.0000613,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000613,
+            "cnames": [],
+            "responseHashes": [
+                "1affca5b36cc0673d7edb56f838313e8793116440a0221dcf49dc73e0787eee5",
+                "13d7b74bc5848a77b606087b302b8d1c2e5f1360dc5f91a2a9f5d1c5c2b0651c",
+                "9084fff8ca7d452dce64f22d8f2086d1e73a108ee1e81bd458fe4359e9d6563c",
+                "2dd9c31d1ec40e1dc4e2e550d447296194ed8a0df18a00d117e55aee583a0fee",
+                "fcfa3822378f56772bd597125b5d4db13c2972efec2007fb374390d8f99779f2",
+                "9f869221a638fcdda01876c7f46c69f0035ca548f3e7f2864ebc0c02716147cf",
+                "e0bd8da82884f08b4b0afb36337a3978c10c4d6989cc4b6d2fad49ab64b02a13",
+                "4185a704b609e5aac33c60cc064b8a6f55aa6dde7c003082764c1ebf6e24cb9c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aimpoint.us",
+                "skygeek.com",
+                "timneytriggers.com",
+                "www.aftfasteners.com",
+                "www.bbwheelsonline.com",
+                "www.penntoolco.com",
+                "www.rockbottomgolf.com",
+                "www.tobaccopipes.com",
+                "xssights.com"
+            ]
+        },
+        {
+            "rule": "ebizio\\.com\\/app\\/api\\/config",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "62d12620e19dfd0f1972a83490cfb8137e1d26801d6476413ee150a123e98b8b",
+                "cb24255448f98ae110127834789fba467366323a00b7825863b4b88054329a81"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bbwheelsonline.com",
+                "www.bbwheelsonline.com",
+                "www.rockbottomgolf.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000123,
+    "topInitiators": [
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.5238095238095238
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.047619047619047616
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 12
+    },
+    "nameservers": [
+        "ns33.domaincontrol.com",
+        "ns34.domaincontrol.com"
+    ]
+}

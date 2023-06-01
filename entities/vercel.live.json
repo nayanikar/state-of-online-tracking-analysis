@@ -1,0 +1,144 @@
+{
+    "domain": "vercel.live",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "vercel\\.live\\/_next-live\\/feedback\\/feedback\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "431821c2d417040d78afb8951c8937058f67eb6ba950adee58f65d4476d85eda",
+                "9375704bcc24e2dc4d9eb97444d33963adc3dc6c26c48580c2b30f78aad3e8a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nextjs.org",
+                "beta.nextjs.org",
+                "next.patreon.com",
+                "ptr.nwdb.info",
+                "vectr.com",
+                "www.valuemystuff.com"
+            ]
+        },
+        {
+            "rule": "vercel\\.live\\/_next-live\\/feedback\\/feedback\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b370217951e2829999cad230ff3b9d956cd8f6166dd88d1f97dd8cca561a7ba8"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nextjs.org",
+                "beta.nextjs.org"
+            ]
+        },
+        {
+            "rule": "vercel\\.live\\/api\\/feedback\\/auth\\/validate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nextjs.org",
+                "beta.nextjs.org"
+            ]
+        },
+        {
+            "rule": "vercel\\.live\\/api\\/feedback\\/comments\\/count",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6d40dea7092db37870af7d7190d22cd16c8bbcfd8a061af679cfb5fa36286b0a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nextjs.org",
+                "beta.nextjs.org"
+            ]
+        },
+        {
+            "rule": "vercel\\.live\\/_next-live\\/feedback\\/feedback\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "431821c2d417040d78afb8951c8937058f67eb6ba950adee58f65d4476d85eda"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vectr.com",
+                "www.valuemystuff.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 2,
+        "Fetch": 4,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns2.vercel-dns.com",
+        "ns1.vercel-dns.com"
+    ]
+}

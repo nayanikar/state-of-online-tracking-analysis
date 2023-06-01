@@ -1,0 +1,772 @@
+{
+    "domain": "matterport.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "my",
+        "static",
+        "events"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "matterport\\.com\\/show\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "072c063b2c0b56098b856cded693004350d0e37124b0b00468ab0642f98afb40",
+                "a88fa955c6d2f432fcf3b73ff4b9545dedc479026e581b526874e06b135c3043"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/css\\/showcase\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "44732e7108bbb01298e399e18317f99ceb09d7bb9347679c4962c12e7a86f222"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/css\\/unsupported_browser\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5ed047511b0a51a8265c1e9c6de2a180667d6946fbda8989e6caedaa52d1f0dd"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/webgl-vendors\\/three\\/0\\.146\\.0\\/three\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d8ab08403e71a4f42a35d70de1a32a47fe3746b8d61433c0facb181c649c8662"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/browser-check\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "792e5708e27a2b7d619358f08797f6a8ac273ac8effa04806ec5391e2923af37"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/showcase\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.platform": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "WebGLRenderingContext.prototype.getContextAttributes": 2,
+                "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "127ea4e9681131ed66ca8c654e9b0099595315a5db1ab61cd87418df92b222d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/api\\/v2\\/users\\/current",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dc85d0ac418c2765b1389bc8658257c2655ee763c5f5c456eb3c2573a3f11642"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/geoip\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "90fda2e56a6a38b52a28dc83305c2627a8dad3a5527b09d579ca6173067e5a01"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/995\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b89cc2bddf3927faef8ec90beabb38d61d8cdbabe11efa1f2fd48dbc52e4a014"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/514\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cdc4f3b940ae035b3599b583755576a7ba5f90708980c43087d3f6b7f59d6b2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/189\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ae28d91bfc914387dd5e4185b8bf54cd089f48f4d81139fcf73618c5e494a411"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/css\\/late\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0391c7aeefa2c2c650aca681ff1e039d275ba91702ce81f3b203b04b9744b59d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/136\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8a96c304e300b67433e88320deb5f52c3807a751c83ae81b1d248543c924a19b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/fonts\\/roboto-regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c27772223063a584622d2a2aca6808f595f4189b24977e847007210fcbaa9f16"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/api\\/mp\\/models\\/graph",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "aa3b3b0cece54ecee4afb0753fbc8c08fd69b14377e0a62486b17fff4683bc92",
+                "5713f81ff5de040df969df3caaff19e57a76895561dbe4b12c013fa1a6278cc3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/locale\\/messages\\/strings_de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5d5145a65a7f3030ebaa9072ecec7d3542243e70246a57b3848b6f37d04cd57e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/locale\\/strings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a547e9e238f57cfebab48418395fcee12d084a4d7ad86404994efc92cf3a2f8b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/47\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4b5b1486e0c523b25f905025406374de604c7597a67f95d83f96621bb768f060"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/764\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5e6b9aea1327355dbc22eaa284fb5f3bd78546d2aec4a7a5488079cb58d2eb19"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/917\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f0a0b9fbaadbf314485f1408f6f14ec377c026e41a63b670a188b2fc405b26f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/58\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3dd53c854e0343d1af58c0423f0b88653b75bf207750c1114003863b4e770680"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/css\\/core\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a9639725c9285ecb9a2b84310c2cb576b7a015717b278326dde742e9f8d58245"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/321\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8f571658d6216f1da3b85672d66ee71639e6831d43ee33cd11e572b464e172a3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/images\\/matterport-logo-light\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "05c08985d1b5d0c42211986328021e38eab71935854a25d7d5d6d352b3aef999"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/837\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ccdff8ffb7376e8c9ae5cf0203aec74ee61a912de3969699694fbf1edbe9a430"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/512\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9f2a388b517a380da2ceae97c150e031549f6b88d3fec3b788477d2107d51d9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/833\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "55e423070ea72793b0656af1c475ef6392bec0d217a0ecbc81288c2d03e56ae8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/api\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/api\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/324\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1336d428c0b24ea673be3658562a252a11f8a07be4f5d0066d77b5327612519c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/62\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "603af19913f6f0c76c389e5c287b5126f126d8cc63fcfeda0fd4725546cbccd1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "matterport\\.com\\/showcase\\/23\\.3\\.2_webgl-54-gcfa9b5835a\\/js\\/519\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "33129fcdc4a9a9b8054c3403a9cbaa3f9e8d863bcba6837bfd41796f14f4b7d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andana.ch",
+                "www.ursdrogerie.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 3,
+        "Stylesheet": 8,
+        "Script": 36,
+        "XHR": 10,
+        "Font": 2,
+        "Fetch": 3,
+        "Image": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-743.awsdns-28.net",
+        "ns-310.awsdns-38.com",
+        "ns-1614.awsdns-09.co.uk",
+        "ns-1448.awsdns-53.org"
+    ]
+}

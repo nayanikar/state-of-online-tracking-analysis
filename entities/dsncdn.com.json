@@ -1,0 +1,112 @@
+{
+    "domain": "dsncdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dsncdn\\.com\\/analytics\\.popper\\.min\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "89e3187f3404935e01ad9ff754133f24214ebbcc7f9550ab38b1cd1a728e5336"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dsncdn": {
+                    "ttl": 2592009,
+                    "length": 36,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alibaba.com",
+                "german.alibaba.com",
+                "spanish.alibaba.com",
+                "www.alibaba.com"
+            ]
+        },
+        {
+            "rule": "dsncdn\\.com\\/converson",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alibaba.com",
+                "german.alibaba.com",
+                "spanish.alibaba.com",
+                "www.alibaba.com"
+            ]
+        },
+        {
+            "rule": "dsncdn\\.com\\/converson",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alibaba.com",
+                "german.alibaba.com",
+                "spanish.alibaba.com",
+                "www.alibaba.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "alicdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "melinda.ns.cloudflare.com",
+        "jack.ns.cloudflare.com"
+    ]
+}

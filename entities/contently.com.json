@@ -1,0 +1,221 @@
+{
+    "domain": "contently.com",
+    "owner": {
+        "name": "Contently, Inc.",
+        "displayName": "Contently"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000749,
+    "sites": 11,
+    "subdomains": [
+        "assets",
+        "track"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "contently\\.com\\/insights\\/insights\\.js",
+            "cookies": 0.0000545,
+            "fingerprinting": 2,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 8,
+                "Document.cookie getter": 8,
+                "Document.cookie setter": 8,
+                "Navigator.prototype.platform": 8,
+                "Navigator.prototype.vendor": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "Date.prototype.getTimezoneOffset": 8
+            },
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "94762c8a9ca4d8136f043e5462241ed6a61ce15ba4b742363bee06a0d36cd881"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "x_contently_id_56e1eb60efd857578a3f3050f45a1634": {
+                    "ttl": 2592009,
+                    "length": 99,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "contently_insights_user": {
+                    "ttl": 63072005,
+                    "length": 20,
+                    "prevalence": 0.000054456591289668224,
+                    "uniqueness": 1
+                },
+                "x_contently_id_36cc4ab08e4562d1f45642a0d849a255": {
+                    "ttl": 2592018,
+                    "length": 99,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "x_contently_id_bade05db9e525d274e2f646905409b3f": {
+                    "ttl": 2592005,
+                    "length": 99,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "x_contently_id_ec579925774d41f324df21b9b5459d81": {
+                    "ttl": 2592002,
+                    "length": 99,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "x_contently_id_5b613a6e77b020349816fde8384a5132": {
+                    "ttl": 2592007,
+                    "length": 99,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "x_contently_id_740b642f9529547ecfbe98c84935375d": {
+                    "ttl": 2592004,
+                    "length": 99,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "x_contently_id_3370d0efafaafd2e80d7cf42e8b48887": {
+                    "ttl": 2592003,
+                    "length": 99,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "x_contently_id_1bb05bb65d3c661424a57ec161a695e8": {
+                    "ttl": 2592004,
+                    "length": 99,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "advanceautoparts.com",
+                "www.asurion.com",
+                "www.chime.com",
+                "www.pennington.com",
+                "www.prudential.com",
+                "www.rbc.com",
+                "www.synchronybank.com",
+                "www.synchrony.com"
+            ]
+        },
+        {
+            "rule": "contently\\.com\\/xdomain\\/xdomain_cookie\\.html",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 8,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "da6163d9ba896003c141927c68f9c98446924796e133785df80df411dd35e4af"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "x_contently_id_36cc4ab08e4562d1f45642a0d849a255": {
+                    "ttl": 2592018,
+                    "length": 99,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "x_contently_id_5b613a6e77b020349816fde8384a5132": {
+                    "ttl": 2592007,
+                    "length": 99,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "advanceautoparts.com",
+                "www.asurion.com",
+                "www.chime.com",
+                "www.pennington.com",
+                "www.prudential.com",
+                "www.rbc.com",
+                "www.synchronybank.com",
+                "www.synchrony.com"
+            ]
+        },
+        {
+            "rule": "contently\\.com\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "advanceautoparts.com",
+                "www.asurion.com",
+                "www.chime.com",
+                "www.pennington.com",
+                "www.prudential.com",
+                "www.rbc.com",
+                "www.synchronybank.com",
+                "www.synchrony.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000749,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.34782608695652173
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.34782608695652173
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.17391304347826086
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.08695652173913043
+        },
+        {
+            "domain": "knotch-cdn.com",
+            "prevalence": 0.043478260869565216
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Document": 8,
+        "Ping": 8
+    },
+    "nameservers": [
+        "ns-335.awsdns-41.com",
+        "ns-1160.awsdns-17.org",
+        "ns-2001.awsdns-58.co.uk",
+        "ns-519.awsdns-00.net"
+    ]
+}

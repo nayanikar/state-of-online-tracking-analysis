@@ -1,0 +1,154 @@
+{
+    "domain": "digitalwerksautomation.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "beacon",
+        "conversions",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "digitalwerksautomation\\.com\\/matomo\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d7fc375178c93a2fc15fd888e30170eedf4ef3d04497e7f951ab7bfe0c921693"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.93.1c28": {
+                    "ttl": 33955202,
+                    "length": 28,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_pk_ses.93.1c28": {
+                    "ttl": 1801,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mspca.org",
+                "www.mspca.org"
+            ]
+        },
+        {
+            "rule": "digitalwerksautomation\\.com\\/api\\/fb\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "conversions"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "115e5244fa5b4e5f2fa7c2b677a760c1e49bead2fddabf964cc347bfaab956ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mspca.org",
+                "www.mspca.org"
+            ]
+        },
+        {
+            "rule": "digitalwerksautomation\\.com\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mspca.org",
+                "www.mspca.org"
+            ]
+        },
+        {
+            "rule": "digitalwerksautomation\\.com\\/gettrackers\\/978d3144-d25d-11ed-8c73-16725369f13b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "89bf633cbfef229890514793602acde376d22c6e3a73ba347fe38bb80d9bb0e9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mspca.org",
+                "www.mspca.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Ping": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "rihana.ns.cloudflare.com",
+        "yichun.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "domain": "phone.community",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "cache",
+        "landline"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "phone\\.community\\/api\\/request-no-cache",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cache"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Document.prototype.interestCohort": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d5b9c0774bfbdbe1420ef4200122c1a8b8fd63f315b9a50566a80d2aee724b89"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "st_samesite": {
+                    "ttl": 0,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "fpestid": {
+                    "ttl": 31622400,
+                    "length": 70,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "communityphone.org",
+                "www.communityphone.org"
+            ]
+        },
+        {
+            "rule": "phone\\.community\\/webflow-ci\\/js\\/vendors\\/callroot\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cache"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "communityphone.org",
+                "www.communityphone.org"
+            ]
+        },
+        {
+            "rule": "phone\\.community\\/api\\/request",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cache"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f3496bc7c277d917d35553c46ed1597a86065494cac582e42a3a1d55aedef7fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "communityphone.org",
+                "www.communityphone.org"
+            ]
+        },
+        {
+            "rule": "phone\\.community\\/api\\/v2\\/checkout\\/sessions\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "landline"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "communityphone.org",
+                "www.communityphone.org"
+            ]
+        },
+        {
+            "rule": "phone\\.community\\/api\\/v2\\/checkout\\/sessions\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "landline"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "590038b74290479278d89b6bbe70a9248658591c037939f0e7bc17f20bd3c238"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "communityphone.org",
+                "www.communityphone.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns2.digitalocean.com",
+        "ns1.digitalocean.com"
+    ]
+}

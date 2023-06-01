@@ -1,0 +1,155 @@
+{
+    "domain": "verkada.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "command",
+        "vstream.command"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "verkada\\.com\\/embed\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "command"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "be0d21b81cc7d6faad04ce18babb924790dafd383d0b23e30a842a8fad032a90"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aspensnowmass.com",
+                "www.goldengate.org"
+            ]
+        },
+        {
+            "rule": "verkada\\.com\\/assets\\/vendors\\.51bcfaf9c31888083202\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "command"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "window.localStorage": 1,
+                "window.indexedDB": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e7bcce3537babd36d1f4a8df5e59f41b1293fd2a88d19fa60925acfedbb3cea4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aspensnowmass.com",
+                "www.goldengate.org"
+            ]
+        },
+        {
+            "rule": "verkada\\.com\\/assets\\/vendors\\.17ce9a8d7f48f7edb3cb\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "command"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f07149867b104d8a289fc5de077ec0cd3928172153bf26a31d44363dafc1933f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aspensnowmass.com",
+                "www.goldengate.org"
+            ]
+        },
+        {
+            "rule": "verkada\\.com\\/assets\\/stream\\.043866340e7a34c9d45e\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "command"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ed1f1459e599ccf2abbbe35e4b0077e0362b097617ecd2c425590898437292c4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aspensnowmass.com",
+                "www.goldengate.org"
+            ]
+        },
+        {
+            "rule": "verkada\\.com\\/filter\\/transcode\\/v2_5e6b538f34ff269e559a8f49fe40cc8c\\/a72649f7-c26a-419d-8793-668f071c14f0\\/low_res\\/livevideo\\.m3u8",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vstream.command"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "602d242de8c318bb8d4e081b7417d74c2ecbf2a7800ec12c64240ccf05e9be76"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aspensnowmass.com",
+                "www.aspensnowmass.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Script": 2,
+        "Stylesheet": 4,
+        "Media": 2
+    },
+    "nameservers": [
+        "ns-1582.awsdns-05.co.uk",
+        "ns-42.awsdns-05.com",
+        "ns-1267.awsdns-30.org",
+        "ns-860.awsdns-43.net"
+    ]
+}

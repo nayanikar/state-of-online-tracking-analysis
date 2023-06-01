@@ -1,0 +1,227 @@
+{
+    "domain": "morningstar.com",
+    "owner": {
+        "name": "Morningstar Inc",
+        "displayName": "Morningstar"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "quotespeed",
+        "pullqs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "morningstar\\.com\\/apis\\/api\\.jsp",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "quotespeed"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cc9a32be52d7268dae2cf42cebabe7b73926c95e2723915bd9fcb12d5b281871"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morningstar.ch",
+                "www.morningstar.ch"
+            ]
+        },
+        {
+            "rule": "morningstar\\.com\\/theme\\/default\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotespeed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e65bd53d52e225f7650d382bcfda1752bbf0db3c73bdcb3d32191fd3a3679bf6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morningstar.ch",
+                "www.morningstar.ch"
+            ]
+        },
+        {
+            "rule": "morningstar\\.com\\/theme\\/eurtl\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotespeed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d0029d14b7043edefc02f38bec23bc3a2a5e12f799f357649c382f4df672cb3f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morningstar.ch",
+                "www.morningstar.ch"
+            ]
+        },
+        {
+            "rule": "morningstar\\.com\\/theme\\/default\\/style\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotespeed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "66b8fe135c253ff07adfdc51e1ed10dd97b0a1bef469cb45b7b931750bc77ddc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morningstar.ch",
+                "www.morningstar.ch"
+            ]
+        },
+        {
+            "rule": "morningstar\\.com\\/theme\\/eurtl\\/style\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotespeed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2429d70446f3fdadb25742cec291295bd38618686972161e14a4922c853b07e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morningstar.ch",
+                "www.morningstar.ch"
+            ]
+        },
+        {
+            "rule": "morningstar\\.com\\/lib\\/jquery-3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotespeed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ff1523fb7389539c84c65aba19260648793bb4f5e29329d2ee8804bc37a3fe6e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morningstar.ch",
+                "www.morningstar.ch"
+            ]
+        },
+        {
+            "rule": "morningstar\\.com\\/lib\\/jquery-migrate\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "quotespeed"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a44c021f2dce1e7a506993aa19ee3cdb0af51295b1311c03f5118cebc2f7f518"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morningstar.ch",
+                "www.morningstar.ch"
+            ]
+        },
+        {
+            "rule": "morningstar\\.com\\/pullservice\\/pull\\/getPullQuote\\.jsp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pullqs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6b1300e2a29260ef7444995df460868d2cb86b34183e81b0fe1d023b42442324"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morningstar.ch",
+                "www.morningstar.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Stylesheet": 4,
+        "Script": 8,
+        "XHR": 2
+    },
+    "nameservers": [
+        "dns1.p04.nsone.net",
+        "dns2.p04.nsone.net",
+        "dns3.p04.nsone.net",
+        "dns4.p04.nsone.net",
+        "pdns205.ultradns.net",
+        "pdns205.ultradns.com",
+        "pdns205.ultradns.biz",
+        "pdns205.ultradns.org"
+    ]
+}

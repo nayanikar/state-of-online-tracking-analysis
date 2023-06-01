@@ -1,0 +1,289 @@
+{
+    "domain": "eu-west-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00341,
+    "sites": 34,
+    "subdomains": [
+        "production-klarna-il-shopify-osm.s3",
+        "cognito-identity",
+        "th5p9nuvnh.execute-api",
+        "prod-ses-proxy-ext-lb-9287c7c2cf3220a1.elb"
+    ],
+    "cnames": [
+        {
+            "original": "mediaweb.musicradio.com",
+            "resolved": "prod-ses-proxy-ext-lb-9287c7c2cf3220a1.elb.eu-west-1.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/c6f201ec5831ece50b964563a71f27f2850784a9\\/258\\.index\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "production-klarna-il-shopify-osm.s3"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [
+                "329173b311eb02ebad5191d3b7314d7ffaeb93d00504f46009f4392bbad28e8d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "camilla.com",
+                "merrypeople.com",
+                "sodastream.com.au",
+                "theoodie.com",
+                "www.4x4downunder.com.au",
+                "www.beserk.com.au",
+                "www.biome.com.au",
+                "www.boody.com.au",
+                "www.lovisa.com.au",
+                "www.lskd.co",
+                "www.petersheppard.com.au",
+                "www.thesurfboardwarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/c6f201ec5831ece50b964563a71f27f2850784a9\\/906\\.index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "production-klarna-il-shopify-osm.s3"
+            ],
+            "apis": {
+                "window.localStorage": 11,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+            },
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [
+                "2a9b3f702607965b68845d30e68378497922a32d923b15533e244615620e874f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "camilla.com",
+                "merrypeople.com",
+                "sodastream.com.au",
+                "theoodie.com",
+                "www.4x4downunder.com.au",
+                "www.beserk.com.au",
+                "www.biome.com.au",
+                "www.boody.com.au",
+                "www.lovisa.com.au",
+                "www.lskd.co",
+                "www.petersheppard.com.au",
+                "www.thesurfboardwarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "72d4dd351203909e37a504696cf72c72512f20ab1b4fc2cb8e27757683341405"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "classiccars.com",
+                "www.datacamp.com",
+                "www.rac.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "classiccars.com",
+                "miro.com",
+                "www.cars24.com",
+                "www.datacamp.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "11e865c41289098ffcc661b26e080515befd35a73f2d4d34078f134da7e2c1ba"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "miro.com",
+                "www.cars24.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prod\\/refcodes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "th5p9nuvnh.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caravanrvcamping.com.au",
+                "www.mygenerator.com.au"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prod\\/refcodes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "th5p9nuvnh.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "227d25c0409c84ec3cc752f00c31c6d47d41adc3c0bd3a31b53ca36fce2ee199"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caravanrvcamping.com.au",
+                "www.mygenerator.com.au"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/player\\/image\\.aspx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-ses-proxy-ext-lb-9287c7c2cf3220a1.elb"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "mediaweb.musicradio.com",
+                    "resolved": "prod-ses-proxy-ext-lb-9287c7c2cf3220a1.elb.eu-west-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "c4bcc697e4c0ac69d1cc6c29c72696c2b4457cac5bc07f51dda44535e9247449",
+                "1556053ac62d0b83279d1d5848006d343b4d3d58a6311363755e9219319ee5b8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "classicfm.com",
+                "www.heart.co.uk",
+                "www.smoothradio.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7454545454545455
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05454545454545454
+        },
+        {
+            "domain": "smct.io",
+            "prevalence": 0.03636363636363636
+        },
+        {
+            "domain": "savills.co.uk",
+            "prevalence": 0.03636363636363636
+        },
+        {
+            "domain": "botsify.com",
+            "prevalence": 0.03636363636363636
+        },
+        {
+            "domain": "qwtag.com",
+            "prevalence": 0.01818181818181818
+        },
+        {
+            "domain": "optimizely.com",
+            "prevalence": 0.01818181818181818
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.01818181818181818
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.01818181818181818
+        },
+        {
+            "domain": "uqd.io",
+            "prevalence": 0.01818181818181818
+        }
+    ],
+    "types": {
+        "Script": 24,
+        "XHR": 5,
+        "Preflight": 6,
+        "Fetch": 2,
+        "Image": 3
+    },
+    "nameservers": []
+}

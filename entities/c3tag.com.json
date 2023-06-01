@@ -1,0 +1,710 @@
+{
+    "domain": "c3tag.com",
+    "owner": {
+        "name": "C3 Metrics, Inc.",
+        "displayName": "C3 Metrics",
+        "privacyPolicy": "http://c3-metrics.com/",
+        "url": "http://c3-metrics.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000245,
+    "sites": 36,
+    "subdomains": [
+        "253-img",
+        "924-img",
+        "562-ct",
+        "img",
+        "444-ct",
+        "694-ct",
+        "218-ct",
+        "596-ct",
+        "352-ct",
+        "253-ct",
+        "804-ct",
+        "924-ct",
+        "810-ct",
+        "854-ct",
+        "793-ct",
+        "cdn-view",
+        "562-vt",
+        "839-vt"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "c3tag\\.com\\/v\\.gif",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "253-img",
+                "924-img"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "25b4ecfd3a740f29d76fe930a4cec9d41afa0cfd2bafa70ca4051bd3d5395d74"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cafepharma.com",
+                "www.cafepharma.com",
+                "www.premiumbeat.com"
+            ]
+        },
+        {
+            "rule": "c3tag\\.com\\/x\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "253-img",
+                "924-img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "25b4ecfd3a740f29d76fe930a4cec9d41afa0cfd2bafa70ca4051bd3d5395d74"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cafepharma.com",
+                "www.premiumbeat.com"
+            ]
+        },
+        {
+            "rule": "c3tag\\.com\\/c3metrics-562\\.js",
+            "cookies": 0.0000408,
+            "fingerprinting": 1,
+            "subdomains": [
+                "562-ct"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 6,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "6c219eefb79a9a5f30f921f0d0313b071bdc2fda19f5b4fb75b2dabb6b0973f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "C3UID-562": {
+                    "ttl": 220752003,
+                    "length": 20,
+                    "prevalence": 0.00004084244346725117,
+                    "uniqueness": 1
+                },
+                "C3UID": {
+                    "ttl": 220752003,
+                    "length": 20,
+                    "prevalence": 0.00004084244346725117,
+                    "uniqueness": 1
+                },
+                "C3S-562": {
+                    "ttl": 1804,
+                    "length": 2,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aaa.com",
+                "creditcard.usbank.com",
+                "locations.usbank.com",
+                "onlinebanking.usbank.com",
+                "www.h-dvisa.com",
+                "www.usbank.com"
+            ]
+        },
+        {
+            "rule": "c3tag\\.com\\/x\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.00015,
+            "cnames": [],
+            "responseHashes": [
+                "25b4ecfd3a740f29d76fe930a4cec9d41afa0cfd2bafa70ca4051bd3d5395d74"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creditcard.usbank.com",
+                "www.ezcater.com",
+                "onlinebanking.usbank.com",
+                "www.49ers.com",
+                "www.brainandlife.org",
+                "www.thrifty.com",
+                "locations.waxcenter.com",
+                "locations.usbank.com",
+                "waxcenter.com",
+                "www.bizjournals.com",
+                "www.vikings.com",
+                "lolesports.com",
+                "ryder.com",
+                "www.dollar.com",
+                "www.usbank.com",
+                "www.serta.com",
+                "aaa.com",
+                "palmbeachtan.com",
+                "www.premiumbeat.com",
+                "www.h-dvisa.com"
+            ]
+        },
+        {
+            "rule": "c3tag\\.com\\/x\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.00015,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.llflooring.com",
+                "aaa.com",
+                "www.usbank.com",
+                "palmbeachtan.com",
+                "www.49ers.com",
+                "ryder.com",
+                "www.serta.com",
+                "lolesports.com",
+                "www.bizjournals.com",
+                "locations.usbank.com",
+                "creditcard.usbank.com",
+                "www.premiumbeat.com",
+                "www.dollar.com",
+                "www.brainandlife.org",
+                "www.vikings.com",
+                "www.ringcentral.com",
+                "www.h-dvisa.com",
+                "onlinebanking.usbank.com",
+                "waxcenter.com",
+                "locations.waxcenter.com"
+            ]
+        },
+        {
+            "rule": "c3tag\\.com\\/c3metrics\\.js",
+            "cookies": 0.000116,
+            "fingerprinting": 0,
+            "subdomains": [
+                "562-ct",
+                "444-ct",
+                "694-ct",
+                "218-ct",
+                "596-ct",
+                "352-ct",
+                "253-ct",
+                "804-ct",
+                "924-ct",
+                "810-ct",
+                "854-ct",
+                "793-ct"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "472f4ffdb7bf860bcc152d66ca5282e74aaead3bad2e79af0ccfb1cb669c2a85",
+                "e8259ab911816a73298a5c7cbb2ed0132e68b454d701d487963002cd2d340792",
+                "ee635c1b6f11e72a397d9c4d55b5995eece8c4ee0244f80efb4089ac0a42f691",
+                "4f5c10826646fb08479def7bf6d0329fa2ed29b34f04e49b80914bc0118af210",
+                "adc5c42165e3f86ff840861fd62d57ec7a45495d45ceede1b541d5c2ece9c541",
+                "c673d6837b9d4e71b624b8404ff95a6b88e56a2def48ad968771f57e1adc40ba",
+                "ef01e69098d22d4f9eee4a8f0f9f18f5b7b4c14adf777aecacc0ac8791319f71",
+                "385eeda854a4fe4f0599a9a50107880ff552ec49e0880f5e124e22392832b99b",
+                "3fd7442035483433f579dcfac921be81ce288e8e453f7acfd365a73103ca3d9e",
+                "bcb91c3a8f78a0d20e60490f89e8c693418e7296165a63a737e3d8409612deed",
+                "080f510969ed27f40c2897a038297491e928b555ae9d6752c2f6245d5d74eea7",
+                "cf09d3eb434040562f10a87cc43d83a48a821a5bb340f87df53f02ce8399afd9",
+                "ff415bc73d46102f4f9bf49513f9b81910e1731a7143035bd3e6aa814abb3e78",
+                "ce49e3fe631e6ed074b621f25eebdb07a9826d7f9548a54021ed1ab96cc42937",
+                "cb3a896ff16f0c2ae83c2bc6aac0f0611d97aa09fbcdfd38209378bcbe45e836",
+                "3ca190da48d7e53bc39dcdafa960cf9ed4f39b74502ed93f030dc3930ed4c999"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "C3UID-562": 0.00004084244346725117,
+                "C3UID": 0.00011572025649054497,
+                "C3UID-444": 0.000013614147822417056,
+                "C3UID-218": 0.000006807073911208528,
+                "C3UID-596": 0.000006807073911208528,
+                "C3UID-352": 0.000006807073911208528,
+                "C3UID-253": 0.000006807073911208528,
+                "C3UID-804": 0.000006807073911208528,
+                "C3UID-924": 0.000006807073911208528,
+                "C3UID-810": 0.000006807073911208528,
+                "C3UID-854": 0.000006807073911208528,
+                "C3UID-793": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "aaa.com",
+                "creditcard.usbank.com",
+                "locations.usbank.com",
+                "locations.waxcenter.com",
+                "lolesports.com",
+                "onlinebanking.usbank.com",
+                "palmbeachtan.com",
+                "ryder.com",
+                "waxcenter.com",
+                "www.dollar.com",
+                "www.ezcater.com",
+                "www.h-dvisa.com",
+                "www.llflooring.com",
+                "www.premiumbeat.com",
+                "www.ringcentral.com",
+                "www.serta.com",
+                "www.thrifty.com",
+                "www.usbank.com"
+            ]
+        },
+        {
+            "rule": "c3tag\\.com\\/ctv4\\/ctcall\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "562-ct",
+                "444-ct",
+                "694-ct",
+                "218-ct",
+                "596-ct",
+                "352-ct",
+                "253-ct",
+                "804-ct",
+                "924-ct",
+                "810-ct",
+                "854-ct",
+                "793-ct"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000102,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "C3UID-562": 0.000020421221733625584,
+                "C3UID": 0.00009529903475691939,
+                "C3UID-444": 0.000013614147822417056,
+                "C3UID-218": 0.000006807073911208528,
+                "C3UID-596": 0.000006807073911208528,
+                "C3UID-352": 0.000006807073911208528,
+                "IR_gbd": 0.000013614147822417056,
+                "C3UID-253": 0.000006807073911208528,
+                "lotame_domain_check": 0.000006807073911208528,
+                "C3UID-804": 0.000006807073911208528,
+                "C3UID-924": 0.000006807073911208528,
+                "C3UID-810": 0.000006807073911208528,
+                "C3UID-854": 0.000006807073911208528,
+                "C3UID-793": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "usbank.com",
+                "locations.waxcenter.com",
+                "lolesports.com",
+                "onlinebanking.usbank.com",
+                "palmbeachtan.com",
+                "ryder.com",
+                "waxcenter.com",
+                "www.dollar.com",
+                "www.ezcater.com",
+                "www.llflooring.com",
+                "www.premiumbeat.com",
+                "www.ringcentral.com",
+                "www.serta.com",
+                "www.thrifty.com",
+                "www.usbank.com"
+            ]
+        },
+        {
+            "rule": "c3tag\\.com\\/c3metrics-444\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "444-ct"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ce239ae98f7416d76e038632e5ac8ae2b0d47908b6ef5116d4e5d0a746211d23"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "C3UID-444": {
+                    "ttl": 220752004,
+                    "length": 20,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "C3UID": {
+                    "ttl": 220752004,
+                    "length": 20,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "C3S-444": {
+                    "ttl": 1808,
+                    "length": 2,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "waxcenter.com",
+                "locations.waxcenter.com"
+            ]
+        },
+        {
+            "rule": "c3tag\\.com\\/v\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn-view"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availHeight": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "window.sessionStorage": 3,
+                "window.localStorage": 3,
+                "window.indexedDB": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.plugins": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 3,
+                "HTMLCanvasElement.prototype.toDataURL": 3,
+                "Navigator.prototype.languages": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Navigator.prototype.productSub": 3,
+                "window.innerHeight": 3,
+                "window.innerWidth": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e2a1c3dcfd068ce9915c7917a43c7bf42b34964f8f2e5146ccd7c930a15cdafe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viewfromthewing.com",
+                "www.49ers.com",
+                "www.bizjournals.com",
+                "www.brainandlife.org",
+                "www.vikings.com"
+            ]
+        },
+        {
+            "rule": "c3tag\\.com\\/",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "562-vt",
+                "839-vt"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "a0128dcd42eafe38a31cbcef2757e8253c221e6a6dcbaf57090e1ee0d124b336",
+                "0980b102058fa47b850b94023dcdfb37d67088e8c12c38d9238f0595798851c8"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "49ers.com",
+                "www.brainandlife.org",
+                "www.vikings.com"
+            ]
+        },
+        {
+            "rule": "c3tag\\.com\\/c3metrics-352\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "352-ct"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2fd284e0ed2d062dd30faad6a0f1715ae05b2b4a209978ea16b0ad70d7d32702"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "C3UID-352": {
+                    "ttl": 220752012,
+                    "length": 20,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "C3UID": {
+                    "ttl": 220752012,
+                    "length": 20,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "C3S-352": {
+                    "ttl": 1813,
+                    "length": 2,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollar.com",
+                "www.dollar.com"
+            ]
+        },
+        {
+            "rule": "c3tag\\.com\\/c3metrics-253\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "253-ct"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6413dc84a9875443113c7398aa9c3a3c7d1e9cf8180f094cb5267f7b99d881e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ezcater.com",
+                "www.ezcater.com"
+            ]
+        },
+        {
+            "rule": "c3tag\\.com\\/c3metrics-804\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "804-ct"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e7655ce5019f634dd6f7175eefdad0161ed91c9e8f7d4a72d4704d5fcb900df5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "C3UID-804": {
+                    "ttl": 220752002,
+                    "length": 20,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "C3UID": {
+                    "ttl": 220752002,
+                    "length": 20,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "C3S-804": {
+                    "ttl": 1802,
+                    "length": 2,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "llflooring.com",
+                "www.llflooring.com"
+            ]
+        },
+        {
+            "rule": "c3tag\\.com\\/c3metrics-793\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "793-ct"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a76e1c5ab6d43d22e3cd15448794219f55fe19f1c6d6a780783069a7cfbab3f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "C3UID-793": {
+                    "ttl": 220752004,
+                    "length": 20,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "C3UID": {
+                    "ttl": 220752004,
+                    "length": 20,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "C3S-793": {
+                    "ttl": 1810,
+                    "length": 2,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thrifty.com",
+                "www.thrifty.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0.000225,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3225806451612903
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.12903225806451613
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.12903225806451613
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.0967741935483871
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.0967741935483871
+        },
+        {
+            "domain": "clicktale.net",
+            "prevalence": 0.06451612903225806
+        },
+        {
+            "domain": "transcend.io",
+            "prevalence": 0.06451612903225806
+        },
+        {
+            "domain": "2mdn.net",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.016129032258064516
+        }
+    ],
+    "types": {
+        "Image": 5,
+        "Script": 36,
+        "Fetch": 40,
+        "Preflight": 22,
+        "Document": 3
+    },
+    "nameservers": [
+        "ns-1234.awsdns-26.org",
+        "ns-1706.awsdns-21.co.uk",
+        "ns-273.awsdns-34.com",
+        "ns-754.awsdns-30.net",
+        "ns1-38.azure-dns.com",
+        "ns2-38.azure-dns.net",
+        "ns3-38.azure-dns.org",
+        "ns4-38.azure-dns.info"
+    ]
+}

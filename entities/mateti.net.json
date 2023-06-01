@@ -1,0 +1,173 @@
+{
+    "domain": "mateti.net",
+    "owner": {
+        "name": "Webtrekk GmbH",
+        "displayName": "Webtrekk",
+        "privacyPolicy": "https://www.webtrekk.com/en/why-webtrekk/data-protection/",
+        "url": "http://webtrekk.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "cdn",
+        "778835614863159",
+        "688012155290337",
+        "r"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mateti\\.net\\/mcp\\/onsite\\.min\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "95eeb54c17fa87e861d4e6ac7b53e1a584fc7dd4546fddb3a1af36d22e07337b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wt_mcp_sid": {
+                    "ttl": 1806,
+                    "length": 10,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cucchiaio.it",
+                "www.heise.de",
+                "www.raiplay.it"
+            ]
+        },
+        {
+            "rule": "mateti\\.net\\/mcp\\/ls\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "778835614863159",
+                "688012155290337"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6b4b2143c99bf6594b6a5d2a7bca7086f0f01ca974134dcc33846695a878e992"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cucchiaio.it",
+                "www.heise.de"
+            ]
+        },
+        {
+            "rule": "mateti\\.net\\/rdfs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heise.de",
+                "www.heise.de"
+            ]
+        },
+        {
+            "rule": "mateti\\.net\\/rdfs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8dbbc16fe291e0f64a4273428fede46361bfed038dfdaf0037dc1b215a93b766"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heise.de",
+                "www.heise.de"
+            ]
+        },
+        {
+            "rule": "mateti\\.net\\/mate\\/688012155290337\\/html\\/86dd0200-6009-487e-8714-279018490221\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d00f027e7d673bc7b0597c2c1bf5adcc177e4613fb2fb676cfc4142a64233f1c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heise.de",
+                "www.heise.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "wt-safetag.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Document": 2,
+        "Preflight": 2,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns1.opteamax.de",
+        "ns2.opteamax.de",
+        "ns3.opteamax.de"
+    ]
+}

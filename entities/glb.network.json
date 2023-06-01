@@ -1,0 +1,130 @@
+{
+    "domain": "glb.network",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "ramp.bvd",
+        "igc"
+    ],
+    "cnames": [
+        {
+            "original": "services.bovada.lv",
+            "resolved": "ramp.bvd.glb.network"
+        },
+        {
+            "original": "services.ignitioncasino.eu",
+            "resolved": "igc.glb.network"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "glb\\.network\\/assets\\/apps\\/cross-messaging-app\\/receiver\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ramp.bvd",
+                "igc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "services.bovada.lv",
+                    "resolved": "ramp.bvd.glb.network"
+                },
+                {
+                    "original": "services.ignitioncasino.eu",
+                    "resolved": "igc.glb.network"
+                }
+            ],
+            "responseHashes": [
+                "d501eb55de6d50f418882fdfd5a22b2dfefb12d5b95934856d621ab53bd9ef6b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bovada.lv",
+                "www.bovada.lv",
+                "www.ignitioncasino.eu"
+            ]
+        },
+        {
+            "rule": "glb\\.network\\/services\\/jurisdiction\\/v2\\/access",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ramp.bvd",
+                "igc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "services.bovada.lv",
+                    "resolved": "ramp.bvd.glb.network"
+                },
+                {
+                    "original": "services.ignitioncasino.eu",
+                    "resolved": "igc.glb.network"
+                }
+            ],
+            "responseHashes": [
+                "62d576336261964b5f83bba4e19769ddae522407855b9f5b709aab5fd6dfb442"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bovada.lv",
+                "www.bovada.lv",
+                "www.ignitioncasino.eu"
+            ]
+        },
+        {
+            "rule": "glb\\.network\\/services\\/sports\\/event\\/v2\\/nav\\/A\\/description\\/basketball",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ramp.bvd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "services.bovada.lv",
+                    "resolved": "ramp.bvd.glb.network"
+                }
+            ],
+            "responseHashes": [
+                "adf13241cd0d142fe0803a2438d9d68b9a12185ef0c68d11b0c74a80d51aa20e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bovada.lv",
+                "www.bovada.lv"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Document": 3,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "ns1.cdnetdns.net",
+        "ns2.cdnetdns.net"
+    ]
+}

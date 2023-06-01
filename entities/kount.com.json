@@ -1,0 +1,86 @@
+{
+    "domain": "kount.com",
+    "owner": {
+        "name": "Equifax Inc.",
+        "displayName": "Equifax",
+        "privacyPolicy": "https://www.equifax.com/privacy/",
+        "url": "http://equifax.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "sg-staples",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "kount\\.com\\/js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sg-staples"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bureauengros.com",
+                "www.staples.ca"
+            ]
+        },
+        {
+            "rule": "kount\\.com\\/shopify\\/js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "b4442dc50c7023535abbb89d08cdbe57ddfa52d39e44038e5c64a22842474728",
+                "b66280aab71ce3f3b18c1c0a7775253594a8b92f8f53267e668178eee2b5e4ac",
+                "177d5211ceb545fcab7adfdff234b49ef9c6adf19aae18444153b0c1a9b16d4f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bureauengros.com",
+                "www.coastappliances.ca",
+                "www.staples.ca",
+                "www.wyze.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-662.awsdns-18.net",
+        "ns-416.awsdns-52.com",
+        "ns-1814.awsdns-34.co.uk",
+        "ns-1289.awsdns-33.org"
+    ]
+}

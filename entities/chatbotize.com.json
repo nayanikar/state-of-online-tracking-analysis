@@ -1,0 +1,124 @@
+{
+    "domain": "chatbotize.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "live-chat"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "chatbotize\\.com\\/chatbotize-entrypoint\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "live-chat"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.languages": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "039f0ee08ca5946dfaed00f9b421c6c127ab2858b6052bded5b0a0fc8db741e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_dd_s": {
+                    "ttl": 931,
+                    "length": 4,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roughcountry.com",
+                "www.tiptop.ca"
+            ]
+        },
+        {
+            "rule": "chatbotize\\.com\\/11\\.chatbotize-entrypoint\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "live-chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ce48f27f852a5af63ef35c113dcbef70f7bb7ef84b12f3a8f40f41a7024fce68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roughcountry.com",
+                "www.tiptop.ca"
+            ]
+        },
+        {
+            "rule": "chatbotize\\.com\\/7\\.chatbotize-entrypoint\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "live-chat"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.appVersion": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "83a051e5258e3b9d6b110dec85396e33dd9ba582d7ea0947298972331be5534b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roughcountry.com",
+                "www.tiptop.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "serena.ns.cloudflare.com",
+        "david.ns.cloudflare.com"
+    ]
+}

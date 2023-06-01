@@ -1,0 +1,150 @@
+{
+    "domain": "railway.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "aijsplayground-production.up",
+        "da.up"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "railway\\.app\\/initializeMendable",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aijsplayground-production.up"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7e895753d4e3aebf0a171127baea334925e0cee8fff7d8d1b515d1d254c7442d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "langchain.com",
+                "python.langchain.com"
+            ]
+        },
+        {
+            "rule": "railway\\.app\\/initializeMendable",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aijsplayground-production.up"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "langchain.com",
+                "python.langchain.com"
+            ]
+        },
+        {
+            "rule": "railway\\.app\\/umami\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "da.up"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ef16539c1d38c323f79d96e30ead5634e9d1ef6fe3edb28078291415ab43de35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dealdrop.com",
+                "www.dealdrop.com"
+            ]
+        },
+        {
+            "rule": "railway\\.app\\/api\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "da.up"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dealdrop.com",
+                "www.dealdrop.com"
+            ]
+        },
+        {
+            "rule": "railway\\.app\\/api\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "da.up"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "765c2f7cfb59b1fe6b0e92b58503bca01e9a040164487460824b047f07a81225"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dealdrop.com",
+                "www.dealdrop.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "unpkg.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Preflight": 4,
+        "Script": 2
+    },
+    "nameservers": [
+        "lina.ns.cloudflare.com",
+        "roan.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,136 @@
+{
+    "domain": "apicit.net",
+    "owner": {
+        "name": "KLOIS",
+        "displayName": "KLOIS"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "lb"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "apicit\\.net\\/loader\\.v8\\.php",
+            "cookies": 0.00101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lb"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10,
+                "Event.prototype.timeStamp": 5,
+                "Date.prototype.getTime": 8,
+                "window.innerWidth": 7,
+                "window.innerHeight": 7,
+                "Document.cookie getter": 9
+            },
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": [
+                "5de463d4349b164844ca55dac00882cfd868aa5ac61bf1dc231075687b4223f1",
+                "aefd6105ff531d72ffc766c181074c3ddf0032a310814564507ae0abc5653e5e",
+                "dc3b34acd7450456930444b22cdf1523fc1705901280b120807309f7d31ee080",
+                "3e5da7d90a8bf4a27a509d04ee1a19dba2334201785f1e8d2ee7cd9f4a1d8a2e",
+                "19179153b3f52d00ba09ee873811ccab7265e6e44f4839a29a016f87a392d8b4",
+                "410c51f6e859b0ff162518751f9d8e17ce3f64c800cbf46bedc0f30454c733af",
+                "ff3c739d004071a8e4b5c81136023b6ab7eb0d0a2b7ec2717971d7fad330b205",
+                "ab4020db5c76664dacfc39112b336ba8e61e0dffa5b57ab66026feabb5f9a374",
+                "551a395876d2ff93b31f1ab6e123024a97c06e571389c0651d652514c5baa5a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cuisinezavecdjouza.fr",
+                "syskb.com",
+                "www.aquaportail.com",
+                "www.automobile-sportive.com",
+                "www.bacfrancais.com",
+                "www.forumfr.com",
+                "www.kiwistreaming.com",
+                "www.lesdebiles.com",
+                "www.mon-ip.com",
+                "www.paroles-musique.com"
+            ]
+        },
+        {
+            "rule": "apicit\\.net\\/target\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6a912cc83f19218d8d6fb00a101f305d0cadc2c75b81096336aa27a534392d66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luko.eu",
+                "ignrando.fr"
+            ]
+        },
+        {
+            "rule": "apicit\\.net\\/target\\/ping\\.php",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "9d2213f55e2a7e9c39f715e26e2fcd2fae5e55cfc202febbd7454a9f2acf303c",
+                "cfbdbc7e16a125f1fb456f6dc1bfc6d0ef74e34b663b3a9381cf06825296029c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luko.eu",
+                "ignrando.fr",
+                "www.mathon.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00131,
+    "topInitiators": [
+        {
+            "domain": "clickintext.net",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "logbor.com",
+            "prevalence": 0.06666666666666667
+        },
+        {
+            "domain": "publicidees.com",
+            "prevalence": 0.06666666666666667
+        },
+        {
+            "domain": "tradedoubler.com",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Script": 15
+    },
+    "nameservers": [
+        "dns15.ovh.net",
+        "ns15.ovh.net"
+    ]
+}

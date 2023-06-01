@@ -1,0 +1,167 @@
+{
+    "domain": "marker.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "edge",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "marker\\.io\\/latest\\/shim\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "640447ed5f30c20621f9167df789fad29c5485b7cf364992104b78942283aef4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "employmentlawhandbook.com.au",
+                "halfpriceblinds.com.au"
+            ]
+        },
+        {
+            "rule": "marker\\.io\\/latest\\/3\\.v1\\.62\\.3\\.6128020cefaea0be18cf\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b242b96429bc00574ed1faf44dc5fb56d8b4bb3df36406220e0f9146ae509c85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "marker_id_63803ffda80c440167e1d41a": {
+                    "ttl": 23328009,
+                    "length": 36,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "employmentlawhandbook.com.au",
+                "halfpriceblinds.com.au"
+            ]
+        },
+        {
+            "rule": "marker\\.io\\/latest\\/4\\.v1\\.62\\.3\\.9c11e1d3975db1961b97\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "CanvasRenderingContext2D.prototype.measureText": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b5786d03c23811eece212fa786ddda0c0cd97543e11b3da6de77382729a5f322"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "employmentlawhandbook.com.au",
+                "halfpriceblinds.com.au"
+            ]
+        },
+        {
+            "rule": "marker\\.io\\/widget\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "employmentlawhandbook.com.au",
+                "halfpriceblinds.com.au"
+            ]
+        },
+        {
+            "rule": "marker\\.io\\/widget\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2f5585bbd1110657d560e5a8bc18731e633e013e248a18d9c42972bf6530c2a9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "employmentlawhandbook.com.au",
+                "halfpriceblinds.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "cody.ns.cloudflare.com",
+        "lara.ns.cloudflare.com"
+    ]
+}

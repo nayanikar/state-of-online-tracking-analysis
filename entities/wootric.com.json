@@ -1,0 +1,141 @@
+{
+    "domain": "wootric.com",
+    "owner": {
+        "name": "Wootric",
+        "displayName": "Wootric"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "cdn",
+        "eligibility"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wootric\\.com\\/wootric-sdk\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "c5f31b1b5359ef0ef90a8f6f42a58665343fbadefc8419bca90ef05932dca57d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "NPS_a22e04b1_last_seen": {
+                    "ttl": 7776016,
+                    "length": 13,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "NPS_496d0c79_last_seen": {
+                    "ttl": 7776005,
+                    "length": 13,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "NPS_bc24fa74_last_seen": {
+                    "ttl": 7776005,
+                    "length": 13,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "NPS_bc24fa74_throttle": {
+                    "ttl": 43207,
+                    "length": 13,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "logrocket.com",
+                "bluethumb.com.au",
+                "hub.docker.com",
+                "www.wine-searcher.com"
+            ]
+        },
+        {
+            "rule": "wootric\\.com\\/eligible\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eligibility"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "c3f614f354a84d4e12374e55178c6142b604106b4d75d783d4aef080fd40a244",
+                "75d8bdc5c0ef91d0bd96c1e4120189ef203cf5c105b646b94679148694a72ff8",
+                "7eb31970bfccc806663facf39461bc142fd62c25657def5d57eae3b6463e8e17"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ajs_anonymous_id": 0.00020080321285140563,
+                "NPS_a22e04b1_last_seen": 0.00020080321285140563,
+                "NPS_496d0c79_last_seen": 0.00010040160642570282,
+                "NPS_bc24fa74_last_seen": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "logrocket.com",
+                "blog.logrocket.com",
+                "bluethumb.com.au",
+                "www.wine-searcher.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "lr-in-prod.com",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "lr-wa.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "d27j601g4x0gd5.cloudfront.net",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+    ]
+}

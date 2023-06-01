@@ -1,0 +1,149 @@
+{
+    "domain": "desjardins.com",
+    "owner": {
+        "name": "Desjardins Group",
+        "displayName": "Desjardins"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "desjardins\\.com\\/fw\\/qualtrics\\/lastversion\\/js\\/OrchestratorMain\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "window.sessionStorage": 4,
+                "window.localStorage": 4,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "db4fba9cf7f2e888ed8714deb099b324ee1b4c0a3f27170cd04263c64e8f5059"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1681927802,
+                    "length": 1,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 0.3333333333333333
+                },
+                "QSI_HistorySession": {
+                    "ttl": null,
+                    "length": 51,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "desjardinslifeinsurance.com",
+                "www.disnat.com",
+                "www.lapersonnelle.com",
+                "www.thepersonal.com"
+            ]
+        },
+        {
+            "rule": "desjardins\\.com\\/fw\\/qualtrics\\/lastversion\\/js\\/CoreModule\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "45ec6ae40e500521fec91a52fcaca5f39222177890783f46dd38a80961a2573b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disnat.com",
+                "www.lapersonnelle.com",
+                "www.thepersonal.com"
+            ]
+        },
+        {
+            "rule": "desjardins\\.com\\/fw\\/qualtrics\\/lastversion\\/js\\/3\\.5972fa8612e068987ea0\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "62d0e8104f44a723072ee9278c4b111311ca7074c36b8b4991c8d26349318b18"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disnat.com",
+                "www.lapersonnelle.com",
+                "www.thepersonal.com"
+            ]
+        },
+        {
+            "rule": "desjardins\\.com\\/fw\\/qualtrics\\/lastversion\\/js\\/5\\.d7c709b3a743309fc345\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d36bd2e20f40a25a7783b1b7ffcc95b2801cfc5daa7eddb717b1ee34004ab7db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disnat.com",
+                "www.lapersonnelle.com",
+                "www.thepersonal.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 13
+    },
+    "nameservers": []
+}

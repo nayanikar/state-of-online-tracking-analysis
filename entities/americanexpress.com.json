@@ -1,0 +1,464 @@
+{
+    "domain": "americanexpress.com",
+    "owner": {
+        "name": "American Express Company",
+        "displayName": "American Express Company"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "tms",
+        "functions",
+        "one-xp",
+        "www",
+        "consumer-travel",
+        "lpchat",
+        "iwmapapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "americanexpress\\.com\\/amex\\/prod\\/code\\/ff0f02e5ee110854a2bbeefee8cea073\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9f1ec9642750dba96e8926170c47f24e8c41bb64c22a2fbadef90d2e4a0b69a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/ReadScriptRegistry\\.v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "functions"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "63fa0ce0be854c44d515280e3ca958323973c07f44045d73c3437b38e4824e3b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/variant\\/find",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "one-xp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6938d95c089fb004de99894f6916f537831f4d9b82c671749070e12c8112ed89"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/ReadUserSession\\.v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "functions"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fc0ee9476197548dbfb6314915f5e97a80d1983e7dd441572ca23771f351a5c5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/08XHJC\\/J5r9f\\/IW1i5\\/iQ\\/k1af6VNGi9OV\\/MmxYFhMB\\/Ml0abno\\/OThI",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "window.outerWidth": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.onLine": 2,
+                "Navigator.prototype.storage": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.mediaDevices": 2,
+                "Navigator.prototype.permissions": 2,
+                "Navigator.prototype.webkitTemporaryStorage": 2,
+                "Navigator.prototype.webdriver": 2,
+                "speechSynthesis.__proto__.getVoices": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "window.sessionStorage": 2,
+                "window.indexedDB": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.devicePixelRatio": 2,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "DeviceMotionEvent.prototype.acceleration": 2,
+                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 2,
+                "DeviceMotionEvent.prototype.rotationRate": 2,
+                "DeviceOrientationEvent.prototype.alpha": 2,
+                "DeviceOrientationEvent.prototype.beta": 2,
+                "DeviceOrientationEvent.prototype.gamma": 2,
+                "Navigator.prototype.connection": 2,
+                "Performance.prototype.memory": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/_\\/report\\/security\\/csp-violation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-travel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/le_unified_window\\/10\\.26\\.0\\.0-release_5560\\/ui-framework\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lpchat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3e4f5d07904cf355da7bfbca5d4eee18a4c09fc9e6a79df958d0bb1225572983"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/le_unified_window\\/10\\.26\\.0\\.0-release_5560\\/UMSClientAPI\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lpchat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "57554877947a356911e17034359412ea444c15f58884c0100062788dd3660bb8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/le_unified_window\\/10\\.26\\.0\\.0-release_5560\\/lpChatV3\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lpchat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5941d1622373ff4da4a0ec6ae2c474a80f2e65763aca377b069690ed4cc26d02"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/le_unified_window\\/10\\.26\\.0\\.0-release_5560\\/surveylogicinstance\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lpchat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0ca2d5d4dece21114294a8783944cdd00a4351935831b27f9a83b8eb543c6438"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/le_secure_storage\\/3\\.20\\.0\\.0-release_5080\\/storage\\.secure\\.min\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lpchat"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "287cdbeac6168db5e2e7a1320b41059ca7969631f4b2d048dc8faa37d5e8fb48"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/beacon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iwmapapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/le_unified_window\\/10\\.26\\.0\\.0-release_5560\\/desktopEmbedded\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lpchat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ee154a894141cd3c4b00a7538eaba115b66356dadc2f72425a72b6b6ba395a7b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/beacon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iwmapapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/le_re\\/3\\.54\\.0\\.2-release_5148\\/jsv2\\/overlay\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lpchat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "37a354905cd44e5e4482d4f750f5a347ab982f8e1db12111462232328f2e9af9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\/le_re\\/3\\.54\\.0\\.2-release_5148\\/jsv2\\/UISuite\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lpchat"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9bebc276e1808d8b0b29ad4ab94d77652bf14f69839f540b8a874f82d73d5a51"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amextravel.com",
+                "www.amextravel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "aexp-static.com",
+            "prevalence": 0.41304347826086957
+        },
+        {
+            "domain": "liveperson.net",
+            "prevalence": 0.34782608695652173
+        },
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 0.21739130434782608
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.021739130434782608
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Fetch": 6,
+        "XHR": 4,
+        "Other": 2,
+        "Document": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "a24-67.akam.net",
+        "a8-64.akam.net",
+        "a13-65.akam.net",
+        "a22-66.akam.net",
+        "a9-65.akam.net",
+        "a1-196.akam.net"
+    ]
+}

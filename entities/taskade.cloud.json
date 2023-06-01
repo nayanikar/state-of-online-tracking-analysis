@@ -1,0 +1,121 @@
+{
+    "domain": "taskade.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "sentry",
+        "rudderstack"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "taskade\\.cloud\\/api\\/6\\/envelope\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sentry"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taskade.com",
+                "www.taskade.com"
+            ]
+        },
+        {
+            "rule": "taskade\\.cloud\\/v1\\/page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rudderstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taskade.com",
+                "www.taskade.com"
+            ]
+        },
+        {
+            "rule": "taskade\\.cloud\\/v1\\/page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rudderstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taskade.com",
+                "www.taskade.com"
+            ]
+        },
+        {
+            "rule": "taskade\\.cloud\\/api\\/3\\/envelope\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sentry"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6584cc9e7a24c58403e0e47719e53c63a8e10145d1b23f10d266b775e0da2190"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taskade.com",
+                "www.taskade.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "connie.ns.cloudflare.com",
+        "will.ns.cloudflare.com"
+    ]
+}

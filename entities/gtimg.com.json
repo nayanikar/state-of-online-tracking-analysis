@@ -1,0 +1,149 @@
+{
+    "domain": "gtimg.com",
+    "owner": {
+        "name": "Tencent Holdings Ltd.",
+        "displayName": "Tencent"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "captcha"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gtimg\\.com\\/1\\/tcaptcha-frame\\.00dc54e7\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "captcha"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.languages": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8bedcb9f62e57922e26bbf0cbed87c01bb5b9af5b7026bf5e83dd2b4b74292a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monkey.app",
+                "www.monkey.app"
+            ]
+        },
+        {
+            "rule": "gtimg\\.com\\/1\\/template\\/drag_ele\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "captcha"
+            ],
+            "apis": {
+                "window.name": 1,
+                "Navigator.prototype.appVersion": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "988ba1e4ddc72cbc53baca346907df71afaac2423b471026cbfcbfe79cd2e30c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monkey.app",
+                "www.monkey.app"
+            ]
+        },
+        {
+            "rule": "gtimg\\.com\\/1\\/dy-jy\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "captcha"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "91068663fee39b77cfb4474d80593b810fd77151f9b74758a77b5e1fcbbfa33a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monkey.app",
+                "www.monkey.app"
+            ]
+        },
+        {
+            "rule": "gtimg\\.com\\/1\\/dy-ele\\.859efd05\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "captcha"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.orientation": 2,
+                "window.screenX": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0660c903b6ab1acc256f94c70f9f9e2197d27a3c4a9c280b07d3da8ea2c2535a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monkey.app",
+                "www.monkey.app"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "qq.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "qcloud.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns2.qq.com",
+        "ns4.qq.com",
+        "ns3.qq.com",
+        "ns1.qq.com"
+    ]
+}

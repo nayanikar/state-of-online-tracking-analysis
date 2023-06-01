@@ -1,0 +1,147 @@
+{
+    "domain": "upclick.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "gate",
+        "cgate.sodapdf",
+        "store.pdfforge-org"
+    ],
+    "cnames": [
+        {
+            "original": "cgate.sodapdf.com",
+            "resolved": "cgate.sodapdf.upclick.com"
+        },
+        {
+            "original": "store.pdfforge.org",
+            "resolved": "store.pdfforge-org.upclick.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "upclick\\.com\\/btn\\/visitor\\.min\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gate"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "7d528b4e0a23066b3ca098bf67a953053da106d378fb370a7794bc4ffeafa7e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vst": {
+                    "ttl": 10368001,
+                    "length": 12,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pdfescape.com",
+                "www.pdfescape.com",
+                "www.pdfforge.org",
+                "www.sodapdf.com"
+            ]
+        },
+        {
+            "rule": "upclick\\.com\\/click\\.aspx",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gate",
+                "cgate.sodapdf"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "cgate.sodapdf.com",
+                    "resolved": "cgate.sodapdf.upclick.com"
+                }
+            ],
+            "responseHashes": [
+                "c78bf59ce77e2917422a9e7509414ccc942203e2dd763af1d80422d5d424a7cc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "qti": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "pdfescape.com",
+                "www.pdfescape.com",
+                "www.sodapdf.com"
+            ]
+        },
+        {
+            "rule": "upclick\\.com\\/clickgate\\/click\\.aspx",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "store.pdfforge-org"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "store.pdfforge.org",
+                    "resolved": "store.pdfforge-org.upclick.com"
+                }
+            ],
+            "responseHashes": [
+                "c78bf59ce77e2917422a9e7509414ccc942203e2dd763af1d80422d5d424a7cc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "qti": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "pdfforge.org",
+                "www.pdfforge.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000408,
+    "topInitiators": [
+        {
+            "domain": "lulusoft.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "upclick.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns1.upclick.com",
+        "ns2.upclick.com"
+    ]
+}

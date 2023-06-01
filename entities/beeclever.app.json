@@ -1,0 +1,64 @@
+{
+    "domain": "beeclever.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "gdpr-legal-cookie"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "beeclever\\.app\\/get-script\\.php",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "gdpr-legal-cookie"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2ca947717180a69e286622be12e526e11b9015cdae816107110fc0f89f29206e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kaffeemacher.ch",
+                "stack-grill.de",
+                "www.fontis-shop.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns1046.ui-dns.org",
+        "ns1075.ui-dns.biz",
+        "ns1087.ui-dns.com",
+        "ns1107.ui-dns.de"
+    ]
+}

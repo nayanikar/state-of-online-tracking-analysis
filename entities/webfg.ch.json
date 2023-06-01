@@ -1,0 +1,83 @@
+{
+    "domain": "webfg.ch",
+    "owner": {
+        "name": "Julio Bueso",
+        "displayName": "Julio Bueso"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "prod1.solutions"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "webfg\\.ch\\/restweb\\/chartsdata\\/998089-4-1",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod1.solutions"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vermoegenszentrum.ch",
+                "www.vermoegenszentrum.ch"
+            ]
+        },
+        {
+            "rule": "webfg\\.ch\\/restweb\\/chartsdata\\/998089-4-1",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod1.solutions"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c983465c5b7c92e857eab35a1d837870340e501eac7fa0aab6b6c9faac552f52"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vermoegenszentrum.ch",
+                "www.vermoegenszentrum.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "lesechos.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "pns31.cloudns.net",
+        "dns01.webfg.ch",
+        "pns32.cloudns.net"
+    ]
+}

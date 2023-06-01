@@ -1,0 +1,127 @@
+{
+    "domain": "vidora.com",
+    "owner": {
+        "name": "Vidora, Inc.",
+        "displayName": "Vidora",
+        "privacyPolicy": "https://www.vidora.com",
+        "url": "http://vidora.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00161,
+    "sites": 16,
+    "subdomains": [
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "vidora\\.com\\/js\\/vidora-client\\.1\\.x\\.x\\.min\\.js",
+            "cookies": 0.00151,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "window.sessionStorage": 15,
+                "window.localStorage": 15,
+                "Document.cookie getter": 15,
+                "Date.prototype.getTime": 15,
+                "Document.cookie setter": 15,
+                "Navigator.prototype.userAgent": 14
+            },
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "2c5660f641ca8b2a795f976360ed032a7226aa4aee2ac8cad40723938f824790"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vidoraUserId": {
+                    "ttl": 5256010,
+                    "length": 30,
+                    "prevalence": 0.0015060240963855422,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heraldsun.com.au",
+                "www.adelaidenow.com.au",
+                "www.cairnspost.com.au",
+                "www.codesports.com.au",
+                "www.couriermail.com.au",
+                "www.dailytelegraph.com.au",
+                "www.escape.com.au",
+                "www.geelongadvertiser.com.au",
+                "www.goldcoastbulletin.com.au",
+                "www.heraldsun.com.au",
+                "www.news.com.au",
+                "www.ntnews.com.au",
+                "www.thechronicle.com.au",
+                "www.themercury.com.au",
+                "www.townsvillebulletin.com.au"
+            ]
+        },
+        {
+            "rule": "vidora\\.com\\/v1\\/validate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adelaidenow.com.au",
+                "www.cairnspost.com.au",
+                "www.codesports.com.au",
+                "www.couriermail.com.au",
+                "www.dailytelegraph.com.au",
+                "www.escape.com.au",
+                "www.geelongadvertiser.com.au",
+                "www.goldcoastbulletin.com.au",
+                "www.heraldsun.com.au",
+                "www.news.com.au",
+                "www.ntnews.com.au",
+                "www.thechronicle.com.au",
+                "www.themercury.com.au",
+                "www.townsvillebulletin.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00151,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.967741935483871
+        },
+        {
+            "domain": "newscdn.com.au",
+            "prevalence": 0.03225806451612903
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "Ping": 14
+    },
+    "nameservers": [
+        "ns-548.awsdns-04.net",
+        "ns-1819.awsdns-35.co.uk",
+        "ns-240.awsdns-30.com",
+        "ns-1412.awsdns-48.org"
+    ]
+}

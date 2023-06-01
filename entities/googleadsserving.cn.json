@@ -1,0 +1,87 @@
+{
+    "domain": "googleadsserving.cn",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "googleadsserving\\.cn\\/pagead\\/js\\/r20230417\\/r20110914\\/elements\\/html\\/omrhp\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "6d95ea547b0974a09d61104fa136f5eb6973466b6358fb06d997cc7f20ee71b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toutcomment.com",
+                "forum.wireltern.ch",
+                "www.femina.ch"
+            ]
+        },
+        {
+            "rule": "googleadsserving\\.cn\\/pagead\\/js\\/r20230417\\/r20110914\\/abg_lite\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2e6a2c48ddf656dd18431ca6f656e4d671a93141d2db4f304587d74280ecfbe4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toutcomment.com",
+                "forum.wireltern.ch",
+                "www.femina.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns4.google.com",
+        "ns1.google.com",
+        "ns2.google.com",
+        "ns3.google.com"
+    ]
+}

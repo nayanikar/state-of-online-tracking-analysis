@@ -1,0 +1,335 @@
+{
+    "domain": "servicebell.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "api",
+        "ws",
+        "uploads"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "servicebell\\.com\\/main\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.mediaDevices": 2,
+                "Navigator.prototype.appName": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.localStorage": 2,
+                "RTCPeerConnection.prototype.constructor": 2,
+                "MediaDevices.prototype.enumerateDevices": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e7465ca420319e56babcd99d8ae182995b3e2ec57258fda734a52434a84298c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_dd_s": {
+                    "ttl": 907,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "servicebelltoken_2145995173": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossrivertherapy.com",
+                "www.crossrivertherapy.com"
+            ]
+        },
+        {
+            "rule": "servicebell\\.com\\/app\\.4ba8dc30f8c7ce559c1a0dc48aaaf5b3fa348289\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9f8f7d2125d9096d917daf66604301a8ac91b55909986653c2a8125e52c0cb41"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossrivertherapy.com",
+                "www.crossrivertherapy.com"
+            ]
+        },
+        {
+            "rule": "servicebell\\.com\\/app\\.4ba8dc30f8c7ce559c1a0dc48aaaf5b3fa348289\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.localStorage": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5b4d616982aa2fa1e7fdf741d79b682a43769b574d58b2e31d35333679402a3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossrivertherapy.com",
+                "www.crossrivertherapy.com"
+            ]
+        },
+        {
+            "rule": "servicebell\\.com\\/assets\\/sprite\\.5952617d\\.\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f941a72a6c7451bcca7ce24532a42ad33bb27a7e2507999aeba528013cd67a2f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossrivertherapy.com",
+                "www.crossrivertherapy.com"
+            ]
+        },
+        {
+            "rule": "servicebell\\.com\\/api\\/v1\\/visitor\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3658bc1e4567e619bda92aa1a293c939ff6fddb415e63f65a6f8fe014ff97ac0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossrivertherapy.com",
+                "www.crossrivertherapy.com"
+            ]
+        },
+        {
+            "rule": "servicebell\\.com\\/v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossrivertherapy.com",
+                "www.crossrivertherapy.com"
+            ]
+        },
+        {
+            "rule": "servicebell\\.com\\/cdn-cgi\\/image\\/width=320,height=448,f=auto\\/video\\/woman-3-700\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uploads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b48256434846a4c62642a05adad723d29d8a12799d0ed5cb1cb7253569dc9593"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossrivertherapy.com",
+                "www.crossrivertherapy.com"
+            ]
+        },
+        {
+            "rule": "servicebell\\.com\\/cdn-cgi\\/image\\/width=80,height=80,f=auto\\/avatars\\/2145398164\\.09bc5bb87df34326b8ac3294a10a76ca\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uploads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7ca2575c93abcc748f7e9d01280d5a2fbbc49046dfe612522339a943d69b4749"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossrivertherapy.com",
+                "www.crossrivertherapy.com"
+            ]
+        },
+        {
+            "rule": "servicebell\\.com\\/video\\/woman-3-400\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uploads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossrivertherapy.com",
+                "www.crossrivertherapy.com"
+            ]
+        },
+        {
+            "rule": "servicebell\\.com\\/cdn-cgi\\/image\\/width=40,height=40,f=auto\\/avatars\\/2145398164\\.09bc5bb87df34326b8ac3294a10a76ca\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uploads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "137dcf16f3ce3b3c8464c83dece38087447e30d3677faf3aa8dc49ae4f9662bf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossrivertherapy.com",
+                "www.crossrivertherapy.com"
+            ]
+        },
+        {
+            "rule": "servicebell\\.com\\/cdn-cgi\\/image\\/width=160,height=160,f=auto\\/avatars\\/2145398164\\.09bc5bb87df34326b8ac3294a10a76ca\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uploads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e73fd49fc8590fc2469e1bbdcf2d5b179cdb910febe400856ad45e4cb731f868"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossrivertherapy.com",
+                "www.crossrivertherapy.com"
+            ]
+        },
+        {
+            "rule": "servicebell\\.com\\/cdn-cgi\\/image\\/width=400,height=400,f=auto\\/avatars\\/2145398164\\.09bc5bb87df34326b8ac3294a10a76ca\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uploads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ceaaae47f91d80d83cd28764d108a953b0c402fbb9270557dd2e9954fe90ed3f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossrivertherapy.com",
+                "www.crossrivertherapy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2,
+        "Fetch": 4,
+        "WebSocket": 2,
+        "Image": 10,
+        "Media": 2
+    },
+    "nameservers": [
+        "alla.ns.cloudflare.com",
+        "finley.ns.cloudflare.com"
+    ]
+}

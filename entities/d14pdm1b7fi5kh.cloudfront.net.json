@@ -1,0 +1,76 @@
+{
+    "domain": "d14pdm1b7fi5kh.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "d14pdm1b7fi5kh\\.cloudfront\\.net\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 5,
+                "Date.prototype.getTime": 1,
+                "window.localStorage": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "Navigator.prototype.languages": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "844ec4190c51158cf27f8ce415e04663f12197f471a8ef5e9afb4bf87ea8cd38",
+                "b9e90b9f07ebdc6f76913afde1336fe5c41d97cee4beb0b39c0ab4e4387fd088",
+                "a9850a037a4fad3bde1f56979dbab1f848f297b358e6e566367b166541bcf1ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "druggenius.com",
+                "moneywise.com",
+                "www.blackenterprise.com",
+                "www.nationalreview.com",
+                "www.rookieroad.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "prebidwrapper.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-1696.awsdns-20.co.uk",
+        "ns-978.awsdns-58.net",
+        "ns-298.awsdns-37.com",
+        "ns-1483.awsdns-57.org"
+    ]
+}

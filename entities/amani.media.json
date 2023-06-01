@@ -1,0 +1,99 @@
+{
+    "domain": "amani.media",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "tr"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "amani\\.media\\/ko-pixel\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tr"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "087c55c36dcd475ccd24c3544871687fd0a2c10f4b343566674db6396c153a85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ko_sid_ext": {
+                    "ttl": 1803,
+                    "length": 37,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "ko_stime_ext": {
+                    "ttl": 1803,
+                    "length": 10,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "factinate.com",
+                "www.factinate.com"
+            ]
+        },
+        {
+            "rule": "amani\\.media\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7f6ae96b0259e165a148bb5b6931cf137297ce488372a05a50b3a5173dec1144"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "factinate.com",
+                "www.factinate.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "d89xpxaskzdxx.cloudfront.net",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "serenity.ns.cloudflare.com",
+        "apollo.ns.cloudflare.com"
+    ]
+}

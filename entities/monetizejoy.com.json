@@ -1,0 +1,139 @@
+{
+    "domain": "monetizejoy.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "monetizejoy\\.com\\/mjp\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "36e0c876fe733bddc196275952c2ad3b66ad4273695cc8317622bc11c40939b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cuitonline.com",
+                "www.cuitonline.com"
+            ]
+        },
+        {
+            "rule": "monetizejoy\\.com\\/42\\/prebid\\.min\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.width": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.vendor": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.connection": 1,
+                "window.outerWidth": 1,
+                "window.outerHeight": 1,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availHeight": 1,
+                "window.screenLeft": 1,
+                "window.screenTop": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Navigator.prototype.hardwareConcurrency": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5c57f59e95e0883eb6c0766c9e7077eaf758833f3322341b2df0a655e50d6c2d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592007,
+                    "length": 16,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_pubcid": {
+                    "ttl": 31536007,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cuitonline.com",
+                "www.cuitonline.com"
+            ]
+        },
+        {
+            "rule": "monetizejoy\\.com\\/api\\/website\\/42\\/gam_config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5edadaab0bd66b4fe72d659b2e0e1d89e5fef9abab6cbafa3550eee261537d50"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cuitonline.com",
+                "www.cuitonline.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "arya.ns.cloudflare.com",
+        "dean.ns.cloudflare.com"
+    ]
+}

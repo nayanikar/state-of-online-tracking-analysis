@@ -1,0 +1,82 @@
+{
+    "domain": "buyerbridge.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "eventflow",
+        "public-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "buyerbridge\\.io\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "eventflow"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "13e945e5b55dcb095988a0df58d8f5b1f246b4cca181e0aee370994836e0e63b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "k-bid.com",
+                "www.k-bid.com"
+            ]
+        },
+        {
+            "rule": "buyerbridge\\.io\\/v1\\/accounts\\/a0026cc8-025a-4792-968b-ee8755d2c45e",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "37b1dec104745cc1ec4b794f4f51ba4ed8536487bac933ed587179cd7285632c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "k-bid.com",
+                "www.k-bid.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "edward.ns.cloudflare.com",
+        "kiki.ns.cloudflare.com"
+    ]
+}

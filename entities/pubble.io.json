@@ -1,0 +1,192 @@
+{
+    "domain": "pubble.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "www",
+        "cdn",
+        "media"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pubble\\.io\\/api\\/init",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c6c7fa3e2f20627b5c7c35aad587ab79926754429d8d8e371f8a77a46ee06fb7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "getolympus.com",
+                "learnandsupport.getolympus.com"
+            ]
+        },
+        {
+            "rule": "pubble\\.io\\/livechat\\/javascript\\/livechatv200840102\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3a05007815a526d39b9b812c57e6948c78e059a1c701232c0163202f1152ce96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "getolympus.com",
+                "wingstuff.com"
+            ]
+        },
+        {
+            "rule": "pubble\\.io\\/ipsq\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "39c8023ad0ecd53de586132c563ce6f3f48c0a9dc8d52f78968e6c3091b22c4d",
+                "f095f51304c7ad5dd51086da7ba901fbc7ebcee157c4e8082dfe36e925615811"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "getolympus.com",
+                "wingstuff.com",
+                "www.woodies.ie"
+            ]
+        },
+        {
+            "rule": "pubble\\.io\\/pubblebot\\/beep\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "feadd4a8fd2dcc948c2fd24c8e4f7677575afa74cdc5d30b7a3f11d2491840be"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "getolympus.com",
+                "wingstuff.com",
+                "www.woodies.ie"
+            ]
+        },
+        {
+            "rule": "pubble\\.io\\/livechat\\/javascript\\/livechat_woodies\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dcbc70a334c57ad7a00f28c443950ec71ecd0824d5dba99d43da050bb7121156"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "woodies.ie",
+                "www.woodies.ie"
+            ]
+        },
+        {
+            "rule": "pubble\\.io\\/pubblebot\\/cw\\/images\\/pubble-group1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a509bb0338cce84833c3da2fc14de88f9e1bcec3d98bfa577dbc7137fd9ce761"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "woodies.ie",
+                "www.woodies.ie"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "chatify.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Media": 3,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1.iwantmyname.net",
+        "ns2.iwantmyname.net",
+        "ns3.iwantmyname.net",
+        "ns4.iwantmyname.net"
+    ]
+}

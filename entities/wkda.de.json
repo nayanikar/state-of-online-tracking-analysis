@@ -1,0 +1,81 @@
+{
+    "domain": "wkda.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "api-mcj"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "wkda\\.de\\/v1\\/marketing-cookie-preferences\\/categories\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-mcj"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wirkaufendeinauto.de",
+                "www.wirkaufendeinauto.de"
+            ]
+        },
+        {
+            "rule": "wkda\\.de\\/v1\\/marketing-cookie-preferences\\/categories\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-mcj"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d2941d6e67be2814acdef1a0572126a1bbf341ab18065fb74acc29bdcd86d5fa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wirkaufendeinauto.de",
+                "www.wirkaufendeinauto.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "wirkaufendeinauto.de",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1553.awsdns-02.co.uk",
+        "ns-477.awsdns-59.com",
+        "ns-741.awsdns-28.net",
+        "ns-1430.awsdns-50.org"
+    ]
+}

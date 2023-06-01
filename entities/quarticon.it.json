@@ -1,0 +1,82 @@
+{
+    "domain": "quarticon.it",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "api",
+        "api-ir",
+        "qsdw1-ir"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "quarticon\\.it\\/api\\/cp\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "api-ir"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helikon-tex.com",
+                "www.helikon-tex.com"
+            ]
+        },
+        {
+            "rule": "quarticon\\.it\\/creation\\/snippetHtml",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "qsdw1-ir"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "64656e0ddfe938aef05de4e9bc050f81c88f3bf28937796f920f14e7e114fbbd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helikon-tex.com",
+                "www.helikon-tex.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "gene.ns.cloudflare.com",
+        "todd.ns.cloudflare.com"
+    ]
+}

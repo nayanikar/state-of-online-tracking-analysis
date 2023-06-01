@@ -1,0 +1,260 @@
+{
+    "domain": "bluecore.com",
+    "owner": {
+        "name": "Bluecore Inc.",
+        "displayName": "Bluecore"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00281,
+    "sites": 28,
+    "subdomains": [
+        "onsitestats",
+        "siteassets",
+        "site",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bluecore\\.com\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "onsitestats"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "273521bed7e711c50d14a61c0c00cdee804056167c6b7b430ce2af8820715c25"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gapcanada.ca",
+                "goop.com",
+                "oldnavy.gapcanada.ca",
+                "shop.wellwise.ca",
+                "www.basspro.com",
+                "www.cabelas.com",
+                "www.evo.com",
+                "www.gapcanada.ca",
+                "www.jcrew.com"
+            ]
+        },
+        {
+            "rule": "bluecore\\.com\\/bcQuery\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "siteassets"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "6ca995cd8dd6f8d1ec0662b17b4914cb3510c3418fef9139f91d2cba90bdd94c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "basspro.com",
+                "www.cabelas.com",
+                "www.evo.com",
+                "www.jcrew.com",
+                "www.lenovo.com"
+            ]
+        },
+        {
+            "rule": "bluecore\\.com\\/location",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e07e985e4b7bd999219b3bcd7836cbc329d31786571f74ea1fda4a01c3959c8c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "basspro.com",
+                "www.cabelas.com",
+                "www.evo.com"
+            ]
+        },
+        {
+            "rule": "bluecore\\.com\\/audience",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ac057831078e1e107fcc0059b8812a66e64292725b35a78a9bbd69e2fb4df08a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "basspro.com",
+                "www.cabelas.com"
+            ]
+        },
+        {
+            "rule": "bluecore\\.com\\/site_recipe\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "siteassets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "73e683eb61083a03535d885d6d96c6cf17852be0eaeee46cb5fd6388ddf21d48"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "basspro.com",
+                "www.cabelas.com"
+            ]
+        },
+        {
+            "rule": "bluecore\\.com\\/site_targeting\\/dev\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "siteassets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c72425650c767888e1e116d83b913e5de6b470aac35cf8bc48d9182939a67030"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "bc_invalidateUrlCache_targeting": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "calvinklein.ca",
+                "www.jcrew.com"
+            ]
+        },
+        {
+            "rule": "bluecore\\.com\\/triggermail\\.js\\/yig\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "72c639f233bc72ab789aceb2df494bdaa33b3035264b9944ef5fb9fa57494e42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mp_yig_mixpanel": {
+                    "ttl": 31536019,
+                    "length": 181,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yourindependentgrocer.ca",
+                "www.yourindependentgrocer.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00171,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.34545454545454546
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.18181818181818182
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.16363636363636364
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.05454545454545454
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.05454545454545454
+        },
+        {
+            "domain": "shopifyorderlimits.s3.amazonaws.com",
+            "prevalence": 0.03636363636363636
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.03636363636363636
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.03636363636363636
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.03636363636363636
+        },
+        {
+            "domain": "triggeredmail.appspot.com",
+            "prevalence": 0.01818181818181818
+        }
+    ],
+    "types": {
+        "XHR": 16,
+        "Script": 9
+    },
+    "nameservers": [
+        "ns-cloud-b4.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b3.googledomains.com"
+    ]
+}

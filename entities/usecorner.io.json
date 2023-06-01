@@ -1,0 +1,83 @@
+{
+    "domain": "usecorner.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "convoy",
+        "accordion"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "usecorner\\.io\\/convoy\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "convoy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "720753d19b2616ba4872fe830a6e3bd850ab7629becde9b3490a2bcbf2a4c6c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalhealing.com",
+                "www.sexdolls.com"
+            ]
+        },
+        {
+            "rule": "usecorner\\.io\\/accordion\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "accordion"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cd39ad47ad241fd01c3b2bbfa4458e48c721e640cae51f00d6a3c932a889680f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalhealing.com",
+                "www.sexdolls.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "osano.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "tess.ns.cloudflare.com",
+        "sri.ns.cloudflare.com"
+    ]
+}

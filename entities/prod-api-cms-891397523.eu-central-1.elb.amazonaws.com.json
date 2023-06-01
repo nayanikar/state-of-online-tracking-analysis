@@ -1,0 +1,82 @@
+{
+    "domain": "prod-api-cms-891397523.eu-central-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api-cms.vodafone.ro",
+            "resolved": "prod-api-cms-891397523.eu-central-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "prod-api-cms-891397523\\.eu-central-1\\.elb\\.amazonaws\\.com\\/api\\/content\\/query\\/+contentType:PageTooltip%20",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api-cms.vodafone.ro",
+                    "resolved": "prod-api-cms-891397523.eu-central-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vodafone.ro",
+                "www.vodafone.ro"
+            ]
+        },
+        {
+            "rule": "prod-api-cms-891397523\\.eu-central-1\\.elb\\.amazonaws\\.com\\/api\\/content\\/query\\/+contentType:PageTooltip%20",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api-cms.vodafone.ro",
+                    "resolved": "prod-api-cms-891397523.eu-central-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "9fcd5e3d4ce5d998fc1d15d34ffb42a40bfabda95c2941a00e86e29109ff90a9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vodafone.ro",
+                "www.vodafone.ro"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

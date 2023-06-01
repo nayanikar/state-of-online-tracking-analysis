@@ -1,0 +1,88 @@
+{
+    "domain": "leadfusion.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "lf-oldnational.tools",
+        "expert"
+    ],
+    "cnames": [
+        {
+            "original": "calculators.oldnational.com",
+            "resolved": "lf-oldnational.tools.leadfusion.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "leadfusion\\.com\\/response\\/lf-oldnational\\/artifact\\/home11\\/assets\\/scripts\\/lf-tool-wrapper-v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf-oldnational.tools"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "calculators.oldnational.com",
+                    "resolved": "lf-oldnational.tools.leadfusion.com"
+                }
+            ],
+            "responseHashes": [
+                "8ed442936bb2339ebd47efb9c14ae6b210287784dff3607ddc4b55fa696011d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oldnational.com",
+                "www.oldnational.com"
+            ]
+        },
+        {
+            "rule": "leadfusion\\.com\\/tools\\/lf-unifyfcu\\/home02\\/tool\\.fcs",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "expert"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d4990bec8e319777d80a3edf09e74e73512534f99952569ea9bc5cbf6029fd45"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unifyfcu.com",
+                "www.unifyfcu.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "udns2.ultradns.net",
+        "udns1.ultradns.net"
+    ]
+}

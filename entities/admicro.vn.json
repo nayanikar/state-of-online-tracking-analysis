@@ -1,0 +1,800 @@
+{
+    "domain": "admicro.vn",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000116,
+    "sites": 17,
+    "subdomains": [
+        "media1",
+        "lg1.logging",
+        "adi",
+        "sspapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "admicro\\.vn\\/core\\/adm_tracking\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "media1"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.plugins": 7,
+                "Navigator.prototype.mimeTypes": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Screen.prototype.colorDepth": 7,
+                "Navigator.prototype.cookieEnabled": 7,
+                "Navigator.prototype.javaEnabled": 7,
+                "Navigator.prototype.appVersion": 7,
+                "Navigator.prototype.appName": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 3,
+                "PerformanceTiming.prototype.navigationStart": 4
+            },
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "6e34e8696d51c15b5f0e261c0633ac2fb615ed51ac4795844e72b2a58fa12dee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__uif": {
+                    "ttl": 864011,
+                    "length": 63,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "__RC": {
+                    "ttl": 630720011,
+                    "length": 3,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "__R": {
+                    "ttl": 630720011,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "__uidac": {
+                    "ttl": 300000019,
+                    "length": 32,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/cms\\/Arf\\.min\\.js",
+            "cookies": 0.0000545,
+            "fingerprinting": 2,
+            "subdomains": [
+                "media1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "window.sessionStorage": 8,
+                "Date.prototype.getTime": 8,
+                "Document.cookie getter": 8,
+                "Document.cookie setter": 8,
+                "window.innerHeight": 8,
+                "window.innerWidth": 8,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 1
+            },
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "15ad637ecd54d99f15b0e263d93993885c94dce169b48a0d762711045ab8c027"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_uidcms": {
+                    "ttl": 180000007,
+                    "length": 19,
+                    "prevalence": 0.00004764951737845969,
+                    "uniqueness": 1
+                },
+                "guidToPii": {
+                    "ttl": 243086288,
+                    "length": 2,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "domainGuidToPii": {
+                    "ttl": 243086288,
+                    "length": 2,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/ads_codes\\/ads_code_1\\.ads",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media1"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/ftest",
+            "cookies": 0.0000476,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__uidac": 0.00004084244346725117
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/_tracking1\\.gif",
+            "cookies": 0.0000545,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000613,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__uidac": 0.000054456591289668224,
+                "_ga": 0.0001225273304017535
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn",
+                "www.vietnamairlines.com"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/_tracking1\\.gif",
+            "cookies": 0.0000613,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000613,
+            "cnames": [],
+            "responseHashes": [
+                "32048e11a81f7a3b5784dca1c8a42e6c99df25d534b429524b931ec7e0bc67b4",
+                "7895098bfc35aad1141f6670c6468ff738709c629e019692faad0dafdfb892bf",
+                "0d143d570b004cab76fa84d1478a3a43eaeb281fd0ac598ebbc2a897ff982983",
+                "37abc8f11eecbd6c140698d105627e2d13cb4b4c4f81706add68596fc6e00411",
+                "0f8967f57030fe6e83535f8dcaa1fa0548d39d93b4cd751b26a797c9c0732911",
+                "9dab053ae6877e4ac1211954c1a5a38fec40f1f20b10fbcb2e527bb0aba8844d",
+                "c6066817303093187e25d670e4e409b160845d9382a74aa7b0a339a17ce2231d",
+                "5568502b0df8a0b31aca82ee16a28fff0d5e5f87691e1ce1f62d92d02c490155"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__uidac": 0.00006126366520087675,
+                "_ga": 0.00011572025649054497
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn",
+                "www.vietnamairlines.com"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/core\\/admcorearf\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "media1"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 8,
+                "window.localStorage": 8,
+                "Navigator.prototype.appVersion": 8,
+                "Navigator.prototype.plugins": 8,
+                "Navigator.prototype.mimeTypes": 8,
+                "Document.cookie getter": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Navigator.prototype.appName": 4,
+                "Document.cookie setter": 3
+            },
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "c1425230d7337ba0e33f1ade86f85325f2970ce3f50f6cfe4386f2b427b85bef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__uif": {
+                    "ttl": 864017,
+                    "length": 63,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "__RC": {
+                    "ttl": 630720018,
+                    "length": 3,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                },
+                "__R": {
+                    "ttl": 630720018,
+                    "length": 1,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/advbcms",
+            "cookies": 0.0000476,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_uidcms": 0.000054456591289668224
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/core\\/admcoreext\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7
+            },
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "8c6dc32d121be2319e6605e1f583ef12a9d76a9d0d68ab1a6dd76049e35d87a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/adt\\/cpc\\/tvcads\\/tracking\\/genjs_ht26032019\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adi"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "e8fab4708422172956dd7b3e03593b6158704e6c1a1cc8a5313e461c166afa5e",
+                "a44af79e5d63daa8f59afc1b2536f059bbc951e65a313699bf09b5094f87f0b6",
+                "8a27a0bd5e58147dce7eeb06271582c3a01d769b61ac09d2cf3f64a7811d923a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/core\\/ssppage\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media1"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "13bd565e26fde3f3e0a893ee049e95ff86ad70363a5d71f1c1ffccccd11e4760"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/cpx_cms",
+            "cookies": 0.0000476,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_uidcms": 0.000054456591289668224
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/adt\\/cpc\\/tvcads\\/files\\/js\\/sticky_220818\\/sticky\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "adi"
+            ],
+            "apis": {
+                "Navigator.prototype.appVersion": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "60131c41e4202c29147bab657da90f51429bc4cdb35c16bd807e491358912083"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "vietjack.com"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/ssp_page_request\\/pc\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sspapi"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "0743a98d1623097694648ff321358555b8df8522743bb2357ad108ae7a56affe",
+                "76179c73828e25584173528998709d87a96c3d8f1c91615750d1cb6018446385",
+                "eae034e1e44433d1bd1a5e4b4eda9a8e549006d5f502a486b1fafe8d825ad9bf",
+                "7f832f535c67df9c0c54b48e9bf8cc570456fd2c55eef47d54677f7f4983da31",
+                "c12dc39f781aa200956bbc2c2b2ae31828dd9b195bdc58b230388eb1fce6a7fb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00010210610866812792,
+                "__uidac": 0.000027228295644834112
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/tl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__uidac": 0.000054456591289668224
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/ssp",
+            "cookies": 0.0000476,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__uidac": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tinhte.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/mapid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hoc24.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/video_track",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kenh14.vn",
+                "thanhnien.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/tk",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kenh14.vn",
+                "thanhnien.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/adt\\/cpc\\/tvcads\\/files\\/js\\/core\\/adm-tracking\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "0f0fb4b01ebe72db6ad4251b31d6849c51c5423ec62042a77923c876b0341d54"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tuoitre.vn",
+                "vietjack.com",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/cpa2",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__uidac": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "vietnamairlines.com",
+                "www.vietnamairlines.com"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/rtg_bn",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vietnamairlines.com",
+                "www.vietnamairlines.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000116,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.40229885057471265
+        },
+        {
+            "domain": "amcdn.vn",
+            "prevalence": 0.20114942528735633
+        },
+        {
+            "domain": "contineljs.com",
+            "prevalence": 0.12643678160919541
+        },
+        {
+            "domain": "nanda.vn",
+            "prevalence": 0.04597701149425287
+        },
+        {
+            "domain": "sohatv.vn",
+            "prevalence": 0.040229885057471264
+        },
+        {
+            "domain": "aj1559.online",
+            "prevalence": 0.034482758620689655
+        },
+        {
+            "domain": "mediacdn.vn",
+            "prevalence": 0.028735632183908046
+        },
+        {
+            "domain": "aiservice.vn",
+            "prevalence": 0.022988505747126436
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.022988505747126436
+        },
+        {
+            "domain": "sourcetobin.com",
+            "prevalence": 0.022988505747126436
+        }
+    ],
+    "types": {
+        "Script": 60,
+        "Image": 61,
+        "Document": 9,
+        "XHR": 7
+    },
+    "nameservers": [
+        "ns7.synerfy.vn",
+        "ns8.synerfy.vn",
+        "ns6.synerfy.vn"
+    ]
+}

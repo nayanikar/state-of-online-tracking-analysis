@@ -1,0 +1,126 @@
+{
+    "domain": "leroy-merlin.net.pl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "leroy-merlin\\.net\\.pl\\/i\\/2cd4a8e7f466bb55db82956caaafcac9\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "340dd22b528800478443744af0cabf8650e60ffe38e4073b5acf964a4edef290"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_CXIDLOC": {
+                    "ttl": 63153374,
+                    "length": 32,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_CXIDLOCSES": {
+                    "ttl": null,
+                    "length": 32,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leroymerlin.pl",
+                "www.leroymerlin.pl"
+            ]
+        },
+        {
+            "rule": "leroy-merlin\\.net\\.pl\\/init",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fd6608c58e61783145ea1fc32b46b82b869bfa8900ae9ab53ab65256a301fa1f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leroymerlin.pl",
+                "www.leroymerlin.pl"
+            ]
+        },
+        {
+            "rule": "leroy-merlin\\.net\\.pl\\/info",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f379748af33e88fa70122545407ca2d5ae890edf0d79df357c3e39efa62c623f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "_CXIDIFR": {
+                    "ttl": 63153374,
+                    "length": 32,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_CXIDIFRSES": {
+                    "ttl": null,
+                    "length": 32,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leroymerlin.pl",
+                "www.leroymerlin.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "cruz.ns.cloudflare.com",
+        "apollo.ns.cloudflare.com"
+    ]
+}

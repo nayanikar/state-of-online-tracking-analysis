@@ -1,0 +1,114 @@
+{
+    "domain": "dn0qt3r0xannq.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0012,
+    "sites": 12,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "dn0qt3r0xannq\\.cloudfront\\.net\\/lovetoknow-1r2kdxaraW\\/yourdictionary\\/prebid-wrapper\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7d91f807c6306488004984334c9cf8152958137f11654387e8cafc1dbe49687d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cw-test-20221107-amx-50-50": {
+                    "ttl": 2592009,
+                    "length": 8,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yourdictionary.com",
+                "grammar.yourdictionary.com"
+            ]
+        },
+        {
+            "rule": "dn0qt3r0xannq\\.cloudfront\\.net\\/lovetoknow-1r2kdxaraW\\/yourdictionary\\/prebid-library\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "window.name": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f6485e8ceff1ea758c1625af9c53497f602b9ec847b62446428330c285d3d7c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yourdictionary.com",
+                "grammar.yourdictionary.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000703,
+    "topInitiators": [
+        {
+            "domain": "prebidwrapper.com",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-156.awsdns-19.com",
+        "ns-1894.awsdns-44.co.uk",
+        "ns-923.awsdns-51.net",
+        "ns-1400.awsdns-47.org"
+    ]
+}

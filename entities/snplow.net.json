@@ -1,0 +1,105 @@
+{
+    "domain": "snplow.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "com-thebigwillow-prod1.collector",
+        "sg-secretlab-prod1.collector",
+        "com-tripaneer-main.collector",
+        "com-egoditor-prod1.collector"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "snplow\\.net\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "com-thebigwillow-prod1.collector",
+                "sg-secretlab-prod1.collector",
+                "com-tripaneer-main.collector",
+                "com-egoditor-prod1.collector"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiceworks.com",
+                "community.spiceworks.com",
+                "secretlabchairs.com.au",
+                "www.bookyogaretreats.com",
+                "www.dnb.com",
+                "www.qr-code-generator.com"
+            ]
+        },
+        {
+            "rule": "snplow\\.net\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "com-thebigwillow-prod1.collector",
+                "sg-secretlab-prod1.collector",
+                "com-tripaneer-main.collector",
+                "com-egoditor-prod1.collector"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiceworks.com",
+                "secretlabchairs.com.au",
+                "www.bookyogaretreats.com",
+                "www.dnb.com",
+                "www.qr-code-generator.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "d26x5ounzdjojj.cloudfront.net",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "newrelic.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "XHR": 6,
+        "Preflight": 5
+    },
+    "nameservers": [
+        "ns-62.awsdns-07.com",
+        "ns-642.awsdns-16.net",
+        "ns-1085.awsdns-07.org",
+        "ns-1710.awsdns-21.co.uk"
+    ]
+}

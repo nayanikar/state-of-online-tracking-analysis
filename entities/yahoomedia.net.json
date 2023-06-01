@@ -1,0 +1,113 @@
+{
+    "domain": "yahoomedia.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "yahoomedia\\.net\\/libraries\\/Delivr-2\\.10\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5e397ee89d1bf7f8f79c229f6c4b3279d35d8d477e526c24c6b9d88c2a889dfa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "login.yahoo.com"
+            ]
+        },
+        {
+            "rule": "yahoomedia\\.net\\/libraries\\/EspressoFull-2\\.4\\.17\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4d3dfb311e5d69131eb3a366d982b0c03f78d7f95a7df7c6d9dce59cb38e2627"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "login.yahoo.com"
+            ]
+        },
+        {
+            "rule": "yahoomedia\\.net\\/creatives\\/5a96f335-90a4-4510-a981-8f8a04323a96\\/2\\/HomeMade_Yahoo_Mail_Video_600x450\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "54cead368b352dd3813150fd7ec8a0bc7d5ffa34b8ae337f5ff951ec23fe1db1"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "login.yahoo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "advertising.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Media": 2
+    },
+    "nameservers": [
+        "ns1.yahoo.com",
+        "ns5.yahoo.com",
+        "ns2.yahoo.com",
+        "ns3.yahoo.com",
+        "ns4.yahoo.com"
+    ]
+}

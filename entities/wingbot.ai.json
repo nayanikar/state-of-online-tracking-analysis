@@ -1,0 +1,106 @@
+{
+    "domain": "wingbot.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "orchestrator"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wingbot\\.ai\\/styles\\/czc\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "orchestrator"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2718295945d223dfa8b0718fe9a42c00a1464f4a8c1820e946d63530f24f4702"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "czc.cz",
+                "www.czc.cz"
+            ]
+        },
+        {
+            "rule": "wingbot\\.ai\\/czc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "orchestrator"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7ba4afbac4cdb683a0565b94bb7ce3763c271774c101667c90678a0028359f8b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "czc.cz",
+                "www.czc.cz"
+            ]
+        },
+        {
+            "rule": "wingbot\\.ai\\/fonts\\/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFV0UzdYPFkZVO\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "orchestrator"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a0a94edd71570c8b6fb8e450bbd8eff1ef29f5498a927de938dd04618e569dc6"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "czc.cz",
+                "www.czc.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2,
+        "Font": 2
+    },
+    "nameservers": [
+        "ns-1465.awsdns-55.org",
+        "ns-1567.awsdns-03.co.uk",
+        "ns-595.awsdns-10.net",
+        "ns-94.awsdns-11.com"
+    ]
+}

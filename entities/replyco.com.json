@@ -1,0 +1,83 @@
+{
+    "domain": "replyco.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "app",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "replyco\\.com\\/extensions\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cf84210586dcb06f4639379bee826aa13691da60cf75dba4d26a126399c53e40"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiperblades.co.uk",
+                "www.wiperblades.co.uk"
+            ]
+        },
+        {
+            "rule": "replyco\\.com\\/api\\/widget\\/forAnonym\\/fff9cafd-89b2-4fb3-4010-08db0f46680b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7f5ee10e912106181ae816dd3623103a0cecbc3d2885b39dd61082d10407c454"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiperblades.co.uk",
+                "www.wiperblades.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns30.domaincontrol.com",
+        "ns29.domaincontrol.com"
+    ]
+}

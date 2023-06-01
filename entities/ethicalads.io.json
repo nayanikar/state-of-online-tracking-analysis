@@ -1,0 +1,134 @@
+{
+    "domain": "ethicalads.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "media",
+        "server"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ethicalads\\.io\\/media\\/client\\/beta\\/ethicalads\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "window.innerHeight": 3,
+                "window.innerWidth": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "f1036d0988590e8c48bc7db5234ad54ed67db60b9ba16add0d14296160b06d50"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dask.org",
+                "docs.podman.io",
+                "docs.pytest.org",
+                "docs.godotengine.org"
+            ]
+        },
+        {
+            "rule": "ethicalads\\.io\\/abp\\/px\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "7eed972b08b23a31630cab49ff3f19afa7c0068ae7499720be8f98160555c262"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "podman.io",
+                "docs.podman.io",
+                "docs.pytest.org",
+                "docs.godotengine.org",
+                "www.markdownguide.org"
+            ]
+        },
+        {
+            "rule": "ethicalads\\.io\\/api\\/v1\\/decision\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "server"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "6d55ac11d2ddeff8304b8d3d8e38c0906fcfab70cf6ebb142431bcee7243101a",
+                "e2accc1218ee9ca17d33609c6130f037b3ca25a9d051cc434495a3f71400c0f2",
+                "bd8eb3d7b80cd65c32e8cb945b8df586f5c7424e95548fd3dd10f9db483832d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "podman.io",
+                "docs.pytest.org",
+                "docs.godotengine.org",
+                "www.markdownguide.org"
+            ]
+        },
+        {
+            "rule": "ethicalads\\.io\\/media\\/client\\/v1\\.4\\.0\\/ethicalads\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "53784a0e276e7486b1043133c06240a4980f11fda65a4e9c7cc5a086b01aea2d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pypi.org",
+                "www.python.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Image": 5
+    },
+    "nameservers": [
+        "tegan.ns.cloudflare.com",
+        "ivan.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,231 @@
+{
+    "domain": "carecart.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "sales-pop",
+        "tracking-sales-pop",
+        "app-spinner",
+        "tracking-app-sas"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "carecart\\.io\\/lib\\/salesnotifier\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sales-pop"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australianorganicproducts.com.au",
+                "www.thebasewarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "carecart\\.io\\/index\\.php\\/FrontController\\/checkStore\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking-sales-pop"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3980bd85ea03c8e33f71a49ffd05a0592d4a1210f899478cad14629810c15c5d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_hjTLDTest": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "australianorganicproducts.com.au",
+                "www.thebasewarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "carecart\\.io\\/library\\/carecartSpinnerApp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app-spinner"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "klevarange.com.au",
+                "www.ringerswestern.com"
+            ]
+        },
+        {
+            "rule": "carecart\\.io\\/public\\/phone\\/css\\/intlTelInput\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-spinner"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d99a10a4e62668e6fa04a8be9f6b50e66966b80f10766a6216cabac4b991541a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "klevarange.com.au",
+                "www.ringerswestern.com"
+            ]
+        },
+        {
+            "rule": "carecart\\.io\\/public\\/phone\\/css\\/phoneStyle\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-spinner"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "abebfc9fe22e5c088662b870d296873262b92e6a52cf7a98041232a248fbd2e8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "klevarange.com.au",
+                "www.ringerswestern.com"
+            ]
+        },
+        {
+            "rule": "carecart\\.io\\/public\\/app\\/css\\/front-store-spinner-min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-spinner"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a2beb9a566e2b66b9cbe4c3ae0ea6a8ee3f0d4a0dddae9dc66fc4dae54cc423b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "klevarange.com.au",
+                "www.ringerswestern.com"
+            ]
+        },
+        {
+            "rule": "carecart\\.io\\/store-front-api\\/get-store-information",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-spinner",
+                "tracking-app-sas"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "klevarange.com.au",
+                "www.megavitamins.com.au"
+            ]
+        },
+        {
+            "rule": "carecart\\.io\\/store-front-api\\/get-store-information",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-spinner",
+                "tracking-app-sas"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "525249d2d0ea507fcb764036a7bd6bead5c3e16fc7a51d2aa4f61edfc710320e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "klevarange.com.au",
+                "www.megavitamins.com.au",
+                "www.ringerswestern.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.35714285714285715
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.21428571428571427
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Stylesheet": 6,
+        "Preflight": 2,
+        "XHR": 3
+    },
+    "nameservers": [
+        "noah.ns.cloudflare.com",
+        "karina.ns.cloudflare.com"
+    ]
+}

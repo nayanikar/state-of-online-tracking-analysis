@@ -1,0 +1,106 @@
+{
+    "domain": "serv-selectmedia.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "serv-selectmedia\\.com\\/cdn\\/player\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4672b37f99a355152ea5257ba3187597fb9a12fb33a06492131461f469f5dd09"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "makezine.com",
+                "timesofindia.indiatimes.com",
+                "www.allfreeknitting.com"
+            ]
+        },
+        {
+            "rule": "serv-selectmedia\\.com\\/cdn\\/player\\/test\\/selectmedia-player\\.umd\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d247bfea1be4a8b683928cb34757d64d858cf32d81bd67384b29e5800b0d4ee1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "makezine.com",
+                "timesofindia.indiatimes.com",
+                "www.allfreeknitting.com"
+            ]
+        },
+        {
+            "rule": "serv-selectmedia\\.com\\/cdn\\/mcm\\/5d496bda28a0612c52642eb8\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2d58dc2f78fad886b1c11a961246b65815703eb9ad963f2bd6b996219870e8fd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indiatimes.com",
+                "timesofindia.indiatimes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "selectmedia.asia",
+            "prevalence": 0.9130434782608695
+        },
+        {
+            "domain": "d1m2oaypgnddv2.cloudfront.net",
+            "prevalence": 0.08695652173913043
+        }
+    ],
+    "types": {
+        "Stylesheet": 3,
+        "Script": 3,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d2.googledomains.com",
+        "ns-cloud-d3.googledomains.com",
+        "ns-cloud-d4.googledomains.com"
+    ]
+}

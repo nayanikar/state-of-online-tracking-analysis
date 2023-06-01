@@ -1,0 +1,58 @@
+{
+    "domain": "group-ib.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "fp-aws-au-back"
+    ],
+    "cnames": [
+        {
+            "original": "fhp.nab.com.au",
+            "resolved": "fp-aws-au-back.group-ib.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "group-ib\\.com\\/api\\/fl",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fp-aws-au-back"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "fhp.nab.com.au",
+                    "resolved": "fp-aws-au-back.group-ib.com"
+                }
+            ],
+            "responseHashes": [
+                "5a9913c4b386157154ee9d6c45068b068a0c17ce72f13121d30860bb5a8b4d32"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nab.com.au",
+                "nabconnect.nab.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": [
+        "dora.ns.cloudflare.com",
+        "tom.ns.cloudflare.com"
+    ]
+}

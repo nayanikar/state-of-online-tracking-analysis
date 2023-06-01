@@ -1,0 +1,79 @@
+{
+    "domain": "heylink.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000704,
+    "sites": 7,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "heylink\\.com\\/tr\\/targets\\/v1\\/381db5f0-57fe-4122-9e7e-09cf676c57de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pengenytt.no",
+                "www.pengenytt.no"
+            ]
+        },
+        {
+            "rule": "heylink\\.com\\/tr\\/targets\\/v1\\/381db5f0-57fe-4122-9e7e-09cf676c57de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d945af4c8bba740797a5933b5ac06b2f4d4b75098c3c087a6ddb6d9371d9e5a4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pengenytt.no",
+                "www.pengenytt.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "simon.ns.cloudflare.com",
+        "nia.ns.cloudflare.com"
+    ]
+}

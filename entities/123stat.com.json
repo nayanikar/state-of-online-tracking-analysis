@@ -1,0 +1,130 @@
+{
+    "domain": "123stat.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "server2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "123stat\\.com\\/1\\/7346\\/log6_2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "server2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a3042b6bb91b7379bdf69ea33bb108ab91fd6ca3a043c2166c5b90baf77a84d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "movie-locations.com",
+                "www.movie-locations.com"
+            ]
+        },
+        {
+            "rule": "123stat\\.com\\/log7\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "server2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f02ac374faea6e358e74afc4b8cd444dd1206c53b5c30264d39aefe0faddffcd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "movie-locations.com",
+                "www.movie-locations.com"
+            ]
+        },
+        {
+            "rule": "123stat\\.com\\/count7\\.pl",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "server2"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "026e5183457c68ff02079e2736b5507ad52c0060e5b3c93361b69ec77de23c9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "movie-locations.com",
+                "www.movie-locations.com"
+            ]
+        },
+        {
+            "rule": "123stat\\.com\\/ping_timer\\.pl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "server2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "movie-locations.com",
+                "www.movie-locations.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ivan.ns.cloudflare.com",
+        "rafe.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,219 @@
+{
+    "domain": "kakao.com",
+    "owner": {
+        "name": "Kakao Corp.",
+        "displayName": "Kakao"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000538,
+    "sites": 79,
+    "subdomains": [
+        "act.ds",
+        "developers",
+        "dapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "kakao\\.com\\/match2",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "act.ds"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "au_id": 0.000027228295644834112
+            },
+            "exampleSites": [
+                "adobe.com",
+                "prod.danawa.com",
+                "toptoon.com",
+                "www.toomics.com"
+            ]
+        },
+        {
+            "rule": "kakao\\.com\\/match2",
+            "cookies": 0.000218,
+            "fingerprinting": 0,
+            "subdomains": [
+                "act.ds"
+            ],
+            "apis": {},
+            "sites": 33,
+            "prevalence": 0.000225,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dable_uid": 0.0002178263651586729
+            },
+            "exampleSites": [
+                "slope-media.jp",
+                "www.ettoday.net",
+                "says.com",
+                "www.storm.mg",
+                "wanchan.jp",
+                "folk-media.com",
+                "lovegreen.net",
+                "cocoloni.jp",
+                "chisou-media.jp",
+                "pojoksatu.id",
+                "www.chinatimes.com",
+                "www.epochtimes.com",
+                "www.setn.com",
+                "thanhnien.vn",
+                "www.jprime.jp",
+                "lovely-media.jp",
+                "www.koreaherald.com",
+                "www.baby-kingdom.com",
+                "www.nst.com.my",
+                "www.joongang.co.kr"
+            ]
+        },
+        {
+            "rule": "kakao\\.com\\/sdk\\/js\\/kakao\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "developers"
+            ],
+            "apis": {
+                "window.localStorage": 16,
+                "Navigator.prototype.userAgent": 16,
+                "Navigator.prototype.maxTouchPoints": 16,
+                "Navigator.prototype.language": 16,
+                "Navigator.prototype.platform": 16
+            },
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "50dcb8c700ad14b8f9e9b19712b94919087440f8df94b2bb374c64fe216e76b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tistory.com",
+                "cesrozpvila.tistory.com",
+                "dayg.tistory.com",
+                "flyasiana.com",
+                "koreajoongangdaily.joins.com",
+                "overseas.mofa.go.kr",
+                "smart-factory-lee-joon-ho.tistory.com",
+                "wikiwannabe.tistory.com",
+                "www.etoland.co.kr",
+                "www.gnavi.co.jp",
+                "www.heye.kr",
+                "www.issuya.com",
+                "www.joongang.co.kr",
+                "www.keetip.com",
+                "www.koreatimes.co.kr",
+                "www.koreaherald.com",
+                "www.sephora.com.au",
+                "www.yna.co.kr"
+            ]
+        },
+        {
+            "rule": "kakao\\.com\\/sdk\\/js\\/kakao\\.story\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "developers"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we-xpats.com",
+                "www.yes24.com"
+            ]
+        },
+        {
+            "rule": "kakao\\.com\\/v2\\/maps\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5f5859778c5db480cea330969cf95633c50a4e9d6b845fd44c7eb33d313c0f4d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cushmanwakefield.com",
+                "www.cushmanwakefield.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000347,
+    "topInitiators": [
+        {
+            "domain": "dable.io",
+            "prevalence": 0.5294117647058824
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3176470588235294
+        },
+        {
+            "domain": "megadata.co.kr",
+            "prevalence": 0.07058823529411765
+        },
+        {
+            "domain": "daumcdn.net",
+            "prevalence": 0.03529411764705882
+        },
+        {
+            "domain": "widerplanet.com",
+            "prevalence": 0.023529411764705882
+        },
+        {
+            "domain": "questant.jp",
+            "prevalence": 0.023529411764705882
+        }
+    ],
+    "types": {
+        "Document": 4,
+        "Image": 33,
+        "Script": 22
+    },
+    "nameservers": [
+        "ns1.kakao.com",
+        "ns2.kakao.com"
+    ]
+}

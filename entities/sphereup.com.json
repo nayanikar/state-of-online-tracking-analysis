@@ -1,0 +1,141 @@
+{
+    "domain": "sphereup.com",
+    "owner": {
+        "name": "SphereUp, Inc",
+        "displayName": "SphereUp"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000953,
+    "sites": 14,
+    "subdomains": [
+        "zdwidget3-bs"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sphereup\\.com\\/zoomd\\/SearchUi\\/Script",
+            "cookies": 0.0000613,
+            "fingerprinting": 2,
+            "subdomains": [
+                "zdwidget3-bs"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.appName": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.outerWidth": 4,
+                "window.innerWidth": 4
+            },
+            "sites": 9,
+            "prevalence": 0.0000613,
+            "cnames": [],
+            "responseHashes": [
+                "3c04886831f6cafbfae12a647487b4d9ecc0e431414c14e2416f46e2ade76e68",
+                "8cc13f52ba51100df0d64c7b7132ab95d6a1874f70df41b106207df428a16ed6",
+                "233a52d39c13f561b51e4a97f982f3bb313faea845db3e2399ce32069c017a80",
+                "76c707f74270c6d5017112384b2ee7459ac1b16f5aac4354f16c5eef1d2f8ba4",
+                "d1e4462224376e2ee62f4359965751f2aae9c91b0b8c18449102f9775b8af356",
+                "976a665d43a220947f8ad7bf1ec7f432e3902b007ce94157fddc729a855b930d",
+                "17fd71910bc99e68dc2278e26eeb552dd2dfcda82244e01282b1f87c78b0f3c6",
+                "35662b5de08a42f20ddae00e46f33f3d45d061c001f36cc66fc6ea3e9d66d60c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maariv.co.il",
+                "m.sport5.co.il",
+                "www.deeranddeerhunting.com",
+                "www.gmanetwork.com",
+                "www.israelhayom.co.il",
+                "www.israelhayom.com",
+                "www.maariv.co.il",
+                "www.sport-fm.gr",
+                "www.sport5.co.il"
+            ]
+        },
+        {
+            "rule": "sphereup\\.com\\/zoomd\\/SearchUi\\/GetToken",
+            "cookies": 0.0000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zdwidget3-bs"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "045becc237b7c1734c6c42d00e5b709de20c0adc2058c2d99006d8140838cf5b",
+                "18fac120d66ddf8195e2edc92dc117f2ca15f6bf7dd4a352ca6bfa93683cc21d",
+                "f776b76ac998417fe8436e15888f3e86d75e053fd3c5f2c2ce1f8b70ded41b57",
+                "c10e6b5a0867e0ca4c768f27541d11b583ee696131fc521ce65ebc1448a2e23d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sport5.co.il",
+                "www.deeranddeerhunting.com",
+                "www.gmanetwork.com",
+                "www.israelhayom.co.il",
+                "www.sport-fm.gr",
+                "www.sport5.co.il"
+            ]
+        },
+        {
+            "rule": "sphereup\\.com\\/MultipleTopSearch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zdwidget3-bs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "49143b989633454263dd1e292ea82b55d175507c1a0c04ca28c9c2b6d66e00a0",
+                "584278376a8c8b6b8ebd29954c8e8affe9d49f735d939db9e9f2127e177091f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deeranddeerhunting.com",
+                "www.deeranddeerhunting.com",
+                "www.gmanetwork.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000953,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7037037037037037
+        },
+        {
+            "domain": "pcdn.co",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.07407407407407407
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns64.domaincontrol.com",
+        "ns63.domaincontrol.com"
+    ]
+}

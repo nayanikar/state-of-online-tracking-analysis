@@ -1,0 +1,192 @@
+{
+    "domain": "eccmp.com",
+    "owner": {
+        "name": "Cheetah Digital Inc",
+        "displayName": "Cheetah Digital"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "sts"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "eccmp\\.com\\/sts\\/scripts\\/conversen-SDK\\.js",
+            "cookies": 0.000904,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sts"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 10,
+                "Document.cookie getter": 9,
+                "Document.cookie setter": 9
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "735ace838c4f02a810a79d750fa248e3f70fa9483a4ede6f8f123bf6a314a4f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chemistwarehouse.com.au",
+                "www.cycleworld.com",
+                "www.mantra.com.au",
+                "www.motorcyclistonline.com",
+                "www.mychemist.com.au",
+                "www.newegg.com",
+                "www.peppers.com.au",
+                "www.potterybarn.com.au",
+                "www.potterybarnkids.com.au",
+                "www.westelm.com.au"
+            ]
+        },
+        {
+            "rule": "eccmp\\.com\\/wts\\/WebEvent\\/GetCookieExpiry\\/536",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "61339a21fa71d17d0dfebceba08dc76ce605e73f65a88438397483478d953aae"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chemistwarehouse.com.au",
+                "www.mychemist.com.au"
+            ]
+        },
+        {
+            "rule": "eccmp\\.com\\/wts\\/WebEvent\\/GetCookieExpiry\\/923",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "61339a21fa71d17d0dfebceba08dc76ce605e73f65a88438397483478d953aae"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.motorcyclistonline.com"
+            ]
+        },
+        {
+            "rule": "eccmp\\.com\\/wts\\/WebEvent\\/image\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "912ec7f5b3f5c46eda8e14522f68ad424a51999b6e17650fed01980d0c56b601"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.motorcyclistonline.com"
+            ]
+        },
+        {
+            "rule": "eccmp\\.com\\/wts\\/WebEvent\\/GetCookieExpiry\\/433",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "10f6490437b0792668f154c5a9a8ab7ce0f0588a277bf63f4967900f79d297bd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mantra.com.au",
+                "www.peppers.com.au"
+            ]
+        },
+        {
+            "rule": "eccmp\\.com\\/wts\\/WebEvent\\/GetCookieExpiry\\/359",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sts"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "61339a21fa71d17d0dfebceba08dc76ce605e73f65a88438397483478d953aae"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "potterybarn.com.au",
+                "www.potterybarnkids.com.au",
+                "www.westelm.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4166666666666667
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 9,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1230.awsdns-25.org",
+        "ns-1812.awsdns-34.co.uk",
+        "ns-300.awsdns-37.com",
+        "ns-835.awsdns-40.net"
+    ]
+}

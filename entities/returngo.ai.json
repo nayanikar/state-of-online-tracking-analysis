@@ -1,0 +1,76 @@
+{
+    "domain": "returngo.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "returngo\\.ai\\/master\\.returngo\\.ai\\/returngo\\.min\\.js",
+            "cookies": 0.000703,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie setter": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "d78a15ded50801ceb3bce314ea458e5dcd097696ca75bbac64837c0354402647"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "returngo_discount_code_undefined": {
+                    "ttl": 16,
+                    "length": 4,
+                    "prevalence": 0.0007028112449799197,
+                    "uniqueness": 0.14285714285714285
+                },
+                "returngo_customer_id": {
+                    "ttl": 86416,
+                    "length": 9,
+                    "prevalence": 0.0007028112449799197,
+                    "uniqueness": 0.14285714285714285
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "camilla.com",
+                "musclenation.org",
+                "riot.com.au",
+                "supervapestore.com.au",
+                "www.armyandoutdoors.com.au",
+                "www.kookai.com.au",
+                "www.mtbdirect.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000703,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7
+    },
+    "nameservers": [
+        "dana.ns.cloudflare.com",
+        "gerald.ns.cloudflare.com"
+    ]
+}

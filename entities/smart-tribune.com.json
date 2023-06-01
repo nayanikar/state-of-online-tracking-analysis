@@ -1,0 +1,111 @@
+{
+    "domain": "smart-tribune.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000503,
+    "sites": 5,
+    "subdomains": [
+        "assets.app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "smart-tribune\\.com\\/smart-tribune\\/SearchStandalone\\/searchstandalone\\.main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "45be57d3ef7d4c230150dff18041497271a2da2949f310121a7cb179eb2441c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "butagaz.fr",
+                "www.totalenergies.fr"
+            ]
+        },
+        {
+            "rule": "smart-tribune\\.com\\/smart-tribune\\/SearchStandalone\\/searchstandalone\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6ab99a5184e1097920cd3fc68a90a5eb60178478b6a895295b7aaecc561372a6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "butagaz.fr",
+                "www.totalenergies.fr"
+            ]
+        },
+        {
+            "rule": "smart-tribune\\.com\\/smart-tribune\\/SearchStandalone\\/searchstandalone\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets.app"
+            ],
+            "apis": {
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "212e28843a4fea152d3467ecf2136ce60343c5d8b165b9c9408d210ef4fbda02"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "butagaz.fr",
+                "www.totalenergies.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "tagcommander.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns20.ovh.net",
+        "dns20.ovh.net"
+    ]
+}

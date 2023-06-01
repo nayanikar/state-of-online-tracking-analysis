@@ -1,0 +1,101 @@
+{
+    "domain": "sizebay.technology",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000476,
+    "sites": 7,
+    "subdomains": [
+        "vfr-v3-production",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sizebay\\.technology\\/V4\\/implantation\\/index\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vfr-v3-production"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "44dcd743ff541f554ed17befd1a3ca42afb3f242dbf5dcd94cc99f6715e28a59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "SIZEBAY_SESSION_ID_V4": {
+                    "ttl": null,
+                    "length": 44,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sondeflor.com",
+                "www.calzedonia.com",
+                "www.intimissimi.com",
+                "www.netshoes.com.br"
+            ]
+        },
+        {
+            "rule": "sizebay\\.technology\\/2448\\/prescript\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b4f53dac3a86c0166d465276aab3c5b07eadd96c8861bd77f116cbf89784e152"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dolcegabbana.com",
+                "www.dolcegabbana.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "instana.io",
+            "prevalence": 0.2222222222222222
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-184.awsdns-23.com",
+        "ns-870.awsdns-44.net",
+        "ns-1419.awsdns-49.org",
+        "ns-1920.awsdns-48.co.uk"
+    ]
+}

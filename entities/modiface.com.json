@@ -1,0 +1,517 @@
+{
+    "domain": "modiface.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "loreal-webconsultation",
+        "websdk-static",
+        "cms-webservice",
+        "loreal-webconsultation-dev",
+        "mf-web-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "modiface\\.com\\/0\\/MF_header\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "loreal-webconsultation"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "35e8d635a525ea610cd92b5f5f5eb247fd6beef73313caac55df9386e570c1b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/0\\.44\\.9\\/MF_header\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "websdk-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "35e8d635a525ea610cd92b5f5f5eb247fd6beef73313caac55df9386e570c1b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/api\\/v3\\.3\\.2\\/lwc\\/getLwcVersion",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cms-webservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/api\\/v3\\.3\\.2\\/lwc\\/getLwcVersion",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cms-webservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dc2ad441d69de3dedd00c182a3b86cbd1b6635e53b2adbf6660583f486e7bcde"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loreal-webconsultation-dev"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1fde67703a8f64fe79a15b8829de6207b3ea53ea50870827e1642d3e972be26f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/dist\\/jquery\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loreal-webconsultation-dev"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4086a4d30f42b84b5efa3138b937e1f172f115ae67a24997968a1f386d88e1a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/dist\\/vue\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "loreal-webconsultation-dev"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 1,
+                "window.devicePixelRatio": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fd3b0e0d7c8e1e522421c00cb123a0dc3868c89fa69903283976710f83491051"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/dist\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loreal-webconsultation-dev"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6e4a7067b5da964b241c79d0808a09a6464e8472dcc1f1631125bf9aaeff729c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/dist\\/vendor\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "loreal-webconsultation-dev"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.product": 2,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "RTCPeerConnection.prototype.constructor": 1,
+                "Navigator.prototype.mediaDevices": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "22e786a8d24828a50214587f1a87638a0af6c0a20139ff870dcaf394f5172edb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/dist\\/components\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loreal-webconsultation-dev"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "43bad81b21b625bc99be9759039830b918b764eb3e4fb828e85c3053944efe8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/dist\\/customs\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loreal-webconsultation-dev"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "55bc7c46d8c367bee04ba17c78d714a5fcd1239c66372e6cdf9feab28335049f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/dist\\/router\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loreal-webconsultation-dev"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "af640a1799387f50e0ceb6a04c0d108961dad4f9b779d06965afc6baec0daf80"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/dist\\/services\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loreal-webconsultation-dev"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "217ad13f863be059d86f16b19434589aaecd002d100dc9b9dd1486f95dc4f25f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/dist\\/store\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loreal-webconsultation-dev"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ea64f6f6f512ae80a8b2b3c2eaeeef0648cd4304753a24a929d0dd2416cff613"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/dist\\/utils\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loreal-webconsultation-dev"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4c726f9313d623a3fb448ba60f6e1384a9d1ac1269323934a1be96abd72cf842"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/dist\\/views\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loreal-webconsultation-dev"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dfe624251d543e6f76fbfe14ee5377dce94f4faf428c94dd843b4a41746574c6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loreal-webconsultation-dev"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1fde67703a8f64fe79a15b8829de6207b3ea53ea50870827e1642d3e972be26f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/api\\/v3\\.3\\.1\\/ui\\/getUiCMSData",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cms-webservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/api\\/v3\\.3\\.1\\/ui\\/getUiCMSData",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cms-webservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1d69c8e8cbc74670251e752c822ab5cc4cd3521d3b4f5e0d41765cd99112fa1d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/retailersdk-web\\/8\\.3\\.5\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mf-web-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3f425bba796e7a127e990ff8fff3ba50c916fe8cd528ec0450a0dcf36b95f8b0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        },
+        {
+            "rule": "modiface\\.com\\/api\\/v3\\.3\\.1\\/categoryInfo\\/effect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cms-webservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "009b01b70189a453a2ab6f23bfeb129c932851fe5226819ff785ece8db4cab61"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maybelline.com",
+                "www.redken.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 28,
+        "Preflight": 4,
+        "Fetch": 8,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns28.domaincontrol.com",
+        "ns27.domaincontrol.com"
+    ]
+}

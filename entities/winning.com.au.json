@@ -1,0 +1,127 @@
+{
+    "domain": "winning.com.au",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "wg-tr-prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "winning\\.com\\.au\\/scripts\\/wg-tr\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "wg-tr-prod"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ea695c13c767a6e2e3fb87ee221ff835f51b476409907948ff792b99f03a2130"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "aol_did": {
+                    "ttl": 5184000012,
+                    "length": 36,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "wg_dsid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "wa_did": {
+                    "ttl": 5184000003,
+                    "length": 36,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "appliancesonline.com.au",
+                "www.winnings.com.au"
+            ]
+        },
+        {
+            "rule": "winning\\.com\\.au\\/events\\/webhooks\\/trigger\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wg-tr-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "appliancesonline.com.au",
+                "www.winnings.com.au"
+            ]
+        },
+        {
+            "rule": "winning\\.com\\.au\\/events\\/webhooks\\/trigger\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wg-tr-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "appliancesonline.com.au",
+                "www.winnings.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1366.awsdns-42.org",
+        "ns-1687.awsdns-18.co.uk",
+        "ns-544.awsdns-04.net",
+        "ns-490.awsdns-61.com"
+    ]
+}

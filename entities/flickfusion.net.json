@@ -1,0 +1,101 @@
+{
+    "domain": "flickfusion.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "cdn",
+        "verify"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "flickfusion\\.net\\/s\\/js\\/ddc\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "defb35a73c8c4a2a1fe9e63446aeb3f8dc414635e61d772996a80f9209cdef08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hendrickcars.com",
+                "www.hertzcarsales.com"
+            ]
+        },
+        {
+            "rule": "flickfusion\\.net\\/s\\/ddc\\/ff_ddc\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "verify"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "defb35a73c8c4a2a1fe9e63446aeb3f8dc414635e61d772996a80f9209cdef08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hendrickcars.com",
+                "www.hertzcarsales.com"
+            ]
+        },
+        {
+            "rule": "flickfusion\\.net\\/s\\/ddc\\/ff_dealer_com_js\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "verify"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "10b1a57f288f5fe8ceddc6546858115021c7afc8a523ca56de17c38792505284"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertzcarsales.com",
+                "www.hertzcarsales.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns49.domaincontrol.com",
+        "ns50.domaincontrol.com"
+    ]
+}

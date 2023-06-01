@@ -1,0 +1,133 @@
+{
+    "domain": "helpcenterapp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "s3"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "helpcenterapp\\.com\\/cdn\\/widget\\/mount-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "89720c0c62bc48f8fa26211d9b3f0516196a736790973a69e4a4faa433704d38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ridge.com",
+                "www.torquedetail.com"
+            ]
+        },
+        {
+            "rule": "helpcenterapp\\.com\\/cdn\\/widget\\/main\\.31d6cfe0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ridge.com",
+                "www.torquedetail.com"
+            ]
+        },
+        {
+            "rule": "helpcenterapp\\.com\\/cdn\\/widget\\/main\\.d80763b9\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "462d86802c703d86d47117fab16312f40851e275382d731c8480070572c538b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ridge.com",
+                "www.torquedetail.com"
+            ]
+        },
+        {
+            "rule": "helpcenterapp\\.com\\/cdn\\/widget_data\\/10789552187\\/widget\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cfce6c08c8f7d1b3ac69b3831ccac9ff6d959add06473c5bad67ab87b0f7f239"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torquedetail.com",
+                "www.torquedetail.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "intelligems.io",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "raegan.ns.cloudflare.com",
+        "alexis.ns.cloudflare.com"
+    ]
+}

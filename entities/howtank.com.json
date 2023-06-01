@@ -1,0 +1,133 @@
+{
+    "domain": "howtank.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "www",
+        "anlc-hwtels"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "howtank\\.com\\/integration\\/chat\\/standard",
+            "cookies": 0.000302,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "422c86a79e88c2e388fb4dcaea4de4299156928ca90ee01fa0eab0fb54c8a9a7",
+                "b7de4f2835c04167bd9cfcb311f9f9faa9c5de3e8fd93ad2b5a36fbf3a17c150"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "htk_becquet_visit": {
+                    "ttl": null,
+                    "length": 13,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "htk_becquet_first_visits": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "htk_weber_fr_visit": {
+                    "ttl": null,
+                    "length": 13,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "htk_weber_fr_first_visits": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "htk_beauval_fr_visit": {
+                    "ttl": null,
+                    "length": 13,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "htk_beauval_fr_first_visits": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "becquet.fr",
+                "www.fr.weber",
+                "www.zoobeauval.com"
+            ]
+        },
+        {
+            "rule": "howtank\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "anlc-hwtels"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "a12b7cb43c9d9134b5bb1b35e9096b66775d9e92e7611d1cc92b02edd6782a87"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "htk_becquet_visit": 0.0001005126143330988,
+                "htk_weber_fr_visit": 0.0001005126143330988,
+                "htk_beauval_fr_visit": 0.0001005126143330988
+            },
+            "exampleSites": [
+                "becquet.fr",
+                "www.fr.weber",
+                "www.zoobeauval.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "tagcommander.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "pdns07.domaincontrol.com",
+        "pdns08.domaincontrol.com"
+    ]
+}

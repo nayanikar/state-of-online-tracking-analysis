@@ -1,0 +1,112 @@
+{
+    "domain": "metabet.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "go",
+        "sportingnews.hosted"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "metabet\\.io\\/js\\/global\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "go"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "453cb569d93d60d71eb7e56e927cfafb5f1090b754251b2411e2c2f26e66f984",
+                "e54224fbac921897924f0ab7d1af93b90d1d0bdfd969befe526d5ad630f266f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mmafighting.com",
+                "www.nba.com",
+                "www.sportingnews.com"
+            ]
+        },
+        {
+            "rule": "metabet\\.io\\/css\\/main\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "504bc1839b203c0300927e3297ccd42e4d8c7175dd72a816de43c3eadf43e86d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mmafighting.com",
+                "www.nba.com",
+                "www.sportingnews.com"
+            ]
+        },
+        {
+            "rule": "metabet\\.io\\/css\\/betsinabox\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sportingnews.hosted"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3985948335130e0bb3aa3b4b2d782afda34af7024aece492a94cd0c9a566eda7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nba.com",
+                "www.sportingnews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "sportingnews.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Stylesheet": 5
+    },
+    "nameservers": [
+        "ns-755.awsdns-30.net",
+        "ns-167.awsdns-20.com",
+        "ns-1163.awsdns-17.org",
+        "ns-2040.awsdns-63.co.uk"
+    ]
+}

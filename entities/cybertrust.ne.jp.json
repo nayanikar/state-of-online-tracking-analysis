@@ -1,0 +1,80 @@
+{
+    "domain": "cybertrust.ne.jp",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "trusted-web-seal"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cybertrust\\.ne\\.jp\\/seal\\/getScript",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "trusted-web-seal"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e340b589accbe004657118e68a589453dd6d3f6975098d80e1c1c851023800dd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buyma.com",
+                "www.buyma.com"
+            ]
+        },
+        {
+            "rule": "cybertrust\\.ne\\.jp\\/seal\\/getSeal",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trusted-web-seal"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9dccaaf84c96c4473b131e4d872de2dc05e840caa6b3418f68d4f15e33bf9a96"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buyma.com",
+                "www.buyma.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns02.softbank.co.jp",
+        "ns00.vips.ne.jp",
+        "ns01.vips.ne.jp"
+    ]
+}

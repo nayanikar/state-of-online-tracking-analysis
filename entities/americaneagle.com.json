@@ -1,0 +1,110 @@
+{
+    "domain": "americaneagle.com",
+    "owner": {
+        "name": "Svanaco,  Inc.",
+        "displayName": "Svanaco"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "aesearch",
+        "tracking"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "americaneagle\\.com\\/sites\\/portillos\\/includes\\/hawksearch\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "aesearch"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ac0e49c7e297704d53562b40b31f9815ff2a2205a3486f551339ca99cbe89e5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "portillos.com",
+                "www.portillos.com"
+            ]
+        },
+        {
+            "rule": "americaneagle\\.com\\/hawk\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "87d0373be9ee683a45f6a936c68fe8f81147d76b28e4ca9ed22e9e264d758b48"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theisens.com",
+                "www.theisens.com"
+            ]
+        },
+        {
+            "rule": "americaneagle\\.com\\/sites\\/cta2017\\/includes\\/hawksuggester\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aesearch"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f4c7d433d3e74ef1253f7c7eccea6dfc0320b6f24a24a3b3a13b527438e1d726"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "transitchicago.com",
+                "www.transitchicago.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "roccommerce.com",
+            "prevalence": 0.4444444444444444
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1.americaneagle.com",
+        "ns2.americaneagle.com",
+        "ns3.americaneagle.com"
+    ]
+}

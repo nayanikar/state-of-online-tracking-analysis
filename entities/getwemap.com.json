@@ -1,0 +1,83 @@
+{
+    "domain": "getwemap.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "livemap"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "getwemap\\.com\\/js\\/sdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "livemap"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dee4cf9011e781bfde37cc1d6c989722901954aa00b785a225d53671163b28eb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bretagne.com",
+                "www.lanouvellerepublique.fr"
+            ]
+        },
+        {
+            "rule": "getwemap\\.com\\/c7402551-5b16-48d0-afba-cb08b130d238",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livemap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "852dd09ce5612328c34d53d8c82f4ad5bb1703b8810f9b0cfbfa44ee7de22812"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bretagne.com",
+                "www.bretagne.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "getwemap.com",
+            "prevalence": 0.7
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Other": 2
+    },
+    "nameservers": [
+        "clyde.ns.cloudflare.com",
+        "tricia.ns.cloudflare.com"
+    ]
+}

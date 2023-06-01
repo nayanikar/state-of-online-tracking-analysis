@@ -1,0 +1,75 @@
+{
+    "domain": "sensorsdata.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "abtest-aws-us-east-01.saas"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sensorsdata\\.com\\/api\\/v2\\/abtest\\/online\\/results",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "abtest-aws-us-east-01.saas"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "olightstore.de",
+                "www.olightstore.de"
+            ]
+        },
+        {
+            "rule": "sensorsdata\\.com\\/api\\/v2\\/abtest\\/online\\/results",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "abtest-aws-us-east-01.saas"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a1873c2dcab290798d7eb48f955ca9abbb569327e8af99023a900a287bb42088"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "olightstore.de",
+                "www.olightstore.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "olicdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "vip3.alidns.com",
+        "vip4.alidns.com"
+    ]
+}

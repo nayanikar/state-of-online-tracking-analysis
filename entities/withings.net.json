@@ -1,0 +1,81 @@
+{
+    "domain": "withings.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "prod.rudderstack"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "withings\\.net\\/v1\\/page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.rudderstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "withings.com",
+                "www.withings.com"
+            ]
+        },
+        {
+            "rule": "withings\\.net\\/v1\\/page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.rudderstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "withings.com",
+                "www.withings.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "rollbar.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns6.gandi.net",
+        "ns2.withings.net",
+        "ns1.withings.net",
+        "nsext.withings.net"
+    ]
+}

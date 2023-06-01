@@ -1,0 +1,93 @@
+{
+    "domain": "protostar-media.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "ac"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "protostar-media\\.co\\/fpc\\/cookie_js\\.php",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ac"
+            ],
+            "apis": {
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d6cf0efa220d4be346be9be9841202a06669d0ae0e57d35e9c3fc1f5a1cf664a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "s": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kigyolog.com",
+                "notepm.jp"
+            ]
+        },
+        {
+            "rule": "protostar-media\\.co\\/fpc\\/param\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ac"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4ef4a1ab45eb8fe022dfe326f50379ec3e9e5361c94f1f2df29f1cd317c4265c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kigyolog.com",
+                "notepm.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "02.dnsv.jp",
+        "01.dnsv.jp",
+        "03.dnsv.jp",
+        "04.dnsv.jp"
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "domain": "aa.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "idp",
+        "cdn"
+    ],
+    "cnames": [
+        {
+            "original": "cdn.aa.com",
+            "resolved": "cdn.aa.com.edgekey.net"
+        },
+        {
+            "original": "idp.aa.com",
+            "resolved": "idp.aa.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "aa\\.com\\.edgekey\\.net\\/idp\\/SSO\\.saml2",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "idp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "idp.aa.com",
+                    "resolved": "idp.aa.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aa.com",
+                "newjetnet.aa.com"
+            ]
+        },
+        {
+            "rule": "aa\\.com\\.edgekey\\.net\\/aileron-web\\/cookie-banner@latest\\/cookie-banner\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cdn.aa.com",
+                    "resolved": "cdn.aa.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "627f8bd26f66468c468e76adcd95d641864d1c53a420e5fc7811aeeb68bdb6bc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aa.com",
+                "www.aa.com"
+            ]
+        },
+        {
+            "rule": "aa\\.com\\.edgekey\\.net\\/aileron\\/icons\\/signal\\/information\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cdn.aa.com",
+                    "resolved": "cdn.aa.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "37723390905eaceadaa5dc1f7338e707219fbdda1d1f11c938c13703d6024b31"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aa.com",
+                "www.aa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "types": {
+        "Document": 2,
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

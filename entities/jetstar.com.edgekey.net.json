@@ -1,0 +1,131 @@
+{
+    "domain": "jetstar.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "smtc",
+        "auth"
+    ],
+    "cnames": [
+        {
+            "original": "auth.jetstar.com",
+            "resolved": "auth.jetstar.com.edgekey.net"
+        },
+        {
+            "original": "smtc.jetstar.com",
+            "resolved": "smtc.jetstar.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "jetstar\\.com\\.edgekey\\.net\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smtc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "smtc.jetstar.com",
+                    "resolved": "smtc.jetstar.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jetstar.com",
+                "www.jetstar.com"
+            ]
+        },
+        {
+            "rule": "jetstar\\.com\\.edgekey\\.net\\/authorize",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "auth.jetstar.com",
+                    "resolved": "auth.jetstar.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f8f33cda27cfa798ddcb5925879e7f97df508393bb5510398adc85c89204a7bd"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jetstar.com",
+                "www.jetstar.com"
+            ]
+        },
+        {
+            "rule": "jetstar\\.com\\.edgekey\\.net\\/QEjZQ4fv7kDQuwJULPZzwRqXwgQ\\/5iNiSrbDN9Q7uc\\/O0lncRp8PRA\\/AmcaMip7\\/aQIB",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "auth.jetstar.com",
+                    "resolved": "auth.jetstar.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a7550313c7cecb0ef95f7ea94052ce9d4180c4fbcb20d68f7df032def32b4533"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jetstar.com",
+                "www.jetstar.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Document": 2,
+        "Script": 2
+    },
+    "nameservers": []
+}

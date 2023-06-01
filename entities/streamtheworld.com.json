@@ -1,0 +1,158 @@
+{
+    "domain": "streamtheworld.com",
+    "owner": {
+        "name": "Triton Digital, Inc.",
+        "displayName": "Triton Digital"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "playerservices.live",
+        "yield-op-idsync.live"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "streamtheworld\\.com\\/api\\/getuuid",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "playerservices.live"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steptohealth.com",
+                "www.iheart.com",
+                "www.novafm.com.au"
+            ]
+        },
+        {
+            "rule": "streamtheworld\\.com\\/api\\/idsync\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "playerservices.live"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "5195d9685f3999f1e039f4ea2a4a73f7bcc4f806c60afca8f443d85897e8c4fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "2gb.com",
+                "www.3aw.com.au",
+                "www.2gb.com",
+                "www.6pr.com.au",
+                "www.iheart.com",
+                "www.novafm.com.au"
+            ]
+        },
+        {
+            "rule": "streamtheworld\\.com\\/idsync\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "yield-op-idsync.live"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "a9058846c6d127b37e48354e0d5306a404c2ba8a10d11a9250d42f8ab65c4c31",
+                "436e9c0ae31f21c3f935e7b8ab525af256017fc1953525d91b6041fcd9c32b43",
+                "3528e81b1305a9a5c3f995717704eb546598f90d55b5a9b037ed78b8e33743ab",
+                "ced1c1be7533b0e6ec8e6e5b8991c1680557d9fbaf08fea800c1805a42137d67"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3aw.com.au",
+                "www.2gb.com",
+                "www.6pr.com.au",
+                "www.iheart.com",
+                "www.novafm.com.au"
+            ]
+        },
+        {
+            "rule": "streamtheworld\\.com\\/pixel\\.gif",
+            "cookies": 0.000602,
+            "fingerprinting": 0,
+            "subdomains": [
+                "yield-op-idsync.live"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "2gb.com",
+                "www.3aw.com.au",
+                "www.2gb.com",
+                "www.6pr.com.au",
+                "www.iheart.com",
+                "www.novafm.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "gbqofs.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "listenlive.co",
+            "prevalence": 0.2962962962962963
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25925925925925924
+        },
+        {
+            "domain": "demdex.net",
+            "prevalence": 0.07407407407407407
+        },
+        {
+            "domain": "ampproject.org",
+            "prevalence": 0.037037037037037035
+        }
+    ],
+    "types": {
+        "Image": 9,
+        "Script": 11
+    },
+    "nameservers": [
+        "ns02.streamtheworld.net",
+        "ns04.streamtheworld.net",
+        "ns01.streamtheworld.net",
+        "ns03.streamtheworld.net"
+    ]
+}

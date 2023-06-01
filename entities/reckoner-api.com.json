@@ -1,0 +1,108 @@
+{
+    "domain": "reckoner-api.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "adn-srv",
+        "syn",
+        "adn-rcv"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "reckoner-api\\.com\\/v1\\/ad\\/wipe\\/web",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adn-srv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "40fe2d15f6e97271f7031a394d63c277aa9f56a15365d30b342898dc9f69ca3e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__pid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "asahi.com",
+                "globe.asahi.com"
+            ]
+        },
+        {
+            "rule": "reckoner-api\\.com\\/v1\\/access\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "syn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__pid": 0.000013614147822417056,
+                "X-ACCESSED-AT:dWyPondy2EGB_a1lrVjzIWhZO9F0k1dpo0I8Ztw": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "asahi.com",
+                "globe.asahi.com"
+            ]
+        },
+        {
+            "rule": "reckoner-api\\.com\\/v1\\/impression\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adn-rcv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__pid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "asahi.com",
+                "globe.asahi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "js-sdk-reckoner.freetls.fastly.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e1.googledomains.com"
+    ]
+}

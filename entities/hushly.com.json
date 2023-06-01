@@ -1,0 +1,202 @@
+{
+    "domain": "hushly.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hushly\\.com\\/runtime\\/widget\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bbde48b9513e430eabddfd3cebde7cfeec3513d74c174349fc39736d2acadb25"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvidia.com",
+                "www.nvidia.com"
+            ]
+        },
+        {
+            "rule": "hushly\\.com\\/assets\\/widget-501241365316ccaa6a710fa6a5f52abb\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "180cc8c07b9ddcaafa56301137f7054af4c50c4b117d9dd62d0610942eb7fd64"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_hly_vid": {
+                    "ttl": 315360019,
+                    "length": 36,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "_hly_sid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvidia.com",
+                "www.nvidia.com"
+            ]
+        },
+        {
+            "rule": "hushly\\.com\\/assets\\/widget-86616d5946edd9a2cd99f210fd4931af\\.css",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ecb4cf1400337bb3e1f8d6e9c312534a7e4a786832b909799c1d26373371861e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvidia.com",
+                "www.nvidia.com"
+            ]
+        },
+        {
+            "rule": "hushly\\.com\\/runtime\\/widgets\\/170559",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ccb3fcbbb452c85cefa8a29812f73d4d76d80f760cd2474b2719078c4c23a8f1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvidia.com",
+                "www.nvidia.com"
+            ]
+        },
+        {
+            "rule": "hushly\\.com\\/runtime\\/visitor\\/170559",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1d649e1ea30a6776fc1d04ff20d1f01c2726206331b9d586e6594063a1d6db30"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_hly_vid": 0.00020080321285140563,
+                "_hly_sid": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "nvidia.com",
+                "www.nvidia.com"
+            ]
+        },
+        {
+            "rule": "hushly\\.com\\/runtime\\/countries\\/170559",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "68b4b6fc343811ef9268a786ba1a6d45532277051d2db7804896df2b58a9b429"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvidia.com",
+                "www.nvidia.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "ml314.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Stylesheet": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns51.domaincontrol.com",
+        "ns52.domaincontrol.com"
+    ]
+}

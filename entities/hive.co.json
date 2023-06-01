@@ -1,0 +1,101 @@
+{
+    "domain": "hive.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000749,
+    "sites": 11,
+    "subdomains": [
+        "cdn-prod",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hive\\.co\\/static\\/js\\/sdk-loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-prod"
+            ],
+            "apis": {
+                "window.localStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "244d756eff735502e60d075ce960a7641ab55af44fc0d5980cb9c94e1f19b502"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "first-avenue.com",
+                "lasvegas.electricdaisycarnival.com",
+                "ncazaleafestival.org",
+                "www.insomniac.com",
+                "www.pflmma.com",
+                "www.theflowerfields.com"
+            ]
+        },
+        {
+            "rule": "hive\\.co\\/jssdk\\/iframe-helper\\/",
+            "cookies": 0.0000408,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.sessionStorage": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "c35ccfd581ac06f29963cb56c6d52ee7b14af5f8545fa26a26f0aeb872fc514a",
+                "6473ed36e584d25fcd7eb13afc0f7fdcb19f5d38513723f0601572328beaf71d",
+                "e2de86ed88464c6bb0bde3e2490fb8fa5c2c2e14b0cbd0f0edf0d7f9b0cce303",
+                "58a86af24edd3ffb33be1de2445d369aa7eb4b94d67758759319ad6dd5b14560",
+                "85c36b9b6d6253981119bfb92e13a4571e430be42e34e234ad0b338db21417e3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "first-avenue.com",
+                "lasvegas.electricdaisycarnival.com",
+                "ncazaleafestival.org",
+                "www.insomniac.com",
+                "www.pflmma.com",
+                "www.theflowerfields.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000749,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.6071428571428571
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.39285714285714285
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 6
+    },
+    "nameservers": [
+        "ns-1275.awsdns-31.org",
+        "ns-1567.awsdns-03.co.uk",
+        "ns-311.awsdns-38.com",
+        "ns-568.awsdns-07.net"
+    ]
+}

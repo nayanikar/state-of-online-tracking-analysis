@@ -1,0 +1,103 @@
+{
+    "domain": "its-mo.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "its-mo\\.com\\/cgi\\/loader\\.cgi",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8f3cb8876d3ffdd44e83b65f721abd16cf6cbd0fc08ba78acbd4faa3b0c6e280"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "japanpost.jp",
+                "www.shimamura.gr.jp"
+            ]
+        },
+        {
+            "rule": "its-mo\\.com\\/v3\\/loader",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "69d3937219779a0041750cfb95c34fb64cbc7ffbf3768da01c790b7830c416af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jorudan.co.jp",
+                "times-info.net"
+            ]
+        },
+        {
+            "rule": "its-mo\\.com\\/img\\/map-ctr\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bdbe08d898f05a1450c0789b2b55156fc7210d72cea79d7fbbf7f13b115a3161"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jorudan.co.jp",
+                "times-info.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns2.cdnetdns.net",
+        "ns1.cdnetdns.net"
+    ]
+}

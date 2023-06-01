@@ -1,0 +1,60 @@
+{
+    "domain": "bmo.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "geo"
+    ],
+    "cnames": [
+        {
+            "original": "geo.bmo.com",
+            "resolved": "geo.bmo.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bmo\\.com\\.edgekey\\.net\\/location\\.json",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "geo.bmo.com",
+                    "resolved": "geo.bmo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7d21e1b404203e58742614c7acf7bdbb2cf2aa8c0a680ab524d3d415d6f91e55"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmo.com",
+                "www.bmo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": []
+}

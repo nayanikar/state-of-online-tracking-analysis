@@ -1,0 +1,90 @@
+{
+    "domain": "turner-tls.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "z.cdp-dev.cnn.com",
+            "resolved": "turner-tls.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "turner-tls\\.map\\.fastly\\.net\\/zion-web-client\\/3\\.0\\/zion-web-client\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "z.cdp-dev.cnn.com",
+                    "resolved": "turner-tls.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "db37c6f0cc48f237d63e4c246fe189e10e4d9a1b796cb75b1d7f4a4219363854"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "www.cnn.com"
+            ]
+        },
+        {
+            "rule": "turner-tls\\.map\\.fastly\\.net\\/zfm\\/zfh-3\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "z.cdp-dev.cnn.com",
+                    "resolved": "turner-tls.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "84841ae2d4dd04ff59ce302baa5421b478dc2f26d092ffb3f9bcadc13c6ca64e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "www.cnn.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "types": {
+        "Script": 4
+    },
+    "nameservers": []
+}

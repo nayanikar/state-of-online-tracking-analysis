@@ -1,0 +1,924 @@
+{
+    "domain": "detik.net.id",
+    "owner": {
+        "name": "detik.com",
+        "displayName": "detik.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "awscdn",
+        "awsimages",
+        "akcdn",
+        "awscdnstatic",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/js\\/jquery-min-3\\.2\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "87083882cc6015984eb0411a99d3981817f5dc5c90ba24f0940420c5548d82de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/js\\/liquidimage\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "375600e5cf92edfb474b808e30cca8c1dabff38e604a3d9da855de6680a87b45"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/libs\\/livecounter\\/detikLiveUserCounterResponse\\.js",
+            "cookies": 0.000302,
+            "fingerprinting": 1,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "af0280c8646154adb38a8e059fd0c5cfb21b954eb38031fcba65240da35061ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dtklucx": {
+                    "ttl": 31536007,
+                    "length": 40,
+                    "prevalence": 0.0003015378429992964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/css\\/placeholder\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "29b704b5942d3009f4529f4e49d18b2e463b913ad8d04fc854c228fcd218599a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/commerce\\/desktop\\/css\\/detik\\.ads-new\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "57a5a8627e8f31bf2cf2d73800b9e425e3ce56a7b0b46047725d1319a1ceade9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/commerce\\/commerce\\/dtk_commerce\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "3b64444ca542f3bd5be8aba927bbf319f8924845d2cf99c053a9a0bc93771302"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/css\\/framebar\\/framebar\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "3fec4797fcce5d40d7ac0740dbaed36ee095f5098325212f1dda2e48e9903eb5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/css\\/framebar\\/autocomplete\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "b591d9a2aa94d6d5c5dfb25d24a7b078b8465341b5b1deebc19a80f1bff915c4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/images\\/favicon\\/favicon-detik-big\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cd7440ab14be7e6617bee3adaa1a9a982b8fdc982f124391e2752a43eac834b5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/community\\/media\\/visual\\/2023\\/04\\/19\\/carlo-saba_169\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awsimages",
+                "akcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "45c3c2e6edfbe68d9bd2c0e108ac09d4180596d18ffac33f79ba61a3aa80d09d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/live\\/_rmbassets\\/2022\\/parallax\\/parallax\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdnstatic"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "21336807aaee8f84be3d0a84a3f5197d5f2f22d4f75b5dfa4b406e6885baf8aa"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/live\\/_rmbassets\\/mr1-scrollpage\\/scrollpage\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdnstatic"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "80f1fbeb1e95f186e1ef324d132860cc499bec297a2ef4b673c73478f21692b7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/live\\/_rmbassets\\/mr2-scrollpage\\/scrollpage\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdnstatic"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "5f16cbd61c5063eee06064df8697819fbb972df80a1f022fdf59954c6b1f533e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/js\\/detik\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "29a559ba34dd938a7791435dbabe65932af537da1ccd1a4733e2a43f194d70d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/js\\/navbar-sticky-event\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5b25889d8e5b0af30859781a25c44bec175990eaa455d94df84c0be4ddbed083"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/images\\/webp\\/logo_detikcom\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "1256e69c773f7c0ef07cc7cfa3dc5b64c0d598bf9dce6e361e0e47b347b51fb2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/images\\/webp\\/logo_detiknetwork\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "8d1def319bee86cc842e8d46712ccb0fceecd3bd6427b9cae74f14deea330a6f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/js\\/oembed\\.itp\\.v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "dacc67ababe9c30b518d1f6b1c4043e9d21bfb393c92f4e671e6a179da288341"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/commerce\\/desktop\\/js\\/detik\\.ads\\.controller-new\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "81d33f026d43fdac3db17fad20b0d95e9b8edd7ff34008ad64e7f716493c0534"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/fonts\\/helvetica\\/Helvetica-Bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "48192302900effba9c60c355547dd8c788920f7589fa0f04f39896c5978f30e8"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/css\\/images\\/icon-sprite\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "5abebe88b0e40eafbee3d0ac1272a2e5fe852ba31f52bd2a032ae9e1d05a16e4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/fonts\\/Montserrat-Bold\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "66d71ce8b87450b916d71101b3b7bc346058798a679a2dff503f2da07c0e29f3"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/fonts\\/Montserrat-Regular\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "07b007ae5c008f6c1138fdded630392d93b9f11ad870b4ad5c9c32345947aa32"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/fonts\\/Montserrat-SemiBold\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "6048d35b279d2cf794323661b379805685c85e068d774a5f8819b7c2d9e6c3eb"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/fonts\\/Montserrat-Light\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "27c16a38961d73788a5ad4ec59e2ab37fc19bf3adb5554a9ba8412e2cbe17d29"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/fonts\\/montserrat\\/Montserrat-SemiBold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7fd4a025f5599294d27cba7d08d6bd63aa5a01319535de4844c8f5e90601082c"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/fonts\\/helvetica\\/Helvetica-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "84377fa33acdef438f7f4d881635870c255c25ce78eb747e5dd552e22d01f09c"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/fonts\\/montserrat\\/Montserrat-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7a04e22a6fb60a29850e18c17ecb8324e93e58fca95112b7624cc17672993abf"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/fonts\\/helvetica\\/Helvetica-Light\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "44760ba2e1dd7461cb10c299021cc0d6bc4bbb5b8bf3ef4e1e7034b37adc451e"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/fonts\\/icons\\/detiknetwork\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9b5b5cff1c3c276ab10fdb87148269d2f6e4ec1868d4df65e54c2d44fcd90ebc"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/js\\/framebar\\/jquery\\.autocomplete\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "e23d2fdecb2495f7d52f78c0772311147c1e8f7704cf203ec736a5c46a0ab23c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/loganalysistracker\\/detikBigDataSdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "344c23ba1cbc2b819add73db2c6dce106bbf7f4a06c59b1030677cffe3ee668e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/loganalysistracker\\/thetracker-detik-v4\\.min\\.js",
+            "cookies": 0.000302,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "c65ad3507aa9c487819ce5c6c2aac61866f0cd7bf0fc621fd78a3e365ca06bfd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__dtma": {
+                    "ttl": 63072007,
+                    "length": 55,
+                    "prevalence": 0.0003015378429992964,
+                    "uniqueness": 1
+                },
+                "__dtmb": {
+                    "ttl": 1807,
+                    "length": 25,
+                    "prevalence": 0.0003015378429992964,
+                    "uniqueness": 1
+                },
+                "__dtmc": {
+                    "ttl": null,
+                    "length": 9,
+                    "prevalence": 0.0003015378429992964,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/assets\\/fonts\\/icons\\/detiknetwork\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "awscdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "addd2c4c9f6c4b4f79459ffd4f34e4917773df51a977e05d3da33a9bcb48288e"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/libs\\/assets\\/js\\/framebar\\/dtkframebar-controller\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "4e660117322b78cf89440b7d5f15d74f12fac132787797bba05406f39aba417b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/community\\/media\\/visual\\/2023\\/04\\/18\\/ari-wibowo-dan-inge-anugrah_169\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "akcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a8e6c9eb4172ba87ea6599e12098bf73b98ff804f78a5dda7fa32c785c8ffe75"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        },
+        {
+            "rule": "detik\\.net\\.id\\/community\\/media\\/visual\\/2023\\/01\\/17\\/richard-lee_169\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "akcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "aa9bc3827a7e12cb046b8f5c60c5a83785f9be16ff66faaa7c3f3de77b4cd680"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "news.detik.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9512195121951219
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.04878048780487805
+        }
+    ],
+    "types": {
+        "Script": 31,
+        "Stylesheet": 19,
+        "Image": 17,
+        "Font": 26
+    },
+    "nameservers": [
+        "ns1.detik.net.id",
+        "ns.detik.net.id",
+        "ns2.detik.net.id"
+    ]
+}

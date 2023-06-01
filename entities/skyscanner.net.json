@@ -1,0 +1,83 @@
+{
+    "domain": "skyscanner.net",
+    "owner": {
+        "name": "Trip.com Group Limited",
+        "displayName": "Trip.com Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "widgets"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "skyscanner\\.net\\/widget-server\\/js\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "25d3a1396202a69b26ff49b0753bae3f8547f1f60dbae9dc9ad992f4d14cd005"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hikersbay.com",
+                "www.airlineratings.com",
+                "www.worldtravelguide.net"
+            ]
+        },
+        {
+            "rule": "skyscanner\\.net\\/widget-server\\/widgets\\/render",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c56b437a0373453ee5aaf13e0c562346d10d5b65f96cffb2526803d476703eb9"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airlineratings.com",
+                "www.worldtravelguide.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns1.skyscanner-dns.co.uk",
+        "ns1.skyscanner-dns.org",
+        "ns2.skyscanner-dns.co.uk",
+        "ns2.skyscanner-dns.org"
+    ]
+}

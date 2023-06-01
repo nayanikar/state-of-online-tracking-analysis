@@ -1,0 +1,287 @@
+{
+    "domain": "epimg.net",
+    "owner": {
+        "name": "EDICIONES EL PAIS S.L.",
+        "displayName": "EDICIONES EL PAIS"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000102,
+    "sites": 15,
+    "subdomains": [
+        "cadenaser00",
+        "ep00",
+        "los40es00",
+        "ep01"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "epimg\\.net\\/ser\\/estilos\\/v1\\.x\\/v1\\.0\\/pie\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cadenaser00"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8e61f93e844313c2c409ebfe7a12e9b3e9637cdecf58c1dc5f9448ba9fe91fa8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caracol.com.co",
+                "www.wradio.com.co"
+            ]
+        },
+        {
+            "rule": "epimg\\.net\\/js\\/pbs\\/pbs\\.slots\\.elpais\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ep00"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caracol.com.co",
+                "eltelevisero.huffingtonpost.es",
+                "los40.com",
+                "www.huffingtonpost.es",
+                "www.wradio.com.co"
+            ]
+        },
+        {
+            "rule": "epimg\\.net\\/estaticos\\/recursosgraficos\\/responsive\\/img\\/flecha-player\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cadenaser00"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9a9a5993a30ee6c5feb3579db9e45174de0a143261565bf5a97f797f7ba342ee"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caracol.com.co",
+                "www.wradio.com.co"
+            ]
+        },
+        {
+            "rule": "epimg\\.net\\/js\\/prisa\\/user\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ep00"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "7024e845786d8162b04bdc9e1ab362e188748f8562382b5598163b2f841c5236"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caracol.com.co",
+                "los40.com",
+                "www.wradio.com.co"
+            ]
+        },
+        {
+            "rule": "epimg\\.net\\/js\\/comun\\/streamsense\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "los40es00"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "276b5244682738d09b1f2ea556faf7d6d967c844fa95c762c121a0957ebe4503"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caracol.com.co",
+                "www.wradio.com.co"
+            ]
+        },
+        {
+            "rule": "epimg\\.net\\/js\\/comun\\/avisopcdidomi2\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ep00"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6dee0da9fffec87a325deae4fc8cbce717342343504819800c52bb3746245f21"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cmpyoutubeConsent": {
+                    "ttl": 31536004,
+                    "length": 5,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "cmp573Consent": {
+                    "ttl": 31536004,
+                    "length": 5,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huffingtonpost.es",
+                "eltelevisero.huffingtonpost.es"
+            ]
+        },
+        {
+            "rule": "epimg\\.net\\/js\\/prisa\\/user\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ep00"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "a9e91374ed3a79cc0498d7a838c2f3407f1c9084dbf1b1843a56914895de2e68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huffingtonpost.es",
+                "eltelevisero.huffingtonpost.es",
+                "noticiastrabajo.huffingtonpost.es",
+                "steptohealth.com"
+            ]
+        },
+        {
+            "rule": "epimg\\.net\\/estaticos\\/arc\\/2023\\/03\\/hogarvitamina\\/images\\/hogar-vitamina\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ep01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3f571f723468e6733241b9dd0182f778ae42426ba97271c6a92e2028fd651ad"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huffingtonpost.es",
+                "www.huffingtonpost.es"
+            ]
+        },
+        {
+            "rule": "epimg\\.net\\/estaticos\\/arc\\/2023\\/03\\/hogarvitamina\\/images\\/un-proyecto-de-ikea\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ep01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e4f880d418f4ce4b91d5377c5c3fd35621045f968ec43c45fb5b979344d86206"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huffingtonpost.es",
+                "www.huffingtonpost.es"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8957055214723927
+        },
+        {
+            "domain": "prisasd.com",
+            "prevalence": 0.06134969325153374
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.03680981595092025
+        },
+        {
+            "domain": "wp.com",
+            "prevalence": 0.006134969325153374
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "XHR": 5,
+        "Image": 6,
+        "Script": 11
+    },
+    "nameservers": [
+        "dns1.p01.nsone.net",
+        "dns3.p01.nsone.net",
+        "dns2.p01.nsone.net",
+        "dns4.p01.nsone.net"
+    ]
+}

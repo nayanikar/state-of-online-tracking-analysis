@@ -1,0 +1,503 @@
+{
+    "domain": "getgobot.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000953,
+    "sites": 14,
+    "subdomains": [
+        "track",
+        "www",
+        "new",
+        "chatsvc"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "getgobot\\.com\\/gobot\\/js\\/shopify\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4,
+                "window.sessionStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "89235cec71b696209a96926680cde56ac7e37edd6c59d2d53b586ba2f73901d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_gbtest": {
+                    "ttl": 15,
+                    "length": 24,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                },
+                "_gbsess": {
+                    "ttl": null,
+                    "length": 325,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanhatmakers.com",
+                "mantisx.com",
+                "www.seekinghealth.com",
+                "www.truecable.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/gobot\\/api\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanhatmakers.com",
+                "mantisx.com",
+                "www.seekinghealth.com",
+                "www.truecable.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/gobot\\/api\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "4054803cd137ad96bd35adb279492841e04ae854115b9abda992a0d46de5dc77",
+                "e275664310ef0559a9d13babeb0a1193a412584a8e3dce3e0f47da7adc1f2b63",
+                "ab5a705ad04439ad61e6121ff836e9da70fc0e0add344c5f866cf0c8b1b2fb10"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanhatmakers.com",
+                "mantisx.com",
+                "www.seekinghealth.com",
+                "www.truecable.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/app\\/v1\\/gobot-client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "BroadcastChannel.prototype.constructor": 1,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "89fcf694f3cf31e4eaf71497b8a7501bf5abc84b6b1431a471f4e86719b8451d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "happymammoth.com",
+                "lasd.org"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/client\\/loader",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "50b81e7a04be6ea6e76429c7db9d726e6472da857c2f26f3a574c5f8001ac516",
+                "46c4b1d7f7bb44b9914e56fdac2b81a3b8b09e1ab84ad15312030c9094c2e6ca"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "happymammoth.com",
+                "lasd.org",
+                "www.colorescience.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/client\\/loader",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "happymammoth.com",
+                "lasd.org",
+                "www.colorescience.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/client\\/v1\\/gobot-host\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "new"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.indexedDB": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "ffc3d30370f6a9469bf5995e8eb027f4bb6c12d48778e6226f985c9f7f4ef741",
+                "355e7a8e0bdff69076a3f37e20b70ed7e88bb5c45fc279fc6c1aaad4b557098e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_gobot": {
+                    "ttl": 63072026,
+                    "length": 20,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "happymammoth.com",
+                "lasd.org",
+                "www.colorescience.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/chat\\/ws\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatsvc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "happymammoth.com",
+                "lasd.org",
+                "www.colorescience.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/client\\/v1\\/gobot-host\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "new"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "23424015ef22165463c1baacd5f7d52ad437046327ad3a3e80e78032b803214c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lasd.org",
+                "www.colorescience.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/app\\/assets\\/img\\/gobot-widget\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "new"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ff31479fe57a0fca28e9827da91ea68110247eaa0048e47e579b917a16429faa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lasd.org",
+                "www.colorescience.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/client\\/v1\\/gobot-chat\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "new"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bee107392c1da5de958b249760b160178eab42db8d5dd85e1cfba67a4a78d986"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lasd.org",
+                "www.colorescience.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/app\\/assets\\/vendor\\/owlcarousel\\/owl\\.carousel\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "new"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "625bc9759f96028ad0ed0fd1908307fc1389eec9687fab2f3ccd70169d634ba6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lasd.org",
+                "www.colorescience.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/client\\/v1\\/gobot-chat\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "new"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.product": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b87b6f1e6cf1c4a1db2821c3c3b0d8733a19a831ae338d09c92bbe7c32307a8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lasd.org",
+                "www.colorescience.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/gobot\\/api\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "433933a5443c03e6a0a4093bcdc4d54eb2b09f2c25edf222e6537388d14cb17e",
+                "d5f84fdaf30b1436e8a39d060b7c6de4a362cb2239a92bd417c0d04be63ec7dc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mantisx.com",
+                "www.seekinghealth.com",
+                "www.truecable.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/gobot\\/api\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mantisx.com",
+                "www.seekinghealth.com",
+                "www.truecable.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/client\\/v1\\/gobot-client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "new"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ffbd970228981a5d9d1ce4bcdd7408ce2bc95eefdc302dfbe12818e45128459b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "colorescience.com",
+                "www.colorescience.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/client\\/-MUAi2wLt-dIIQFEnhQr\\/-MhF1XMHAu-GjuM6URA6:4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "new"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8a1badcd0044125d86499a71527339601791d7ea5a3de7cd732a4c215bfc12fb"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_gobot": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "colorescience.com",
+                "www.colorescience.com"
+            ]
+        },
+        {
+            "rule": "getgobot\\.com\\/client\\/-MUAi2wLt-dIIQFEnhQr\\/-MhF1XMHAu-GjuM6URA6:4\\/52d02bae000f8ce2de9a3a39073e03a0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "new"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bd3e18a85c036289c838f87a45abcf68681b577a80d6539808c4ac79f7edf322"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "colorescience.com",
+                "www.colorescience.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000749,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5217391304347826
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.4782608695652174
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "Preflight": 10,
+        "XHR": 7,
+        "Fetch": 3,
+        "WebSocket": 3,
+        "Stylesheet": 6,
+        "Image": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-1639.awsdns-12.co.uk",
+        "ns-291.awsdns-36.com",
+        "ns-1502.awsdns-59.org",
+        "ns-909.awsdns-49.net"
+    ]
+}

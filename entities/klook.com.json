@@ -1,0 +1,194 @@
+{
+    "domain": "klook.com",
+    "owner": {
+        "name": "Klook Travel Technology Limited",
+        "displayName": "Klook Travel"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "affiliate",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "klook\\.com\\/widget\\/fetch-iframe-init\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "affiliate"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f2767375f9a38497e1cf2279ff98dc1407081074ccd0fda78709c84387f6c5ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "streetdirectory.com",
+                "www.tsunagujapan.com"
+            ]
+        },
+        {
+            "rule": "klook\\.com\\/s\\/dist_web\\/klook-affiliate-front\\/static\\/widget\\/iframe\\/iframe-init-v1\\.0\\.10\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "db18cb52427e02c7de9ad4d90ca593068388c3fdac72903ee699779d92b0a74c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "streetdirectory.com",
+                "www.tsunagujapan.com"
+            ]
+        },
+        {
+            "rule": "klook\\.com\\/widget\\/render",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "affiliate"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f405857aaaea730fc31ceb471173da8363774b7796b36fa942d01c0c1db83445"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "streetdirectory.com",
+                "www.tsunagujapan.com"
+            ]
+        },
+        {
+            "rule": "klook\\.com\\/s\\/dist_web\\/klook-affiliate-front\\/static\\/widget\\/js\\/chunk-vendors\\.c1b35f39\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 2,
+                "window.indexedDB": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.onLine": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "PerformanceTiming.prototype.navigationStart": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eae20b6a872c824d99168409e3da233d44beb889c6baafb4898fc92a9e839523"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "streetdirectory.com",
+                "www.tsunagujapan.com"
+            ]
+        },
+        {
+            "rule": "klook\\.com\\/s\\/dist_web\\/klook-affiliate-front\\/static\\/widget\\/js\\/chunk-common\\.d2e21474\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cef730d6893fbe68c977250c2b198d38ef2ec30da5973ffd4e8d871bb60ac0c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "streetdirectory.com",
+                "www.tsunagujapan.com"
+            ]
+        },
+        {
+            "rule": "klook\\.com\\/v2\\/usrcsrv\\/hit\\/experiments",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "affiliate"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "699947b30b7a8cb18c8da66c5d7adaac60eed91a7701189a4dc76048a1ba5331"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "streetdirectory.com",
+                "www.tsunagujapan.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Document": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1758.awsdns-27.co.uk",
+        "ns-337.awsdns-42.com",
+        "ns-1040.awsdns-02.org",
+        "ns-961.awsdns-56.net"
+    ]
+}

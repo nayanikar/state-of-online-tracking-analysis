@@ -1,0 +1,81 @@
+{
+    "domain": "kajabi-cdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "kajabi-app-assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "kajabi-cdn\\.com\\/assets\\/core-39d7ec8c864adbae305102afb66be7486f2dfa14daf2042501bc27b46117fc72\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kajabi-app-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "39d7ec8c864adbae305102afb66be7486f2dfa14daf2042501bc27b46117fc72"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltidrenbil.no",
+                "www.psykologliv.no"
+            ]
+        },
+        {
+            "rule": "kajabi-cdn\\.com\\/assets\\/encore_core-d18fb77ad962d2dfbc9c227290ae6c402da0371e2b851bf083a311a1a3962c2c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "kajabi-app-assets"
+            ],
+            "apis": {
+                "window.innerWidth": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d18fb77ad962d2dfbc9c227290ae6c402da0371e2b851bf083a311a1a3962c2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltidrenbil.no",
+                "www.psykologliv.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "galilea.ns.cloudflare.com",
+        "lennox.ns.cloudflare.com"
+    ]
+}

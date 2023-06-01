@@ -1,0 +1,89 @@
+{
+    "domain": "stikilo.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stikilo\\.com\\/start",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "5a8b657025349bd9d248e5886cf9b4247344e8582ba777f06011ab069c0471ee",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "analytic_id": {
+                    "ttl": 466560011,
+                    "length": 13,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tele2.ru",
+                "msk.tele2.ru",
+                "www.movavi.com"
+            ]
+        },
+        {
+            "rule": "stikilo\\.com\\/analytics",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "analytic_id": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "tele2.ru",
+                "msk.tele2.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "citydsp.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns1.digitalocean.com",
+        "ns2.digitalocean.com"
+    ]
+}

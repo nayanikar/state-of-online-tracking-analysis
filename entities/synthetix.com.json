@@ -1,0 +1,567 @@
+{
+    "domain": "synthetix.com",
+    "owner": {
+        "name": "Synthetix Ltd",
+        "displayName": "Synthetix"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00101,
+    "sites": 10,
+    "subdomains": [
+        "cdn",
+        "api",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "synthetix\\.com\\/penfield\\/get_synthetix\\.min\\.js",
+            "cookies": 0.000503,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 7,
+                "window.localStorage": 7,
+                "window.sessionStorage": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Date.prototype.getTimezoneOffset": 8,
+                "Navigator.prototype.onLine": 7,
+                "Date.prototype.getTime": 8,
+                "Document.cookie getter": 8,
+                "Navigator.prototype.language": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Navigator.prototype.cookieEnabled": 6,
+                "Document.cookie setter": 5
+            },
+            "sites": 9,
+            "prevalence": 0.000906,
+            "cnames": [],
+            "responseHashes": [
+                "16a62bdad0cdf54bbec61c6df426429d7a83029f67994c96117e0d930cd59f95"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__syn_authorization": {
+                    "ttl": 21603,
+                    "length": 43,
+                    "prevalence": 0.0005034232782923883,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anglianwater.co.uk",
+                "www.benenden.co.uk",
+                "www.boots.com",
+                "www.dwrcymru.com",
+                "www.eduqas.co.uk",
+                "www.esure.com",
+                "www.fscs.org.uk",
+                "www.wjec.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/2\\.0\\/external\\/self_configure",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000906,
+            "cnames": [],
+            "responseHashes": [
+                "5c0db3b4713522a415ce8f62a69221bd069f647592433e5f1de27054e2e0294f",
+                "d2413bf3a92b8f25647e0b1015e002b7773bae98d66e3d04ac2681905cdc05dc",
+                "e2580c778a7b74c9f76b77b2d799a2f7d9b891de177d8576da7da75a90e27691",
+                "0d7b2fd87cc6b81e583bd5152f3b43d0133fd1a8f41e7d81797e9f425f12413f",
+                "3eb1cb25946995365140e075eca7f711928e166af856379b0e5dcb5685fa6d8f",
+                "afdd135007eb135cfa1dbe110ed5b5037cdb008c1e955f50d1a20d9e7def0731",
+                "38738fb912cf6c20f8ffb67a6308f793abf9992dac3045c7a97a3d6fa6aa28c9",
+                "92c15c740dfc576f99e7113ee2eee2f9bb10f815411780289b6783f174ae85a5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anglianwater.co.uk",
+                "www.benenden.co.uk",
+                "www.boots.com",
+                "www.dwrcymru.com",
+                "www.eduqas.co.uk",
+                "www.esure.com",
+                "www.vanquis.co.uk",
+                "www.wjec.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/2\\.0\\/external\\/self_configure",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000906,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anglianwater.co.uk",
+                "www.benenden.co.uk",
+                "www.boots.com",
+                "www.dwrcymru.com",
+                "www.eduqas.co.uk",
+                "www.esure.com",
+                "www.vanquis.co.uk",
+                "www.wjec.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/penfield\\/prod\\/1\\.3\\.1\\/css\\/sx_animate\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e2376e15c60f80eb7f1fee885c1b7384f6084a7a0e829b69f8577ec6ca517a62"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anglianwater.co.uk",
+                "www.wjec.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/penfield\\/prod\\/1\\.3\\.1\\/partial\\/trigger\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f3f09340da072dd8c9a1adbeacf7e466a6c286e5546d66fa4b9afebfd1f0f2f4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anglianwater.co.uk",
+                "www.wjec.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/2\\.0\\/external\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000906,
+            "cnames": [],
+            "responseHashes": [
+                "6946bbef668badbfc4ac23689967257cafd780a9ac0bdcf485906f69be570c0a",
+                "b9225eb0b61a9ed25899712c6a68be8b57e0340c2896b8b7f1ede1fff360ed0d",
+                "87b864c53832758df399c45b60c24aaed15b1052080c81b5fb59d37de3722591",
+                "fa1800f9eea1c7f2e103e27ceedc00e8d227dc690dbac8fcf7dfceedcf8b474b",
+                "5dc2b49a4dcea5fc94a3b6d956d7b7dd5445887d7b0b9e8505ccb8e93cb3478b",
+                "4f4e9ac7d98639f5db914405c679eac601810237313a960971da3a76574dcf53",
+                "fecbf00b8ec7d66d26ef58f7d6aaf0f058c617023011362d132d3b26303366e1",
+                "d0bdb71c04057939209c32189f5fe3cddae552f8c701a06d94d65d7ece02f87a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anglianwater.co.uk",
+                "www.anglianwater.co.uk",
+                "www.benenden.co.uk",
+                "www.dwrcymru.com",
+                "www.eduqas.co.uk",
+                "www.esure.com",
+                "www.vanquis.co.uk",
+                "www.wjec.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/2\\.0\\/external\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000805,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anglianwater.co.uk",
+                "www.benenden.co.uk",
+                "www.dwrcymru.com",
+                "www.eduqas.co.uk",
+                "www.esure.com",
+                "www.vanquis.co.uk",
+                "www.wjec.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/2\\.0\\/environment\\/variables",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000805,
+            "cnames": [],
+            "responseHashes": [
+                "97547d518c3b3a4cba2df990c70d658689cf964ec9d49801a106a80796586b1f",
+                "8eb3ba6514c6ac8fbc1b7ef9303e571b2e43c2d6d23bc7559e41dc8a88d99519",
+                "20fa93d68cfbc45b40a9debd70174ca91b0e7f7b2af997ec5165517f4665b00e",
+                "0f3260b9b3a9810cd8eacc6b3ef92ac652b9b24750db4ccfa1e5cba4cb70dc9f",
+                "254f0698fa60b72c5e880d64da829cf5557152c2e907b7f540786ff80ee3a473",
+                "3901acd4dbbf2471b4fabfa5ecbd3d1cc0d8744e356f8d0eaf6d520c28de60ef",
+                "9b8869016e62c5b169abe85b88bb717cfed287ec427c027efec63c1aecf2384c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anglianwater.co.uk",
+                "www.benenden.co.uk",
+                "www.dwrcymru.com",
+                "www.eduqas.co.uk",
+                "www.esure.com",
+                "www.vanquis.co.uk",
+                "www.wjec.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/2\\.0\\/environment\\/variables",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000805,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anglianwater.co.uk",
+                "www.benenden.co.uk",
+                "www.dwrcymru.com",
+                "www.eduqas.co.uk",
+                "www.esure.com",
+                "www.vanquis.co.uk",
+                "www.wjec.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/2\\.0\\/external\\/trigger",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000805,
+            "cnames": [],
+            "responseHashes": [
+                "e230528a2de58c989013ce86230ddaff1305d1fef87e193603b10e13fb951ccb",
+                "24c33669f1936e42b6129b718f2cf37fe5166ef12d46479f92118f103ea20da8",
+                "e932ac21c9782c622daed858b0a6f2717f4e3cb9c18832e2943a946a24003e3c",
+                "06c41fd765dbdd5986dde1ad51aad45cc365779840f2d8d02820fa6c923939bd",
+                "0c665144bff44a5242e6a5d500bef713c3cb4d770b984d53df95a8a4c641c9ce",
+                "c3313821b12b94aa70a0fdd1264930dd62ebc6ad9635c5b27495ce01f97a0360",
+                "705ad8ed489e804cb5ffd5a3f72eca7a5ac739db786fc246e304b0bbebdb9422"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anglianwater.co.uk",
+                "www.benenden.co.uk",
+                "www.dwrcymru.com",
+                "www.eduqas.co.uk",
+                "www.esure.com",
+                "www.vanquis.co.uk",
+                "www.wjec.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/2\\.0\\/external\\/trigger",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000805,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anglianwater.co.uk",
+                "www.benenden.co.uk",
+                "www.dwrcymru.com",
+                "www.eduqas.co.uk",
+                "www.esure.com",
+                "www.vanquis.co.uk",
+                "www.wjec.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/penfield\\/original\\/get_synthetix\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.onLine": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "94ba1a04690d265ba6b910c976c35e53c826df18d0296a0e09eb446cfea887ce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__syn_authorization": {
+                    "ttl": 21605,
+                    "length": 43,
+                    "prevalence": 0.0002013693113169553,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benenden.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/penfield\\/css\\/sx_animate\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4dd81092b63d99f218a39186144f7ed6665d2d54e898ea59b82c8515d9b58846"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benenden.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/penfield\\/css\\/sx_icons\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9d3171d85cd648abbefe03f2ddc085b68554d0531a73dced90a4888484eddf3f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benenden.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/trigger\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8ef2d8e972cbe5b5e041177bfc92ce1f87b91ea5d93f975511864761537b9665"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benenden.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/v2_1\\/template\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dc44053e0e9471fcbeaa8f38ef04fbe978b5808e1c93eb0ccd4d8ddf06f99dcf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benenden.co.uk",
+                "www.ybs.co.uk"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/penfield\\/prod\\/1\\.2\\.8\\/css\\/sx_animate\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e2376e15c60f80eb7f1fee885c1b7384f6084a7a0e829b69f8577ec6ca517a62"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boots.com",
+                "www.dwrcymru.com"
+            ]
+        },
+        {
+            "rule": "synthetix\\.com\\/penfield\\/prod\\/1\\.2\\.8\\/partial\\/trigger\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f3f09340da072dd8c9a1adbeacf7e466a6c286e5546d66fa4b9afebfd1f0f2f4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boots.com",
+                "www.dwrcymru.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000805,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5833333333333334
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.1388888888888889
+        },
+        {
+            "domain": "btttag.com",
+            "prevalence": 0.027777777777777776
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.027777777777777776
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "XHR": 42,
+        "Preflight": 33,
+        "Stylesheet": 8
+    },
+    "nameservers": [
+        "ns-374.awsdns-46.com",
+        "ns-861.awsdns-43.net",
+        "ns-1382.awsdns-44.org",
+        "ns-2032.awsdns-62.co.uk"
+    ]
+}

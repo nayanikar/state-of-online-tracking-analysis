@@ -1,0 +1,153 @@
+{
+    "domain": "acquia.com",
+    "owner": {
+        "name": "Acquia, Inc",
+        "displayName": "Acquia"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "builder.lift",
+        "us-east-1-decisionapi.lift"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "acquia\\.com\\/lift\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "builder.lift"
+            ],
+            "apis": {
+                "window.sessionStorage": 1,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c41e310802f71c48423480de4449d9ffa85ae49d6d0b3b444907cc479cbf56c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tc_ptidexpiry": {
+                    "ttl": 63072004,
+                    "length": 13,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                },
+                "tc_ptid": {
+                    "ttl": 63072004,
+                    "length": 22,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                },
+                "tc_ttid": {
+                    "ttl": 1804,
+                    "length": 22,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mskcc.org",
+                "www.uottawa.ca",
+                "www.wendys.com"
+            ]
+        },
+        {
+            "rule": "acquia\\.com\\/v2\\/decide",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-east-1-decisionapi.lift"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1f5c70f06853c22deff9b06a17ca6a7fb4c875209cae9c3ac23a4c03980f3202"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uottawa.ca",
+                "www.wendys.com"
+            ]
+        },
+        {
+            "rule": "acquia\\.com\\/v2\\/decide",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-east-1-decisionapi.lift"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uottawa.ca",
+                "www.wendys.com"
+            ]
+        },
+        {
+            "rule": "acquia\\.com\\/v2\\/capture-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-east-1-decisionapi.lift"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1ef595643478cb2a2a8ba136c183a52f21da80d126535b89317bee32045e7c74"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uottawa.ca",
+                "www.wendys.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1192.awsdns-21.org",
+        "ns-1685.awsdns-18.co.uk",
+        "ns-306.awsdns-38.com",
+        "ns-742.awsdns-28.net"
+    ]
+}

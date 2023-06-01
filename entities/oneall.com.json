@@ -1,0 +1,90 @@
+{
+    "domain": "oneall.com",
+    "owner": {
+        "name": "ONEALL SARL",
+        "displayName": "ONEALL"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "app-905306-1.api",
+        "outdoorking-com.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "oneall\\.com\\/socialize\\/library\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app-905306-1.api",
+                "outdoorking-com.api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appVersion": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "bfc6fa4699a58880920302426f9851923e00a7e77ee60817ecee296d40a1e813",
+                "8fa7e16fe5afb8bb1eb280de350566be80a2380737d08649d69fc09f83a5efd4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goonhammer.com",
+                "www.goonhammer.com",
+                "www.outdoorking.com"
+            ]
+        },
+        {
+            "rule": "oneall\\.com\\/socialize\\/login\\/frame\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-905306-1.api",
+                "outdoorking-com.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "84929f33f544976baab005cc79efc7722e9cba7de7719c0a3e348ddb6a5743c1"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goonhammer.com",
+                "www.outdoorking.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns4.p27.dynect.net",
+        "ns2.p27.dynect.net",
+        "ns3.p27.dynect.net",
+        "ns1.p27.dynect.net"
+    ]
+}

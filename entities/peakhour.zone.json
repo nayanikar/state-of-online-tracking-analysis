@@ -1,0 +1,93 @@
+{
+    "domain": "peakhour.zone",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "res0.grays.com",
+        "kitchenwarehouse.com.au"
+    ],
+    "cnames": [
+        {
+            "original": "ajax.kitchenwarehouse.com.au",
+            "resolved": "kitchenwarehouse.com.au.peakhour.zone"
+        },
+        {
+            "original": "res0.grays.com",
+            "resolved": "res0.grays.com.peakhour.zone"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "peakhour\\.zone\\/handlers\\/imagehandler\\.ashx",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "res0.grays.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "res0.grays.com",
+                    "resolved": "res0.grays.com.peakhour.zone"
+                }
+            ],
+            "responseHashes": [
+                "fbca3e910600d1593a22a33a1050f1e2f6f2169e96e341c2941590532cb86a60"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grays.com",
+                "www.grays.com"
+            ]
+        },
+        {
+            "rule": "peakhour\\.zone\\/_extforms_netsuite_com\\/app\\/site\\/hosting\\/scriptlet\\.nl",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchenwarehouse.com.au"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "ajax.kitchenwarehouse.com.au",
+                    "resolved": "kitchenwarehouse.com.au.peakhour.zone"
+                }
+            ],
+            "responseHashes": [
+                "4eec68260d50a9a1a453552d76f2a137f6b228cd44bb03041d2baf25f3ee6771"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kitchenwarehouse.com.au",
+                "www.kitchenwarehouse.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "types": {
+        "Image": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-874.awsdns-45.net",
+        "ns-409.awsdns-51.com",
+        "ns-1645.awsdns-13.co.uk",
+        "ns-1425.awsdns-50.org"
+    ]
+}

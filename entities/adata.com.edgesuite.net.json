@@ -1,0 +1,88 @@
+{
+    "domain": "adata.com.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "webapi3"
+    ],
+    "cnames": [
+        {
+            "original": "webapi3.adata.com",
+            "resolved": "webapi3.adata.com.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "adata\\.com\\.edgesuite\\.net\\/api\\/page\\/navigations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webapi3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "webapi3.adata.com",
+                    "resolved": "webapi3.adata.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adata.com",
+                "www.adata.com"
+            ]
+        },
+        {
+            "rule": "adata\\.com\\.edgesuite\\.net\\/api\\/page\\/navigations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webapi3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "webapi3.adata.com",
+                    "resolved": "webapi3.adata.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "fe18de0258b1c45835d3dc1462f71b68b9d27f1f475ae306adee6ef5ae01cc00"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adata.com",
+                "www.adata.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,157 @@
+{
+    "domain": "replayapp.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "replayapp\\.io\\/collect\\/initialize\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "466d6186dd31700d363c8bbaa00cfcd3f6d609a6de513b4b39e9d163d10a9444"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nuphy.com",
+                "platinumtherapylights.com",
+                "www.thecubicle.com"
+            ]
+        },
+        {
+            "rule": "replayapp\\.io\\/js\\/camera-8e025ae0c5\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 3,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "020b280aef8de3b121bba5cd91aa0f898cd8a5f647894ce3062b6edceb87ef21"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "SREC_SESSION": {
+                    "ttl": 31536003,
+                    "length": 16,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nuphy.com",
+                "platinumtherapylights.com",
+                "www.thecubicle.com"
+            ]
+        },
+        {
+            "rule": "replayapp\\.io\\/collect\\/conf",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6f2535215838c01c22d9b19f81d8d5ee022eb8b988b8469dbd49e931ed20ad41",
+                "2e2c2a5573436a4755d3f2efcc063a08374eef925d538634fc268650882164da"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nuphy.com",
+                "platinumtherapylights.com",
+                "www.thecubicle.com"
+            ]
+        },
+        {
+            "rule": "replayapp\\.io\\/collect\\/conf",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nuphy.com",
+                "platinumtherapylights.com",
+                "www.thecubicle.com"
+            ]
+        },
+        {
+            "rule": "replayapp\\.io\\/collect\\/camera",
+            "cookies": 0.00000681,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "aa9a7ce5582ee9e68f1d99b7185a322277bc07a5dde77a701ab46c82f5a611ba"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thecubicle.com",
+                "www.thecubicle.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000408,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.6470588235294118
+        },
+        {
+            "domain": "better-replay.com",
+            "prevalence": 0.35294117647058826
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "XHR": 5,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "dns2.registrar-servers.com",
+        "dns1.registrar-servers.com"
+    ]
+}

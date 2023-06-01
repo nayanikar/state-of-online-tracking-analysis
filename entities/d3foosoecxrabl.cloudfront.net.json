@@ -1,0 +1,86 @@
+{
+    "domain": "d3foosoecxrabl.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "d3foosoecxrabl\\.cloudfront\\.net\\/sdk\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "f4c9142548a5eff79f19b9e2e26d4c488444e70246839bf9db786df0c3cde191",
+                "0dac253d166afee3c54fcf175b52595c6ce854546a59bcca8b842e98b5cb9a69",
+                "b53cda9a6b6d8295badd64ba62761886abf1644b9d6a9a57ab37d2f533349f3f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_radTrack_203": {
+                    "ttl": 2522880003,
+                    "length": 62,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_radTrack_342": {
+                    "ttl": 2522880003,
+                    "length": 62,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "100percentpure.com",
+                "www.100percentpure.com",
+                "www.adoreme.com",
+                "www.beautycounter.com",
+                "www.lecreuset.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-843.awsdns-41.net",
+        "ns-1201.awsdns-22.org",
+        "ns-349.awsdns-43.com",
+        "ns-1840.awsdns-38.co.uk"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "domain": "ngastatic.com",
+    "owner": {
+        "name": "Allegro.pl sp. z o.o.",
+        "displayName": "Allegro.pl"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ngastatic\\.com\\/s4c\\/tracker\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 5,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "Date.prototype.getTime": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "854a253aad4f4d13ef8e3b6401f1f53fbe1797b3b31a544f1b728e928794720a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cmuid": {
+                    "ttl": 63072009,
+                    "length": 36,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allegrolokalnie.pl",
+                "www.mall.hr",
+                "www.mall.cz",
+                "www.mall.sk",
+                "www.mimovrste.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "dns2.allegro.pl",
+        "dns1.allegro.pl",
+        "dns3.allegro.pl"
+    ]
+}

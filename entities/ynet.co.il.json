@@ -1,0 +1,111 @@
+{
+    "domain": "ynet.co.il",
+    "owner": {
+        "name": "Yediot Information Technologies ltd",
+        "displayName": "Yediot Information"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "totalmedia2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ynet\\.co\\.il\\/new_gpt\\/calcalist\\/gpt_script_calcalist\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "totalmedia2"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "385ecd6b038a25fbfac14c52afe7276b1da505b06964e016839dcb7492fcf16f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calcalist.co.il",
+                "www.calcalist.co.il"
+            ]
+        },
+        {
+            "rule": "ynet\\.co\\.il\\/new_gpt\\/english\\/gpt_script_yns\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "totalmedia2"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "Document.cookie getter": 1,
+                "window.localStorage": 1,
+                "Screen.prototype.width": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bf02beaf403542ee2c3adb98d4678e1a4da962622fe5d0ab4e9d442df78da304"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dcsyncundefined": {
+                    "ttl": 31104003,
+                    "length": 4,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "tmcundefined": {
+                    "ttl": 31104003,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ynetnews.com",
+                "www.ynetnews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "yit.co.il",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "usw1.akam.net",
+        "ns1-168.akam.net",
+        "use1.akam.net",
+        "usc2.akam.net",
+        "asia2.akam.net",
+        "ns1-61.akam.net",
+        "eur2.akam.net",
+        "ns1-92.akam.net"
+    ]
+}

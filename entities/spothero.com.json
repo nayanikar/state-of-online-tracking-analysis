@@ -1,0 +1,163 @@
+{
+    "domain": "spothero.com",
+    "owner": {
+        "name": "SpotHero Inc.",
+        "displayName": "SpotHero"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "tracking"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "spothero\\.com\\/aff_i",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airportparkingguides.com",
+                "nationalcherryblossomfestival.org",
+                "stadiumparkingguides.com"
+            ]
+        },
+        {
+            "rule": "spothero\\.com\\/partner-widgets\\/event-widget\\/event-widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2e3ea351e420edc4846a2f8d9b792f9887ef41e1edf06214cdee47415ad062cc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalcherryblossomfestival.org",
+                "stadiumparkingguides.com"
+            ]
+        },
+        {
+            "rule": "spothero\\.com\\/partner-widgets\\/event-widget\\/event-widget\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.vendor": 1,
+                "Navigator.prototype.product": 2,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1,
+                "window.matchMedia(\"prefers-color-scheme\")": 2,
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ce9cdcf6ce10866aa1035961187a50980fa59a8004453d0496c2cdab4df8aac1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "thirdparty.check": {
+                    "ttl": null,
+                    "length": 3,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalcherryblossomfestival.org",
+                "stadiumparkingguides.com"
+            ]
+        },
+        {
+            "rule": "spothero\\.com\\/v1\\/tune\\/configurations\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9f38914be4f4d3f31bdad895eed6249ad9bdc80bd5c3945e96e2421fb58806c7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalcherryblossomfestival.org",
+                "stadiumparkingguides.com"
+            ]
+        },
+        {
+            "rule": "spothero\\.com\\/v1\\/events\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "19ec7cb8ab9ed61fc29be0edd7ccafac4732bd1609dfaf5a2c3d8eaebbaf6d98"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalcherryblossomfestival.org",
+                "stadiumparkingguides.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "Stylesheet": 2,
+        "Script": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-1475.awsdns-56.org",
+        "ns-1591.awsdns-06.co.uk",
+        "ns-601.awsdns-11.net",
+        "ns-102.awsdns-12.com"
+    ]
+}

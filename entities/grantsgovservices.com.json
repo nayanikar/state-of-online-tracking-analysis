@@ -1,0 +1,77 @@
+{
+    "domain": "grantsgovservices.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "chatserver"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "grantsgovservices\\.com\\/api\\/chatbot\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatserver"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grants.gov",
+                "www.grants.gov"
+            ]
+        },
+        {
+            "rule": "grantsgovservices\\.com\\/api\\/chatbot\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatserver"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3576fcb59c6e8cd6ed6daada465bb12f99409763f571fb1f9c1470ce9416e1dd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grants.gov",
+                "www.grants.gov"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "grantsgovchatwidget.s3.amazonaws.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-719.awsdns-25.net",
+        "ns-1297.awsdns-34.org",
+        "ns-1541.awsdns-00.co.uk",
+        "ns-80.awsdns-10.com"
+    ]
+}

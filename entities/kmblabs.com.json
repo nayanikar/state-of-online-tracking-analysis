@@ -1,0 +1,130 @@
+{
+    "domain": "kmblabs.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000804,
+    "sites": 8,
+    "subdomains": [
+        "chatwindow.api",
+        "chat-window"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "kmblabs\\.com\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatwindow.api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000704,
+            "cnames": [],
+            "responseHashes": [
+                "de7390ae7ee71272ca1df5e23139720dc48ed4979aac7aa846b1860c81d204c8",
+                "5016b39f9a97f425a61eff4d75c2c19295f2daa8f13617a3d8f1822f0cb90d4e",
+                "5401e366bb59ff0db36ebc694b58903df209d6bb85f904d1a24a52ee41795ecc",
+                "e8aa9887a5ef7857de4868aad83537e3634aa1a877b3e5c9a410b8125d48438b",
+                "0c7dd88e807de976218abf1fdc0a3c8841cc23d9b0ae29bd270d195f41e88aca",
+                "c6ee16fd8d5e72b9df8027a6e67bfa0c50a0b3048be314f825dc64476fb2d09b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laforet.com",
+                "www.adecco.fr",
+                "www.cegos.fr",
+                "www.century21.fr",
+                "www.emploi.sncf.com",
+                "www.guy-hoquet.com",
+                "www.laforet.com"
+            ]
+        },
+        {
+            "rule": "kmblabs\\.com\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatwindow.api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000704,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laforet.com",
+                "www.adecco.fr",
+                "www.cegos.fr",
+                "www.century21.fr",
+                "www.emploi.sncf.com",
+                "www.guy-hoquet.com",
+                "www.laforet.com"
+            ]
+        },
+        {
+            "rule": "kmblabs\\.com\\/KMBotUI_ULWB\\/kmbotui\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat-window"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "cf78855f1d91836bf76bc4ba2c19bec40f344012038b5329086ae8f813154b5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nestenn.com",
+                "www.century21.fr",
+                "www.guy-hoquet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "kick-my-bot.s3-eu-west-1.amazonaws.com",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "d1986lffsl15jz.cloudfront.net",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Fetch": 7,
+        "Preflight": 7,
+        "Script": 3
+    },
+    "nameservers": [
+        "ns10.ovh.net",
+        "dns10.ovh.net"
+    ]
+}

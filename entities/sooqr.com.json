@@ -1,0 +1,137 @@
+{
+    "domain": "sooqr.com",
+    "owner": {
+        "name": "Sooqr",
+        "displayName": "Sooqr"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sooqr\\.com\\/sooqr\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d4a166d7e2d613a036992976b26c8d7b7a867b7f24ac7f5f42057ea5fb86c373"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sensiseeds.com",
+                "www.medpets.de"
+            ]
+        },
+        {
+            "rule": "sooqr\\.com\\/suggest\\.v4\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f7b2d15df4daa21c2393750098d97d11c298d8558fe23abbf639a88294f7a28c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__sqra": {
+                    "ttl": 63072000,
+                    "length": 55,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "__sqrb": {
+                    "ttl": 1800,
+                    "length": 22,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "__sqrc": {
+                    "ttl": null,
+                    "length": 9,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sensiseeds.com",
+                "www.medpets.de"
+            ]
+        },
+        {
+            "rule": "sooqr\\.com\\/global\\/javascript\\/sooqr-core\\.v4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8db9d33c612946edd9fa8d81a90df88b376fac4b08af063ce207571a3598d084"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sensiseeds.com",
+                "www.medpets.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "onlinepets.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "iris.ns.cloudflare.com",
+        "burt.ns.cloudflare.com"
+    ]
+}

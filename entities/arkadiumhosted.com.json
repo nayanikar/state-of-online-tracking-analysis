@@ -1,0 +1,75 @@
+{
+    "domain": "arkadiumhosted.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "geoip.cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "arkadiumhosted\\.com\\/json\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geoip.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "washingtonpost.com",
+                "www.arkadium.com"
+            ]
+        },
+        {
+            "rule": "arkadiumhosted\\.com\\/json\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geoip.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8dfa42b91545f4b7c65982933b596290f07b21b03cf557c65e4cf730367a95a0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "washingtonpost.com",
+                "www.arkadium.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns2.rackspace.com",
+        "ns.rackspace.com"
+    ]
+}

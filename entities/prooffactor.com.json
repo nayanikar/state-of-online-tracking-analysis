@@ -1,0 +1,114 @@
+{
+    "domain": "prooffactor.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "prooffactor\\.com\\/javascript\\/dist\\/1\\.0\\/jcr-widget\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "88305ea43570664f57c0c43c3ed83a8cc8e761715d06c350905e4ff43b7ca8e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "proof-factor-user-31acbfb7-62ea-460f-b893-3c27dfd9eb4a-all-time-data": {
+                    "ttl": 63072002,
+                    "length": 152,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "pf_stc": {
+                    "ttl": 311,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "proof-factor-user-c1330aad-52b5-4d19-875a-e8948a57065e-all-time-data": {
+                    "ttl": 63072011,
+                    "length": 190,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "pf_ptc_-2044847644": {
+                    "ttl": 311,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chastitybox.com",
+                "www.xtool.com"
+            ]
+        },
+        {
+            "rule": "prooffactor\\.com\\/v1\\/partners\\/wordpress\\/jsembed\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6655afa7b3a9b918b4d5ef6be3649942187acdf842f11760d4a17edde195b41c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boilercentral.com",
+                "www.boilercentral.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000408,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "one.store",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "gail.ns.cloudflare.com",
+        "buck.ns.cloudflare.com"
+    ]
+}

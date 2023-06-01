@@ -1,0 +1,73 @@
+{
+    "domain": "cordial.io",
+    "owner": {
+        "name": "Bandfarm, Inc.",
+        "displayName": "Bandfarm"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [
+        "track"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cordial\\.io\\/track\\.v2\\.js",
+            "cookies": 0.0000408,
+            "fingerprinting": 1,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 6,
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "5ece16b65b7f78de78bf70bd96ff883456be5eb385add0bacf13ff6274665abe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bootbarn.com",
+                "www.bootbarn.com",
+                "www.countryoutfitter.com",
+                "www.essence.com",
+                "www.furniturerow.com",
+                "www.sheplers.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000613,
+    "topInitiators": [
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "lightboxcdn.com",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "lola.ns.cloudflare.com",
+        "sam.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "domain": "beanstalkdata.com",
+    "owner": {
+        "name": "Global Payments Inc.",
+        "displayName": "Global Payments"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "t",
+        "proc"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "beanstalkdata\\.com\\/WebTracking\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "26d7add176933df4dc206c26509e0ea8c1fe1bb3f49dc22096cfedb1565cb9b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "VisitCode": {
+                    "ttl": null,
+                    "length": 13,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "BSUContactID": {
+                    "ttl": 31536015,
+                    "length": 34,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "floydsbarbershop.com",
+                "www.floydsbarbershop.com"
+            ]
+        },
+        {
+            "rule": "beanstalkdata\\.com\\/WebVisit\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "VisitCode": 0.000013614147822417056,
+                "BSUContactID": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "floydsbarbershop.com",
+                "www.floydsbarbershop.com"
+            ]
+        },
+        {
+            "rule": "beanstalkdata\\.com\\/mongo\\/track\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "proc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "VisitCode": 0.000013614147822417056,
+                "BSUContactID": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "floydsbarbershop.com",
+                "www.floydsbarbershop.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns-416.awsdns-52.com",
+        "ns-1510.awsdns-60.org",
+        "ns-997.awsdns-60.net",
+        "ns-1830.awsdns-36.co.uk"
+    ]
+}

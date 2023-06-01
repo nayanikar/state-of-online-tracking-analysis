@@ -1,0 +1,123 @@
+{
+    "domain": "comperiaraty.pl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "sce"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "comperiaraty\\.pl\\/exposed\\/sendData\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sce"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.plugins": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "95ccf93cb81f3f13382036c3ce3fd15f3df18a6a1e29fad7938b2abf7e14cebe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sceuidjs": {
+                    "ttl": 31536000,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telepolis.pl",
+                "www.telepolis.pl"
+            ]
+        },
+        {
+            "rule": "comperiaraty\\.pl\\/api\\/scenario\\/code\\/remote\\/score",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sce"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4b317e33152a195b4a2eebeebf7473ac3750129fb27e2dbd07ffa41f39b23178"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telepolis.pl",
+                "www.telepolis.pl"
+            ]
+        },
+        {
+            "rule": "comperiaraty\\.pl\\/api\\/scenario\\/code\\/remote\\/score",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sce"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telepolis.pl",
+                "www.telepolis.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "dns.home.pl",
+        "dns2.home.pl",
+        "dns3.home.pl"
+    ]
+}

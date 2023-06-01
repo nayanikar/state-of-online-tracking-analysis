@@ -1,0 +1,90 @@
+{
+    "domain": "kameleoon.eu",
+    "owner": {
+        "name": "Kameleoon",
+        "displayName": "Kameleoon"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "qchmhd61sj",
+        "c64bzyu1tr",
+        "s3psuxmam4",
+        "9e9soula8o"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "kameleoon\\.eu\\/kameleoon\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 2,
+            "subdomains": [
+                "qchmhd61sj",
+                "c64bzyu1tr",
+                "s3psuxmam4",
+                "9e9soula8o"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.width": 5,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 5,
+                "window.innerHeight": 5,
+                "window.innerWidth": 5,
+                "Navigator.prototype.javaEnabled": 5,
+                "Navigator.prototype.language": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "c363c340050e9a3ccf7f1b88fd5d76bd8bc3ff81bd84316847ad3de8a4a7da90",
+                "e63ef9360a341f5e937e9ed84c41d2c7f0874ee7a5d26086b928087f03a56ee7",
+                "bed99b3e5999445fa3bd10f2cd2141fc5e851aaf3b34f4ded509fea171562e33",
+                "324c4f552dd9723fbe37db2ff04af089c50f2680375b084b1473d27b41b433ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "kameleoonVisitorCode": {
+                    "ttl": 31536005,
+                    "length": 20,
+                    "prevalence": 0.000502008032128514,
+                    "uniqueness": 0.8
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accor.com",
+                "all.accor.com",
+                "www.becandbridge.com.au",
+                "www.longines.com",
+                "www.michelin.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "pete.ns.cloudflare.com",
+        "lady.ns.cloudflare.com"
+    ]
+}

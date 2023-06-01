@@ -1,0 +1,108 @@
+{
+    "domain": "tpgtelecom.com.au",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "offerconfig.prod.offerconfig.c1",
+        "www"
+    ],
+    "cnames": [
+        {
+            "original": "pc.iinet.net.au",
+            "resolved": "offerconfig.prod.offerconfig.c1.tpgtelecom.com.au"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tpgtelecom\\.com\\.au\\/product-configurator\\/api\\/mobile\\/IINET",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "offerconfig.prod.offerconfig.c1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "pc.iinet.net.au",
+                    "resolved": "offerconfig.prod.offerconfig.c1.tpgtelecom.com.au"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iinet.net.au",
+                "www.iinet.net.au"
+            ]
+        },
+        {
+            "rule": "tpgtelecom\\.com\\.au\\/product-configurator\\/api\\/mobile\\/IINET",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "offerconfig.prod.offerconfig.c1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "pc.iinet.net.au",
+                    "resolved": "offerconfig.prod.offerconfig.c1.tpgtelecom.com.au"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iinet.net.au",
+                "www.iinet.net.au"
+            ]
+        },
+        {
+            "rule": "tpgtelecom\\.com\\.au\\/business-solutions\\/internet\\/ten-gig-adelaide",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f4a6d11a8f43aa9a8ce1ba1b637d42abcb6f5542d55b218fcdb78908340523bd"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tpg.com.au",
+                "www.tpg.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "types": {
+        "Preflight": 2,
+        "XHR": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns1.tpgi.com.au",
+        "ns2.tpgi.com.au"
+    ]
+}

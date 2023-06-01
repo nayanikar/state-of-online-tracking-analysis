@@ -1,0 +1,188 @@
+{
+    "domain": "eulerian.net",
+    "owner": {
+        "name": "Eulerian Technologies",
+        "displayName": "Eulerian"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00221,
+    "sites": 22,
+    "subdomains": [
+        "io1",
+        "photobox-fr",
+        "placedestendances",
+        "armandthiery.fr",
+        "bymycar-fr",
+        "idgarages.com",
+        "madeindesign-com",
+        "orpi-com"
+    ],
+    "cnames": [
+        {
+            "original": "7lbd4.armandthiery.fr",
+            "resolved": "armandthiery.fr.eulerian.net"
+        },
+        {
+            "original": "bum7.bymycar.fr",
+            "resolved": "bymycar-fr.eulerian.net"
+        },
+        {
+            "original": "ea.placedestendances.com",
+            "resolved": "placedestendances.eulerian.net"
+        },
+        {
+            "original": "idg1.idgarages.com",
+            "resolved": "idgarages.com.eulerian.net"
+        },
+        {
+            "original": "nmo1.orpi.com",
+            "resolved": "orpi-com.eulerian.net"
+        },
+        {
+            "original": "pbox.photobox.fr",
+            "resolved": "photobox-fr.eulerian.net"
+        },
+        {
+            "original": "uzd1.madeindesign.com",
+            "resolved": "madeindesign-com.eulerian.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "eulerian\\.net\\/ea\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "io1",
+                "photobox-fr",
+                "placedestendances"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "pbox.photobox.fr",
+                    "resolved": "photobox-fr.eulerian.net"
+                },
+                {
+                    "original": "ea.placedestendances.com",
+                    "resolved": "placedestendances.eulerian.net"
+                }
+            ],
+            "responseHashes": [
+                "351a8e7a5262cab1035166afeb3cef9f7ee9a40db91e92c97f2009f95f576455",
+                "d2b585e97c4652ad1ed8da7e63daf99b2b6b969bb65b23a10a6153c93999809c",
+                "1c8650ab3be5864904715ed2070b648999804557ec001a38a7bc4a4e2b8cd05f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "certideal.com",
+                "www.missnumerique.com",
+                "www.photobox.fr",
+                "www.placedestendances.com"
+            ]
+        },
+        {
+            "rule": "eulerian\\.net\\/zaZ193\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "armandthiery.fr",
+                "bymycar-fr",
+                "idgarages.com",
+                "madeindesign-com",
+                "orpi-com"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [
+                {
+                    "original": "7lbd4.armandthiery.fr",
+                    "resolved": "armandthiery.fr.eulerian.net"
+                },
+                {
+                    "original": "bum7.bymycar.fr",
+                    "resolved": "bymycar-fr.eulerian.net"
+                },
+                {
+                    "original": "idg1.idgarages.com",
+                    "resolved": "idgarages.com.eulerian.net"
+                },
+                {
+                    "original": "uzd1.madeindesign.com",
+                    "resolved": "madeindesign-com.eulerian.net"
+                },
+                {
+                    "original": "nmo1.orpi.com",
+                    "resolved": "orpi-com.eulerian.net"
+                }
+            ],
+            "responseHashes": [
+                "d92c1bcf925318848fc8323c0f963b7ad945094beadd91e96eb6c2d41bf300ee",
+                "ef0009af2887304f664ff99ff407869eebe82c582a51e41041d5066f46871c3e",
+                "9a2ca82bec22694b3a644941faf48f0d9419e35eb352e41c17e1ab3f7b468d5d",
+                "b6b3e57bdee96a4007b5b4c70841b383d1c668a26272728a1600c838f4aab840"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armandthiery.fr",
+                "www.bymycar.fr",
+                "www.idgarages.com",
+                "www.madeindesign.com",
+                "www.orpi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00221,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42105263157894735
+        },
+        {
+            "domain": "s-sfr.fr",
+            "prevalence": 0.3684210526315789
+        },
+        {
+            "domain": "photobox.com",
+            "prevalence": 0.10526315789473684
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.05263157894736842
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "ns01.eulerian.net",
+        "ns03.eulerian.com",
+        "ns02.eulerian.fr",
+        "ns04.eulerian.eu"
+    ]
+}

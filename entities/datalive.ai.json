@@ -1,0 +1,103 @@
+{
+    "domain": "datalive.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "socket-node.staging",
+        "template-service"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "datalive\\.ai\\/ws\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "socket-node.staging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "123milhas.com",
+                "www.reclameaqui.com.br"
+            ]
+        },
+        {
+            "rule": "datalive\\.ai\\/api\\/template",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "template-service"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2b28d6a10d0419d4b7ab0a2ac66eea38a988c3c77eef4158f2455ca560f01c52"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "123milhas.com",
+                "www.reclameaqui.com.br"
+            ]
+        },
+        {
+            "rule": "datalive\\.ai\\/api\\/template",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "template-service"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "123milhas.com",
+                "www.reclameaqui.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "datalivemarketing.com.br",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "WebSocket": 2,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e2.googledomains.com"
+    ]
+}

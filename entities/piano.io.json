@@ -1,0 +1,979 @@
+{
+    "domain": "piano.io",
+    "owner": {
+        "name": "Piano Software",
+        "displayName": "Piano Software",
+        "privacyPolicy": "https://piano.io/privacy-policy/",
+        "url": "http://piano.io"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00703,
+    "sites": 70,
+    "subdomains": [
+        "api-esp",
+        "c2",
+        "c2-au",
+        "c2-eu",
+        "c2-ap",
+        "experience-au",
+        "experience-eu",
+        "experience-ap",
+        "code",
+        "cdn-au",
+        "cdn-eu",
+        "cdn",
+        "buy-au",
+        "buy-eu",
+        "buy-ap",
+        "id-eu",
+        "id-au",
+        "i"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "piano\\.io\\/public\\/sdk\\/v04\\/sdk\\.js",
+            "cookies": 0.000602,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api-esp"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "window.localStorage": 7,
+                "Document.cookie setter": 5
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "1a2f415894088c48d895ce6549090ee756a6f1b3e05699bbf0547b005b3b68d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pnespsdk_ssn": {
+                    "ttl": null,
+                    "length": 56,
+                    "prevalence": 0.000502008032128514,
+                    "uniqueness": 1
+                },
+                "pnespsdk_visitor": {
+                    "ttl": 31622413,
+                    "length": 16,
+                    "prevalence": 0.000502008032128514,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailycaller.com",
+                "i.stuff.co.nz",
+                "pjmedia.com",
+                "www.snopes.com",
+                "www.stuff.co.nz",
+                "www.thehindu.com",
+                "www.thelocal.fr",
+                "www.thepinknews.com"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/xbuilder\\/experience\\/execute",
+            "cookies": 0.00392,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c2",
+                "c2-au",
+                "c2-eu",
+                "c2-ap"
+            ],
+            "apis": {},
+            "sites": 69,
+            "prevalence": 0.00693,
+            "cnames": [],
+            "responseHashes": [
+                "805244e0d6ccc1223fb3b16b0500c9e5d1c1ac58dc75622c9b8655acd3e78924",
+                "5a0cc25cf782dcca7a42bce0fd96dd3a0c2b390ed58e7c227278588ee48bb268",
+                "91851220a524996c6364a58ce8149dd620d8eed6158817cb6736112322344726",
+                "e584d787628eeb8a126f260b9c303d5898a1f527ff451ca58f850fe4ebc4c258",
+                "a15183d3f0986a1fb6fdb2aa741a61860d1a45d7d9e62a6136b2e8dd73379c36",
+                "e08b2b1aaafd72af4a168ad4e74de5bd8445416fdfdb6b87affdcd8f8a613e56",
+                "2f4e2e6b4c48d0af7729b17965cebb2ac9d5ae3267877c00888ca660add01297",
+                "63bb2b9a6d2cf575d09caf395c9e8e9d3974d2f7cd4707bd270eabe1fbde5158",
+                "2d4379705d5b22c7035084933c76c0d05e8bd71265ac3597a67c83dbe0084a33",
+                "e2b1408f22d94b2fcecb6dcfe846024300f320ef2f450aae53c7a52562726f37",
+                "b45173a21f6ecefe5fe2daa13acfec1640aec22cf22e84196dcc63428bb2deb0",
+                "cf9e6d973e1d4c6c89d802115ddbc83e6eea2d7095640b12b8e97a170cc3b005",
+                "dfb2576f73fda7cf73b213000f57029b1021eb01cf98362cbe509d2c9cf52788",
+                "bf48ad0eaa8901f0e6bf25bb3fa894ae5ebbefaac9d799dede549c33bcad5a45",
+                "82623f64745609bbcfe5a8424308868e63146130b49533a3e59404817ff93c87",
+                "babef55135ebc930907aa39455bde53636c377a67922839b7a1f0f8053617350",
+                "506609d8f1cf6fa564be8559743918df94546236ccfaf3c57825aee641fb208f",
+                "d3662bc08424d3ebe796233824ee563acba688310d072f125ba75023fabbbe1d",
+                "391277caf458045218f5cf4c21b781e4fe608839df82f98133e4f7b7138120e0",
+                "069c7f1d8fd4e0ab8b73146f438299f7e6104bcdc8d3b60de1357c78dd259c4e",
+                "170e5717aa57fe6b578cd80ca7b756a6c43e2029d1400bd7b96b8dd83d5d0273",
+                "aa07e45920c095c0a50cb488f622cc43888e4c692f623395227df96f4e4039c4",
+                "c0eaa304a38086d038b7d76422d3fb732a86a7f15b8e49da356d014957488285",
+                "a1d236abc05b39049c00380d40b6990e126e51bc0c10f2c44ecf8b2e9837c1ff",
+                "7468931a6903de03fcefc9d40f299a972a22c21066a338f1cedf6921594626f5",
+                "b5220656ff04bc48a1b9a5fcb7e4d9f880b9760fcc9fe3264529a59a0d436ea6",
+                "160bbaf19985a53f666597d77683de8c1bd44b03ddaf5ea22186247854d5e76a",
+                "0f2048d13d2f25442fc70b49dd056b809a8c5113dd6d0b56fedaf050ca7b0587",
+                "d1a918f063dcb2071fdf44cd765cb88c60f253ab4bd3e1ea2c57bef4bbde0181",
+                "c9ec7b026fbcb59ad7d03684b95110d914b1d2cb1e92b9cfcd6c6e33b03e9656",
+                "dc1353318dd7e42bd98a47f02ff6a2f52506f261172962a49daed97370937088",
+                "8a05df91a0172ff80f5c57a113b7538f08fbff0013af682f70cb0416a02fd5ba",
+                "fc491d7921d8c641ace62da6b32891251bba4013cf4093c929a40e6553598d97",
+                "b6a1dbcf84075ad378c36620f1a6305b746689ab026a6824ff6675b0ed19830e",
+                "91395820ab52792c2d025b687bc4f25979d8b9664b6e7f373e529d023f0531c6",
+                "92d464ca7c3db7143a23806faf6a1ca0c6f5b7a3118bcb2dcc0e9328bacb0b6a",
+                "e09275e52bda634a8ae1114f0e802c095b5af0934de9bdd73f575614be989d87",
+                "6f213bbac937442023868976b6c408070a079a003c7f9c8d7763e5e8b8301f1c",
+                "8459b330d022cc14090b511d125d3389e71eb1a6f33804f43ba7d107a8df7a7d",
+                "40826def64a83fea3cd367299bcfb4ae6eb92e0962ac3cc370dd8ff7d76e157b",
+                "80c62d73bf849a240e6e96d22e85e62eaab491a8a15e5063c85999395f9eaa2b",
+                "5d9a23d7fb91d55e081e49677143dafbf023d4d9b3a544018bc81e7f6a22ec5f",
+                "3e9bd0cc7936523a301302ab80e4d0e040d95531d0fd6d936b75827b71ef9c70",
+                "c477e5a1b2731c9024ab755197c4f09d1452e0889c40e70c51c8231f46a1a77f",
+                "c239f631e7a8e44eebf4bd49b61a49eb2a4df47101f878799f10532e79b6a23c",
+                "933f66aac657667632462dbe95755bea60b5c9a8501f1a0045761280082549c1",
+                "d8ecf3fa26b2ba8ad347a1eaf0e455391f019bb4170088cc1b3cc8b4bf6e2907",
+                "cf6662b94ae23de5402b0c188e005aec6bb3059033e259e27db7ca377754a469",
+                "540803027148dd786f2a6daad579739564f1f0ca11d48df9c6a7f0e5f5510e3b",
+                "1889f904102f1f1dadfd3d56d8c2826c7ff1ae24c97eb1f7f3cd9847169a1da3",
+                "0cf86b2ba906e75846d975ec310230de70c58f2bb3c133a0d9cc54698f22590f",
+                "dc03089c1d3e29a17f4b7fd5e2f6c397d6fb26589631857c7ca707583101d81d",
+                "be62a630e9390329cf3655e03e111a16621fc1d8333abc47e56e81de56b85137",
+                "ff2fb91ea30f047bec09e7456b7d928459de5cc7002997957815dcdb3789c4fc",
+                "0560e07bd189d1e1fc3ef8890d50f3583535416bccee38e6838c3be90799e7e2",
+                "67fd7300ee2181f5a061ee3bbf3818afc122c52256ba752ae0425bccf02a370d",
+                "5f446db4ff5cf775a91b4f3d55d95e895cde26b0f5ff059a43708e40cd20f239",
+                "02edf8cd3efd3202bdcf545281c1ee89c7a9f1d8c0332920ffb68ee64112a6f1",
+                "6dd1f22d83f586fd6c29537d4a39212769cc6c861f4353e02a75d4431c0c14fb",
+                "7aa7451d15ef18978e688a9e6987c386ec516bc0ff571ebcbf0c3206a8af603c",
+                "c078147a2c881e973425454257dea02103e7025f68b52907ed0010bf48967f6e",
+                "e2029816bca42abd267187b08a6428f2808d944b4bd30ed749e80ce80b9f1c15",
+                "f5d8adf64d954d6a06a3826eb953e67d3f8c795b31a805b9bd74f062d30a722b",
+                "3eb11f29d6490d24fba4f53728a398ce385d859397add0c916b04db74b1be333",
+                "8639ca3a56902bac1af5ca2b872405afeb8d8387a3234a79b1d703bbbb52a30a",
+                "cf5d68a7bf15c75ab57c904a1a0ee28295e9331f275210d2c2390222026a033d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailycaller.com",
+                "fortune.com",
+                "pjmedia.com",
+                "seekingalpha.com",
+                "slate.com",
+                "techcrunch.com",
+                "thechive.com",
+                "www.businessinsider.com",
+                "www.cnbc.com",
+                "www.independent.co.uk",
+                "www.thepinknews.com",
+                "inews.co.uk",
+                "www.vice.com",
+                "www.economist.com",
+                "www.brisbanetimes.com.au",
+                "www.examiner.com.au",
+                "www.bendigoadvertiser.com.au",
+                "www.canberratimes.com.au",
+                "www.sheppnews.com.au",
+                "www.queenslandcountrylife.com.au"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/public\\/sdk\\/vx\\/lib\\/iframeResizer\\/iframeResizer\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e5b874cb5c9f3a822335797b9ce5ef7a08fc29ec8e14d84c5662d41745e24b12"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailycaller.com",
+                "www.thepinknews.com"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/public\\/sdk\\/vx\\/lib\\/state-machine\\/state-machine\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "22397b41dbe5333180c07d20dbc2d3dac3742e1e1cd2cbeb9fc3126d9a249b51"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailycaller.com",
+                "www.thepinknews.com"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/public\\/sdk\\/vx\\/widgets\\/base\\/displayer\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1b3f47c88cda76867aaf6d622b230307763d73eb759601b447b2c4deb912904f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailycaller.com",
+                "www.thepinknews.com"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/public\\/sdk\\/vx\\/widgets\\/embedded\\/displayer\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "61c08be466a49ad1612b95a5d57048744ba6490a0a0a4ff0bafe302ef51dd3a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailycaller.com",
+                "www.thepinknews.com"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/esp-service-worker\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "63195b9f25925b12bd7199edcc26010da8b1359a83412811195179e8081cf9a3"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailycaller.com",
+                "www.thehindu.com"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/xbuilder\\/experience\\/load",
+            "cookies": 0.000803,
+            "fingerprinting": 1,
+            "subdomains": [
+                "experience-au",
+                "experience-eu",
+                "experience-ap",
+                "c2-eu"
+            ],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "94fb6c20428d3a8a9728a65f873ed1e7cd00fc7cb5503ab5086127d99d658456",
+                "d0a6459a27f2ddc737d31ce3a3004ff6f18e1680edd0dd24eb15ddb1dc435ff9",
+                "273a831a93667eed687c07cfec3c0ed842e4e6c430081a937d842878cca60f45",
+                "1f6112d6f1042bc56dbf5af6f71322a7bae0beb262eedae7b88685c5f485e8b7",
+                "c660a3d10b92da84c82d18cd54b5a948fc952dd2d388a29f4e535b99a385b992",
+                "c7f2c906ecf5b1ade9f09f4d02c3d0764f52ef7344653316d68697e3efb87b86",
+                "62741f5207e7eb7ea93fcebddc7b10466c1325d2fffd652f04ee977f167688fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stuff.co.nz",
+                "i.stuff.co.nz",
+                "unherd.com",
+                "www.japantimes.co.jp",
+                "www.newscientist.com",
+                "www.newstatesman.com",
+                "www.sheppnews.com.au",
+                "www.stuff.co.nz",
+                "www.thestar.com.my"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/api\\/tinypass\\.min\\.js",
+            "cookies": 0.00261,
+            "fingerprinting": 3,
+            "subdomains": [
+                "code",
+                "cdn-au",
+                "cdn-eu",
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 25,
+                "Date.prototype.getTime": 25,
+                "Document.cookie setter": 25,
+                "Document.cookie getter": 25,
+                "window.name": 25,
+                "Navigator.prototype.userAgent": 25,
+                "Navigator.prototype.language": 25,
+                "Date.prototype.getTimezoneOffset": 25,
+                "Navigator.prototype.plugins": 25,
+                "Screen.prototype.height": 25,
+                "Screen.prototype.width": 25,
+                "Screen.prototype.colorDepth": 25,
+                "window.sessionStorage": 25,
+                "Navigator.prototype.platform": 25,
+                "window.innerWidth": 25,
+                "window.innerHeight": 25,
+                "Notification.permission": 25,
+                "Navigator.prototype.appVersion": 25,
+                "window.screenLeft": 11,
+                "window.screenTop": 11,
+                "window.outerHeight": 11
+            },
+            "sites": 26,
+            "prevalence": 0.00261,
+            "cnames": [],
+            "responseHashes": [
+                "b97b2342a7580d734b7aa27d35e1889d164d0a6b968679464a745d6665462c61",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pctx": {
+                    "ttl": 34128007,
+                    "length": 99,
+                    "prevalence": 0.0024096385542168677,
+                    "uniqueness": 0.9166666666666666
+                },
+                "_pcid": {
+                    "ttl": 34128007,
+                    "length": 46,
+                    "prevalence": 0.0024096385542168677,
+                    "uniqueness": 0.9583333333333334
+                },
+                "__tbc": {
+                    "ttl": 63072010,
+                    "length": 74,
+                    "prevalence": 0.0024096385542168677,
+                    "uniqueness": 0.9583333333333334
+                },
+                "__pat": {
+                    "ttl": 2592010,
+                    "length": 8,
+                    "prevalence": 0.0024096385542168677,
+                    "uniqueness": 0.20833333333333334
+                },
+                "__pvi": {
+                    "ttl": 86409,
+                    "length": 107,
+                    "prevalence": 0.0024096385542168677,
+                    "uniqueness": 0.9583333333333334
+                },
+                "xbc": {
+                    "ttl": 63072010,
+                    "length": 426,
+                    "prevalence": 0.0024096385542168677,
+                    "uniqueness": 0.9583333333333334
+                },
+                "__pid": {
+                    "ttl": 2592011,
+                    "length": 20,
+                    "prevalence": 0.0017068273092369479,
+                    "uniqueness": 1
+                },
+                "_pc_locationAU": {
+                    "ttl": 2592016,
+                    "length": 4,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "_pc_desktop": {
+                    "ttl": 2592016,
+                    "length": 4,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "_pc_hassub": {
+                    "ttl": 2592016,
+                    "length": 4,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "__pnahc": {
+                    "ttl": 7776014,
+                    "length": 1,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_pc_jt_subscriber": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "_pprv": {
+                    "ttl": 34128012,
+                    "length": 252,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.npr.org",
+                "tributes.canberratimes.com.au",
+                "www.westernadvocate.com.au",
+                "www.standard.net.au",
+                "www.bordermail.com.au",
+                "www.illawarramercury.com.au",
+                "www.thesenior.com.au",
+                "www.thecourier.com.au",
+                "www.canberratimes.com.au",
+                "stuff.co.nz",
+                "unherd.com",
+                "www.queenslandcountrylife.com.au",
+                "www.stuff.co.nz",
+                "www.centralwesterndaily.com.au",
+                "www.newstatesman.com",
+                "www.theleader.com.au",
+                "www.newscientist.com",
+                "www.japantimes.co.jp",
+                "i.stuff.co.nz",
+                "www.theland.com.au"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/api\\/v3\\/anon\\/assets\\/gaAccount",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy-au",
+                "buy-eu",
+                "buy-ap"
+            ],
+            "apis": {},
+            "sites": 30,
+            "prevalence": 0.00301,
+            "cnames": [],
+            "responseHashes": [
+                "d2c6c55ffcbcb5bd69e319e638d02670aedcb1ac887acc77d09aff21f410ff77",
+                "117e711cfdd4e6c8b04df6d7e3437227ed3e08a50135f4229e427dd396c2e495",
+                "3723df40b5a5164468bbd2912eaed61206e7a7a9e81e778535e9b2ba02241bdb",
+                "b014f0e1cb8cad136e942c466fc345c477ec971ea704790d8d8a870a66b35491",
+                "96ae097d29319308f715d4358f8d6581f3feb811e8724073ed59b727648e729c",
+                "c5c44757649545bb203ae08517e5dc7036877cc7d684f5e91c63430d820cfb1a",
+                "d8eb5baf4113e6dafbc147304a4ae7cf577ee16b6b2335fe40482c9614341dec",
+                "4212f597e6844df3fd5ead875f14ad11517635200745fd2f4e726741139a1af0",
+                "8663d4e1099026f5c7754931e1485b536c6cdb3d871a40fb4c5b9957393f0e7a",
+                "7d676b573284867f8273da99f2ef261cabe0873c636edc6888c2251d3bdd14f7",
+                "0c17c47c0c90ba1a25044485c912e408e73c326f3aa0f68327c6a0f6ca0509b8",
+                "8aed8ceb66bbbfe617da849e780bc907694fcce2d49d5910afa68045b37384c5",
+                "52c9fb2cf67304a7c07f441aeec1d23a3dca0d62dcebe5eb90d8eb9a28e6842e",
+                "ef2b0f0f47f4121dfe9ba16be0c3aad783374253013a65b5f3e64195d6dec715",
+                "d4b632b8be4a866e1c5d3c11ecaec3a5f42f2b8cabe21c5e6e3a159ca96625c7",
+                "4f4b537dc3215722057172bc38489c503f17154893b2409f18d058c9cac087d1",
+                "d0365def68c783d3b372978595a9565e83aacf4ab4e820252a013873d2c124c3",
+                "8f3c3c7a2f58f58b30f2e6e589c827151bff409d997a9d3ac500ddb2f68f0293",
+                "674e15394a848824d2a759f936f8e70748546dfd85e2306f559cb20734755a0e",
+                "e16f97f8941a7c87edf0ecc94900767a1507c47eeed107ec02b5c2683d6d6510",
+                "2c36c1e6c26b523ed5b794ca0f166804ba0f8fa7f8412c316b3662433c1ff7b4",
+                "1c2afccaf69c019810e3814b72ea6442aa95e79bed29dd4d37a6bf1f9aaaa346",
+                "f9415058c7d2ea4e77781c515003443a99407494202df7570991efb0df919f7e",
+                "8119c3dabcd7d512577b149e8209ff44827874552947cb4b38c04d55c6e22efc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__tbc": 0.0030120481927710845
+            },
+            "exampleSites": [
+                "www.newstatesman.com",
+                "www.standard.net.au",
+                "www.theland.com.au",
+                "www.smh.com.au",
+                "www.bordermail.com.au",
+                "www.watoday.com.au",
+                "www.newcastleherald.com.au",
+                "www.thesenior.com.au",
+                "www.thecourier.com.au",
+                "www.goodfood.com.au",
+                "www.bendigoadvertiser.com.au",
+                "www.stuff.co.nz",
+                "stuff.co.nz",
+                "news.bbc.co.uk",
+                "www.traveller.com.au",
+                "www.illawarramercury.com.au",
+                "www.goulburnpost.com.au",
+                "www.newscientist.com",
+                "www.sheppnews.com.au",
+                "www.centralwesterndaily.com.au"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/publisher\\/fusion\\/lucid\\/data\\/140",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "33ea89acd44916e795c2a708850efb30da5a90be7dcf8fc60e29cb3c2a0e1eed"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cX_P": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "stuff.co.nz",
+                "www.stuff.co.nz"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/publisher\\/fusion\\/lucid\\/data\\/140",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cX_P": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "stuff.co.nz",
+                "www.stuff.co.nz"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/api\\/v3\\/composer\\/logExecutionStats",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c2"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pjmedia.com",
+                "www.christianitytoday.com",
+                "www.cnbc.com",
+                "www.technologyreview.com"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/id\\/api\\/v1\\/identity\\/token\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id-eu",
+                "id-au"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "716e7f11ad8860e9d91a77f37a5c929755958421d3314169170564bcc08e086a",
+                "149b5ee608b08b8026cd8ac70ff13870aa7309e5e636edaa67e03158002e44cd",
+                "ec939cd630bdf67da58e8beb75a3c5103bf223b4430c992ecac3e0e7267d4ed4",
+                "3c8ffd9d4912e5d5964fc6a7d57d7cdc2d39642c19b34821208c862abe8c5637",
+                "ed9d135c19c840732360a9249978a20db88c7359e7c181381a564dedd20918a9",
+                "c04fce0a5fb113db3e1ff4455c4b2375a721b8d339e6e06373992eae90c6337d",
+                "62eb7f58c2173d1b8c2c1a7f1301f9acc379686ed25ac1146d26314cf64d4505",
+                "ca251ad2737685e99d2f5b396d5208f4fb4d4551469cef1c798af9e43e4ac851",
+                "45e98acd211b2361f3df5d2bc45da9e9c8131301e907c64c4d7b80660b473aa2",
+                "fe87a96a772466fe0127f0ce7daf640ec63be1567a2d05188022ad63d5febd8d",
+                "c7ccdbd30eeb837ece8a1fd550c78a110f5003af7f4b7fe4391d000134c40daf",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "0487344479bab49eeb123fa5a8126f69eab628cfab07e4f8a3165adbffaa5731",
+                "71cf32d152e6aca34251e0f3e45c1feefd03aebfc5c9668d6616d791d5c443ea",
+                "26beadaf3c20be1ea25183fead487733e734c5ab0390da8883fb155d51e0758b",
+                "f362398e5fcf43c231786b427a97d5ede787afa1e21059728ee3b1f55262c6c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__pid": 0.0015060240963855422
+            },
+            "exampleSites": [
+                "unherd.com",
+                "www.bendigoadvertiser.com.au",
+                "www.bordermail.com.au",
+                "www.canberratimes.com.au",
+                "www.centralwesterndaily.com.au",
+                "www.examiner.com.au",
+                "www.goulburnpost.com.au",
+                "www.illawarramercury.com.au",
+                "www.newcastleherald.com.au",
+                "www.queenslandcountrylife.com.au",
+                "www.sheppnews.com.au",
+                "www.standard.net.au",
+                "www.thecourier.com.au",
+                "www.theland.com.au",
+                "www.theleader.com.au",
+                "www.thesenior.com.au",
+                "www.westernadvocate.com.au"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/checkout\\/template\\/cacheableShow",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy-eu",
+                "buy-au"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "5fefae23a9aedd60de0cba06862f9d28e69e1903f90181d156af292e99704751",
+                "f07d7791190f5d6e82cf254b765ed4e174f7d69709f7952263f19c602878f8e9",
+                "672f8e9e36253c1ab16cf95cfaec22ac80627c0f8d4da5acbc425bd3a4c65b58",
+                "557e649b0abaed596d07cbf2ba36174bb8f53e6c73dea9b43b38f7e2755e0a85",
+                "285161ceefa43c80567147b26939f975eeda59cdecaffc7a91b73361fc44da14",
+                "f9a0ee5cfdcee32d619960a96e3dc0ecc41a91d60a0d602462f91e7d5b56d7ed",
+                "e2d3621ef1dc7abe922ad6e3aeb6ad3d7b9f08ae4a4062ddae06c7d27b8db12d",
+                "ce1bce82aa3084547c67bfc2dde9c7f0503eadec3e702c9f740acfc50ce3e32d",
+                "2a981d228f07c7134153c21cffcae8a1aa7729b32242a6acf78a4d0ad3d12610",
+                "af3af626cf5fede8158b9c48922a1d839c0a1e3623bc4a03be1617a600726c38"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__pid": 0.0009036144578313253
+            },
+            "exampleSites": [
+                "unherd.com",
+                "www.bendigoadvertiser.com.au",
+                "www.bordermail.com.au",
+                "www.canberratimes.com.au",
+                "www.centralwesterndaily.com.au",
+                "www.examiner.com.au",
+                "www.illawarramercury.com.au",
+                "www.newcastleherald.com.au",
+                "www.standard.net.au",
+                "www.thecourier.com.au",
+                "www.westernadvocate.com.au"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/api\\/v3\\/anon\\/template\\/loadTemplateContext",
+            "cookies": 0.0011,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy-eu",
+                "buy-au"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "4a9dc3749889c99a1212450df767b9fc8bdb81f7516e5528fdd495bc5ed61bc5",
+                "3d4f3d37ca41cc8fd59a98ad17c97844cfd164a1de523a8bff52bd75abe7453a",
+                "73fe0df98faff4d0087b70f4aad15e7e815ce41ed37f6bffcad15fa7e2adcf4a",
+                "b41c0a43a5c10b3416b8cd577950d6aab8eb5b4c648db7b41f1451309fd8d294",
+                "b152939aafbce358c56d1a97a9c96e1bc05221daef4274f6d1113a854f5e6c7e",
+                "06b3792d9fdd5f0d4dd58675b7f2ad214729561faedff1ea77e8f0b7ee1beda3",
+                "cbdf6da4cbb3b5e12e3b7d599fd9e88b146a0fa2faedca0995453127e32dfbed",
+                "4dd2b0193720dfcc7122b0842c157cc857b64401fa8391b5e0eb84d40ba6f1ff",
+                "8b75cd6e3be67838868a29c830b072e30887cc82bb925c4e2f9113ae3a728721",
+                "364488dddbef26361ba422fc296ac8847ae8af1c8d536ee6c738dea8b42c498b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unherd.com",
+                "www.bendigoadvertiser.com.au",
+                "www.bordermail.com.au",
+                "www.canberratimes.com.au",
+                "www.centralwesterndaily.com.au",
+                "www.examiner.com.au",
+                "www.illawarramercury.com.au",
+                "www.newcastleherald.com.au",
+                "www.standard.net.au",
+                "www.thecourier.com.au",
+                "www.westernadvocate.com.au"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/widget\\/dist\\/template\\/css\\/template\\.bundle\\.1\\.0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy-eu",
+                "buy-au"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "62b28569a733e072413ed1649ad9fd346e6fa5ee81327522c04dcc409606fc77"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unherd.com",
+                "www.bendigoadvertiser.com.au",
+                "www.bordermail.com.au",
+                "www.canberratimes.com.au",
+                "www.centralwesterndaily.com.au",
+                "www.examiner.com.au",
+                "www.illawarramercury.com.au",
+                "www.newcastleherald.com.au",
+                "www.standard.net.au",
+                "www.thecourier.com.au",
+                "www.westernadvocate.com.au"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/_sam\\/H4sIAAAAAAAAAD3IwQ6AIAgA0B9KmJ76m4bJHI6oBa7f7-bt7eEnrXNgEw8Mvh6lYBy-DHVaU95QpTqS9an0pgwFSkHJu63T-yTlgy1Nh-E_BjVxNVoAAAA",
+            "cookies": 0.0011,
+            "fingerprinting": 1,
+            "subdomains": [
+                "buy-eu",
+                "buy-au"
+            ],
+            "apis": {
+                "window.localStorage": 11,
+                "Document.cookie getter": 11,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 11
+            },
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "e78d23ae6e5e0f82394424866f999a7247b301cb7ccca0fe39ad303121be8061"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unherd.com",
+                "www.bendigoadvertiser.com.au",
+                "www.bordermail.com.au",
+                "www.canberratimes.com.au",
+                "www.centralwesterndaily.com.au",
+                "www.examiner.com.au",
+                "www.illawarramercury.com.au",
+                "www.newcastleherald.com.au",
+                "www.standard.net.au",
+                "www.thecourier.com.au",
+                "www.westernadvocate.com.au"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/widget\\/dist\\/template\\/css\\/img\\/fail-icon\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy-eu",
+                "buy-au"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "3ed2d612d85e582c424cb012116f95cc1fc6217547f920fe78ba0c2f8af04626"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unherd.com",
+                "www.bendigoadvertiser.com.au",
+                "www.bordermail.com.au",
+                "www.canberratimes.com.au",
+                "www.centralwesterndaily.com.au",
+                "www.examiner.com.au",
+                "www.illawarramercury.com.au",
+                "www.newcastleherald.com.au",
+                "www.standard.net.au",
+                "www.thecourier.com.au",
+                "www.westernadvocate.com.au"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/managedservices\\/mit-technology-review\\/fonts\\/NHaasGrotesk-65\\.woff",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8c61cefd6398a699ca8de28767be6758393875dda46dc419915c4443d03b2c96"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "technologyreview.com",
+                "www.technologyreview.com"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/publisher\\/fusion\\/lucid\\/data\\/462",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fb1443957e5a78dbba6efa4c38215aa0f82c5aaf9e5d2c61a2f26917105ecd2c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "pnespsdk_visitor": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "thehindu.com",
+                "www.thehindu.com"
+            ]
+        },
+        {
+            "rule": "piano\\.io\\/publisher\\/fusion\\/lucid\\/data\\/462",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "pnespsdk_visitor": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "thehindu.com",
+                "www.thehindu.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00703,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6042780748663101
+        },
+        {
+            "domain": "tinypass.com",
+            "prevalence": 0.3155080213903743
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.0481283422459893
+        },
+        {
+            "domain": "outside-auth-header.vercel.app",
+            "prevalence": 0.0106951871657754
+        },
+        {
+            "domain": "navigacloud.com",
+            "prevalence": 0.0106951871657754
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.0053475935828877
+        },
+        {
+            "domain": "d60r6iww29z6r.cloudfront.net",
+            "prevalence": 0.0053475935828877
+        }
+    ],
+    "types": {
+        "Script": 109,
+        "XHR": 84,
+        "Other": 2,
+        "Preflight": 4,
+        "Ping": 4,
+        "Document": 11,
+        "Stylesheet": 11,
+        "Image": 11,
+        "Font": 2
+    },
+    "nameservers": [
+        "ian.ns.cloudflare.com",
+        "emma.ns.cloudflare.com"
+    ]
+}

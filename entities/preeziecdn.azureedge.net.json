@@ -1,0 +1,114 @@
+{
+    "domain": "preeziecdn.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00371,
+    "sites": 37,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "preeziecdn\\.azureedge\\.net\\/production\\/preguide\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 37,
+            "prevalence": 0.00371,
+            "cnames": [],
+            "responseHashes": [
+                "e5fb008e089ad1da7e049dcd859b016db2701a77c6796fd5d03be442a56d2fea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.babybunting.com.au",
+                "hushpuppies.com.au",
+                "mylinen.com.au",
+                "www.novoshoes.com.au",
+                "www.sportitude.com.au",
+                "www.nicks.com.au",
+                "www.shiels.com.au",
+                "www.adorebeauty.com.au",
+                "www.baysports.com.au",
+                "www.blackpepper.com.au",
+                "www.keelerhardware.com.au",
+                "www.centrecom.com.au",
+                "www.myhaircare.com.au",
+                "shoesandsox.com.au",
+                "www.bevilles.com.au",
+                "superbutcher.com.au",
+                "www.retravision.com.au",
+                "rollasjeans.com",
+                "www.wildearth.com.au",
+                "www.bikesonline.com.au"
+            ]
+        },
+        {
+            "rule": "preeziecdn\\.azureedge\\.net\\/production\\/prz_pixel\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9edb52e27d670768b9c18007fafbed40cc59f8e0ca742f9b945693fc176282fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__prz_uid": {
+                    "ttl": 2592004,
+                    "length": 36,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qbd.com.au",
+                "www.qbd.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 39
+    },
+    "nameservers": []
+}

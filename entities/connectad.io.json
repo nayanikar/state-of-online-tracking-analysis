@@ -1,0 +1,233 @@
+{
+    "domain": "connectad.io",
+    "owner": {
+        "name": "ConnectAd",
+        "displayName": "ConnectAd",
+        "privacyPolicy": "https://www.connectadrealtime.com",
+        "url": "http://connectadrealtime.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00371,
+    "sites": 37,
+    "subdomains": [
+        "i",
+        "cdn",
+        "sync-eu",
+        "sync"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "connectad\\.io\\/api\\/v2",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 36,
+            "prevalence": 0.00361,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "74379b4cb8f812a9d5b9465da1feeaabd945b3ed1a98a3ea7a74e82e47a7c339"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.willyweather.com.au",
+                "www.readersdigest.com.au",
+                "www.stayathomemum.com.au",
+                "happymag.tv",
+                "chordify.net",
+                "paycalculator.com.au",
+                "westeros.org",
+                "www.cpubenchmark.net",
+                "www.topendsports.com",
+                "www.propertyvalue.com.au",
+                "www.eldersweather.com.au",
+                "cartermatt.com",
+                "www.handyman.net.au",
+                "www.swellnet.com",
+                "www.propertychat.com.au",
+                "en.everybodywiki.com",
+                "quackr.io",
+                "sunrisesunset.willyweather.com.au",
+                "www.synonymer.se",
+                "www.homeone.com.au"
+            ]
+        },
+        {
+            "rule": "connectad\\.io\\/connectmyusers\\.php",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "08f0465386d9897c95370a004f5251b304dc4f94a73541cccd1ee87c02de2f60"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "westeros.org",
+                "stewpeters.com",
+                "www.synonymer.se"
+            ]
+        },
+        {
+            "rule": "connectad\\.io\\/syncer\\/1",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "fdd772512b124a8e597f22ce070b5b2f3257c90754fdba241245340f0ea53805",
+                "5a07b03ff368c0df74de8d3d358a0a1eb94ab158dc7c5324d705d42a7ffaf272"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "westeros.org",
+                "stewpeters.com",
+                "www.synonymer.se"
+            ]
+        },
+        {
+            "rule": "connectad\\.io\\/umatch\\/1",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "westeros.org",
+                "awoiaf.westeros.org",
+                "stewpeters.com",
+                "www.synonymer.se"
+            ]
+        },
+        {
+            "rule": "connectad\\.io\\/pixel\\/1",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "westeros.org",
+                "stewpeters.com",
+                "www.synonymer.se"
+            ]
+        },
+        {
+            "rule": "connectad\\.io\\/umatch\\/1",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stewpeters.com",
+                "www.synonymer.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "fuseplatform.net",
+            "prevalence": 0.58
+        },
+        {
+            "domain": "r2b2.io",
+            "prevalence": 0.08
+        },
+        {
+            "domain": "openx.net",
+            "prevalence": 0.06
+        },
+        {
+            "domain": "lwadm.com",
+            "prevalence": 0.06
+        },
+        {
+            "domain": "lngtdv.com",
+            "prevalence": 0.04
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.04
+        },
+        {
+            "domain": "0cf.io",
+            "prevalence": 0.04
+        },
+        {
+            "domain": "casalemedia.com",
+            "prevalence": 0.04
+        },
+        {
+            "domain": "pubmatic.com",
+            "prevalence": 0.02
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.02
+        }
+    ],
+    "types": {
+        "XHR": 36,
+        "Document": 13,
+        "Image": 2
+    },
+    "nameservers": [
+        "elma.ns.cloudflare.com",
+        "amit.ns.cloudflare.com"
+    ]
+}

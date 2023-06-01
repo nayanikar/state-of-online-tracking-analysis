@@ -1,0 +1,113 @@
+{
+    "domain": "betterbot.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "thevillage16.engine",
+        "jacksongro.engine"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "betterbot\\.com\\/loader\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "thevillage16.engine",
+                "jacksongro.engine"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e25666fd1cc57b7446d84d248059dcd8331eb4fcda6b95593d063c3ae1468b26"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americancampus.com",
+                "www.morgan-properties.com"
+            ]
+        },
+        {
+            "rule": "betterbot\\.com\\/api\\/details",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "thevillage16.engine",
+                "jacksongro.engine"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5ad72e7ef2e56bd2b257134577807eee8a2011578c987721354ae5535ab83931"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americancampus.com",
+                "www.morgan-properties.com"
+            ]
+        },
+        {
+            "rule": "betterbot\\.com\\/style\\.css",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "thevillage16.engine",
+                "jacksongro.engine"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "31bae92452cf00401c534226fb1bd4db62801d4622c8f24dfaff8cadeb8b0a15"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americancampus.com",
+                "www.morgan-properties.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "honeybadger.io",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-894.awsdns-47.net",
+        "ns-1837.awsdns-37.co.uk",
+        "ns-1463.awsdns-54.org"
+    ]
+}

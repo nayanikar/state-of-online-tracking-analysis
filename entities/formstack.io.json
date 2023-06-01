@@ -1,0 +1,85 @@
+{
+    "domain": "formstack.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "sfapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "formstack\\.io\\/FormEngine\\/Scripts\\/Main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sfapi"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "443cd08acb789af9a3371bd43719634730d20b4bbc4c60295720d15bfc7012cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "exploratorium.edu",
+                "www.royalparks.org.uk"
+            ]
+        },
+        {
+            "rule": "formstack\\.io\\/FormEngine\\/EngineFrame\\/Index",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sfapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5bee3387037d23e262aa142873d132409fd400c7998426047813b6facdadbb0d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "exploratorium.edu",
+                "www.royalparks.org.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns3-01.azure-dns.org",
+        "ns2-01.azure-dns.net",
+        "ns1-01.azure-dns.com",
+        "ns4-01.azure-dns.info"
+    ]
+}

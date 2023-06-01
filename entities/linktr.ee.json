@@ -1,0 +1,106 @@
+{
+    "domain": "linktr.ee",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000953,
+    "sites": 14,
+    "subdomains": [
+        "assets.production",
+        "ltp"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "linktr\\.ee\\/ltpixel\\/ltpix\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "assets.production"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTimezoneOffset": 6,
+                "Document.cookie getter": 4
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "5761ef8125716173c7ae7dd1c024dbb1fa27c81bffb9567c833d9f9882f8f49f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodr.com",
+                "myperfectplants.com",
+                "start.omgyes.com",
+                "www.sixthreezero.com",
+                "www.smkw.com",
+                "www.weathertech.com"
+            ]
+        },
+        {
+            "rule": "linktr\\.ee\\/stream",
+            "cookies": 0.0000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ltp"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodr.com",
+                "myperfectplants.com",
+                "start.omgyes.com",
+                "www.sixthreezero.com",
+                "www.smkw.com",
+                "www.weathertech.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000953,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "d2fj3s7h83rb61.cloudfront.net",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Ping": 6
+    },
+    "nameservers": [
+        "ns-1534.awsdns-63.org",
+        "ns-169.awsdns-21.com",
+        "ns-1782.awsdns-30.co.uk",
+        "ns-634.awsdns-15.net"
+    ]
+}

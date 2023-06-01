@@ -1,0 +1,120 @@
+{
+    "domain": "123apps.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "id",
+        "s174",
+        "s172",
+        "s43",
+        "s35"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "123apps\\.com\\/attach\\/",
+            "cookies": 0.000034,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "30f02b3130fe56ef5d58744d9f0dcbddfb3c27e0b085058f61b17c69bcf68a30",
+                "8d161b24594aca90243dbc0036f63af569276470323ba00dde2c86e632c85316",
+                "d7d333a665177725d00f09bfd9a7435adbd5ae1b2984622adb4a6e8f514e2fbf",
+                "7cea329f7b3b3f5430db59ea26c5cd0414ba10c2a948f76d3e3c4e11be378831"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mp3cut.net",
+                "online-audio-converter.com",
+                "online-video-cutter.com",
+                "online-voice-recorder.com",
+                "video-converter.com"
+            ]
+        },
+        {
+            "rule": "123apps\\.com\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s174",
+                "s172",
+                "s43",
+                "s35"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "0dca8e46a40db50e3ba552f4a930a2f122689cc7cc325889757282e18ff71f1c",
+                "ed2ec4420487f4ea1a76336e7325cfcfc8839ebe12374d66d66bb11ad3823d54",
+                "6474619527b38d90f10e486704648d05b734792b496edd43dee466a6308b5b6a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mp3cut.net",
+                "online-audio-converter.com",
+                "online-video-cutter.com",
+                "video-converter.com"
+            ]
+        },
+        {
+            "rule": "123apps\\.com\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s174",
+                "s172",
+                "s43",
+                "s35"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mp3cut.net",
+                "online-audio-converter.com",
+                "online-video-cutter.com",
+                "video-converter.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 4,
+        "WebSocket": 4
+    },
+    "nameservers": [
+        "duke.ns.cloudflare.com",
+        "rita.ns.cloudflare.com"
+    ]
+}

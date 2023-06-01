@@ -1,0 +1,303 @@
+{
+    "domain": "sojern.com",
+    "owner": {
+        "name": "Sojern, Inc.",
+        "displayName": "Sojern",
+        "privacyPolicy": "https://www.sojern.com/privacy/",
+        "url": "http://sojern.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00301,
+    "sites": 30,
+    "subdomains": [
+        "pixel",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sojern\\.com\\/static\\/pixels\\/latest\\/sojern\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7ad1e1ef4bf69d841680d72caf6be8e6131a8047375a1da9cf0482aa00ace8cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "japantravel.com",
+                "www.trivago.com.au"
+            ]
+        },
+        {
+            "rule": "sojern\\.com\\/idSync\\/AdX",
+            "cookies": 0.00271,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.00271,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.mayoclinic.org",
+                "www.changiairport.com",
+                "flights.flyscoot.com",
+                "www.avis.com.au",
+                "www.oakshotels.com",
+                "www.worldnomads.com",
+                "iknowthepilot.com.au",
+                "japantravel.com",
+                "iwantthatflight.com.au",
+                "www.rydges.com",
+                "www.ritzcarlton.com",
+                "northernterritory.com",
+                "www.visitsingapore.com",
+                "www.avis.com",
+                "www.hilton.com",
+                "www.budget.com",
+                "www.aa.com",
+                "tokyocheapo.com",
+                "www.rome2rio.com",
+                "www.moma.org"
+            ]
+        },
+        {
+            "rule": "sojern\\.com\\/idsync\\/ttd",
+            "cookies": 0.00261,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.00261,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.mayoclinic.org",
+                "www.thrifty.com.au",
+                "www.rome2rio.com",
+                "flights.flyscoot.com",
+                "www.changiairport.com",
+                "iknowthepilot.com.au",
+                "northernterritory.com",
+                "www.hilton.com",
+                "tokyocheapo.com",
+                "www.aa.com",
+                "www.trivago.com.au",
+                "www.fijiairways.com",
+                "iwantthatflight.com.au",
+                "www.discovergreece.com",
+                "japantravel.com",
+                "www.flyscoot.com",
+                "www.worldnomads.com",
+                "www.ritzcarlton.com",
+                "www.avis.com",
+                "www.budget.com"
+            ]
+        },
+        {
+            "rule": "sojern\\.com\\/idsync\\/apn",
+            "cookies": 0.00261,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.00261,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.mayoclinic.org",
+                "www.discovergreece.com",
+                "japantravel.com",
+                "iwantthatflight.com.au",
+                "www.metmuseum.org",
+                "www.trivago.com.au",
+                "www.flyscoot.com",
+                "www.visitsingapore.com",
+                "iknowthepilot.com.au",
+                "www.aa.com",
+                "www.budget.com",
+                "www.moma.org",
+                "www.changiairport.com",
+                "www.rome2rio.com",
+                "www.worldnomads.com",
+                "tokyocheapo.com",
+                "www.rydges.com",
+                "www.oakshotels.com",
+                "northernterritory.com",
+                "www.avis.com.au"
+            ]
+        },
+        {
+            "rule": "sojern\\.com\\/utils\\/sjrn_autocx\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Date.prototype.getTimezoneOffset": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "4488938593f44847e046460f5178c8af28fdbde3a076a6161250ca53f1a914f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flyscoot.com",
+                "trip101.com",
+                "www.fijiairways.com",
+                "www.visitsingapore.com"
+            ]
+        },
+        {
+            "rule": "sojern\\.com\\/cip\\/hasher\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "ded6dff29c705adb48c831fe4a652814472affd0e7164d66832b00f594573b7f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flyscoot.com",
+                "www.fijiairways.com",
+                "www.rydges.com",
+                "www.visitsingapore.com"
+            ]
+        },
+        {
+            "rule": "sojern\\.com\\/utils\\/create_params\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2306ab50415249502940b66246eb8f608586b27ba74f010c961dfde41acd7eeb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fijiairways.com",
+                "www.rydges.com",
+                "www.visitsingapore.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.00281,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "2mdn.net",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "serving-sys.com",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "ads-twitter.com",
+            "prevalence": 0.03571428571428571
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.03571428571428571
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.03571428571428571
+        },
+        {
+            "domain": "cheapoguides.com",
+            "prevalence": 0.017857142857142856
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.017857142857142856
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.017857142857142856
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Image": 79
+    },
+    "nameservers": [
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a4.googledomains.com"
+    ]
+}

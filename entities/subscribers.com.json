@@ -1,0 +1,110 @@
+{
+    "domain": "subscribers.com",
+    "owner": {
+        "name": "Arbitrage LLC",
+        "displayName": "Arbitrage"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0011,
+    "sites": 11,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "subscribers\\.com\\/assets\\/subscribers\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "window.localStorage": 11,
+                "window.sessionStorage": 11,
+                "Navigator.prototype.storage": 9,
+                "Notification.permission": 9,
+                "Document.cookie getter": 2
+            },
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "c2facc83585250863ffab013bd876eeada78fcbd090d015c6f3ac418a2501f38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fullrangecamping.com.au",
+                "tasmania.com",
+                "www.computerworld.com",
+                "www.csoonline.com",
+                "www.insidegoldcoast.com.au",
+                "www.macworld.com",
+                "www.pcworld.com",
+                "www.pelicanstore.com.au",
+                "www.renovatorstore.com.au",
+                "www.techadvisor.com",
+                "www.yogapedia.com"
+            ]
+        },
+        {
+            "rule": "subscribers\\.com\\/assets\\/subscribers-sw\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "0f6305858ab3ef1d4d73e99c02de761e0bd0c0d0a950ace78e657765ed5d6ab5"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fullrangecamping.com.au",
+                "tasmania.com",
+                "www.insidegoldcoast.com.au",
+                "www.macworld.com",
+                "www.pcworld.com",
+                "www.techadvisor.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7894736842105263
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.15789473684210525
+        },
+        {
+            "domain": "d2wy8f7a9ursnm.cloudfront.net",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Other": 6
+    },
+    "nameservers": [
+        "ns-765.awsdns-31.net",
+        "ns-303.awsdns-37.com",
+        "ns-1706.awsdns-21.co.uk",
+        "ns-1225.awsdns-25.org"
+    ]
+}

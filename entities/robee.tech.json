@@ -1,0 +1,289 @@
+{
+    "domain": "robee.tech",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "cdn",
+        "track"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "robee\\.tech\\/v1\\/u\\/QkMMAMmlp4o\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "0181b9bafda2269e2c9e37ed6ae2f84a7d767a4d418162813697c106f018b839"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baitoru.com",
+                "www.baitoru.com",
+                "www.matsui.co.jp",
+                "zexy.net"
+            ]
+        },
+        {
+            "rule": "robee\\.tech\\/v1\\/sdk\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Screen.prototype.pixelDepth": 5,
+                "window.indexedDB": 5,
+                "window.localStorage": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "646d2be85c0481a679130793f81b34b34759131b6d22430d6afdcebcf0c7f83f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "robee_uid": {
+                    "ttl": 315360011,
+                    "length": 45,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                },
+                "robee_sid": {
+                    "ttl": 191,
+                    "length": 17,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                },
+                "httpswwwbaitorucoma53e3f9089c8e5f2b20a8cc1a0e16f941681837249646": {
+                    "ttl": 24,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "vrize_uid": {
+                    "ttl": 315360014,
+                    "length": 36,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                },
+                "httpswwwbaitorucomcontentsmensetsu2694htmla71d17fb080c43405889f3917a6e1e5a1681837250882": {
+                    "ttl": 18,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "httpswwwmatsuicojputilitywinstoploss1html52926094012ee01a30321f3d61700ed01681904494878": {
+                    "ttl": 14,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "httpswwwsbcneteyelidc6d321e783e76021b8ef0abf3607f83a1681901144983": {
+                    "ttl": 11,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "httpszexynet09eddf7e84c878ea87c981154195f19e1681860953899": {
+                    "ttl": 11,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baitoru.com",
+                "www.baitoru.com",
+                "www.matsui.co.jp",
+                "www.s-b-c.net",
+                "zexy.net"
+            ]
+        },
+        {
+            "rule": "robee\\.tech\\/v1\\/site\\/load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "289e4c79f7e44c918e05cfbc516ff2243a8e9ff91680dfb15fdcabc586f49a7f",
+                "ffad7d120a1c97636853c65eb97728f3c703d0657d070fe5b230e76d38569c47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lastW_mapping": 0.000006807073911208528,
+                "robee_uid": 0.00003403536955604264,
+                "robee_sid": 0.00003403536955604264
+            },
+            "exampleSites": [
+                "baitoru.com",
+                "www.baitoru.com",
+                "www.matsui.co.jp",
+                "www.s-b-c.net",
+                "zexy.net"
+            ]
+        },
+        {
+            "rule": "robee\\.tech\\/v1\\/site\\/RBE-QkMMAMmlp4o\\/count",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baitoru.com",
+                "www.baitoru.com",
+                "www.matsui.co.jp",
+                "zexy.net"
+            ]
+        },
+        {
+            "rule": "robee\\.tech\\/v1\\/im_audience\\/access",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lastW_mapping": 0.000006807073911208528,
+                "robee_uid": 0.00003403536955604264,
+                "robee_sid": 0.00003403536955604264
+            },
+            "exampleSites": [
+                "baitoru.com",
+                "www.baitoru.com",
+                "www.matsui.co.jp",
+                "www.s-b-c.net",
+                "zexy.net"
+            ]
+        },
+        {
+            "rule": "robee\\.tech\\/v1\\/u\\/pZ_HD7LqWtU\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "311b3425d12fa4afbd408872885ee14dd3a3a422d1bae72aafa59f8a58afc0df"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "s-b-c.net",
+                "www.s-b-c.net"
+            ]
+        },
+        {
+            "rule": "robee\\.tech\\/v1\\/site\\/RBE-pZ_HD7LqWtU\\/count",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "s-b-c.net",
+                "www.s-b-c.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000545,
+    "topInitiators": [
+        {
+            "domain": "im-apps.net",
+            "prevalence": 0.2692307692307692
+        },
+        {
+            "domain": "af-mark.jp",
+            "prevalence": 0.23076923076923078
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.19230769230769232
+        },
+        {
+            "domain": "campaign-a.com",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.15384615384615385
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "XHR": 6,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns-262.awsdns-32.com",
+        "ns-974.awsdns-57.net",
+        "ns-1033.awsdns-01.org",
+        "ns-1682.awsdns-18.co.uk"
+    ]
+}

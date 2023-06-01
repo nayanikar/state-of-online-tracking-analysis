@@ -1,0 +1,150 @@
+{
+    "domain": "hdslb.com",
+    "owner": {
+        "name": "BiliBili Inc.",
+        "displayName": "BiliBili"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "s1"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "hdslb\\.com\\/bfs\\/seed\\/log\\/report\\/log-reporter\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [
+                "s1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.webdriver": 1,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 1,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.plugins": 1,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "WebGLRenderingContext.prototype.getContextAttributes": 2,
+                "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.productSub": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "45b47f4165c9027258d5ac333dbd4423012218cf67400fa47ef7c72aaf739a8e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamersky.com",
+                "xbeibeix.com"
+            ]
+        },
+        {
+            "rule": "hdslb\\.com\\/bfs\\/static\\/player\\/main\\/core\\.93d15e5b\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "MediaSource.isTypeSupported": 1,
+                "window.localStorage": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b227bc3d6607fc7cdfe6b18cca3aa9f46d4a9f46dc96cb2373dcb54285454ccf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamersky.com",
+                "xbeibeix.com"
+            ]
+        },
+        {
+            "rule": "hdslb\\.com\\/bfs\\/static\\/player\\/img\\/h5\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f7658c67698c83b3356ae9f5cf583fd563b029f5ee2018e7e91eef716fa87dac"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamersky.com",
+                "xbeibeix.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9076923076923077
+        },
+        {
+            "domain": "bilibili.com",
+            "prevalence": 0.09230769230769231
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns3.dnsv5.com",
+        "ns4.dnsv5.com"
+    ]
+}

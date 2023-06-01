@@ -1,0 +1,112 @@
+{
+    "domain": "related.hu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "related\\.hu\\/js\\/v2\\/widget\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "8ffe64fee6c12d3e2881002b1aa5040ea04eac8c81c82a85412f6c4d04349cfc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "r_uid": {
+                    "ttl": 5184005,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hvg.hu",
+                "wikiszotar.hu",
+                "www.blikk.hu"
+            ]
+        },
+        {
+            "rule": "related\\.hu\\/css\\/widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "bbb4922ba36c58cef34b591966e2ade64a91a4987397ae303f48bacf58139e2f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hvg.hu",
+                "wikiszotar.hu",
+                "www.blikk.hu"
+            ]
+        },
+        {
+            "rule": "related\\.hu\\/items",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "61e08072c0927839ed21b39d425d475455aa10f84b3b3c67f5623822a0c95c33",
+                "934deb3d7791a4e6b1bf2abfc31ba21ea953ac24adbc729d25e8ec93b648d07f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hvg.hu",
+                "wikiszotar.hu",
+                "www.blikk.hu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Stylesheet": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "sue.ns.cloudflare.com",
+        "tom.ns.cloudflare.com"
+    ]
+}

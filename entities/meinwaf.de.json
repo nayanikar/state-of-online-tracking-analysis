@@ -1,0 +1,65 @@
+{
+    "domain": "meinwaf.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "meinwaf\\.de\\/ts\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d40bc09e876955017a5f9770a8058a300f5b537465915a94e675242b3e389848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "WT": {
+                    "ttl": 465566695,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "WT": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "betriebsrat.com",
+                "www.betriebsrat.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns81.domaincontrol.com",
+        "ns82.domaincontrol.com"
+    ]
+}

@@ -1,0 +1,280 @@
+{
+    "domain": "calltouch.ru",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "mod"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "calltouch\\.ru\\/init\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "URL.createObjectURL": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "af9c059129cb7b85111eaf555edbe9c4adf2da2c416505647984425179466653"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cted": {
+                    "ttl": null,
+                    "length": 156,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "_ct_ids": {
+                    "ttl": null,
+                    "length": 29,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_ct_session_id": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_ct_site_id": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "call_s": {
+                    "ttl": 1806,
+                    "length": 115,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_ct": {
+                    "ttl": 157847089,
+                    "length": 18,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_ct_client_global_id": {
+                    "ttl": 157847089,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openclinics.ru",
+                "skillbox.ru",
+                "www.medicina.ru"
+            ]
+        },
+        {
+            "rule": "calltouch\\.ru\\/d_client_new\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "4064d944cf5da66b16557ffeb9f133143a52860eea6c54ece942185e3b959991",
+                "aa7b903d75edc83b2e0b65ef4e0434ed4fcab323d6369c49b03966cc4e2a9d9e",
+                "c8eb9d0eca7e4069ce2d6392ede3a4a26d0ecb43884830231f66c7faa52f7742"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00003403536955604264,
+                "_fbp": 0.000013614147822417056,
+                "_ym_uid": 0.000006807073911208528,
+                "_ym_d": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "openclinics.ru",
+                "skillbox.ru",
+                "www.invitro.ru",
+                "www.medicina.ru"
+            ]
+        },
+        {
+            "rule": "calltouch\\.ru\\/set_external_data\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openclinics.ru",
+                "www.invitro.ru",
+                "www.medicina.ru"
+            ]
+        },
+        {
+            "rule": "calltouch\\.ru\\/set_external_data\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openclinics.ru",
+                "www.invitro.ru",
+                "www.medicina.ru"
+            ]
+        },
+        {
+            "rule": "calltouch\\.ru\\/global_cookie\\.php",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "b629905b7c34bf2f2b1995a2b71bdc0535b2ad1fcb37aa255f09e8047f0bab3d",
+                "2928fa1115c3d6a9a447452c417362d335b652cb121570808a4aa3cb59acb3ab"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openclinics.ru",
+                "www.invitro.ru",
+                "www.medicina.ru"
+            ]
+        },
+        {
+            "rule": "calltouch\\.ru\\/init-min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mod"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a6b42174584d2c9885a871581e99f2ecc403541f8aebd74185d525f72bee6200"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cted": {
+                    "ttl": null,
+                    "length": 89,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_ct_ids": {
+                    "ttl": null,
+                    "length": 28,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "_ct_session_id": {
+                    "ttl": null,
+                    "length": 9,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "_ct_site_id": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "call_s": {
+                    "ttl": 1804,
+                    "length": 115,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_ct": {
+                    "ttl": 157814616,
+                    "length": 19,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_ct_client_global_id": {
+                    "ttl": 157814616,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "invitro.ru",
+                "www.invitro.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 6,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns8-cloud.nic.ru",
+        "ns4-cloud.nic.ru",
+        "ns4-l2.nic.ru",
+        "ns1.calltouch.ru",
+        "ns8-l2.nic.ru"
+    ]
+}

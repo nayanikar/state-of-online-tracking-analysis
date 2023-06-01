@@ -1,0 +1,70 @@
+{
+    "domain": "foxtv.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "foxtv\\.com\\/static\\/leap\\/core\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6e9ecd620fcfc2628a80fce8b9445b0235da6ae231e95594f3bf97615f359f29"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fox5atlanta.com",
+                "www.fox5atlanta.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9743589743589743
+        },
+        {
+            "domain": "lura.live",
+            "prevalence": 0.019230769230769232
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.00641025641025641
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns01.foxdoua.com",
+        "ns02.foxdoua.com",
+        "ns03.foxdoua.com",
+        "ns04.foxdoua.com",
+        "ns04.dns.fox",
+        "ns03.dns.fox",
+        "ns02.dns.fox",
+        "ns01.dns.fox"
+    ]
+}

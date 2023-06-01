@@ -1,0 +1,193 @@
+{
+    "domain": "narvar.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "szero",
+        "geo-prod01",
+        "js",
+        "loma-prod01",
+        "noflake-aggregator-http"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "narvar\\.com\\/packs\\/js\\/shop_now\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "szero"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "console.memory": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "f0d36a3f75c1f54baf65ba7781caf9ffa74306bca89160823ba234998b7da29d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tropicfeel.com",
+                "shop.tropicfeel.com",
+                "www.dollskill.com"
+            ]
+        },
+        {
+            "rule": "narvar\\.com\\/postalCode",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo-prod01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "62ba4be7302d92010876a6b0da381391166eb5569261c7f5fb2b35a9252e539f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fashionnova.com",
+                "www.fashionnova.com"
+            ]
+        },
+        {
+            "rule": "narvar\\.com\\/fashionnova\\/en\\/US\\/checkout\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4c1722004cb98521c6c3bd8efa4c1ae661cbd04f29baf2cf68bfd4b60c423fa4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fashionnova.com",
+                "www.fashionnova.com"
+            ]
+        },
+        {
+            "rule": "narvar\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loma-prod01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9d0c79f84a4dc9725fe386f43d2cc6b6f37292db070beeb673509d073bf82b5b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fashionnova.com",
+                "www.fashionnova.com"
+            ]
+        },
+        {
+            "rule": "narvar\\.com\\/noflake",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "noflake-aggregator-http"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fashionnova.com",
+                "www.fashionnova.com"
+            ]
+        },
+        {
+            "rule": "narvar\\.com\\/noflake",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "noflake-aggregator-http"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fashionnova.com",
+                "www.fashionnova.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.8064516129032258
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.12903225806451613
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.06451612903225806
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 6,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1610.awsdns-09.co.uk",
+        "ns-832.awsdns-40.net",
+        "ns-1423.awsdns-49.org",
+        "ns-178.awsdns-22.com"
+    ]
+}

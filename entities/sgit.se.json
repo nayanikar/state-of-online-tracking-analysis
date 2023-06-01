@@ -1,0 +1,144 @@
+{
+    "domain": "sgit.se",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "webstats"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sgit\\.se\\/lu\\/matomo\\/matomo\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "webstats"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.innerHeight": 3,
+                "window.innerWidth": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "window.name": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.platform": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "5850e0b75a9beb5928947838b24ab7dc4d3c068a61c1a395fc998c11dde945a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.1.d770": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_pk_ses.1.d770": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "_pk_id.2.1715": {
+                    "ttl": 33955204,
+                    "length": 28,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_pk_ses.2.1715": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lu.se",
+                "www.lu.se",
+                "www.lunduniversity.lu.se"
+            ]
+        },
+        {
+            "rule": "sgit\\.se\\/lu\\/matomo\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webstats"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lu.se",
+                "www.lu.se",
+                "www.lunduniversity.lu.se"
+            ]
+        },
+        {
+            "rule": "sgit\\.se\\/lu\\/matomo\\/plugins\\/HeatmapSessionRecording\\/configs\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webstats"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "9868066c3d2010d377eb1e32cc48d0ca1f192c03530c0ad359f065fcd0cf7a7d",
+                "77fdf3ac925d4f2464f63f0c35c3f275d3a9b8682b4fe1420c1f427c6c4e3365"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lu.se",
+                "www.lu.se",
+                "www.lunduniversity.lu.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Ping": 3
+    },
+    "nameservers": [
+        "sadbnsy1.sfa.se",
+        "ns3.forsakringskassan.se",
+        "ns4.forsakringskassan.se"
+    ]
+}

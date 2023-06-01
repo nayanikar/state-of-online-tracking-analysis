@@ -1,0 +1,103 @@
+{
+    "domain": "noibu.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [
+        "cdn",
+        "input"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "noibu\\.com\\/collect\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "window.sessionStorage": 8,
+                "Navigator.prototype.language": 8,
+                "Date.prototype.getTime": 8,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "9034220515e06c8027761fdbfe09e6ddbf7cceb50017c7ecc5ed940a7f7bc0d6",
+                "05110d1c37b4211dccdc033924155b1c587f4d0f0b6b252a3372bebb9284c6ca",
+                "5e54e31755adbfa5758d7c111f1f5e27ee1a052be920088867926ba0432ba0b8",
+                "263ed85d846c0d7e04d93f0ec6b6eb073dd90a1a6adc4a742d7c46c34e84d836",
+                "57960e9325bec2c836864e835b56cb61c869d7019072bc04da82b90ba7c11594"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bellroy.com",
+                "fulcrumsuspensions.com.au",
+                "www.arlo.com",
+                "www.honeybirdette.com",
+                "www.medshop.com.au",
+                "www.mycar.com.au",
+                "www.petstock.com.au",
+                "www.sanity.com.au"
+            ]
+        },
+        {
+            "rule": "noibu\\.com\\/pv_part",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "input"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bellroy.com",
+                "fulcrumsuspensions.com.au",
+                "www.arlo.com",
+                "www.honeybirdette.com",
+                "www.medshop.com.au",
+                "www.mycar.com.au",
+                "www.petstock.com.au",
+                "www.sanity.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "WebSocket": 8
+    },
+    "nameservers": [
+        "ns-1336.awsdns-39.org",
+        "ns-1667.awsdns-16.co.uk",
+        "ns-67.awsdns-08.com",
+        "ns-819.awsdns-38.net"
+    ]
+}

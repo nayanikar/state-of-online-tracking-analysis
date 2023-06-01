@@ -1,0 +1,197 @@
+{
+    "domain": "onthesnow.com",
+    "owner": {
+        "name": "Mountain News Corp",
+        "displayName": "Mountain News"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "api",
+        "prebid",
+        "js",
+        "www",
+        "css"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "onthesnow\\.com\\/api\\/v2\\/translations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skiinfo.fr",
+                "www.skiinfo.fr"
+            ]
+        },
+        {
+            "rule": "onthesnow\\.com\\/api\\/v2\\/translations",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1708160eb22b95ff1485eff251413a3a2e437334c5888824a0c44ca26205d6a3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skiinfo.fr",
+                "www.skiinfo.fr"
+            ]
+        },
+        {
+            "rule": "onthesnow\\.com\\/prebid_fr\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prebid"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.cookieEnabled": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.language": 1,
+                "window.name": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "efad3cdacf48623a24e2b808e12d3263ee1df048fb9729709a43e2972b46e55e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skiinfo.fr",
+                "www.skiinfo.fr"
+            ]
+        },
+        {
+            "rule": "onthesnow\\.com\\/js\\/jquery-1\\.9\\.1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js",
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "20638e363fcc5152155f24b281303e17da62da62d24ef5dcf863b184d9a25734"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taosnews.com",
+                "www.taosnews.com"
+            ]
+        },
+        {
+            "rule": "onthesnow\\.com\\/css\\/external\\/externalwidget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "css",
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ee97c4c2b8294024c336d0f1e4ce17e4f644e9fdc812bef428aabd5c1143421f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taosnews.com",
+                "www.taosnews.com"
+            ]
+        },
+        {
+            "rule": "onthesnow\\.com\\/css\\/external\\/reset\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "css",
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "37d6e7e3f5c7e1d07529ff870a93fb93c106838dba3277964cb4f3e3c7bd39e7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taosnews.com",
+                "www.taosnews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8947368421052632
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.10526315789473684
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2,
+        "Script": 4,
+        "Stylesheet": 4
+    },
+    "nameservers": [
+        "ns0.dnsmadeeasy.com",
+        "ns2.dnsmadeeasy.com",
+        "ns1.dnsmadeeasy.com",
+        "ns3.dnsmadeeasy.com",
+        "ns4.dnsmadeeasy.com"
+    ]
+}

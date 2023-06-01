@@ -1,0 +1,819 @@
+{
+    "domain": "apty.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "client.app",
+        "track.app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/injected-hook\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "adbdfa35cbc94cf868010559a433722ed4d6f3de327e16377575f763a2fe529e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-urls\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "961b653e2bfb81ae5701da3058f46e9af3ad6ed17be9559a96b2ffd56258c0dd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/production\\/client-injected-4\\.18\\.3-marykaycustom\\/apty-client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3e3a2da7927ddcb56b45922fa4a21aaeac6938c58234ae43a74b0bc52bce539a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/content-config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a09588ae44b10521a8f8ebfbf482d2c65541b4f759ef9b0caf8ae5887b912e3f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/feature-flag\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7a640fc95cd560e02980a264e3aa1667d587c3caa1065e000a46886ddad18002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/system-config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ad68007225bd6772e997e8b6035ddfe0227c3f865c9fd54fcbe678b4730fbd92"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/tenant-config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fddf7b925b20b41958ab8ad64a8ef8494fa265845745af9ed3852baa04127cd5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/production\\/client-injected-4\\.18\\.3-marykaycustom\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.product": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.innerWidth": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8dbe509316f48e07b9e1172a3f0e7f824a907b31be30b52117b50b7257eab965"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/production\\/client-injected-4\\.18\\.3-marykaycustom\\/isolated-styles\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0b6a5bb0bed88f59d9bd34c23f82eedaccf27995070728787a65725039a5e674"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-urls\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "961b653e2bfb81ae5701da3058f46e9af3ad6ed17be9559a96b2ffd56258c0dd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/app-data\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ccc6f77f0195900011dc4c743f867f28863cce514269255c6b27940469b1f2be"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/tenant-config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fddf7b925b20b41958ab8ad64a8ef8494fa265845745af9ed3852baa04127cd5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "91505e4219ec81a77c3ba39c408b2407607fefde7b43372b5470a69cae231b8f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/env-1\\/custom-js\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "17dd0ce7fed2e0dc7ee9fbcde8b0bd934028d0f1a0ae7594de69d032c38c5edd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/env-1\\/segment-js\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3ef1c25d38f7c6bdd38f81ee3ec78598a5938ba39a59b7e1dff98941248afa52"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/env-1\\/custom-css\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/themes\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "61d604d4b1c92f48461dc362af5cb52bcf77ccddb26c08f0232fb8eaf496607b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/tags\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/env-1\\/most-used-content\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "85df5cc31bfc12d350c1d68f34cb03a79e7ef8d320831c5b1b3983a7b0d34f36"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/env-1\\/launcher\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f7f8d8d656a3e6775ef91feb88da79a83dfa45ad8d2495c08f55abb76ecc6f82"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/env-1\\/tooltip\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "27f482f43e54b8d74ae925c01f778a1b219cf7ff93cbb977ac9b46311c03c6ac"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/env-1\\/validation\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/env-1\\/announcement\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/env-1\\/form\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5084ef599006a13d9459c90a5e7019c4b8a8dcc2339080551d0ec6c04b34f24f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/env-1\\/onboarding\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/env-1\\/knowledge-content\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "36f4051b5dc391b60fb4cc6962d17de58b5862f98d10f62a5a23b97f56f0e8f1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/env-1\\/flow\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9e39b13a575b1e90558f9c3293a9e841a6f6d14c82cf2bb2b4e2f1283d98aa72"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/keywords\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/langs\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5e7ed9c41610d84340632fd3bd13fab36e290344e06687c62f7dc6e1ae2da59e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/styles\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "18d799ceec027d87c10764e64cc5bdb2acdf1ec94c493d944b74d2148e7831f3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/segments\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "37f7b912b88339db68381a0c5dd27c62e790a5f1c8e9b964d4a60f3ac6207144"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/content-aggregation\\/content-aggregation\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "85df5cc31bfc12d350c1d68f34cb03a79e7ef8d320831c5b1b3983a7b0d34f36"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        },
+        {
+            "rule": "apty\\.io\\/tenant-ZFSuP3kl\\/app-473\\/env-1\\/activities\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marykayintouch.com",
+                "applications.marykayintouch.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Fetch": 8,
+        "XHR": 52,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns11.domaincontrol.com",
+        "ns12.domaincontrol.com"
+    ]
+}

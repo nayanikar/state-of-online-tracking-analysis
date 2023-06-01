@@ -1,0 +1,62 @@
+{
+    "domain": "massresponse.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "sip1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "massresponse\\.com\\/livewebservice\\/calltracking",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sip1"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "979e2f7368fde83381c12c37cac56a5f2c2dfa3fc429a8b42e7b45484e0ecf72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "oberbergkliniken.de",
+                "www.oberbergkliniken.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "google-analytics.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "dns1.massresponse.com",
+        "dns2.massresponse.com"
+    ]
+}

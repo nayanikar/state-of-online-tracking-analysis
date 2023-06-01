@@ -1,0 +1,135 @@
+{
+    "domain": "good.ad",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "good\\.ad\\/prebid\\/prebid\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f39d4e927af106501066beadd6fc1879a9d7557e55da1516ee4306a94ad306a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592009,
+                    "length": 16,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "_sharedid": {
+                    "ttl": 7776017,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeuneafrique.com",
+                "www.jeuneafrique.com"
+            ]
+        },
+        {
+            "rule": "good\\.ad\\/sfbx\\/glw\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5cd66a6a4c6452ee73363ae26862cf26fdf772debddef435a0a3efe3237067ce"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lameteoagricole.net",
+                "www.lameteoagricole.net"
+            ]
+        },
+        {
+            "rule": "good\\.ad\\/sfbx\\/glw\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ddaa6e51e7c30c64abc40863963cda73fc19d2b0e406a0e7003fd2ee0f97156a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lameteoagricole.net",
+                "www.lameteoagricole.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "ayads.co",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e4.googledomains.com"
+    ]
+}

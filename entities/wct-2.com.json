@@ -1,0 +1,145 @@
+{
+    "domain": "wct-2.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wct-2\\.com\\/wct\\.js",
+            "cookies": 0.000602,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6,
+                "Document.cookie getter": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "9839e63e028c1f30b74795e7431666f86cc4c440d44fa6d2a556ba18850871b2",
+                "08e23ff239884c11fdb9bb7552f0b9062ac4d7f6a823cbf96fd317c4ca124610"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_wctrck": {
+                    "ttl": 14400,
+                    "length": 274,
+                    "prevalence": 0.0006024096385542169,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedbible.com",
+                "hackspirit.com",
+                "ideapod.com",
+                "loveconnection.org",
+                "nomadrs.com",
+                "www.addictiongroup.org",
+                "www.consumerhealthdigest.com",
+                "www.firesticktricks.com",
+                "www.protoolreviews.com",
+                "www.visioncenter.org"
+            ]
+        },
+        {
+            "rule": "wct-2\\.com\\/track\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "d9d3c060f1a3fa2cc35a5a185e6d99c8cbf9f38b37c6c3709478e82cfda12893"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedbible.com",
+                "hackspirit.com",
+                "nomadrs.com",
+                "www.addictiongroup.org",
+                "www.consumerhealthdigest.com",
+                "www.firesticktricks.com"
+            ]
+        },
+        {
+            "rule": "wct-2\\.com\\/wct\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "897ff1c6d6da3ba6f543c86394eb3a9ca8bea555d96e59f8547d08970d4a017f",
+                "af8cc33b8c44b8d8e984881437d28dc2d90df6b59a25c5af87f6d4b03963cc8b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hackspirit.com",
+                "nomadrs.com",
+                "www.consumerhealthdigest.com"
+            ]
+        },
+        {
+            "rule": "wct-2\\.com\\/track\\/update-session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nomadrs.com",
+                "www.consumerhealthdigest.com",
+                "www.firesticktricks.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9090909090909091
+        },
+        {
+            "domain": "offer-go.com",
+            "prevalence": 0.09090909090909091
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 6,
+        "Fetch": 3,
+        "Ping": 3
+    },
+    "nameservers": [
+        "beau.ns.cloudflare.com",
+        "jo.ns.cloudflare.com"
+    ]
+}

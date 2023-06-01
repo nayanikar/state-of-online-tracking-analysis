@@ -1,0 +1,263 @@
+{
+    "domain": "ometrics.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "www",
+        "ochatbot"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ometrics\\.com\\/widget\\/widget-ometrics\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "c0fd36959ff26c215d34fd4b11932af96420e97e10e84535d975a06644390d8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.charlottesweb.com",
+                "www.jmac-customs.com"
+            ]
+        },
+        {
+            "rule": "ometrics\\.com\\/widget\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "7ec20f3c85c4aaabb5548082c5d1315b6df92703869cb8d68a2ab9cb370f1bd7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.charlottesweb.com",
+                "www.jmac-customs.com"
+            ]
+        },
+        {
+            "rule": "ometrics\\.com\\/widget\\/ometrics-20220906\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 3,
+                "window.localStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "8bfad5259a6c0d9ae57e69c012294add124ea15cec88b83164801a8e2b83c6fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ometricsIDd7ab981587aab0ea2a0370a56cd9ae40": {
+                    "ttl": 2592014,
+                    "length": 23,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "ochatbot_visit_981728928": {
+                    "ttl": 2592025,
+                    "length": 18,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "ometricsIDdcf1bd842dfa628755437b72832da44e": {
+                    "ttl": 2592007,
+                    "length": 23,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.charlottesweb.com",
+                "www.jmac-customs.com"
+            ]
+        },
+        {
+            "rule": "ometrics\\.com\\/widget\\/widget\\.php",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "bd655d898975396377fb69851e0fcfb938447c43bac27c0ca97f0cc394dca4fc",
+                "161166c0b0b32e755b01381cf993fb69066e0f432bcded485f76355b521bcbc6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "landing_site": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.charlottesweb.com",
+                "www.jmac-customs.com"
+            ]
+        },
+        {
+            "rule": "ometrics\\.com\\/widget\\/ometrics_viewed\\.php",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "f5495d1a802c1f60a75653d53ec6b534769035a297aa66489e90899df9e54746",
+                "43d1d9147fb661c1d9afe3294bf6b7a526ad690f46e43e87ec32d7d67e51ed70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ometricsIDd7ab981587aab0ea2a0370a56cd9ae40": 0.000013614147822417056,
+                "ometricsIDdcf1bd842dfa628755437b72832da44e": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.charlottesweb.com",
+                "www.jmac-customs.com"
+            ]
+        },
+        {
+            "rule": "ometrics\\.com\\/js\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ochatbot"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "window.innerHeight": 2,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "07d8c6144bb332c1a9afa86fc8aa9f15f416f467a5291084f6c4f4898886a854"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.charlottesweb.com"
+            ]
+        },
+        {
+            "rule": "ometrics\\.com\\/\\/uploads\\/2966008ee166119fa7e77033c86e4777\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5e74a0e92059aa98850afd02b7b086281365c2a34cd3cbdba25aedeebd58b9c6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.charlottesweb.com"
+            ]
+        },
+        {
+            "rule": "ometrics\\.com\\/shopifyometrics\\/js\\/dcf1bd842dfa628755437b72832da44e\\/ometrics\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ochatbot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "de43b5836ed480e30b8bb45206c8c818fa9bc4da85ed046e03a27f38c5449167"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jmac-customs.com",
+                "www.jmac-customs.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.7692307692307693
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Stylesheet": 3,
+        "Image": 2
+    },
+    "nameservers": [
+        "sue.ns.cloudflare.com",
+        "clay.ns.cloudflare.com"
+    ]
+}

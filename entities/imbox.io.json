@@ -1,0 +1,595 @@
+{
+    "domain": "imbox.io",
+    "owner": {
+        "name": "ImBox Sweden AB",
+        "displayName": "ImBox Sweden"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00141,
+    "sites": 14,
+    "subdomains": [
+        "files",
+        "apiv2",
+        "widget",
+        "widget-launcher",
+        "triggers-v3",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "imbox\\.io\\/app\\/dist\\/initWidget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 13
+            },
+            "sites": 14,
+            "prevalence": 0.00141,
+            "cnames": [],
+            "responseHashes": [
+                "11fc18ce8c840fcb236d817854c3ae328e69febe25c22554ac3ce263c8b8a645"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.atvpro.no",
+                "www.av-cables.dk",
+                "www.bilia.no",
+                "www.blomsterlandet.se",
+                "www.dormy.com",
+                "www.gerdmans.no",
+                "www.nordiskagalleriet.no",
+                "www.outnorth.com",
+                "www.outnorth.no",
+                "www.sambla.no",
+                "www.skistar.com",
+                "www.sportshopen.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/api\\/widgeturl\\/1989",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiv2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "e969da34671036d95cdc30507e757b62ff8c1dbb440c4b8543e99bad7b048f47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.bilia.no"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/widget-v2\\/prod\\/widget\\.js",
+            "cookies": 0.000804,
+            "fingerprinting": 1,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 12,
+                "Navigator.prototype.userAgent": 12,
+                "window.name": 12,
+                "Document.cookie getter": 8,
+                "window.sessionStorage": 12,
+                "Navigator.prototype.language": 12,
+                "window.localStorage": 12,
+                "Date.prototype.getTime": 12,
+                "Document.cookie setter": 8
+            },
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "f791ed02235dabf245842cb4ad1e7b50fc605b45b3a6794c2b0744c9ba0e4d62",
+                "4f5d7fdb7e9b0a4b9cf83cdbd85abb430458d3e38ae7bf515d3d9d19d32f3a53"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "imbox": {
+                    "ttl": 2592010,
+                    "length": 42,
+                    "prevalence": 0.0008044243338360985,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.atvpro.no",
+                "www.av-cables.dk",
+                "www.bilia.no",
+                "www.blomsterlandet.se",
+                "www.dormy.com",
+                "www.nordiskagalleriet.no",
+                "www.outnorth.com",
+                "www.outnorth.no",
+                "www.skistar.com",
+                "www.sportshopen.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/index\\.5c69d0c\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "fcb3a8e679faee1ecb523d588a5adf4eb52b5c34631a08d635541697836c3dd6"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.atvpro.no",
+                "www.av-cables.dk",
+                "www.bilia.no",
+                "www.blomsterlandet.se",
+                "www.dormy.com",
+                "www.nordiskagalleriet.no",
+                "www.outnorth.com",
+                "www.outnorth.no",
+                "www.skistar.com",
+                "www.sportshopen.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/client\\.f32414d5ca2d80771aed\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "f9ca7a01dd095ee64fbac2b12c0a1e16fcabed4fea25982ef7446013d319c82b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.atvpro.no",
+                "www.av-cables.dk",
+                "www.bilia.no",
+                "www.blomsterlandet.se",
+                "www.dormy.com",
+                "www.nordiskagalleriet.no",
+                "www.outnorth.com",
+                "www.outnorth.no",
+                "www.skistar.com",
+                "www.sportshopen.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/client\\.bundle\\.8d1cf30e67b698379b9d\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "window.name": 12,
+                "Navigator.prototype.appVersion": 12,
+                "Navigator.prototype.mediaDevices": 12,
+                "Navigator.prototype.appName": 12,
+                "Screen.prototype.width": 12,
+                "Screen.prototype.height": 12,
+                "Navigator.prototype.language": 12,
+                "window.localStorage": 12,
+                "Navigator.prototype.product": 12
+            },
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "aa8aa64de35c1ccce18a2cf927fdba1885c3791900573df2e19626f8bace1574"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.atvpro.no",
+                "www.av-cables.dk",
+                "www.bilia.no",
+                "www.blomsterlandet.se",
+                "www.dormy.com",
+                "www.nordiskagalleriet.no",
+                "www.outnorth.com",
+                "www.outnorth.no",
+                "www.skistar.com",
+                "www.sportshopen.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/client\\.336e3bce24328ac7d769\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-launcher"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "5506cb1fb8069aed21858d8d0264da111c2edabf72b980b9271bb8611fa9c326"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.atvpro.no",
+                "www.av-cables.dk",
+                "www.bilia.no",
+                "www.blomsterlandet.se",
+                "www.dormy.com",
+                "www.nordiskagalleriet.no",
+                "www.outnorth.com",
+                "www.outnorth.no",
+                "www.skistar.com",
+                "www.sportshopen.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/bundle\\.336e3bce24328ac7d769\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget-launcher"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 12,
+                "Navigator.prototype.userAgent": 12,
+                "window.name": 12
+            },
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "043068a102a268dbb50eec92036a93319a34489248ea15956d86feeea49f2eb9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.atvpro.no",
+                "www.av-cables.dk",
+                "www.bilia.no",
+                "www.blomsterlandet.se",
+                "www.dormy.com",
+                "www.nordiskagalleriet.no",
+                "www.outnorth.com",
+                "www.outnorth.no",
+                "www.skistar.com",
+                "www.sportshopen.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/app\\/static\\/roboto\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "5429e91ea07e0bc81e9923d2bf4b8478632e76d335a0942d091bc128388201d7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.atvpro.no",
+                "www.av-cables.dk",
+                "www.bilia.no",
+                "www.blomsterlandet.se",
+                "www.dormy.com",
+                "www.nordiskagalleriet.no",
+                "www.outnorth.com",
+                "www.outnorth.no",
+                "www.skistar.com",
+                "www.sportshopen.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/fonts\\/launcher-icon\\.590c11f49c524500c3023d7f1ccfb147\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-launcher"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "7d1e758f217dc92b6d4d2a593c823b938ff44f9b88b837e941605197c1972e72"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.atvpro.no",
+                "www.av-cables.dk",
+                "www.bilia.no",
+                "www.blomsterlandet.se",
+                "www.dormy.com",
+                "www.nordiskagalleriet.no",
+                "www.outnorth.com",
+                "www.outnorth.no",
+                "www.skistar.com",
+                "www.sportshopen.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/trigger",
+            "cookies": 0.00121,
+            "fingerprinting": 0,
+            "subdomains": [
+                "triggers-v3"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "33cd90cf465d9dda901ff65513655919bbe1276ac4770401dd5f50c99451a7e6",
+                "88936237e970111338560f79f243ca5562564e14eca3027bb9a05a12e8cd0239",
+                "6278cb8cd4a6f4e39bbac6c3cbdb4850667fd2d1db986da06987f2c7c4916690",
+                "adb08996de073ec59d8426b6d443e5bd86ed12042fd8908d55d0a6871dbd628c",
+                "d8a3dd9431487333e527210a3b75599ba4d42cb54874fc0a49f62a039699d340",
+                "94e088a77b3e292a96e1a90c081ea7a553b3aab32ad169a29d77cc3e2e0b616c",
+                "7cac7a3dbc11f0c6be08f0d8b2ab8f995007cfa523572d668b9ce40be14ca02f",
+                "8bc52d378b4d7bb43204a517f9ffc609c7569e290f4d22991df6278cfd267db3",
+                "52775767519f61995bda6c80f1c5e8234a95de6ca306f2a41a2da043ab7469ff",
+                "eb61249d6596f12733c958b64db2c6aa7f40bfe514ae4c477f2a21827174bdc4",
+                "4ac0a07570345892388b8dc38950c4cb6df48f5ce4ae300bc15e6312f722a660"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.atvpro.no",
+                "www.av-cables.dk",
+                "www.bilia.no",
+                "www.blomsterlandet.se",
+                "www.dormy.com",
+                "www.nordiskagalleriet.no",
+                "www.outnorth.com",
+                "www.outnorth.no",
+                "www.skistar.com",
+                "www.sportshopen.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/localization-no\\.9dc2e8f7579e2408d969\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "8605a9d4b46091d5591b7b34f10e94dfcb88c88ee361abbaec03274234c135ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.bilia.no",
+                "www.nordiskagalleriet.no",
+                "www.outnorth.no"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/flow\\/default\\/images\\/launcher-icon\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "7d1e758f217dc92b6d4d2a593c823b938ff44f9b88b837e941605197c1972e72"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.av-cables.dk",
+                "www.bilia.no",
+                "www.dormy.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/app\\/static\\/fonts\\/roboto\\/roboto-v27-latin-700\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "c039da2477a00e6c4f4f94be655f95caea42d00a877cb37ca92546253c7ed3fc"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "www.av-cables.dk",
+                "www.outnorth.com",
+                "www.outnorth.no"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/app\\/static\\/fonts\\/roboto\\/roboto-v27-latin-regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000905,
+            "cnames": [],
+            "responseHashes": [
+                "81d931a8c973b5bc8f9ded86a3440bd247a58e592b3897bf755c1a5d8390d763"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jensen-scheele.no",
+                "toyota.bilia.no",
+                "www.av-cables.dk",
+                "www.bilia.no",
+                "www.blomsterlandet.se",
+                "www.dormy.com",
+                "www.nordiskagalleriet.no",
+                "www.outnorth.com",
+                "www.outnorth.no"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/flow\\/1989\\/fonts\\/q87mYCmD6Ze8yvhOB1Ysiy8OXBnvN1dH\\.otf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a1033c1dde23f330ea645ab59109a96e1ac36e2dca340c8f596bdaab7b975218"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilia.no",
+                "www.bilia.no"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/localization-sv\\.f830cf3f3dacadedb764\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "f070bb325a7b12a1e70e46e15201dfb45fcd0468cc7a73d8c1c2aff6dbc3c114"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blomsterlandet.se",
+                "www.dormy.com",
+                "www.skistar.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00121,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7083333333333334
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.20833333333333334
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.041666666666666664
+        },
+        {
+            "domain": "viskan.com",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Script": 61,
+        "Document": 12,
+        "Stylesheet": 36,
+        "Image": 17,
+        "XHR": 12,
+        "Font": 15
+    },
+    "nameservers": [
+        "sue.ns.cloudflare.com",
+        "tim.ns.cloudflare.com"
+    ]
+}

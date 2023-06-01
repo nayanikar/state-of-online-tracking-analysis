@@ -1,0 +1,149 @@
+{
+    "domain": "3gateway.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "ydn243"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "3gateway\\.net\\/jstag\\/managed\\/7769d5cf-5b9b-4a61-a4b5-3ea28784f993\\/8f769d29e3086f78_complete\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ydn243"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4012c4d62e08fd501f271cc0fde0579653b76ebf3e13391487b4bfd6838c2f64"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dTValidationCookie": {
+                    "ttl": -1681937750,
+                    "length": 2,
+                    "prevalence": 0.0002013693113169553,
+                    "uniqueness": 0.5
+                },
+                "dtCookie": {
+                    "ttl": null,
+                    "length": 93,
+                    "prevalence": 0.0002013693113169553,
+                    "uniqueness": 0.5
+                },
+                "rxVisitor": {
+                    "ttl": 63158410,
+                    "length": 45,
+                    "prevalence": 0.0002013693113169553,
+                    "uniqueness": 0.5
+                },
+                "dtPC": {
+                    "ttl": null,
+                    "length": 56,
+                    "prevalence": 0.0002013693113169553,
+                    "uniqueness": 0.5
+                },
+                "rxvt": {
+                    "ttl": null,
+                    "length": 27,
+                    "prevalence": 0.0002013693113169553,
+                    "uniqueness": 0.5
+                },
+                "dtLatC": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.0002013693113169553,
+                    "uniqueness": 0.5
+                },
+                "dtSa": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.0002013693113169553,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "three.co.uk",
+                "new.three.co.uk"
+            ]
+        },
+        {
+            "rule": "3gateway\\.net\\/bf\\/7769d5cf-5b9b-4a61-a4b5-3ea28784f993",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ydn243"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "3e82aa05a52f2d524bef46dee438ccffa3e7eb568291ac9c37fb650bd8e265b9",
+                "c9421ab1f676e24fc1f68a521ab6deb28a58179bfacf1b15c1e92630e5e65d75"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dtCookie": 0.00010068465565847765
+            },
+            "exampleSites": [
+                "three.co.uk",
+                "new.three.co.uk",
+                "www.three.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "medallia.eu",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns1-05.azure-dns.com",
+        "ns2-05.azure-dns.net",
+        "ns3-05.azure-dns.org",
+        "ns4-05.azure-dns.info"
+    ]
+}

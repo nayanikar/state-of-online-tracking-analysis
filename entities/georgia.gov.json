@@ -1,0 +1,75 @@
+{
+    "domain": "georgia.gov",
+    "owner": {
+        "name": "Georgia Technology Authority",
+        "displayName": "Georgia Technology Authority"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "trunk"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "georgia\\.gov\\/gagov_external_blocks\\/topper",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "www.dca.ga.gov"
+            ]
+        },
+        {
+            "rule": "georgia\\.gov\\/ga_legacy\\/js_header",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trunk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3b1a85f91ccb67ba83c21262449f6841957fa77f794555598f3a875362469add"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "www.dca.ga.gov"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "sogns1.state.ga.us",
+        "sogns2.state.ga.us"
+    ]
+}

@@ -1,0 +1,181 @@
+{
+    "domain": "qantas.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "frontend",
+        "accounts",
+        "static"
+    ],
+    "cnames": [
+        {
+            "original": "accounts.qantas.com",
+            "resolved": "accounts.qantas.com.edgekey.net"
+        },
+        {
+            "original": "frontend.qantas.com",
+            "resolved": "frontend.qantas.com.edgekey.net"
+        },
+        {
+            "original": "static.qantas.com",
+            "resolved": "static.qantas.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "qantas\\.com\\.edgekey\\.net\\/widgets\\/universal-nav\\/current\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [
+                {
+                    "original": "frontend.qantas.com",
+                    "resolved": "frontend.qantas.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qantas.com",
+                "marketplace.qantas.com",
+                "shopping.qantas.com",
+                "wine.qantas.com",
+                "www.qantasmoney.com"
+            ]
+        },
+        {
+            "rule": "qantas\\.com\\.edgekey\\.net\\/auth\\/member",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [
+                {
+                    "original": "accounts.qantas.com",
+                    "resolved": "accounts.qantas.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qantas.com",
+                "marketplace.qantas.com",
+                "shopping.qantas.com",
+                "wine.qantas.com",
+                "www.qantas.com"
+            ]
+        },
+        {
+            "rule": "qantas\\.com\\.edgekey\\.net\\/auth\\/member",
+            "cookies": 0.000602,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [
+                {
+                    "original": "accounts.qantas.com",
+                    "resolved": "accounts.qantas.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e45f9a1d8b3d43a48db0918d799c373c398633a190529c1999fc71d2835cf17d",
+                "7ebb0d9e23a7686d21cec897772a6de193ca4e2a6059137439aae898b8ed70d4",
+                "e6209a342842c7ea6ab8298db66cf5dd1d157914d597cda8c5763baf81589c87",
+                "c50da7cf8852acf0c04d9133f1c9d965a9f602059e1b53d0b46253d19644553b",
+                "dae3445dbf0b9290db26b6cefa1f5cbe7a539e6added6611aaa36f875bec776c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qantas.com",
+                "insurance.qantas.com",
+                "marketplace.qantas.com",
+                "shopping.qantas.com",
+                "wine.qantas.com",
+                "www.qantas.com"
+            ]
+        },
+        {
+            "rule": "qantas\\.com\\.edgekey\\.net\\/ams02\\/a974\\/29\\/prod\\/master\\/universal-navigation-widget\\/current\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [
+                {
+                    "original": "static.qantas.com",
+                    "resolved": "static.qantas.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "fb0f621d294eee345894b4419fb2b2e5363a580d7fb07859df29b1ec8296b48b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qantas.com",
+                "marketplace.qantas.com",
+                "shopping.qantas.com",
+                "wine.qantas.com",
+                "www.qantasmoney.com",
+                "www.qantas.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "qantasloyalty.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Preflight": 5,
+        "Fetch": 6
+    },
+    "nameservers": []
+}

@@ -1,0 +1,90 @@
+{
+    "domain": "sap.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "accounts.sap.com.cloud"
+    ],
+    "cnames": [
+        {
+            "original": "accounts.sap.com",
+            "resolved": "accounts.sap.com.cloud.sap.akadns.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sap\\.akadns\\.net\\/ui\\/resources\\/javascripts\\/SAP_IDS\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "accounts.sap.com.cloud"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "accounts.sap.com",
+                    "resolved": "accounts.sap.com.cloud.sap.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "91f9df16639f37f6afef431f723952c4d4ac496ce2d5f5411ba1b4faba6d6a5e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "support.sap.com",
+                "www.sap.com"
+            ]
+        },
+        {
+            "rule": "sap\\.akadns\\.net\\/ui\\/public\\/setLocale",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts.sap.com.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "accounts.sap.com",
+                    "resolved": "accounts.sap.com.cloud.sap.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "www.sap.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000204,
+    "types": {
+        "Script": 5
+    },
+    "nameservers": []
+}

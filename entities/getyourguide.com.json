@@ -1,0 +1,165 @@
+{
+    "domain": "getyourguide.com",
+    "owner": {
+        "name": "GetYourGuide AG",
+        "displayName": "GetYourGuide"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "getyourguide\\.com\\/dist\\/pa\\.umd\\.production\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "7ba847015238bec8cee7a52ed62de45f779f7030ea949cb54f17649e60012c32"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everywhereaustralia.com.au",
+                "sydneyuncovered.com",
+                "www.inyourpocket.com",
+                "www.kids-around-perth.com",
+                "www.travelinglifestyle.net"
+            ]
+        },
+        {
+            "rule": "getyourguide\\.com\\/pw\\/latest\\/client-loader\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "53ba17ac7ad907a6589b5293b49aa3b74a3463fdecd326c4973c9e27a4d086f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everywhereaustralia.com.au",
+                "sydneyuncovered.com",
+                "www.inyourpocket.com",
+                "www.kids-around-perth.com",
+                "www.travelinglifestyle.net"
+            ]
+        },
+        {
+            "rule": "getyourguide\\.com\\/dist\\/pa-main\\.1681896324034_6895972e2a33c5a5823afb64d47e41e5b89d98ef\\.umd\\.production\\.min\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Navigator.prototype.language": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.appVersion": 5,
+                "PerformanceTiming.prototype.navigationStart": 5,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "73bbfd04b2978fbec6c2e7e64dea87813102326f4469faa99db59da37bdeed78"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "session_id": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000502008032128514,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everywhereaustralia.com.au",
+                "sydneyuncovered.com",
+                "www.inyourpocket.com",
+                "www.kids-around-perth.com",
+                "www.travelinglifestyle.net"
+            ]
+        },
+        {
+            "rule": "getyourguide\\.com\\/_gnikcart",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "74141ae8cae0daa832c574f8bc59ac75f1106fd23b56d460bdc53cc895ada43c",
+                "2289c4a4e5a6743127effe07133cc3f333060b14938b24a6c4b6020152793445",
+                "cf060dd8e88cc84f912c781c11ecd2b914dc0b607700dac685a9763c9411b2af",
+                "ed0712b3bfe2e5267707c87d427d56f0123a4dcf36de80929451d1835e6dd33f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everywhereaustralia.com.au",
+                "sydneyuncovered.com",
+                "www.inyourpocket.com",
+                "www.kids-around-perth.com",
+                "www.travelinglifestyle.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "hlmiq.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "ns1.getyourguide.com",
+        "ns2.getyourguide.com",
+        "ns3.getyourguide.com",
+        "ns4.getyourguide.com"
+    ]
+}

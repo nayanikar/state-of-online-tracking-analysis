@@ -1,0 +1,95 @@
+{
+    "domain": "iovation.com",
+    "owner": {
+        "name": "TransUnion LLC",
+        "displayName": "TransUnion"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "ci-mpsnare"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "iovation\\.com\\/snare\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ci-mpsnare"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.plugins": 2,
+                "window.localStorage": 2,
+                "window.openDatabase": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0d651a7b6dfbabc822fdcd2964292120b2a61dbe04daa7369a23d0f01567b5e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "equifax.com",
+                "my.equifax.com"
+            ]
+        },
+        {
+            "rule": "iovation\\.com\\/script\\/logo\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ci-mpsnare"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "f130b4829a98c41cde9344528e86f17f657d4adaa8a12280c06e26534429640d",
+                "7bb5a589253dcfaf4defbef73564d43e81592c3305b2cd1cea5801d7f0128734"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "equifax.com",
+                "my.equifax.com",
+                "www.creditonebank.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "dns1.p02.nsone.net",
+        "dns2.p02.nsone.net",
+        "dns3.p02.nsone.net",
+        "dns4.p02.nsone.net"
+    ]
+}

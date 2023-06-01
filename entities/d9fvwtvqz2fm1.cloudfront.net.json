@@ -1,0 +1,94 @@
+{
+    "domain": "d9fvwtvqz2fm1.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "d9fvwtvqz2fm1\\.cloudfront\\.net\\/shop\\/js\\/discount-on-cart-pro\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1dc0d6f371b4a1e4fde546b74429d05cf5143045e3bb7549d9f7323d36502946"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "docapp-coupon": {
+                    "ttl": 86427,
+                    "length": 46,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "klevarange.com.au",
+                "missamara.com.au",
+                "www.minimax.com.au"
+            ]
+        },
+        {
+            "rule": "d9fvwtvqz2fm1\\.cloudfront\\.net\\/shop\\/css\\/discount-on-cart-pro\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ff5ca23fb750e89949edaa47505dc3dfec51b8e25aedccd6a7a23bedc5d17022"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "klevarange.com.au",
+                "missamara.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-1417.awsdns-49.org",
+        "ns-1705.awsdns-21.co.uk",
+        "ns-504.awsdns-63.com",
+        "ns-847.awsdns-41.net"
+    ]
+}

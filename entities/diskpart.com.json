@@ -1,0 +1,71 @@
+{
+    "domain": "diskpart.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "cdn-node"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "diskpart\\.com\\/lib\\/amt\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-node"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a6ab44ac12b161e5d2d0977568779aed467fa96542e5c97fb83acb30a6c33a78"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ll_lp": {
+                    "ttl": 63072005,
+                    "length": 293,
+                    "prevalence": 0.00020110608345902463,
+                    "uniqueness": 0.5
+                },
+                "_ll_rp": {
+                    "ttl": null,
+                    "length": 351,
+                    "prevalence": 0.00020110608345902463,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "multcloud.com",
+                "www.multcloud.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "cortney.ns.cloudflare.com",
+        "dale.ns.cloudflare.com"
+    ]
+}

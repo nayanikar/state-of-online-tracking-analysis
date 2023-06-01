@@ -1,0 +1,181 @@
+{
+    "domain": "rul.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "console",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "rul\\.ai\\/wd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "console"
+            ],
+            "apis": {
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9b11c0151fcb5d505cf8f00d29129d452411c1e884331f818f152ef383b9b450"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zennioptical.com",
+                "www.zennioptical.com"
+            ]
+        },
+        {
+            "rule": "rul\\.ai\\/portal\\/bot\\/9b41b0647c26497bb305449289b78d2c\\/0\\/integration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "console"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "624cd1e747175ea5cd9b4f460bc3e6307d14a029215205bc8628a4eb8705b3ed"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zennioptical.com",
+                "www.zennioptical.com"
+            ]
+        },
+        {
+            "rule": "rul\\.ai\\/widget_d\\/dist\\/widgetload\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "console"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "15cdbf9ca81c80a93fb5fb0f30274a0edab774b33542a36bdf49407e4f3af1d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zennioptical.com",
+                "www.zennioptical.com"
+            ]
+        },
+        {
+            "rule": "rul\\.ai\\/widget_d\\/dist\\/window\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "console"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d5c480890cbd24e92c6102ef6ca0ec0a3de005d2683d2c4583409643afcfea4c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zennioptical.com",
+                "www.zennioptical.com"
+            ]
+        },
+        {
+            "rule": "rul\\.ai\\/9b41b0647c26497bb305449289b78d2c\\/avatar_support\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ade49647ad8073f98e3fc221c6f2cf07822b4c6544b2649a9c091ba1c7884170"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zennioptical.com",
+                "www.zennioptical.com"
+            ]
+        },
+        {
+            "rule": "rul\\.ai\\/9b41b0647c26497bb305449289b78d2c\\/z-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fd2cf59a3af02a2e53c1bf90e8aa583078cfa0cebad179a84dfb9ec07b724202"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zennioptical.com",
+                "www.zennioptical.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2,
+        "Document": 2,
+        "Image": 4
+    },
+    "nameservers": [
+        "mns01.domaincontrol.com",
+        "mns02.domaincontrol.com"
+    ]
+}

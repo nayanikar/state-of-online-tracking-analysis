@@ -1,0 +1,714 @@
+{
+    "domain": "usercentrics.eu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000904,
+    "sites": 9,
+    "subdomains": [
+        "app",
+        "aggregator.service",
+        "graphql",
+        "api",
+        "consent-api.service.consent",
+        "uct.service"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "usercentrics\\.eu\\/session\\/1px\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "be92266076786f167441375941bb69c5484e182f48925b723a5efc43a1f6086c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sennheiser.com",
+                "www.blum.com",
+                "www.emma-sleep.com.au",
+                "www.fender.com",
+                "www.highsnobiety.com",
+                "www.mercedes-benz.com.au",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/aggregate\\/en",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aggregator.service"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "f0720dac50ae3f65004603d3c46a6b07dcb09b748b14df43360954ff405d31db",
+                "7008a727d08c173ed86b46f2fda4f4b964a13760b6ddf4570ee4b9b8d4519970",
+                "4047d424e7940cb10b102ba32004c7c4fd8f1b7dd476da2a924eca3327b8f644"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sennheiser.com",
+                "www.emma-sleep.com.au",
+                "www.highsnobiety.com",
+                "www.mercedes-benz.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graphql"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sennheiser.com",
+                "www.blum.com",
+                "www.emma-sleep.com.au",
+                "www.highsnobiety.com",
+                "www.mercedes-benz.com.au",
+                "www.presonus.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graphql"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "4c7d19ba08867268c7cd7e8cf1dc52dee5f64f7254fcc7af39bfa7ccc7a9aa34",
+                "378830662f2c1b9d0886bedae97462f522f5e633c7bd2de062314ceac37e19ea",
+                "1140652e1621a765d3978279fc641350b52b100927fbd0fbf20b1ecae7eb04cd",
+                "a8b15e5308e63b01f3ecb080d9d0b26d2c0fcf3db834643c64fca0905bdb97db",
+                "e9fc2b939078c4840b4aa6a9882545f99a9c2eab29595e01402e39fefa882dd6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sennheiser.com",
+                "www.blum.com",
+                "www.emma-sleep.com.au",
+                "www.fender.com",
+                "www.highsnobiety.com",
+                "www.mercedes-benz.com.au",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/latest\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "98b539850baddf061b68d71420100336945fc81180ea986d564bd52612dd321b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blum.com",
+                "www.fender.com",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.21\\.0\\/index\\.module\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "window.innerHeight": 4,
+                "window.innerWidth": 4,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "88873f74647356f9276b2b47abfdeb65a530acae4f6041f48c340c2a14796aa5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blum.com",
+                "www.fender.com",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.21\\.0\\/DefaultData-6549df34-2738bd89\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "f293e4368e487b869b1ff4f015d8ca19c79da72995ab0813568366b8f5e593d2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blum.com",
+                "www.fender.com",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "941f303a6ca68f60f7bdbd43d7ad25a76f2318ac9244c75293563e5388a7933e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blum.com",
+                "www.emma-sleep.com.au",
+                "www.fender.com",
+                "www.highsnobiety.com",
+                "www.mercedes-benz.com.au",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blum.com",
+                "www.emma-sleep.com.au",
+                "www.fender.com",
+                "www.highsnobiety.com",
+                "www.mercedes-benz.com.au",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.21\\.0\\/DefaultUI-0f00c3d8-189f3f81\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "8f51c7133d451eaca3e80dc018ea7112d01a2b8e4a7c748acff97ebf5ed242a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blum.com",
+                "www.fender.com",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.21\\.0\\/FirstLayerCustomization-c59b0b5c-dee89aa4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "22e9f63894c814f430179f9cc1b3e0c392458c547616cf74caa7c23fb3400d33"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blum.com",
+                "www.fender.com",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.21\\.0\\/ButtonsCustomization-00bc7e0c-bb739fb0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e1e2838d72c3c267345fa419ecba66f968fefc1f0928a8dc3da1d6df5078278c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blum.com",
+                "www.fender.com",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.21\\.0\\/SecondLayerUI-8d296659-9d0a35f8\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "112f05d9a926b4846f9325f21f6851a8fd3baecafb76be4e0a49265a3cf91da1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blum.com",
+                "www.fender.com",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.21\\.0\\/Taglogger-ec99585a-93213e9c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "b906f28284227a8f62de59af6283dfddb5b5eed0ea9b33613087124fceeccb8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blum.com",
+                "www.fender.com",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/consent\\/uw\\/1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent-api.service.consent"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blum.com",
+                "www.emma-sleep.com.au",
+                "www.mercedes-benz.com.au",
+                "www.presonus.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/consent\\/uw\\/1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent-api.service.consent"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blum.com",
+                "www.emma-sleep.com.au",
+                "www.fender.com",
+                "www.mercedes-benz.com.au",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/aggregate\\/en",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aggregator.service"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emma-sleep.com.au",
+                "www.highsnobiety.com",
+                "www.mercedes-benz.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/uct",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uct.service"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emma-sleep.com.au",
+                "www.fender.com",
+                "www.mercedes-benz.com.au",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-sdk\\/4\\.21\\.1\\/cross-domain-bridge\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8563f915516318c564b1a4b4d4005778294178cfac736d0ed7dd5afa86d4cd50"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fender.com",
+                "www.presonus.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graphql"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fender.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/consent\\/uw\\/1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent-api.service.consent"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fender.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.21\\.0\\/PrivacyButton-12f14866\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f3d541bb8ac4f2634c8bc045e37ade096d7b03e2f67c54fe7f8bb81a8d7d4dc9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fender.com",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.21\\.0\\/index-52af2741\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e8bb220ee1231afdb4d7a46c32e188ead980046fbca1eef280a1426711f467f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fender.com",
+                "www.presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.21\\.0\\/index-ca08a759\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b6bed2af3f004d6a5174eb742caa3f26b0a39bed629b557181906345f53d413d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.21\\.0\\/SaveButton-c234d11b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ccd3a3859b263274da4e0414653f19271e4d701a9aba44b66bdcc57d6cb2f43a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.21\\.0\\/VirtualServiceItem-3edbb617\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.devicePixelRatio": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "presonus.com",
+                "www.sixt.com.au"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.21\\.0\\/DefaultTabs-5d9a5865\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "presonus.com",
+                "www.sixt.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.34782608695652173
+        },
+        {
+            "domain": "d2wy8f7a9ursnm.cloudfront.net",
+            "prevalence": 0.2826086956521739
+        },
+        {
+            "domain": "mercedes-benz.com",
+            "prevalence": 0.17391304347826086
+        },
+        {
+            "domain": "instana.io",
+            "prevalence": 0.15217391304347827
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.043478260869565216
+        }
+    ],
+    "types": {
+        "Image": 13,
+        "Fetch": 25,
+        "Preflight": 20,
+        "Script": 46,
+        "Document": 2,
+        "Other": 4
+    },
+    "nameservers": [
+        "ns1.nic53.net",
+        "ns2.nic53.de"
+    ]
+}

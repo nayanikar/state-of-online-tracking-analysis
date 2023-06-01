@@ -1,0 +1,178 @@
+{
+    "domain": "app-ch-sgtm-prod.azurewebsites.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "sgtm.naf.no",
+            "resolved": "app-ch-sgtm-prod.azurewebsites.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "app-ch-sgtm-prod\\.azurewebsites\\.net\\/gtm\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "sgtm.naf.no",
+                    "resolved": "app-ch-sgtm-prod.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "0e86d811638d2e63b5df619223aad52cc59c62954666bd8ed6f29e5909f81940",
+                "a2cc0308bfa8cf66ebd28a34ee247c45d206a5cdf0207389485b4ea6bba9071a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naf.no",
+                "skademelding.naf.no",
+                "www.naf.no"
+            ]
+        },
+        {
+            "rule": "app-ch-sgtm-prod\\.azurewebsites\\.net\\/gtag\\/js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "sgtm.naf.no",
+                    "resolved": "app-ch-sgtm-prod.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "53d373fd2c2557e358269909c391e873d5de1e83cbfea81bd35fcbd9eb872cdc",
+                "cd85145d5e846ec763e6b3a3187187a6649d33cfe2d4fc29aad6099c545578fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naf.no",
+                "skademelding.naf.no",
+                "www.naf.no"
+            ]
+        },
+        {
+            "rule": "app-ch-sgtm-prod\\.azurewebsites\\.net\\/analytics\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "sgtm.naf.no",
+                    "resolved": "app-ch-sgtm-prod.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "5971b095cff574a66d35ada016d4c077c86e2dea62e9c0f14cf7c94b258619de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naf.no",
+                "www.naf.no"
+            ]
+        },
+        {
+            "rule": "app-ch-sgtm-prod\\.azurewebsites\\.net\\/collect",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "sgtm.naf.no",
+                    "resolved": "app-ch-sgtm-prod.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naf.no",
+                "reiseplanlegger.naf.no",
+                "www.naf.no"
+            ]
+        },
+        {
+            "rule": "app-ch-sgtm-prod\\.azurewebsites\\.net\\/g\\/collect",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "sgtm.naf.no",
+                    "resolved": "app-ch-sgtm-prod.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00020110608345902463
+            },
+            "exampleSites": [
+                "naf.no",
+                "reiseplanlegger.naf.no",
+                "www.naf.no"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "google-analytics.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Ping": 3,
+        "XHR": 3
+    },
+    "nameservers": []
+}

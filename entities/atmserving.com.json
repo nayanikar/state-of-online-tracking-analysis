@@ -1,0 +1,83 @@
+{
+    "domain": "atmserving.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "atmserving\\.com\\/script\\/14567715386\\/preload\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "12573a20191f365a5280755a76b4f32e373a191f12f73806fe70ec59223c1711"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diez.hn",
+                "www.diez.hn"
+            ]
+        },
+        {
+            "rule": "atmserving\\.com\\/script\\/14567715384\\/preload\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.devicePixelRatio": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie getter": 1,
+                "Navigator.prototype.connection": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laprensa.hn",
+                "www.laprensa.hn"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "scott.ns.cloudflare.com",
+        "rita.ns.cloudflare.com"
+    ]
+}

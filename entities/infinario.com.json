@@ -1,0 +1,203 @@
+{
+    "domain": "infinario.com",
+    "owner": {
+        "name": "7SEGMENTS",
+        "displayName": "7SEGMENTS"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "api",
+        "skypicker-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "infinario\\.com\\/js\\/infinario\\.min\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api",
+                "skypicker-api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.vendor": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Notification.permission": 2,
+                "window.indexedDB": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6972761c4ed44bf6d9730ee02a5facf555e3eb56a645a54aa69e4a8a1669b213",
+                "339c292a5441527779a6e19fa64990eccb09348e543168859fb2810fcfe9e702"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__inf_etc__": {
+                    "ttl": 94608002,
+                    "length": 36,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "__inf_time2__": {
+                    "ttl": 3602,
+                    "length": 19,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elefant.ro",
+                "www.elefant.ro",
+                "www.kiwi.com"
+            ]
+        },
+        {
+            "rule": "infinario\\.com\\/webxp\\/projects\\/5dddab7a-53ef-11e6-9a43-549f3510fedc\\/bundle",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0e4a13ec93a59a219e7d292e3fe5c4ce9d171603919c07b64f818a44f49de915"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elefant.ro",
+                "www.elefant.ro"
+            ]
+        },
+        {
+            "rule": "infinario\\.com\\/bulk",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "skypicker-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "5925bb8e70571e8a90e3505a02d159039d55cac8f949b53a184e3214bee8b68b",
+                "b0ed1a221b8d841550eff247a7766a37f242432463969c66264effd2ef09df30"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elefant.ro",
+                "www.elefant.ro",
+                "www.kiwi.com"
+            ]
+        },
+        {
+            "rule": "infinario\\.com\\/managed-tags\\/show",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "skypicker-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "98da004f7089f3c1d27626dfd1beb778cb178f23d86244a6ade918d188b610a8",
+                "ef51cee56d3dde41e94db0c99f36260c49143a2c05e85bcfed40e3a8f0edc1fe"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elefant.ro",
+                "www.elefant.ro",
+                "www.kiwi.com"
+            ]
+        },
+        {
+            "rule": "infinario\\.com\\/campaigns\\/banners\\/show",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6ee4d73c8f0a09637add374fd81094885bc9f8370c988b78fd29f47da8513c7e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elefant.ro",
+                "www.elefant.ro"
+            ]
+        },
+        {
+            "rule": "infinario\\.com\\/optimization\\/recommend\\/user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "30cda5dc949f1443487677941a44ae695027e57ce0da6efc5f0e83dedacfa65f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elefant.ro",
+                "www.elefant.ro"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 12
+    },
+    "nameservers": [
+        "ns-cloud-d4.googledomains.com",
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d2.googledomains.com",
+        "ns-cloud-d3.googledomains.com"
+    ]
+}

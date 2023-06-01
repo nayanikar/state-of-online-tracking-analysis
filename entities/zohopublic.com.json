@@ -1,0 +1,85 @@
+{
+    "domain": "zohopublic.com",
+    "owner": {
+        "name": "ZOHO Corporation",
+        "displayName": "ZOHO"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "vts",
+        "files"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "zohopublic\\.com\\/watchws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vts"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "floorvenue.com.au",
+                "www.goodness.com.au",
+                "www.instrumentchoice.com.au",
+                "www.livingstyles.com.au",
+                "www.truwater.com.au"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/public",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8d2d962f4e6f3d3a935f2aa991817bd5f7255b43354d24c1b5f677293b3319e4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "floorvenue.com.au",
+                "www.goodness.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "zoho.com",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "zohocdn.com",
+            "prevalence": 0.4444444444444444
+        }
+    ],
+    "types": {
+        "WebSocket": 5,
+        "Image": 2
+    },
+    "nameservers": []
+}

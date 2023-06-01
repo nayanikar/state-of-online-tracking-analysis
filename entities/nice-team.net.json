@@ -1,0 +1,111 @@
+{
+    "domain": "nice-team.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "cdn-bundler"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nice-team\\.net\\/app\\/js\\/bundler\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-bundler"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "fd20900e86f2f1996434552f106fd8b7eddf98f1e4767cedd40453df858e14a7",
+                "6875208e7fda9837ffae5046686948887415d75eb988a87f3c05047c37bc12a2",
+                "b2589771f43c77be3208e03705a3c345ae86535158f2fc0c0235842a7ecdb8d7",
+                "b3e8dcb1627e9995ebf263803a68e379531d0266df6e6d8ed30b480329136f53",
+                "891b766fd7e2d3ba9d13f02d912719aeccd760f52aaf3372b3bdfe97afb6637d",
+                "144b86b49533177405173463f26f23c916580772193bc523ea3310228f264d93",
+                "8b588921810e9b7d293177db8f3407fe2e8deee3240cf6a166ce2e88ef79c03e",
+                "a95e39f8a585c0e62e909aafb29658aa7fd43e7ecf8784bdb479389142315f38",
+                "4ecd0658366035dd2a5fcebbc35c6614345e964aadda88ce1d6b2218c1669c82"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lightforce.com",
+                "australianorganicproducts.com.au",
+                "iscoot.com.au",
+                "www.4x4downunder.com.au",
+                "www.cancercouncilshop.org.au",
+                "www.clubx.com.au",
+                "www.hobbyco.com.au",
+                "www.industrie.com.au",
+                "www.minijumbuk.com.au",
+                "www.testar.com.au"
+            ]
+        },
+        {
+            "rule": "nice-team\\.net\\/app\\/js\\/bundler-script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-bundler"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6,
+                "Document.cookie getter": 5,
+                "window.localStorage": 2
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "7909c707173fa318b1d1eb99ea78be1bbe499bac85ca01d45b1e6e4e36eacf38",
+                "cb4d760d8c1e02fd1e8e3c51dfc28530504232624ee9322ac4690db26219c979",
+                "6a360b2a2d7b6009623a2fdc9c912bada4ac41506a521c90fccc2f7a84c423f4",
+                "0baa1930dcb0de6c21b9f5a1546dceb8784746c56e274871ca63b760a776697f",
+                "e7d01d4a2da3bdcac55088106bc8b9491ed67f69f3223fa1b3911626b294126f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australianorganicproducts.com.au",
+                "iscoot.com.au",
+                "www.4x4downunder.com.au",
+                "www.cancercouncilshop.org.au",
+                "www.clubx.com.au",
+                "www.hobbyco.com.au",
+                "www.industrie.com.au",
+                "www.minijumbuk.com.au",
+                "www.testar.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 19
+    },
+    "nameservers": [
+        "amanda.ns.cloudflare.com",
+        "cash.ns.cloudflare.com"
+    ]
+}

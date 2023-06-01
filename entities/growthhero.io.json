@@ -1,0 +1,78 @@
+{
+    "domain": "growthhero.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000476,
+    "sites": 7,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "growthhero\\.io\\/sites\\/pixel\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "069181138e05d05bbd32b618d1dbabd3670c30a1043d818909999dc4e5cfe88f",
+                "6c1bdb1a1fac658af7c190c09f52a78161258fd9da9e2fe9408e4b8ac9d7d118"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_growthhero_uid": {
+                    "ttl": 86406,
+                    "length": 36,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                },
+                "_growthhero_last_visit": {
+                    "ttl": 31536006,
+                    "length": 29,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drtomcowan.com",
+                "moskomoto.com",
+                "www.fairment.de",
+                "www.playbetter.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "global-e.com",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "jim.ns.cloudflare.com",
+        "janet.ns.cloudflare.com"
+    ]
+}

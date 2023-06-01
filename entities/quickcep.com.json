@@ -1,0 +1,372 @@
+{
+    "domain": "quickcep.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "chat",
+        "js-s3",
+        "chat-s3",
+        "socket",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "quickcep\\.com\\/initQuickChat\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "f3599057e332a040f34a40d4f3cef7297318eb9f662fbaa5ea127bd8dd81a703",
+                "8d916066c3f236207c2f146cee8fb04307f4cce1c1ee7379c49d03b193239c5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creality.com",
+                "store.creality.com",
+                "www.elegoo.com"
+            ]
+        },
+        {
+            "rule": "quickcep\\.com\\/mixpanel\\.umd\\.min\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-s3"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.vendor": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "Date.prototype.getTimezoneOffset": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "16947b6646f9f10ea953eecf739d67c47f9e104f9d9c285ea8262d826a6ecdf1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mp_ced86bf5-ccae-4bf9-83b1-9e94c0867a8f_mixpanel": {
+                    "ttl": 31536027,
+                    "length": 295,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "mp_sessionId": {
+                    "ttl": 1827,
+                    "length": 16,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "mp_99ddd1b7-71e0-4676-b38a-777942e2dee2_mixpanel": {
+                    "ttl": 31536014,
+                    "length": 295,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creality.com",
+                "store.creality.com",
+                "www.elegoo.com"
+            ]
+        },
+        {
+            "rule": "quickcep\\.com\\/static\\/js\\/runtime-main\\.39be0110\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-s3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d321670af64be381fc27f576a71c191bed98764e7ce571a9cdda3a6427566eaa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creality.com",
+                "store.creality.com",
+                "www.elegoo.com"
+            ]
+        },
+        {
+            "rule": "quickcep\\.com\\/static\\/js\\/chunk-init\\.9091a732\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat-s3"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "8073465251edec9bf326cba20c5faa80b5973984d8047e680e18919455aaf8bd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creality.com",
+                "store.creality.com",
+                "www.elegoo.com"
+            ]
+        },
+        {
+            "rule": "quickcep\\.com\\/static\\/js\\/vendors~main\\.7486f795\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-s3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "72746e02693cafd40c2dec620c65aa6489c16f3530f0ff481788b54ad2634b7a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creality.com",
+                "store.creality.com",
+                "www.elegoo.com"
+            ]
+        },
+        {
+            "rule": "quickcep\\.com\\/static\\/js\\/main\\.acb7ad04\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat-s3"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "858d36dc062383baafe0b39884fd2f7e1aa99c212c4b8cc08aa41876b2da3e44"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creality.com",
+                "store.creality.com"
+            ]
+        },
+        {
+            "rule": "quickcep\\.com\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "socket"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "cea977b66672f236addd2db34549de007f29933ffa27ec32af7a4ed2dd052583",
+                "2ab399603ab20ebfe0c126596f23eb7251be8a114bfd6c1df58580b599344944"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "mp_sessionId": 0.000020421221733625584
+            },
+            "exampleSites": [
+                "creality.com",
+                "store.creality.com",
+                "www.elegoo.com"
+            ]
+        },
+        {
+            "rule": "quickcep\\.com\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "socket"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "mp_sessionId": 0.000020421221733625584
+            },
+            "exampleSites": [
+                "creality.com",
+                "store.creality.com",
+                "www.elegoo.com"
+            ]
+        },
+        {
+            "rule": "quickcep\\.com\\/im\\/message\\/visitor",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "4671231295398c373889b989a5fa4677644db4df643b39eb9d1f793ff00365c4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creality.com",
+                "store.creality.com",
+                "www.elegoo.com"
+            ]
+        },
+        {
+            "rule": "quickcep\\.com\\/im\\/message\\/visitor",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creality.com",
+                "store.creality.com",
+                "www.elegoo.com"
+            ]
+        },
+        {
+            "rule": "quickcep\\.com\\/cdp-collect\\/cdp\\/collect\\/event\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "89060919b114e0bfbc032a7b56ca00d661fd12ee41a65849a5444d87a187043b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creality.com",
+                "store.creality.com",
+                "www.elegoo.com"
+            ]
+        },
+        {
+            "rule": "quickcep\\.com\\/static\\/js\\/main\\.75789b5e\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat-s3"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "45e3e449b27fefd8a5b04db228590fa2a944f18090a183843a3b3dd7e67c945c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elegoo.com",
+                "www.elegoo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.2222222222222222
+        }
+    ],
+    "types": {
+        "Script": 19,
+        "XHR": 9,
+        "WebSocket": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "vip4.alidns.com",
+        "vip3.alidns.com"
+    ]
+}

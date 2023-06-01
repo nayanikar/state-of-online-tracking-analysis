@@ -1,0 +1,106 @@
+{
+    "domain": "gatekeeperconsent.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "privacy",
+        "the",
+        "gvl"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gatekeeperconsent\\.com\\/tcf2_stub\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "privacy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "86e721bb96c71af08a282151a6246606d325447fc603947cffb628265d7509be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fooday.org",
+                "nachbelichtet.com"
+            ]
+        },
+        {
+            "rule": "gatekeeperconsent\\.com\\/v2\\/cmp\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "the"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6c19defdafb93491774aa4bcf29d7400b143e45a8f68809ddbd99f80aa22f9dc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fooday.org",
+                "nachbelichtet.com"
+            ]
+        },
+        {
+            "rule": "gatekeeperconsent\\.com\\/gvlcache\\/GVL\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gvl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6bdc283ab778a98490d5813bfb26b9dc2ef8f90b6de94952c0900a5351e71f08"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fooday.org",
+                "nachbelichtet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "fred.ns.cloudflare.com",
+        "jean.ns.cloudflare.com"
+    ]
+}

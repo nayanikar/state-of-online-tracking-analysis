@@ -1,0 +1,119 @@
+{
+    "domain": "sony.net",
+    "owner": {
+        "name": "Sony Corporation",
+        "displayName": "Sony"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "j.newssuite",
+        "d.newssuite"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sony\\.net\\/js\\/rt\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "j.newssuite"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ce4433b34fa3e8b23e4c2ef84f63bbb3e192b2dbf735aca255b832d14d16ee45"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nuro.jp",
+                "www.nuro.jp"
+            ]
+        },
+        {
+            "rule": "sony\\.net\\/js\\/ta\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "j.newssuite"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c750ee76821cb79f405f7e77b43f472f5e8c477b41d0c541fbb8bd73f42545f7"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nuro.jp",
+                "www.nuro.jp"
+            ]
+        },
+        {
+            "rule": "sony\\.net\\/rt\\/beacon\\.gif",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d.newssuite"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nuro.jp",
+                "www.nuro.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "a3-65.akam.net",
+        "a13-66.akam.net",
+        "a24-66.akam.net",
+        "a8-65.akam.net",
+        "a16-67.akam.net",
+        "a1-166.akam.net"
+    ]
+}

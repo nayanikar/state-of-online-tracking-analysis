@@ -1,0 +1,82 @@
+{
+    "domain": "bazon.site",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "v1626006331",
+        "v1681208084"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bazon\\.site\\/js\\/library\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v1626006331",
+                "v1681208084"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f2cd0ca45ebee536c49ae5d1ed74ae921c5b8803ee03b9a133d61f12ce728dca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinogo.dev",
+                "lordserials.org"
+            ]
+        },
+        {
+            "rule": "bazon\\.site\\/js\\/player\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "v1626006331",
+                "v1681208084"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7e8e3005ab5f1bd318cd44e2aa10acc8e7d75e4a6fe164efc0108432a5a6c591"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinogo.dev",
+                "lordserials.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "jean.ns.cloudflare.com",
+        "walt.ns.cloudflare.com"
+    ]
+}

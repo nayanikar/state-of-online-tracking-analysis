@@ -1,0 +1,139 @@
+{
+    "domain": "amntx1.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "media",
+        "srv",
+        "track"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "amntx1\\.net\\/js\\/code\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.languages": 3,
+                "Navigator.prototype.language": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "59d301238afc80b2d1373fc15175567010ae90b483ec50ad93929806f864a63c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lewdweb.net",
+                "forum.lewdweb.net",
+                "milfnut.com"
+            ]
+        },
+        {
+            "rule": "amntx1\\.net\\/js\\/ifr\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ddc3a13b15a3dff79e8e4647513885cbcc4e49529d0d27468f290131d74a98a7"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lewdweb.net",
+                "forum.lewdweb.net"
+            ]
+        },
+        {
+            "rule": "amntx1\\.net\\/rotor",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "srv"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2fd3028e5ad39b435f757c8eb92fbb088a98ddf4cc56035e483ffae70df5e999",
+                "32eafb01594af986f31cb40385da917beb2d99fabcf2b0ffaecf681897f0f5fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lewdweb.net",
+                "forum.lewdweb.net",
+                "milfnut.com"
+            ]
+        },
+        {
+            "rule": "amntx1\\.net\\/wtf\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lewdweb.net",
+                "forum.lewdweb.net",
+                "milfnut.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "realsrv.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Document": 2
+    },
+    "nameservers": [
+        "ian.ns.cloudflare.com",
+        "kate.ns.cloudflare.com"
+    ]
+}

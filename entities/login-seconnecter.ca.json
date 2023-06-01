@@ -1,0 +1,93 @@
+{
+    "domain": "login-seconnecter.ca",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "socialize"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "login-seconnecter\\.ca\\/sdk\\.config\\.get",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "socialize"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "635598c2bf546fa976e4f545df8fdc7875b307f6ae25d90904ac7a21d62ee64c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iga.net",
+                "www.iga.net"
+            ]
+        },
+        {
+            "rule": "login-seconnecter\\.ca\\/gs\\/sso\\.htm",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "socialize"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fb64a444d22c2de8818c19e6cebb4082b24e7812ca795b86e9f945fcb2001949"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iga.net",
+                "www.iga.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "canary.js",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "dns-nb01.aliant.net",
+        "dns-ns00.aliant.net",
+        "dns-nb00.aliant.net"
+    ]
+}

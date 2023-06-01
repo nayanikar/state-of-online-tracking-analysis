@@ -1,0 +1,169 @@
+{
+    "domain": "publisherhealth.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "phx",
+        "quizeditor"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "publisherhealth\\.com\\/assets\\/widget-2\\.0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "phx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "edc04a84fc70c3044bf83ebe3ba86447da349eed64c7dbe3eeaec1696577a2a6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalrph.com",
+                "www.epainassist.com"
+            ]
+        },
+        {
+            "rule": "publisherhealth\\.com\\/assets\\/widget-2\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "phx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "72149e86f57853f7a092f1a5e97bf07364fc8fb315435907e864c23e2d25a6b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalrph.com",
+                "www.epainassist.com"
+            ]
+        },
+        {
+            "rule": "publisherhealth\\.com\\/quizzes\\/random\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quizeditor"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f5d116355d360fc6ac3114ff770c2d5ae397fdf370b6749c62372967ecff117e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalrph.com",
+                "www.epainassist.com"
+            ]
+        },
+        {
+            "rule": "publisherhealth\\.com\\/prebid7\\.34\\.0\\.PH\\.min\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 2,
+            "subdomains": [
+                "phx"
+            ],
+            "apis": {
+                "window.sessionStorage": 1,
+                "Navigator.prototype.appName": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.width": 1,
+                "Navigator.prototype.vendor": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0f22ba9c8c61581aa42939e2cebb7522e9ea34a77bac29a9a8cc08b1eabae225"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592005,
+                    "length": 16,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "undefined": {
+                    "ttl": 31536005,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_lr_retry_request": {
+                    "ttl": 3605,
+                    "length": 4,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_lr_env_src_ats": {
+                    "ttl": 2592005,
+                    "length": 5,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalrph.com",
+                "www.epainassist.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns2.bluehost.com",
+        "ns1.bluehost.com"
+    ]
+}

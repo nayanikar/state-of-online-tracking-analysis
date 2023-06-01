@@ -1,0 +1,163 @@
+{
+    "domain": "btttag.com",
+    "owner": {
+        "name": "Blue Triangle Technologies",
+        "displayName": "Blue Triangle"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [
+        "bose23981z",
+        "carpartscom3278501z",
+        "lululemonau",
+        "motorolaus500z",
+        "oakley3278931z",
+        "petmd500z",
+        "marriott",
+        "d",
+        "d1"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "btttag\\.com\\/btt\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bose23981z",
+                "carpartscom3278501z",
+                "lululemonau",
+                "motorolaus500z",
+                "oakley3278931z",
+                "petmd500z",
+                "marriott"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.getHighEntropyValues": 7,
+                "Date.prototype.getTime": 7,
+                "Screen.prototype.height": 7,
+                "Screen.prototype.width": 7,
+                "window.localStorage": 7,
+                "Document.cookie getter": 7,
+                "PerformanceTiming.prototype.navigationStart": 7
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "f7adbec21f3ffeb49c612ebe0d7c23e08b6fe094bf6ecde4a945f994d61f0737",
+                "106e77f6ff329bd0bb12e1f0e5460b4829e44f4f8199d8c9176eb72b52b8cb6b",
+                "1fe5febc3f73cdf181290551fce69f4da3b700e7682bee359869f95d192ad795",
+                "1803219b40b82ba97b119d17af3e48bfdc0a61e9b1d8ac4fa0af05bb94a2f9c5",
+                "481c13f5a1e0ac23b14317a8d931cf9bf019fbd22c5cd4ac0079f6e0b29495c9",
+                "483a51257960efa3af32d77c4bd007b569e42f62e084b647b40ad390c7bb610f",
+                "013af54d5a5b6f95b1da5c65e7763bb63de9dd48e44fad7e068c35636aa3087d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bose.com.au",
+                "www.bose.com",
+                "www.carparts.com",
+                "www.lululemon.com.au",
+                "www.motorola.com.au",
+                "www.oakley.com",
+                "www.petmd.com",
+                "www.ritzcarlton.com"
+            ]
+        },
+        {
+            "rule": "btttag\\.com\\/analytics\\.rcv",
+            "cookies": 0.000703,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d",
+                "d1"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "6d979c8b96628510c2162fa81ada8d10c717d2ca14f9298c73c23b285af828f7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bose.com.au",
+                "www.bose.com",
+                "www.carparts.com",
+                "www.lululemon.com.au",
+                "www.oakley.com",
+                "www.petmd.com",
+                "www.ritzcarlton.com"
+            ]
+        },
+        {
+            "rule": "btttag\\.com\\/analytics\\.rcv",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d",
+                "d1"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bose.com.au",
+                "www.bose.com",
+                "www.carparts.com",
+                "www.lululemon.com.au",
+                "www.oakley.com",
+                "www.petmd.com",
+                "www.ritzcarlton.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000703,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.21428571428571427
+        },
+        {
+            "domain": "bose.com",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 7,
+        "Preflight": 7
+    },
+    "nameservers": [
+        "lara.ns.cloudflare.com",
+        "cody.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "domain": "convio.net",
+    "owner": {
+        "name": "Blackbaud, Inc.",
+        "displayName": "Blackbaud"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "ncc-live",
+        "cmsadmin30"
+    ],
+    "cnames": [
+        {
+            "original": "secure.natureconservancy.ca",
+            "resolved": "ncc-live.convio.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "convio\\.net\\/site\\/js\\/utils\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ncc-live"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "secure.natureconservancy.ca",
+                    "resolved": "ncc-live.convio.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natureconservancy.ca",
+                "www.natureconservancy.ca"
+            ]
+        },
+        {
+            "rule": "convio\\.net\\/components\\/cookie\\/cookie\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmsadmin30"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "926a39d759a4c46606aa7c3404e6e0cf46debe57ecae84e0d1aa0ff852c8109f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "authorToolbar": {
+                    "ttl": null,
+                    "length": 8,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natureconservancy.ca",
+                "www.natureconservancy.ca"
+            ]
+        },
+        {
+            "rule": "convio\\.net\\/system\\/auth\\/author-toolbar\\.jsp",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmsadmin30"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cbecaa487132cb238dc3cafaeb4a8376fef3c1bd404a3a4901a930cf6f91b15a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natureconservancy.ca",
+                "www.natureconservancy.ca"
+            ]
+        },
+        {
+            "rule": "convio\\.net\\/site\\/\\/AnonymousLogin",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ncc-live"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "secure.natureconservancy.ca",
+                    "resolved": "ncc-live.convio.net"
+                }
+            ],
+            "responseHashes": [
+                "58cbf6363edb94699ecd47cbf90f7fe19b050bc719b2d190dd5f644686829b5b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natureconservancy.ca",
+                "www.natureconservancy.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "usc1.akam.net",
+        "usc2.akam.net",
+        "asia1.akam.net",
+        "ns8.convio.net",
+        "ns1-90.akam.net",
+        "ns1-173.akam.net",
+        "eur3.akam.net",
+        "usw6.akam.net",
+        "eur5.akam.net",
+        "dns1.convio.net"
+    ]
+}

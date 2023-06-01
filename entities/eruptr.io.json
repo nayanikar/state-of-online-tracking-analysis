@@ -1,0 +1,118 @@
+{
+    "domain": "eruptr.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "js",
+        "event"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "eruptr\\.io\\/epd\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1c7817f83dc8fc6e971a7d68ee65ff22c5f8e7b72207d910cc9a14c44c6f0a75"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_epd": {
+                    "ttl": 7776005,
+                    "length": 103,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_fbp": {
+                    "ttl": 7776005,
+                    "length": 29,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nuvancehealth.org",
+                "www.nuvancehealth.org"
+            ]
+        },
+        {
+            "rule": "eruptr\\.io\\/etp\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cbb47833e2b6dcaaa79b56d6e8c5ee1b796064a9574beb9dc2956e85a07008a5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nuvancehealth.org",
+                "www.nuvancehealth.org"
+            ]
+        },
+        {
+            "rule": "eruptr\\.io\\/etp\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nuvancehealth.org",
+                "www.nuvancehealth.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-cloud-d3.googledomains.com",
+        "ns-cloud-d4.googledomains.com",
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d2.googledomains.com"
+    ]
+}

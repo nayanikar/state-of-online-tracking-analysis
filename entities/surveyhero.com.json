@@ -1,0 +1,127 @@
+{
+    "domain": "surveyhero.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "embed-cdn",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "surveyhero\\.com\\/popup\\/user\\/main\\.9a160946\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8fbc71256b1c354d7b69544fd7cd98b78dde78491e243a709147e2071832ef76"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stylevana.com",
+                "www.stylevana.com"
+            ]
+        },
+        {
+            "rule": "surveyhero\\.com\\/popup\\/core\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed-cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b62f303a03590f2c52ab879eaaed73ed6ea42d33215f17c5eccf612c97f06061"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stylevana.com",
+                "www.stylevana.com"
+            ]
+        },
+        {
+            "rule": "surveyhero\\.com\\/get-ip",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "339d02faf6c2a0cc37d8bac109a81503bbbb1a97f3e1d885148cd76e252ec3bb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stylevana.com",
+                "www.stylevana.com"
+            ]
+        },
+        {
+            "rule": "surveyhero\\.com\\/popup\\/core\\/main\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3aa9967ee61eb4e40206531f8efc72639e668224134f74ee5cc372c35ab40738"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stylevana.com",
+                "www.stylevana.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-1182.awsdns-19.org",
+        "ns-1569.awsdns-04.co.uk",
+        "ns-332.awsdns-41.com",
+        "ns-974.awsdns-57.net"
+    ]
+}

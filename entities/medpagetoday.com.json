@@ -1,0 +1,191 @@
+{
+    "domain": "medpagetoday.com",
+    "owner": {
+        "name": "Ziff Davis LLC",
+        "displayName": "Ziff Davis"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "clf1",
+        "geo",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "medpagetoday\\.com\\/assets\\/scripts\\/js\\/hcp\\/uc\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "clf1"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8b4a60496ab1e4a75a022fd7ab9059c3cc2b8989e4e686b54bec19671d0f4e68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "MP_GUID": {
+                    "ttl": 15552010,
+                    "length": 32,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cureus.com",
+                "www.kevinmd.com"
+            ]
+        },
+        {
+            "rule": "medpagetoday\\.com\\/info\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ac87bbf5ea8de56fa699cae07b0cab453dc1b857d2895ce50a1fa9d2a928f602"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cureus.com",
+                "www.kevinmd.com"
+            ]
+        },
+        {
+            "rule": "medpagetoday\\.com\\/engagement",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dd4de0f0e3d7710dc75951d6d0a0721a2e32e72b520d7e89b0f0b2af0803bac6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000020421221733625584,
+                "_li_dcdm_c": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "cureus.com",
+                "www.kevinmd.com"
+            ]
+        },
+        {
+            "rule": "medpagetoday\\.com\\/assets\\/fonts\\/nativeFonts\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clf1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f103d263e435389ecf5c9525fb83da1a873661b33e925e56942c16568a2231ea"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kevinmd.com",
+                "www.kevinmd.com"
+            ]
+        },
+        {
+            "rule": "medpagetoday\\.com\\/assets\\/fonts\\/BerninaSans-Web-Bold\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clf1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "04a0c01c80646c56381a0e58c139df5ca1e6ba25d9116bc66d302c6863703a17"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kevinmd.com",
+                "www.kevinmd.com"
+            ]
+        },
+        {
+            "rule": "medpagetoday\\.com\\/assets\\/fonts\\/BerninaSans-Web-Regular\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clf1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ff2265fa465827b1300176fe4f7b40240575d71a35bf49ce265464a457888399"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kevinmd.com",
+                "www.kevinmd.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.7692307692307693
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.23076923076923078
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Stylesheet": 2,
+        "Font": 4
+    },
+    "nameservers": [
+        "ns-1625.awsdns-11.co.uk",
+        "ns-1442.awsdns-52.org",
+        "ns-924.awsdns-51.net",
+        "ns-354.awsdns-44.com"
+    ]
+}

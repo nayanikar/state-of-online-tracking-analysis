@@ -1,0 +1,283 @@
+{
+    "domain": "hiverhq.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "chat-widget",
+        "chat-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hiverhq\\.com\\/chat-widget\\/js\\/sdk\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "chat-widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.devicePixelRatio": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 3,
+                "window.innerWidth": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "0d39d32c9bc804694f21e2c30cb15c78a8e28dd32c19db26c7b38120f0f6a7f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cw_conversation": {
+                    "ttl": 31536004,
+                    "length": 155,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hattons.co.uk",
+                "www.hattons.co.uk",
+                "www.ledsupply.com"
+            ]
+        },
+        {
+            "rule": "hiverhq\\.com\\/chat-widget\\/widget\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "9af35bbd3e7e67ff26e032f3ca26e4ec881b3bb83e4542e1c5091fbe8347f975"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hattons.co.uk",
+                "www.hattons.co.uk",
+                "www.ledsupply.com"
+            ]
+        },
+        {
+            "rule": "hiverhq\\.com\\/chat-widget\\/css\\/widget\\.bc8131e3\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "8a8fb9ccbf3be606858bc1f938ee38348d3dfa03d171e98b2031e2a2941ce5dd"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hattons.co.uk",
+                "www.hattons.co.uk",
+                "www.ledsupply.com"
+            ]
+        },
+        {
+            "rule": "hiverhq\\.com\\/chat-widget\\/js\\/widget-89adbcd15fd12d9496b3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat-widget"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.product": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "b4cfa409a92b31c92626982800264e0d02dc94fb9a40d74bd350b167609eb88a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hattons.co.uk",
+                "www.hattons.co.uk",
+                "www.ledsupply.com"
+            ]
+        },
+        {
+            "rule": "hiverhq\\.com\\/api\\/v1\\/widget\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hattons.co.uk",
+                "www.hattons.co.uk",
+                "www.ledsupply.com"
+            ]
+        },
+        {
+            "rule": "hiverhq\\.com\\/api\\/v1\\/widget\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "1fe19c5ca11feba3a2cdee5cbf04e7ebfb04be9814955b620889900d9d924b13",
+                "ece439a1c8b797da25ffc74820a85c82fe4af8941c048ce203aeecb2fa669de8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hattons.co.uk",
+                "www.hattons.co.uk",
+                "www.ledsupply.com"
+            ]
+        },
+        {
+            "rule": "hiverhq\\.com\\/cable",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hattons.co.uk",
+                "www.hattons.co.uk",
+                "www.ledsupply.com"
+            ]
+        },
+        {
+            "rule": "hiverhq\\.com\\/api\\/v1\\/widget\\/conversations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hattons.co.uk",
+                "www.hattons.co.uk",
+                "www.ledsupply.com"
+            ]
+        },
+        {
+            "rule": "hiverhq\\.com\\/api\\/v1\\/widget\\/conversations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hattons.co.uk",
+                "www.hattons.co.uk",
+                "www.ledsupply.com"
+            ]
+        },
+        {
+            "rule": "hiverhq\\.com\\/rails\\/active_storage\\/representations\\/redirect\\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc3dSIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ef5387e5370af219284a775dab32c0bdae4280a5\\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2QzNKbGMybDZaVWtpRERJMU1IZ3lOVEFHT3daVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--ce18ba29b5c621423fcdaa99eeb5714b3f0a19ce\\/avatar",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hattons.co.uk",
+                "www.hattons.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 3,
+        "Stylesheet": 3,
+        "Preflight": 6,
+        "XHR": 6,
+        "WebSocket": 3,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-503.awsdns-62.com",
+        "ns-1815.awsdns-34.co.uk",
+        "ns-797.awsdns-35.net",
+        "ns-1068.awsdns-05.org"
+    ]
+}

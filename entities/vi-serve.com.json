@@ -1,0 +1,116 @@
+{
+    "domain": "vi-serve.com",
+    "owner": {
+        "name": "Viewster AG",
+        "displayName": "Viewster"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "s",
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "vi-serve\\.com\\/tagLoader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "73e2ab96d2c2c3ac7b3ab6d4d4da89b1a568c4a4f13b7390c00d29207ad9696a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beachgrit.com",
+                "www.anime-planet.com"
+            ]
+        },
+        {
+            "rule": "vi-serve\\.com\\/source\\.m\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.doNotTrack": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e89f6eb88da665a4416f919213dccc1c730f3c01a1f72c43f517cbc1c1630e66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beachgrit.com",
+                "www.anime-planet.com"
+            ]
+        },
+        {
+            "rule": "vi-serve\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beachgrit.com",
+                "www.anime-planet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6875
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.1875
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-322.awsdns-40.com",
+        "ns-976.awsdns-58.net",
+        "ns-1163.awsdns-17.org",
+        "ns-1876.awsdns-42.co.uk"
+    ]
+}

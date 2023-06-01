@@ -1,0 +1,510 @@
+{
+    "domain": "reproio.com",
+    "owner": {
+        "name": "Repro Inc.",
+        "displayName": "Repro"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000157,
+    "sites": 23,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "reproio\\.com\\/web\\/v2\\/repro-sdk\\.min\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 5,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5,
+                "Navigator.prototype.platform": 4,
+                "window.localStorage": 5,
+                "Navigator.prototype.onLine": 5,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 5,
+                "window.sessionStorage": 5,
+                "window.innerHeight": 5,
+                "window.innerWidth": 5,
+                "Navigator.prototype.connection": 5,
+                "Notification.permission": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "0e62095cd5e93f507dc7fcea28f47d5925eaa549b45864cfeaf855ad4aeadf37"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rpr_opted_in": {
+                    "ttl": 63072005,
+                    "length": 1,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 0.25
+                },
+                "rpr_uid": {
+                    "ttl": 63072005,
+                    "length": 36,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                },
+                "rpr_is_first_session": {
+                    "ttl": 63072005,
+                    "length": 46,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                },
+                "rpr_event_last_tracked_at": {
+                    "ttl": 63072005,
+                    "length": 13,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                },
+                "rpr_session_started_at": {
+                    "ttl": 63072005,
+                    "length": 13,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp",
+                "tver.jp",
+                "wowma.jp",
+                "www.shop-shimamura.com"
+            ]
+        },
+        {
+            "rule": "reproio\\.com\\/v1\\/internal\\/web\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000953,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp",
+                "store.world.co.jp",
+                "tver.jp",
+                "wowma.jp",
+                "www.au.com",
+                "www.beams.co.jp",
+                "www.dot-st.com",
+                "www.lixil.co.jp",
+                "www.mistore.jp",
+                "www.palcloset.jp",
+                "www.sanspo.com",
+                "www.shop-shimamura.com",
+                "www.zakzak.co.jp"
+            ]
+        },
+        {
+            "rule": "reproio\\.com\\/v1\\/internal\\/web\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000953,
+            "cnames": [],
+            "responseHashes": [
+                "860322c436ec3e4ac450a72648cda11b9df5bbfc380afba53ca73740021081ae",
+                "de1760010b13f4e2bf60d56f84ea5f8b28f7719bb7f7feef9d63f8bf320c746c",
+                "4f408d787048aa6f02ca149dab69499c12b1c3eb0b77c913028748028a83b16d",
+                "caf016adc55d3ada693c40b70cf174459f04782b5497603427b730d664b80454",
+                "b0c19781621bf0f903ad3cb9a0748cba4129f12c868b9b25c319432f7cf7fb87",
+                "c116e3520f7d118ba93ba0f3366bfdc1b3935f501554c4dfeebca459690f9532",
+                "60840b99f3bf5eb238b6928f44410c2f539e18fcf1175bc7e2cb8a4a2e3251b9",
+                "06ed06bda213740f095a373a7acd5d201dc3cc8b4c9ee1d461a2b45cfd06841a",
+                "637323da47be9485f94aa31ba23ae837cefdce0066a96272c7bdb02dc63c59f9",
+                "f134a6fba7fea2ef97b882262c726732020f66a76b3af79a2f1c3dbd9a747969",
+                "5ad0d03ec75b7ec743b4ca6cb54e59ac292295cd19079c7217846e417d533eaa",
+                "896088679987b0a0f88e8870bf77e779ca37e6418039df0043fe507092d48afd",
+                "bc23ec0c3f7373af139ef46d234d3476d40ed69d925ebe7f85870a251c8af9c7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp",
+                "store.world.co.jp",
+                "tver.jp",
+                "wowma.jp",
+                "www.au.com",
+                "www.beams.co.jp",
+                "www.dot-st.com",
+                "www.lixil.co.jp",
+                "www.mistore.jp",
+                "www.palcloset.jp",
+                "www.sanspo.com",
+                "www.shop-shimamura.com",
+                "www.zakzak.co.jp"
+            ]
+        },
+        {
+            "rule": "reproio\\.com\\/v3\\/internal\\/web_messages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000953,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rpr_uid": 0.00009529903475691939
+            },
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp",
+                "store.world.co.jp",
+                "tver.jp",
+                "wowma.jp",
+                "www.au.com",
+                "www.beams.co.jp",
+                "www.dot-st.com",
+                "www.lixil.co.jp",
+                "www.mistore.jp",
+                "www.palcloset.jp",
+                "www.sanspo.com",
+                "www.shop-shimamura.com",
+                "www.zakzak.co.jp"
+            ]
+        },
+        {
+            "rule": "reproio\\.com\\/v3\\/internal\\/web_messages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000953,
+            "cnames": [],
+            "responseHashes": [
+                "036598724cfc02eaa8a49fd71efcb246bac8782f47715a499790e066ded4e47c",
+                "766b4d920d702b56be3eadf9e22ef4d7bbcd3b16a408f6115dbce3f35d16b1e3",
+                "6f347d85c7636d2e6d1d960d00a917d7dd5872a620bc946a27d2b35b03823d64",
+                "71f9e56d2bfaf9f2a4f2dffc8c548052e847625660448f1422bb03cbb300cc35"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rpr_uid": 0.00009529903475691939
+            },
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp",
+                "store.world.co.jp",
+                "tver.jp",
+                "wowma.jp",
+                "www.au.com",
+                "www.beams.co.jp",
+                "www.dot-st.com",
+                "www.lixil.co.jp",
+                "www.mistore.jp",
+                "www.palcloset.jp",
+                "www.sanspo.com",
+                "www.shop-shimamura.com",
+                "www.zakzak.co.jp"
+            ]
+        },
+        {
+            "rule": "reproio\\.com\\/v2\\/internal\\/event-chunks",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000817,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp",
+                "store.world.co.jp",
+                "tver.jp",
+                "wowma.jp",
+                "www.au.com",
+                "www.beams.co.jp",
+                "www.dot-st.com",
+                "www.lixil.co.jp",
+                "www.mistore.jp",
+                "www.palcloset.jp",
+                "www.shop-shimamura.com"
+            ]
+        },
+        {
+            "rule": "reproio\\.com\\/v2\\/internal\\/event-chunks",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000817,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp",
+                "store.world.co.jp",
+                "tver.jp",
+                "wowma.jp",
+                "www.au.com",
+                "www.beams.co.jp",
+                "www.dot-st.com",
+                "www.lixil.co.jp",
+                "www.mistore.jp",
+                "www.palcloset.jp",
+                "www.shop-shimamura.com"
+            ]
+        },
+        {
+            "rule": "reproio\\.com\\/v1\\/internal\\/web\\/message",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rpr_uid": 0.000027228295644834112
+            },
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp",
+                "www.au.com",
+                "www.shop-shimamura.com"
+            ]
+        },
+        {
+            "rule": "reproio\\.com\\/v1\\/internal\\/web\\/message",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "dbececda1eac7311f3c30465c48c8b52237248e9b79c1b21930a72a3faaf42e5",
+                "d273c7d57632fa502821d45dd447dde5694120843d7675e5fa26bd67df95d08c",
+                "3f9c750685c82e5b3fadb2559829126de103a56b5c9fca5cd521dfca59d4e21a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rpr_uid": 0.000027228295644834112
+            },
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp",
+                "www.au.com",
+                "www.shop-shimamura.com"
+            ]
+        },
+        {
+            "rule": "reproio\\.com\\/web\\/poc\\/common\\/repro-sdk\\.min\\.js",
+            "cookies": 0.0000613,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "Date.prototype.getTime": 9,
+                "Navigator.prototype.platform": 9,
+                "Navigator.prototype.onLine": 9,
+                "Document.cookie setter": 9,
+                "Document.cookie getter": 9,
+                "window.localStorage": 9,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 8,
+                "window.sessionStorage": 7,
+                "window.innerHeight": 7,
+                "window.innerWidth": 7,
+                "Navigator.prototype.connection": 7,
+                "Notification.permission": 7
+            },
+            "sites": 9,
+            "prevalence": 0.0000613,
+            "cnames": [],
+            "responseHashes": [
+                "9c04fb8780db5b134bbb70c4a967c7af0b8cbef91ff1a35d7feff0453ac7059c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rpr_uid": {
+                    "ttl": 63072012,
+                    "length": 36,
+                    "prevalence": 0.00006126366520087675,
+                    "uniqueness": 1
+                },
+                "rpr_is_first_session": {
+                    "ttl": 63072012,
+                    "length": 46,
+                    "prevalence": 0.00006126366520087675,
+                    "uniqueness": 1
+                },
+                "rpr_prc_group": {
+                    "ttl": 63072011,
+                    "length": 49,
+                    "prevalence": 0.000054456591289668224,
+                    "uniqueness": 0.375
+                },
+                "rpr_event_last_tracked_at": {
+                    "ttl": 63072012,
+                    "length": 13,
+                    "prevalence": 0.000054456591289668224,
+                    "uniqueness": 1
+                },
+                "rpr_session_started_at": {
+                    "ttl": 63072012,
+                    "length": 13,
+                    "prevalence": 0.000054456591289668224,
+                    "uniqueness": 1
+                },
+                "rpr_opted_in": {
+                    "ttl": 63072007,
+                    "length": 1,
+                    "prevalence": 0.000054456591289668224,
+                    "uniqueness": 0.125
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "world.co.jp",
+                "www.au.com",
+                "www.beams.co.jp",
+                "www.dot-st.com",
+                "www.lixil.co.jp",
+                "www.mistore.jp",
+                "www.palcloset.jp",
+                "www.sanspo.com",
+                "www.zakzak.co.jp"
+            ]
+        },
+        {
+            "rule": "reproio\\.com\\/web\\/v1\\/repro-sdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0c24efc0a05b4724d6ab9160f6585ec47a0339d2ae88733263f30b61e3d01cab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buyma.com",
+                "www.buyma.com"
+            ]
+        },
+        {
+            "rule": "reproio\\.com\\/web\\/poc\\/common\\/repro-sw\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d7ef82a02e09e598d7aa3a71f9676737ccc3fbe9dceed846882fc3a7b07d5d55"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanspo.com",
+                "www.zakzak.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000143,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6820809248554913
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.2254335260115607
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.08670520231213873
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.005780346820809248
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Preflight": 44,
+        "Fetch": 44,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns-290.awsdns-36.com",
+        "ns-778.awsdns-33.net",
+        "ns-1781.awsdns-30.co.uk",
+        "ns-1300.awsdns-34.org"
+    ]
+}

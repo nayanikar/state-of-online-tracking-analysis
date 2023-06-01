@@ -1,0 +1,85 @@
+{
+    "domain": "mediadirectory.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "media",
+        "srv"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mediadirectory\\.net\\/js\\/code\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.languages": 1,
+                "Navigator.prototype.language": 1,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "59d301238afc80b2d1373fc15175567010ae90b483ec50ad93929806f864a63c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playtube.tv",
+                "vsi4kifilmi.com"
+            ]
+        },
+        {
+            "rule": "mediadirectory\\.net\\/rotor",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "srv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playtube.tv",
+                "vsi4kifilmi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "salvador.ns.cloudflare.com",
+        "magdalena.ns.cloudflare.com"
+    ]
+}

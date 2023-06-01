@@ -1,0 +1,67 @@
+{
+    "domain": "d1m2oaypgnddv2.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "d1m2oaypgnddv2\\.cloudfront\\.net\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.languages": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "92f1ccc4cba4c2de91fbbb3fb59e5941f1f98ddc3841a149b3145388229d7bd5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allfreecrochet.com",
+                "www.allfreeknitting.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-116.awsdns-14.com",
+        "ns-1254.awsdns-28.org",
+        "ns-1623.awsdns-10.co.uk",
+        "ns-808.awsdns-37.net"
+    ]
+}

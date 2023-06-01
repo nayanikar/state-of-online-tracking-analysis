@@ -1,0 +1,148 @@
+{
+    "domain": "mykanaree.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "gen",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mykanaree\\.com\\/scripts\\/kanaree\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "gen"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.indexedDB": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ac7b2ff70687015d90bffc74d6c87840a6aa8e206974b4fba056f89d0bb999b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_immortal|dataintherawsessionid-expires": {
+                    "ttl": 31536008,
+                    "length": 24,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_immortal|dataintherawmachineid-expires": {
+                    "ttl": 31536006,
+                    "length": 24,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_immortal|dataintheraweventnumber-expires": {
+                    "ttl": 31536008,
+                    "length": 24,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_immortal|dataintherawsessionid": {
+                    "ttl": 31536008,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_immortal|dataintherawmachineid": {
+                    "ttl": 31536006,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_immortal|dataintheraweventnumber": {
+                    "ttl": 31536008,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "dataintherawsessionid": {
+                    "ttl": 1808,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "dataintheraweventnumber": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "dataintherawmachineid": {
+                    "ttl": 63072006,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chromeindustries.com",
+                "www.chromeindustries.com"
+            ]
+        },
+        {
+            "rule": "mykanaree\\.com\\/api\\/public\\/sites\\/d7c628f4-c0e1-4915-a77f-451835e5d716",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "763859cdea05ff05170f63244578c96bdac4ddfa97c3386c51df0e23d4022e8d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chromeindustries.com",
+                "www.chromeindustries.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-904.awsdns-49.net",
+        "ns-1520.awsdns-62.org",
+        "ns-1593.awsdns-07.co.uk",
+        "ns-232.awsdns-29.com"
+    ]
+}

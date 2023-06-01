@@ -1,0 +1,83 @@
+{
+    "domain": "bna.com",
+    "owner": {
+        "name": "Bureau of National Affairs, Inc.",
+        "displayName": "Bureau of National Affairs"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "bwrite-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bna\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bwrite-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bloomberglaw.com",
+                "news.bloomberglaw.com",
+                "news.bloombergtax.com"
+            ]
+        },
+        {
+            "rule": "bna\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bwrite-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "aec08e6e2a7a7937818c446568ad8db4e0996292c6e33977e8b0ab09b014bf80",
+                "92aaa4db8fdeebbbef66bb3d9d1360d3a4ee13058c2c926e7a506c253d82f61f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bloomberglaw.com",
+                "news.bloomberglaw.com",
+                "news.bloombergtax.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns4.bna.com",
+        "ns2.bna.com",
+        "ns1.bna.com",
+        "ns3.bna.com"
+    ]
+}

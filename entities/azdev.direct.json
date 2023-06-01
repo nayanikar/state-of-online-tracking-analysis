@@ -1,0 +1,81 @@
+{
+    "domain": "azdev.direct",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "assets.prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "azdev\\.direct\\/contact-center-webchat\\/lib\\/webchat\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets.prod"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a0181c4dfa3295ad88daed1afba1d8fe3811fdfd06b408972701ac4a9b8fa5e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allianzdirect.de",
+                "www.allianzdirect.de"
+            ]
+        },
+        {
+            "rule": "azdev\\.direct\\/contact-center-config\\/webchat\\/de-prod\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "66aae9154b0a07e51ab0b3462d01a5a79e5af590a831901d1b1c381b4cba8961"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allianzdirect.de",
+                "www.allianzdirect.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1431.awsdns-50.org",
+        "ns-128.awsdns-16.com",
+        "ns-2043.awsdns-63.co.uk",
+        "ns-529.awsdns-02.net"
+    ]
+}

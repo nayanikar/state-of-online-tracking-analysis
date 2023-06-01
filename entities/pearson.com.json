@@ -1,0 +1,90 @@
+{
+    "domain": "pearson.com",
+    "owner": {
+        "name": "Pearson Education, Inc.",
+        "displayName": "Pearson Education"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "login",
+        "naclinpgs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pearson\\.com\\/v1\\/piapi\\/login\\/js\\/v2\\/session\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4702086086cf2222dbc3ce359ff778aa09144f4bb7f79a5cfa19091b144fec19"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pearsonassessments.com",
+                "www.pearsonassessments.com"
+            ]
+        },
+        {
+            "rule": "pearson\\.com\\/analytics",
+            "cookies": 0.00000681,
+            "fingerprinting": 0,
+            "subdomains": [
+                "naclinpgs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "visitor_id924292": 0.000013614147822417056,
+                "visitor_id924292-hash": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "pearsonassessments.com",
+                "www.pearsonassessments.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "pardot.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns01.pearson.com",
+        "ns02.pearson.com",
+        "ns03.pearson.com",
+        "ns04.pearson.com"
+    ]
+}

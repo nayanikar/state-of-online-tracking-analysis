@@ -1,0 +1,111 @@
+{
+    "domain": "legolandholidays.co.uk",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "search-form",
+        "search-form-service"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "legolandholidays\\.co\\.uk\\/v2\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-form"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d427638a14f59e16ecee2a9c886312e53c5d1ddb082616113541c31ed58826bc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "legoland.co.uk",
+                "www.legoland.co.uk"
+            ]
+        },
+        {
+            "rule": "legolandholidays\\.co\\.uk\\/v2\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "search-form"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3110d9263948aee826f81a9527bd8ed43f101dfff0a312e8b42701ff9472f45d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "legoland.co.uk",
+                "www.legoland.co.uk"
+            ]
+        },
+        {
+            "rule": "legolandholidays\\.co\\.uk\\/packaging",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-form-service"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c9738d181f433abca7cde4b0b266cff90fbcf1a01ab5c5f6d2b7fb7e47827a44"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "legoland.co.uk",
+                "www.legoland.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns2-09.azure-dns.net",
+        "ns3-09.azure-dns.org",
+        "ns4-09.azure-dns.info",
+        "ns1-09.azure-dns.com"
+    ]
+}

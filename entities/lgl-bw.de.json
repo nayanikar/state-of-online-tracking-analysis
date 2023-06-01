@@ -1,0 +1,122 @@
+{
+    "domain": "lgl-bw.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "owsproxy",
+        "conserv"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "lgl-bw\\.de\\/owsproxy\\/ows\\/WMTS_LGL-BW_Basiskarte",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "owsproxy"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c20099f43a93f5f75f489c02d2a0c3933911d0ef02dc829ec6141e4efdc6ed2e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baden-wuerttemberg.de",
+                "rp.baden-wuerttemberg.de",
+                "www.geoportal-bw.de"
+            ]
+        },
+        {
+            "rule": "lgl-bw\\.de\\/configuration",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "conserv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d720009cd62783e0e11fcf509848b7d30b09051ba68b0b09af6914a0aa081171"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geoportal-bw.de",
+                "www.geoportal-bw.de"
+            ]
+        },
+        {
+            "rule": "lgl-bw\\.de\\/configuration",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "conserv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geoportal-bw.de",
+                "www.geoportal-bw.de"
+            ]
+        },
+        {
+            "rule": "lgl-bw\\.de\\/permalink",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "conserv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "482bc9c26c01feb987b9f4d649a42dd1a66972fb18dacd28c6ddb32e85cff307"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geoportal-bw.de",
+                "www.geoportal-bw.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "dns1.belwue.de",
+        "dns3.belwue.de"
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "domain": "belboon.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000749,
+    "sites": 11,
+    "subdomains": [
+        "containertags",
+        "webservice"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "belboon\\.com\\/js\\/91216\\/basket\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "containertags"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "28cbc030a40c0d8620b688e7901318e018664441f5408a59bedd2bd2355a6472"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "klimaworld.com",
+                "www.klimaworld.com"
+            ]
+        },
+        {
+            "rule": "belboon\\.com\\/www1\\/tracking\\/000140748\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "parismalanders.com",
+                "www.parismalanders.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "lucy.ns.cloudflare.com",
+        "alec.ns.cloudflare.com"
+    ]
+}

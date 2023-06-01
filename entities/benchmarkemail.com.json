@@ -1,0 +1,115 @@
+{
+    "domain": "benchmarkemail.com",
+    "owner": {
+        "name": "Benchmark Internet Group,LLC",
+        "displayName": "Benchmark Internet Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "lb",
+        "prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "benchmarkemail\\.com\\/\\/code\\/lbformnew\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lb"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1c205035f440f7f9c1c804a0f21950a0f2d4064de02ae43d5bdc9daa663a60d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newdiscourses.com",
+                "www.mediatek.com"
+            ]
+        },
+        {
+            "rule": "benchmarkemail\\.com\\/\\/jp\\/code\\/lbformnew\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lb"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3273a672cd9386c9e27bdb08c846e39c8a2283a8995f5736f672524da8cc65f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wa-gokoro.jp",
+                "www.timeless-edition.com"
+            ]
+        },
+        {
+            "rule": "benchmarkemail\\.com\\/tracker\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "1bfd21c796282d55e1abd963cc7643a27af2f7df3be3f55eb2b2218bc5f1e731"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wa-gokoro.jp",
+                "www.document-center.com",
+                "www.mediatek.com",
+                "www.timeless-edition.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "ns4.dnsmadeeasy.com",
+        "ns0.dnsmadeeasy.com",
+        "ns3.dnsmadeeasy.com",
+        "ns1.dnsmadeeasy.com",
+        "ns2.dnsmadeeasy.com"
+    ]
+}

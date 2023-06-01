@@ -1,0 +1,117 @@
+{
+    "domain": "satcb.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "satcb\\.azureedge\\.net\\/Scripts\\/satcb\\.min\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "fefff60629f5004bfb2643d632aa975e63645dda7b2d548d2f7f526d3e351b92"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mypatriotsupply.com",
+                "www.interiorsecrets.com.au",
+                "www.optimoz.com.au",
+                "www.tactoys.com.au"
+            ]
+        },
+        {
+            "rule": "satcb\\.azureedge\\.net\\/Scripts\\/satcb_core\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "057415aef085b55457db41bcbe33d6601752461e8e81d284479b5be4f3a3c94c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mypatriotsupply.com",
+                "www.optimoz.com.au",
+                "www.tactoys.com.au"
+            ]
+        },
+        {
+            "rule": "satcb\\.azureedge\\.net\\/Content\\/satcb\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "569102215e4f3b133064ef3a744f84f78231ea77ac03f90c82bb0a2950bec9b4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mypatriotsupply.com",
+                "www.tactoys.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "edgeme.sh",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

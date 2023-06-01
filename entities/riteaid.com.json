@@ -1,0 +1,137 @@
+{
+    "domain": "riteaid.com",
+    "owner": {
+        "name": "Rite Aid Corporation",
+        "displayName": "Rite Aid"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "dynaag"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "riteaid\\.com\\/jstag\\/managed\\/0af9bfb2-30ba-4954-8403-e3ff4c4faf2f\\/b52fc261121850f8_complete\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dynaag"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 1,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.appName": 1,
+                "Navigator.prototype.connection": 1,
+                "Navigator.prototype.doNotTrack": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "29fd1224297d9e8fb54414e86dce72fc00c83ab68cf23f8c99572aa75a0efda3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dTValidationCookie": {
+                    "ttl": -1681909577,
+                    "length": 2,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "dtCookie": {
+                    "ttl": null,
+                    "length": 93,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "rxVisitor": {
+                    "ttl": null,
+                    "length": 45,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "dtPC": {
+                    "ttl": null,
+                    "length": 55,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "rxvt": {
+                    "ttl": null,
+                    "length": 27,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "dtLatC": {
+                    "ttl": null,
+                    "length": 3,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "dtSa": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bartelldrugs.com",
+                "www.bartelldrugs.com"
+            ]
+        },
+        {
+            "rule": "riteaid\\.com\\/bf\\/0af9bfb2-30ba-4954-8403-e3ff4c4faf2f",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dynaag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f9c05cbc909559025206c03a9b195982b06545bf0eb6f44f242d8166707fa5eb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bartelldrugs.com",
+                "www.bartelldrugs.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "dnsb.riteaid.com",
+        "dnsa.riteaid.com"
+    ]
+}

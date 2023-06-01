@@ -1,0 +1,86 @@
+{
+    "domain": "pagefly.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pagefly\\.io\\/pagefly\\/core\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "920915d6e1c08bb81a32f9656f62a788131600ed3e543a7a2be47936b5c46934"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "modelesdebusinessplan.com",
+                "yema.com"
+            ]
+        },
+        {
+            "rule": "pagefly\\.io\\/api\\/analytics-v2\\/current-time",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bc6fa9cb515211164039a3f37c7ef7f32e76add49ce8ee93b25cc3b1e19051da"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "modelesdebusinessplan.com",
+                "yema.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "dns2.registrar-servers.com",
+        "dns1.registrar-servers.com"
+    ]
+}

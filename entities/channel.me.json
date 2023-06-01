@@ -1,0 +1,226 @@
+{
+    "domain": "channel.me",
+    "owner": {
+        "name": "Channel.me B.V.",
+        "displayName": "Channel.me"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "channel\\.me\\/siteconnect\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "78f910eb2d9cd4f25def3573c0f2687c20a56a3db63b6d64caa43c4dc14c02ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wwwchannelme_z_sid": {
+                    "ttl": null,
+                    "length": 32,
+                    "prevalence": 0.00040172742794014263,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "entree.nu",
+                "www.mijnobvion.nl",
+                "www.wpd.nl",
+                "www.zuidwestwonen.nl"
+            ]
+        },
+        {
+            "rule": "channel\\.me\\/siteconnect\\.js\\/frame",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "512a69d4cb247e7cbd47d16907b3752b49fe94c4e7cefec410efcceb30a36cad",
+                "654f48e02f595d089a590f84639951c376d306b1fc784b2d4bdaab5d53dba04e",
+                "22241d3e7ca627b13a1810d1b4346bb1a863f24cb10cf588a3f788f27af47236"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "entree.nu",
+                "www.mijnobvion.nl",
+                "www.wpd.nl",
+                "www.zuidwestwonen.nl"
+            ]
+        },
+        {
+            "rule": "channel\\.me\\/lib-min\\/js\\/apps\\/jquery-latest\\.min~\\/js\\/polyfill_ie11CustomProperties~promise-polyfill-202010~gen_frame~apps\\/zotonic-1\\.0~z\\.widgetmanager~\\/js\\/modules\\/ubf~\\/js\\/qlobber\\.min~pubzub~encdec~connect_frame~z_transport_reload~1258840930\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "01d4488053e1c4fb6f478ee480c3bd10460e806e03d75f47b3714d82e424e1a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "entree.nu",
+                "www.mijnobvion.nl",
+                "www.wpd.nl",
+                "www.zuidwestwonen.nl"
+            ]
+        },
+        {
+            "rule": "channel\\.me\\/lib-min\\/css\\/site_connect~151259176\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "a37b9ad5ebcb12a8e64049b08794da6594d0bd7eb1db0b358c6a27ba318a7159"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "entree.nu",
+                "www.mijnobvion.nl",
+                "www.wpd.nl",
+                "www.zuidwestwonen.nl"
+            ]
+        },
+        {
+            "rule": "channel\\.me\\/lib-min\\/js\\/diffy~sample~1150161006\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e84be9930413dc31aa8c9227ce99e30ebccd67472347456c93ccd2577c189bf6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "entree.nu",
+                "www.mijnobvion.nl",
+                "www.wpd.nl",
+                "www.zuidwestwonen.nl"
+            ]
+        },
+        {
+            "rule": "channel\\.me\\/lib-min\\/js\\/apps\\/mithril~\\/js\\/modules\\/lazyload~z\\.component~2929531015\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "1905764562c46693f5379950271afd16792a9088148d66a0e3c60e38a08d5050"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "entree.nu",
+                "www.mijnobvion.nl",
+                "www.wpd.nl",
+                "www.zuidwestwonen.nl"
+            ]
+        },
+        {
+            "rule": "channel\\.me\\/postback",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "805e5624597aad198a6cd695b575f3fe7827f67458590c48c99ce0cd9ae66a4d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "entree.nu",
+                "www.zuidwestwonen.nl"
+            ]
+        },
+        {
+            "rule": "channel\\.me\\/websocket",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "entree.nu",
+                "www.mijnobvion.nl",
+                "www.wpd.nl",
+                "www.zuidwestwonen.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Document": 4,
+        "Stylesheet": 4,
+        "XHR": 2,
+        "WebSocket": 4
+    },
+    "nameservers": [
+        "ns0.transip.net",
+        "ns1.transip.nl",
+        "ns2.transip.eu"
+    ]
+}

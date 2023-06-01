@@ -1,0 +1,82 @@
+{
+    "domain": "privacity.se",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "a"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "privacity\\.se\\/js\\/plausible\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.webdriver": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7eec3429c76cb48e5fd457c5afb71b7cf34bc4298d53023bae8aea715443b4a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyberleaks.org",
+                "pixl.li"
+            ]
+        },
+        {
+            "rule": "privacity\\.se\\/api\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyberleaks.org",
+                "pixl.li"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "2-can.njalla.in",
+        "3-get.njalla.fo",
+        "1-you.njalla.no"
+    ]
+}

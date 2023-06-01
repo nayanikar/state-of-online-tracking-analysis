@@ -1,0 +1,87 @@
+{
+    "domain": "creatopy.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "live-tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "creatopy\\.net\\/embed\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "live-tag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "31fb1563bc3a2acd8585b8fdcfdfa69862d6d3851dc822372b72703f06c6489e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skomani.no",
+                "spirea.no",
+                "www.pd.no"
+            ]
+        },
+        {
+            "rule": "creatopy\\.net\\/520783917495\\/stats-queue",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "live-tag"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "d5df234b57352602470bb3ff7f06c1242b18f383ec9840504b254e67503b243d",
+                "5351a0ad39fdbe9477796df0f99d8e04cf76c2ad685309be98a6580f570291ef"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skomani.no",
+                "spirea.no",
+                "www.pd.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "blakely.ns.cloudflare.com",
+        "leonard.ns.cloudflare.com"
+    ]
+}

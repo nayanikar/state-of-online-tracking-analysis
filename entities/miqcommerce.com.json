@@ -1,0 +1,103 @@
+{
+    "domain": "miqcommerce.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "ws",
+        "cbdp"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "miqcommerce\\.com\\/getcode\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "5d8404edb58c16330aa33598890511784ff5625ba541148812123c912ab88717",
+                "5142cbfc873b4e450b78c311d908cb68a87abdd0c9dbbfed872b68b3eae076a6",
+                "309f2bdc39f6aaa38fedb15a549f635cf7fcd841c587586ece64718a128de728",
+                "6223f0ea6158fa217910b9efff1eaa3246800e01968f70b29904ecc33eb777e4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guideposts.org",
+                "www.corcoran.com",
+                "www.cubesmart.com",
+                "www.salesforce.com",
+                "www.tnvacation.com"
+            ]
+        },
+        {
+            "rule": "miqcommerce\\.com\\/wsrule",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cbdp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "4fbc688ab413f32e87ff4fa00c1cf67e66d6f895bd24711b21005d2a958936aa",
+                "7381f87ecae0034476957759c6e3a204ec576359c2bd11617bb17edc5fb7026d",
+                "ca8872c49bd296a3868eaf73aa78a9ea995cc283538802f120f72b1ce6666436",
+                "ea56b49f8a01264050d29bc8d72c771e168a582ecda72b782c5d1c8d5bab7a33"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guideposts.org",
+                "www.corcoran.com",
+                "www.cubesmart.com",
+                "www.salesforce.com",
+                "www.tnvacation.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000681,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7272727272727273
+        },
+        {
+            "domain": "sfdcstatic.com",
+            "prevalence": 0.18181818181818182
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.09090909090909091
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 5
+    },
+    "nameservers": [
+        "ns-1138.awsdns-14.org",
+        "ns-259.awsdns-32.com",
+        "ns-1762.awsdns-28.co.uk",
+        "ns-920.awsdns-51.net"
+    ]
+}

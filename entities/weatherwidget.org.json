@@ -1,0 +1,87 @@
+{
+    "domain": "weatherwidget.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "srv2",
+        "app1",
+        "srv1"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "weatherwidget\\.org\\/js\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "srv2",
+                "app1",
+                "srv1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "cd95b10b722c087151ae5b06dfdaddbbf414cfe659ffba19b3b28bd5258144dd",
+                "ba5c7f6bb3848e6f3e8a2390954bb5afbb812cc61b947375b4479c9cd2e9f134"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mb.com.ph",
+                "www.boisestatepublicradio.org",
+                "www.mallorca.com"
+            ]
+        },
+        {
+            "rule": "weatherwidget\\.org\\/data\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "srv2",
+                "app1",
+                "srv1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "dbea9c943c26864119d080af37afe6715cbac0ec439005ca836730bdd6e66268",
+                "a8ef50b53a2bc3b45f89814caa0921a91c6a31c0640101a8d6cb086777bb6c22"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mb.com.ph",
+                "www.boisestatepublicradio.org",
+                "www.mallorca.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "megan.ns.cloudflare.com",
+        "lloyd.ns.cloudflare.com"
+    ]
+}

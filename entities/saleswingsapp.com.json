@@ -1,0 +1,112 @@
+{
+    "domain": "saleswingsapp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "s",
+        "to.go"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "saleswingsapp\\.com\\/sw\\.prod\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0ce036785ab0ef252c10edff588a3902036148728011c2f6e87c8f2d7c802fc1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sw": {
+                    "ttl": 31536007,
+                    "length": 14,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "www.panasonic.com"
+            ]
+        },
+        {
+            "rule": "saleswingsapp\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "to.go"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "www.panasonic.com"
+            ]
+        },
+        {
+            "rule": "saleswingsapp\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "to.go"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "www.panasonic.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1771.awsdns-29.co.uk",
+        "ns-1434.awsdns-51.org",
+        "ns-463.awsdns-57.com",
+        "ns-937.awsdns-53.net"
+    ]
+}

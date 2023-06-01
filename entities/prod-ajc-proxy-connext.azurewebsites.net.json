@@ -1,0 +1,87 @@
+{
+    "domain": "prod-ajc-proxy-connext.azurewebsites.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000476,
+    "sites": 7,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "prod-ajc-proxy-connext\\.azurewebsites\\.net\\/api\\/views",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "bf7da55ef6be4cdd0d0932dd1e689a423b9b04c68e3cc9b083d4c099bf0e0ec9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "anonDeviceId": 0.000027228295644834112
+            },
+            "exampleSites": [
+                "ajc.com",
+                "www.dayton.com",
+                "www.daytondailynews.com",
+                "www.journal-news.com",
+                "www.springfieldnewssun.com"
+            ]
+        },
+        {
+            "rule": "prod-ajc-proxy-connext\\.azurewebsites\\.net\\/api\\/views",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "anonDeviceId": 0.000027228295644834112
+            },
+            "exampleSites": [
+                "ajc.com",
+                "www.dayton.com",
+                "www.daytondailynews.com",
+                "www.journal-news.com",
+                "www.springfieldnewssun.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "ajc.com",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Fetch": 5,
+        "Preflight": 5
+    },
+    "nameservers": []
+}

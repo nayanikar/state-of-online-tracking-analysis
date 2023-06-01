@@ -1,0 +1,537 @@
+{
+    "domain": "playwire.com",
+    "owner": {
+        "name": "Intergi Entertainment",
+        "displayName": "Intergi Entertainment"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00251,
+    "sites": 25,
+    "subdomains": [
+        "config",
+        "cdn",
+        "predicted-price-floor"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "playwire\\.com\\/audience_segments\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config"
+            ],
+            "apis": {},
+            "sites": 25,
+            "prevalence": 0.00251,
+            "cnames": [],
+            "responseHashes": [
+                "91cb995525b84a2609f80bb3f90b13b79bcf91e4b51aec97ec33af71b4915d74"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.whosampled.com",
+                "www.androidauthority.com",
+                "www.sparknotes.com",
+                "www.furaffinity.net",
+                "brickset.com",
+                "www.coolmathgames.com",
+                "discord.me",
+                "www.omnicalculator.com",
+                "www.lyricsondemand.com",
+                "www.soundguys.com",
+                "skyrimcommands.com",
+                "oldschool.runescape.wiki",
+                "www.psu.com",
+                "www.albumoftheyear.org",
+                "www.brickfanatics.com",
+                "gbatemp.net",
+                "sofifa.com",
+                "runescape.wiki",
+                "www.allmusic.com",
+                "blabbermouth.net"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt\\/js\\/zeus\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "86eb1fd9f56c4470ec2345a3c7a7085d682a1c831e0a0afd33c02c228f33f4f1",
+                "0f8fd109029481728d4b1cbe13ba6a166e5d95cdfeadb5f167d7e5bba90aefe2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "brickset.com",
+                "discord.me",
+                "gamebanana.com",
+                "letterboxd.com",
+                "prosettings.net",
+                "www.albumoftheyear.org",
+                "www.pricecharting.com",
+                "www.psu.com",
+                "www.whosampled.com"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/7\\.js",
+            "cookies": 0.001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 10,
+                "Document.cookie setter": 10,
+                "Document.cookie getter": 10,
+                "Navigator.prototype.platform": 10,
+                "Navigator.prototype.userAgent": 10,
+                "Navigator.prototype.connection": 10,
+                "HTMLMediaElement.prototype.canPlayType": 10,
+                "window.innerWidth": 10,
+                "window.innerHeight": 10,
+                "Navigator.prototype.cookieEnabled": 5,
+                "window.localStorage": 4
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "2e96d2c6b8dfeb38342375945e59f6ac6ac01b2fedcc7525bfc1ac14ba33f977"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "playwirePageViews": {
+                    "ttl": 86418,
+                    "length": 1,
+                    "prevalence": 0.0008032128514056225,
+                    "uniqueness": 0.125
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "brickset.com",
+                "discord.me",
+                "gamebanana.com",
+                "letterboxd.com",
+                "prosettings.net",
+                "www.albumoftheyear.org",
+                "www.pricecharting.com",
+                "www.psu.com",
+                "www.whosampled.com"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "25c34fdd9e56fa7f1d297128bbc9fd24986d9d306a8072871ae2c2366d45fd75"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me",
+                "gamebanana.com",
+                "prosettings.net",
+                "www.albumoftheyear.org",
+                "www.pricecharting.com",
+                "www.whosampled.com"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/frame\\/frame\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "63df114d2fe4c99efb709a7fe771737b5993c16ba50769ee291b938158a2f27c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me",
+                "gamebanana.com",
+                "prosettings.net",
+                "www.pricecharting.com"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/frame\\/zeus_boot\\.bbeb463fdea0f78fc9db\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.connection": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e60865dc904b0638dba579ec973c099292f7bc4755c1a14f537b5ba2f010949b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me",
+                "gamebanana.com",
+                "www.pricecharting.com"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/frame\\/frame\\.619c0b73d6e590e13246\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "080d66353cc9a0af88b9b9f46fd7d7e96e4e2aaac299a29d30e55ea9ce6effd2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me",
+                "gamebanana.com"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/frame\\/pegasus_theme\\.8256c3c821d5cccc46f4\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "38b88d35ff7abc2f1614745b704a2995714660452baa4719737545b05c7e6f81"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/frame\\/pegasus_theme\\.8256c3c821d5cccc46f4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "98ccf1341da7445e21b705e38c23c910e43580d0b1ef416c573729eef8992fb7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/frame\\/admgr\\.f927e0d780bf6e646cb4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c950e45cfda18ef3f63949c2ecdb8a5446ccdc9993dce3d63867a529739a1f1c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/frame\\/pegasus_appearance_manager\\.a922dab2b6298ffac250\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7735f77ce0e47d54d131865557079fa581848d1207f9516ae47021d086043cb4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/frame\\/pegasus_controlbar~scrubber\\.c2aa233665f2119d0ce9\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3198167f4cf918bf6d04192f094714745fa1f5703b8d0c77262e041e4bef1c63"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/frame\\/pegasus_controlbar\\.4577c313cce831422fdd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a95d96a67366f8dadc29c45ee70a8e21bef7dd353db90e3c8bef356ae97522f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/frame\\/zeus_mouseinput\\.c4d2244d010a8a46be2f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2297042a187be97eafe1e26c71e0cc57326a0eba42e509bdf7ca9e1f5f1dba8d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/frame\\/pegasus_content\\.46e204f7384e762f9b0a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2d6f2dd49278fa3e33f84cccf4c2f23bfb3d5aa47a83845b4778bdfe2ea89bad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/frame\\/scrubber\\.5f936dc0c0a795369051\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7d933adf5875045435c168e483a0a83d493f9d61b233a4914f7a4468ef58e034"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/bolt4\\/js\\/zeus\\/releases\\/4\\.6\\.12\\/frame\\/pegasus_watermark\\.c37da47f71dfb4394015\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "878762934468c050a0d5f511c00b78ffff4bf53bdb6ea91f66b703a75e45936a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blabbermouth.net",
+                "discord.me"
+            ]
+        },
+        {
+            "rule": "playwire\\.com\\/websites\\/72757\\/v1\\/Wed\\/22\\/desktop\\/Chrome\\/TIER_1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "predicted-price-floor"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f5f56885c32b49a3a07c8660cb1c14021d441929522ccd6c35dc49da69a20bcd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lyricsondemand.com",
+                "www.lyricsondemand.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.001,
+    "topInitiators": [
+        {
+            "domain": "intergient.com",
+            "prevalence": 0.8085106382978723
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14893617021276595
+        },
+        {
+            "domain": "intergi.com",
+            "prevalence": 0.031914893617021274
+        },
+        {
+            "domain": "d25lqe4mlyaln6.cloudfront.net",
+            "prevalence": 0.010638297872340425
+        }
+    ],
+    "types": {
+        "XHR": 27,
+        "Script": 52,
+        "Document": 5,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-693.awsdns-22.net",
+        "ns-263.awsdns-32.com",
+        "ns-1726.awsdns-23.co.uk",
+        "ns-1325.awsdns-37.org"
+    ]
+}

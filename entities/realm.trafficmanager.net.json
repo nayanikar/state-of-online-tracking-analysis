@@ -1,0 +1,116 @@
+{
+    "domain": "realm.trafficmanager.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00017,
+    "sites": 25,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "realm.hearstnp.com",
+            "resolved": "realm.trafficmanager.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "realm\\.trafficmanager\\.net\\/\\.well-known\\/openid-configuration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000953,
+            "cnames": [
+                {
+                    "original": "realm.hearstnp.com",
+                    "resolved": "realm.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "03bc90950a3cf3d2baae54d90e814b61d4066e0deec3a120d04f03b38c064f6b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sfchronicle.com",
+                "datebook.sfchronicle.com",
+                "www.beaumontenterprise.com",
+                "www.chron.com",
+                "www.ctpost.com",
+                "www.expressnews.com",
+                "www.houstonchronicle.com",
+                "www.mysanantonio.com",
+                "www.newstimes.com",
+                "www.nhregister.com",
+                "www.sfchronicle.com",
+                "www.sfgate.com",
+                "www.stamfordadvocate.com",
+                "www.timesunion.com"
+            ]
+        },
+        {
+            "rule": "realm\\.trafficmanager\\.net\\/connect\\/authorize",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000953,
+            "cnames": [
+                {
+                    "original": "realm.hearstnp.com",
+                    "resolved": "realm.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "c9e1dff64e67edfafbce2fc67c9a2faceb2c155b74706c5741b20142fe1209aa"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00009529903475691939
+            },
+            "exampleSites": [
+                "sfchronicle.com",
+                "datebook.sfchronicle.com",
+                "www.beaumontenterprise.com",
+                "www.chron.com",
+                "www.ctpost.com",
+                "www.expressnews.com",
+                "www.houstonchronicle.com",
+                "www.mysanantonio.com",
+                "www.newstimes.com",
+                "www.nhregister.com",
+                "www.sfchronicle.com",
+                "www.sfgate.com",
+                "www.stamfordadvocate.com",
+                "www.timesunion.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "hearst3pcc.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 14,
+        "Document": 14
+    },
+    "nameservers": []
+}

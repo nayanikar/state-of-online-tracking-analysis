@@ -1,0 +1,157 @@
+{
+    "domain": "truepush.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "sdki",
+        "sdk"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "truepush\\.com\\/sdk\\/version\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdki"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "4ecf24b7db78a8e99bb3c0581cc859f5edc4ef62e682d91e963ff3e9f8763c62"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmepp.com",
+                "www.amourdecuisine.fr",
+                "www.papillesetpupilles.fr"
+            ]
+        },
+        {
+            "rule": "truepush\\.com\\/sdk\\/v2\\.0\\.4\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdki"
+            ],
+            "apis": {
+                "Notification.permission": 3,
+                "window.name": 3,
+                "Navigator.prototype.permissions": 3,
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.language": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "6dc50509c75d563ba18f32e35c8aa2ff630f46492df8dad7c66515fe6eaf34ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmepp.com",
+                "www.amourdecuisine.fr",
+                "www.papillesetpupilles.fr"
+            ]
+        },
+        {
+            "rule": "truepush\\.com\\/api\\/v2\\/truepushSDKPlatfromDetails",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "1427b7cbfa26ef6eeefebb8b0bd9ba01160ab003b4e0f4844b3e685cf454eb3a",
+                "29944ec3b169cebfb0eae5be50c6c17861e6bbc67cd40466814f5ee0197ad8f3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmepp.com",
+                "www.amourdecuisine.fr",
+                "www.papillesetpupilles.fr"
+            ]
+        },
+        {
+            "rule": "truepush\\.com\\/api\\/v2\\/truepushSDKPlatfromDetails",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmepp.com",
+                "www.amourdecuisine.fr",
+                "www.papillesetpupilles.fr"
+            ]
+        },
+        {
+            "rule": "truepush\\.com\\/sdk\\/v2\\.0\\.3\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdki"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c600adb1e3d6281621818ba058f98a8fa9ba43bd31a97c2cf98901400ba6f461"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amourdecuisine.fr",
+                "www.papillesetpupilles.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 6,
+        "Script": 5,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns-611.awsdns-12.net",
+        "ns-313.awsdns-39.com",
+        "ns-1697.awsdns-20.co.uk",
+        "ns-1515.awsdns-61.org"
+    ]
+}

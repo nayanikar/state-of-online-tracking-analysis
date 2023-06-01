@@ -1,0 +1,176 @@
+{
+    "domain": "relish.com",
+    "owner": {
+        "name": "Fexy Media, Inc.",
+        "displayName": "Fexy Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "relish\\.com\\/scripts\\/relish\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Screen.prototype.orientation": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "c78b309914c7bf5fac6645fd40a3e9a83e804ea845741aa388528acd4cfa9d0e",
+                "87f3b22ee6f6f16851c999a089d67f8f58ab02c1644c5c9889a62f28a3f0bb12"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cookieandkate.com",
+                "easyweeknightrecipes.com",
+                "ohsweetbasil.com"
+            ]
+        },
+        {
+            "rule": "relish\\.com\\/scripts\\/storage",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "ec4672aefed3c9c6296adc24c83ab09c9443a8cacbdf78f9faea00e83ff99dda",
+                "0d7f64ab2ab28d26fdfc201a2077c377d5e83f3f146b0c56d070e105d071f32e"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cookieandkate.com",
+                "easyweeknightrecipes.com",
+                "ohsweetbasil.com"
+            ]
+        },
+        {
+            "rule": "relish\\.com\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cookieandkate.com",
+                "easyweeknightrecipes.com",
+                "ohsweetbasil.com"
+            ]
+        },
+        {
+            "rule": "relish\\.com\\/api\\/v1\\/retailers\\/00000",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "8d02132090a30db62918de15c672e6f1d0068b1a9a9399949e2453f820f6e4b5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cookieandkate.com",
+                "easyweeknightrecipes.com",
+                "ohsweetbasil.com"
+            ]
+        },
+        {
+            "rule": "relish\\.com\\/api-insights\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "36486f6f8ea9c0ede9e0b7fa48630f2a837c376efa25adc78efac2a0a2068665"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cookieandkate.com",
+                "easyweeknightrecipes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.19047619047619047
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.19047619047619047
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.19047619047619047
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Document": 3,
+        "XHR": 3,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "betty.ns.cloudflare.com",
+        "hans.ns.cloudflare.com"
+    ]
+}

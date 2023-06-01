@@ -1,0 +1,84 @@
+{
+    "domain": "rxweb-prd.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "css-components"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "rxweb-prd\\.com\\/packages\\/mixpanel\\/latest\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "css-components"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "b31d1d1147f104cbb8dea8cdf4145233402d2ad57dc3393ac847b4b4f433107b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fibo.com",
+                "www.fibo.com",
+                "www.starwarscelebration.com"
+            ]
+        },
+        {
+            "rule": "rxweb-prd\\.com\\/packages\\/recommendation-list\\/latest\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "css-components"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "52d105824e97d6a3d846a035d3686bb402b2379036bb11076ac2b6c14041d240"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fibo.com",
+                "www.fibo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns2.netnames.net",
+        "ns1.netnames.net",
+        "ns5.netnames.net",
+        "ns6.netnames.net"
+    ]
+}

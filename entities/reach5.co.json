@@ -1,0 +1,107 @@
+{
+    "domain": "reach5.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "pbel1-ciam",
+        "assets"
+    ],
+    "cnames": [
+        {
+            "original": "auth.parcasterix.fr",
+            "resolved": "pbel1-ciam.reach5.co"
+        },
+        {
+            "original": "sso.futuroscope.com",
+            "resolved": "pbel1-ciam.reach5.co"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "reach5\\.co\\/identity\\/v1\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pbel1-ciam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "sso.futuroscope.com",
+                    "resolved": "pbel1-ciam.reach5.co"
+                },
+                {
+                    "original": "auth.parcasterix.fr",
+                    "resolved": "pbel1-ciam.reach5.co"
+                }
+            ],
+            "responseHashes": [
+                "168fc02a6d3ccbf0959512e29a766091f9279388fd89a1691ca5104e69b1c890"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futuroscope.com",
+                "www.parcasterix.fr"
+            ]
+        },
+        {
+            "rule": "reach5\\.co\\/hassets\\/sdk\\/identity\\.fr\\.0633e3f374f4ac8820a1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appName": 3,
+                "Event.prototype.timeStamp": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "a5fadd0e474473a001d420f8437f630e20d08500f4c52c4e89024a3a5c690549"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "glenat.com",
+                "www.hachette.fr",
+                "www.livredepoche.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "reach5.net",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-1447.awsdns-52.org",
+        "ns-1015.awsdns-62.net",
+        "ns-63.awsdns-07.com",
+        "ns-1972.awsdns-54.co.uk"
+    ]
+}

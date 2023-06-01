@@ -1,0 +1,186 @@
+{
+    "domain": "reamaze.com",
+    "owner": {
+        "name": "Lantirn Incorporated",
+        "displayName": "Lantirn"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0012,
+    "sites": 12,
+    "subdomains": [
+        "cdn",
+        "push",
+        "ws"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "reamaze\\.com\\/assets\\/reamaze-loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "85f2c18897e518b79b8569f1e0b275e9ba5e7b924b728fbc5f7d3c226affe273"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "akubra.com.au",
+                "alternativebrewing.com.au",
+                "arcteryx.com.au",
+                "decathlon.com.au",
+                "desky.com.au",
+                "salomon.com.au",
+                "watchdirect.com.au",
+                "www.armyandoutdoors.com.au",
+                "www.billini.com",
+                "www.strapify.com.au"
+            ]
+        },
+        {
+            "rule": "reamaze\\.com\\/assets\\/reamaze\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "Date.prototype.getTime": 12,
+                "window.localStorage": 12,
+                "window.sessionStorage": 12,
+                "Navigator.prototype.maxTouchPoints": 12,
+                "window.innerWidth": 12,
+                "HTMLMediaElement.prototype.canPlayType": 12,
+                "Event.prototype.timeStamp": 12,
+                "Date.prototype.getTimezoneOffset": 8,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 8,
+                "PerformanceTiming.prototype.navigationStart": 1
+            },
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [
+                "24687b709a0cc325ef74fecb13ad1a3c6f89e3a42f8fd8ecf4628b331b008e2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "akubra.com.au",
+                "alternativebrewing.com.au",
+                "arcteryx.com.au",
+                "decathlon.com.au",
+                "desky.com.au",
+                "eikaiwa.dmm.com",
+                "salomon.com.au",
+                "watchdirect.com.au",
+                "www.armyandoutdoors.com.au",
+                "www.billini.com",
+                "www.strapify.com.au",
+                "www.tonybianco.com"
+            ]
+        },
+        {
+            "rule": "reamaze\\.com\\/assets\\/reamaze-push\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "push"
+            ],
+            "apis": {
+                "Notification.permission": 12
+            },
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [
+                "67c03e5947db8f5f07708215ca525f45ec11b062407f9ed78f466c90a24ca6f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "akubra.com.au",
+                "alternativebrewing.com.au",
+                "arcteryx.com.au",
+                "decathlon.com.au",
+                "desky.com.au",
+                "eikaiwa.dmm.com",
+                "salomon.com.au",
+                "watchdirect.com.au",
+                "www.armyandoutdoors.com.au",
+                "www.billini.com",
+                "www.strapify.com.au",
+                "www.tonybianco.com"
+            ]
+        },
+        {
+            "rule": "reamaze\\.com\\/app\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "akubra.com.au",
+                "arcteryx.com.au",
+                "decathlon.com.au",
+                "eikaiwa.dmm.com",
+                "salomon.com.au",
+                "www.armyandoutdoors.com.au",
+                "www.billini.com",
+                "www.tonybianco.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.5227272727272727
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3409090909090909
+        },
+        {
+            "domain": "shopifyorderlimits.s3.amazonaws.com",
+            "prevalence": 0.06818181818181818
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.06818181818181818
+        }
+    ],
+    "types": {
+        "Script": 34,
+        "WebSocket": 8
+    },
+    "nameservers": [
+        "sam.ns.cloudflare.com",
+        "alina.ns.cloudflare.com"
+    ]
+}

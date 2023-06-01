@@ -1,0 +1,713 @@
+{
+    "domain": "rudo.video",
+    "owner": {
+        "name": "DIGITALPROSERVER",
+        "displayName": "DIGITALPROSERVER"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "cdn",
+        "stream",
+        "count-us",
+        "discovery",
+        "register"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/skins\\/new\\.dps\\/videojs\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "6f278b6669eec1e0a54790cc0693b5774e89b19a35498d03cdca39c11eec1e31"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biobiochile.cl",
+                "www.lacuarta.com",
+                "www.latercera.com",
+                "www.t13.cl"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/skins\\/new\\.dps\\/ima\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "06b756b7006b979ddb1a865bc56f2d6a7cab02a853aeb11e4bb9e1471a925f88"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biobiochile.cl",
+                "www.lacuarta.com",
+                "www.latercera.com",
+                "www.t13.cl"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/skins\\/new\\.dps\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "a15f5c2c6cb0469d0d1aa8569ce816cd38a5ad628898f3e493113ed9d770292b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biobiochile.cl",
+                "www.lacuarta.com",
+                "www.latercera.com",
+                "www.t13.cl"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/assets\\/bbtv\\/live\\/live_fa82d46be52d063106b1ed968485efae1651699495\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d14fb843072bb947c6d333d05adc1b0abcb9b46754aafa6836ada5150943a8a3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biobiochile.cl",
+                "www.biobiochile.cl"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/video\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Navigator.prototype.languages": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1,
+                "MediaSource.isTypeSupported": 1,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fe0e649ce2a32bce6059d623ada1b5d1559a53cb1de66a3abb0d9f88803cafbc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biobiochile.cl",
+                "www.t13.cl"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/plugins\\/videojs\\.ima\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6e70df3e6854ef52b4961e8d6a3286a9ddb411dddb20b199c970e108af4e18df"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biobiochile.cl",
+                "www.t13.cl"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/plugins\\/videojs-contrib-ads\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "8083a510108bfa2848c613baf8f1823af26a8dab1bb0907b8b0a06aebac5f226"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biobiochile.cl",
+                "www.lacuarta.com",
+                "www.latercera.com",
+                "www.t13.cl"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/plugins\\/nuevo\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.platform": 3,
+                "window.localStorage": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "8f3b8a97ebec520b04f99e4d1b43689b653f855f155e96fb632b11658bdbbd7c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biobiochile.cl",
+                "www.lacuarta.com",
+                "www.latercera.com",
+                "www.t13.cl"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/plugins\\/videojs-chromecast\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e636340d9b2c10a637ca93abcc873f941873b6fbbb7cd58a2dcab35fcdd134f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biobiochile.cl",
+                "www.lacuarta.com",
+                "www.latercera.com",
+                "www.t13.cl"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/debug\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "a0055f358440d1e962d13923b206b128440297180cf3b7178e644ab74349718e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biobiochile.cl",
+                "www.lacuarta.com",
+                "www.latercera.com",
+                "www.t13.cl"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/socket\\.io\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stream"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "62325dfc1fc675255519674da6e2c4aad5f51cc6c3217ed3c6fbf6cabe0d86b0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biobiochile.cl",
+                "www.biobiochile.cl"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/skins\\/new\\.dps\\/img\\/dps\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4622d2cf2928bde7d2234494cb9f9878f11e17a43b52dbbcd513c437c8936db2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biobiochile.cl",
+                "www.t13.cl"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/skins\\/new\\.dps\\/videojs-upnext\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0edaff7ab84807c2a87394d6341453cfe5534fe0761a54a7d0309359833d2cf6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacuarta.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/upload\\/cl2\\/latercera\\/953333\\/9ac12fa6e57a7056551531b1201988de\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacuarta.com",
+                "www.lacuarta.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/video\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.languages": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "78ec90aeeb78b54c0c38b2011a7908947143b4c5f70123f48f252dca2510c25e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacuarta.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/plugins\\/videojs\\.ima\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "01b11a7a6a4b771ead01e2060b8983d0b37f6f3e01a7e74f0140eb04b69459c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacuarta.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/7\\.21\\.1\\.n\\/plugins\\/videojs-upnext\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8d04b241bea48b769b5cf0b83b671106211fa259394cee7c304587d4c4c969c6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacuarta.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/dpsPlayer\\/plugins\\/thumbnails\\/videojs-vtt-thumbnails\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e994007c89edc6a9718a05069a0e52a3cc38a24ca74318084827c90696ed8ac4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacuarta.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/public\\/js\\/comscore-6\\.3\\.4\\.190424\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "54f190720d2f5d1258b173296606252aab48bfcdb64ade77ab1e0251486cac24"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacuarta.com",
+                "www.latercera.com",
+                "www.t13.cl"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/api3\\/getplays\\/bOVJsI",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "count-us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacuarta.com",
+                "www.lacuarta.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/relations\\/951205894c732f42700dd9ba95132b56\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "discovery"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacuarta.com",
+                "www.lacuarta.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/upload\\/cl2\\/latercera\\/1012819\\/6436e664b62a2_0\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "14518d5d332ed53539e3b6c2c794f0d464f4a23ca747fbb504cdaf38006d578d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latercera.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/mix\\/register\\/473f189e5fd4e4074f3a4e2a7efdbda7\\/latercera\\/stream\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "register"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8c53b1df1b47ed0872fb4b2beac4fcf84d31c11447be01448f6f734070bf768e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latercera.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/upload\\/cl2\\/latercera\\/1015331\\/c918bb8dd37bda86c14b52a170d5749c\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e9988c0f847e7e64e684b97f330286e5ce49d77fefa246ceaf0cf7b1cc4e9fec"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latercera.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/api3\\/getplays\\/bPOOZN",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "count-us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latercera.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/api3\\/getplays\\/bPMDXV",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "count-us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latercera.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/upload\\/cl2\\/latercera\\/1013481\\/0adc3cf2ee01ddac5d8de58320119a17\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c022cf9ab66348b415b384b34e263f49d1c2f2ec8b21e76db96d1393b565cb5b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latercera.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/api3\\/getplays\\/bPNdEC",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "count-us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "30eb337d63c238a8fdcd72146b38d72183717e33e21f0997bada3b3b923ec288"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latercera.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/upload\\/cl2\\/latercera\\/1014814\\/89a006ebab31807f71c4ba1028df9ab3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latercera.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "rudo\\.video\\/assets\\/t13-prensa\\/live\\/live_5ca14b1ce0fe4a9e5c207b157c10bfee1663788187\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0cdf5ec62f996a7b1e5e5fa2866739c5610ceec5237a2e875b015fbd4dfb2f9d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t13.cl",
+                "www.t13.cl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.6896551724137931
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.20689655172413793
+        },
+        {
+            "domain": "imasdk.googleapis.com",
+            "prevalence": 0.06896551724137931
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.034482758620689655
+        }
+    ],
+    "types": {
+        "Stylesheet": 14,
+        "Image": 16,
+        "Script": 44,
+        "XHR": 2
+    },
+    "nameservers": [
+        "bdns.digitalproserver.com",
+        "adns.digitalproserver.com"
+    ]
+}

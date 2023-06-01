@@ -1,0 +1,81 @@
+{
+    "domain": "oms.no",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [
+        "prod.webapp.fin"
+    ],
+    "cnames": [
+        {
+            "original": "marketdata.finansavisen.no",
+            "resolved": "prod.webapp.fin.oms.no"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "oms\\.no\\/server\\/components",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.webapp.fin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "marketdata.finansavisen.no",
+                    "resolved": "prod.webapp.fin.oms.no"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finansavisen.no",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "oms\\.no\\/server\\/domain\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.webapp.fin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "marketdata.finansavisen.no",
+                    "resolved": "prod.webapp.fin.oms.no"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finansavisen.no",
+                "www.finansavisen.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": [
+        "dns02.vwd.com",
+        "dns01.vwd.com"
+    ]
+}

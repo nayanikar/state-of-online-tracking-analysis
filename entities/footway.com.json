@@ -1,0 +1,100 @@
+{
+    "domain": "footway.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "federation-gateway",
+        "images"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "footway\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "federation-gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportamore.com",
+                "www.sportamore.com"
+            ]
+        },
+        {
+            "rule": "footway\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "federation-gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d34456ebd715ba82a3ac2203b917dd1b662997a771915d2e34dbba3d876ecfc9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportamore.com",
+                "www.sportamore.com"
+            ]
+        },
+        {
+            "rule": "footway\\.com\\/store_logos\\/sportamore-17oct22\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d81b40fd743d6a5cc9505084cd7f3bcebb8320a739b365d17d58d391b7c508cd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportamore.com",
+                "www.sportamore.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-466.awsdns-58.com",
+        "ns-863.awsdns-43.net",
+        "ns-1554.awsdns-02.co.uk",
+        "ns-1238.awsdns-26.org"
+    ]
+}

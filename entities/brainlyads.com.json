@@ -1,0 +1,259 @@
+{
+    "domain": "brainlyads.com",
+    "owner": {
+        "name": "Next Millennium Media, Inc.",
+        "displayName": "Next Millennium"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00151,
+    "sites": 15,
+    "subdomains": [
+        "hb",
+        "report2.hb"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "brainlyads\\.com\\/pbjs_wrapper\\.v2\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "Document.cookie getter": 8,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "69781e9f98eed42f844d2adc38805d5ff0c457c31e5caa79264d5cf4bab1356d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cineuropa.org",
+                "forums.leagueunlimited.com",
+                "lawandcrime.com",
+                "www.discovermagazine.com",
+                "www.girlsaskguys.com",
+                "www.metatube.com",
+                "www.queerty.com",
+                "www.sammobile.com"
+            ]
+        },
+        {
+            "rule": "brainlyads\\.com\\/prebid\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 3,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.cookieEnabled": 8,
+                "window.sessionStorage": 8,
+                "window.localStorage": 8,
+                "Document.cookie getter": 8,
+                "Date.prototype.getTime": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "window.outerWidth": 5,
+                "window.outerHeight": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.availWidth": 5,
+                "Screen.prototype.availHeight": 5,
+                "window.screenLeft": 5,
+                "window.screenTop": 5,
+                "PerformanceTiming.prototype.navigationStart": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Navigator.prototype.language": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Document.cookie setter": 5,
+                "window.devicePixelRatio": 4,
+                "Navigator.prototype.maxTouchPoints": 4
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "ef372a285feee490115c2ec5b2e4df09430e4d9c1f44c8e530f5ef954728bc77"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592017,
+                    "length": 16,
+                    "prevalence": 0.000502008032128514,
+                    "uniqueness": 0.2
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cineuropa.org",
+                "forums.leagueunlimited.com",
+                "lawandcrime.com",
+                "www.discovermagazine.com",
+                "www.girlsaskguys.com",
+                "www.metatube.com",
+                "www.queerty.com",
+                "www.sammobile.com"
+            ]
+        },
+        {
+            "rule": "brainlyads\\.com\\/json-parts\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "f480887f9dc48bcb03a7af4d260ad7eede10cbc0982acd75818474c66567d9f2",
+                "29b3103f19312064b6d85a2af57f9b90a09dd5718fa303a7714f44d16f7aaea3",
+                "4b0ae345ce5ef06b2bf8855264916276e035370cf98ea7abb0488742c9cccd5e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cineuropa.org",
+                "forums.leagueunlimited.com",
+                "www.discovermagazine.com",
+                "www.sammobile.com"
+            ]
+        },
+        {
+            "rule": "brainlyads\\.com\\/statistics\\/metric",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report2.hb"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [
+                "5de9a25fdbc5b287881503d1d2f83468953ea75a6a755f1c089d7db343510f91"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cineuropa.org",
+                "collider.com",
+                "forums.leagueunlimited.com",
+                "hiddenremote.com",
+                "lawandcrime.com",
+                "netflixlife.com",
+                "www.dailydot.com",
+                "www.discovermagazine.com",
+                "www.premierguitar.com",
+                "www.sammobile.com",
+                "www.theodysseyonline.com",
+                "www.wordplays.com"
+            ]
+        },
+        {
+            "rule": "brainlyads\\.com\\/statistics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report2.hb"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cineuropa.org",
+                "forums.leagueunlimited.com",
+                "lawandcrime.com",
+                "www.discovermagazine.com",
+                "www.sammobile.com"
+            ]
+        },
+        {
+            "rule": "brainlyads\\.com\\/statistics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report2.hb"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cineuropa.org",
+                "forums.leagueunlimited.com",
+                "lawandcrime.com",
+                "www.discovermagazine.com",
+                "www.sammobile.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "powerad.ai",
+            "prevalence": 0.3157894736842105
+        },
+        {
+            "domain": "htlbid.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.21052631578947367
+        },
+        {
+            "domain": "mmctsvc.com",
+            "prevalence": 0.11842105263157894
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.07894736842105263
+        },
+        {
+            "domain": "digg7anmcfked.cloudfront.net",
+            "prevalence": 0.02631578947368421
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Fetch": 4,
+        "Image": 12,
+        "XHR": 5,
+        "Preflight": 5
+    },
+    "nameservers": [
+        "ns35.domaincontrol.com",
+        "ns36.domaincontrol.com"
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "domain": "ns1p.net",
+    "owner": {
+        "name": "NSONE Inc",
+        "displayName": "NSONE"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "cs",
+        "s",
+        "b"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ns1p\\.net\\/p\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cs"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "a078ddce2347907542298146c378bd03c10370d1dfe62719e1cea4f470fb0a91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebay.com",
+                "pages.ebay.com.au",
+                "www.ebay.com.au",
+                "www.ebay.com",
+                "www.ebay.co.uk",
+                "www.ebay.ie"
+            ]
+        },
+        {
+            "rule": "ns1p\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s",
+                "b"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "19f30357fca6f86a2d320f414bf85e9c99d135a57d3f6da3ea7f760a78b1d6d2",
+                "69d3a4cc32d2c1bb762754d679cdf1a0edda6126808ae433b6a7c774cf5150b3",
+                "b4e860701a1dc6477cc630dae44cbc082888e8c9eb3ea901871ed504374fc8de"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebay.com",
+                "m.ebay.com",
+                "pages.ebay.com.au",
+                "www.ebay.com",
+                "www.ebay.ie"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "ebaystatic.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "XHR": 5
+    },
+    "nameservers": [
+        "dns4.p07.nsone.net",
+        "dns2.p07.nsone.net",
+        "dns1.p07.nsone.net",
+        "dns3.p07.nsone.net"
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "domain": "selency.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "product.api-legacy",
+        "capi"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "selency\\.com\\/products",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "product.api-legacy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "selency.fr",
+                "www.selency.fr"
+            ]
+        },
+        {
+            "rule": "selency\\.com\\/products",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "product.api-legacy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eba564e75787de74e8df31f2849542d6f4274e348b245c04a8812c5c7cbfee7b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "selency.fr",
+                "www.selency.fr"
+            ]
+        },
+        {
+            "rule": "selency\\.com\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "capi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "selency.fr",
+                "www.selency.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.828125
+        },
+        {
+            "domain": "ravenjs.com",
+            "prevalence": 0.171875
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-95.awsdns-11.com",
+        "ns-1588.awsdns-06.co.uk",
+        "ns-886.awsdns-46.net",
+        "ns-1162.awsdns-17.org"
+    ]
+}

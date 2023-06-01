@@ -1,0 +1,107 @@
+{
+    "domain": "intrack.ir",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "static1",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "intrack\\.ir\\/api\\/web\\/download\\/sdk\\/device\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static1"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "a9ea70a9c8e88d355f93e7cc1397850afc9108a94c1337071d1367be1a317d6a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctoreto.com",
+                "www.digikala.com",
+                "www.zoomit.ir"
+            ]
+        },
+        {
+            "rule": "intrack\\.ir\\/api\\/sdk\\/accounts\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "66f587363311405416007ba075e26c487de4af38cbfbe7dfb581af3037b9509b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctoreto.com",
+                "www.digikala.com"
+            ]
+        },
+        {
+            "rule": "intrack\\.ir\\/api\\/sdk\\/accounts\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctoreto.com",
+                "www.digikala.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9166666666666666
+        },
+        {
+            "domain": "affilio.ir",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Document": 3,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "betty.ns.cloudflare.com",
+        "norman.ns.cloudflare.com"
+    ]
+}

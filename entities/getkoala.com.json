@@ -1,0 +1,135 @@
+{
+    "domain": "getkoala.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "getkoala\\.com\\/cable",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ko_id": 0.000020421221733625584
+            },
+            "exampleSites": [
+                "retool.com",
+                "vercel.com",
+                "www.containiq.com"
+            ]
+        },
+        {
+            "rule": "getkoala\\.com\\/web\\/projects\\/airplane",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1859883728e4fe39a86b9751b2d6db544cf5a6c607d2947930c595c3573a4afa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "containiq.com",
+                "www.containiq.com"
+            ]
+        },
+        {
+            "rule": "getkoala\\.com\\/web\\/projects\\/airplane\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "containiq.com",
+                "www.containiq.com"
+            ]
+        },
+        {
+            "rule": "getkoala\\.com\\/web\\/projects\\/airplane\\/metrics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "containiq.com",
+                "www.containiq.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "koala.live",
+            "prevalence": 0.6086956521739131
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.21739130434782608
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.08695652173913043
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.08695652173913043
+        }
+    ],
+    "types": {
+        "WebSocket": 3,
+        "Fetch": 2,
+        "Ping": 4
+    },
+    "nameservers": [
+        "aragorn.ns.cloudflare.com",
+        "nadia.ns.cloudflare.com"
+    ]
+}

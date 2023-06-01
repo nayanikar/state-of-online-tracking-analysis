@@ -1,0 +1,88 @@
+{
+    "domain": "fatmedia.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fatmedia\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ca12dd830747569f13be60906982e181220cac3490ba8b28ea008db324fdbaf0",
+                "b887b06df45c7e1938ed12f8c0f556967b476547904a38d408b07bfc040230ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "france-mineraux.fr",
+                "www.france-mineraux.fr",
+                "www.mcdrogerie.ch"
+            ]
+        },
+        {
+            "rule": "fatmedia\\.io\\/ctl",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "877afc4a18a75253028e018512c19373f6e765ccbe95394e8a2db9e180e382bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "france-mineraux.fr",
+                "www.mcdrogerie.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "dwin1.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-de.1and1-dns.org",
+        "ns-de.1and1-dns.com",
+        "ns-de.1and1-dns.de",
+        "ns-de.1and1-dns.biz"
+    ]
+}

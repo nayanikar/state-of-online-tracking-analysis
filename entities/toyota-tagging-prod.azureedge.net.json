@@ -1,0 +1,66 @@
+{
+    "domain": "toyota-tagging-prod.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "toyota-tagging-prod\\.azureedge\\.net\\/scripts\\/sdt1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "23fd8cf494cfad0a871bab5e602f4a026c95462204d2d69bd430e36e8409c333",
+                "98466a0697974332521d32215854d8dadc70609138211bf4d5e568b1f20923cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.com",
+                "www.toyota.com",
+                "www.toyotacertified.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "toyota.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": []
+}

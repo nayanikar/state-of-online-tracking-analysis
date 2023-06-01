@@ -1,0 +1,67 @@
+{
+    "domain": "thenetexperts.info",
+    "owner": {
+        "name": "thenetexperts",
+        "displayName": "thenetexperts"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "piwik.stats"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "thenetexperts\\.info\\/matomo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "piwik.stats"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "aced96aabc5d69384113cf0eb6713a14480352bf8b5e5bbbe66a17391a8a8a51"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pinakothek.de",
+                "www.pinakothek.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "abby.ns.cloudflare.com",
+        "zeus.ns.cloudflare.com"
+    ]
+}

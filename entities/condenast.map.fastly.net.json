@@ -1,0 +1,145 @@
+{
+    "domain": "condenast.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00161,
+    "sites": 16,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "martech.condenastdigital.com",
+            "resolved": "condenast.map.fastly.net"
+        },
+        {
+            "original": "pixel.condenastdigital.com",
+            "resolved": "condenast.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "condenast\\.map\\.fastly\\.net\\/sparrow\\.min\\.js",
+            "cookies": 0.001,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00141,
+            "cnames": [
+                {
+                    "original": "pixel.condenastdigital.com",
+                    "resolved": "condenast.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "cff3ff7513a42187f914df965c0006c8756f549dc13ffb64540767042902a748"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sID": {
+                    "ttl": 1756,
+                    "length": 36,
+                    "prevalence": 0.001004016064257028,
+                    "uniqueness": 1
+                },
+                "pID": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.001004016064257028,
+                    "uniqueness": 1
+                },
+                "CN_sp": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.001004016064257028,
+                    "uniqueness": 1
+                },
+                "CN_su": {
+                    "ttl": 2592028,
+                    "length": 36,
+                    "prevalence": 0.001004016064257028,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arstechnica.com",
+                "pitchfork.com",
+                "www.allure.com",
+                "www.architecturaldigest.com",
+                "www.bonappetit.com",
+                "www.cntraveler.com",
+                "www.epicurious.com",
+                "www.glamour.com",
+                "www.gq.com",
+                "www.newyorker.com",
+                "www.self.com",
+                "www.teenvogue.com",
+                "www.vanityfair.com",
+                "www.vogue.com"
+            ]
+        },
+        {
+            "rule": "condenast\\.map\\.fastly\\.net\\/lib\\/martech\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [
+                {
+                    "original": "martech.condenastdigital.com",
+                    "resolved": "condenast.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "5e2099a0a51fc5cdd297ab6e7f4c377a2fdf80edb44c46bacb81ab7e3b05fbf5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "architecturaldigest.com",
+                "www.bonappetit.com",
+                "www.newyorker.com",
+                "www.vanityfair.com",
+                "www.vogue.com",
+                "www.wired.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9428571428571428
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.05714285714285714
+        }
+    ],
+    "types": {
+        "Script": 20
+    },
+    "nameservers": []
+}

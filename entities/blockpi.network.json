@@ -1,0 +1,79 @@
+{
+    "domain": "blockpi.network",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "klaytn",
+        "ethereum",
+        "arbitrum"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "blockpi\\.network\\/v1\\/rpc\\/public",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "klaytn",
+                "ethereum"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "synapseprotocol.com",
+                "www.orbiter.finance"
+            ]
+        },
+        {
+            "rule": "blockpi\\.network\\/v1\\/rpc\\/public",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ethereum",
+                "arbitrum"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a1f4a0c25c088691d6c7cc0efdab517d6334a39034245bf6906079f9d30407c1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orbiter.finance",
+                "www.orbiter.finance"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns1.blockpi.network",
+        "ns2.blockpi.network"
+    ]
+}

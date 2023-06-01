@@ -1,0 +1,105 @@
+{
+    "domain": "axept.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "static",
+        "client"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "axept\\.io\\/sdk\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "083eab2fcf19918b8d2aea3a30e11065a5af39f2c22610b2e9d2fb25b985e9d2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "axeptio_cookies": {
+                    "ttl": 31536004,
+                    "length": 116,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "axeptio_authorized_vendors": {
+                    "ttl": 31536004,
+                    "length": 6,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "axeptio_all_vendors": {
+                    "ttl": 31536004,
+                    "length": 6,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expat.com",
+                "www.misterbandb.com"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/pack\\/en",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f47d5896ab8602ae1ad9e99661a57d2dfe63372aa482e8c5f76f0f564d55dba1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expat.com",
+                "www.misterbandb.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1395.awsdns-46.org",
+        "ns-2044.awsdns-63.co.uk",
+        "ns-319.awsdns-39.com",
+        "ns-883.awsdns-46.net"
+    ]
+}

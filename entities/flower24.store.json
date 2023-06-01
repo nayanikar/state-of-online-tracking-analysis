@@ -1,0 +1,86 @@
+{
+    "domain": "flower24.store",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "flower24\\.store\\/mtc\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "378cf69c722543a5fb48c3a1e3fe245b84b24b228469a3e096c727b2a0311a75"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flower24.ch",
+                "www.flower24.ch"
+            ]
+        },
+        {
+            "rule": "flower24\\.store\\/mtracking\\.gif",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "25b4ecfd3a740f29d76fe930a4cec9d41afa0cfd2bafa70ca4051bd3d5395d74"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flower24.ch",
+                "www.flower24.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "rick.ns.cloudflare.com",
+        "nadia.ns.cloudflare.com"
+    ]
+}

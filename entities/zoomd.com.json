@@ -1,0 +1,202 @@
+{
+    "domain": "zoomd.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000817,
+    "sites": 12,
+    "subdomains": [
+        "zsearch",
+        "search",
+        "ps-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "zoomd\\.com\\/zoomd\\/SearchUi\\/Script",
+            "cookies": 0.0000476,
+            "fingerprinting": 2,
+            "subdomains": [
+                "zsearch",
+                "search"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.appName": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "window.outerWidth": 7,
+                "window.innerWidth": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "12edcad2e45c2f4cc2d15b37d398c4af49d8df816ada0fb2b99fe24c512ba6fc",
+                "3a6e4cd6931c6dd8be71afc0ef47e778bcc64d843130d993db2d0e8622ac1222",
+                "b9df83a85095f71b79ed4c9299979bcdc5f3ce165fdc95d1846126febefd9b2d",
+                "8e6f0162556c78bf1da8512a367ff5b9bd090ce355c612a095c904b69882671f",
+                "e217f56f97a77187687715a51819dc296d9c89c36143d4179a93549d27757e5f",
+                "b736c1b287dbac4dad52c3a5b5e274b5afc13fa1f631866834427d416ac9f4d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artistsnetwork.com",
+                "www.artistsnetwork.com",
+                "www.interweave.com",
+                "www.israelhayom.co.il",
+                "www.quiltingdaily.com",
+                "www.timesleader.com",
+                "www.yourdailyjournal.com"
+            ]
+        },
+        {
+            "rule": "zoomd\\.com\\/zoomd\\/SearchUi\\/GetToken",
+            "cookies": 0.0000476,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zsearch",
+                "search"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "f2ee91e27bd7b6743f16432308c041d779c3ba41637611ea24c083faca83ca64",
+                "d015f5d6af076b87fb767c2b355baf2dc4879b7e4b38bf3bbe5f9b0270ed904f",
+                "673c6bd0173641ba0f95bbe412820715699b18dbdb008e889693a833736de62a",
+                "a97e2806f4cbd2b54de6a71d48f072ab4e287b7861c0ab572516b6c98107dcc4",
+                "59d90083e50afef8e82c4790eb6f90b91f751e844fe079ab4f6c6765833939b1",
+                "79bca7649298342358c02560f27e37ea4ae4409cb61f56ab9b53cac47924a8eb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artistsnetwork.com",
+                "www.artistsnetwork.com",
+                "www.interweave.com",
+                "www.israelhayom.co.il",
+                "www.quiltingdaily.com",
+                "www.timesleader.com",
+                "www.yourdailyjournal.com"
+            ]
+        },
+        {
+            "rule": "zoomd\\.com\\/MultipleTopSearch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zsearch",
+                "search"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "2b63b4fc09b0d28bc22b0640aea86213148f1d00bf9bacb16694f8b1a699a5f1",
+                "328df123a0f177a828aa8da7aa66df775e9ed86318af9f9bc4f06680d89509eb",
+                "221c5ee5543268265a9683aac5dbb9181a2cfed14902da6ce8de1dd0e783cd23",
+                "4a1fd15d878fef8db7c6d431b28e2855861b9402bc6a9293f13fcb831f8e23fd",
+                "9295735657055a6554ea1f697261b6c86eb3471e42604c4af084ae4fd7e0ecdb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000020421221733625584,
+                "_li_dcdm_c": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "artistsnetwork.com",
+                "www.artistsnetwork.com",
+                "www.interweave.com",
+                "www.quiltingdaily.com",
+                "www.timesleader.com",
+                "www.yourdailyjournal.com"
+            ]
+        },
+        {
+            "rule": "zoomd\\.com\\/content\\/deeranddeerhunting\\/Image\\/search_icon-white24x24\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "17ec2d71db0f1c351f5ffafea25e0b45b02c2bd52c6401ceaf96258b567770d3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deeranddeerhunting.com",
+                "www.deeranddeerhunting.com"
+            ]
+        },
+        {
+            "rule": "zoomd\\.com\\/PageDiscoveryWidgetsResult",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zsearch"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "81e084afe8c9b72484aeb746d8ffcfec7da6c8de6bfd85ba82e0725d65f2dc7c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "timesleader.com",
+                "www.timesleader.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.59375
+        },
+        {
+            "domain": "pcdn.co",
+            "prevalence": 0.1875
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.1875
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.03125
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "XHR": 7,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-667.awsdns-19.net",
+        "ns-1990.awsdns-56.co.uk",
+        "ns-1160.awsdns-17.org",
+        "ns-208.awsdns-26.com"
+    ]
+}

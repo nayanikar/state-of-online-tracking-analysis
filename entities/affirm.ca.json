@@ -1,0 +1,179 @@
+{
+    "domain": "affirm.ca",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00121,
+    "sites": 12,
+    "subdomains": [
+        "cdn1",
+        "api-cf",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "affirm\\.ca\\/js\\/v2\\/affirm\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 3,
+                "console.memory": 2,
+                "Navigator.prototype.connection": 2,
+                "window.localStorage": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "322b532e5486cee5c47ba37e5fd80aef49b8484cbabe4bd63ab4a6004f7dafb1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tracker_device": {
+                    "ttl": 157680005,
+                    "length": 36,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 1
+                },
+                "cookietest": {
+                    "ttl": -1681926315,
+                    "length": 1,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eightouncecoffee.ca",
+                "www.leevalley.com",
+                "www.oakley.com"
+            ]
+        },
+        {
+            "rule": "affirm\\.ca\\/api\\/v2\\/session\\/touch_track",
+            "cookies": 0.0011,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cf"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "7382fffc908a03658ff6fa135aa9f87d15a6cae2bf95abee7d4225c5dfdd8b56",
+                "09021d6531d3049e8419035cc5ac8a4727a8344757b418c51f28600b6260edb8",
+                "7ad462a45ad379ba1b40bdc7137892a3a2361b3431db9600d3d934f82aab9c3a",
+                "a3544add2df80b731a832e6bbdea53f3846bbc269a244c4500e963a85623a98e",
+                "e3a52e2359e1852991697abedd127cd41690cd08cd9097ad5da626ca4e36545b",
+                "4647009b57307ade8ddcb9a2a733a9adc17140304d18425a0590eb550517586b",
+                "d9cef5b8b73af70506688415d64e2456962b650999c935aa5485168ee8a7cc8e",
+                "9b8b36ff53fad086cba830b77c8ac6c6a7761ecf1f16c6f5a07985bb48d7e06b",
+                "1bc1a49e0577f7918d795b7bf4b34f780d136ffbc7e191814f5c6e82a6a64f31",
+                "c87d0a48531ce628b07fdbc3fbd866c98a64afba874e4f1369ed05ece0f4e65b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eightouncecoffee.ca",
+                "mazdashop.ca",
+                "rizebikes.ca",
+                "telescopescanada.ca",
+                "thecamerastore.com",
+                "tmgindustrial.ca",
+                "unitedsport.ca",
+                "www.acclaim-music.com",
+                "www.eq3.com",
+                "www.leevalley.com",
+                "www.oakley.com"
+            ]
+        },
+        {
+            "rule": "affirm\\.ca\\/api\\/v2\\/cookie_sent",
+            "cookies": 0.00121,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "924aebf24af414b12986f4af470b2ac7b61d765897f9e222c0af15805de9ae40"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eightouncecoffee.ca",
+                "greenworkstools.ca",
+                "mazdashop.ca",
+                "rizebikes.ca",
+                "telescopescanada.ca",
+                "thecamerastore.com",
+                "tmgindustrial.ca",
+                "unitedsport.ca",
+                "www.acclaim-music.com",
+                "www.eq3.com",
+                "www.leevalley.com",
+                "www.oakley.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00121,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.52
+        },
+        {
+            "domain": "affirm.com",
+            "prevalence": 0.24
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "webeyez.com",
+            "prevalence": 0.06
+        },
+        {
+            "domain": "btttag.com",
+            "prevalence": 0.06
+        },
+        {
+            "domain": "paybright.com",
+            "prevalence": 0.02
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 23
+    },
+    "nameservers": [
+        "ns-149.awsdns-18.com",
+        "ns-1368.awsdns-43.org",
+        "ns-1548.awsdns-01.co.uk",
+        "ns-586.awsdns-09.net"
+    ]
+}

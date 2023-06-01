@@ -1,0 +1,1097 @@
+{
+    "domain": "syf.com",
+    "owner": {
+        "name": "Synchrony Financial",
+        "displayName": "Synchrony Financial"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [
+        "belk",
+        "jcpenney",
+        "auth",
+        "metrics",
+        "api",
+        "buy"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "syf\\.com\\/login\\/",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "7aace2cae3e96bb30c04859fee1dc0fbe618525ff691fd2426d85b57178f65aa"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/v3\\/oauth2\\/authorize",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/accounts\\/login\\/",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "99563077b3d44eb8c7d9872296275b121b9c349055af3e7985a1e439520aec5e",
+                "3c76382ea2ea7b2a3bfddbafc61c6ef910bb85ee309712ba43cc99571e541277"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/accounts\\/login\\/js\\/dyScript\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "3c6bd7d8130da6f5f7b3196042d6f20604448e59ac6a11149f8a28b49495134d",
+                "4a6402c8388815186bd2f345b03dcba76a78b535b980587027efd679824db5cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/accounts\\/login\\/js\\/addCanonicalLink\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d68a0ff0963ed830c945cefd20e8fd2c47cfc27fab40f28f7dc6ef51ec10d936"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/accounts\\/login\\/js\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "97322f9c24f19633ef8fa32d1fd4aa38003c093981b1c97c9ee9e16017586144"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/accounts\\/login\\/js\\/newRelic\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "1c4216d7a12beaba58fa9275911525b1d80a0f9e7359fb877abda3fe4181869d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/synchronyretail\\/dservicespaprod\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "1bf83e1e0dd75ffded553613fe10b7a977df5faaedea8f752ae9b9d81a67bad5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/accounts\\/login\\/static\\/css\\/2\\.51240d5c\\.chunk\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "712c582534de4c78649cf5407affeb9da88d344ebb1584051055b703c1105dcd"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/akam\\/13\\/f4a02a1",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "belk"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "931187087d226cb122eac7b7727cb31e99a42d6232c18d92f346d9735c06f8ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/accounts\\/login\\/static\\/js\\/2\\.59c04943\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "belk"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.product": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ed8bb87a19bc97ce4c00941433c912eae8bf24d29daeca273e5796f4bd1c8c9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/accounts\\/login\\/static\\/js\\/main\\.18044d9a\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "belk"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "01cbdfdbc230a73134c7fb7e8170ef0aa873ea373f96eb42be3a8096eaf541c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/rciK7IA1x\\/ABudWCTG9\\/Bw7x1Lb\\/eA\\/ikmOcJwLihGOEh\\/cUIiJF8eWA\\/Uwg5\\/GTEjNhM",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [
+                "belk"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2,
+                "DeviceMotionEvent.prototype.acceleration": 2,
+                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 2,
+                "DeviceMotionEvent.prototype.rotationRate": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "window.outerWidth": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.onLine": 2,
+                "Navigator.prototype.storage": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.mediaDevices": 2,
+                "Navigator.prototype.permissions": 2,
+                "Navigator.prototype.webkitTemporaryStorage": 2,
+                "Navigator.prototype.webdriver": 2,
+                "DeviceOrientationEvent.prototype.alpha": 2,
+                "DeviceOrientationEvent.prototype.beta": 2,
+                "DeviceOrientationEvent.prototype.gamma": 2,
+                "window.devicePixelRatio": 2,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.connection": 2,
+                "Performance.prototype.memory": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a7550313c7cecb0ef95f7ea94052ce9d4180c4fbcb20d68f7df032def32b4533"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/iojs\\/general5\\/8kBKRVp2MD8gzqEz2pogphwEF2uRk3-QIGEed9TZ_wM\\/static_wdp\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Navigator.prototype.getBattery": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 3,
+                "DeviceOrientationEvent.prototype.gamma": 3,
+                "DeviceOrientationEvent.prototype.beta": 3,
+                "DeviceOrientationEvent.prototype.alpha": 3,
+                "NavigatorUAData.prototype.brands": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6ac20d1896069d1a7f41dee4bc343ced4db29f3bb52a8704382f912a4395f684"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/rciK7IA1x\\/ABudWCTG9\\/Bw7x1Lb\\/eA\\/ikmOcJwLihGOEh\\/cUIiJF8eWA\\/Uwg5\\/GTEjNhM",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [
+                "belk"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2,
+                "DeviceMotionEvent.prototype.acceleration": 2,
+                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 2,
+                "DeviceMotionEvent.prototype.rotationRate": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "window.outerWidth": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.onLine": 2,
+                "Navigator.prototype.storage": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.mediaDevices": 2,
+                "Navigator.prototype.permissions": 2,
+                "Navigator.prototype.webkitTemporaryStorage": 2,
+                "Navigator.prototype.webdriver": 2,
+                "DeviceOrientationEvent.prototype.alpha": 2,
+                "DeviceOrientationEvent.prototype.beta": 2,
+                "DeviceOrientationEvent.prototype.gamma": 2,
+                "window.devicePixelRatio": 2,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.connection": 2,
+                "Performance.prototype.memory": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/accounts\\/login\\/js\\/qualtrics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "bb1281568c5fa4c79123753192a399b9b78d3694f89ddce0222022e1f48817be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/v3\\/oauth2\\/introspect",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/serviceFiles\\/json\\/downtime\\.json",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "40e23fa037348dfb6427bc3d2268a2dffca6b14d746d35d68ec76f85424ce2e5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/v3\\/oauth2\\/introspect",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "f86785bd6b6800c109a239ec74c9f52b0c86fc141268db8c8324d3b74ccc8ce5",
+                "1edc8a5581111fc766e55ae5c4680646f6c857cb861d86f24ec90507f5139fd8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/synchronyretail\\/dservicespaprod\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "ee365293ba4692e04af68a9de6edfd70f97943105b90b3fa081be133dd40dac9",
+                "21fb594a8907a6596269e8341ae8dc085e9e8de6b2f0f73991b3a175e4135b67"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/iojs\\/5\\.6\\.0\\/8kBKRVp2MD8gzqEz2pogphwEF2uRk3-QIGEed9TZ_wM\\/dyn_wdp\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "84fd46d50d7c95c59cd6438c30fce290d0529506e83282ea3b52ca2721b21034",
+                "2641dc4258aa921ac954f6919343685d8b62364346cb857032ceab8538f402fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/synchronyretail\\/dservicespaprod\\/code\\/13182180751cf6f78d1bc3cc3eed7c5c\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "be2217e7d506be3a62e74974a78b8a7d3741b80e7dc8458cec5a08732076774f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_22602B6956FAB4777F000101%40AdobeOrg": {
+                    "ttl": 63158408,
+                    "length": 257,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "AMCVS_22602B6956FAB4777F000101%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/synchronyretail\\/dservicespaprod\\/code\\/0929587ad218d6fd4aa0f7d26c115f3f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6de3370760e2e860a1a81a6de6d634a95731bdf05429d2dfcd84df86bd2ad770"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/synchronyretail\\/dservicespaprod\\/code\\/064b02e95c349c5315ab71a9b36cb370\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appName": 3,
+                "Date.prototype.getTime": 3,
+                "window.sessionStorage": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6b89dbf1acc6d0b58f750e46a94714a28a106e872277fb5881bb90b9b5f13774"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/synchronyretail\\/dservicespaprod\\/code\\/966dc6249a0162a8cd52ecbb969f2ee8\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "8b32f911ebadf360136567963d934c5057c955029ee730733aad1626d3b31cea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/synchronyretail\\/dservicespaprod\\/code\\/9250cbef7b80bbb5f5c3dfd3279f718a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "385b72cf0cfbb07ed0e1b009c71086a4bcd881d2cef9f2270580861ca751edd4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/synchronyretail\\/dservicespaprod\\/code\\/028d66cd5cc93775b6722fbd94d36645\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "605ebb61ec0b401c5581a2aae23b3366e09bcbe28b100c7e5b0eaba80c9d55a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/synchronyretail\\/dservicespaprod\\/code\\/114ebd5da8006491c384892aab8eb822\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "69956668a9c33987217d07c4a1a34f4708569334ae9e5d2d4fd90e7f78e76686"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/synchronyretail\\/dservicespaprod\\/code\\/d23ca65d87793a73cd1d0f58d9d345fb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "8276ee8b1ec6099f24acbe6f5487652085ccc12f538ed3d3f403b4737302b3c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/akam\\/13\\/pixel_f4a02a1",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "belk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/iojs\\/5\\.6\\.0\\/8kBKRVp2MD8gzqEz2pogphwEF2uRk3-QIGEed9TZ_wM\\/logo\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "a2f33274db9adc9fad1f2721535e5c3db4f2b019958cf90a7fe7ba12a62d851a",
+                "c1ad45bb9ccdc113adb2f216a6b9e603ab4ca121cdae264cefe3cb8d46b1819c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/quickpay\\/v3\\/load",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "a4482fadeae9ef43a37901ffd8714df2284db80cd2787683390240e66719e887",
+                "499dd2cc40501765815cade94ed755c72f62f1e8bcef5436de880e9029d9589e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/serviceFiles\\/json\\/digital-security-config\\.json",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "belk",
+                "jcpenney"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6d4d4ef93b37d425630c215dfa67ee6c52e02677ea7c46b5dd12992ad4c40b69"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkcredit.com",
+                "www.belkcredit.com",
+                "www.jcpcreditcard.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/digitalbuy\\/js\\/merchant_ff\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "buy"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.innerHeight": 4,
+                "window.innerWidth": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e064fb82c68d9fcf5edf3afb84b109cb7d32577595bcc7d1abdb7d4ed251f279"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homfurniture.com",
+                "www.homfurniture.com",
+                "www.mathishome.com",
+                "www.themusiczoo.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/digitalbuy\\/css\\/syfdbuymodal\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "4b9355a93d97992aea4ad9470d5458b074e51ad1ef8b07ad1642fa038d0152e0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homfurniture.com",
+                "www.homfurniture.com",
+                "www.mathishome.com",
+                "www.themusiczoo.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\/kv-X848v\\/faJ\\/C5S\\/FCEmyQsBxY\\/GufYrNNcY9N9\\/Mnh4HhYlVws\\/eV9\\/NcCA_HRw",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [
+                "jcpenney"
+            ],
+            "apis": {
+                "speechSynthesis.__proto__.getVoices": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "window.outerWidth": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.onLine": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "window.sessionStorage": 2,
+                "window.indexedDB": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.storage": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.mediaDevices": 2,
+                "Navigator.prototype.permissions": 2,
+                "Navigator.prototype.webkitTemporaryStorage": 2,
+                "Navigator.prototype.webdriver": 2,
+                "window.devicePixelRatio": 2,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "DeviceMotionEvent.prototype.acceleration": 2,
+                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 2,
+                "DeviceMotionEvent.prototype.rotationRate": 2,
+                "DeviceOrientationEvent.prototype.alpha": 2,
+                "DeviceOrientationEvent.prototype.beta": 2,
+                "DeviceOrientationEvent.prototype.gamma": 2,
+                "Navigator.prototype.connection": 2,
+                "Performance.prototype.memory": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jcpcreditcard.com",
+                "www.jcpcreditcard.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "synchrony.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Document": 9,
+        "Script": 66,
+        "Stylesheet": 7,
+        "XHR": 18,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "a22-67.akam.net",
+        "a3-64.akam.net",
+        "a18-66.akam.net",
+        "a20-64.akam.net",
+        "a7-64.akam.net",
+        "a1-181.akam.net"
+    ]
+}

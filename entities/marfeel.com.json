@@ -1,0 +1,74 @@
+{
+    "domain": "marfeel.com",
+    "owner": {
+        "name": "Marfeel Solutions, S.L.",
+        "displayName": "Marfeel"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "b"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "marfeel\\.com\\/www\\.ubitennis\\.com\\/main\\.d\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "b"
+            ],
+            "apis": {
+                "window.indexedDB": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6d061d5c6f9a763e1f94f0ef2c6efc6ad10362d8bdfca15a0a83fcbf5cca8ef1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mrf-client-id": {
+                    "ttl": 62208005,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ubitennis.com",
+                "www.ubitennis.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "marfeelcache.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1032.awsdns-01.org",
+        "ns-466.awsdns-58.com",
+        "ns-1832.awsdns-37.co.uk",
+        "ns-747.awsdns-29.net"
+    ]
+}

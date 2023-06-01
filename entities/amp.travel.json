@@ -1,0 +1,132 @@
+{
+    "domain": "amp.travel",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "g"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "amp\\.travel\\/v2\\/js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "g"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Element.prototype.getClientRects": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fba0bbca353083d8ef4ac103cc29d5bf4995b180f270eca32121fd9edd6b3bd0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellobc.com",
+                "www.tourismkelowna.com"
+            ]
+        },
+        {
+            "rule": "amp\\.travel\\/v2\\/css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "g"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "34c199710f544759a0ad0b80653ccf01fa69b864134bda6f725bff73dc3ac2c6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellobc.com",
+                "www.tourismkelowna.com"
+            ]
+        },
+        {
+            "rule": "amp\\.travel\\/v2\\/stories",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "g"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellobc.com",
+                "www.hellobc.com",
+                "www.tourismkelowna.com"
+            ]
+        },
+        {
+            "rule": "amp\\.travel\\/v2\\/stories",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "g"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "65fb32549cf0722bd546415150f2af2a584a350bf8f92ef8113ce971affd52b9",
+                "1197559b05031b1856a7df1e16268e0380bdbe4d8ec127d346d77cdeda647182"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellobc.com",
+                "www.hellobc.com",
+                "www.tourismkelowna.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 2,
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a4.googledomains.com"
+    ]
+}

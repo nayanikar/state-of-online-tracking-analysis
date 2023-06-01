@@ -1,0 +1,103 @@
+{
+    "domain": "browsee.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn1",
+        "acdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "browsee\\.io\\/js\\/browsee\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "342297fb4e001f2779f8568fc0c7a229d5c8280ff9a5ff3d7a0799ce6a4062e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_browsee": {
+                    "ttl": 1811,
+                    "length": 127,
+                    "prevalence": 0.00020110608345902463,
+                    "uniqueness": 1
+                },
+                "_browseet": {
+                    "ttl": 1810,
+                    "length": 27,
+                    "prevalence": 0.00020110608345902463,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cardekho.com",
+                "www.zigwheels.com"
+            ]
+        },
+        {
+            "rule": "browsee\\.io\\/sessionstate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "acdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6948a3924717d018d8492f23e51877d4d18635e72e93aa74c883756ae797dcfa"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cardekho.com",
+                "www.zigwheels.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "bonnie.ns.cloudflare.com",
+        "elias.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "domain": "mytoys.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "session-service.pftwo-prod.aws"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mytoys\\.com\\/session\\/preparecookies",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "session-service.pftwo-prod.aws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "adc97926e8259aea4a5247158727d03ef874701646969b90a9506084dd703920"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mytoys.de",
+                "www.mytoys.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns9.managed-ip.com",
+        "ns10.managed-ip.com",
+        "ns11.managed-ip.info",
+        "ns12.managed-ip.info"
+    ]
+}

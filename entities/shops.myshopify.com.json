@@ -1,0 +1,189 @@
+{
+    "domain": "shops.myshopify.com",
+    "owner": {
+        "name": "Shopify Inc.",
+        "displayName": "Shopify",
+        "privacyPolicy": "https://www.shopify.com/legal/privacy",
+        "url": "http://shopify.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "checkout-au.tonybianco.com",
+            "resolved": "shops.myshopify.com"
+        },
+        {
+            "original": "checkout.decjuba.com.au",
+            "resolved": "shops.myshopify.com"
+        },
+        {
+            "original": "checkout.healthylife.com.au",
+            "resolved": "shops.myshopify.com"
+        },
+        {
+            "original": "pay.drop.com",
+            "resolved": "shops.myshopify.com"
+        },
+        {
+            "original": "shop.autismspectrum.org.au",
+            "resolved": "shops.myshopify.com"
+        },
+        {
+            "original": "shop.rspcavic.org",
+            "resolved": "shops.myshopify.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "shops\\.myshopify\\.com\\/api\\/2022-04\\/graphql\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "pay.drop.com",
+                    "resolved": "shops.myshopify.com"
+                },
+                {
+                    "original": "checkout.decjuba.com.au",
+                    "resolved": "shops.myshopify.com"
+                },
+                {
+                    "original": "checkout-au.tonybianco.com",
+                    "resolved": "shops.myshopify.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drop.com",
+                "www.decjuba.com.au",
+                "www.tonybianco.com"
+            ]
+        },
+        {
+            "rule": "shops\\.myshopify\\.com\\/cart\\.json",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "shop.rspcavic.org",
+                    "resolved": "shops.myshopify.com"
+                },
+                {
+                    "original": "shop.autismspectrum.org.au",
+                    "resolved": "shops.myshopify.com"
+                }
+            ],
+            "responseHashes": [
+                "d46bc8d28ca19c6787b5c600f05190a1a744da09278107f378a26d6481d950a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rspcavic.org",
+                "www.autismspectrum.org.au"
+            ]
+        },
+        {
+            "rule": "shops\\.myshopify\\.com\\/api\\/2022-04\\/graphql\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "checkout.decjuba.com.au",
+                    "resolved": "shops.myshopify.com"
+                },
+                {
+                    "original": "checkout-au.tonybianco.com",
+                    "resolved": "shops.myshopify.com"
+                }
+            ],
+            "responseHashes": [
+                "f3f671f90805598ec9d71a46981d5575805264e2c9a85d06767434d90118e51c",
+                "31a7af1e198e7afec4442de7dfe0ceee8b930723cbe14ae5abb443cfea7cc44d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "decjuba.com.au",
+                "www.decjuba.com.au",
+                "www.tonybianco.com"
+            ]
+        },
+        {
+            "rule": "shops\\.myshopify\\.com\\/api\\/2022-10\\/graphql\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "checkout.healthylife.com.au",
+                    "resolved": "shops.myshopify.com"
+                }
+            ],
+            "responseHashes": [
+                "f32b0dc5f77dcf05af1e31d82399b292a64e6185b71b547320b84d60f9f56307"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthylife.com.au",
+                "www.healthylife.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Online Payment",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "nosto.com",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Script": 2,
+        "Fetch": 5
+    },
+    "nameservers": []
+}

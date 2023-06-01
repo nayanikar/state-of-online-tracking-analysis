@@ -1,0 +1,117 @@
+{
+    "domain": "urlhausa.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "t",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "urlhausa\\.com\\/vast\\/",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "3b97df524fb04aab53532d89480925812d502133d79647c399fb9b24933bd379",
+                "9b184f6f96570c74343c96532df928d361de364b12bfff0d7031d9b23a8afad7",
+                "22cb4cb3899541dac463954cb3c845601528ef616d43a9f830c4bee320bae70d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myclassictube.com",
+                "ohclassic.com",
+                "turboindian.com",
+                "zxctube.com"
+            ]
+        },
+        {
+            "rule": "urlhausa\\.com\\/sdk\\/push_web\\/",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "window.innerHeight": 3,
+                "window.innerWidth": 3,
+                "window.devicePixelRatio": 3,
+                "Navigator.prototype.appName": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "42f135cded00e728ab238310706053068d7c88466e42b189b7de8c06dd57b317"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rvt_inlpush_cnt_5327": {
+                    "ttl": 86402,
+                    "length": 1,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                },
+                "rvt_inlpush_max_5327": {
+                    "ttl": 86401,
+                    "length": 3,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                },
+                "rvt_inlpush_shown_5327": {
+                    "ttl": 86403,
+                    "length": 1,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hdsex.xxx",
+                "www.hdsex.xxx",
+                "www.sexhd.xxx"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000545,
+    "topInitiators": [
+        {
+            "domain": "cdngcloud.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Script": 3
+    },
+    "nameservers": [
+        "dell.ns.cloudflare.com",
+        "ray.ns.cloudflare.com"
+    ]
+}

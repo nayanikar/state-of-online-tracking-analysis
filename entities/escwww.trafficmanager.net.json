@@ -1,0 +1,88 @@
+{
+    "domain": "escwww.trafficmanager.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "my.energysafetycanada.com",
+            "resolved": "escwww.trafficmanager.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "escwww\\.trafficmanager\\.net\\/imis\\/\\/va_iParts\\/ESC\\/Cart\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "my.energysafetycanada.com",
+                    "resolved": "escwww.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "3460a8b7902c1e8ab997b499497000e5dd832e02e83a9a556d82f1f1551b0651"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "energysafetycanada.com",
+                "www.energysafetycanada.com"
+            ]
+        },
+        {
+            "rule": "escwww\\.trafficmanager\\.net\\/imis\\/\\/va_iParts\\/ESC\\/Cart\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "my.energysafetycanada.com",
+                    "resolved": "escwww.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "energysafetycanada.com",
+                "www.energysafetycanada.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "jquery.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

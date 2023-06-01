@@ -1,0 +1,123 @@
+{
+    "domain": "poll-maker.com",
+    "owner": {
+        "name": "My Plaza Pty Ltd t/as Pulseware",
+        "displayName": "My Plaza Pty Ltd t/as Pulseware"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "www",
+        "scripts"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "poll-maker\\.com\\/frame4729729x8194458B-147",
+            "cookies": 0.00000681,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fa92aa80dd0be28aac811a99c491d376f0236e18ed24c8ae774b218281022a7c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "attackontitan.fandom.com"
+            ]
+        },
+        {
+            "rule": "poll-maker\\.com\\/frame3577890x46304133-108",
+            "cookies": 0.00000681,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a396a8c59eb9965d3b4188bbce62eb5a3527b2f0711ad8f6ed57eef6ef240e40"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "attackontitan.fandom.com"
+            ]
+        },
+        {
+            "rule": "poll-maker\\.com\\/3012\\/scpolls\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.language": 4,
+                "Screen.prototype.colorDepth": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "Navigator.prototype.platform": 4,
+                "Navigator.prototype.doNotTrack": 4,
+                "Navigator.prototype.appName": 4,
+                "RTCPeerConnection.prototype.constructor": 1,
+                "RTCPeerConnectionIceEvent.prototype.candidate": 2,
+                "window.sessionStorage": 1,
+                "window.localStorage": 1,
+                "window.indexedDB": 1,
+                "Navigator.prototype.plugins": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e25d7299d75c42e7b1849e399762a482918d53f360752d530289b38f71c74721"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "attackontitan.fandom.com",
+                "bnr.bg",
+                "www.forbesindia.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 4,
+        "Script": 4
+    },
+    "nameservers": [
+        "asa.ns.cloudflare.com",
+        "lakas.ns.cloudflare.com"
+    ]
+}

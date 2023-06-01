@@ -1,0 +1,93 @@
+{
+    "domain": "roundshot.com",
+    "owner": {
+        "name": "Seitz Phototechnik AG",
+        "displayName": "Seitz Phototechnik"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "backend",
+        "saentis",
+        "gurtenpark",
+        "torrent"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "roundshot\\.com\\/js\\/roundshot_animated_thumbnail\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "backend"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1f3786e789e4efb6962fca03125764b9d6fc2cc727238552cd657f11ecc540f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saentisbahn.ch",
+                "www.gurtenpark.ch",
+                "www.leukerbad.ch"
+            ]
+        },
+        {
+            "rule": "roundshot\\.com\\/app_front\\.php\\/settings\\.min\\.json\\/\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "saentis",
+                "gurtenpark",
+                "torrent"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "5afce5da5e998b8bf53d4453c1bfdaa9691b40ef5f0402c755e321f008489f63",
+                "3bb2fb0bbbc03c5f099a5aff6319abd26d804c70911732d2eb858a20b6b0d564"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saentisbahn.ch",
+                "www.gurtenpark.ch",
+                "www.leukerbad.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.696969696969697
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.30303030303030304
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns1.backslash.ch",
+        "ns2.backslash.ch"
+    ]
+}

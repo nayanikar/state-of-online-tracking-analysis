@@ -1,0 +1,517 @@
+{
+    "domain": "4dex.io",
+    "owner": {
+        "name": "Adagio",
+        "displayName": "Adagio"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.025,
+    "sites": 249,
+    "subdomains": [
+        "script",
+        "mp",
+        "u",
+        "c"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "4dex\\.io\\/localstore\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "script"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 237,
+                "window.localStorage": 225,
+                "PerformanceTiming.prototype.navigationStart": 192,
+                "Date.prototype.getTime": 40,
+                "Date.prototype.getTimezoneOffset": 3
+            },
+            "sites": 241,
+            "prevalence": 0.0242,
+            "cnames": [],
+            "responseHashes": [
+                "e8fe64429e5900c16c7f8dd7861704e2f4d38e00cbb16bc18820b46d92461389"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biblehub.com",
+                "cplusplus.com",
+                "dictionary.cambridge.org",
+                "dictionary.reverso.net",
+                "en.bab.la",
+                "mobile-dictionary.reverso.net",
+                "pastebin.com",
+                "screenrant.com",
+                "www.discogs.com",
+                "www.makeuseof.com",
+                "windowsloop.com",
+                "steamcharts.com",
+                "urlebird.com",
+                "knowhowcommunity.org",
+                "www.cbr.com",
+                "cookpad.com",
+                "www.channelnewsasia.com",
+                "www.oh-mygut.com",
+                "www.asiaone.com",
+                "www.thecalculatorsite.com"
+            ]
+        },
+        {
+            "rule": "4dex\\.io\\/prebid",
+            "cookies": 0.013,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mp"
+            ],
+            "apis": {},
+            "sites": 175,
+            "prevalence": 0.0176,
+            "cnames": [],
+            "responseHashes": [
+                "49b48cc8cc556811ef5f99d7aeb41ddc23a0be1fec237f62c28bb577e3c4d7cc",
+                "cacb45c26e8d86119b3c67b4708da5a451d54388acf7790271b6026d825658be",
+                "9fff1e574c15600c194f25adbaae80a80bf15e7c0261402e9142952282265cce",
+                "6d2d11ef1218666b7cead17059753589791bd069727521ec21def9ceb6839b41",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "db6f648f5de98154c233cf13e724a7a8ddf4854801ea1714641596bcca647989",
+                "97bcff3df4162d17d61bedf92f1c8a16a3f42fcfcc33a9228d89771cd9923189",
+                "cb21dd70fc8fc8c1727c27b6183544ae14bd57e90e17b1bf3c95b8cd9f196ef4",
+                "7bd7fdd7f166d87d895abc11e796b05c06af4e05ff40064b52f6aa88cb804025",
+                "18c743b8c6b66f16bd3f0a163e82d72f6000d7acce8cef292e1ddaaa4b862b79",
+                "f30ea63674f91c8c79b0ee69a1a632786240f4ce1828e000eb5dde1b68a7fd34",
+                "064e91a14ed5ac72bbb1d20b50edc72a7984fe299d7a488c030f9be08ab5caf9",
+                "93945e7b80f064cf2da6f542f693dc5c0e00a85c757724c0be424a485a1aa476",
+                "c1af42e78459572d0c6e0dd981ec76567d08e6dcb6e2527b706e57bcb6ede557",
+                "2eb15bb231ba6989d0afbfbfb7901daff231efaf6e849100c969cc02a575e752",
+                "5c86de3a198a2ba5d5a125f645c3842717560c25c0e2a2ca41dd770ba977c550",
+                "1baccc127542f825a4944bccfda34741df9ad6c3cee49f6f1d465921748a7ca7",
+                "c49148310e2b873b138b242102a4dd6c4d3e66fa0ca2805790159a883d8b11b4",
+                "25f4b309489ded738d4e1e3b28983bf292e8a840ccce2add671d4cc369ac585e",
+                "d496a486c68038efa7fa33dddc828daf54e0d9faf37cc6e51853725f6275d6f0",
+                "357dce5b31268b1d859c85cb9bc8ff68a57aebddb25fe6ce8ee5b317f24dedd8",
+                "c1b7cb1711e0d862ef15435ba7d4a3c517ec28752ecd5534a06db6631cce330f",
+                "b134d7aadf2c24882d547db7e9cab7eb8a662dfe479e355e92ba76b95e3963a4",
+                "e483999fa45f0f9c71cb2e332a40f262498e31dbb478d64725bd2247d6326712",
+                "102785054d55faaa861e6772033397eb1ac9725a6e1c2d8033ea877cdb72b286",
+                "0293aa2fb10aadab23969510cde70d60087d04475513d13ebdd934b52fb8e504",
+                "651f8a2b36b7ccb65642a460767a8530a5b0c3bf0d4863e92535fbba9c30d5af",
+                "75de5f1ada2c6c78f41c34400da42101153806bd225a0fc585678764541466c6",
+                "bf6cca0054db8522eb9a8273f7a78c3ff7821036746b30b3c51510faf0b182c2",
+                "99dd895b7bf33a515d3d6b4ec6b35d1e1587dbcda6c59629a7760a0e969b5722",
+                "1a300fb56c4cfa8c3df4e27eba4859e9d92fc6448d853803f2bea7e50ebde432",
+                "a06d9185c47ba7d469e56e8c06583a6e0dfe3850e18cb3195ffa9471a0eba658",
+                "759daa8b5ef859550e8cdf84c988c7758d4448e0c010239940b4358b99805f8e",
+                "d8aacfeeefc0353742660f961b06fbc8529c3d43a721da455cb3e5a067ecd90c",
+                "0cdbcfed588e285f3af9299102df3846f226c15b1ebeac4f9a331c8e793a294e",
+                "b827df28a9df6336116fc244840610af286d37227441511d4807e287fa32ef01",
+                "19e425e8149e5e4ea4aa0f08a43642c91d8241a197ad6c27f25d75ff82a5046d",
+                "d6fa5cf1de7118ea305f2b3ff11e247fbe9d9cc88450ee20ae9b877fcd459a7f",
+                "6fab8198d258867fc5b6c08cd118a636fa01dd45c93069d4bce741e6a29d823e",
+                "26f3b715960f64b9b0eb098636ba805485fd1b7a273cc59e1517b4f4ba1058cc",
+                "c682ef979024528c2f87b941136bb5cdf7505b6726d349138ffc086ff3318230",
+                "d3092e38a32727aa84c7a7eb4f7feb6b13e5e87aad4dd5a85315650fc17ff744",
+                "2f9b9f298dc9323a949795a2a5d407106a241dfcac7bb9e28d71ac06bf12edfa",
+                "a068688493dc6b6d28d86e98e5bf59fe156e87973f72ef90d70b3f60e01c94a8",
+                "26aa8a06d370a9f8db9d2c5a6373202a9804b973e0219a615603fe0cf15e1a10",
+                "c76e9e8ff34211cbeea08034c75c1669c6d7981035817896b448171685d25de2",
+                "50c011642feca4d553b2bd04d69cc758513b6285036c3cf6082fd558a41c7f19",
+                "b78fc9596c70a590b0941c8dffea10e00cd0084fabe8c0b909c173c52eaeb10c",
+                "79810706209633dc8f3c585ef33d36380aff8c3c2f0d26c5252788e3cae9eeb2",
+                "da063f7b3ea8f9e31297fe017917e144281d1871f5449cbd87e09aff8c139ae5",
+                "49ca9d48cfe60883803575f04d7d3d7469625557a99a640483335d5113b476a2",
+                "d0e51d598660b0ce855c1529eb69f31457b7e5ad9b5861d43639713aebbafc59",
+                "a92e1b1c42ca4179dad4ca8d2e1385b7fc773cf06128c7d3b680cf5378d5c19f",
+                "f2a21723fffa83fbae6d9e8e3ba8140cb36cbabd2386fdc5b7ad107eb03cc383",
+                "2ba0160ad08ebde02bc709dd5bac7e478c8ee8ce3f42cc80c57e0b53ca8d6bb4",
+                "775c9b37885b13a54d2e3066fe03de364d0419f01c27eddd6480502b2167e603",
+                "44a50e50a03304ea924c7a48ef63f15bb41c9e49dba567206cf1462f2cc60412",
+                "2020a0b7d4ae84e4e548fae681b4b1a1e78e8cdd258a89282a2c01bb908fe0a0",
+                "5f8972e84dae7b6f85efcc2e5323de984e693df3e23423863d601c61e1d3be07",
+                "faec820e6ef7a336472f3edbd393dd128ae2d9567e3af80af655e3dda4d0441c",
+                "2c22b67596a52ceacc7afb3c107e7bb1606243546ff360748e22648161a43587",
+                "ec446aa666dff749f593b39940c6b4139027281e04ab5254e39d9d4cdcf671fa",
+                "3be30a29a4324b036c7d4ee64bf78b722679d13767faa0e268235dd47c762333",
+                "d17cec5ee4a60b98f2049db0511057d5316ec7702b87aa438e60b3a7dc444bb9",
+                "7afb469499d873ed449afb5150a9273892b3feef6d4e12d3c78be1d0692f07dc",
+                "d1d05ef1419c643b3ed28ccfdc4ce29022d87efa03ee25707083fe266f691ae6",
+                "61f6687813da98be8881cce1c97b1efcac338bb94efd0e6ee3bab7cd8ae24eac",
+                "beb6be3aedf8786e37d540bfc895f962665a08ea07a1e25c5313fd765fc2b2b7",
+                "eb72a87646c1b09bc21ab037a99673e441c1ed4c254eaa6b069635d74e672ba6",
+                "3469d1411a1f7606114a7d3e5922184fceb4ac3a566047acc8c523663ac092c1",
+                "781da19983e19b48a68336f0109680dc071752a86a7dbb565f8d966c5a2f34ff",
+                "1abfaa6d9ecd7c020721f35cca21c87b0c3c2e7389762c85a717b6293a17dd2b",
+                "880b7f8acbe6c77c0b2ea13a56830cb3bfa0b2855a1504ca757d4b70133fbbb2",
+                "defc21aeae44dfcb90d9369a143a5f2abb49741699491906ff13ac197ed8723c",
+                "31aecd8e0781cd63a58115a8fbab3ff64f00f678d83c6e2ac4a3868707b82f81",
+                "7456a045bba730b4e091d6d0a4ecafba9a49158afe1ff8cd50ed07b71c2ad2f0",
+                "41126f57bbf211a349636b0ca48883ba40bc706758f9b45e183c04ee1f7b430d",
+                "ff9be08502acae2ac09d503308a9dc11af7b55419b67887054fe7fdc98642124",
+                "eb0667856e800cb8767f709b54f186069efdd0ee71bb44f88e261e16c544ed70",
+                "61e6b4e111f1ff94f01e64d2124a83e7cdc3d2a7aa1eec9eb426b0b63578b40c",
+                "59ab1e199573405926d74b2463e279d4d844fc4bdeb04213aa98e410694690de",
+                "904a8c34507cdc3a2dcc7ce7ed48206e3bb39be2825d0a812814ce595ba72192",
+                "0ad98a157402361093422dbf6b41ec2cff6182e75ad44af1a251d074411e7557",
+                "29310e3d7f888eb5062d9ca95ea6f21b00ba2b629b9060bc158114f5c0d626ef",
+                "5351e1f6c1a52a25938e6daea68615eee06642f21220ac33114554954840f0bd",
+                "0ca8ac942f1d2801ebdc25d625b50c9e04c5e0072d68a212f2b777278ad41fd2",
+                "915922cc753f4387e63ac00793816c55bc2e01a51db64f930370a10833146d2b",
+                "2c52628dca7f340b8c77d7645c5bacb920a400688c119555b3c5d1fd269792f0",
+                "1fa56911985f855af7b83e04a1138bc2de66bc250bc14f128a419f9736a08f1a",
+                "4c181c51a4e2b9c0efaa073f8e9352393e9dfa86fbf728e223b00e043e834036",
+                "5ecad37cab176e76fef313f8d64bf185d52147aa484fd44b0b96317e94735aee",
+                "42b9e9c589265dd54d522401fb35129c9d69d2cef36d9ac28a4416ab2aa0684d",
+                "693e7ae61677ccbd3ba1913f8c1d5d2cb1e9210c3c69ddab6bab96ade048d4b8",
+                "02496762bbcafd1cd395fc1445b995bcf5f068d609911fbba1d1480caeb0f59a",
+                "481341cd63c39313876ef735a6cc217cf07c9189344ed96406a0a5f6aee4e050",
+                "6625a1ab228773566c501824d780954af76152269153deafd923941965cbb139",
+                "4745641a986202a1f77decdceb02908baa91002e50e33174bd57a13f843731b5",
+                "7c0b6a3ecec29de8139ceb5d2ee88cda9a4d3869bcc7a262b8a72a5cccef1a26",
+                "231e8aebd1f63340a131349925f09377024a8fcbb1aa5850acf7054c66316dcc",
+                "d5871def30fa00cd785a6821fececa75ab014121a94a30c75a0eef0045504a97",
+                "d27c475fea5445565073179799ea0993cfde822cdbe73b587be34e33059ca4cb",
+                "33dc7af034f5a47e8f21b85edb3d44a47504d3316e7373c2a6118de318c8d419",
+                "07776dbb6af9cdb3f3b723eb6e1b456c2d7f496fb92be16a0535819aa8b9a0b5",
+                "0df0e9dfedda6e4369e50491b95f131b1309c7bf28ac7f540390657b2b8377cc",
+                "81f8b434d369afa62e75d7a271475b5ce86f35d0b9b1655e727330e0af278f4e",
+                "3248dc8f4512fefd6378b5695aa0a6bd6542e3e4fdc9b756e73749aafcfb084d",
+                "e4ea7f7b10e6dec81590970c356d5a29ac1fd74a6e1b067defb661992763a3a5",
+                "7ce1ecd7814c75e2f2fb74584fc34c93061112544c43ba1d12dea8d6347e3c98",
+                "29f33743ec39f040dc78b8716e80bf7c9fc7fecf495289b645538c6a066d66da",
+                "8ba2763e24300d190dc07be5afa1772b3b8a57d99d835be50ef63042bf556af0",
+                "1a4147bfa815971551f8a9b9e973eadafeecb9e9b3fc0e8dcc2715cf23c5e3ac",
+                "c87b8478f6749ce8a655b6be3b673e447912bbed507174fd71ee25e5b2badda2",
+                "e63aed77a3d984db5178a2eae73ba6c9e7a6220c9171c48c4be80ede338af627",
+                "2f689d6aa04263296dad523ba3cb33a81be79ad5e45b6382a0d78d90e9a95e2c",
+                "daa25524bd67fe7f0ae0959da1ba11c27a436497d417b90c4489f35ad4d53fae",
+                "87ce65d34fac900194a4d597ffc799315335f25662ba71875ff595b9700d5eaa",
+                "bee273e713a4fddfbf9aaee60e6a12555014e152bba6381c33614d37262ed84a",
+                "e2e7539cc0d21ec6f0cdc97669bbe60cca54b998b12a0102a4cbbc0a525cafb4",
+                "a4f4f7d51cc6bbb59064b9cca7e4e22bd16117c3a402a8b5f34f4303e2b6d79d",
+                "70a0cad6a41dfd271e462b810deab67962daaba74fe1df49b2448884f6bbcbf0",
+                "f1f6ffa59c298055890d6f076fc5841c358a6077697ceb096131ae1b72bf4858",
+                "93e85cbea1148c2f0b21a27fec38b9b95607e308b9c7391e0104122faa63e9c8",
+                "30e5bdc8e9c73abed1ce9646a3ca91f9179b5a5690a869f75e0e754c0e169b92",
+                "5f491f7d4772cd41f714c56ab97e7d4071f08ef74ea937a2cc686aac056e5917",
+                "08597187bb67ed6711051b91244acf818da8155a9ca17c53880f6dd0976b70cc",
+                "f6ef15840022e761347df579b5c76890a04587f9cf20b33e4b6405846f54a869",
+                "69f6f5f2c013870fe1c2f967eb7df4f52afb140ac783f7b48e27d4a39135e013",
+                "dda10437b709601ed997d342baa3dcdca647661c06388e34783aeba8809e0bd1",
+                "40198999f61ad0c4c2c88a49ac190e4bd86745ab84f33421f7103e87df8bd158",
+                "38a751172b87970ffb194172c63537204815122b3d2c090dc0e598fe7197245d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biblehub.com",
+                "cplusplus.com",
+                "dictionary.reverso.net",
+                "dictionary.cambridge.org",
+                "en.bab.la",
+                "mobile-dictionary.reverso.net",
+                "screenrant.com",
+                "www.makeuseof.com",
+                "urlebird.com",
+                "ezgif.com",
+                "www.macmillandictionary.com",
+                "wikidiff.com",
+                "www.studylight.org",
+                "www.thetimes.co.uk",
+                "www.dualshockers.com",
+                "www.smogon.com",
+                "www.motor1.com",
+                "www.calorieking.com",
+                "readfrom.net",
+                "www.computerhope.com"
+            ]
+        },
+        {
+            "rule": "4dex\\.io\\/adagio\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "script"
+            ],
+            "apis": {},
+            "sites": 237,
+            "prevalence": 0.0238,
+            "cnames": [],
+            "responseHashes": [
+                "ed87a83a9df154b61d76e8b9b53bb9d23db3eea194e66bca6b575e3e4f7a57bf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biblehub.com",
+                "cplusplus.com",
+                "dictionary.reverso.net",
+                "dictionary.cambridge.org",
+                "en.bab.la",
+                "mobile-dictionary.reverso.net",
+                "pastebin.com",
+                "screenrant.com",
+                "www.discogs.com",
+                "www.makeuseof.com",
+                "grammarhow.com",
+                "serebii.net",
+                "vymaps.com",
+                "mangareader.to",
+                "www.cbr.com",
+                "www.indifferentlanguages.com",
+                "www.winhelponline.com",
+                "framed.wtf",
+                "urlebird.com",
+                "www.oxfordlearnersdictionaries.com"
+            ]
+        },
+        {
+            "rule": "4dex\\.io\\/usync\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "u"
+            ],
+            "apis": {},
+            "sites": 47,
+            "prevalence": 0.00472,
+            "cnames": [],
+            "responseHashes": [
+                "51f45ca6ab982a7f83f691f77322ef7946a319d9c7e8e19e520234bfac4bd9aa",
+                "f400b789f6eb50413e648fadceb18205ba372e012c7a8a11afed6eede9f2348a",
+                "257171c0e7afcb929ee3cdd089b2dd122cb9a277ec8efa3e80a308289a884caa",
+                "46fb3bdd7f9d7b639f1430e48cb5d67c590b1926b78372fdc92af27e1fef2a21",
+                "fd5c30ad58aba7fa8f302b3f69e38efa1d96575bd5a64d1320e04850bc785dd2",
+                "9a2607be44845754389fa948a73b8ccb2181023c15d886da308de8f0269638bb",
+                "b8273eb588cf94dff46335280f161dc8b9646d7dc7d3c6bb5c51f3ec898df5b6",
+                "ccfafde1723461b3205a257efa21499d26ae3c2c35f62c206eb789f7c33ee8d1",
+                "7ed026d9bf03a427f5abbd0dd972c7e9e5eac043f2d9efbaf803fca461232090",
+                "8e89cd7852bc75611a3f36e8c5a7e2df7ffe557a2e1cf76ef318b4e9bd1af7e1",
+                "8e6e3149479a9c1df513a546db3a5b15ee06731801e6682d9516f76d8d1862bd",
+                "eff513622ce9f9e86282781ad8c233cf25a6dbb54b603f3e4bf17e0ae88c0bb4",
+                "31cc0ffff4371f77418a41763872323f51f19c3565a4aeddb09bbd493b769ef0",
+                "a40558a1dbe585718f374d5cd327f8287aabacda2419b900765f2b9cf2e2d7bc",
+                "d3acbc6073665a01a42f755d7cfea6407685c6ab0512e6be4917f37d939c8ac9",
+                "c092621862756976ab0216f36fbdb692b78ecf7d5dc58d74c3e2f67747b84792"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dictionary.cambridge.org",
+                "en.bab.la",
+                "www.computerhope.com",
+                "bikehike.org",
+                "pokemon.gameinfo.io",
+                "5-letter-words.com",
+                "www.collinsdictionary.com",
+                "www.koreaboo.com",
+                "www.asknumbers.com",
+                "www.sportingnews.com",
+                "www.macmillandictionary.com",
+                "en.uesp.net",
+                "pokemondb.net",
+                "forums.civfanatics.com",
+                "www.planetf1.com",
+                "www.planetofreviews.com",
+                "www.iplocation.net",
+                "www.menuspot.com.au",
+                "linuxhandbook.com",
+                "www.myinstants.com"
+            ]
+        },
+        {
+            "rule": "4dex\\.io\\/setuid",
+            "cookies": 0.00693,
+            "fingerprinting": 0,
+            "subdomains": [
+                "u"
+            ],
+            "apis": {},
+            "sites": 77,
+            "prevalence": 0.00773,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dictionary.reverso.net",
+                "dictionary.cambridge.org",
+                "en.bab.la",
+                "mobile-dictionary.reverso.net",
+                "screenrant.com",
+                "www.makeuseof.com",
+                "windowsloop.com",
+                "www.androidpolice.com",
+                "pokemon.gameinfo.io",
+                "readcomiconline.li",
+                "www.yogabasics.com",
+                "gadgetstouse.com",
+                "sage-advices.com",
+                "pureinfotech.com",
+                "www.diynot.com",
+                "www.novelupdates.com",
+                "railmaps.com.au",
+                "www.greatitalianchefs.com",
+                "bikehike.org",
+                "short-fact.com"
+            ]
+        },
+        {
+            "rule": "4dex\\.io\\/setuid",
+            "cookies": 0.00512,
+            "fingerprinting": 0,
+            "subdomains": [
+                "u"
+            ],
+            "apis": {},
+            "sites": 52,
+            "prevalence": 0.00522,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dictionary.reverso.net",
+                "en.bab.la",
+                "mobile-dictionary.reverso.net",
+                "screenrant.com",
+                "www.enotes.com",
+                "www.pokemoncoders.com",
+                "forums.spacebattles.com",
+                "www.planetminecraft.com",
+                "urlebird.com",
+                "www.topspeed.com",
+                "gadgetstouse.com",
+                "www.belloflostsouls.net",
+                "runescape.wiki",
+                "exceljet.net",
+                "bikehike.org",
+                "5-letter-words.com",
+                "ffxiv.gamerescape.com",
+                "www.sparknotes.com",
+                "wccftech.com",
+                "www.jetpunk.com"
+            ]
+        },
+        {
+            "rule": "4dex\\.io\\/avw\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "bab.la",
+                "www.picnob.com",
+                "www.serebii.net",
+                "www.thegearpage.net"
+            ]
+        },
+        {
+            "rule": "4dex\\.io\\/bids\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knowledgeburrow.com",
+                "pureinfotech.com",
+                "urlebird.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0134,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.15355329949238578
+        },
+        {
+            "domain": "ezodn.com",
+            "prevalence": 0.13324873096446702
+        },
+        {
+            "domain": "intergi.com",
+            "prevalence": 0.07614213197969544
+        },
+        {
+            "domain": "vntsm.com",
+            "prevalence": 0.06852791878172589
+        },
+        {
+            "domain": "pubmatic.com",
+            "prevalence": 0.05964467005076142
+        },
+        {
+            "domain": "dsh7ky7308k4b.cloudfront.net",
+            "prevalence": 0.05710659898477157
+        },
+        {
+            "domain": "lngtdv.com",
+            "prevalence": 0.04314720812182741
+        },
+        {
+            "domain": "d1oykxszdrgjgl.cloudfront.net",
+            "prevalence": 0.04060913705583756
+        },
+        {
+            "domain": "buysellads.net",
+            "prevalence": 0.031725888324873094
+        },
+        {
+            "domain": "themoneytizer.com",
+            "prevalence": 0.02918781725888325
+        }
+    ],
+    "types": {
+        "Script": 241,
+        "XHR": 182,
+        "Fetch": 237,
+        "Document": 99,
+        "Image": 77
+    },
+    "nameservers": [
+        "roxy.ns.cloudflare.com",
+        "bart.ns.cloudflare.com"
+    ]
+}

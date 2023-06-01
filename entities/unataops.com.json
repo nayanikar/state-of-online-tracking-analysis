@@ -1,0 +1,726 @@
+{
+    "domain": "unataops.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "analytics-cdn",
+        "analytics-api",
+        "web-prd-pch",
+        "web-prd-spr",
+        "web-prd-weg",
+        "cms-stg-spr",
+        "web-uat-tfm"
+    ],
+    "cnames": [
+        {
+            "original": "shop-uat.thefreshmarket.com",
+            "resolved": "web-uat-tfm.unataops.com"
+        },
+        {
+            "original": "shop.pricechopper.com",
+            "resolved": "web-prd-pch.unataops.com"
+        },
+        {
+            "original": "shop.sprouts.com",
+            "resolved": "web-prd-spr.unataops.com"
+        },
+        {
+            "original": "shop.wegmans.com",
+            "resolved": "web-prd-weg.unataops.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "unataops\\.com\\/analytics\\.js\\/v1\\/cJVGgs2zM2L9DCzxcMg3PI7NH5BnDZlw\\/analytics\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "analytics-cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.onLine": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "352cc8c2bf152ba1da140c2fa2f85674938d2181edf79e386264db19085a333f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ajs_anonymous_id": {
+                    "ttl": 31536016,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wegmans.com",
+                "shop.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/v1\\/projects\\/cJVGgs2zM2L9DCzxcMg3PI7NH5BnDZlw\\/settings",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d11432b12d7bdb9588971a3919a71191e8fd76e17775429e3f8b6c66dd7ef558"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wegmans.com",
+                "shop.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/analytics-next\\/bundles\\/ajs-destination\\.bundle\\.2cd9e450202b69d545a3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "521f7e8a281120a5c5dabbad5753205099a1a1266a0a1b7b674a2553f75882d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wegmans.com",
+                "shop.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/analytics-next\\/bundles\\/schemaFilter\\.bundle\\.d0fc84c62e956d168cce\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1ae9d9929c94a296c1c3257cb6b70eb24ee1cf7ad580d3e217ec053a3c4d7c95"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wegmans.com",
+                "shop.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/v1\\/t",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "12f71cb993958eefc4bdb41d7dbbda490779a9c7aba448f7be52bb63912e0254"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wegmans.com",
+                "shop.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/v1\\/p",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "12f71cb993958eefc4bdb41d7dbbda490779a9c7aba448f7be52bb63912e0254"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wegmans.com",
+                "shop.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/frontend-config\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-prd-pch",
+                "web-prd-spr",
+                "web-prd-weg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "shop.pricechopper.com",
+                    "resolved": "web-prd-pch.unataops.com"
+                },
+                {
+                    "original": "shop.sprouts.com",
+                    "resolved": "web-prd-spr.unataops.com"
+                },
+                {
+                    "original": "shop.wegmans.com",
+                    "resolved": "web-prd-weg.unataops.com"
+                }
+            ],
+            "responseHashes": [
+                "5b473c7d0f14263324c857f7eed08d6cf074d3efc2e3ecf1363419a47983488a",
+                "ca114268288e315e937e6e8f02adbcd9d0cd5cc5bc76f296222e7e9953dbc033"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pricechopper.com",
+                "www.sprouts.com",
+                "www.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api\\/v2\\/user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-prd-pch",
+                "web-prd-spr",
+                "web-prd-weg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "shop.pricechopper.com",
+                    "resolved": "web-prd-pch.unataops.com"
+                },
+                {
+                    "original": "shop.sprouts.com",
+                    "resolved": "web-prd-spr.unataops.com"
+                },
+                {
+                    "original": "shop.wegmans.com",
+                    "resolved": "web-prd-weg.unataops.com"
+                }
+            ],
+            "responseHashes": [
+                "40077f7d736bec7d14e824aaf7eda1f66caa12cad01a76ac96fbc15f26d80818",
+                "1bd537ebba4ee490f84d485b686f4b89cc72d3c18195aa3d3cc2e466a3797793"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pricechopper.com",
+                "www.sprouts.com",
+                "www.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api\\/v2\\/user",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-prd-pch",
+                "web-prd-spr",
+                "web-prd-weg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "shop.pricechopper.com",
+                    "resolved": "web-prd-pch.unataops.com"
+                },
+                {
+                    "original": "shop.sprouts.com",
+                    "resolved": "web-prd-spr.unataops.com"
+                },
+                {
+                    "original": "shop.wegmans.com",
+                    "resolved": "web-prd-weg.unataops.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pricechopper.com",
+                "www.sprouts.com",
+                "www.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api\\/v2\\/user_sessions",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-prd-pch",
+                "web-prd-spr",
+                "web-prd-weg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "shop.pricechopper.com",
+                    "resolved": "web-prd-pch.unataops.com"
+                },
+                {
+                    "original": "shop.sprouts.com",
+                    "resolved": "web-prd-spr.unataops.com"
+                },
+                {
+                    "original": "shop.wegmans.com",
+                    "resolved": "web-prd-weg.unataops.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pricechopper.com",
+                "www.sprouts.com",
+                "www.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api\\/v2\\/user_sessions",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-prd-pch",
+                "web-prd-spr",
+                "web-prd-weg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "shop.pricechopper.com",
+                    "resolved": "web-prd-pch.unataops.com"
+                },
+                {
+                    "original": "shop.sprouts.com",
+                    "resolved": "web-prd-spr.unataops.com"
+                },
+                {
+                    "original": "shop.wegmans.com",
+                    "resolved": "web-prd-weg.unataops.com"
+                }
+            ],
+            "responseHashes": [
+                "2c217dcf0b5569cf99e14543baece637ae4c9b82945e560eb7e1ed2696af4819",
+                "f8e4eb7275da825ebf3a0c258cd29e050e4e5211aa2ef3ccc997be017e8612c5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pricechopper.com",
+                "www.sprouts.com",
+                "www.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api\\/v2\\/users",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-prd-pch",
+                "web-prd-spr",
+                "web-prd-weg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "shop.pricechopper.com",
+                    "resolved": "web-prd-pch.unataops.com"
+                },
+                {
+                    "original": "shop.sprouts.com",
+                    "resolved": "web-prd-spr.unataops.com"
+                },
+                {
+                    "original": "shop.wegmans.com",
+                    "resolved": "web-prd-weg.unataops.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pricechopper.com",
+                "www.sprouts.com",
+                "www.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api\\/v2\\/users",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-prd-pch",
+                "web-prd-spr",
+                "web-prd-weg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "shop.pricechopper.com",
+                    "resolved": "web-prd-pch.unataops.com"
+                },
+                {
+                    "original": "shop.sprouts.com",
+                    "resolved": "web-prd-spr.unataops.com"
+                },
+                {
+                    "original": "shop.wegmans.com",
+                    "resolved": "web-prd-weg.unataops.com"
+                }
+            ],
+            "responseHashes": [
+                "7d637a8f8cb6abc99cae403b9c4b59e3f106273593d117b59d1849a60b65e2b1",
+                "c4efdd4d219ab6553a99d7525e31911012c3690375b75cbf66dfdbdb742253d4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pricechopper.com",
+                "www.sprouts.com",
+                "www.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api\\/v2\\/user_lists\\/default",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-prd-pch",
+                "web-prd-spr",
+                "web-prd-weg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "shop.pricechopper.com",
+                    "resolved": "web-prd-pch.unataops.com"
+                },
+                {
+                    "original": "shop.sprouts.com",
+                    "resolved": "web-prd-spr.unataops.com"
+                },
+                {
+                    "original": "shop.wegmans.com",
+                    "resolved": "web-prd-weg.unataops.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pricechopper.com",
+                "www.sprouts.com",
+                "www.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api\\/v2\\/user_lists\\/default",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-prd-pch",
+                "web-prd-spr",
+                "web-prd-weg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "shop.pricechopper.com",
+                    "resolved": "web-prd-pch.unataops.com"
+                },
+                {
+                    "original": "shop.sprouts.com",
+                    "resolved": "web-prd-spr.unataops.com"
+                },
+                {
+                    "original": "shop.wegmans.com",
+                    "resolved": "web-prd-weg.unataops.com"
+                }
+            ],
+            "responseHashes": [
+                "c11584ef0f13cb9a799f6156d4d8d8010a2ade0ff518a92e888179f50adf1619",
+                "27a6b57c0928860d92177efeb71ad650efac06a47e83f09864720d7a4f8e3be8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pricechopper.com",
+                "www.sprouts.com",
+                "www.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/wp-content\\/uploads\\/2023\\/02\\/chevron-right\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cms-stg-spr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e1a441df0511bd9cf3b3a50e588f97e1fdb1745f380cf91fc88c095b28588aa8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sprouts.com",
+                "www.sprouts.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api-qa\\/v2\\/user",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-uat-tfm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "shop-uat.thefreshmarket.com",
+                    "resolved": "web-uat-tfm.unataops.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thefreshmarket.com",
+                "www.thefreshmarket.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api-qa\\/v2\\/user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-uat-tfm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "shop-uat.thefreshmarket.com",
+                    "resolved": "web-uat-tfm.unataops.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thefreshmarket.com",
+                "www.thefreshmarket.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api-qa\\/v2\\/undefined",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-uat-tfm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "shop-uat.thefreshmarket.com",
+                    "resolved": "web-uat-tfm.unataops.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thefreshmarket.com",
+                "www.thefreshmarket.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api-qa\\/v2\\/undefined",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-uat-tfm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "shop-uat.thefreshmarket.com",
+                    "resolved": "web-uat-tfm.unataops.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thefreshmarket.com",
+                "www.thefreshmarket.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api\\/v2\\/categories",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-prd-weg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "shop.wegmans.com",
+                    "resolved": "web-prd-weg.unataops.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wegmans.com",
+                "www.wegmans.com"
+            ]
+        },
+        {
+            "rule": "unataops\\.com\\/api\\/v2\\/categories",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-prd-weg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "shop.wegmans.com",
+                    "resolved": "web-prd-weg.unataops.com"
+                }
+            ],
+            "responseHashes": [
+                "ae9ef10f33a0a8a00fd597ebca6a9d9db188bd74a299492f60aebf132724e670"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wegmans.com",
+                "www.wegmans.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000545,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7619047619047619
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.23809523809523808
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Fetch": 6,
+        "XHR": 18,
+        "Preflight": 18,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-cloud-c3.googledomains.com",
+        "ns-cloud-c4.googledomains.com",
+        "ns-cloud-c2.googledomains.com",
+        "ns-cloud-c1.googledomains.com"
+    ]
+}

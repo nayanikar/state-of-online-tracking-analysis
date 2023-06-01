@@ -1,0 +1,106 @@
+{
+    "domain": "pushpanda.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pushpanda\\.io\\/sdk\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Notification.permission": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1e2a522e0db96ffe11b0e5bd4f0090b0d291ee5217e917b0ce4616ccbe9725b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asi-reisen.de",
+                "www.asi-reisen.de"
+            ]
+        },
+        {
+            "rule": "pushpanda\\.io\\/api\\/push\\/project\\/12a58660-6c04-11ed-9b2d-81fc9f31d5f3\\/www\\.asi-reisen\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7f570f0403537528f0fd97fd9958746a3bb50bc7f0a8f7226cad149fbe8c2d54"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asi-reisen.de",
+                "www.asi-reisen.de"
+            ]
+        },
+        {
+            "rule": "pushpanda\\.io\\/clients\\/XF2QMpWKLlPoC84l4CJZ\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5531a1f1d7233eb9c2ad407701e18f9cbbb855c12bd849a7dff05a3b370604ac"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asi-reisen.de",
+                "www.asi-reisen.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "alan.ns.cloudflare.com",
+        "cortney.ns.cloudflare.com"
+    ]
+}

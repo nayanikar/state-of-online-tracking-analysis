@@ -1,0 +1,514 @@
+{
+    "domain": "zdbb.net",
+    "owner": {
+        "name": "Ziff Davis LLC",
+        "displayName": "Ziff Davis"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0011,
+    "sites": 11,
+    "subdomains": [
+        "cdn.static",
+        "gurgle",
+        "jogger",
+        "ns"
+    ],
+    "cnames": [
+        {
+            "original": "gurgle.babycenter.com",
+            "resolved": "gurgle.zdbb.net"
+        },
+        {
+            "original": "gurgle.babycentre.co.uk",
+            "resolved": "gurgle.zdbb.net"
+        },
+        {
+            "original": "gurgle.spiceworks.com",
+            "resolved": "gurgle.zdbb.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zdbb\\.net\\/js\\/z0WVjCBSEeGLoxIxOQVEwQ\\.min\\.js",
+            "cookies": 0.000904,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 9,
+                "Document.cookie getter": 9,
+                "Document.cookie setter": 9,
+                "URL.createObjectURL": 2,
+                "window.localStorage": 5
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "a545133e00de96510a71a86ecbf97b3ba713c0bc79106504eb49d98ac84a13db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zd_session_id": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.0008032128514056225,
+                    "uniqueness": 1
+                },
+                "fu": {
+                    "ttl": 2592007,
+                    "length": 1,
+                    "prevalence": 0.0009036144578313253,
+                    "uniqueness": 0.1111111111111111
+                },
+                "zpack": {
+                    "ttl": null,
+                    "length": 343,
+                    "prevalence": 0.000502008032128514,
+                    "uniqueness": 1
+                },
+                "lrswap": {
+                    "ttl": 15552029,
+                    "length": 1,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "kxswap": {
+                    "ttl": 15552029,
+                    "length": 1,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babycenter.com",
+                "community.babycentre.co.uk",
+                "community.spiceworks.com",
+                "strategywiki.org",
+                "wccftech.com",
+                "www.babycenter.com.au",
+                "www.babycenter.com",
+                "www.neoseeker.com",
+                "www.spiceworks.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gurgle"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [
+                {
+                    "original": "gurgle.babycentre.co.uk",
+                    "resolved": "gurgle.zdbb.net"
+                },
+                {
+                    "original": "gurgle.babycenter.com",
+                    "resolved": "gurgle.zdbb.net"
+                },
+                {
+                    "original": "gurgle.spiceworks.com",
+                    "resolved": "gurgle.zdbb.net"
+                }
+            ],
+            "responseHashes": [
+                "574be2d603b1f68e10383cc1ee0771edae45adfa0bf3863836664240260fe8a1",
+                "8da28a70154d4a953c720be176bc9eabc2860e24314db8ec65c8573c68836a49",
+                "f187ea236d8410a2c30af8f0e5fbb80e030ab3d3bf293c0daa23d7bbe3a9b800",
+                "581a3db41e624d2de58465a9fbbe1d5b521da222ce9a20d7fe2ee92f6aced9fa",
+                "b87bcd69bc922ded1205454d8dc9e4b2eab6bdfba2730c41740d4489ffabfd23",
+                "43ff194e2fad98adc41350455010f6076a4167b067dd7cfd50f559e8deb02ab6",
+                "99e114efc8f9099c27ee0dad7a86569e490f75621c1c60a3699935ed0bb6aead"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "babycentre.co.uk",
+                "community.babycenter.com",
+                "community.babycentre.co.uk",
+                "community.spiceworks.com",
+                "health.clevelandclinic.org",
+                "my.clevelandclinic.org",
+                "strategywiki.org",
+                "wccftech.com",
+                "www.babycenter.com.au",
+                "www.babycenter.com",
+                "www.neoseeker.com",
+                "www.spiceworks.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/check",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jogger"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "4e523a5ae5b4636c75901b79fafbd3912e41dc7987414e688b09d4b436ff22b3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babycentre.co.uk",
+                "community.babycenter.com",
+                "health.clevelandclinic.org",
+                "my.clevelandclinic.org",
+                "strategywiki.org",
+                "www.babycenter.com",
+                "www.neoseeker.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/js\\/zd-core-olt\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.static"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1331ce07d67579b7a85c3f1deb9479460b198356c6d1aee8de72daa1d5e377b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babycentre.co.uk",
+                "community.babycenter.com",
+                "strategywiki.org",
+                "www.babycenter.com",
+                "www.neoseeker.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/js\\/krux-coretag\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.static"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "4f30bdeed794aeb92d85e55d901c0bdb634df32432010792e3b569ea73cae443"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babycentre.co.uk",
+                "community.babycenter.com",
+                "strategywiki.org",
+                "www.babycenter.com",
+                "www.neoseeker.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/l\\/z0WVjCBSEeGLoxIxOQVEwQ",
+            "cookies": 0.001,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "zd_session_id": 0.001004016064257028,
+                "_li_dcdm_c": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "babycentre.co.uk",
+                "community.babycenter.com",
+                "community.babycentre.co.uk",
+                "community.spiceworks.com",
+                "strategywiki.org",
+                "wccftech.com",
+                "www.babycenter.com.au",
+                "www.babycenter.com",
+                "www.neoseeker.com",
+                "www.spiceworks.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/check_c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "2c76280d98345b7fdc3621763a323ad908e799c5b0267298fc867914245c2ee9",
+                "f44df2214e852f33adb50ae9924c28e030f18ba595344a5821e8f54d5707334d",
+                "c04771cf1dad5af28c62e6b7267be738b1690223b67b83cffc672d5274b9e3b4",
+                "e3d64c2bfb92e483ae87c96d781f552386d053592b3a26303c495f457ba747c8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babycentre.co.uk",
+                "community.babycenter.com",
+                "health.clevelandclinic.org",
+                "my.clevelandclinic.org",
+                "strategywiki.org",
+                "www.babycenter.com",
+                "www.neoseeker.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/l\\/RKxdUqEhIpfGFepvvpLhhs",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "zd_session_id": 0.00030120481927710846
+            },
+            "exampleSites": [
+                "babycenter.com",
+                "community.babycenter.com",
+                "www.babycenter.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/l\\/qI109lRAEeGCiBIxORcFRw\\/",
+            "cookies": 0.001,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babycentre.co.uk",
+                "community.babycenter.com",
+                "community.spiceworks.com",
+                "health.clevelandclinic.org",
+                "my.clevelandclinic.org",
+                "strategywiki.org",
+                "wccftech.com",
+                "www.babycenter.com.au",
+                "www.babycenter.com",
+                "www.neoseeker.com",
+                "www.spiceworks.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/l\\/Pl3mp6IiEeimkhKdKQ3KqA",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "zd_session_id": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "babycenter.com",
+                "www.babycenter.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/js\\/Dnl1wmWs8xCCpvWNCt9Egf\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5e3c4f8a932f1c7ed7a08e232f23b21aef225e63d390c4203ece1599cf73b831"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "fu": {
+                    "ttl": 2592004,
+                    "length": 1,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "zpack": {
+                    "ttl": null,
+                    "length": 281,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "lrswap": {
+                    "ttl": 15552024,
+                    "length": 1,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "kxswap": {
+                    "ttl": 15552024,
+                    "length": 1,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clevelandclinic.org",
+                "my.clevelandclinic.org"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/l\\/Dnl1wmWs8xCCpvWNCt9Egf",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clevelandclinic.org",
+                "health.clevelandclinic.org",
+                "my.clevelandclinic.org"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/nsgpt\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ns"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "310e3bbb55e1510a00f2d2dc8aa7922ab15b2e333b12a863aa91c6132403eba9",
+                "777eee7342e4baa16f8228c9a1520f4ed049c14a72b6ed0faaef9340fcbf7141"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "strategywiki.org",
+                "wccftech.com",
+                "www.neoseeker.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gurgle"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "strategywiki.org",
+                "wccftech.com",
+                "www.neoseeker.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0011,
+    "topInitiators": [
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.27906976744186046
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2558139534883721
+        },
+        {
+            "domain": "zdbb.net",
+            "prevalence": 0.23255813953488372
+        },
+        {
+            "domain": "nsstatic.net",
+            "prevalence": 0.13953488372093023
+        },
+        {
+            "domain": "nsstatic.com",
+            "prevalence": 0.06976744186046512
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.023255813953488372
+        }
+    ],
+    "types": {
+        "Script": 24,
+        "XHR": 26,
+        "Image": 32
+    },
+    "nameservers": [
+        "ns-164.awsdns-20.com",
+        "ns-982.awsdns-58.net",
+        "ns-1353.awsdns-41.org",
+        "ns-1537.awsdns-00.co.uk"
+    ]
+}

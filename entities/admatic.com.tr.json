@@ -1,0 +1,337 @@
+{
+    "domain": "admatic.com.tr",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "cdn.serve",
+        "cdn2",
+        "ingest.serve",
+        "query.serve",
+        "layer.serve",
+        "prebid.serve"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "admatic\\.com\\.tr\\/showad\\/showad\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.serve",
+                "cdn2"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "7aa00900ca01412a77afc10f52a4d8fa42e21796fcba4f98b2d35aa12809f824",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "memurlar.net",
+                "www.memurlar.net",
+                "www.odatv4.com",
+                "www.sondakika.com"
+            ]
+        },
+        {
+            "rule": "admatic\\.com\\.tr\\/cst",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ingest.serve"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "50ac0e3c228ab9329c06f6b802ac893aec499bccc7f618e145a0b71fc54264d0",
+                "74f808d1555c6814e4247f8d708809c4fd6a7de291fc7c09c24cdc46afd998e1",
+                "c81b39ec5c83333ede0c32c8a7f5096356fcb5c5d999890c52f3ec679e49fe80"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "memurlar.net",
+                "www.memurlar.net",
+                "www.odatv4.com",
+                "www.sondakika.com"
+            ]
+        },
+        {
+            "rule": "admatic\\.com\\.tr\\/showad\\/sync\\.html",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.serve"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e68c280c71a65018ddc11deca38325739f5d4fe05f5c5a282d354cd0bb80268f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "memurlar.net",
+                "www.memurlar.net",
+                "www.odatv4.com",
+                "www.sondakika.com"
+            ]
+        },
+        {
+            "rule": "admatic\\.com\\.tr\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "query.serve"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "memurlar.net",
+                "www.memurlar.net",
+                "www.odatv4.com",
+                "www.sondakika.com"
+            ]
+        },
+        {
+            "rule": "admatic\\.com\\.tr\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "query.serve"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "c9ab96277e7f7aa3a047ac0c1b9227057caaaa4983c13e9b3653fea8b439c121",
+                "fdfffbd734a1b2fa84258cdf700d5dc7a9070123ee3670f2cae88159a1dfca85",
+                "e793012356ed8513c7aecaf8e082ebc968505ef7904fd0a7b8d08ffd3ec5f8c4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "memurlar.net",
+                "www.memurlar.net",
+                "www.odatv4.com",
+                "www.sondakika.com"
+            ]
+        },
+        {
+            "rule": "admatic\\.com\\.tr\\/showad\\/prebid7\\.43\\.0\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn.serve"
+            ],
+            "apis": {
+                "window.sessionStorage": 4,
+                "Navigator.prototype.appName": 4,
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Navigator.prototype.doNotTrack": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.language": 4,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "77cdc62f92ecf79bf3a3f6a176355fb02c3150d13dbeca66bfdd96c9fe2f8c68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_adm_pbjs_userid_consent_data": {
+                    "ttl": 2592019,
+                    "length": 16,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_pubcid": {
+                    "ttl": 31536020,
+                    "length": 36,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "cto_bundle": {
+                    "ttl": 33696019,
+                    "length": 230,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696019,
+                    "length": 163,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "pbjs-id5id": {
+                    "ttl": 7776023,
+                    "length": 669,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "pbjs-id5id_last": {
+                    "ttl": 7776023,
+                    "length": 45,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "memurlar.net",
+                "www.memurlar.net",
+                "www.odatv4.com",
+                "www.sondakika.com"
+            ]
+        },
+        {
+            "rule": "admatic\\.com\\.tr\\/v1\\/criteo-us",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "layer.serve"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "edc48cd3b0bc4fa7ba23aad40b8508a17d370ca38be174bae2a2f64634e65a2b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "memurlar.net",
+                "www.memurlar.net",
+                "www.odatv4.com",
+                "www.sondakika.com"
+            ]
+        },
+        {
+            "rule": "admatic\\.com\\.tr\\/setuid",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prebid.serve"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "c956a8bbf43bb56f60d1beefcc5a70f2cb0725083a00e8a0daf423176509fd18"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "memurlar.net",
+                "www.memurlar.net",
+                "www.odatv4.com",
+                "www.sondakika.com"
+            ]
+        },
+        {
+            "rule": "admatic\\.com\\.tr\\/setuid",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prebid.serve"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "c956a8bbf43bb56f60d1beefcc5a70f2cb0725083a00e8a0daf423176509fd18",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "memurlar.net",
+                "www.memurlar.net",
+                "www.odatv4.com",
+                "www.sondakika.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "sdacdn.com",
+            "prevalence": 0.46153846153846156
+        },
+        {
+            "domain": "adscale.de",
+            "prevalence": 0.3076923076923077
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Document": 16,
+        "Preflight": 4,
+        "Fetch": 4,
+        "Image": 4
+    },
+    "nameservers": [
+        "adam.ns.cloudflare.com",
+        "chloe.ns.cloudflare.com"
+    ]
+}

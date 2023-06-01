@@ -1,0 +1,176 @@
+{
+    "domain": "minute.ly",
+    "owner": {
+        "name": "Minute Spoteam Ltd.",
+        "displayName": "Minute Spoteam"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0011,
+    "sites": 11,
+    "subdomains": [
+        "apv-launcher",
+        "snippet",
+        "apv-static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "minute\\.ly\\/api\\/launcher\\/MIN-108070\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "apv-launcher"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f22568931a31cb784673bf731b8090cc168431a1c4bf4df419793675ff9fd28f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "minVersion": {
+                    "ttl": 31536015,
+                    "length": 75,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "7news.com.au",
+                "www.7news.com.au"
+            ]
+        },
+        {
+            "rule": "minute\\.ly\\/publishers\\/108070\\/mi-scraper-1\\.17\\.0\\.14\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "snippet"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3b61466fab8be76883dd23679a59b89864b2df4de4503ec0669c8d5df8b3671a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "7news.com.au",
+                "www.7news.com.au"
+            ]
+        },
+        {
+            "rule": "minute\\.ly\\/videos\\/v-45186709-3f25-4a99-2685454-ab62-e24b3ad7585c-s5\\.0-11\\.28l\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apv-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "52ca5d5499aa1fbb44c5e3baaeeb73aafcda749f5b02c1384c17aa822ed788a9"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nine.com.au",
+                "wwos.nine.com.au"
+            ]
+        },
+        {
+            "rule": "minute\\.ly\\/videos\\/v-1a2d11a4-17e7-4bf9-2687071-9919-3a6e2d9673cc-s59\\.36-65\\.36l\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apv-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7cb6686efd718e8268b36cec921991c4b3d6d36aa8df4b8e82a8c004b8595ab1"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nine.com.au",
+                "wwos.nine.com.au"
+            ]
+        },
+        {
+            "rule": "minute\\.ly\\/videos\\/v-fee42400-b163-44b4-2688998-8272-79babb8b14ea-s1\\.5-8\\.467m\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apv-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2c11eef3002ff8fb0f810eeb63f9b02e442a772e71b523059b06257c177853eb"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "motorsport.com",
+                "www.motorsport.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7391304347826086
+        },
+        {
+            "domain": "taboola.com",
+            "prevalence": 0.17391304347826086
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.08695652173913043
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Media": 6
+    },
+    "nameservers": [
+        "ray.ns.cloudflare.com",
+        "leah.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,150 @@
+{
+    "domain": "spiroo.no",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "spiroo\\.no\\/spirooBar\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ef275338c54c0f8beea047e09a07c446ccba443adc3253dca057b68247f93c67"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gyldendal.no",
+                "www.gyldendal.no"
+            ]
+        },
+        {
+            "rule": "spiroo\\.no\\/scripts\\/SpirooBar-1\\.0\\.0\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6cdb2b86571eba4651db35b37aee2e5d8a1c527353bdb5e7305427619d75cc56"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gyldendal.no",
+                "www.gyldendal.no"
+            ]
+        },
+        {
+            "rule": "spiroo\\.no\\/content\\/SpirooBar-1\\.0\\.0\\.0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "688244acea5f908bb9e7335e3d6fca7c433ca5b85712f832f5b348a0d4aea9e7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gyldendal.no",
+                "www.gyldendal.no"
+            ]
+        },
+        {
+            "rule": "spiroo\\.no\\/content\\/icons\\/logo_gyldendal\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "81c9ca83663671e79ccdbb81d7f6a8dd4e55e120cb310939cc0da35e9454bb96"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gyldendal.no",
+                "www.gyldendal.no"
+            ]
+        },
+        {
+            "rule": "spiroo\\.no\\/links",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fdf52162a91dfc81a871fa5fa3adc04030b5ef1dc4b95e38259f98845165309e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gyldendal.no",
+                "www.gyldendal.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Stylesheet": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns2.hyp.net",
+        "ns3.hyp.net",
+        "ns1.hyp.net"
+    ]
+}

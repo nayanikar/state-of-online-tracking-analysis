@@ -1,0 +1,107 @@
+{
+    "domain": "makemytrip.com",
+    "owner": {
+        "name": "Makemytrip India Pvt Ltd.",
+        "displayName": "Makemytrip India"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "adorch",
+        "platforms"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "makemytrip\\.com\\/ext\\/user\\/serve\\/ad",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adorch"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redbus.in",
+                "www.redbus.in"
+            ]
+        },
+        {
+            "rule": "makemytrip\\.com\\/ext\\/user\\/serve\\/ad",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adorch"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3d095195038307adc86fc3b2f5ce40bc768b78103afcfaa56f693e7297350ad7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redbus.in",
+                "www.redbus.in"
+            ]
+        },
+        {
+            "rule": "makemytrip\\.com\\/contents\\/3db1e6f2-270b-4783-8330-710d4950f6b0",
+            "cookies": 0.00000681,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platforms"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "b0a2040a7e52e8497a4d599fdccc0417862ea6e7c973620578da47402cb81918"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redbus.in",
+                "www.goibibo.com",
+                "www.redbus.in"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2,
+        "Image": 3
+    },
+    "nameservers": [
+        "pdns4.ultradns.org",
+        "pdns6.ultradns.co.uk",
+        "pdns1.ultradns.net",
+        "pdns5.ultradns.info",
+        "pdns2.ultradns.net",
+        "pdns3.ultradns.org"
+    ]
+}

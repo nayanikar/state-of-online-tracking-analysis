@@ -1,0 +1,114 @@
+{
+    "domain": "relvant.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "relvant\\.io\\/api\\/d536cab89896e9c0\\/js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f9cd0ef9bc134d3d9bb1e5b5b60b98925e80422bcad17c8a0a8da1b9ad425d98"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rlvtuid": {
+                    "ttl": 2592000,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "rlvtsuid": {
+                    "ttl": 1200,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lav-det-selv.dk",
+                "www.lav-det-selv.dk"
+            ]
+        },
+        {
+            "rule": "relvant\\.io\\/api\\/d536cab89896e9c0\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ca1de3e788e3b1d75206c08029a13115d07a15872997d14d1680dc2e3fa452c2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rlvtuid": 0.000013614147822417056,
+                "rlvtsuid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "lav-det-selv.dk",
+                "www.lav-det-selv.dk"
+            ]
+        },
+        {
+            "rule": "relvant\\.io\\/api\\/d536cab89896e9c0\\/similar",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "450dd645e1c573a5033af0da17b9bae5493b2c008212f5b379fd426777d86bad"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rlvtuid": 0.000013614147822417056,
+                "rlvtsuid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "lav-det-selv.dk",
+                "www.lav-det-selv.dk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "theo.ns.cloudflare.com",
+        "lola.ns.cloudflare.com"
+    ]
+}

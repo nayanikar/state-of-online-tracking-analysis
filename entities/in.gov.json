@@ -1,0 +1,84 @@
+{
+    "domain": "in.gov",
+    "owner": {
+        "name": "State of Indiana",
+        "displayName": "State of Indiana"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "in\\.gov\\/attorneygeneral\\/chatbot\\/indiana-unclaimed\\/index\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4e6f635de3fa0fe4976225b9ef2a4cab9995cba4997da025d793c31dbeb97b82"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indianaunclaimed.gov",
+                "www.indianaunclaimed.gov"
+            ]
+        },
+        {
+            "rule": "in\\.gov\\/attorneygeneral\\/chatbot\\/indiana-unclaimed\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2c28cd06e2aa396a624085c70d9648988bc41b10f736b534a945fae33032f9a3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indianaunclaimed.gov",
+                "www.indianaunclaimed.gov"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "darwin.ns.cloudflare.com",
+        "addilyn.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "domain": "syncronex.com",
+    "owner": {
+        "name": "Syncronex",
+        "displayName": "Syncronex"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [
+        "cdn",
+        "syncaccess-hag-cap",
+        "syncaccess-hag-di",
+        "syncaccess-wn-kdm",
+        "syncaccess-wn-pni"
+    ],
+    "cnames": [
+        {
+            "original": "subscribe.cdapress.com",
+            "resolved": "syncaccess-hag-cap.syncronex.com"
+        },
+        {
+            "original": "subscribe.dailyinterlake.com",
+            "resolved": "syncaccess-hag-di.syncronex.com"
+        },
+        {
+            "original": "subscribe.dcourier.com",
+            "resolved": "syncaccess-wn-pni.syncronex.com"
+        },
+        {
+            "original": "subscribe.kdminer.com",
+            "resolved": "syncaccess-wn-kdm.syncronex.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "syncronex\\.com\\/libs\\/v1\\.9\\/syncLoginSdk\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "5a21995e90774b36331d7ccee138038383630da031968796bd6baf16789c15a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ls.authorizationData": {
+                    "ttl": -86394,
+                    "length": 1,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 0.25
+                },
+                "authorizationData": {
+                    "ttl": -86394,
+                    "length": 1,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 0.25
+                },
+                ".ASPXAUTH": {
+                    "ttl": -86394,
+                    "length": 1,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdapress.com",
+                "dailyinterlake.com",
+                "kdminer.com",
+                "www.dcourier.com",
+                "www.journalgazette.net"
+            ]
+        },
+        {
+            "rule": "syncronex\\.com\\/portal\\/checksyncaccessloginstatus\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "syncaccess-hag-cap",
+                "syncaccess-hag-di",
+                "syncaccess-wn-kdm",
+                "syncaccess-wn-pni"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [
+                {
+                    "original": "subscribe.cdapress.com",
+                    "resolved": "syncaccess-hag-cap.syncronex.com"
+                },
+                {
+                    "original": "subscribe.dailyinterlake.com",
+                    "resolved": "syncaccess-hag-di.syncronex.com"
+                },
+                {
+                    "original": "subscribe.kdminer.com",
+                    "resolved": "syncaccess-wn-kdm.syncronex.com"
+                },
+                {
+                    "original": "subscribe.dcourier.com",
+                    "resolved": "syncaccess-wn-pni.syncronex.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdapress.com",
+                "dailyinterlake.com",
+                "kdminer.com",
+                "www.dcourier.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4722222222222222
+        },
+        {
+            "domain": "syncronex.com",
+            "prevalence": 0.4722222222222222
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Document": 4
+    },
+    "nameservers": [
+        "ns-831.awsdns-39.net",
+        "ns-1086.awsdns-07.org",
+        "ns-2032.awsdns-62.co.uk",
+        "ns-136.awsdns-17.com"
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "domain": "cloudpayments.ru",
+    "owner": {
+        "name": "CloudPayments LLC",
+        "displayName": "CloudPayments"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cloudpayments\\.ru\\/bundles\\/cloudpayments",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pravmir.ru",
+                "www.pravmir.ru",
+                "www.tvigle.ru"
+            ]
+        },
+        {
+            "rule": "cloudpayments\\.ru\\/bundles\\/cloudpayments\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6851df14c069d469aa7a73ede5babb169287a36c49c0c4bb7b622c629d5e4fc3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pravmir.ru",
+                "www.pravmir.ru",
+                "www.tvigle.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns1.cloudpayments.ru",
+        "dns43.cloudns.net",
+        "dns42.cloudns.net",
+        "dns41.cloudns.net",
+        "dns44.cloudns.net"
+    ]
+}

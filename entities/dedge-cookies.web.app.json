@@ -1,0 +1,102 @@
+{
+    "domain": "dedge-cookies.web.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dedge-cookies\\.web\\.app\\/decookie\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8428ca6732df069f65e7662060100eee749ebd232205caf5e37b4dca6c195bf6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_deCountryResp": {
+                    "ttl": 31536002,
+                    "length": 24,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orient-express.com",
+                "www.orient-express.com"
+            ]
+        },
+        {
+            "rule": "dedge-cookies\\.web\\.app\\/translations\\/en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cddc3cb0453b54081d0455e155162184ea0c0c384ff53c64e1ec062a709713ea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orient-express.com",
+                "www.orient-express.com"
+            ]
+        },
+        {
+            "rule": "dedge-cookies\\.web\\.app\\/decookie\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f5d92dcb67db8859a317748dceb484f21ba3da9100aa4800c463d83fdea3bacd"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orient-express.com",
+                "www.orient-express.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

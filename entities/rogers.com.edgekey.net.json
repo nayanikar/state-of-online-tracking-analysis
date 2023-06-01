@@ -1,0 +1,70 @@
+{
+    "domain": "rogers.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "digital-chat"
+    ],
+    "cnames": [
+        {
+            "original": "chat.rogers.com",
+            "resolved": "digital-chat.rogers.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "rogers\\.com\\.edgekey\\.net\\/assets\\/va-buttons\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digital-chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "chat.rogers.com",
+                    "resolved": "digital-chat.rogers.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e19d068c62a70015dcf05004cf1341ff0b698ea51c9920458d845105dd6ffd7a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fido.ca",
+                "www.rogers.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": []
+}

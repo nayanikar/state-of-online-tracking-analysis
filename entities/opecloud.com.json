@@ -1,0 +1,362 @@
+{
+    "domain": "opecloud.com",
+    "owner": {
+        "name": "TripleLift",
+        "displayName": "TripleLift",
+        "privacyPolicy": "https://triplelift.com/privacy/",
+        "url": "http://triplelift.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00422,
+    "sites": 42,
+    "subdomains": [
+        "cdn",
+        "dmplite.tagger",
+        "dmplite.profiles.tagger",
+        "fox.tagger",
+        "tagger",
+        "tagger-scmp"
+    ],
+    "cnames": [
+        {
+            "original": "tagger.ope.scmp.com",
+            "resolved": "tagger-scmp.opecloud.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "opecloud\\.com\\/ope-dmplite\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 28,
+                "Date.prototype.getTimezoneOffset": 28,
+                "Screen.prototype.width": 28,
+                "Screen.prototype.height": 28,
+                "Screen.prototype.colorDepth": 28
+            },
+            "sites": 39,
+            "prevalence": 0.00392,
+            "cnames": [],
+            "responseHashes": [
+                "d3f49bffeaf15fbef4ccef3c8f9ec94f932eadf41d130e41a2a80284b1fb981e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.supercheats.com",
+                "edhrec.com",
+                "playandgo.com.au",
+                "www.gamepur.com",
+                "helpfulprofessor.com",
+                "www.makeupalley.com",
+                "thedirect.com",
+                "www.ggrecon.com",
+                "www.toptrendsguide.com",
+                "www.salon.com",
+                "www.macobserver.com",
+                "allthings.how",
+                "bobbyhadz.com",
+                "expertphotography.com",
+                "www.poe-vault.com",
+                "piunikaweb.com",
+                "www.photoworkout.com",
+                "birdfact.com",
+                "www.appgamer.com",
+                "dotesports.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/dmplite\\/b4\\/v2\\/pixel\\.gif",
+            "cookies": 0.00261,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmplite.tagger"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.00271,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "bobbyhadz.com",
+                "allthings.how",
+                "realitytvupdates.com",
+                "birdfact.com",
+                "www.poe-vault.com",
+                "www.ggrecon.com",
+                "www.700r4transmissionhq.com",
+                "buggybuddys.com.au",
+                "biblereasons.com",
+                "myrigadventures.com",
+                "www.homestratosphere.com",
+                "edhrec.com",
+                "www.supercheats.com",
+                "www.makeupalley.com",
+                "www.gemsociety.org",
+                "www.gameskinny.com",
+                "www.earthtrekkers.com",
+                "www.appgamer.com",
+                "expertphotography.com",
+                "www.macobserver.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/v1\\/targeting",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmplite.profiles.tagger"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.00271,
+            "cnames": [],
+            "responseHashes": [
+                "42634cf939de4e5b9033545f86b6a94bca0ca5bd07a93801c5a99659366a53bd",
+                "dbb90511fa5483400fd2649136bfbe687e81234f4f2ce4fd41b8b7b5ebeb409e",
+                "c2c2a214b9fa7240923f6f46fa8d34266d2915c23ca44f83bc00cf5b39407d8a",
+                "72b91ac31d887ad64706f0f7c9590ed9690e782903aab69264637a88fc35e4f7",
+                "1d8f5f511c4edab2ea8583523bef27ee51312b76bdf9eb6745cd1bf244320544",
+                "d43c4a43f075c6fd41847b185760fdf79f6a5f8ef56ef288b21806946232a124",
+                "8d505c09d01dfc113ef5696e81f251d4e03b37c1619b2214cb3bb9f2e697cd10",
+                "37cf03aa09df77a0b69a4d6bf645bc9593f97c70962bb4ae4609b18e503e0506",
+                "b9039b4b211bb87306cbc4da473e1e7663bc969abea2fd37e159ad712f4cea39",
+                "549ef78219f2e54122fcfa4020981c4ba3f7ed43c65edc8383e6e3a5c3dee710",
+                "92b47649deb81c9575031970ed6edf40700a6e148200f6d8f95b58341d52ed85",
+                "a859530f30767eb431c0fec4e4689b4a2f8d786f5fdd01ee138b35afefafe915",
+                "2b76e9a62e02a85f6689c2af69f09092cd9eb9e15dd08a5273531861f635ccec",
+                "00f33acbbc46faa31ad81bcb0daccdf3f339b6c2ebbe10e1a69bf3269c72a45f",
+                "71c3a4eed344184b240cd9a5d84f9ca4f617a94c0e2b74613a6fcb05c1404027",
+                "52c3b529cce0a2bc075df21bd0f67167508a15438607473bfcddf6c52b8dc4ae",
+                "5caeb434e8a9b587dc50c942b824222d8cf1959bd07c264ec9733df7c3abd671",
+                "930edc534fcd6568954056af7f83d20869cb2144c547dca3e08d77d16eaa099e",
+                "8ec4c81efc43700f7958bc51f643fb080652c54c4a094b16dc68d4fa43085f18",
+                "7e699d97650c3a2621304a1a851e46a4cb49ac71bbc805df8fd88e04a6e22e9b",
+                "2f284fc716ac2b693d1b0ce888e3b4e8b60d416b86f10d7fa3ad746e3ef14017"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "www.gemsociety.org",
+                "myrigadventures.com",
+                "substitutecooking.com",
+                "www.gameskinny.com",
+                "www.makeupalley.com",
+                "dqydj.com",
+                "www.ggrecon.com",
+                "bobbyhadz.com",
+                "www.appgamer.com",
+                "www.poe-vault.com",
+                "www.macobserver.com",
+                "www.homestratosphere.com",
+                "buggybuddys.com.au",
+                "www.earthtrekkers.com",
+                "thedirect.com",
+                "playandgo.com.au",
+                "www.salon.com",
+                "realitytvupdates.com",
+                "allthings.how",
+                "www.toptrendsguide.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/ope-fox\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6fc5103b15d0afb10624744b51d8f04d1d3a6d293ba1e58c53f8422a131f377c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxnews.com",
+                "www.tmz.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/fox\\/v2\\/pixel\\.gif",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fox.tagger"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxnews.com",
+                "www.foxnews.com",
+                "www.tmz.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/tradedesk\\/pbfs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger",
+                "fox.tagger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxnews.com",
+                "www.foxnews.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/dmplite\\/b157\\/v2\\/pixel\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmplite.tagger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "597e877da1c5a9e3cf2d84335a1e033b745e83fd44b9f4e6c3fee1b62b606304"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salon.com",
+                "www.salon.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/scmp\\/v2\\/pixel\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger-scmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tagger.ope.scmp.com",
+                    "resolved": "tagger-scmp.opecloud.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "scmp.com",
+                "www.scmp.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/scmp\\/pcs\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scmp.com",
+                "www.scmp.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00301,
+    "topInitiators": [
+        {
+            "domain": "mediavine.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "pubnation.com",
+            "prevalence": 0.24
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "opecloud.com",
+            "prevalence": 0.06
+        },
+        {
+            "domain": "i-scmp.com",
+            "prevalence": 0.06
+        },
+        {
+            "domain": "rollbar.com",
+            "prevalence": 0.02
+        },
+        {
+            "domain": "fox.com",
+            "prevalence": 0.02
+        }
+    ],
+    "types": {
+        "Script": 41,
+        "Image": 38,
+        "Fetch": 27
+    },
+    "nameservers": [
+        "ns-899.awsdns-48.net",
+        "ns-353.awsdns-44.com",
+        "ns-1611.awsdns-09.co.uk",
+        "ns-1454.awsdns-53.org"
+    ]
+}

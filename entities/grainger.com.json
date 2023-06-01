@@ -1,0 +1,89 @@
+{
+    "domain": "grainger.com",
+    "owner": {
+        "name": "W.W. Grainger, Inc",
+        "displayName": "W.W. Grainger"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "smetrics",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "grainger\\.com\\/id",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ee2294dbaa4d2ef29844769605a0709117375ff914c32b555c73bb0500055d24"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grainger.ca",
+                "www.grainger.ca"
+            ]
+        },
+        {
+            "rule": "grainger\\.com\\/rp\\/s\\/is\\/image\\/Grainger\\/15PT03_AS01",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "083a9eb916cdaa038436dac2e9cd92fdac7bfdc84828957d615e9fab5630653d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grainger.ca",
+                "www.grainger.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9565217391304348
+        },
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 0.043478260869565216
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "a3-66.akam.net",
+        "a14-64.akam.net",
+        "a5-64.akam.net",
+        "a1-91.akam.net",
+        "a18-65.akam.net",
+        "a4-67.akam.net"
+    ]
+}

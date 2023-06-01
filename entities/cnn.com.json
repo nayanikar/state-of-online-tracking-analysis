@@ -1,0 +1,788 @@
+{
+    "domain": "cnn.com",
+    "owner": {
+        "name": "WarnerMedia, LLC",
+        "displayName": "WarnerMedia",
+        "privacyPolicy": "https://www.warnermediaprivacy.com/policycenter/b2c/WMNS/en-us",
+        "url": "http://warnermediaprivacy.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000749,
+    "sites": 11,
+    "subdomains": [
+        "newsource-embed-prd.ns",
+        "lightning",
+        "smetrics",
+        "newsource-video-player-api.ns",
+        "cdn",
+        "z.cdp-dev"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cnn\\.com\\/videos\\/embed-video-player\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "newsource-embed-prd.ns"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Screen.prototype.width": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "b6d17dfe2b1e9c2c5b2e683b5ac0d2772ef4301b5bd6a15550af2ce307e1da84"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "ktvz.com",
+                "www.wfmz.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/launch\\/7be62238e4c3\\/c94136f310b4\\/launch-38d3a91cf620\\.min\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lightning"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5,
+                "Navigator.prototype.appName": 5,
+                "Navigator.prototype.appVersion": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "30afbf815142f46b227b8d54ffe7730866a0bc78afb3f2205926aed54f4ef201"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_7FF852E2556756057F000101%40AdobeOrg": {
+                    "ttl": 63158405,
+                    "length": 241,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                },
+                "AMCVS_7FF852E2556756057F000101%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 0.2
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "ktvz.com",
+                "www.wfmz.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/videos\\/main_ns_video_player\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "newsource-embed-prd.ns"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.innerWidth": 5,
+                "Date.prototype.getTime": 4,
+                "Event.prototype.timeStamp": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "a0ebc05472ab6a69245b7345934c190154a88e6157de1084fa414c9f6676fd50"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "ktvz.com",
+                "www.wfmz.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/videos\\/main_ns_video_player\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newsource-embed-prd.ns"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "b8b90d9309142d9b221c25e6d2a040fea569fd4f799409dc2ad87cdd14cf36de"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "ktvz.com",
+                "www.wfmz.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/launch\\/7be62238e4c3\\/c94136f310b4\\/f46fe08a339c\\/EX4b5cf9fbfe4346bcb28b0ee8d0883eb1-libraryCode_source\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lightning"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.appName": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e13e70b5262f2f3dc87029dfc486910be0c6548d9a5575a8710768517d9106a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "ktvz.com",
+                "www.wfmz.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/id",
+            "cookies": 0.000034,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "f196ed3cdb54e3ca9f626fcc18272a4d1a855f8d72b495b4b9c77d62319dc33e",
+                "515cb8987cf94927c147ef8ea493f47f542b611899a82ed0db9143048e13e545",
+                "31c7d59b7fd08f38e8030ea8df670729bf3a9a41255a24c5fb234147d7b5592f",
+                "770e891c7597d92bb75c7cae6f7f51272579b96ac150f469b5b045d352b9dd2a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "ktvz.com",
+                "www.wfmz.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/launch\\/7be62238e4c3\\/c94136f310b4\\/f46fe08a339c\\/RCfa1c883734534f889a631211e44d623d-source\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lightning"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "701c81f0a568f0401384a88039cf767675c5b122cd716f85ca2ff0c75cb55187"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "ktvz.com",
+                "www.wfmz.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/launch\\/7be62238e4c3\\/c94136f310b4\\/f46fe08a339c\\/RC705a56330cd24520be3ffd6c91cd2845-source\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lightning"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "1314b0c0e45e1044c7c97285e922ba644c36cda1e3b575692d24a2cf9e415fce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "ktvz.com",
+                "www.wfmz.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/api\\/v1\\/playlist\\/custom",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newsource-video-player-api.ns"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "8337be96e04e8d1b78e15f682e80837c8b35bebe269af25fdd4deb8434fae81f",
+                "9147231d87955b5d69410b34b8e6a7fbc7b3317f109ea16a4a584ff53ddf60f9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wfmz.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/api\\/v1\\/playlist\\/custom",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newsource-video-player-api.ns"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wfmz.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230418103402-fox-news-kurtz-01-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "1c2376464c1e6cef2825c686797c0f90b68ecd50008f758add31b69c6d5ac3f8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230418152630-exp-alec-baldwin-rust-shooting-production-resume-correspondent-live-041802pseg2-cnni-world-00000130-live-video\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230418113138-hollywood-minute-wga-strike-vote-white-bird-00000000-live-video\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230327161103-droffice-wheretogo-thumb-004-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "ba4e43ad25d9cff9b8b24b34d2a000a29eef3329b0ec3f75e900a4bff2e75765"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230418135933-kevin-monahan-mugshot-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "8667c2255a8d1a7f3c65beede8faf59955997670b3f8e8cca99284ecc051df2a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230418121326-ok-protest-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230415075322-girl-with-pigeons-2-getty-vpx-thumb-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2645da14a5de5fc0112f08117bfbebc283442ea445ec59237f3161381779ae39"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230418092829-ralph-yarl-family-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3eead3e191a2623bac144267bbf60014a399250e31eb2481685c306e08712bf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230407154835-bonner-health-campus-hospital-vpx-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "35aceb82f7f756f77758fbb52c52faaa702b7739e71b0f9ac67e6332f5c5317e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230418081154-black-doctors-vpx-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c53cc28dbc1508712af4a784bacb2618db6cf63702b25ad35d095ed5b96ff0b9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230414134212-police-rescue-boy-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "3142f72263ed7e3f614d83de2946a6468366b42bdfcfbc6945a62dd1a4655882"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230404111230-milwaukee-brewers-raffle-winners-newborn-live-video\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "fae1713e4faf91aea9d76b2051e741399fdf27428cbbda9d62dc5c39f5c58951"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230408033635-exp-climate-change-baseball-callahan-intv-040802aseg1-cnni-world-00002001-live-video\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "bd2da65c7f94e02fdfcf23503863abb9607c7c82c148efaee0c2356387c61eb5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230412140935-screengrab-inside-al-asqa-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "dd9ff3fa554ea1f4ba67c2a462465c9e955c088f4237d187e644fe72f0b4fced"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230414125759-janet-yellen-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "560d1c608938aed59101cb58952f123e7301fca08c4e3fadf937c52bdd618e37"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230320171809-screengrab-bruce-willis-birthday-demi-moore-ig-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "feb6bc77effc5bfcb8194af2e3755545cd85296017b66ccad5c14997df186e42"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230319234447-henry-rare-neurological-disorder-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e4ae84efb758dde14a5460bb0137f3c96f595851123930a0abfdab4ee4d0aac9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230401103356-smr-expert-analyzes-school-shooting-responses-00032008-live-video\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "73262f7342e22c4b928d0e8b1ec4c2a9f6e17cf2e5a84e80fa1cd628c5206e69"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com",
+                "www.wwaytv3.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/230417224705-desantis-panel-vpx-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "20248e32dee17cc0ffdec316203dfd14b5f05d8c0ef3fa8e4e20383b401966ad"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "www.wishtv.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/zfm\\/zfh-3\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "z.cdp-dev"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "84841ae2d4dd04ff59ce302baa5421b478dc2f26d092ffb3f9bcadc13c6ca64e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ktvz.com",
+                "www.wfmz.com",
+                "www.wishtv.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.0000545,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.23333333333333334
+        },
+        {
+            "domain": "cnn.io",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 33,
+        "Stylesheet": 5,
+        "XHR": 8,
+        "Preflight": 3,
+        "Image": 49
+    },
+    "nameservers": [
+        "ns-1086.awsdns-07.org",
+        "ns-47.awsdns-05.com",
+        "ns-1630.awsdns-11.co.uk",
+        "ns-576.awsdns-08.net"
+    ]
+}

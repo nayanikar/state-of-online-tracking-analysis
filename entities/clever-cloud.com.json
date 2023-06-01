@@ -1,0 +1,90 @@
+{
+    "domain": "clever-cloud.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "domain.par"
+    ],
+    "cnames": [
+        {
+            "original": "api.jellynote.com",
+            "resolved": "domain.par.clever-cloud.com"
+        },
+        {
+            "original": "widgets.proballers.com",
+            "resolved": "domain.par.clever-cloud.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "clever-cloud\\.com\\/payment\\/plans_summary",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "domain.par"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api.jellynote.com",
+                    "resolved": "domain.par.clever-cloud.com"
+                }
+            ],
+            "responseHashes": [
+                "d9a558dc600e2d1ee36d5572206d61b0fc8419d84e5bac42126d503bb1acfc32"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jellynote.com",
+                "www.jellynote.com"
+            ]
+        },
+        {
+            "rule": "clever-cloud\\.com\\/dist\\/team-schedule-results-banner-widget-v1\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "domain.par"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "widgets.proballers.com",
+                    "resolved": "domain.par.clever-cloud.com"
+                }
+            ],
+            "responseHashes": [
+                "155f0dcea2d0a062c885d889b75db688f65f36bd59071e69afc64d607549be69"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "proballers.com",
+                "www.proballers.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "XHR": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "arvind.ns.cloudflare.com",
+        "angela.ns.cloudflare.com"
+    ]
+}

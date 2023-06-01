@@ -1,0 +1,205 @@
+{
+    "domain": "cifraclub.com.br",
+    "owner": {
+        "name": "Studio Sol Comunicação Digital Ltda",
+        "displayName": "Studio Sol Comunicação Digital"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "id",
+        "master"
+    ],
+    "cnames": [
+        {
+            "original": "accounts.letras.com",
+            "resolved": "id.cifraclub.com.br"
+        },
+        {
+            "original": "accounts.letras.mus.br",
+            "resolved": "id.cifraclub.com.br"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cifraclub\\.com\\.br\\/id\\/v2\\/pt-br\\/client\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [
+                {
+                    "original": "accounts.letras.com",
+                    "resolved": "id.cifraclub.com.br"
+                },
+                {
+                    "original": "accounts.letras.mus.br",
+                    "resolved": "id.cifraclub.com.br"
+                }
+            ],
+            "responseHashes": [
+                "e38158dfcf464e46840bca5923efea142c6acdfaddc048f8a11e8463d3d01f44"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "letras.com",
+                "m.letras.com",
+                "m.letras.mus.br",
+                "www.letras.mus.br"
+            ]
+        },
+        {
+            "rule": "cifraclub\\.com\\.br\\/id\\/v2\\/client\\.latest\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fcdd8078f60f8833861ca0b9f13aba67773278d96cbd4f459b21cdbac2d6a62f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cifraclub.com",
+                "www.cifraclub.com"
+            ]
+        },
+        {
+            "rule": "cifraclub\\.com\\.br\\/id\\/v2\\/es-es\\/client\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "accounts.letras.com",
+                    "resolved": "id.cifraclub.com.br"
+                }
+            ],
+            "responseHashes": [
+                "f559b266090d68137898740e74aa13084ae004c817fdee9a4cc4e8e5cd462ddb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cifraclub.com",
+                "www.cifraclub.com",
+                "www.letras.com"
+            ]
+        },
+        {
+            "rule": "cifraclub\\.com\\.br\\/api\\/v3\\/sponsor",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "master"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cifraclub.com",
+                "www.cifraclub.com"
+            ]
+        },
+        {
+            "rule": "cifraclub\\.com\\.br\\/geoip\\/country\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "master"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9b202ecbc6d45c6d8901d989a918878397a3eb9d00e8f48022fc051b19d21a1d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cifraclub.com",
+                "www.cifraclub.com"
+            ]
+        },
+        {
+            "rule": "cifraclub\\.com\\.br\\/geoip\\/country",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "master"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9b202ecbc6d45c6d8901d989a918878397a3eb9d00e8f48022fc051b19d21a1d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cifraclub.com",
+                "www.cifraclub.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "sscdn.co",
+            "prevalence": 0.6538461538461539
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.34615384615384615
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Stylesheet": 2,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "ns-1325.awsdns-37.org",
+        "ns-598.awsdns-10.net",
+        "ns-406.awsdns-50.com",
+        "ns-1724.awsdns-23.co.uk"
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "domain": "cat-v1.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "api.audioteca.rac1"
+    ],
+    "cnames": [
+        {
+            "original": "api.audioteca.rac1.cat",
+            "resolved": "api.audioteca.rac1.cat-v1.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cat-v1\\.edgekey\\.net\\/rsc\\/img\\/person\\/el-mon\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.audioteca.rac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api.audioteca.rac1.cat",
+                    "resolved": "api.audioteca.rac1.cat-v1.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "8111f996bcfae15b6b127431bd276bbde046ffa3d332fa2746d35afcd8898afd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rac1.cat",
+                "www.rac1.cat"
+            ]
+        },
+        {
+            "rule": "cat-v1\\.edgekey\\.net\\/piece\\/live",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.audioteca.rac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api.audioteca.rac1.cat",
+                    "resolved": "api.audioteca.rac1.cat-v1.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a2474d776f4287a80d84b5fd50417695e0c6faf3f50e670d6c86a4f50eaa9913"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rac1.cat",
+                "www.rac1.cat"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "lavanguardia.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

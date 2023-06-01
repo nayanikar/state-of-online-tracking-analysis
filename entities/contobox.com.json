@@ -1,0 +1,197 @@
+{
+    "domain": "contobox.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [
+        "am",
+        "cbdp",
+        "ws"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "contobox\\.com\\/v3\\/frontend\\/creatives\\/getcode\\.js",
+            "cookies": 0.000703,
+            "fingerprinting": 1,
+            "subdomains": [
+                "am"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 5
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "6a9393732f7f3c1b8d73ed3bb04b42320dae1a312064fadcba1f33e255407560",
+                "ca947148990203729b3f11e739f643032c7d728da83d34e032032a2215d0ef65",
+                "49c36a4f677b5bb7af6772964259ef60e94994b466367b3c44f0ba69f102938d",
+                "1ac7b3dda9877d6e3d25a6a1a1cb2184e167333a5e5d845f1ad744ab2ee5a2f7",
+                "ec1fb875b9782075e93f178e68017b3e921d28fcf2628b25f4d4e15233ff0ee2",
+                "2d9efb2de392e9284f4b33f201497ff418026daf7546140f1f5f1717f21a9bfb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "ctvnews.ca",
+                "homedepot.ca",
+                "www.homedepot.ca",
+                "www.lowes.ca",
+                "www.renodepot.com",
+                "www.rona.ca",
+                "www.toyota.ca"
+            ]
+        },
+        {
+            "rule": "contobox\\.com\\/v3\\/frontend\\/creatives\\/viewload\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "am"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "35787ad2228f1be74936b76ddcba71faadfeb773d7552030ed1136067470bcac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ctvnews.ca",
+                "www.toyota.ca"
+            ]
+        },
+        {
+            "rule": "contobox\\.com\\/v3\\/wsgetcode\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "am"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0420b4862e43c2c5c30863d0f8495d1d51e93bf50916db591dcad0c2639fbf60"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "homedepot.ca",
+                "www.homedepot.ca"
+            ]
+        },
+        {
+            "rule": "contobox\\.com\\/wsrule",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cbdp"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "2d572e2e7432d66183eafa7dbc2a7ecb83fabb934923c8d791ea1968cb9ad2cc",
+                "6dae6b09c892641c48752ef5cf3da368d43c1666f0dddcf4722d99fb5fd0cbcf",
+                "955e331ad6310c4ba9c24c89334ad40592d6a572536ef60f20b59193838df7ec",
+                "217fa6f85d6d8cd21a9cb5eec23ada7bbadeb6b5e5b66f50fb90583dfe912a26",
+                "304369c54831894b5f5034bcea509f032582b55c7959d601f505e5874901532d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homedepot.ca",
+                "www.fountaintire.com",
+                "www.homedepot.ca",
+                "www.lowes.ca",
+                "www.renodepot.com",
+                "www.rona.ca"
+            ]
+        },
+        {
+            "rule": "contobox\\.com\\/getcode\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "a35842c6daa9f1ddc2491349d5baeee529e7d03a0d2708f1a1aafa03d63a2140",
+                "d1f8fbdc91572a821b4bfc31476c484333425732fdc0e07b1c6bd56bdc19fc0a",
+                "01ca95483fee758c997509be15099da76bd47575dd3c906bb189cb953519c5c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fountaintire.com",
+                "www.lowes.ca",
+                "www.renodepot.com",
+                "www.rona.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000803,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-1616.awsdns-10.co.uk",
+        "ns-501.awsdns-62.com",
+        "ns-868.awsdns-44.net",
+        "ns-1257.awsdns-29.org"
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "domain": "venturetechsolutions.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "resources"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "venturetechsolutions\\.com\\/pixel\\/v4\\/vtevents\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8055bfe0b9975ec2089cbc8451de8f63d672af66d47c241ab3a9d1a744d127d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vtsid": {
+                    "ttl": null,
+                    "length": 32,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "vtuid": {
+                    "ttl": 31536004,
+                    "length": 64,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "debt.com",
+                "www.debt.com"
+            ]
+        },
+        {
+            "rule": "venturetechsolutions\\.com\\/pixel\\/v4\\/ping\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ab7b4b104bec31fed34b6731a9fbfca352608e996e79bb41365d8f104a6982d2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "debt.com",
+                "www.debt.com"
+            ]
+        },
+        {
+            "rule": "venturetechsolutions\\.com\\/pixel\\/v4\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "32f0223fa23afed9293d3745ba66eb811930a0b9fefe1c2af1601d4dd6ae10fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "debt.com",
+                "www.debt.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "igor.ns.cloudflare.com",
+        "dee.ns.cloudflare.com"
+    ]
+}

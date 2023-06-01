@@ -1,0 +1,86 @@
+{
+    "domain": "authenticator-prod.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "authenticator.rogersdigitalmedia.com",
+            "resolved": "authenticator-prod.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "authenticator-prod\\.edgekey\\.net\\/anonymous\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "authenticator.rogersdigitalmedia.com",
+                    "resolved": "authenticator-prod.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsnet.ca",
+                "watch.sportsnet.ca"
+            ]
+        },
+        {
+            "rule": "authenticator-prod\\.edgekey\\.net\\/anonymous\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "authenticator.rogersdigitalmedia.com",
+                    "resolved": "authenticator-prod.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "5adab1d76939a0c907179e3505953c7edfbd25c8fb03dc6778e57c533bb63f44"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsnet.ca",
+                "watch.sportsnet.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

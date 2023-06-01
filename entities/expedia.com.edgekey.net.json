@@ -1,0 +1,797 @@
+{
+    "domain": "expedia.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "vacadapter.vap",
+        "vac.vap",
+        "vap"
+    ],
+    "cnames": [
+        {
+            "original": "vac.vap.expedia.com",
+            "resolved": "vac.vap.expedia.com.edgekey.net"
+        },
+        {
+            "original": "vacadapter.vap.expedia.com",
+            "resolved": "vacadapter.vap.expedia.com.edgekey.net"
+        },
+        {
+            "original": "vap.expedia.com",
+            "resolved": "vap.expedia.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/current\\/vacClientAdapter\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "vacadapter.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vacadapter.vap.expedia.com",
+                    "resolved": "vacadapter.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7d6147283c3332ab8609ededc3ddec7822cc163bf83681a1941d9707b3416ab9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/2\\.11\\.0\\/vacLogger\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "96b0410ee48963fcfd55d9dc8d01fbb216673e04fb1d24205209d7fe6e1cecba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com",
+                "www.expedia.com.au",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/vacservice\\/public\\/partners\\/expedia\\/virtualagentcontrols\\/default_vac\\/getScript",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "vap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "vap.expedia.com",
+                    "resolved": "vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com",
+                "www.expedia.com.au"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/virtualAgentControl\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b63c8290545ebe4cf49478c604c14786c4bc0b35de6011e1f3e25f9f45db3be2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com",
+                "www.expedia.com.au",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/vaclog\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vap.expedia.com",
+                    "resolved": "vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com",
+                "www.expedia.com.au",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/vaclog\\/log",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vap"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [
+                {
+                    "original": "vap.expedia.com",
+                    "resolved": "vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com",
+                "www.expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/assets\\/content\\/en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "86e0e5f3c10bc2a193fd3890b15511de47a5837eeab7a92ba47a684a55ec90ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com",
+                "www.expedia.com.au",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/index\\.html",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a2cbc7a6680bc6e5853115b1cf37619de920881af27bb4b0ce9459ab9500a534"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com",
+                "www.expedia.com.au",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/akam\\/13\\/5ca1b298",
+            "cookies": 0.000301,
+            "fingerprinting": 3,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1f72f3288f26d6baa7885bf112c6af1e684e37e14a6873ba059b0c9b227a69ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/0\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/1\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/2\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/5\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/6\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/7\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/104\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/101\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/118\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/100\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/vac-chat\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/119\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/123\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/akam\\/13\\/pixel_5ca1b298",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/vac-ably\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b6257339385dd4472c294b36fc75861841202e8b39ca15a58c8aae2ad0931789"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com",
+                "www.lastminute.com.au",
+                "www.wotif.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/assets\\/css\\/expedia\\/App\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "cff5938404a151be50a4b3c93e5051f8af110b745a96c9ce0fe320a1f30d3e93"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.com.au",
+                "www.expedia.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\.edgekey\\.net\\/3\\.39\\.0\\/df-19\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vac.vap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "vac.vap.expedia.com",
+                    "resolved": "vac.vap.expedia.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6da7f5c2386717d55b8abea7964300b061d515a48009b74e6b2db5250a9c5133"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lastminute.com.au",
+                "www.wotif.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "travel-assets.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 27,
+        "Preflight": 4,
+        "XHR": 8,
+        "Document": 4,
+        "Other": 52,
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

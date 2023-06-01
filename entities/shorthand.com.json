@@ -1,0 +1,131 @@
+{
+    "domain": "shorthand.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "iframely",
+        "analytics",
+        "gateway"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "shorthand\\.com\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "iframely"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9e89a92b0ee6959fc76460b414049e3bd12fbe00b119e5a6bdc51faf9f37a9cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cam.ac.uk",
+                "www.english-heritage.org.uk"
+            ]
+        },
+        {
+            "rule": "shorthand\\.com\\/analytics_4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "window.innerHeight": 2,
+                "Navigator.prototype.languages": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "31500787cb7d55f3c4315d62a37219e2869a77b2dd4797ba2fc6d475ab59ea28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cam.ac.uk",
+                "www.english-heritage.org.uk"
+            ]
+        },
+        {
+            "rule": "shorthand\\.com\\/analytics\\/story",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "980b7f55a683bbc1b7b949002504511053e73bd5c76647ab5823dfa0195e74d6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cam.ac.uk",
+                "www.english-heritage.org.uk"
+            ]
+        },
+        {
+            "rule": "shorthand\\.com\\/analytics\\/story",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cam.ac.uk",
+                "www.english-heritage.org.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1042.awsdns-02.org",
+        "ns-891.awsdns-47.net",
+        "ns-420.awsdns-52.com",
+        "ns-1740.awsdns-25.co.uk"
+    ]
+}

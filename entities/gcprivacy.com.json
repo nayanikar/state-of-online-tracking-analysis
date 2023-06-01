@@ -1,0 +1,121 @@
+{
+    "domain": "gcprivacy.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "p",
+        "p2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gcprivacy\\.com\\/t\\/gcid_s\\.min\\.js",
+            "cookies": 0.000602,
+            "fingerprinting": 1,
+            "subdomains": [
+                "p"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "8548fa5f198e18b0feca552d0f369f4c9fc15b9990ef9d28ab2fc556f3e8153e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "gcid_first": {
+                    "ttl": 7776016,
+                    "length": 36,
+                    "prevalence": 0.0006024096385542169,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "greenwichmeantime.com",
+                "segmentnext.com",
+                "www.iphonelife.com",
+                "www.jpost.com",
+                "www.pythontutorial.net",
+                "www.ranker.com",
+                "www.sqltutorial.org"
+            ]
+        },
+        {
+            "rule": "gcprivacy\\.com\\/v2\\/sync",
+            "cookies": 0.000703,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p2"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "238d8c95cbdaed71b09f765c2891c8c2ec2c0bfa0609d83a06af4ec021434465",
+                "3d80befe2e4b4bc3490980b666fa09b50708656bf3524667c3e96aded58c5ac6",
+                "d72f5414693e5c604c711345b70aabf83ca5dee63a1650b6de58171988e21e4e",
+                "494c9f715134d080c123cf393154aaea3497d452407c3524ad98d1846a37f84c",
+                "736a2a861954de70090fd8d07e2a1a5dd86d1489757aa0317c5183a6a48f77a2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00030120481927710846,
+                "panoramaId": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "greenwichmeantime.com",
+                "segmentnext.com",
+                "www.iphonelife.com",
+                "www.jpost.com",
+                "www.pythontutorial.net",
+                "www.ranker.com",
+                "www.sqltutorial.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000703,
+    "topInitiators": [
+        {
+            "domain": "adapex.io",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "increaserev.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "XHR": 7
+    },
+    "nameservers": [
+        "ns-1134.awsdns-13.org",
+        "ns-1818.awsdns-35.co.uk",
+        "ns-409.awsdns-51.com",
+        "ns-828.awsdns-39.net"
+    ]
+}

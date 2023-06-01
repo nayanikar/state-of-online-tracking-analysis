@@ -1,0 +1,86 @@
+{
+    "domain": "xhmb4.x.incapdns.net",
+    "owner": {
+        "name": "Imperva Inc.",
+        "displayName": "Imperva"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "service.menards.com",
+            "resolved": "xhmb4.x.incapdns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "xhmb4\\.x\\.incapdns\\.net\\/ProductDetailsService\\/v9\\/products\\/slider\\.ajx",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "service.menards.com",
+                    "resolved": "xhmb4.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "menards.com",
+                "www.menards.com"
+            ]
+        },
+        {
+            "rule": "xhmb4\\.x\\.incapdns\\.net\\/ProductDetailsService\\/v9\\/products\\/slider\\.ajx",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "service.menards.com",
+                    "resolved": "xhmb4.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [
+                "88e33b5b949c4f919fb80e56d3add9c0ea6c6df26d59cb72511855607ee95ed1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "menards.com",
+                "www.menards.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "menardc.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

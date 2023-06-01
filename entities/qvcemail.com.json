@@ -1,0 +1,64 @@
+{
+    "domain": "qvcemail.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "q.share"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "qvcemail\\.com\\/core\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "q.share"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "f72c2b99312b38bf0d479ed6fdc700976b5a215a0480b54ce92bdeb0507b7162",
+                "af7366a0681907278add27666dbd117a1a4ee2b55e4aa3c07a0a0f8eec720a6b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qvc.com",
+                "community.qvc.com",
+                "www.qvc.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns1.qvc.com",
+        "ns3.qvc.com",
+        "ns2.qvc.com"
+    ]
+}

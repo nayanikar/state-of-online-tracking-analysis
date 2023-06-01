@@ -1,0 +1,63 @@
+{
+    "domain": "taskanalytics.com",
+    "owner": {
+        "name": "Task Analytics",
+        "displayName": "Task Analytics"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "in2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "taskanalytics\\.com\\/tm\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "in2"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "84b0d90a518e353080c0d6584433782483ab7f66d43358c068c4ef24a186951e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "policeconduct.gov.uk",
+                "www.policeconduct.gov.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "betty.ns.cloudflare.com",
+        "hans.ns.cloudflare.com"
+    ]
+}

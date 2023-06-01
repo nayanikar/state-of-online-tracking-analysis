@@ -1,0 +1,105 @@
+{
+    "domain": "privado.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "www.cdn",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "privado\\.ai\\/b230e0658a2d4f23bd9374dc1930f2c9\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www.cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.language": 1,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c9fe3bed4f498f3230173cf29db683f99d674da9c08f59497561955a394cebdc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oup.com",
+                "academic.oup.com"
+            ]
+        },
+        {
+            "rule": "privado\\.ai\\/geo\\/b230e0658a2d4f23bd9374dc1930f2c9_Global\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c9fe3bed4f498f3230173cf29db683f99d674da9c08f59497561955a394cebdc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oup.com",
+                "academic.oup.com"
+            ]
+        },
+        {
+            "rule": "privado\\.ai\\/version\\/indexV1\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "b9ce9e5ab558f8774690620818b8c908516eb0973fd8d8c5890ee914e2f3dd0b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oup.com",
+                "academic.oup.com",
+                "textrapp.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+    ]
+}

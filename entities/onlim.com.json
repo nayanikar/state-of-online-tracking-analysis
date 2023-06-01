@@ -1,0 +1,312 @@
+{
+    "domain": "onlim.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "app-premium",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "onlim\\.com\\/chat-app\\/js\\/host\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-premium",
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3bbb1e862233cab31c3b6e35d6946ef754780e4b31aa02830db2e3b89a27813d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmx.net",
+                "www.local.ch"
+            ]
+        },
+        {
+            "rule": "onlim\\.com\\/chat-app\\/runtime\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-premium",
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cc006a71bad11c28f9d96672c7b9724f7558ae0a6c3a363a0bbef2c8ebdf105d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmx.net",
+                "www.local.ch"
+            ]
+        },
+        {
+            "rule": "onlim\\.com\\/chat-app\\/polyfills\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app-premium",
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5196f4383d0226586edaaf39d873571f3ef4dac7243560623f4a7ee6c3799e38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmx.net",
+                "www.local.ch"
+            ]
+        },
+        {
+            "rule": "onlim\\.com\\/chat-app\\/main\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app-premium",
+                "app"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTimezoneOffset": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "13d1f1ce7f56b770ec4d1c970cda26857234a2b57d36e3df1411bc7972549667"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1681949255,
+                    "length": 1,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmx.net",
+                "www.local.ch"
+            ]
+        },
+        {
+            "rule": "onlim\\.com\\/chat-app\\/assets\\/appConfig\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-premium",
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "536fcd1d4c40c7b35820677e37cac71360f25e60bdc9c9225f4b177f95458eca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmx.net",
+                "www.local.ch"
+            ]
+        },
+        {
+            "rule": "onlim\\.com\\/chat-app\\/assets\\/html\\/interface\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-premium",
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2853f916d453e82efd1ed33ac500d53f3b4f3a54d22d8437059a577d329758ea"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmx.net",
+                "www.local.ch"
+            ]
+        },
+        {
+            "rule": "onlim\\.com\\/chat-app\\/interface\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app-premium",
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6bd7a7026ecc99df2289bc9fc5cf812bad45eaddd3e2f0ea970f6da4cc0a36b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmx.net",
+                "www.local.ch"
+            ]
+        },
+        {
+            "rule": "onlim\\.com\\/api\\/cs\\/ws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-premium",
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmx.net",
+                "www.local.ch"
+            ]
+        },
+        {
+            "rule": "onlim\\.com\\/chat-app\\/assets\\/i18n\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-premium",
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2623ce782b0be96f03174fc7701dac68535579e876d717b05fa65090d00fd370"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmx.net",
+                "www.local.ch"
+            ]
+        },
+        {
+            "rule": "onlim\\.com\\/chat-app\\/roboto-sans\\.b009a76ad6afe4ebd301\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-premium"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c6bdd002d23dcb0adbd87e3518bdd994de73818a0f0f502707986301b9fbc404"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmx.net",
+                "hilfe.gmx.net"
+            ]
+        },
+        {
+            "rule": "onlim\\.com\\/chat-app\\/open-sans\\.f57a62e9efddf6ace18b\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c48e0380855b0b3a91d9c14c434b2dc8d38c5adca55a8b4ebe2d1e3869407caa"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "local.ch",
+                "www.local.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "ui-portal.de",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 4,
+        "Document": 2,
+        "WebSocket": 2,
+        "Font": 4
+    },
+    "nameservers": [
+        "amanda.ns.cloudflare.com",
+        "derek.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "domain": "grace.link",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "stats"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "grace\\.link\\/api\\/v1\\/f50c14c5ef78f2e5cd9c986ed37e1920b867ec9c\\/Load\\/",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4c3b798c4f87f58b8951f1ba623606d14ce5a7c900e1f18c8faa14b406fe4518"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "banky.cz",
+                "www.banky.cz"
+            ]
+        },
+        {
+            "rule": "grace\\.link\\/api\\/v1\\/f50c14c5ef78f2e5cd9c986ed37e1920b867ec9c\\/Log\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9ca13d33e6cc459a8ca4f81eb34e7315e89b9af52e9e7a2d05939259b1f7920b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "banky.cz",
+                "www.banky.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1.uniregistry-dns.com",
+        "ns2.uniregistry-dns.com",
+        "ns1.uniregistry-dns.net",
+        "ns2.uniregistry-dns.net"
+    ]
+}

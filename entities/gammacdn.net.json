@@ -1,0 +1,111 @@
+{
+    "domain": "gammacdn.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "fp2a01.adn"
+    ],
+    "cnames": [
+        {
+            "original": "adtag.sphdigital.com",
+            "resolved": "fp2a01.adn.gammacdn.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gammacdn\\.net\\/tag\\/smx\\/prebid\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "fp2a01.adn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "adtag.sphdigital.com",
+                    "resolved": "fp2a01.adn.gammacdn.net"
+                }
+            ],
+            "responseHashes": [
+                "9dae68837251c1692ade6e57bd146378d3158aabd92706c8e3522b09a6b2b84a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592007,
+                    "length": 16,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asiaone.com",
+                "www.straitstimes.com"
+            ]
+        },
+        {
+            "rule": "gammacdn\\.net\\/tag\\/smx\\/smx_prebid\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "fp2a01.adn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "adtag.sphdigital.com",
+                    "resolved": "fp2a01.adn.gammacdn.net"
+                }
+            ],
+            "responseHashes": [
+                "3787a776c834491c5bd1c4f6ec86536fd200aec10ebf9f7ed89030b7a7346930"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "UserFirstVisit": {
+                    "ttl": 4740,
+                    "length": 1,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asiaone.com",
+                "www.straitstimes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "google-analytics.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns4.gammacdn.net",
+        "ns1.gammacdn.net",
+        "ns3.gammacdn.net",
+        "ns2.gammacdn.net"
+    ]
+}

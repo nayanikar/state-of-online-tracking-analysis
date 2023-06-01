@@ -1,0 +1,86 @@
+{
+    "domain": "yeps.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "widget",
+        "widget-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "yeps\\.io\\/yeps\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.languages": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c3345917488c25da5226b79f1653d454f999d52f8d9ac3afbc44e79390a9bf8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "phdessay.com",
+                "www.miracare.com"
+            ]
+        },
+        {
+            "rule": "yeps\\.io\\/widget\\/pageView",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a3129a3a4d6ecdc707a5b05d71e68654a7a1319580075d70dfe570ab2a060814"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "miracare.com",
+                "www.miracare.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "karsyn.ns.cloudflare.com",
+        "kolton.ns.cloudflare.com"
+    ]
+}

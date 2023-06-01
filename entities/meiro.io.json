@@ -1,0 +1,162 @@
+{
+    "domain": "meiro.io",
+    "owner": {
+        "name": "Meiro Pte. Ltd",
+        "displayName": "Meiro"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "sdk.me.bca",
+        "bca.cdp",
+        "me.bca",
+        "me.ttd"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "meiro\\.io\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk.me.bca"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "meiro_user_id_js": {
+                    "ttl": 63072000,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bca.co.id",
+                "www.bca.co.id"
+            ]
+        },
+        {
+            "rule": "meiro\\.io\\/wbs\\/ip_lookup",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bca.cdp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bca.co.id",
+                "www.bca.co.id"
+            ]
+        },
+        {
+            "rule": "meiro\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "me.bca"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bca.co.id",
+                "www.bca.co.id"
+            ]
+        },
+        {
+            "rule": "meiro\\.io\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "me.bca"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bca.co.id",
+                "www.bca.co.id"
+            ]
+        },
+        {
+            "rule": "meiro\\.io\\/tradedesk_sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "me.ttd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "meiro_user_id_js": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "bca.co.id",
+                "www.bca.co.id"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 4,
+        "Preflight": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns3.digitalocean.com",
+        "ns2.digitalocean.com",
+        "ns1.digitalocean.com"
+    ]
+}

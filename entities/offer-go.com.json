@@ -1,0 +1,66 @@
+{
+    "domain": "offer-go.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "offer-go\\.com\\/wct\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9839e63e028c1f30b74795e7431666f86cc4c440d44fa6d2a556ba18850871b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_wctrck": {
+                    "ttl": 14400,
+                    "length": 257,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lovefreund.de",
+                "www.smart-home-fox.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "beau.ns.cloudflare.com",
+        "jo.ns.cloudflare.com"
+    ]
+}

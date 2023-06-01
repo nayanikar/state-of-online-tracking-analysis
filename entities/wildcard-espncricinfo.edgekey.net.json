@@ -1,0 +1,186 @@
+{
+    "domain": "wildcard-espncricinfo.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "hs-consumer-api.espncricinfo.com",
+            "resolved": "wildcard-espncricinfo.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "wildcard-espncricinfo\\.edgekey\\.net\\/v1\\/global\\/feed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "hs-consumer-api.espncricinfo.com",
+                    "resolved": "wildcard-espncricinfo.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espncricinfo.com",
+                "www.espncricinfo.com"
+            ]
+        },
+        {
+            "rule": "wildcard-espncricinfo\\.edgekey\\.net\\/v1\\/pages\\/page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "hs-consumer-api.espncricinfo.com",
+                    "resolved": "wildcard-espncricinfo.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espncricinfo.com",
+                "www.espncricinfo.com"
+            ]
+        },
+        {
+            "rule": "wildcard-espncricinfo\\.edgekey\\.net\\/v1\\/global\\/feed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "hs-consumer-api.espncricinfo.com",
+                    "resolved": "wildcard-espncricinfo.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1a1a79914db191376629258cb4d5204413b485d42fa7699c11022a379e9f95b6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espncricinfo.com",
+                "www.espncricinfo.com"
+            ]
+        },
+        {
+            "rule": "wildcard-espncricinfo\\.edgekey\\.net\\/v1\\/pages\\/page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "hs-consumer-api.espncricinfo.com",
+                    "resolved": "wildcard-espncricinfo.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "071a072e9949889163563fc70ff6fe401eef9d413b95da7f31046da45a2ef6a7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espncricinfo.com",
+                "www.espncricinfo.com"
+            ]
+        },
+        {
+            "rule": "wildcard-espncricinfo\\.edgekey\\.net\\/v1\\/pages\\/matches\\/current",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "hs-consumer-api.espncricinfo.com",
+                    "resolved": "wildcard-espncricinfo.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espncricinfo.com",
+                "www.espncricinfo.com"
+            ]
+        },
+        {
+            "rule": "wildcard-espncricinfo\\.edgekey\\.net\\/v1\\/pages\\/matches\\/current",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "hs-consumer-api.espncricinfo.com",
+                    "resolved": "wildcard-espncricinfo.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "772ee64e35c1fdf8cc0fd654581448bb282e7dd9c3f571629d8d6b0bf9b53cf8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espncricinfo.com",
+                "www.espncricinfo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "espn.com",
+            "prevalence": 0.7
+        },
+        {
+            "domain": "hscicdn.com",
+            "prevalence": 0.3
+        }
+    ],
+    "types": {
+        "Preflight": 6,
+        "Fetch": 6
+    },
+    "nameservers": []
+}

@@ -1,0 +1,234 @@
+{
+    "domain": "mautic.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [
+        "shakeshack",
+        "combe",
+        "bsnsports",
+        "costa-rica-tourism"
+    ],
+    "cnames": [
+        {
+            "original": "landing.bsnsports.com",
+            "resolved": "bsnsports.mautic.net"
+        },
+        {
+            "original": "your.etsu.edu",
+            "resolved": "mautic.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mautic\\.net\\/mautic\\/media\\/js\\/mautic-form\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shakeshack",
+                "combe"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ef1004abe58af785d24b92efaab748840aa9ae068676dababe985650d71c05c6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shakeshack.com",
+                "www.justformen.com"
+            ]
+        },
+        {
+            "rule": "mautic\\.net\\/mtc\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bsnsports",
+                "combe",
+                "costa-rica-tourism"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "window.localStorage": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [
+                {
+                    "original": "landing.bsnsports.com",
+                    "resolved": "bsnsports.mautic.net"
+                },
+                {
+                    "original": "your.etsu.edu",
+                    "resolved": "mautic.net"
+                }
+            ],
+            "responseHashes": [
+                "b23068a564933ae0ebf5837a65e62af75f04f4d55fa79eb715fb69bf6863ef7b",
+                "4a32e66caff7381cdf15dca85ac88af5a162c7593f50f4f5750fa1a0c00eca48",
+                "d491c450d24654436e635d98b6b331e8d36031150f654add224e4f0d3b8ab35f",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mtc_id": {
+                    "ttl": null,
+                    "length": 7,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "mtc_sid": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "mautic_device_id": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bsnsports.com",
+                "www.bsnsports.com",
+                "www.etsu.edu",
+                "www.justformen.com",
+                "www.visitcostarica.com"
+            ]
+        },
+        {
+            "rule": "mautic\\.net\\/mtc\\/event",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bsnsports",
+                "combe"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [
+                {
+                    "original": "landing.bsnsports.com",
+                    "resolved": "bsnsports.mautic.net"
+                },
+                {
+                    "original": "your.etsu.edu",
+                    "resolved": "mautic.net"
+                }
+            ],
+            "responseHashes": [
+                "c0a9e0373bb3c37aeeab7546ca0a68b316b97ead84070027cd888ed00fc2e85e",
+                "c42d743e2926eaca605d8fcf57f27953048de3c28dcc528c1fd5d4ad77ced78d",
+                "196b9701c8335b7c5caab5fb5c12f3ad4d2418fd649d5a7cfeedae0b25244fea"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bsnsports.com",
+                "www.bsnsports.com",
+                "www.etsu.edu",
+                "www.justformen.com"
+            ]
+        },
+        {
+            "rule": "mautic\\.net\\/mtc\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bsnsports",
+                "combe"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [
+                {
+                    "original": "landing.bsnsports.com",
+                    "resolved": "bsnsports.mautic.net"
+                },
+                {
+                    "original": "your.etsu.edu",
+                    "resolved": "mautic.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bsnsports.com",
+                "www.bsnsports.com",
+                "www.etsu.edu",
+                "www.justformen.com"
+            ]
+        },
+        {
+            "rule": "mautic\\.net\\/mautic\\/media\\/css\\/modal\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "combe"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "456abdf681ebc4caac61d7eb6635e21a81d1dcc10f730b98719a65c2a88fe7ee"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justformen.com",
+                "www.justformen.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "XHR": 4,
+        "Preflight": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e4.googledomains.com"
+    ]
+}

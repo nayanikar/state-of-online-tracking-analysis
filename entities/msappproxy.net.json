@@ -1,0 +1,60 @@
+{
+    "domain": "msappproxy.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "redaktion-strickhofch"
+    ],
+    "cnames": [
+        {
+            "original": "redaktion.strickhof.ch",
+            "resolved": "redaktion-strickhofch.msappproxy.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "msappproxy\\.net\\/server\\/api\\/Bild\\/GetHauptbild",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "redaktion-strickhofch"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "redaktion.strickhof.ch",
+                    "resolved": "redaktion-strickhofch.msappproxy.net"
+                }
+            ],
+            "responseHashes": [
+                "a8c553edd03aec117d0787bbf8178f1008b99dbba6abab6d3e9e6fc188aa2b09"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "strickhof.ch",
+                "www.strickhof.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "types": {
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1-01.azure-dns.com",
+        "ns2-01.azure-dns.net",
+        "ns3-01.azure-dns.org",
+        "ns4-01.azure-dns.info"
+    ]
+}

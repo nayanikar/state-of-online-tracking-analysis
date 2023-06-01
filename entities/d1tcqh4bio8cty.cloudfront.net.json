@@ -1,0 +1,97 @@
+{
+    "domain": "d1tcqh4bio8cty.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "m.stripe.network",
+            "resolved": "d1tcqh4bio8cty.cloudfront.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "d1tcqh4bio8cty\\.cloudfront\\.net\\/inner-preview\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "m.stripe.network",
+                    "resolved": "d1tcqh4bio8cty.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "a5f27af9c0c6f37979ebafcac22eb3a613841a3d4e728f4577baf94e64d42f35"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stripe.com",
+                "dashboard.stripe.com",
+                "support.stripe.com"
+            ]
+        },
+        {
+            "rule": "d1tcqh4bio8cty\\.cloudfront\\.net\\/out-4\\.5\\.42\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "m.stripe.network",
+                    "resolved": "d1tcqh4bio8cty.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "f445ee14f2454d974293d28677213ae002e9ac17721fc04b2fdeb037e083b083"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stripe.com",
+                "dashboard.stripe.com",
+                "support.stripe.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 3,
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-1342.awsdns-39.org",
+        "ns-1827.awsdns-36.co.uk",
+        "ns-444.awsdns-55.com",
+        "ns-594.awsdns-10.net"
+    ]
+}

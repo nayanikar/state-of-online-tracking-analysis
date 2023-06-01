@@ -1,0 +1,197 @@
+{
+    "domain": "trigs-sockets.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "re",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "trigs-sockets\\.com\\/js\\/rw\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "re"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Event.prototype.timeStamp": 4,
+                "window.devicePixelRatio": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e3c832994e3c6227d8831bd983ab7ba0cd2ce2825dccd5ed717431cd78e7fbc5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hpplus.jp",
+                "lee.hpplus.jp",
+                "madamefigaro.jp",
+                "spur.hpplus.jp"
+            ]
+        },
+        {
+            "rule": "trigs-sockets\\.com\\/api\\/v1\\/ad",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "aa65613a7a77cd7c23fc094dcf4049eff28e9be5641590ec49faf05bef9ea3c1",
+                "4766eedce1b0379c6de5f73ca11520228fe57f4fd6cf7628045c7625445c78b4",
+                "0457d51e4742298fbe97cd6f5c85bdcf8afb091f39c206713b62b128d72779a2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hpplus.jp",
+                "lee.hpplus.jp",
+                "madamefigaro.jp",
+                "spur.hpplus.jp"
+            ]
+        },
+        {
+            "rule": "trigs-sockets\\.com\\/css\\/rw\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "re"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "ed277e9e7ba56720d409062d80f86941012947b865ecc4e1ed56cab5f7227298"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hpplus.jp",
+                "lee.hpplus.jp",
+                "madamefigaro.jp",
+                "spur.hpplus.jp"
+            ]
+        },
+        {
+            "rule": "trigs-sockets\\.com\\/img\\/trigs_kansei_catch\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "re"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2292d8bf91c86590c300cd534133eea3ef9af1d225986fe8dc92ae7c1031ce29"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hpplus.jp",
+                "spur.hpplus.jp"
+            ]
+        },
+        {
+            "rule": "trigs-sockets\\.com\\/img\\/logo_simple\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "re"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6393e735bf5df5eb74f0e3dc57f3cc8f8cab6b0da36ca8afa28fde1a65a7aa46"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hpplus.jp",
+                "lee.hpplus.jp",
+                "spur.hpplus.jp"
+            ]
+        },
+        {
+            "rule": "trigs-sockets\\.com\\/api\\/v1\\/imp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "a7a97ca90ec3706e0e16eebebc15741c2c977b66864f62064e6e61f7ba0cf3b5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hpplus.jp",
+                "lee.hpplus.jp",
+                "madamefigaro.jp",
+                "spur.hpplus.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6923076923076923
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.11538461538461539
+        },
+        {
+            "domain": "google-analytics.com",
+            "prevalence": 0.038461538461538464
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4,
+        "Stylesheet": 4,
+        "Image": 9
+    },
+    "nameservers": [
+        "ns-363.awsdns-45.com",
+        "ns-1697.awsdns-20.co.uk",
+        "ns-993.awsdns-60.net",
+        "ns-1404.awsdns-47.org"
+    ]
+}

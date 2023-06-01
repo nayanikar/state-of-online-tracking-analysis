@@ -1,0 +1,129 @@
+{
+    "domain": "yellowmap.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "www",
+        "staging"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "yellowmap\\.de\\/Provider\\/JSApiProvider\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "961beef3cef682c8a192ec0def5039e9f2f7e7f72a55eedcf2156da7416d90af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bw-bank.de",
+                "www.lbs.de"
+            ]
+        },
+        {
+            "rule": "yellowmap\\.de\\/api_js\\/v1\\/OpenLayers\\/2\\.12\\/OpenLayers\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c840421012c50d661431e509ec7b670ac163575f3fb9c369deab30fa1a5f801d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bw-bank.de",
+                "www.lbs.de"
+            ]
+        },
+        {
+            "rule": "yellowmap\\.de\\/Presentation\\/SpardaSUW\\/build\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "staging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "29a0a553c0effb49c7bbf6fbcbda4fe39b3fdc95dde2e334ab95bdaf54fceb29"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sparda-sw.de",
+                "www.sparda-sw.de"
+            ]
+        },
+        {
+            "rule": "yellowmap\\.de\\/Presentation\\/SpardaSUW\\/build\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "staging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "42db9beec4eb1c3df9e5b26dbfd693ddb48d09ab3821cca943bf35903bacd99b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sparda-sw.de",
+                "www.sparda-sw.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns1.cas.de",
+        "ns2.cas.de",
+        "ns1.cas-software.de",
+        "ns2.cas-software.de"
+    ]
+}

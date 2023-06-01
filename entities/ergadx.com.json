@@ -1,0 +1,196 @@
+{
+    "domain": "ergadx.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "tg1",
+        "cdn",
+        "servt",
+        "cpm"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ergadx\\.com\\/api\\/adserver\\/spt",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tg1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appVersion": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "3763904806143f901e068530224c2c5ae352c2dbc90ef8fcb3465701799b1833",
+                "fbeecb9c1f7bc82e255b3802af86e297504449b761163073857ba8130ccefcd6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lokmat.com",
+                "epaper.lokmat.com",
+                "www.newindianexpress.com"
+            ]
+        },
+        {
+            "rule": "ergadx\\.com\\/js\\/35\\/lokmat-ads\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c8debbed91dfdbcc79271af6fdcfb0cc02f9765871522532df289342a96956dc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lokmat.com",
+                "epaper.lokmat.com"
+            ]
+        },
+        {
+            "rule": "ergadx\\.com\\/track",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "servt"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lokmat.com",
+                "epaper.lokmat.com",
+                "www.newindianexpress.com"
+            ]
+        },
+        {
+            "rule": "ergadx\\.com\\/hb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cpm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8da1618cffdd87f2ce5b665fc836be08447046d8d95c309298fa7889d5f6da67"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lokmat.com",
+                "epaper.lokmat.com"
+            ]
+        },
+        {
+            "rule": "ergadx\\.com\\/js\\/1508\\/ads\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "83f38c353998a2021d1458fce20ef815a206e11ac60fb4451cc48cf7a2446381"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newdelhiairport.in",
+                "www.newdelhiairport.in"
+            ]
+        },
+        {
+            "rule": "ergadx\\.com\\/js\\/830\\/ads\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "145d4f472143d3cf3735ede3d5b45f286fbfceeba5fcd37a5628cc734f72dddf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tellychakkar.com",
+                "www.tellychakkar.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5294117647058824
+        },
+        {
+            "domain": "aniview.com",
+            "prevalence": 0.29411764705882354
+        },
+        {
+            "domain": "enewspapr.com",
+            "prevalence": 0.11764705882352941
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Image": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "diva.ns.cloudflare.com",
+        "josh.ns.cloudflare.com"
+    ]
+}

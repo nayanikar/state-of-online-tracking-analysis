@@ -1,0 +1,90 @@
+{
+    "domain": "images-dot.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "images-dot\\.com\\/static\\/assets\\/img\\/logo_header\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4977ee93be9b8dd43047b1ad913628d87c6c396b7151f1142d327b5b48c4d39e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "dot.asahi.com"
+            ]
+        },
+        {
+            "rule": "images-dot\\.com\\/static\\/assets\\/js\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "442a3e004f1e33e1515007845d66ac527a6ead06cc8178b9433406660ebb90cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "dot.asahi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1313.awsdns-36.org",
+        "ns-247.awsdns-30.com",
+        "ns-984.awsdns-59.net",
+        "ns-1537.awsdns-00.co.uk"
+    ]
+}

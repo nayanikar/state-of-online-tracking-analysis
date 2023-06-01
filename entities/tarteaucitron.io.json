@@ -1,0 +1,174 @@
+{
+    "domain": "tarteaucitron.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tarteaucitron\\.io\\/load\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "5740ec8d5c7b2cd7df0650c51b74cfa0fea79e43ba45b36e4910d9f988d27782",
+                "e4104ef1671d76acee628d114a99df0ec779759de3ea392a2593eccac994d8aa",
+                "a8f95ef2c3f628e7fc078aa595aa7b7837f1f2c19eb6e0c0c814bb1927719462"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tarteaucitroncatalogue": {
+                    "ttl": 31536005,
+                    "length": 5,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "tarteaucitron": {
+                    "ttl": 31536007,
+                    "length": 10,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "tarteaucitrongallica": {
+                    "ttl": 31536004,
+                    "length": 5,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bnf.fr",
+                "cvi.ch",
+                "gallica.bnf.fr",
+                "www.salamandre.org"
+            ]
+        },
+        {
+            "rule": "tarteaucitron\\.io\\/css\\/tarteaucitron\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "70abfb15fe599e14ce4cc6c7ee8fff5d4c34fd5b9053a69e46952e4627e578c3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bnf.fr",
+                "cvi.ch",
+                "gallica.bnf.fr"
+            ]
+        },
+        {
+            "rule": "tarteaucitron\\.io\\/lang\\/tarteaucitron\\.en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ab51aabb779c3fa0da54afcf05165e3a578815bc9582e0daec4053a5152ae3db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bnf.fr",
+                "gallica.bnf.fr"
+            ]
+        },
+        {
+            "rule": "tarteaucitron\\.io\\/tarteaucitron\\.services\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "90313d4eef2e66d7e6b54687ed28fcc9321d2c88cad8cc5c6387df065b720a21"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bnf.fr",
+                "cvi.ch",
+                "gallica.bnf.fr"
+            ]
+        },
+        {
+            "rule": "tarteaucitron\\.io\\/log\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "ac554a4ea8b34bbb80db013e14be195ebc986f82f24e5b18b0ea9032ef561f57"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "tarteaucitron": 0.0001004217714400482
+            },
+            "exampleSites": [
+                "bnf.fr",
+                "cvi.ch",
+                "gallica.bnf.fr",
+                "www.eleveurs-online.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Stylesheet": 3,
+        "Image": 4
+    },
+    "nameservers": [
+        "dns111.ovh.net",
+        "ns111.ovh.net"
+    ]
+}

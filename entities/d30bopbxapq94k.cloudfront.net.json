@@ -1,0 +1,83 @@
+{
+    "domain": "d30bopbxapq94k.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "d30bopbxapq94k\\.cloudfront\\.net\\/js\\/curalate-widget-client-all-v3\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "8e2814fb165c5752e3a21551f036ecb764badf577e396fbfa7ab82f84ae1b1b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "crl8.fpcuid": {
+                    "ttl": 31536007,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bloomscape.com",
+                "fellowproducts.com",
+                "www.ballarddesigns.com",
+                "www.garnethill.com",
+                "www.overstock.com",
+                "www.potterybarnkids.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-1042.awsdns-02.org",
+        "ns-1793.awsdns-32.co.uk",
+        "ns-353.awsdns-44.com",
+        "ns-983.awsdns-58.net"
+    ]
+}

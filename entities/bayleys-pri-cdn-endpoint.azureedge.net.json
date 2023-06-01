@@ -1,0 +1,147 @@
+{
+    "domain": "bayleys-pri-cdn-endpoint.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "bayleys-pri-cdn-endpoint\\.azureedge\\.net\\/web-assets\\/pri\\/wwwapplication\\/js\\/polyfills\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "90ebaf0e0ca2c417069a047e6419f4522baa20a73cbe5eba50a99456c253193e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bayleys.co.nz",
+                "www.bayleys.co.nz"
+            ]
+        },
+        {
+            "rule": "bayleys-pri-cdn-endpoint\\.azureedge\\.net\\/web-assets\\/pri\\/wwwapplication\\/css\\/purged\\/app\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "85f93a43a93467b4eb4aedbbbdb5e187720059f95b89ee167c044baa1ee18cb2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bayleys.co.nz",
+                "www.bayleys.co.nz"
+            ]
+        },
+        {
+            "rule": "bayleys-pri-cdn-endpoint\\.azureedge\\.net\\/web-assets\\/pri\\/wwwapplication\\/js\\/jquery-perf-bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 1,
+                "Element.prototype.getClientRects": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Event.prototype.timeStamp": 2,
+                "window.devicePixelRatio": 1,
+                "window.outerWidth": 1,
+                "window.outerHeight": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ebf59d66c615c394c2261214036739885e09b03a4c114ee58c39c2ea3f97f1fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bayleys.co.nz",
+                "www.bayleys.co.nz"
+            ]
+        },
+        {
+            "rule": "bayleys-pri-cdn-endpoint\\.azureedge\\.net\\/web-assets\\/dev\\/\\/img\\/svg\\/cursor-default\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3cb620c8eebfefca95dfd8eef5189436e79c6ca261078d8d3bb4636a65273b5f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bayleys.co.nz",
+                "www.bayleys.co.nz"
+            ]
+        },
+        {
+            "rule": "bayleys-pri-cdn-endpoint\\.azureedge\\.net\\/web-assets\\/dev\\/\\/img\\/svg\\/cursor-pointer\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "46972a55cff8dd9403dc8c9bd1ce277f780c8381a1415096552bf00e125e97f9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bayleys.co.nz",
+                "www.bayleys.co.nz"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2,
+        "Image": 4
+    },
+    "nameservers": []
+}

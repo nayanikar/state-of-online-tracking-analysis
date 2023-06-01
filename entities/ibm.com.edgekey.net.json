@@ -1,0 +1,74 @@
+{
+    "domain": "ibm.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "outer-global-v4"
+    ],
+    "cnames": [
+        {
+            "original": "api.www.s81c.com",
+            "resolved": "outer-global-v4.ibmcom.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ibm\\.com\\.edgekey\\.net\\/webmaster\\/dbip\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "outer-global-v4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.www.s81c.com",
+                    "resolved": "outer-global-v4.ibmcom.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "84ddc46736e4c8542f1b3144248127546f9fea83cf9a813a6f6d597e9b57b4ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibm.com",
+                "www.ibm.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9583333333333334
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.020833333333333332
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.020833333333333332
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

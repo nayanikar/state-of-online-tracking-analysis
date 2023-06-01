@@ -1,0 +1,99 @@
+{
+    "domain": "deliverr.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000749,
+    "sites": 11,
+    "subdomains": [
+        "shopify-fast-tags",
+        "shopify"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "deliverr\\.com\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shopify-fast-tags"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Navigator.prototype.webdriver": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "9d6042c9246c417121748c31bf9ebffd506a2e56a6e3025f8dbd4b84123d9704"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grillpartsreplacement.com",
+                "hostagetape.com",
+                "hustlerhollywood.com",
+                "kizik.com",
+                "new.thechosen.tv",
+                "plugable.com"
+            ]
+        },
+        {
+            "rule": "deliverr\\.com\\/v1\\/shop\\/the-chosen-merch\\/shop-badge-global-context",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopify"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "69d8428d7f2a928e7699fd71650c62771e1b1c41bab3c9e2d718960a454fdbd3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thechosen.tv",
+                "new.thechosen.tv"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.44
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "multi-pixels.com",
+            "prevalence": 0.08
+        },
+        {
+            "domain": "intelligems.io",
+            "prevalence": 0.08
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-903.awsdns-48.net",
+        "ns-1440.awsdns-52.org",
+        "ns-123.awsdns-15.com",
+        "ns-1881.awsdns-43.co.uk"
+    ]
+}

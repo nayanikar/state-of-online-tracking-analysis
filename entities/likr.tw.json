@@ -1,0 +1,558 @@
+{
+    "domain": "likr.tw",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "avivid",
+        "avividone"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "likr\\.tw\\/avivid_css\\/avivid_pseudo_native_subscribe\\/avivid_pseudo_native_subscribe\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "5fdffe46c571b0b392a68f61772f38210b2172738fc1dac3be70794daefebf6b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalantikus.com",
+                "thanhnien.vn",
+                "www.chinatimes.com",
+                "www.islampos.com",
+                "www.setn.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/api\\/ios_water_webpush_v21\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.appVersion": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "52040964ed7622e75a8f4d885e0aa6fb8b478839f3c4b03feaa9c89107a8ee38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalantikus.com",
+                "thanhnien.vn",
+                "www.chinatimes.com",
+                "www.islampos.com",
+                "www.setn.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/killswitch\\/killswitch_config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avividone"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "c0dac38b5e95e80193665025abe33d3d8d3982624384d9744f154169d9906c22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalantikus.com",
+                "thanhnien.vn",
+                "www.chinatimes.com",
+                "www.setn.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/sample\\/aws-sdk-AviviD-min-1\\.000\\.3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "d80f6ec3a78924d5f5276bd680cbfb9dd37879691c648dc14755cb3d9c5bf3b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalantikus.com",
+                "thanhnien.vn",
+                "www.chinatimes.com",
+                "www.setn.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/pushEndPoint\\/js\\/firebasejs\\/8\\.6\\.8\\/firebase-messaging\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {
+                "window.indexedDB": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Notification.permission": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "aa81ca3af4294db272d0322126acff07bf55a1fb9a88daa037e50938309993a3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalantikus.com",
+                "thanhnien.vn",
+                "www.chinatimes.com",
+                "www.setn.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/api\\/subscribe_core\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "199a597ada4901acc90becf589e8e663bc4f9856be23cea39be4d16035254ae9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AviviD_uuid": {
+                    "ttl": 315360007,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "AviviD_refresh_uuid_status": {
+                    "ttl": 315360007,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "webuserid": {
+                    "ttl": 315360007,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "AviviD_already_exist": {
+                    "ttl": 86433,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "AviviD_sw_version": {
+                    "ttl": 315360009,
+                    "length": 14,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "page_view": {
+                    "ttl": 86409,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "AviviD_waterfall_status": {
+                    "ttl": 315360009,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "AviviD_tid_rmed": {
+                    "ttl": 315360030,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "AviviD_show_sub": {
+                    "ttl": 86433,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "AviviD_token_retake": {
+                    "ttl": 604813,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/api\\/ring_only_tracking\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Notification.permission": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d54ca817820e756b03ac7988bc55d90690f0890a6a5d94489ee98462f01ec9d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/api\\/ios_water_webpush_v19\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "157574f14deacf8bf56a030224aa96f01cf64e48c602af20acf23c10e613f17b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/settings_file_json\\/20181005000001\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "488a34e8454de1fa93eb85d4f53a41221bcbada086b263d3a3ac9b7c6798297c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/sample\\/before_page\\/ctnews\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "62f8258ecf264abedf7d57570487323766b8a3e78e34d5fa4454bf59bfd68000"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/api\\/avivid_waterfall_subscribe_v2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/api\\/avivid_waterfall_webpush\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/api\\/avivid_waterfall_subscribe_v3\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/api\\/avivid_waterfall_webpush_v2_william\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/api\\/fa-times\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/api\\/fa-bell\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/pushEndPoint\\/js\\/sw_fcm_import_cert\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "558ee443c37ae8e895ff16ccfec9c8524a9ca73824224e7769a7ee61ef174603"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.setn.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/sample\\/aws-sdk-AviviD-min-1\\.000\\.3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d80f6ec3a78924d5f5276bd680cbfb9dd37879691c648dc14755cb3d9c5bf3b3"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.setn.com"
+            ]
+        },
+        {
+            "rule": "likr\\.tw\\/settings_file_json\\/20180709000001\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avivid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4557a7d22bf92a6e43f134128c035288037e345a39bccd3c504967112190ac00"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "setn.com",
+                "www.setn.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.4090909090909091
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.30303030303030304
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25757575757575757
+        },
+        {
+            "domain": "thanhnien.com.vn",
+            "prevalence": 0.030303030303030304
+        }
+    ],
+    "types": {
+        "Stylesheet": 13,
+        "Script": 25,
+        "XHR": 4,
+        "Image": 4,
+        "Other": 4
+    },
+    "nameservers": [
+        "elaine.ns.cloudflare.com",
+        "guy.ns.cloudflare.com"
+    ]
+}

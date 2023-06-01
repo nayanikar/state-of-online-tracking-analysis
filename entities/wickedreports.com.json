@@ -1,0 +1,114 @@
+{
+    "domain": "wickedreports.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "widget",
+        "track"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wickedreports\\.com\\/widget\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.appVersion": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "144d8e97e6c7cf0fb2b2d6191c48d19aa5c161d157319b81368b98e44ca68524"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wickedEmails177546": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "wickedfu_null": {
+                    "ttl": 86421,
+                    "length": 270,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "culturesforhealth.com",
+                "foodrevolution.org",
+                "www.luxoliving.com.au"
+            ]
+        },
+        {
+            "rule": "wickedreports\\.com\\/index\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2ac515b9ae3a170d67ae74fd32dffa6cdde73c7da02099b23a525ba1320f51ed",
+                "8786704aade586444b9a2c87606d9cdb58efb133d4c969b3978c062e1bb69b9f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "culturesforhealth.com",
+                "foodrevolution.org",
+                "www.luxoliving.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-1255.awsdns-28.org",
+        "ns-1888.awsdns-44.co.uk",
+        "ns-236.awsdns-29.com",
+        "ns-982.awsdns-58.net"
+    ]
+}

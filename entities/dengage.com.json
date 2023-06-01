@@ -1,0 +1,146 @@
+{
+    "domain": "dengage.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "pcdn",
+        "push"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "dengage\\.com\\/p\\/push\\/148\\/c89e71fb-6da3-4eb1-2479-4af53c45ae19\\/dengage_sdk\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "pcdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie setter": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d31fad061da18f927af66d9f3dd8ea5c7ae1d46b7d42c5c5bb61c887fa832a84"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_dn_data": {
+                    "ttl": null,
+                    "length": 42,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "n11.com",
+                "www.n11.com"
+            ]
+        },
+        {
+            "rule": "dengage\\.com\\/p\\/push\\/148\\/c89e71fb-6da3-4eb1-2479-4af53c45ae19\\/dengage_onsite\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a0f258b8bb04f8120b165a91d05b3a2d6df7bd82601bb1cf5523c1ae9d955f26"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "n11.com",
+                "www.n11.com"
+            ]
+        },
+        {
+            "rule": "dengage\\.com\\/api\\/onsite\\/getMessages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "push"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "n11.com",
+                "www.n11.com"
+            ]
+        },
+        {
+            "rule": "dengage\\.com\\/api\\/web\\/subscription",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "push"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c1436f013d4e07095a5a4bb65ac418fb769a398e247f2224807b3ec41bae4fe0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "n11.com",
+                "www.n11.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-cloud-c3.googledomains.com",
+        "ns-cloud-c4.googledomains.com",
+        "ns-cloud-c2.googledomains.com",
+        "ns-cloud-c1.googledomains.com"
+    ]
+}

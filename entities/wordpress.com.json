@@ -1,0 +1,156 @@
+{
+    "domain": "wordpress.com",
+    "owner": {
+        "name": "Automattic, Inc.",
+        "displayName": "Automattic",
+        "privacyPolicy": "https://automattic.com/privacy/",
+        "url": "http://automattic.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00181,
+    "sites": 18,
+    "subdomains": [
+        "public-api",
+        "r-login",
+        "videos.files"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wordpress\\.com\\/wp-admin\\/rest-proxy\\/",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "public-api"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.vendor": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "cc80189a2576755e841bef99d1387f865f593b63fc77125200a4d82721d5cd57"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikexchange.com",
+                "roserambles.org",
+                "sunnysjournal.com"
+            ]
+        },
+        {
+            "rule": "wordpress\\.com\\/geo\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "70e636d9b98918c2d0d60653f154668a7ece85d4aa4a08f42823aa0668072ca2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cairnsnews.org",
+                "globalnews.ca",
+                "ideas.ted.com",
+                "stylecaster.com"
+            ]
+        },
+        {
+            "rule": "wordpress\\.com\\/remote-login\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r-login"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "3272326afc899f4965d0d9d0fde0c2e24fa18c9876da36191f35c3b79314f292",
+                "b1fa67bb7414b2340dbc9122ac341a26b4e0b9ce6813470e6cd502586953840f",
+                "0c94da64f2ed0e419db69100279f1a6c0d29ae824231b3682e2dcba26aea8fe5",
+                "2f022c26faec665e9d0d0be2dad65ac90bca21333494cb8374793fb9fff710f1"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cairnsnews.org",
+                "massagebyclaire.com",
+                "queenslandlawhandbook.org.au",
+                "roserambles.org",
+                "sunnysjournal.com"
+            ]
+        },
+        {
+            "rule": "wordpress\\.com\\/Yzs9H6I3\\/about-vanessa-van-edwards_mp4_dvd\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "videos.files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8b72f81781b517c411e85130c07b1c3f4dc660131cc4ef163b8de4371e682179"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scienceofpeople.com",
+                "www.scienceofpeople.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.000703,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8947368421052632
+        },
+        {
+            "domain": "wp.com",
+            "prevalence": 0.09473684210526316
+        },
+        {
+            "domain": "videopress.com",
+            "prevalence": 0.010526315789473684
+        }
+    ],
+    "types": {
+        "Document": 8,
+        "XHR": 4,
+        "Media": 2
+    },
+    "nameservers": [
+        "ns2.wordpress.com",
+        "ns3.wordpress.com",
+        "ns4.wordpress.com",
+        "ns1.wordpress.com"
+    ]
+}

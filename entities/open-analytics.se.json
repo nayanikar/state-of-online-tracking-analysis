@@ -1,0 +1,287 @@
+{
+    "domain": "open-analytics.se",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "tracker.transportstyrelsen",
+        "tracker.hsb",
+        "tracker.msb",
+        "tracker.oph"
+    ],
+    "cnames": [
+        {
+            "original": "open-analytics.hrw.org",
+            "resolved": "open-analytics.se"
+        },
+        {
+            "original": "tracking.oph.fi",
+            "resolved": "tracker.oph.open-analytics.se"
+        },
+        {
+            "original": "tracking.webbanalys.msb.se",
+            "resolved": "tracker.msb.open-analytics.se"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "open-analytics\\.se\\/js\\/container_Z8n8vkKp\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tracker.transportstyrelsen"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.name": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "210ed1dee675b02d24bf514087e3d8f14b87f7b142d8c0c1717bf4a42dd9b9d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "transportstyrelsen.se",
+                "www.transportstyrelsen.se"
+            ]
+        },
+        {
+            "rule": "open-analytics\\.se\\/\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker.transportstyrelsen"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "transportstyrelsen.se",
+                "www.transportstyrelsen.se"
+            ]
+        },
+        {
+            "rule": "open-analytics\\.se\\/\\/plugins\\/HeatmapSessionRecording\\/configs\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker.transportstyrelsen"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "78f84381b810333a2fffabb815005a2e17744d72e59bf784c628c58982cc3c9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "transportstyrelsen.se",
+                "www.transportstyrelsen.se"
+            ]
+        },
+        {
+            "rule": "open-analytics\\.se\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker.hsb",
+                "tracker.msb",
+                "tracker.oph"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [
+                {
+                    "original": "open-analytics.hrw.org",
+                    "resolved": "open-analytics.se"
+                },
+                {
+                    "original": "tracking.webbanalys.msb.se",
+                    "resolved": "tracker.msb.open-analytics.se"
+                },
+                {
+                    "original": "tracking.oph.fi",
+                    "resolved": "tracker.oph.open-analytics.se"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hrw.org",
+                "www.hsb.se",
+                "www.msb.se",
+                "www.oph.fi"
+            ]
+        },
+        {
+            "rule": "open-analytics\\.se\\/js\\/container_1D4aLUTE\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tracker.hsb"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.name": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "NavigatorUAData.prototype.brands": 1,
+                "NavigatorUAData.prototype.platform": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "10ba47139cae9d7e18d9e7834c9cc63ee3f71c9e5e62c80b9e988dee82009487"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hsb.se",
+                "www.hsb.se"
+            ]
+        },
+        {
+            "rule": "open-analytics\\.se\\/js\\/container_F96Nf4nS\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tracker.msb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "tracking.webbanalys.msb.se",
+                    "resolved": "tracker.msb.open-analytics.se"
+                }
+            ],
+            "responseHashes": [
+                "bb1a354a41eda5492bfcd191ba654d69eba73c466007d4a1f1b15d42795e6d1e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "msb.se",
+                "www.msb.se"
+            ]
+        },
+        {
+            "rule": "open-analytics\\.se\\/plugins\\/HeatmapSessionRecording\\/configs\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker.msb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "tracking.webbanalys.msb.se",
+                    "resolved": "tracker.msb.open-analytics.se"
+                }
+            ],
+            "responseHashes": [
+                "0037063c4bf580bde7e3e32f829422cb3fb76167813892a997e7b8c71377c6e4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "msb.se",
+                "www.msb.se"
+            ]
+        },
+        {
+            "rule": "open-analytics\\.se\\/js\\/container_LIpYfoRJ\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tracker.oph"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "tracking.oph.fi",
+                    "resolved": "tracker.oph.open-analytics.se"
+                }
+            ],
+            "responseHashes": [
+                "ad9fb21426fb41526c4f66f79e8337fa38c5e03a15eab3a523518c22eca2f3c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oph.fi",
+                "www.oph.fi"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Ping": 6
+    },
+    "nameservers": [
+        "ns1.dnshost.net",
+        "ns2.dnshost.net"
+    ]
+}

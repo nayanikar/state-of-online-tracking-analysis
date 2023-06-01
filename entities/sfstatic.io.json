@@ -1,0 +1,140 @@
+{
+    "domain": "sfstatic.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "sw5435",
+        "sw10509"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sfstatic\\.io\\/_design\\/smartytemplates\\/store\\/template001\\/assets\\/css\\/libs\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sw5435",
+                "sw10509"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d4b51eeb5cc0303e74555b3845f8b37c6cfd5a1939411458d870068ec19a9609"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scandihills.no",
+                "sealine-products.no"
+            ]
+        },
+        {
+            "rule": "sfstatic\\.io\\/_design\\/smartytemplates\\/store\\/template001\\/assets\\/css\\/template\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sw5435",
+                "sw10509"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7e06eff1faf3d5d878d5ff0b00b0823d28fa7aefc2c8e273d7a661036dc5bcf6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scandihills.no",
+                "sealine-products.no"
+            ]
+        },
+        {
+            "rule": "sfstatic\\.io\\/_design\\/smartytemplates\\/store\\/template001\\/assets\\/js\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sw10509",
+                "sw5435"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "window.sessionStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "599a0839965bdca494ad37946dac2c5f6c8af6409f4d29268594854da341c7c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sealine-products.no",
+                "scandihills.no"
+            ]
+        },
+        {
+            "rule": "sfstatic\\.io\\/_design\\/common\\/libs\\/font-awesome\\/latest\\/fonts\\/fontawesome-webfont\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sw10509",
+                "sw5435"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9682aff0dfb2932f5273721abd9190df39eeb0f42c37a24566aa4ac5753219c1"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sealine-products.no",
+                "scandihills.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8392857142857143
+        },
+        {
+            "domain": "d1pna5l3xsntoj.cloudfront.net",
+            "prevalence": 0.16071428571428573
+        }
+    ],
+    "types": {
+        "Stylesheet": 4,
+        "Script": 2,
+        "Font": 2
+    },
+    "nameservers": [
+        "ns1.wannafind.dk",
+        "ns2.wannafind.dk"
+    ]
+}

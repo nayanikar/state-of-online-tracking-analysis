@@ -1,0 +1,108 @@
+{
+    "domain": "talkshop.live",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "integration-sh-proxy",
+        "embed",
+        "integration-sh"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "talkshop\\.live\\/feed-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "integration-sh-proxy"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d21fb3d9cecd8c6e0fe606ab7c7efd3482e449c7bbd790bcdfe046b26443a4a6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unique-vintage.com",
+                "www.unique-vintage.com"
+            ]
+        },
+        {
+            "rule": "talkshop\\.live\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "87106885f02e5a61ecdd80a1d74a1d4bbe9fbac88bd78462f3d15e00c7dd225b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unique-vintage.com",
+                "www.unique-vintage.com"
+            ]
+        },
+        {
+            "rule": "talkshop\\.live\\/static\\/section-load-event-listener\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "integration-sh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "df9440be2fce99597886fc1baecdd5918a7d011c6724f03475b5b6f9ef6a4644"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unique-vintage.com",
+                "www.unique-vintage.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-4.awsdns-00.com",
+        "ns-1380.awsdns-44.org",
+        "ns-1901.awsdns-45.co.uk",
+        "ns-594.awsdns-10.net"
+    ]
+}

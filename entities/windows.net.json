@@ -1,0 +1,405 @@
+{
+    "domain": "windows.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00833,
+    "sites": 83,
+    "subdomains": [
+        "preeziestaticcontent.blob.core",
+        "prod-eh-v1-analytics.servicebus",
+        "xmarket-frontend-prod-east-us.servicebus",
+        "wowuatmediaaae.blob.core",
+        "cookiesapac.blob.core",
+        "optanon.blob.core",
+        "insitez.blob.core",
+        "instocknotify.blob.core",
+        "edqprofservus.blob.core"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "windows\\.net\\/static\\/images\\/start_loading\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "preeziestaticcontent.blob.core"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "76aafbdc28179076ea0d2170bdf63d114ef44ba888eeb3f70e14d6c88358ac12"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triumph.com",
+                "bluebungalow.com.au",
+                "missamara.com.au",
+                "mylinen.com.au",
+                "superbutcher.com.au",
+                "www.bikesonline.com.au",
+                "www.blackpepper.com.au",
+                "www.manchesterwarehouse.com.au",
+                "www.myhaircare.com.au",
+                "www.novoshoes.com.au",
+                "www.shiels.com.au"
+            ]
+        },
+        {
+            "rule": "windows\\.net\\/static\\/fonts\\/Poppins-Regular-Preezie\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "preeziestaticcontent.blob.core"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "239eb8da1fd0dc9b1413eafabf2dc0e105ff2291adfd3614f89a1311e79b00d6"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triumph.com",
+                "mylinen.com.au",
+                "superbutcher.com.au",
+                "www.blackpepper.com.au",
+                "www.manchesterwarehouse.com.au",
+                "www.myhaircare.com.au",
+                "www.novoshoes.com.au",
+                "www.shiels.com.au"
+            ]
+        },
+        {
+            "rule": "windows\\.net\\/$servicebus\\/websocket",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-eh-v1-analytics.servicebus",
+                "xmarket-frontend-prod-east-us.servicebus"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triumph.com",
+                "bluebungalow.com.au",
+                "missamara.com.au",
+                "mylinen.com.au",
+                "superbutcher.com.au",
+                "takelessons.com",
+                "www.bikesonline.com.au",
+                "www.blackpepper.com.au",
+                "www.manchesterwarehouse.com.au",
+                "www.myhaircare.com.au",
+                "www.novoshoes.com.au",
+                "www.shiels.com.au"
+            ]
+        },
+        {
+            "rule": "windows\\.net\\/content\\/content\\/Drinkwise_Badges\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wowuatmediaaae.blob.core"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b186328ce6b22af0e55e4216bb2e903e6c1921af1d13b1aae9f03db0c4a31cf9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "woolworths.com.au",
+                "www.woolworths.com.au"
+            ]
+        },
+        {
+            "rule": "windows\\.net\\/logos\\/static\\/ot_guard_logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookiesapac.blob.core",
+                "optanon.blob.core"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "691dcdb24853a0f5ce4e6597e5713dea66799b57ffe2c2a10f28f98e0b569b19"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acer.com",
+                "docs.unity3d.com",
+                "www.acer.com"
+            ]
+        },
+        {
+            "rule": "windows\\.net\\/static\\/fonts\\/Lato-Regular-Preezie\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "preeziestaticcontent.blob.core"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "5c5cb5a51ea1ae037a3b4d195e91111287eab188efd6753643a5cf1bcabe173d"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "matchbox.com.au",
+                "superbutcher.com.au",
+                "www.manchesterwarehouse.com.au",
+                "www.novoshoes.com.au"
+            ]
+        },
+        {
+            "rule": "windows\\.net\\/static\\/fonts\\/Montserrat-Regular-Preezie\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "preeziestaticcontent.blob.core"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "f538c2890d54ac88a9493f00c9c4606bb0d96a35d5a62feb7cc21d042e98fbeb"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "superbutcher.com.au",
+                "www.bikesonline.com.au",
+                "www.blackpepper.com.au",
+                "www.shiels.com.au"
+            ]
+        },
+        {
+            "rule": "windows\\.net\\/widget\\/IzCode\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "insitez.blob.core"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Screen.prototype.availWidth": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 1,
+                "window.localStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "10fd3fc3c8a7fa9d8acd518aa906fbdf504016c524c1ae070bf2a4ed58dc1321"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_iz_sd_ss_": {
+                    "ttl": null,
+                    "length": 104,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "_iz_uh_ps_": {
+                    "ttl": 31536013,
+                    "length": 120,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "commonsensemedia.org",
+                "www.lovehoney.com.au",
+                "www.officenational.com.au"
+            ]
+        },
+        {
+            "rule": "windows\\.net\\/stencil\\/2af054c0-3d21-4f7f-b1ec-5d019fb1f0ec\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "instocknotify.blob.core"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hsw.com.au",
+                "www.hsw.com.au"
+            ]
+        },
+        {
+            "rule": "windows\\.net\\/assets\\/1\\.6\\.3\\/global-intuitive-unicorn\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edqprofservus.blob.core"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ba6afb54e221709b8deb4a95dcf8aa9e5501c0444fa26e31f89dd909e5721d60"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeanswest.com.au",
+                "www.roddandgunn.com"
+            ]
+        },
+        {
+            "rule": "windows\\.net\\/static\\/fonts\\/NotoSans-Regular-Preezie\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "preeziestaticcontent.blob.core"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "30bf87ef930a1e902417030d5bab013fdd3cc7fdf7e30e85db6c4ba63f8d3078"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "keelerhardware.com.au",
+                "www.myhaircare.com.au",
+                "www.novoshoes.com.au",
+                "www.shiels.com.au"
+            ]
+        },
+        {
+            "rule": "windows\\.net\\/static\\/fonts\\/Lato-Bold-Preezie\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "preeziestaticcontent.blob.core"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "685a9661ef8012804ca73d4c84e06c8e10816d05b4095e0103361cb52fcfb37f"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manchesterwarehouse.com.au",
+                "www.novoshoes.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8681102362204725
+        },
+        {
+            "domain": "azureedge.net",
+            "prevalence": 0.10236220472440945
+        },
+        {
+            "domain": "openforms.com",
+            "prevalence": 0.007874015748031496
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.007874015748031496
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.005905511811023622
+        },
+        {
+            "domain": "onetrust.com",
+            "prevalence": 0.001968503937007874
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.001968503937007874
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.001968503937007874
+        },
+        {
+            "domain": "woolworths.media",
+            "prevalence": 0.001968503937007874
+        }
+    ],
+    "types": {
+        "Image": 13,
+        "Font": 22,
+        "WebSocket": 12,
+        "Fetch": 3,
+        "Script": 5,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns2-39.azure-dns.net",
+        "ns1-39.azure-dns.com",
+        "ns4-39.azure-dns.info",
+        "ns3-39.azure-dns.org"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "domain": "oath.cloud",
+    "owner": {
+        "name": "Verizon Media",
+        "displayName": "Verizon Media",
+        "privacyPolicy": "https://www.verizon.com/about/privacy/privacy-policy-summary",
+        "url": "http://verizon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "real.rotation.guce.aws"
+    ],
+    "cnames": [
+        {
+            "original": "guce.compuserve.com",
+            "resolved": "real.rotation.guce.aws.oath.cloud"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "oath\\.cloud\\/v1\\/consentRecord",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "real.rotation.guce.aws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "guce.compuserve.com",
+                    "resolved": "real.rotation.guce.aws.oath.cloud"
+                }
+            ],
+            "responseHashes": [
+                "d05a51df9e4a0ffe71ae1832db62af3bc7df9bcaa2443eb2ec686322c4eed7e7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "compuserve.com",
+                "www.compuserve.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "oath.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns1.yahoo.com",
+        "ns2.yahoo.com",
+        "ns5.yahoo.com",
+        "ns4.yahoo.com",
+        "ns3.yahoo.com"
+    ]
+}

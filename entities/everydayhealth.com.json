@@ -1,0 +1,98 @@
+{
+    "domain": "everydayhealth.com",
+    "owner": {
+        "name": "Ziff Davis LLC",
+        "displayName": "Ziff Davis"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "assets",
+        "zdstatic"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "everydayhealth\\.com\\/library\\/fast\\/edh\\.fast\\.1\\.6\\.13\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b03dd66ee8f60382f5062afcc6a8ee78d551a8207e3ab8167f0c8ad6d4672fa2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bphope.com",
+                "www.bphope.com"
+            ]
+        },
+        {
+            "rule": "everydayhealth\\.com\\/jst\\/zdconsent\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "zdstatic"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "b0ee4aede22a0fc1bfc60149e5269f3e303370fce64aecc905c159487c3442db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bphope.com",
+                "www.bphope.com",
+                "www.castleconnolly.com",
+                "www.diabetesdaily.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-1479.awsdns-56.org",
+        "ns-1668.awsdns-16.co.uk",
+        "ns-197.awsdns-24.com",
+        "ns-547.awsdns-04.net"
+    ]
+}

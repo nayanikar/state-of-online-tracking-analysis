@@ -1,0 +1,136 @@
+{
+    "domain": "traderinteractive.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "fp",
+        "tile"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "traderinteractive\\.com\\/",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "b0ece4b1f4efedcc60256f95bd35b6c34e5b0ee43ebdf3b8f8503bb7a93a0361",
+                "8354477a6d469188f21e77b76debb01a505c5658e2fa51b74b5f287251a059d1",
+                "43efa7e6091bacbcbeb3d8909835e0f0e33a83742cf76bdd824491fea1924d19"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "casitatraveltrailers.com",
+                "www.lazydays.com",
+                "www.rvinsider.com",
+                "www.rvt.com"
+            ]
+        },
+        {
+            "rule": "traderinteractive\\.com\\/prod\\/static\\/avbt-main\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [
+                "tile"
+            ],
+            "apis": {
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.plugins": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "WebGLRenderingContext.prototype.getContextAttributes": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.productSub": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e8f20d23984d5ab68a32b445918c0e4ad3d05da22d49fe7cd0ec567eb76c53b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ti-avbt": {
+                    "ttl": 172800000,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "ti-avbt-fp": {
+                    "ttl": null,
+                    "length": 20,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lazydays.com",
+                "www.lazydays.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000545,
+    "topInitiators": [
+        {
+            "domain": "fpnpmcdn.net",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-689.awsdns-22.net",
+        "ns-1151.awsdns-15.org",
+        "ns-142.awsdns-17.com",
+        "ns-1905.awsdns-46.co.uk"
+    ]
+}

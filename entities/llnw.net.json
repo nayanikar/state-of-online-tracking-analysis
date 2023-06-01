@@ -1,0 +1,102 @@
+{
+    "domain": "llnw.net",
+    "owner": {
+        "name": "Limelight Networks, Inc.",
+        "displayName": "Limelight Networks"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "production-ps.lvp",
+        "s2.content.video"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "llnw\\.net\\/r\\/PlaylistService\\/media\\/4ab9ef74c38847f381220e90c67d3eac\\/getMobilePlaylistByMediaId",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "production-ps.lvp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6bc8015420dc0c8dfe06b89e61c6d3402aa908fee0cc196b849516a2f43f5474"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "broadcom.com",
+                "www.broadcom.com"
+            ]
+        },
+        {
+            "rule": "llnw\\.net\\/lovs\\/images-prod\\/582dd700945f4a7aa6a7bb6f0d70aead\\/media\\/4ab9ef74c38847f381220e90c67d3eac\\/thumbnail\\.1280x720\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s2.content.video"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a8d3518e30d883cb4a82d93350b29e88f405538680c8fe4000057163f57d8409"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "broadcom.com",
+                "www.broadcom.com"
+            ]
+        },
+        {
+            "rule": "llnw\\.net\\/smedia\\/582dd700945f4a7aa6a7bb6f0d70aead\\/KN\\/g7J9UbbYIlOVOTWaTAkKs4canKickFZUsMitqLSrs\\/broadcom_lab_h264_2k\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s2.content.video"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "broadcom.com",
+                "www.broadcom.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Image": 2,
+        "Media": 2
+    },
+    "nameservers": [
+        "aa2.dns.llnw.net",
+        "aa1.dns.llnw.net"
+    ]
+}

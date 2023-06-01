@@ -1,0 +1,466 @@
+{
+    "domain": "tvp.pl",
+    "owner": {
+        "name": "DOMENY.PL sp. z o.o",
+        "displayName": "DOMENY.PL"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "www",
+        "s",
+        "smartapp-tvplayer3-prod",
+        "ads",
+        "polityka-prywatnosci",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tvp\\.pl\\/shared\\/details\\.php",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9d506027440bece7c6f7830231b89ab66c15ea4acacd24366f733f76a572c1c6"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gazetakrakowska.pl",
+                "pomorska.pl"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/files\\/portale-v4\\/polityka-prywatnosci\\/js\\/tvp-embed-cmp\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4d838e14da778a801eed4186441dd420ad948107e0dbe78ec283c18f60307ea4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gazetakrakowska.pl",
+                "pomorska.pl"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/files\\/portale-v4\\/tvp-info\\/images\\/logo\\/tvp-info-ukraina\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a2bd40a6e56f0825f0ed34baa1dd3ef26630fcf6f656a4e66dc3c3fa479a887b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/releases\\/tvplayer3\\/default\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartapp-tvplayer3-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "767332144a2e63f10971a01af753dbf1f3e9f8b76f49cfab93993958b76013ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/files\\/tvp-info\\/v2\\/lib\\/jquery\\.colorbox-min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d8a8ad56cfca37e45102314ec6ad76a364c1b6b5734dc4fc366687811ace0599"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/files\\/portale-v4\\/tvp-info\\/vue\\/clamp\\/clamp\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ca24f711afccde9619815620746b0bf522785580c3b638f3bed612d9ffd8c666"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/files\\/portale-v4\\/tvp-info\\/vue\\/vue\\/vue\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4da2dc78cc23591a9ee3285ba8f3891fa57b506b7902fbdd35fa5a2172566c55"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/files\\/js\\/ado\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "551c9151f4816e93d37fc2a6be317ae002389f4733c7c9a732960ceda32078d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/releases\\/tvplayer3\\/default\\/player\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartapp-tvplayer3-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/assets\\/vue\\/2\\.6\\.14\\/vue\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "smartapp-tvplayer3-prod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/assets\\/vue-class-component\\/7\\.2\\.6\\/vue-class-component\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartapp-tvplayer3-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/releases\\/tvplayer3\\/default\\/player\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "smartapp-tvplayer3-prod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.platform": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1,
+                "Navigator.prototype.requestMediaKeySystemAccess": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/_1421059656\\/ad\\.xml",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/__\\/_1421059656\\/ad\\.xml",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/shared\\/consent_api\\.php",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polityka-prywatnosci"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8f8cfcab9c9e04f79368c6c308bfc332900171aeed9d4d02efd633c13897371b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/___\\/_1681833823\\/ad\\.xml",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/shared\\/player2withoutTokenizer\\/api\\.dist\\.php",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5d9d7fb46ab8f0987e89a61b8a1712252b3e0546a1e67f9c9893842a308402e4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "tvp\\.pl\\/tokenizer\\/token\\/69251010",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bee243b40b913a8704c01f1ab3f741cba2b9843596ce9b959df3554a032994ca"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvp.info",
+                "www.tvp.info"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9425287356321839
+        },
+        {
+            "domain": "twitter.com",
+            "prevalence": 0.034482758620689655
+        },
+        {
+            "domain": "h-cdn.com",
+            "prevalence": 0.022988505747126436
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Script": 12,
+        "Image": 8,
+        "Other": 8,
+        "XHR": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "dns-b.itvp.pl",
+        "dns-c.itvp.pl",
+        "dns-a.itvp.pl"
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "domain": "docomo-analytics.com",
+    "owner": {
+        "name": "Nippon Telegraph and Telephone Corporation",
+        "displayName": "NTT"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "docomo-analytics\\.com\\/js\\/contents\\/da-qu-poly\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "da6edb24036c543eba9c06f42967a30535a0c22fab35b9e3976e6575af471ae7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ichi-oshi.jp",
+                "www.ichi-oshi.jp"
+            ]
+        },
+        {
+            "rule": "docomo-analytics\\.com\\/js\\/contents\\/union2_pi\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f972e738341ec1e7cf940d46dd5917fd37f617abd5f8e1865658c89371ff7e10"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.125.e8f4": {
+                    "ttl": 33955202,
+                    "length": 52,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_pk_ses.125.e8f4": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jleague.jp",
+                "www.jleague.jp"
+            ]
+        },
+        {
+            "rule": "docomo-analytics\\.com\\/dcm\\/tr\\/dcmAn\\/img",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jleague.jp",
+                "www.jleague.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1330.awsdns-38.org",
+        "ns-954.awsdns-55.net",
+        "ns-1640.awsdns-13.co.uk",
+        "ns-177.awsdns-22.com"
+    ]
+}

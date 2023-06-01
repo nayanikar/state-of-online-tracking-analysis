@@ -1,0 +1,108 @@
+{
+    "domain": "gettopple.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "delivery",
+        "engine"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gettopple\\.com\\/ad-provider\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7835d0c2c3b5cd480aa992f6dfbc5f03f9452c1fd54fee489d0d6179c0dfed67"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanthinker.com",
+                "www.ar15.com"
+            ]
+        },
+        {
+            "rule": "gettopple\\.com\\/v1\\/api\\.php",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engine"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ec56209ca42ce276aff91606883a60c443eef9ae0f034663cac413a1e81154ee"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanthinker.com",
+                "www.ar15.com"
+            ]
+        },
+        {
+            "rule": "gettopple\\.com\\/cimp\\.php",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engine"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanthinker.com",
+                "www.ar15.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "publir.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "cheryl.ns.cloudflare.com",
+        "skip.ns.cloudflare.com"
+    ]
+}

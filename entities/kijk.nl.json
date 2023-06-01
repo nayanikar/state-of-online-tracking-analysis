@@ -1,0 +1,639 @@
+{
+    "domain": "kijk.nl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "embed",
+        "static",
+        "static.prod",
+        "embed.prod",
+        "graph"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "kijk\\.nl\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "d31d5d2997d3e74eb09b7bed594f2bf62eeece8c900aa2dfb1491d0c6e4ccc01",
+                "99aafa99d519c769669325be5fc60c38183bc18598225eae80422aeff8a1b8dc",
+                "17dba5db8343d09f9d37b72b8d3a108c3dce937677df92ec24a40ffcf543060f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/_next\\/static\\/css\\/8e2e12751cd0826c\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e698c6c7772b580090106528ae2f60d481fb15dbb96543e4b4df3fe9717a9b06"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/lib\\/nr_embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "15fa741afceb22283e46ac9ac2801a5b6c2ee43ff6d33c22d035fb96b7f00bb7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/_next\\/static\\/chunks\\/webpack-97a5e64d5f17ccff\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "378ba7f5049321d7ba5ed7455731e2b99eacf702a957c90f122cbcb1fc6dff5e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/_next\\/static\\/chunks\\/framework-46611630e39cfdeb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "6ae1a31b5bec1ac1d418e2aabec029f3ebfc3e5b652d1b24ee53265cac617fd9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/_next\\/static\\/chunks\\/main-aba3a6d06b4cd1dd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "6f584df8573362e769de444176767570ffc08b7d42f6ce84c5f52d10ce465692"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/_next\\/static\\/chunks\\/pages\\/_app-d07ba4e24ad4061f\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.userAgent": 4,
+                "URL.createObjectURL": 4,
+                "Navigator.prototype.requestMediaKeySystemAccess": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "a04625a3101eb2b7967816f16d578540b8c76c6c438594c64f931c0678f6b1c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ad_detection": {
+                    "ttl": 2678400,
+                    "length": 11,
+                    "prevalence": 0.00040172742794014263,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/_next\\/static\\/chunks\\/532-dba0681b8abd9b31\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "4cacf27792536d26fc4729b78eca44c5a2b80e55cfd86f951ac3c5387099a8db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/_next\\/static\\/chunks\\/pages\\/index-d325aaadd037cd8a\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.name": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "43666ff96a13e3add7718dd0046092ab0a0eed6fabead564a05cc9f775ba0de0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/_next\\/static\\/sGD69rqkq0ld-OaSacMzQ\\/_buildManifest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "1bea09ffdad8b2dfa4a9e5b886e8826154d8ee1aa65356152d54f5505a383436"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/_next\\/static\\/sGD69rqkq0ld-OaSacMzQ\\/_ssgManifest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "6f5b4aa00d2f8d6aed9935b471806bf7acef464d0c1d390260e5fe27f800c67e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/fonts\\/cera_pro_regular\\/CeraPro-Regular\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.prod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "b019099d724e42bc2b46298a8b1037940310b8cf2e822a241659424941eb2e6a"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/prebid\\/ad\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/prebid\\/ad\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ad_detection": 0.0005021592849251782
+            },
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/features-embed\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.prod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "76aeac6a765717c4c7e095987d4192c512c75caab7b85f409489bc0592c43dc8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/api\\/playerconfig",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed.prod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "dbcefcb1d5a725af99ab54806b32d9c65fa2eaca075f47911c7dfac89e405674",
+                "cdc8d80a140d78bb0b65770ce69fdd2f135b7a42784a6c087c8baa37559dbc2c",
+                "3f5dea50dcc172754a59ae35312c0592faafee567ab96569610e4544ee1e8b50"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/lib\\/Admanager_6\\.43\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "47c8b0095a120005d89e6a3a284c6ca07a68e045538e56d08f36da6d687f2cc8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/images\\/facebook\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "ea28aef3f8c43adde9ea6e864c1911d4182ddc604a669b8c7a7de5e50e83a87f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/images\\/twitter\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "2c3a6aa5f920d241dabef4ad231de2d457bb4972e078dc9a3439e49ee5deeafa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/images\\/link\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "3e7f9feb951027aa771105d9113fd1765e7cf10ce00027bd4423c2d65e864caa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/fonts\\/cera_pro_bold\\/CeraPro-Bold\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.prod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "d375cdbe5088f6118e17fc2102528c81bfc175dd0cf01aa1aacf5ec32ce565de"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geenstijl.nl",
+                "www.hartvannederland.nl",
+                "www.shownieuws.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graph"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8cdf53165e9bb744310145e33ae32bf72bf7dab4fd45ff6e46191a163f1b3e70"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hartvannederland.nl",
+                "www.shownieuws.nl"
+            ]
+        },
+        {
+            "rule": "kijk\\.nl\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graph"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hartvannederland.nl",
+                "www.shownieuws.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.36
+        },
+        {
+            "domain": "kijk.nl",
+            "prevalence": 0.32
+        },
+        {
+            "domain": "jwpcdn.com",
+            "prevalence": 0.16
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.16
+        }
+    ],
+    "types": {
+        "Document": 4,
+        "Stylesheet": 4,
+        "Script": 40,
+        "Font": 8,
+        "XHR": 13,
+        "Image": 17,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-71.awsdns-08.com",
+        "ns-963.awsdns-56.net",
+        "ns-1124.awsdns-12.org",
+        "ns-1603.awsdns-08.co.uk"
+    ]
+}

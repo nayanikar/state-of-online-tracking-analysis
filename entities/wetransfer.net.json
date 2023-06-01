@@ -1,0 +1,493 @@
+{
+    "domain": "wetransfer.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "prod-cdn",
+        "nolan",
+        "auth-session-caching"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "wetransfer\\.net\\/packs\\/css\\/application-acb21d9f\\.chunk\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8f5ea4d720d241361b63bf744183684adb9d34229500ac93b7abe00cfa0e15ad"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/packs\\/esm\\/runtime~locale\\/en-0d9b367bb228e28541eb\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9e7f6e9e56d239a539cd2194bb9bfdfab9b7373dd68d99f4c9ca4b5ffa314e06"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/packs\\/esm\\/locale\\/en-c94f8cb5ef852eee4996\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8ff2772fccc6969e9b72a5820855b54f829758c72f7c1c1d80ce6166bfc5ef4d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/packs\\/esm\\/runtime~application-528275d1925e9f516723\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "36bf021e32d4d9a95c75a7d2c213c429eb13bda085e72bd49e18c70194e7723c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/packs\\/esm\\/application-32fa432dd11ab4520d3c\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod-cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "URL.createObjectURL": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "956573f8029320a02038e11bd49eb86ceca2f3bac8ef0616b4efc00ff758c548"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/packs\\/esm\\/vendor-29c21ac3fa00f3f51a8d\\.es6\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod-cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5b8fe05ee41d80d7f12d3417744fbcb0b097eec256a139323af0f04e7be8a994"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_dd_s": {
+                    "ttl": 911,
+                    "length": 4,
+                    "prevalence": 0.0002010252286661976,
+                    "uniqueness": 0.5
+                },
+                "amp_cookie_testHg07lPxbUcvbD1U_L-ez6Y": {
+                    "ttl": -86395,
+                    "length": 4,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "auth_session_uuid": {
+                    "ttl": 31536003,
+                    "length": 36,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "amp_cookie_testZggM1LWkDeWvQv6-N3l6Ro": {
+                    "ttl": -86396,
+                    "length": 4,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "_tldtest_0PpYeC22aPpPX8OUD9EX6K": {
+                    "ttl": -86396,
+                    "length": 4,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "amplitude_testwetransfer.com": {
+                    "ttl": -86396,
+                    "length": 4,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "_tldtest_wkW8Q_L6Yyo303swbIITCG": {
+                    "ttl": -86396,
+                    "length": 4,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "amp_cookie_testVXwdV9kg40i3ApECG71yzH": {
+                    "ttl": -86396,
+                    "length": 4,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "amp_874b77": {
+                    "ttl": 31536005,
+                    "length": 64,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/packs\\/media\\/actiefgrotesque\\/ActiefGrotesque_W_Regular-1f437876\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5e5d172cd4f33e02d4837c55db28a4a4fafd58a5594f696eb9d0ae406ce16a0a"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/packs\\/media\\/actiefgrotesque\\/ActiefGrotesque_W_Medium-293e86f0\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5545849599ea7551e19d0dc9d293cfec1ff402f004d0120cb10dac82f98bbfea"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/packs\\/media\\/gt-super-wt\\/GT-Super-WT-Super-1b214df1\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1e27e69fefd0339fb9c14009e5902f7d2705bffda72c9f760a2de99cefe25f6d"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/assets\\/adtrack-87c84ab6301a18274af33b4094edb23916b5dc9a0220c5410aab54c41851a369\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "87c84ab6301a18274af33b4094edb23916b5dc9a0220c5410aab54c41851a369"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/packs\\/esm\\/62-70777e09a3898bf00a9b\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cf02e32fefe59e73959199b09234c650a8c4fbcaa61491dbe5fbe6f35fac1b1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/packs\\/media\\/gt-super-wt\\/GT-Super-WT-Regular-4aad923e\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c7abc7e428ba9e9d13a581012b6f218c8ce351cce9504d81caf2d91dbb16f655"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/apps\\/wallpaper\\/asset-manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nolan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9d2d03b7f459636bc57bb9fbf81aa5e2e18c48c8f09a3e061672d37880316fc6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/packs\\/media\\/images\\/cookie-wall-trees-5134ae83\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d927db7fc903e8e9cd705f4e7ca10501759eaf9d58c777d85929454a19cdf185"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/apps\\/wallpaper\\/1\\.0\\.5\\/main\\.bd33f3528f501d34\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nolan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b49dc3bf92cc4ae5b04d2718eee09b5cca3227d0bd2f4810be422b49c5a5058f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/v1\\/login-status",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth-session-caching"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        },
+        {
+            "rule": "wetransfer\\.net\\/v1\\/login-status",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth-session-caching"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "858b8a6408a3c9a457c831ce91d3dcc273e12ae41991523890f87e58ce4fc5f1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "we.tl",
+                "wetransfer.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "wetransfer.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 14,
+        "Font": 8,
+        "XHR": 6,
+        "Image": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-948.awsdns-54.net",
+        "ns-222.awsdns-27.com",
+        "ns-1111.awsdns-10.org",
+        "ns-1812.awsdns-34.co.uk"
+    ]
+}

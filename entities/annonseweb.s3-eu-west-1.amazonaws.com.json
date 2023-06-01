@@ -1,0 +1,65 @@
+{
+    "domain": "annonseweb.s3-eu-west-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "annonseweb\\.s3-eu-west-1\\.amazonaws\\.com\\/xandr\\/script\\/prebid\\/prebid\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.appName": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "57a3a4885b191f7d8ed91bfdd8034cd9862dcb791bd4bc78a3b326a505ae32c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aftenposten.no",
+                "www.byas.no",
+                "www.vestnytt.no"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-1228.awsdns-25.org",
+        "ns-1961.awsdns-53.co.uk",
+        "ns-56.awsdns-07.com",
+        "ns-777.awsdns-33.net"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "domain": "adventori.com",
+    "owner": {
+        "name": "Adventori",
+        "displayName": "Adventori"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adventori\\.com\\/t\\/collect",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "eu"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cd30b572e1a322710575c30772c67b0800af0fc320a8ce94c95a53b868f8defa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "adv_ui": {
+                    "ttl": 7776009,
+                    "length": 22,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "montblanc.com",
+                "www.montblanc.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-215-c.gandi.net",
+        "ns-128-a.gandi.net",
+        "ns-41-b.gandi.net"
+    ]
+}

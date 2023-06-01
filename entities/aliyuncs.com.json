@@ -1,0 +1,95 @@
+{
+    "domain": "aliyuncs.com",
+    "owner": {
+        "name": "Alibaba Group",
+        "displayName": "Alibaba"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "retcode-us-west-1.arms",
+        "arms-retcode"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "aliyuncs\\.com\\/r\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "retcode-us-west-1.arms",
+                "arms-retcode"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_bl_uid": 0.00030120481927710846
+            },
+            "exampleSites": [
+                "dji.com",
+                "store.dji.com",
+                "www.shangri-la.com"
+            ]
+        },
+        {
+            "rule": "aliyuncs\\.com\\/r\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "retcode-us-west-1.arms",
+                "arms-retcode"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_bl_uid": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "dji.com",
+                "www.shangri-la.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "csdnimg.cn",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "djicdn.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns5.aliyun.com",
+        "ns3.aliyun.com",
+        "ns4.aliyun.com"
+    ]
+}

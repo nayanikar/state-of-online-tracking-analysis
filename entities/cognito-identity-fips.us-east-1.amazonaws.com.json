@@ -1,0 +1,80 @@
+{
+    "domain": "cognito-identity-fips.us-east-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cognito-identity-fips\\.us-east-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usda.gov",
+                "www.mshp.dps.missouri.gov"
+            ]
+        },
+        {
+            "rule": "cognito-identity-fips\\.us-east-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "b40a0176df8643812e1d0e5b29be12f36e3a7e798cb1186e1950689620f8a357",
+                "181f19f6dabb6e3e69a9ef6a489484736d4c5d0ffbb62439a9447ff2f39185bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usda.gov",
+                "planthardiness.ars.usda.gov",
+                "www.mshp.dps.missouri.gov"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "arcgis.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-1469.awsdns-55.org",
+        "ns-1629.awsdns-11.co.uk",
+        "ns-118.awsdns-14.com",
+        "ns-629.awsdns-14.net"
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "domain": "infomaker.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "imengine.public.prod.agp",
+        "static.ew.agp"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "infomaker\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imengine.public.prod.agp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "8291da37f695c888ea967714cef38c8f1868db76bd71ff315222eee452564c95",
+                "44e37f59509842470506180fc2679e6588a63c3385a81c40c2abf9b48d802658"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dagen.no",
+                "www.dagen.no",
+                "www.raumnes.no"
+            ]
+        },
+        {
+            "rule": "infomaker\\.io\\/wp-content\\/themes\\/agderposten\\/assets\\/dist\\/css\\/style\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.ew.agp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b075867203621c16cd6819f7a929da5ae02e21e7e34361858b5ad0b324e9f1c8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dagen.no",
+                "www.raumnes.no"
+            ]
+        },
+        {
+            "rule": "infomaker\\.io\\/wp-content\\/themes\\/agderposten\\/assets\\/dist\\/js\\/body\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static.ew.agp"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Element.prototype.getClientRects": 2,
+                "Document.cookie getter": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a2ecb5b8b8bc2e2c8e76e7ccce40261c5aa944fc284a2119ce5d292a8371c0fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dagen.no",
+                "www.raumnes.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1736.awsdns-25.co.uk",
+        "ns-891.awsdns-47.net",
+        "ns-392.awsdns-49.com",
+        "ns-1149.awsdns-15.org"
+    ]
+}

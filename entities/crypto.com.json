@@ -1,0 +1,582 @@
+{
+    "domain": "crypto.com",
+    "owner": {
+        "name": "Foris DAX MT Limited",
+        "displayName": "Foris DAX"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "price-static",
+        "price-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "crypto\\.com\\/price\\/static\\/widget\\/index\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.name": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "811ff4d9d7edc7d85519e1fdad160703bf214c4188b18883a51c0b445502172c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/latest\\/_next\\/static\\/css\\/ab85d27c5f8f3630\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ffda57fe759ecc5ffc7a6c3d7723cb551e00c567634c492e12aa55f2cb9fa50f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/latest\\/_next\\/static\\/chunks\\/webpack-80aa2f6f5b453b4a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d25998223c21077f3fb1eb9247a4d9c741064cf87ec80448f5ad12772ff086fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/latest\\/_next\\/static\\/chunks\\/framework-e41fdbbc306039b8\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "price-static"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e84cb72513077dc79c95958e309d580dc81f743a1ae956dbb5f73dda0975963a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/latest\\/_next\\/static\\/chunks\\/main-f804f9c21251b04b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7f13cb06c5ae6d92dddf5ced73c1b7072db7445db0a231b524de1665e4d02a70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/latest\\/_next\\/static\\/chunks\\/pages\\/_app-62ba3ee3a676d36d\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 3,
+            "subdomains": [
+                "price-static"
+            ],
+            "apis": {
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appCodeName": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.vendorSub": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "window.devicePixelRatio": 1,
+                "Navigator.prototype.deviceMemory": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Screen.prototype.pixelDepth": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "242dd466a30893fd94cc1083f2597e640c60134d9b167e7c16bf47f05aec77e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "chakra-ui-color-mode": {
+                    "ttl": 31536000,
+                    "length": 5,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/latest\\/_next\\/static\\/chunks\\/7944-2b623479d3b9d4f6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5928cd14892621857dba9349e970d184a37b3b26d05aeb75667820edec1e33d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/latest\\/_next\\/static\\/MK-WKlxabpKkbsPhiBfDI\\/_buildManifest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0c8dde04ce9be40c32bcfd4d830816e7db7c703a0f825e827d5920288b7298c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/latest\\/_next\\/static\\/MK-WKlxabpKkbsPhiBfDI\\/_ssgManifest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8316175273abc93a849c500fe9de1d9323eb2bca08c62864c4257745b70860c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/price\\/v2\\/token\\/20",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e2e19e2345d8e400ef0da9a0b261a557c128a76b7933b52a12fc940b5cc690d2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/meta\\/v1\\/token\\/20",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b2cfec9f5b3b3e09483d91a3f9b2479044b2bb94c543e3c87d05041ed0f73781"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/price\\/v2\\/token\\/1",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "06ec3b0bdda349c93bd95f497e6724df2475ecec57ffff3a10d6ee8d4dd1456e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/meta\\/v1\\/token\\/1",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eba871755f7dae10f385a9612e121292a9091b8d424c64fe1f8c348bed4da396"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/price\\/v2\\/token\\/29",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "413c583992449dc518485e9493d42a253ea87cd9df1008e578e843d2ab2eb627"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/meta\\/v1\\/token\\/29",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "84ef05f039d63dd8e97ed30b3ef72bfcb91a89e56e8c8bf7d543356540931781"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/price\\/v2\\/token\\/166",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2634980f62ad01715eff8ffc3bcca6a92f5b3929050913b76c8808dc3a248f4e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/meta\\/v1\\/token\\/166",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "667c2f58e1413c674f9dea22d07ad0c1fedcf3d98ea6a2f7c6d95585958723a0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/price\\/v2\\/token\\/2511",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "611e2ed6203adaf12cf913ef0a31bd2b8230b142d8b8ba6a6011f101863f3601"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/meta\\/v1\\/token\\/2511",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a4ecb9ed62e1f68de91d4e92c06f129b6d3170aeae346333dea0d8c591f3e369"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/price\\/v2\\/token\\/440",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f998cabb7421f34066a2809e85804a43b2a3574ef80f836cb2af5f6529470dba"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/meta\\/v1\\/token\\/440",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "192158f95507b9442f8f85a0b5d084af4287f805004e0baba40c09e862fe7485"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/price\\/v2\\/token\\/1986",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "38d6075ac3c3466d4c52e977dee712034128f8ea018c9daf03caef4b63b34a9c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "crypto\\.com\\/meta\\/v1\\/token\\/1986",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "efb90a86bec3fea2f3ecd3ea7aa480cdf7d633a84302f6e1a7d5d59f0e586692"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitcoinist.com",
+                "www.finansavisen.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Stylesheet": 2,
+        "Fetch": 28
+    },
+    "nameservers": [
+        "sima.ns.cloudflare.com",
+        "chad.ns.cloudflare.com"
+    ]
+}

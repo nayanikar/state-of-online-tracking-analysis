@@ -1,0 +1,93 @@
+{
+    "domain": "ibmcloud.com",
+    "owner": {
+        "name": "International Business Machines Corporation",
+        "displayName": "International Business Machines",
+        "privacyPolicy": "https://www.ibm.com/privacy/us/en/",
+        "url": "http://ibm.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "fcis.ice"
+    ],
+    "cnames": [
+        {
+            "original": "sso.ci.ford.ca",
+            "resolved": "fcis.ice.ibmcloud.com"
+        },
+        {
+            "original": "sso.ci.ford.com",
+            "resolved": "fcis.ice.ibmcloud.com"
+        },
+        {
+            "original": "sso.ci.lincolncanada.com",
+            "resolved": "fcis.ice.ibmcloud.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ibmcloud\\.com\\/oidc\\/endpoint\\/default\\/authorize",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fcis.ice"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "sso.ci.ford.ca",
+                    "resolved": "fcis.ice.ibmcloud.com"
+                },
+                {
+                    "original": "sso.ci.ford.com",
+                    "resolved": "fcis.ice.ibmcloud.com"
+                },
+                {
+                    "original": "sso.ci.lincolncanada.com",
+                    "resolved": "fcis.ice.ibmcloud.com"
+                }
+            ],
+            "responseHashes": [
+                "c483eaee679cfc2e0beb56af7f2c93a5f8fa252bac00118a991c35a370645e1b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ford.ca",
+                "www.ford.ca",
+                "www.ford.com",
+                "www.lincolncanada.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "ford.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 4
+    },
+    "nameservers": [
+        "eur2.akam.net",
+        "usc3.akam.net",
+        "usc2.akam.net",
+        "eur5.akam.net",
+        "ns1-206.akam.net",
+        "asia3.akam.net",
+        "ns1-99.akam.net",
+        "usw2.akam.net"
+    ]
+}

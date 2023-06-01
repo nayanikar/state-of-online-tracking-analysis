@@ -1,0 +1,180 @@
+{
+    "domain": "videostep.com",
+    "owner": {
+        "name": "VIDEOSTEP NV",
+        "displayName": "VIDEOSTEP"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "content2",
+        "content",
+        "u2",
+        "u",
+        "u5",
+        "kwebstat2",
+        "kwebstat",
+        "kwebstat5",
+        "s2",
+        "bid5"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "videostep\\.com\\/AdContent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content2",
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e9c3ebffcf7241a52b9170dfb04919f81312af24ba573372b1ca9fcd6cd159bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tio.ch",
+                "vornamen.familienleben.ch"
+            ]
+        },
+        {
+            "rule": "videostep\\.com\\/User\\/GetIvId",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "u2",
+                "u",
+                "u5"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "8e080829e0520db6a4669630cd1d33bee805b750b327bc50f962a384aa97ccf9",
+                "596358f912113254d49f372e36994c5ca3182c92a8b3dde3214f5042cf410d72",
+                "240eeb9f6a62534963aa6e2946485c8e416e2fc97b614e353ef226dfc4e8f2d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tio.ch",
+                "m.tio.ch",
+                "vornamen.familienleben.ch",
+                "www.paradisi.de"
+            ]
+        },
+        {
+            "rule": "videostep\\.com\\/Stat\\/PixelUve",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kwebstat2",
+                "kwebstat",
+                "kwebstat5"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tio.ch",
+                "vornamen.familienleben.ch",
+                "www.paradisi.de"
+            ]
+        },
+        {
+            "rule": "videostep\\.com\\/statPixel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ac554a4ea8b34bbb80db013e14be195ebc986f82f24e5b18b0ea9032ef561f57"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tio.ch",
+                "m.tio.ch"
+            ]
+        },
+        {
+            "rule": "videostep\\.com\\/Bid\\/VideoAdContent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bid5"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "9bda10c05387752639cbeeb2e8f5bec83e3a8abb22bff6d815f5ac7e36bc829c",
+                "db4bb7dd878694ab462758a5d6ee6f37df3ed0b4e94b1e6953fc567ffb14fd41",
+                "c69b56f0d3378a8ef945f8d883849ef40fbe38ecb9b4c92c2617e342bdbc69f7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "die-konjugation.de",
+                "www.paradisi.de",
+                "www.shooter-bubble.de",
+                "www.wetterprognose-wettervorhersage.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "r66net.com",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "cdntrf.com",
+            "prevalence": 0.13636363636363635
+        },
+        {
+            "domain": "lemde.fr",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Image": 5,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+    ]
+}

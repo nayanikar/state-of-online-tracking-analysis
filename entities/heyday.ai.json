@@ -1,0 +1,443 @@
+{
+    "domain": "heyday.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [
+        "webchat",
+        "api",
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "heyday\\.ai\\/scripts\\/heyday-track\\.js",
+            "cookies": 0.000703,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "window.localStorage": 7,
+                "Document.cookie setter": 7,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "315df77005e078fb87747f6bb094820331107672625e09832303b7c56b4e4668"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_hdtid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.0007029524000803374,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blnts.com",
+                "m.simons.ca",
+                "www.bathdepot.ca",
+                "www.deserres.ca",
+                "www.iga.net",
+                "www.lavieenrose.com",
+                "www.simons.ca",
+                "www.sportsexperts.ca"
+            ]
+        },
+        {
+            "rule": "heyday\\.ai\\/scripts\\/setup\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "16859ff3466c9282c823d3056e1561d6834a71ebf49d455e3e8f26de87b2a539"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blnts.com",
+                "m.simons.ca",
+                "www.bathdepot.ca",
+                "www.deserres.ca",
+                "www.iga.net",
+                "www.lavieenrose.com",
+                "www.simons.ca",
+                "www.sportsexperts.ca"
+            ]
+        },
+        {
+            "rule": "heyday\\.ai\\/v130\\/widget\\/status",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "7a110b6378f7be92e11bbea42d0b45bf6ec1b3a8eb27635f7cdaa2b57ee246b3",
+                "b61ae62aa3ae9668832bc72ec6c140e29949eef78997fd11e44ed3a2b9e4e57f",
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blnts.com",
+                "m.simons.ca",
+                "www.bathdepot.ca",
+                "www.deserres.ca",
+                "www.iga.net",
+                "www.lavieenrose.com",
+                "www.simons.ca",
+                "www.sportsexperts.ca"
+            ]
+        },
+        {
+            "rule": "heyday\\.ai\\/v130\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "c8b2e57238798c47e66101cef6e9c2a36b80918517fd6b7c5714c4ee5f2528ee",
+                "86ea01b71353103a8039e1082ee5d45ed414e019a08e6f3d04e17083bd883937",
+                "bde3670fdc82efa5881e9431d6f2be5dc6bb1f5e8f2086789b70e85a7cda2d2d",
+                "c0f412900b30856ba946fcbc98563acde2e40188134fa3db2098557fe053a109",
+                "af0c7061e6b1f9a6ac63bbfecca8c103c4df780bb28e8e6e0512e94d7a6a77f1",
+                "dc5146d8ddfc54b77058354486a98f269e7daf522699e13555ac4d5b7ab44baf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_hdtid": 0.0007029524000803374,
+                "IR_gbd": 0.0001004217714400482
+            },
+            "exampleSites": [
+                "blnts.com",
+                "m.simons.ca",
+                "www.bathdepot.ca",
+                "www.deserres.ca",
+                "www.lavieenrose.com",
+                "www.simons.ca",
+                "www.sportsexperts.ca"
+            ]
+        },
+        {
+            "rule": "heyday\\.ai\\/scripts\\/heyday-chat\\.js",
+            "cookies": 0.000703,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {
+                "Document.cookie setter": 7,
+                "Document.cookie getter": 7,
+                "window.localStorage": 7,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "f8b801c337237437ac9c69b43ed1c4cac006888c2e6c1cc3bb6e8545d80a8d5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_hd": {
+                    "ttl": null,
+                    "length": 43,
+                    "prevalence": 0.0007029524000803374,
+                    "uniqueness": 0.42857142857142855
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blnts.com",
+                "m.simons.ca",
+                "www.bathdepot.ca",
+                "www.deserres.ca",
+                "www.lavieenrose.com",
+                "www.simons.ca",
+                "www.sportsexperts.ca"
+            ]
+        },
+        {
+            "rule": "heyday\\.ai\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "25d42fb214d2fc23aa6e255eb448af6342d932174f6da72f9cdf98577e5ed1df"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blnts.com",
+                "m.simons.ca",
+                "www.bathdepot.ca",
+                "www.deserres.ca",
+                "www.lavieenrose.com",
+                "www.simons.ca",
+                "www.sportsexperts.ca"
+            ]
+        },
+        {
+            "rule": "heyday\\.ai\\/styles\\.9ffeae6dfaf18edda8f8\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "3e1692697eb0ec45f17777a40577d15625d75e26d16fc11ca6d957e2f5afab94"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blnts.com",
+                "m.simons.ca",
+                "www.bathdepot.ca",
+                "www.deserres.ca",
+                "www.lavieenrose.com",
+                "www.simons.ca",
+                "www.sportsexperts.ca"
+            ]
+        },
+        {
+            "rule": "heyday\\.ai\\/runtime\\.7b63b9fd40098a2e8207\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "6c5acbb82a46a4971660f65131241dffcc28828f4dbd76b8ec7bab0b468250f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blnts.com",
+                "m.simons.ca",
+                "www.bathdepot.ca",
+                "www.deserres.ca",
+                "www.lavieenrose.com",
+                "www.simons.ca",
+                "www.sportsexperts.ca"
+            ]
+        },
+        {
+            "rule": "heyday\\.ai\\/polyfills\\.ea9cad722c4605ea1b13\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "05beea7e4adf5a0e5b979e8e9cfc24479a77bf914c0fb37bc80b9a6eb18688d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blnts.com",
+                "m.simons.ca",
+                "www.bathdepot.ca",
+                "www.deserres.ca",
+                "www.lavieenrose.com",
+                "www.simons.ca",
+                "www.sportsexperts.ca"
+            ]
+        },
+        {
+            "rule": "heyday\\.ai\\/main\\.d23f253f826061e14f10\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.hardwareConcurrency": 4,
+                "PerformanceTiming.prototype.navigationStart": 4
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "6df624c59993feb5c7efb1bea484cda6ab08e623c08429ee5655c16d9ea84441"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blnts.com",
+                "m.simons.ca",
+                "www.bathdepot.ca",
+                "www.deserres.ca",
+                "www.lavieenrose.com",
+                "www.simons.ca",
+                "www.sportsexperts.ca"
+            ]
+        },
+        {
+            "rule": "heyday\\.ai\\/objectsans-regular-webfont\\.9f4aff889c3c0cbd7e09\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "edbb1beed16faa16c1fa22844859d5876ee69709d0f3acfe98bb940bef00855a"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blnts.com",
+                "m.simons.ca",
+                "www.bathdepot.ca",
+                "www.deserres.ca",
+                "www.lavieenrose.com",
+                "www.simons.ca",
+                "www.sportsexperts.ca"
+            ]
+        },
+        {
+            "rule": "heyday\\.ai\\/v130\\/4099689688\\/9037420771\\/en\\/setupchat\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "158f7cb1d1b28d171b55bfb230cbc6ab12f72ff69c719a7d87ac0fc527fe58db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simons.ca",
+                "www.simons.ca"
+            ]
+        },
+        {
+            "rule": "heyday\\.ai\\/organizations\\/4099689688\\/images\\/chatIcon\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "71091a7084ce8a3d195aadf76f74643ae01983120bd89eadbc7570cf2c22e86b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simons.ca",
+                "www.simons.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000703,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.3235294117647059
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.17647058823529413
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.17647058823529413
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.17647058823529413
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.14705882352941177
+        }
+    ],
+    "types": {
+        "Script": 46,
+        "XHR": 15,
+        "Document": 7,
+        "Stylesheet": 7,
+        "Font": 7,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-734.awsdns-27.net",
+        "ns-41.awsdns-05.com",
+        "ns-1362.awsdns-42.org",
+        "ns-1550.awsdns-01.co.uk"
+    ]
+}

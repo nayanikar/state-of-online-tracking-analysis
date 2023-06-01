@@ -1,0 +1,133 @@
+{
+    "domain": "pages09.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "www.sc",
+        "sc",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pages09\\.net\\/lp\\/static\\/js\\/iMAWebCookie\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www.sc",
+                "sc"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "27a1e80167055f562f0ddda38620ec1f5a354c5ab795c75da16874f4095520f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "com.silverpop.iMAWebCookie": {
+                    "ttl": 86400011,
+                    "length": 36,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                },
+                "com.silverpop.iMA.page_visit": {
+                    "ttl": 1211,
+                    "length": 7,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 0.75
+                },
+                "com.silverpop.iMA.session": {
+                    "ttl": 1211,
+                    "length": 36,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitdetroit.com",
+                "www.rockhall.com",
+                "www.snowbasin.com",
+                "www.sunvalley.com",
+                "www.trypura.com"
+            ]
+        },
+        {
+            "rule": "pages09\\.net\\/WTS\\/event\\.jpeg",
+            "cookies": 0.000034,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "com.silverpop.iMAWebCookie": 0.00003403536955604264,
+                "com.silverpop.iMA.session": 0.00003403536955604264,
+                "IR_gbd": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "visitdetroit.com",
+                "www.rockhall.com",
+                "www.snowbasin.com",
+                "www.sunvalley.com",
+                "www.trypura.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000681,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4117647058823529
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.35294117647058826
+        },
+        {
+            "domain": "mavenoid.com",
+            "prevalence": 0.11764705882352941
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "bc0a.com",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns3.acoustic-adm.com",
+        "ns1.acoustic-adm.com",
+        "ns4.acoustic-adm.com",
+        "ns2.acoustic-adm.com"
+    ]
+}

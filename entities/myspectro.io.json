@@ -1,0 +1,116 @@
+{
+    "domain": "myspectro.io",
+    "owner": {
+        "name": "CIBLO",
+        "displayName": "CIBLO"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "tracking",
+        "mt1-app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "myspectro\\.io\\/piwik\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d7fc375178c93a2fc15fd888e30170eedf4ef3d04497e7f951ab7bfe0c921693"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.304.6927": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_pk_ses.304.6927": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h2r-equipements.com",
+                "www.h2r-equipements.com"
+            ]
+        },
+        {
+            "rule": "myspectro\\.io\\/op",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mt1-app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b4d34df9a8ed032335c66972db7ba23243c961e4fd5e1e87f272b8fd3ebb90a3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h2r-equipements.com",
+                "www.h2r-equipements.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "listener-0.js",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-20-a.gandi.net",
+        "ns-59-b.gandi.net",
+        "ns-251-c.gandi.net"
+    ]
+}

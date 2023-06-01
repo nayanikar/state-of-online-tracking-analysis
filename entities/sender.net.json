@@ -1,0 +1,126 @@
+{
+    "domain": "sender.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sender\\.net\\/accounts_resources\\/universal\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f4e67665d759602f1df874f07c93ba70fdf681acf8a2a1e927518278ccc90f00"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunde-zauber.de",
+                "www.artlex.com"
+            ]
+        },
+        {
+            "rule": "sender\\.net\\/accounts_resources\\/forms\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9b1839b15e350bd02f8c61dc42a6b9bb3c8130f27e07e53b77d295f0695f0437"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunde-zauber.de",
+                "www.artlex.com"
+            ]
+        },
+        {
+            "rule": "sender\\.net\\/accounts_resources\\/base\\/654f4f76b29905\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6ca3c8ea10aba803933821149f1de5981817e7a548b6ed8f6f4b55cc25a9e76f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artlex.com",
+                "www.artlex.com"
+            ]
+        },
+        {
+            "rule": "sender\\.net\\/accounts_resources\\/logo-no-text\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "86bac9ed929ece3be59b0d50ed05830406fb37550788725cbc510624b8542e0b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artlex.com",
+                "www.artlex.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 2,
+        "Fetch": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "edna.ns.cloudflare.com",
+        "james.ns.cloudflare.com"
+    ]
+}

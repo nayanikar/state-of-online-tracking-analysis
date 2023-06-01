@@ -1,0 +1,229 @@
+{
+    "domain": "nbcuni.com",
+    "owner": {
+        "name": "Comcast Corporation",
+        "displayName": "Comcast",
+        "privacyPolicy": "https://www.xfinity.com/Corporate/Customers/Policies/CustomerPrivacy",
+        "url": "http://xfinity.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "osimg",
+        "mps"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nbcuni\\.com\\/id",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "osimg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c5f4f7d2ef7fc33a3076f2448c89b85afe04a6bb1c71f057027e110aad640121"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfchannel.com",
+                "www.golfchannel.com"
+            ]
+        },
+        {
+            "rule": "nbcuni\\.com\\/fetch\\/ext\\/load-golf-web\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mps"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.innerWidth": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "639ba726121ac059c0bd6a1465ca253712928f3f2e52a4a767b783587eb45c85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1681817740,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "mps_uuid": {
+                    "ttl": 7776008,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfchannel.com",
+                "www.golfchannel.com"
+            ]
+        },
+        {
+            "rule": "nbcuni\\.com\\/request\\/page\\/json\\/params\\/",
+            "cookies": 0.0000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mps"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "01260835781ec9cc755c98092344eaecd0af2f15e6bca6216a25fbb9f4b9ac3e",
+                "a561b397060903617f59993a08f57f635a5f9965dea7316d8a4c11cc9c7ee2e0",
+                "478100b20a2aa6b7c5beec5886523983b52063699cfab1d221b14f84b5ed93ed",
+                "77c01793c88b4cb6eec5f4775a272f98bb2f5174ea6ebee6edd6ea74cfed9500",
+                "8f490ab8e75cb35c889b7c79d9aa1fd51cf1d5d2d9a7d5f7fb5ec78577b9c0f0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gpv_siteSection": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "golfchannel.com",
+                "www.golfchannel.com",
+                "www.nbcsportsedge.com",
+                "www.pgachampionship.com",
+                "www.rydercup.com",
+                "www.usanetwork.com"
+            ]
+        },
+        {
+            "rule": "nbcuni\\.com\\/fetch\\/ext\\/load-rotoworld-web\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mps"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.innerWidth": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e6cf1146da268f038f84cb0c528af623fac9142f48510dce3976d8ef0b1d4421"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1681847734,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "mps_uuid": {
+                    "ttl": 7776002,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcsportsedge.com",
+                "www.nbcsportsedge.com"
+            ]
+        },
+        {
+            "rule": "nbcuni\\.com\\/fetch\\/ext\\/load-rydercup-web\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mps"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.appVersion": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "699ef864de888143d941fe97815e1eded2bcd3d65ac564b9ce3225885d89c299"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pgachampionship.com",
+                "www.pgachampionship.com",
+                "www.rydercup.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8636363636363636
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "rotoworld.com",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "XHR": 8,
+        "Script": 7
+    },
+    "nameservers": [
+        "eur4.akam.net",
+        "asia2.akam.net",
+        "asia3.akam.net",
+        "eur3.akam.net",
+        "aus1.akam.net",
+        "ns1-102.akam.net",
+        "use3.akam.net",
+        "usw1.akam.net",
+        "ns1-161.akam.net"
+    ]
+}

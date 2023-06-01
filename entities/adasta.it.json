@@ -1,0 +1,106 @@
+{
+    "domain": "adasta.it",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adasta\\.it\\/prebid\\/tag24\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3e502e2acd0b074d080e01931d4eddf78241360601df86d92e5bae7edfa1ac94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tag24.it",
+                "www.tag24.it"
+            ]
+        },
+        {
+            "rule": "adasta\\.it\\/prebid\\/ubitennis\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.innerHeight": 2,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f7c930b91b48759124fa4bb228f01d30e351a06eb826d529c7509ceb6dacd56e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ubitennis.com",
+                "www.ubitennis.com"
+            ]
+        },
+        {
+            "rule": "adasta\\.it\\/postbid\\/img\\/strip_infooter_close\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c8a0a3dae22a59523ff6a03ed698cf5964536479e47c1216fd7d173af4c85ca3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ubitennis.com",
+                "www.ubitennis.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "max.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "domain": "emory.edu",
+    "owner": {
+        "name": "Emory University",
+        "displayName": "Emory University"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [
+        "www",
+        "template"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "emory\\.edu\\/template_shared\\/alert-feed\\.cfm",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emoryhealthcare.org",
+                "www.emoryhealthcare.org"
+            ]
+        },
+        {
+            "rule": "emory\\.edu\\/shared-assets\\/feed\\/proxy\\.cfm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "template"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fa8e5411a6ab4190b6a81b47bca4e2bca6ce54e672961fe6d3bb65f130ce54e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emoryhealthcare.org",
+                "www.emoryhealthcare.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "publicdns1.emory.net",
+        "publicdns2.emory.net"
+    ]
+}

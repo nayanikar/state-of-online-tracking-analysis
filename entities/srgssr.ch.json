@@ -1,0 +1,87 @@
+{
+    "domain": "srgssr.ch",
+    "owner": {
+        "name": "Schweizerische Radio- und Fernsehgesellschaft",
+        "displayName": "Schweizerische Radio- und Fernsehgesellschaft"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "letterbox-web"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "srgssr\\.ch\\/v\\/3\\.14\\/letterbox\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "letterbox-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3dbdf859b472c958ffee47d1e52b5db8269f38f9350b936766e0d69740335aa6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rts.ch",
+                "programmesradio.rts.ch"
+            ]
+        },
+        {
+            "rule": "srgssr\\.ch\\/v\\/3\\.15\\/letterbox\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "letterbox-web"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.languages": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "MediaSource.isTypeSupported": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2706fc94ea4b688606e646efd944ae2654eae18d2fe0b074a1c121471361f902"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rts.ch",
+                "programmesradio.rts.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns3.srgssr.ch",
+        "ns4.srgssr.ch"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "domain": "telekom.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "search.voicecast.ng"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "telekom\\.net\\/search\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search.voicecast.ng"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ed90ce1284733e48412a2b003013045773b5bc7a690d1d0f74d00b87a6cc98c6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telekom.de",
+                "geschaeftskunden.telekom.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "dns2.telekom.de",
+        "ns1.telekom.net",
+        "dns1.telekom.de",
+        "pns.dtag.de"
+    ]
+}

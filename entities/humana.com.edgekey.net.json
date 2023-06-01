@@ -1,0 +1,70 @@
+{
+    "domain": "humana.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "s1"
+    ],
+    "cnames": [
+        {
+            "original": "target.humana.com",
+            "resolved": "s1.humana.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "humana\\.com\\.edgekey\\.net\\/rest\\/v1\\/delivery",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "target.humana.com",
+                    "resolved": "s1.humana.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "dea4d8c52c2095239e8821ce2c2c4032ac8508be8ce8ec072e055535ea9aa767"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "humana.com",
+                "www.humana.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "humana.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": []
+}

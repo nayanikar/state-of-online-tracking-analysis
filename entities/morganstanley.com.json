@@ -1,0 +1,133 @@
+{
+    "domain": "morganstanley.com",
+    "owner": {
+        "name": "Morgan Stanley",
+        "displayName": "Morgan Stanley"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "smetrics",
+        "starget"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "morganstanley\\.com\\/id",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "03c5bbbf768f8b06a34e8b0bf9f33ebd5e9aa9098bf55d740d9d504ecbfddb54",
+                "934d9970b4858fa978a8af794adc8da9ea114278773f65d826678a29bc77b00a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morganstanleyclientserv.com",
+                "login.morganstanleyclientserv.com",
+                "us.etrade.com"
+            ]
+        },
+        {
+            "rule": "morganstanley\\.com\\/m2\\/morganstanleyandco\\/mbox\\/json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "starget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c2c15dfc27041f87f7fac1d51656dff8090c4b0c6a4f25e495722f7689222326"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morganstanleyclientserv.com",
+                "login.morganstanleyclientserv.com"
+            ]
+        },
+        {
+            "rule": "morganstanley\\.com\\/rest\\/v2\\/batchmbox",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "starget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morganstanleyclientserv.com",
+                "login.morganstanleyclientserv.com"
+            ]
+        },
+        {
+            "rule": "morganstanley\\.com\\/rest\\/v2\\/batchmbox",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "starget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "66241b84913bd0b0fdb462674f79635a7b0ba45bc173260b18ccd3c6776e92f0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morganstanleyclientserv.com",
+                "login.morganstanleyclientserv.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9166666666666666
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "XHR": 7,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-ext7.ms.com",
+        "ns-ext8.morganstanley.net",
+        "ns-ext7.morganstanley.net",
+        "ns-ext9.ms.com",
+        "ns-ext8.ms.com",
+        "ns-ext9.morganstanley.net"
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "domain": "a3cloud.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "t",
+        "segment"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "a3cloud\\.net\\/AM-141096\\/tag\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e1720400748670f08b0252d4bde926feb8733169c20b9a8761c161fc995e70c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ats-cid-AM-141096-sid": {
+                    "ttl": null,
+                    "length": 8,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sonos.com",
+                "www.sonos.com"
+            ]
+        },
+        {
+            "rule": "a3cloud\\.net\\/px\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "segment"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "e558424ac245701349259101ac073e9259faa3331e7f1b8a1f1242703096cdfa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ats-cid-AM-141096-sid": 0.0002008435428800964,
+                "ats-cid-AM-141529-sid": 0.0001004217714400482,
+                "ats-cid-AM-141627-sid": 0.0001004217714400482,
+                "ats-cid-AM-141585-sid": 0.0001004217714400482,
+                "ats-cid-AM-141548-sid": 0.0002008435428800964,
+                "ats-cid-AM-141090-sid": 0.0001004217714400482
+            },
+            "exampleSites": [
+                "sonos.com",
+                "www.amtrak.com",
+                "www.consumer.equifax.ca",
+                "www.copaair.com",
+                "www.merrell.com",
+                "www.michaelkors.ca",
+                "www.saucony.com",
+                "www.sonos.com"
+            ]
+        },
+        {
+            "rule": "a3cloud\\.net\\/AM-141548\\/tag\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a496e69917ea77dc238890742f454018276ce5488fdc278c3be72d8877a530d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ats-cid-AM-141548-sid": {
+                    "ttl": null,
+                    "length": 8,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "merrell.com",
+                "www.saucony.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000803,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4166666666666667
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 8
+    },
+    "nameservers": [
+        "ns-124.awsdns-15.com",
+        "ns-906.awsdns-49.net",
+        "ns-1232.awsdns-26.org",
+        "ns-1848.awsdns-39.co.uk"
+    ]
+}

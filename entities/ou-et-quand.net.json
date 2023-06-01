@@ -1,0 +1,197 @@
+{
+    "domain": "ou-et-quand.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "compare-static",
+        "compare"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "ou-et-quand\\.net\\/tag\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "compare-static"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "5232331c8e4711696ecb88c016bf3bdd4e6f6b879394dc234954894153fac1a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ctpuid": {
+                    "ttl": 7776012,
+                    "length": 36,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cabaigne.net",
+                "www.whereandwhen.net",
+                "www.wohin-und-wann.de"
+            ]
+        },
+        {
+            "rule": "ou-et-quand\\.net\\/api\\/integrations\\/v1\\/constrain",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "compare"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "202d82fe5498eea9cb2e50b7246c50db54c6de41f12295cd87e7a1fbc4f8d83e",
+                "4c4e560a642d4d6145543d76c9c29fdd7fe7178c9587831fb5b0cf6e95d0b31e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cabaigne.net",
+                "www.whereandwhen.net",
+                "www.wohin-und-wann.de"
+            ]
+        },
+        {
+            "rule": "ou-et-quand\\.net\\/asset\\/__adslot-bundle\\/0bb4db4c4ea151682c6d266922b66abf532d14af\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [
+                "compare-static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.languages": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 2,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "window.outerWidth": 1,
+                "window.outerHeight": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.hardwareConcurrency": 1,
+                "Navigator.prototype.plugins": 1,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "window.screenX": 1,
+                "window.screenY": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f9e0b50a287fe5b44ce589a2bab32e15ec32c810196a244b74784c9b8ee6051b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js": {
+                    "ttl": 32,
+                    "length": 9,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "_pageviewUUID": {
+                    "ttl": 614,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cabaigne.net",
+                "www.wohin-und-wann.de"
+            ]
+        },
+        {
+            "rule": "ou-et-quand\\.net\\/logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "compare"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cabaigne.net",
+                "www.cabaigne.net",
+                "www.wohin-und-wann.de"
+            ]
+        },
+        {
+            "rule": "ou-et-quand\\.net\\/x\\/pas",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "compare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a60f8b72baefca10ec53e36e3d27f265663c38175b0bf8bedc9ddeb23732ea7e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ctpuid": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "cabaigne.net",
+                "www.cabaigne.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "consentframework.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "XHR": 3,
+        "Ping": 3
+    },
+    "nameservers": [
+        "jerome.ns.cloudflare.com",
+        "grace.ns.cloudflare.com"
+    ]
+}

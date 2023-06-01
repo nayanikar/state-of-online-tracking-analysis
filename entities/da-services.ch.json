@@ -1,0 +1,519 @@
+{
+    "domain": "da-services.ch",
+    "owner": {
+        "name": "Tamedia AG",
+        "displayName": "Tamedia"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00382,
+    "sites": 38,
+    "subdomains": [
+        "weather",
+        "gs-goldbach",
+        "tdn",
+        "imagemin"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "da-services\\.ch\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "weather"
+            ],
+            "apis": {},
+            "sites": 32,
+            "prevalence": 0.00321,
+            "cnames": [],
+            "responseHashes": [
+                "7b6be30e56ea0b3fc48026aedd770e3e40effb30a1f96e883e4ede5a0316d2ba"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.hommages.ch",
+                "business-monitor.ch",
+                "www.lessentiel.lu",
+                "de.viamichelin.ch",
+                "www.tio.ch",
+                "www.femina.ch",
+                "www.monetas.ch",
+                "www.thunertagblatt.ch",
+                "www.familienleben.ch",
+                "www.cineman.ch",
+                "www.sprechzimmer.ch",
+                "m.tio.ch",
+                "www.bilan.ch",
+                "www.polizei-schweiz.ch",
+                "www.falstaff.com",
+                "wegwandern.ch",
+                "www.pharmawiki.ch",
+                "www.starticket.ch",
+                "www.berneroberlaender.ch",
+                "www.zuonline.ch"
+            ]
+        },
+        {
+            "rule": "da-services\\.ch\\/grapeshot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gs-goldbach"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.00181,
+            "cnames": [],
+            "responseHashes": [
+                "139d22c3b26386b2f5d0674c43694aa6679a3ebc114e5314b150b367cc677060",
+                "f62f2241f6bd00df7b28796d85df206bcaec033d57cdd76fe7391699458127d2",
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "adb9599366efe3c4a1a5019e087e473f946ae3f00870b59a40b6b19c4458fa45"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "business-monitor.ch",
+                "de.viamichelin.ch",
+                "fr.viamichelin.ch",
+                "hitparade.ch",
+                "vornamen.familienleben.ch",
+                "wegwandern.ch",
+                "www.babywelten.ch",
+                "www.botasot.info",
+                "www.cineman.ch",
+                "www.familienleben.ch",
+                "www.falstaff.com",
+                "www.monetas.ch",
+                "www.pharmawiki.ch",
+                "www.planetehockey.com",
+                "www.polizei-schweiz.ch",
+                "www.radio.ch",
+                "www.schweizersee.ch",
+                "www.sprechzimmer.ch"
+            ]
+        },
+        {
+            "rule": "da-services\\.ch\\/current\\/tio\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.matchMedia(\"prefers-color-scheme\")": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "aa829e3c551e441eb5ecf7ba1b929d81dcbda1ad49206d37d80de144d34f1a15"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tio.ch",
+                "www.tio.ch"
+            ]
+        },
+        {
+            "rule": "da-services\\.ch\\/libs\\/oil\\/1\\.2\\.5\\/oil\\.1\\.2\\.5-RELEASE\\.min\\.js",
+            "cookies": 0.0011,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 11,
+                "Document.cookie setter": 11,
+                "Date.prototype.getTime": 11
+            },
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "ea359d083545668c2e347af91024295b70884c1923116c1198680172cc43e75d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tio.ch",
+                "www.annabelle.ch",
+                "www.bazonline.ch",
+                "www.berneroberlaender.ch",
+                "www.bilan.ch",
+                "www.hommages.ch",
+                "www.landbote.ch",
+                "www.starticket.ch",
+                "www.thunertagblatt.ch",
+                "www.tio.ch",
+                "www.zuonline.ch"
+            ]
+        },
+        {
+            "rule": "da-services\\.ch\\/libs\\/prebid7\\.32\\.0_notcf\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 4,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Navigator.prototype.doNotTrack": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.language": 4,
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "dfc046f83f14434840ae4a9bbb02ff2a5b98a6f4b00df3e3f40c8432f6c049c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592011,
+                    "length": 16,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_tfpvi": {
+                    "ttl": 31536028,
+                    "length": 59,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tio.ch",
+                "www.annabelle.ch",
+                "www.femina.ch",
+                "www.tio.ch"
+            ]
+        },
+        {
+            "rule": "da-services\\.ch\\/libs\\/oil\\/1\\.2\\.5\\/1\\.1\\.2\\.5-RELEASE\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tdn"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "30f57dfd12086d3ca607e12358cf3d17af169129358ae6a023742b5c53de43e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tio.ch",
+                "www.annabelle.ch",
+                "www.bazonline.ch",
+                "www.berneroberlaender.ch",
+                "www.bilan.ch",
+                "www.hommages.ch",
+                "www.landbote.ch",
+                "www.starticket.ch",
+                "www.thunertagblatt.ch",
+                "www.tio.ch",
+                "www.zuonline.ch"
+            ]
+        },
+        {
+            "rule": "da-services\\.ch\\/libs\\/oil\\/1\\.2\\.5\\/0\\.1\\.2\\.5-RELEASE\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tdn"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "2e8e4c5e3a692d71a1bf583e70b759e0d564adc3cb172bffabc91b2d229437ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tio.ch",
+                "www.annabelle.ch",
+                "www.bazonline.ch",
+                "www.berneroberlaender.ch",
+                "www.bilan.ch",
+                "www.hommages.ch",
+                "www.landbote.ch",
+                "www.starticket.ch",
+                "www.thunertagblatt.ch",
+                "www.tio.ch",
+                "www.zuonline.ch"
+            ]
+        },
+        {
+            "rule": "da-services\\.ch\\/libs\\/oil\\/lang\\/lang_de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tdn"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "9a811de897a109b91eec8e683e48bb8cf3af41fa117bd0ab590ba004c2942a49"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tio.ch",
+                "www.annabelle.ch",
+                "www.bazonline.ch",
+                "www.berneroberlaender.ch",
+                "www.bilan.ch",
+                "www.hommages.ch",
+                "www.landbote.ch",
+                "www.starticket.ch",
+                "www.thunertagblatt.ch",
+                "www.tio.ch",
+                "www.zuonline.ch"
+            ]
+        },
+        {
+            "rule": "da-services\\.ch\\/libs\\/oil\\/lang\\/myVendorlist\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tdn"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "208306c154bafa4c114a88a0edd04e9980aded576aa7fd5686809e675a13b89a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tio.ch",
+                "www.annabelle.ch",
+                "www.bazonline.ch",
+                "www.berneroberlaender.ch",
+                "www.bilan.ch",
+                "www.hommages.ch",
+                "www.landbote.ch",
+                "www.starticket.ch",
+                "www.thunertagblatt.ch",
+                "www.tio.ch",
+                "www.zuonline.ch"
+            ]
+        },
+        {
+            "rule": "da-services\\.ch\\/grapeshot\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gs-goldbach"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "f4648bbb4af066c950eda6e686350e5402f10b633883a36872968c240ef3e42e",
+                "81452a94566dba61820b24c5f57e82385181d7752c2b3392334a8211fe5a24b3",
+                "6d69895af4c17aa4ce1416e750bacae99a47480c18f5a282fbe22a83ab41abca",
+                "570310f73d813a1a790405c274e5d4f188fff47ed8aaae97cdf6ab5ae4de0c48",
+                "6c7c9054292379d739cafe6227d54a25f1bc7b315e81a3e79f2374931e877989",
+                "9b019d180a521413802ae21a182eae82f50821a2f83adacb1475731c352e2890",
+                "697879e3f06cf490602cf23be4dea5dcde93b7e49e28265b8e16bac2e38d1af5",
+                "4975767a445257b0ff4c611e010de0e0af53d130f74e09b08213c548edb529ee",
+                "9ea9dc8310054efafa1bb12b620ccf3569bef044d75161bcd0a17b7bee03ce61"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alle-immobilien.ch",
+                "www.bazonline.ch",
+                "www.berneroberlaender.ch",
+                "www.bilan.ch",
+                "www.home.ch",
+                "www.homegate.ch",
+                "www.immostreet.ch",
+                "www.landbote.ch",
+                "www.motoscout24.ch",
+                "www.ricardo.ch",
+                "www.thunertagblatt.ch",
+                "www.zuonline.ch"
+            ]
+        },
+        {
+            "rule": "da-services\\.ch\\/libs\\/prebid7\\.32\\.0_notcf_nn\\.js",
+            "cookies": 0.000603,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.cookieEnabled": 6,
+                "Document.cookie getter": 6,
+                "Document.cookie setter": 6,
+                "NavigatorUAData.prototype.getHighEntropyValues": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Navigator.prototype.doNotTrack": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.language": 6,
+                "Date.prototype.getTime": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "93473ae2408eed57dd9a02a337bebb8bdfe4a7544a7a70ebba061b3713e02fcd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592003,
+                    "length": 16,
+                    "prevalence": 0.0006025306286402892,
+                    "uniqueness": 0.16666666666666666
+                },
+                "_tfpvi": {
+                    "ttl": 31536003,
+                    "length": 59,
+                    "prevalence": 0.0006025306286402892,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bazonline.ch",
+                "www.berneroberlaender.ch",
+                "www.bilan.ch",
+                "www.landbote.ch",
+                "www.thunertagblatt.ch",
+                "www.zuonline.ch"
+            ]
+        },
+        {
+            "rule": "da-services\\.ch\\/libs\\/totmConnect\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "58975bf7ad05e4f3c35760e972c0fbbcc463684c5b67236964b5a54bfdda7982"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berneroberlaender.ch",
+                "www.bilan.ch",
+                "www.thunertagblatt.ch"
+            ]
+        },
+        {
+            "rule": "da-services\\.ch\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imagemin"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berneroberlaender.ch",
+                "www.bilan.ch",
+                "www.thunertagblatt.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00121,
+    "topInitiators": [
+        {
+            "domain": "gbucket.ch",
+            "prevalence": 0.66
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.24
+        },
+        {
+            "domain": "gb-next.ch",
+            "prevalence": 0.03
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.03
+        },
+        {
+            "domain": "ccm19.de",
+            "prevalence": 0.03
+        },
+        {
+            "domain": "adsafeprotected.com",
+            "prevalence": 0.01
+        }
+    ],
+    "types": {
+        "XHR": 84,
+        "Script": 48,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns-194.awsdns-24.com",
+        "ns-1065.awsdns-05.org",
+        "ns-651.awsdns-17.net",
+        "ns-1833.awsdns-37.co.uk"
+    ]
+}

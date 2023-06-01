@@ -1,0 +1,88 @@
+{
+    "domain": "adserv.mobi",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000102,
+    "sites": 15,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adserv\\.mobi\\/tagcontainer\\/extra\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000613,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "0d2b27fee27bba4db1b9e7a2a9b902add4b3ca9445299523a3ed1ef6a6b6af6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expansion.mx",
+                "politica.expansion.mx",
+                "www.canalrcn.com",
+                "www.dondeir.com",
+                "www.laprensagrafica.com",
+                "www.mexicodesconocido.com.mx",
+                "www.milenio.com",
+                "www.quien.com",
+                "www.soycarmin.com"
+            ]
+        },
+        {
+            "rule": "adserv\\.mobi\\/adsmovilUtil\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d593108f0cfdedde8b23bf8eaac79b473ac087c6e115be2f02738516141ba40f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nysaves.org",
+                "www.nysaves.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.7368421052631579
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.15789473684210525
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.10526315789473684
+        }
+    ],
+    "types": {
+        "Script": 11
+    },
+    "nameservers": [
+        "lakas.ns.cloudflare.com",
+        "mia.ns.cloudflare.com"
+    ]
+}

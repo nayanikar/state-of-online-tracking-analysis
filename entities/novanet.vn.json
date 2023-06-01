@@ -1,0 +1,93 @@
+{
+    "domain": "novanet.vn",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "script",
+        "ads"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "novanet\\.vn\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "script"
+            ],
+            "apis": {
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Date.prototype.getTime": 2,
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "58bc3c7778036ee7185f15212380976d3e5984aeeff1d23956fd841e4ff35222"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tuoitre.vn",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "novanet\\.vn\\/Ad",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "656666037a2044af40360bdc38144953853287b126a08b26152c5d3c46e2d2b0"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tuoitre.vn",
+                "vietnamnet.vn"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "vnncdn.net",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "admicro.vn",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns3.zonedns.vn",
+        "ns1.zonedns.vn",
+        "ns2.zonedns.vn"
+    ]
+}

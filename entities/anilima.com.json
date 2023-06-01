@@ -1,0 +1,88 @@
+{
+    "domain": "anilima.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "anilima\\.com\\/start",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "edf8244a0e13f27deac47b2341859afe4fd46c8ca0c95dbe6bff46e463a8cb9e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "analytic_id": {
+                    "ttl": 466560007,
+                    "length": 13,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iparts.pl",
+                "www.iparts.pl"
+            ]
+        },
+        {
+            "rule": "anilima\\.com\\/analytics",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "analytic_id": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "iparts.pl",
+                "www.iparts.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "citydsp.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns2.digitalocean.com",
+        "ns1.digitalocean.com",
+        "ns3.digitalocean.com"
+    ]
+}

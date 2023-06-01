@@ -1,0 +1,99 @@
+{
+    "domain": "loopanalytics.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "loopanalytics\\.com\\/trackatron4\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn",
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "5cca9ceb4e716f0d618bf278f7763fd043d23a1de53ae3cec43e5020316dba6a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_trackatronId": {
+                    "ttl": 63072002,
+                    "length": 9,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acplasticsinc.com",
+                "www.acplasticsinc.com",
+                "www.cecmhs.com",
+                "www.mbci.com",
+                "www.plygem.com"
+            ]
+        },
+        {
+            "rule": "loopanalytics\\.com\\/beacon",
+            "cookies": 0.000034,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_trackatronId": 0.00003403536955604264
+            },
+            "exampleSites": [
+                "acplasticsinc.com",
+                "www.acplasticsinc.com",
+                "www.cecmhs.com",
+                "www.mbci.com",
+                "www.plygem.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000408,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns-894.awsdns-47.net",
+        "ns-1360.awsdns-42.org",
+        "ns-1850.awsdns-39.co.uk",
+        "ns-149.awsdns-18.com"
+    ]
+}

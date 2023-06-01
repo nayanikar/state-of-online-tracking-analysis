@@ -1,0 +1,174 @@
+{
+    "domain": "telegram.org",
+    "owner": {
+        "name": "Telegram Messenger LLP",
+        "displayName": "Telegram Messenger LLP"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "telegram\\.org\\/js\\/telegram-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.innerHeight": 2,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0f6cdd09b3bbebf50c4e1679aff6f021f5e183a4ba2dea3a0801394599ff6afd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reinfovf.com",
+                "uncutnews.ch"
+            ]
+        },
+        {
+            "rule": "telegram\\.org\\/css\\/font-roboto\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "84b97b3fa8847b64c6d3833561e4b3146530577171e85ad226578a087db70974"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reinfovf.com",
+                "uncutnews.ch",
+                "x22report.com"
+            ]
+        },
+        {
+            "rule": "telegram\\.org\\/css\\/widget-frame\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d61214fdf1c1eee41b83cb56d52b82db20a47bfeab5248bb6fda7a4f0744eedf"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reinfovf.com",
+                "uncutnews.ch",
+                "x22report.com"
+            ]
+        },
+        {
+            "rule": "telegram\\.org\\/js\\/widget-frame\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "CanvasRenderingContext2D.prototype.getImageData": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.appName": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "06ee78d7ec692057f7bd26b27c3d70ce2846998e07ecf76b239e45c04b1cd773"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reinfovf.com",
+                "uncutnews.ch",
+                "x22report.com"
+            ]
+        },
+        {
+            "rule": "telegram\\.org\\/fonts\\/Roboto\\/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "cc5168dae071e33c7661fbc145945dd5c2421f3a1913fbda1dbbac7f597fd0fe"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reinfovf.com",
+                "uncutnews.ch",
+                "x22report.com"
+            ]
+        },
+        {
+            "rule": "telegram\\.org\\/fonts\\/Roboto\\/KFOmCnqEu92Fr1Mu4mxKKTU1Kg\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d6bff0450d6691127396f8e6399623147224b0d3e460aea93689271462aa505c"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reinfovf.com",
+                "uncutnews.ch",
+                "x22report.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "t.me",
+            "prevalence": 0.7647058823529411
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.23529411764705882
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Stylesheet": 6,
+        "Font": 6
+    },
+    "nameservers": [
+        "ns-cloud-b4.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b2.googledomains.com"
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "domain": "herefish.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "herefish\\.com\\/scripts\\/hf\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0f8095afbe2816d8929e517aadaa195f7a8038622490dc2b3565439982fc9be5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adeccousa.com",
+                "www.kornferry.com"
+            ]
+        },
+        {
+            "rule": "herefish\\.com\\/customers\\/getSnippetData\\/2e5c2c1f-cfcb-4d28-b21e-f816212d02b1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e62004417171c1ad23be0e06152335ff38932c0a688770df1f6742bf078723c8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kornferry.com",
+                "www.kornferry.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns1dhl.name.com",
+        "ns3dgj.name.com",
+        "ns2fhn.name.com",
+        "ns4dmx.name.com"
+    ]
+}

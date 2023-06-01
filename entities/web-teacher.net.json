@@ -1,0 +1,89 @@
+{
+    "domain": "web-teacher.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "ac"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "web-teacher\\.net\\/fpc\\/cookie_js\\.php",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ac"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3ccd1573d5622756bff236dc6eb20f936e5982bfd150a0d8a907f0fb0e3448b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "s": {
+                    "ttl": 1,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jbr.co.jp",
+                "sq.jbr.co.jp"
+            ]
+        },
+        {
+            "rule": "web-teacher\\.net\\/fpc\\/param\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ac"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4ef4a1ab45eb8fe022dfe326f50379ec3e9e5361c94f1f2df29f1cd317c4265c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jbr.co.jp",
+                "sq.jbr.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "04.dnsv.jp",
+        "03.dnsv.jp",
+        "01.dnsv.jp",
+        "02.dnsv.jp"
+    ]
+}

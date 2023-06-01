@@ -1,0 +1,105 @@
+{
+    "domain": "friendlyanalytics.ch",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "wemakeit",
+        "app"
+    ],
+    "cnames": [
+        {
+            "original": "insights.wemakeit.com",
+            "resolved": "wemakeit.friendlyanalytics.ch"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "friendlyanalytics\\.ch\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wemakeit",
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "insights.wemakeit.com",
+                    "resolved": "wemakeit.friendlyanalytics.ch"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wemakeit.com",
+                "www.abz.ch",
+                "www.konsumentenschutz.ch",
+                "www.persoenlich.com"
+            ]
+        },
+        {
+            "rule": "friendlyanalytics\\.ch\\/matomo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.name": 3,
+                "Date.prototype.getTime": 3,
+                "NavigatorUAData.prototype.brands": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a98bcbffd5d9ea7bf01dfdc4d0b7f0c75bfcefffa62a51e237082f7d05d18987"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abz.ch",
+                "www.konsumentenschutz.ch",
+                "www.persoenlich.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Ping": 4,
+        "Script": 3
+    },
+    "nameservers": [
+        "art.ns.cloudflare.com",
+        "elaine.ns.cloudflare.com"
+    ]
+}

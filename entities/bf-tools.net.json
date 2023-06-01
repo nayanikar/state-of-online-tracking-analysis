@@ -1,0 +1,108 @@
+{
+    "domain": "bf-tools.net",
+    "owner": {
+        "name": "BurdaForward GmbH",
+        "displayName": "BurdaForward"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00181,
+    "sites": 18,
+    "subdomains": [
+        "a",
+        "mds"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bf-tools\\.net\\/de\\/de\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Document.cookie getter": 12,
+                "window.localStorage": 12,
+                "Navigator.prototype.userAgent": 12
+            },
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "07090a7c96179e4df314ebb506068610b409e0dc66fe28bb06144ab1f075bf70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chip.de",
+                "forum.chip.de",
+                "praxistipps.focus.de",
+                "praxistipps.chip.de",
+                "ratgeber.bunte.de",
+                "www.bunte.de",
+                "www.chip.de",
+                "www.fitforfun.de",
+                "www.focus.de",
+                "www.netmoms.de",
+                "www.tvspielfilm.de",
+                "www.tvtoday.de"
+            ]
+        },
+        {
+            "rule": "bf-tools\\.net\\/api\\/v1\\/getMetadata",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mds"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "3b3f20fa6017796ce7022efd1691c745834ed9f86fcca3bb6bf5e12b29306be8",
+                "448e2f2f0291c1dbbc6765ba3217744d78aec47067ed53f52bfaca169c955191",
+                "85a52c1a057f9d62e426267cf9fe5302ad4c4a9cff974f9e90119d7c86388e61",
+                "60893b31dd9f4e021adbda5516c23829bd4bf10c99f21bdc5bfc9815ec348d29"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "elle.de",
+                "www.esquire.de",
+                "www.freundin.de",
+                "www.harpersbazaar.de",
+                "www.instyle.de",
+                "www.mein-schoener-garten.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "XHR": 6
+    },
+    "nameservers": [
+        "a7-64.akam.net",
+        "a26-67.akam.net",
+        "a1-195.akam.net",
+        "a18-65.akam.net",
+        "a20-66.akam.net",
+        "a11-64.akam.net"
+    ]
+}

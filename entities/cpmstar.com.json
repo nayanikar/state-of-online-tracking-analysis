@@ -1,0 +1,138 @@
+{
+    "domain": "cpmstar.com",
+    "owner": {
+        "name": "Tactics Network, LLC",
+        "displayName": "Tactics Network"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "server",
+        "ssl.cdne"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cpmstar\\.com\\/usersync\\.aspx",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "server"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simpleflying.com",
+                "www.planetminecraft.com"
+            ]
+        },
+        {
+            "rule": "cpmstar\\.com\\/view\\.aspx",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "server"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2f3452d61b5e27b38b3a5b9d71b2431e699ace46b0f298577cf8469c289e332a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tamugaia.com",
+                "www.minecraftforum.net",
+                "www.mobafire.com"
+            ]
+        },
+        {
+            "rule": "cpmstar\\.com\\/cached\\/zonemasters\\/mobilemodules\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ssl.cdne"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "12408af2b4b612f28259f09fdb2b0281d009ec0959f95ae4cfe63c657ea822f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minecraftforum.net",
+                "www.mobafire.com"
+            ]
+        },
+        {
+            "rule": "cpmstar\\.com\\/country\\.aspx",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "server"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ab94e45d7af912e25ac1436525899a261e0ca4ec424fc08ff23f26e86e0b8e36"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minecraftforum.net",
+                "www.mobafire.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6428571428571429
+        },
+        {
+            "domain": "d1oykxszdrgjgl.cloudfront.net",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "vntsm.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Script": 7
+    },
+    "nameservers": [
+        "ns1.theplanet.com",
+        "ns2.theplanet.com"
+    ]
+}

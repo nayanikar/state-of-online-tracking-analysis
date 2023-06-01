@@ -1,0 +1,168 @@
+{
+    "domain": "assaabloy.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "gw-assets",
+        "webservices.globalweb.aws"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "assaabloy\\.com\\/s7viewers\\/html5\\/js\\/SmartCropVideoViewer\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gw-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8d36d0fc941e01f68b686429d525defcd0a8e9a92aa03088678ef48867461033"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abloy.com",
+                "www.yalehome.com"
+            ]
+        },
+        {
+            "rule": "assaabloy\\.com\\/sourcenetwork\\/getsourcenetwork",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webservices.globalweb.aws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "903d4ca663f1d945d3e3bc54c5edcee09f0d375be6f24a68fe58e4035bd51f5a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abloy.com",
+                "www.yalehome.com"
+            ]
+        },
+        {
+            "rule": "assaabloy\\.com\\/matomo\\/matomo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "webservices.globalweb.aws"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2e64eda59a1c2536d3ea595cfb6bf8efff98957f13c01cf2cf5707b7d2ffd523"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abloy.com",
+                "www.yalehome.com"
+            ]
+        },
+        {
+            "rule": "assaabloy\\.com\\/matomo\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webservices.globalweb.aws"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abloy.com",
+                "www.abloy.com",
+                "www.yalehome.com"
+            ]
+        },
+        {
+            "rule": "assaabloy\\.com\\/matomo\\/plugins\\/HeatmapSessionRecording\\/configs\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webservices.globalweb.aws"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "c7bd5763b469ef64c0b11415776a5cd0f40945b151c15de9289a81be68c43d32",
+                "db1ecf08aa57e8a647011b3d969741d8cc9e31ae9cd2c03f23172d25a1d1f853"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abloy.com",
+                "www.abloy.com",
+                "www.yalehome.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "XHR": 2,
+        "Ping": 3
+    },
+    "nameservers": [
+        "dns1.cscdns.net",
+        "dns2.cscdns.net"
+    ]
+}

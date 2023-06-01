@@ -1,0 +1,118 @@
+{
+    "domain": "netgear10-search-alb-v00-1811135778.us-west-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "explore.netgear.com",
+            "resolved": "netgear10-search-alb-v00-1811135778.us-west-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "netgear10-search-alb-v00-1811135778\\.us-west-1\\.elb\\.amazonaws\\.com\\/searchblox\\/netgear\\/en\\/headersearch\\/facet\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "explore.netgear.com",
+                    "resolved": "netgear10-search-alb-v00-1811135778.us-west-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "97160c1f460b347b86612eb1927427855c791352ce5fdbbeec2aa0524c2c27ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "netgear.com",
+                "community.netgear.com",
+                "kb.netgear.com"
+            ]
+        },
+        {
+            "rule": "netgear10-search-alb-v00-1811135778\\.us-west-1\\.elb\\.amazonaws\\.com\\/searchblox\\/netgear\\/en\\/headersearch\\/build\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "explore.netgear.com",
+                    "resolved": "netgear10-search-alb-v00-1811135778.us-west-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "cb3ac0f3c81b1aec62b4f062bfddba9b9ac948ceb54a44b0d2629d1956e7395b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "netgear.com",
+                "community.netgear.com",
+                "kb.netgear.com"
+            ]
+        },
+        {
+            "rule": "netgear10-search-alb-v00-1811135778\\.us-west-1\\.elb\\.amazonaws\\.com\\/ui\\/v1\\/search\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "explore.netgear.com",
+                    "resolved": "netgear10-search-alb-v00-1811135778.us-west-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "8a95b311c97d570ea9e1c2866909459e828c1ea121704980ed1253155dd5f2dd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "netgear.com",
+                "community.netgear.com",
+                "kb.netgear.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "fullstory.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "XHR": 3
+    },
+    "nameservers": []
+}

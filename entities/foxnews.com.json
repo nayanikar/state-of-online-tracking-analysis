@@ -1,0 +1,87 @@
+{
+    "domain": "foxnews.com",
+    "owner": {
+        "name": "Fox Corporation",
+        "displayName": "Fox",
+        "privacyPolicy": "https://www.foxnews.com/privacy-policy",
+        "url": "http://foxnews.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "foxnews\\.com\\/static\\/orion\\/scripts\\/core\\/utils\\/geo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1593f7be1f05bf91ace287b8cd8a261bd03fbcd498f96e953f232882e176ed73"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toofab.com",
+                "www.tmz.com"
+            ]
+        },
+        {
+            "rule": "foxnews\\.com\\/static\\/strike\\/scripts\\/libs\\/lodash\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toofab.com",
+                "www.tmz.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "fox.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns04.foxdoua.com",
+        "ns02.dns.fox",
+        "ns03.foxdoua.com",
+        "ns02.foxdoua.com",
+        "ns01.foxdoua.com",
+        "ns04.dns.fox",
+        "ns03.dns.fox",
+        "ns01.dns.fox"
+    ]
+}

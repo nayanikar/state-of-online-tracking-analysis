@@ -1,0 +1,112 @@
+{
+    "domain": "marchex.io",
+    "owner": {
+        "name": "Marchex, Inc.",
+        "displayName": "Marchex"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "rw1",
+        "px"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "marchex\\.io\\/euinc\\/getnumdata\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rw1"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "4139217a41e22e23062d908059e1a1f9065bc59cb84e3d2d17438c1cbf52df99",
+                "8b82448e5551693ea90c222fc2eb8df69f5cbb2f03e75587d1f206e3b35adc03"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mfbullion.ca",
+                "www.bordergold.com",
+                "www.windsorplywood.com",
+                "www.winnipegfreepress.com"
+            ]
+        },
+        {
+            "rule": "marchex\\.io\\/pixel\\.gif",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mfbullion.ca",
+                "www.bordergold.com",
+                "www.midas.com"
+            ]
+        },
+        {
+            "rule": "marchex\\.io\\/euinc\\/number-changer\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rw1"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "6493ebe5a8bb3751f00d3c4e48d0c8a8c7dc46be0b79e78d8831f3a2f3f45526"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hgregoire.com",
+                "www.windsorplywood.com",
+                "www.winnipegfreepress.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns-1935.awsdns-49.co.uk",
+        "ns-1040.awsdns-02.org",
+        "ns-232.awsdns-29.com",
+        "ns-883.awsdns-46.net"
+    ]
+}

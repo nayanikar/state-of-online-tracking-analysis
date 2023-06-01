@@ -1,0 +1,894 @@
+{
+    "domain": "postmedia.digital",
+    "owner": {
+        "name": "Postmedia Network Inc.",
+        "displayName": "Postmedia Network"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00181,
+    "sites": 18,
+    "subdomains": [
+        "analytics-assets.gprod",
+        "fem.gprod",
+        "dcs-static.gprod",
+        "smartcdn.gprod"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "postmedia\\.digital\\/assets\\/js\\/vendorhosted\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics-assets.gprod"
+            ],
+            "apis": {
+                "window.localStorage": 9,
+                "Date.prototype.getTime": 13,
+                "Date.prototype.getTimezoneOffset": 13
+            },
+            "sites": 13,
+            "prevalence": 0.00131,
+            "cnames": [],
+            "responseHashes": [
+                "965c9f7dc427fcfc81620f12737c97f867fe72aad953c003390524606dab17b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "remembering.ca",
+                "calgaryherald.remembering.ca",
+                "edmontonjournal.remembering.ca",
+                "leaderpost.remembering.ca",
+                "lfpress.remembering.ca",
+                "montrealgazette.remembering.ca",
+                "ottawacitizen.remembering.ca",
+                "simcoereformer.remembering.ca",
+                "theobserver.remembering.ca",
+                "thestarphoenix.remembering.ca",
+                "thewhig.remembering.ca",
+                "vancouversunandprovince.remembering.ca",
+                "windsorstar.remembering.ca"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/v79\\.3\\/fem\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 2,
+            "subdomains": [
+                "fem.gprod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.innerWidth": 5,
+                "Document.cookie getter": 5,
+                "window.localStorage": 5,
+                "Document.cookie setter": 5,
+                "window.sessionStorage": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.vendor": 5,
+                "Navigator.prototype.languages": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "aee9a10d3ffa3dc4daf0ea79b7f151d3e0935e8e9d4cd81790002d98f3481c54"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "political-ad-opt-out": {
+                    "ttl": 604803,
+                    "length": 66,
+                    "prevalence": 0.000502108857200241,
+                    "uniqueness": 1
+                },
+                "x-id": {
+                    "ttl": 604805,
+                    "length": 143,
+                    "prevalence": 0.000502108857200241,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/CACHE\\/js\\/shared\\.72fe1588dbc6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "0e5a5431b1a7bfecbf681243556f01b3e0e2b02e8621d7366a1d63804edb1052"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/CACHE\\/js\\/main\\.63c80e333ec4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "console.memory": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "63c80e333ec4cf5788615d26fbfd54ac5c3291cd01a7da6dfe6124b6b8d50b99"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/images\\/common-icon\\/icon-generic-play\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "2f28c008f0ce667d697ccc95a07377e8562c0c28dd910f864724a265f75671e4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/images\\/postmedia-image-fallback\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4c2d7a9348b95c30a2964a886e6150169b04868cbace732934c03d764ab6e0b0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/v79\\.3\\/xd\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fem.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "6e9ba075c98efb22256a5fc825dfc9607f1e0196538599d131ef9f2872fa7dde"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/js\\/65c1728f2033e06a11127\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "3cfa09fd8d0ccfa990f5b81e8fbc8c6f50a8ecc7f0260b89a567f5100741e9c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/js\\/a3abef1aea194bc54ce30\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "6333459bbba841d16299dfee81d2019bf4b4133760e6b375168a4b4ce03a9079"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/js\\/7ccc7238f639079f46592\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {
+                "window.localStorage": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "67d87e0c0c48649776175b5c581a896df462d1d241bbf73dcd31942cd53a8fbb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/js\\/a8c398763ea07427eb503\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Screen.prototype.width": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "ced3553fbf17f8efee6874437b0201c1de697f287c6198e5a2860d5336bafd62"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/js\\/5823a2c6fa01947b28a528\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "3ac01602a680fd35035a37b390f16b13e3fdf151afbf8dbf0f820e5d8d2202b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/js\\/b4cb18d7576a04277b1d10\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "6baac3ad71b0e139bb374ad569fb40f9316db512d4827f774d7349c70778b48e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/js\\/038f1a189b9ca927924936\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "65b878dfbf935741f295917b1ffad8648cc272bd0e1d69671d4e2adfe51ac644"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/js\\/1c5126d5938ab9ae97a140\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "8ce0f5ae7bee69ea6ce3ed3fb7cdcbb1b93d4a1935dde9ce1ca29abfe21235b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/js\\/2927530881c26074a84a22\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "5a7a5314edb2dda052187abeb7e967f32485d1c7ad08c5f7cfcbdffe8d8bf36b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/ocanada\\/wp-content\\/uploads\\/2020\\/12\\/REMEMBERING_LILY2\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartcdn.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "5eeb542a3bde981cc1c740926153e648f4dd2a42223ee92d756d05a454325161"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/ocanada\\/wp-content\\/uploads\\/2020\\/12\\/marta-filipczyk-mN5-yjVGBAI-unsplash-scaled\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartcdn.gprod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "8de9ab04b2fcaa6f2d7cda96993d9636a35078c78c219cd026c2f5a8f78e0bbb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/ocanada\\/wp-content\\/uploads\\/2021\\/07\\/Business-Card-Directory\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartcdn.gprod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a7642e9270b65d0b8b5f4c6b2b30050b73c6418f7f386378b6b411598bd424f6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/ocanada\\/wp-content\\/uploads\\/2021\\/07\\/browse-marketplace-ads\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartcdn.gprod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "ab254916cfa43f41006d6c693640d934e2b5a32695549a65a44aac9fef6bf10b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/nexus\\/wp-content\\/uploads\\/2023\\/04\\/so\\.0419-so-coalition\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartcdn.gprod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dd506e22605b180092187f5d41f05b1dcc757280509c9f66a6908db2e1f51a99"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.theobserver.ca"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/nexus\\/wp-content\\/uploads\\/2023\\/04\\/so\\.0419-so-chess-13\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartcdn.gprod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "97f6cbdeb20da6007938b7552fca869f577bd728f8c1453066e793c83d0e3e21"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.theobserver.ca"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/nexus\\/wp-content\\/uploads\\/2023\\/04\\/Bob_Hayward\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartcdn.gprod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5d4106c97dc7e30aaaee599bbe6b5c5aa724f1044a63bd885c07b5fbc4bf0218"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.theobserver.ca"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/nexus\\/wp-content\\/uploads\\/2023\\/03\\/Sarnia-City-Hall\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartcdn.gprod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "60c6a3a3186a899e1f10fc360b5cba769760a779c1dabef554afa993de476258"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.theobserver.ca"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/v79\\.3\\/xd\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 1,
+            "subdomains": [
+                "fem.gprod"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "window.localStorage": 5,
+                "Document.cookie setter": 5,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "71953c2522ed53a92a0ccbc21a8c088f37d22ddb3eb571289637926768305f6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "x-id": {
+                    "ttl": 604805,
+                    "length": 143,
+                    "prevalence": 0.000502108857200241,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/js\\/4f6161d682044f60dd0f20\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "6342cb9dc3c060e563089dfc844b2b9465b41b9701ef9c9b3493bcf564057e6e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/js\\/65079a5abc8be7057f994\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "604b9cf337c21d5ffee6265583dcb1ff9fc38cda8bfd50ac6925325f843a2375"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/js\\/affc78503e58be0e3d6215\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "ec5e8bdd195cceea062b48abe6d0a3b340337e62fe7807f683304115c1ee8fd9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/v79\\.3\\/chunks\\/5f51e082f0347cd83ab6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fem.gprod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "7ffae9e2ad2e03f24be4dfe7a8c14b87cc82d5b56d26133a4bff995a9f94459b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brantfordexpositor.ca",
+                "www.simcoereformer.ca",
+                "www.theobserver.ca",
+                "www.thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/nexus\\/wp-content\\/uploads\\/2023\\/04\\/OPP-1-2-3-1-1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartcdn.gprod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0f121d1c151ec4be23fe744ca00a6e535d83573c172e8f46d2b99cd3e31439f9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simcoereformer.ca",
+                "www.thesudburystar.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/nexus\\/wp-content\\/uploads\\/2023\\/04\\/so\\.0419-so-bees-2\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartcdn.gprod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "41d2b2890f8e2f9aa632943c6b9cc6d2992afdd218b608c91f149477bd70da39"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theobserver.ca",
+                "www.theobserver.ca"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/ocanada\\/wp-content\\/uploads\\/2021\\/02\\/manage_subscriptions-2-scaled\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smartcdn.gprod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "91c2c15d7260ee9f166d0b558ddd2e45d852b60da5b2f8b151226bd0150d595a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theobserver.ca",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "postmedia\\.digital\\/13\\.3\\.0\\/websites\\/js\\/be0e46c6d67ec079bd9a31\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dcs-static.gprod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e6dfa061f3b7523bf9c34576f618bc12119b0c4011f5183fd251c9d8699cab98"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thesudburystar.com",
+                "www.thewhig.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 100,
+        "Image": 36,
+        "Document": 5
+    },
+    "nameservers": [
+        "ns-585.awsdns-09.net",
+        "ns-1025.awsdns-00.org",
+        "ns-1746.awsdns-26.co.uk",
+        "ns-215.awsdns-26.com"
+    ]
+}

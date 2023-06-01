@@ -1,0 +1,112 @@
+{
+    "domain": "personyze.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "counter",
+        "count"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "personyze\\.com\\/stat-track-lib\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "counter"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.platform": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.javaEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f518534193a1f74859183daea4ff6fffeb50ad366715cb209321bb480a3a0ace"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "stat_track_u_id": {
+                    "ttl": 63072019,
+                    "length": 108,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "_stat_track_s_id": {
+                    "ttl": null,
+                    "length": 198,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guns.com",
+                "www.tyroola.com.au"
+            ]
+        },
+        {
+            "rule": "personyze\\.com\\/stat-track-log-visit\\.js\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "count"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fd7ca570d567a2ea1f825e076a11c2356685aaa3fbc82cc4ed26ad1ff404f3ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guns.com",
+                "www.tyroola.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "tyroola.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns24.domaincontrol.com",
+        "ns23.domaincontrol.com"
+    ]
+}

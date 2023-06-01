@@ -1,0 +1,104 @@
+{
+    "domain": "mercedes-benz.com",
+    "owner": {
+        "name": "Daimler AG",
+        "displayName": "Daimler"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "assets.oneweb",
+        "services-amap.me"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mercedes-benz\\.com\\/plugin\\/workbench\\/core\\/6\\.12\\.1\\/css\\/globals\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.oneweb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1a448380cb48986f92738738f4045475a8237549da2e7269f81ef18fc77f254a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercedes-benz.com.au",
+                "www.mercedes-benz.com.au"
+            ]
+        },
+        {
+            "rule": "mercedes-benz\\.com\\/mhb2b-prod\\/mhb2b-permissions\\/mhb2b\\/get-active-user-profile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services-amap.me"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercedes-benz.com.au",
+                "www.mercedes-benz.com.au"
+            ]
+        },
+        {
+            "rule": "mercedes-benz\\.com\\/mhb2b-prod\\/mhb2b-permissions\\/mhb2b\\/get-active-user-profile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services-amap.me"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d07cc4c5a424989c376feac106d9a3ead6e5c5fb564b453b7ba406f34a616ea4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercedes-benz.com.au",
+                "www.mercedes-benz.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns1.corpinter.net",
+        "ns2.corpinter.de",
+        "ns3.corpinter.net",
+        "ns4.corpinter.de"
+    ]
+}

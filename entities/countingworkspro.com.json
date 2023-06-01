@@ -1,0 +1,83 @@
+{
+    "domain": "countingworkspro.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "countingworkspro\\.com\\/js\\/plausible\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Navigator.prototype.webdriver": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "049eec84a176f9131b743ccc1c596723631decfaf2157c7ae7bc8b2e0fef42d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taxbuzz.com",
+                "www.taxbuzz.com"
+            ]
+        },
+        {
+            "rule": "countingworkspro\\.com\\/api\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taxbuzz.com",
+                "www.taxbuzz.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns1.world-serv.com",
+        "ns2.world-serv.net",
+        "ns2.world-serv.com",
+        "ns1.world-serv.net"
+    ]
+}

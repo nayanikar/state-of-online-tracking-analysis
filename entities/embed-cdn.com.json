@@ -1,0 +1,70 @@
+{
+    "domain": "embed-cdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "v"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "embed-cdn\\.com\\/v16\\/player\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "v"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie setter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "42358034ab02462b6a97d66ff3cbf51673c8af6d7a3426f68b7e222299fc28e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "session": {
+                    "ttl": 2592000000001,
+                    "length": 10,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "says.com",
+                "streamable.com",
+                "www.freeforumzone.com",
+                "www.reddit.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "streamable.com",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns2.hover.com",
+        "ns1.hover.com"
+    ]
+}

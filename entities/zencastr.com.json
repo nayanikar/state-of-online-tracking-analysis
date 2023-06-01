@@ -1,0 +1,78 @@
+{
+    "domain": "zencastr.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "media"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "zencastr\\.com\\/zpix\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Date.prototype.getTimezoneOffset": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "61f676c4df763c06a3e13e963014d2609fef2063cec60a1fef229bb64753506f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__zpix_uid": {
+                    "ttl": 63072004,
+                    "length": 19,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blendjet.com",
+                "paperlike.com",
+                "www.fool.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ali.ns.cloudflare.com",
+        "ned.ns.cloudflare.com"
+    ]
+}

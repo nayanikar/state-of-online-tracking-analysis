@@ -1,0 +1,254 @@
+{
+    "domain": "datazoom.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000511,
+    "sites": 75,
+    "subdomains": [
+        "platform",
+        "broker"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "datazoom\\.io\\/beacon\\/v1\\/config",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.connection": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 40,
+            "prevalence": 0.000272,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "ec6403248dd916f1cd19ee681bd06b2f4b0786f6dfd1b55328ac1f976406d04b",
+                "01955d181274b295761383698c3220e094604ddb80ac0d6663c0904a745d2113"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nypost.com",
+                "wjla.com",
+                "news3lv.com",
+                "katu.com",
+                "kmph.com",
+                "newschannel9.com",
+                "news.abs-cbn.com",
+                "cbsaustin.com",
+                "wcyb.com",
+                "abcnews4.com",
+                "nbcmontana.com",
+                "abc6onyourside.com",
+                "katv.com",
+                "okcfox.com",
+                "wjactv.com",
+                "local21news.com",
+                "wgme.com",
+                "cbs6albany.com",
+                "weartv.com",
+                "turnto10.com"
+            ]
+        },
+        {
+            "rule": "datazoom\\.io\\/beacon\\/v2\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "ec3588763f05150bf69a28af0b634e5705a34798968126473a425c3ecd8bd28f",
+                "9d20d373ad9c8d9ef67cc8490e3ecf9b08f3ba2fddbb99c9efda8160d84e5c27",
+                "1955d51fb6a817a2fc9f6cd8ead4e1688784efe9ca3e558b93706c013c2323aa",
+                "57733e727913c6c2359d929096641eeb333afaf147eb10c676be5b043d996cb3",
+                "a822fd0887499889b6ad81e3510fc0146085fb98103d1b66cbc794ceebb837b6",
+                "6b1f71a4d47e4e89085d6bac5f1f84219023e3402ad4a1e06efec27f43622c54"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abs-cbn.com",
+                "news.abs-cbn.com",
+                "noe.orf.at",
+                "nypost.com",
+                "sport.orf.at",
+                "tv.orf.at",
+                "wien.orf.at"
+            ]
+        },
+        {
+            "rule": "datazoom\\.io\\/broker\\/v1\\/getEpochMillis",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "broker"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abs-cbn.com",
+                "news.abs-cbn.com",
+                "noe.orf.at",
+                "nypost.com",
+                "sport.orf.at",
+                "tv.orf.at",
+                "wien.orf.at"
+            ]
+        },
+        {
+            "rule": "datazoom\\.io\\/broker\\/v1\\/getEpochMillis",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "broker"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "1ab06331074bb8ed65a0e3d6f0f5bbefff855cad4b07b7f475d80f2c78e3b55e",
+                "7df3d7a6f2e89afb564b5ccc09fd8ed5052fa26c62fc8b073905754af95c384d",
+                "fd022d5422f5235ae835c9d235baa30642da1efc39813ee615ec5257a2661942",
+                "5078e100bd6b9259b3e8d74f9238fe087aca5b400ebdb56e52df241227e0d859",
+                "f1ec07c5bfe4acf51b7314adcd2d9edbebaafc825a7a9fbc9e000903641f1b1f",
+                "e633ef3e3031972d1b0494bb325308724f99a02db52a2aa06f5b068c17e40ac3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abs-cbn.com",
+                "news.abs-cbn.com",
+                "noe.orf.at",
+                "nypost.com",
+                "sport.orf.at",
+                "tv.orf.at",
+                "wien.orf.at"
+            ]
+        },
+        {
+            "rule": "datazoom\\.io\\/broker\\/v1\\/gpt\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "broker"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abs-cbn.com",
+                "news.abs-cbn.com",
+                "noe.orf.at",
+                "nypost.com",
+                "sport.orf.at",
+                "tv.orf.at",
+                "wien.orf.at"
+            ]
+        },
+        {
+            "rule": "datazoom\\.io\\/broker\\/v1\\/logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "broker"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "f194b84c339f1da93d1d689b766f9cd05d2b63f15c10f5193b43dafb939ea909",
+                "32b41cbd7e12725884274e08e2a3d8eb01eeda702c65c89f958551e16feea157",
+                "97694efdc565261b764b4932b2e18695444743d55d27aa522ab2b65d537ef090",
+                "53371ccd94662d0e5e37074ae8a51758a61f10f951817073b6fcd68ebafa106e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "nypost.com",
+                "sport.orf.at",
+                "tv.orf.at",
+                "wien.orf.at"
+            ]
+        },
+        {
+            "rule": "datazoom\\.io\\/broker\\/v1\\/logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "broker"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "nypost.com",
+                "sport.orf.at",
+                "tv.orf.at",
+                "wien.orf.at"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 40,
+        "XHR": 26,
+        "Preflight": 12
+    },
+    "nameservers": [
+        "ns-1344.awsdns-40.org",
+        "ns-883.awsdns-46.net",
+        "ns-1800.awsdns-33.co.uk",
+        "ns-126.awsdns-15.com"
+    ]
+}

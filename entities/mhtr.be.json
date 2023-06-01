@@ -1,0 +1,126 @@
+{
+    "domain": "mhtr.be",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "static",
+        "prod",
+        "prodh"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mhtr\\.be\\/public\\/tr\\/tracker\\.min\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "81cccd69e4ded5c6c08e955ff7c2c2fa65c730882322e030f3b8cd3a088d3054"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_mhtc_cId": {
+                    "ttl": 2678409,
+                    "length": 36,
+                    "prevalence": 0.0005021592849251782,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gva.be",
+                "www.hbvl.be",
+                "www.limburger.nl",
+                "www.nieuwsblad.be",
+                "www.standaard.be"
+            ]
+        },
+        {
+            "rule": "mhtr\\.be\\/v",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "8e66d166c5b60456f55fa2215b7d464b28086f2eb8dd2d2fc666defd0c2e9556",
+                "0c875e324037c029b1bd02286b46221cc725bdd0c2f3ab618a047afa6ca84a86",
+                "d9ab7665fa40579fadde6c4f5b912bce1132dec90ec5981e82a75bf3fd5de44a",
+                "8380d0e645a5e69bbda2e6854876bbdbbff2a7eef42d5d0f4c15b96dd532b426"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gva.be",
+                "www.hbvl.be",
+                "www.limburger.nl",
+                "www.nieuwsblad.be",
+                "www.standaard.be"
+            ]
+        },
+        {
+            "rule": "mhtr\\.be\\/h",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prodh"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gva.be",
+                "www.limburger.nl",
+                "www.nieuwsblad.be",
+                "www.standaard.be"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 9
+    },
+    "nameservers": [
+        "erin.ns.cloudflare.com",
+        "elliot.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "domain": "bctn-sao.s3.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bctn-sao\\.s3\\.amazonaws\\.com\\/js\\/xchassis\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ddeb19675db6e1ea2653a565c39c69c22c62ff5050b400977b8e1732df46c6af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "xgeo": {
+                    "ttl": 259200,
+                    "length": 325,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rotogrinders.com",
+                "www.vegasinsider.com"
+            ]
+        },
+        {
+            "rule": "bctn-sao\\.s3\\.amazonaws\\.com\\/img\\/sao-logo-mobile\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a82a76a8518c8812633876dd58b0cfd8348c3cc988e49d99394e159f8e8b8b81"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scoresandodds.com",
+                "www.scoresandodds.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1620.awsdns-10.co.uk",
+        "ns-328.awsdns-41.com",
+        "ns-1173.awsdns-18.org",
+        "ns-674.awsdns-20.net"
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "domain": "ilmeteo.it",
+    "owner": {
+        "name": "ilMeteo srl",
+        "displayName": "ilMeteo"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "sitipartner"
+    ],
+    "cnames": [
+        {
+            "original": "meteo24.ilsole24ore.com",
+            "resolved": "sitipartner.ilmeteo.it"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ilmeteo\\.it\\/api\\/meteo\\/4074",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sitipartner"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "meteo24.ilsole24ore.com",
+                    "resolved": "sitipartner.ilmeteo.it"
+                }
+            ],
+            "responseHashes": [
+                "4fd183d0c2797cb4891e47691046fef1b315879a5ed53d6b2f378184a36d7fb9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilsole24ore.com",
+                "www.ilsole24ore.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": [
+        "earl.ns.cloudflare.com",
+        "dora.ns.cloudflare.com"
+    ]
+}

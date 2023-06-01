@@ -1,0 +1,282 @@
+{
+    "domain": "tailtarget.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "tags.t",
+        "d",
+        "tt-12842-2.seg.t",
+        "b.t",
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tailtarget\\.com\\/t3m\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.t"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "775807392af29b7a91f1217ab6ed717ba35baaa024bdccc9273321f54ab51bb4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globo.com",
+                "ge.globo.com"
+            ]
+        },
+        {
+            "rule": "tailtarget\\.com\\/conversion\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f3d70165d1438b13b94b2aebf55f853777b6f44c8ca0b3473728bfefa90b115f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tt_c_vmt": {
+                    "ttl": 1826,
+                    "length": 10,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                },
+                "tt_c_c": {
+                    "ttl": 1826,
+                    "length": 6,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 0.5
+                },
+                "tt_c_s": {
+                    "ttl": 1826,
+                    "length": 6,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 0.5
+                },
+                "tt_c_m": {
+                    "ttl": 1826,
+                    "length": 6,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globo.com",
+                "g1.globo.com"
+            ]
+        },
+        {
+            "rule": "tailtarget\\.com\\/base\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "54930f8d5930ea73a5643b6e7cd4f3e5142609ed371fd9d1969ad38dba591ab4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ttuu.s": {
+                    "ttl": 62208026,
+                    "length": 13,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                },
+                "tt.u": {
+                    "ttl": 31536031,
+                    "length": 32,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globo.com",
+                "g1.globo.com"
+            ]
+        },
+        {
+            "rule": "tailtarget\\.com\\/trk",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tt-12842-2.seg.t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7d313f32ad7ce382a2df2cd1dcaa8bc48187b20382e323b4369587ec54ae3d64"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "tt_c_vmt": 0.0002008435428800964,
+                "tt_c_c": 0.0002008435428800964,
+                "tt_c_s": 0.0002008435428800964,
+                "tt_c_m": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "globo.com",
+                "g1.globo.com"
+            ]
+        },
+        {
+            "rule": "tailtarget\\.com\\/u",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b.t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e0d62f053e34766e0b3d7f83a0ed96a01cf03fd42f764e3f40440188c0405e56"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globo.com",
+                "g1.globo.com"
+            ]
+        },
+        {
+            "rule": "tailtarget\\.com\\/b",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b.t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bac1b2be144e5ba95a28bb39ec11d822c4fc77fbb313a1c17775bb2085c58492"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "tt.u": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "globo.com",
+                "g1.globo.com"
+            ]
+        },
+        {
+            "rule": "tailtarget\\.com\\/ca",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tt-12842-2.seg.t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c987d2e9609839554a8fbb0434a914ebc1067fc29fa72461b9f7d37f6f5703e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globo.com",
+                "g1.globo.com"
+            ]
+        },
+        {
+            "rule": "tailtarget\\.com\\/__tt\\.gif",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "tt.u": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "globo.com",
+                "g1.globo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "glbimg.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "jsuol.com.br",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d2.googledomains.com",
+        "ns-cloud-d3.googledomains.com",
+        "ns-cloud-d4.googledomains.com"
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "domain": "wwads.cn",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "wwads\\.cn\\/js\\/makemoney\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dae15a2e6f12dad592add9f3a96902b0e4b1901ca6e1bab247426faf4a948171"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ventoy.net",
+                "www.ventoy.net"
+            ]
+        },
+        {
+            "rule": "wwads\\.cn\\/js\\/fp-3\\.3\\.6\\.min\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "OfflineAudioContext.prototype.constructor": 1,
+                "Screen.prototype.colorDepth": 1,
+                "AudioBuffer.prototype.getChannelData": 1,
+                "window.sessionStorage": 1,
+                "window.localStorage": 1,
+                "window.indexedDB": 1,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f15f969e1485e8b10611a04bcc48d4dc1731c1f88616f2989646d47565f31cb6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1681842866,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ventoy.net",
+                "www.ventoy.net"
+            ]
+        },
+        {
+            "rule": "wwads\\.cn\\/code\\/banners",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d86d95a6f720b609bb30f5ea600ab5b917341f5101519365c80ab644b7127651"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ventoy.net",
+                "www.ventoy.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "vip1.alidns.com",
+        "vip2.alidns.com"
+    ]
+}

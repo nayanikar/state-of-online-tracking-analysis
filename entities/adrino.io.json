@@ -1,0 +1,91 @@
+{
+    "domain": "adrino.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "prd-nowy-master-id-supplier",
+        "prd-header-biding"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adrino\\.io\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prd-nowy-master-id-supplier"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deccoria.pl",
+                "echodnia.eu"
+            ]
+        },
+        {
+            "rule": "adrino\\.io\\/js\\/tools\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prd-header-biding"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8b4b3bce52beeb04b918dcfea17f634fd3e571ce7f34dd8cf1f71b1b3c8d7f8b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deccoria.pl",
+                "echodnia.eu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "contentstream.pl",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "adrino.cloud",
+            "prevalence": 0.21428571428571427
+        },
+        {
+            "domain": "customplacementclientsideadart-0.js",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns101.ovh.net",
+        "dns101.ovh.net"
+    ]
+}

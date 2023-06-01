@@ -1,0 +1,161 @@
+{
+    "domain": "maatoo.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "army-shop",
+        "hsh",
+        "maatoo-60e01"
+    ],
+    "cnames": [
+        {
+            "original": "mto.kellerfahnen.ch",
+            "resolved": "maatoo-60e01.maatoo.io"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "maatoo\\.io\\/mtc\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "army-shop",
+                "hsh",
+                "maatoo-60e01"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "mto.kellerfahnen.ch",
+                    "resolved": "maatoo-60e01.maatoo.io"
+                }
+            ],
+            "responseHashes": [
+                "c1390403b2a05d20d35c455711bc2b535a2b07d64b8b3f2bdf72aead6b984035",
+                "0df2b63f3f39f4daaf04074f6c2ad4b7c14742664e13bc6e9e54d188de28a236"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mtc_id": {
+                    "ttl": null,
+                    "length": 7,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                },
+                "mtc_sid": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                },
+                "mautic_device_id": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "army-shop.ch",
+                "www.hobbyshop.ch",
+                "www.kellerfahnen.ch"
+            ]
+        },
+        {
+            "rule": "maatoo\\.io\\/mtc\\/event",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "army-shop",
+                "hsh",
+                "maatoo-60e01"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "mto.kellerfahnen.ch",
+                    "resolved": "maatoo-60e01.maatoo.io"
+                }
+            ],
+            "responseHashes": [
+                "773f2f457f452753cbbefaac7393079f40545d89bf32261cf8b02c51791d3cd6",
+                "7f3f26fdf5198541c27011e22fe33f9f913bf026287ef1a57e4676c8d152b5e0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "army-shop.ch",
+                "www.hobbyshop.ch",
+                "www.kellerfahnen.ch"
+            ]
+        },
+        {
+            "rule": "maatoo\\.io\\/mtc\\/event",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "army-shop",
+                "hsh",
+                "maatoo-60e01"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "mto.kellerfahnen.ch",
+                    "resolved": "maatoo-60e01.maatoo.io"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "army-shop.ch",
+                "www.hobbyshop.ch",
+                "www.kellerfahnen.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e4.googledomains.com"
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "domain": "litv.tv",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "player.svc",
+        "jsmodule.svc"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "litv\\.tv\\/v3\\/ppnio\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player.svc"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.platform": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d12b14f98adcfb9f4530c467051a7f816ec47147a6b637284773706f78946df6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ltn.com.tw",
+                "news.ltn.com.tw",
+                "www.ltn.com.tw"
+            ]
+        },
+        {
+            "rule": "litv\\.tv\\/videojs\\/7\\.20\\.3\\/video\\.novtt\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jsmodule.svc"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Navigator.prototype.languages": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "MediaSource.isTypeSupported": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "cfa7fa2f983c68f068d1286c9d309ca3537732b7937d673250ccdd203bc86bf3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ltn.com.tw",
+                "news.ltn.com.tw",
+                "www.ltn.com.tw"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "tori.ns.cloudflare.com",
+        "clay.ns.cloudflare.com"
+    ]
+}

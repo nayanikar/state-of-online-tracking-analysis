@@ -1,0 +1,161 @@
+{
+    "domain": "receiptful.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000749,
+    "sites": 11,
+    "subdomains": [
+        "media"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "receiptful\\.com\\/scripts\\/cmcommerce\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 1,
+                "URL.createObjectURL": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6880b86f227f7edeffc8730d995b10677042e2d132a032c4bf95aaf86eb7aaec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cherrychichi.com",
+                "foodtolive.com"
+            ]
+        },
+        {
+            "rule": "receiptful\\.com\\/scripts\\/shopify\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "55f1f15a0df193160f2da2baba7f43e5ac5647b34dd85574ba3b07a8c4f433c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "receiptful-session": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "receiptful-token": {
+                    "ttl": 1296000,
+                    "length": 36,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinkstore.com",
+                "www.bravoconcealment.com",
+                "www.galenleather.com"
+            ]
+        },
+        {
+            "rule": "receiptful\\.com\\/scripts\\/bigcommerce\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "746450c38f9cf0434a8a4c5d232c10b7a9346857d966833ec41bc65db1c771e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "receiptful-token": {
+                    "ttl": 1296000,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "receiptful-session": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bauer-precision.com",
+                "www.bauer-precision.com"
+            ]
+        },
+        {
+            "rule": "receiptful\\.com\\/widget\\/styles\\/search\\/galenleather\\.myshopify\\.com\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5b32a08d904f90616465c7dae4ae846fdbdc2a4da881bec27ec7007fba0a1035"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "galenleather.com",
+                "www.galenleather.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000545,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-1327.awsdns-37.org",
+        "ns-126.awsdns-15.com",
+        "ns-1961.awsdns-53.co.uk",
+        "ns-682.awsdns-21.net"
+    ]
+}

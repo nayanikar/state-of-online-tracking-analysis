@@ -1,0 +1,89 @@
+{
+    "domain": "conative.network",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "edge",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "conative\\.network\\/tag\\/current_version",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "window.sessionStorage": 4,
+                "console.memory": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.appName": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apotheken-umschau.de",
+                "www.fuersie.de",
+                "www.jolie.de",
+                "www.vital.de"
+            ]
+        },
+        {
+            "rule": "conative\\.network\\/tag\\/c4e08089eb7ad3119bf34776a4706045d36700f2\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "3ff088eadf2b7ff0e4f0efdd11d505568807a6abfb48e6ac289397000cb5f773"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apotheken-umschau.de",
+                "www.fuersie.de",
+                "www.jolie.de",
+                "www.vital.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "conative.de",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "ns-1046.awsdns-02.org",
+        "ns-223.awsdns-27.com",
+        "ns-883.awsdns-46.net",
+        "ns-1597.awsdns-07.co.uk"
+    ]
+}

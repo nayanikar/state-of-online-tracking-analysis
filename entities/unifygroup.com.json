@@ -1,0 +1,137 @@
+{
+    "domain": "unifygroup.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "pegasus",
+        "conf.pegasus"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "unifygroup\\.com\\/lib\\/pegasus\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pegasus"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "6fe19b3fa020ae39ecaee50d6b62585beb153fd6a0ad5ed7e0a84e6efde8c7b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lesnumeriques.com",
+                "www.marmiton.org",
+                "www.netmums.com"
+            ]
+        },
+        {
+            "rule": "unifygroup\\.com\\/lib\\/pegasus\\.legacy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pegasus"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bcbb10690e8803b82b45d5353bead5a65152a153783f09caa34d3daaa831d064"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lesnumeriques.com",
+                "www.netmums.com"
+            ]
+        },
+        {
+            "rule": "unifygroup\\.com\\/pegasus-conf\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "conf.pegasus"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f5bdccd636ebfc3a98793bca98d1638790e96c3637897d330cbc806497a5e328",
+                "c0f9ae94d7e947196b7ce63e69a5ccad37a78fc56f8ffeede7cbec562c0721d3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lesnumeriques.com",
+                "www.marmiton.org",
+                "www.netmums.com"
+            ]
+        },
+        {
+            "rule": "unifygroup\\.com\\/pegasus-conf\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "conf.pegasus"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lesnumeriques.com",
+                "www.marmiton.org",
+                "www.netmums.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns-1259.awsdns-29.org",
+        "ns-1995.awsdns-57.co.uk",
+        "ns-1012.awsdns-62.net",
+        "ns-277.awsdns-34.com"
+    ]
+}

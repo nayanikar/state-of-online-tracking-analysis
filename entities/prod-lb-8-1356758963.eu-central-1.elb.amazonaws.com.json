@@ -1,0 +1,87 @@
+{
+    "domain": "prod-lb-8-1356758963.eu-central-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "ist1.boursorama.com",
+            "resolved": "prod-lb-8-1356758963.eu-central-1.elb.amazonaws.com"
+        },
+        {
+            "original": "ist4.boursorama.com",
+            "resolved": "prod-lb-8-1356758963.eu-central-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "prod-lb-8-1356758963\\.eu-central-1\\.elb\\.amazonaws\\.com\\/19920\\/jinalg\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "ist4.boursorama.com",
+                    "resolved": "prod-lb-8-1356758963.eu-central-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "894f508280ae13f482dc47c5191075704fc3876a9887e536a198c44b64d81826"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama.com",
+                "clients.boursorama.com"
+            ]
+        },
+        {
+            "rule": "prod-lb-8-1356758963\\.eu-central-1\\.elb\\.amazonaws\\.com\\/19920\\/monifest\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "ist1.boursorama.com",
+                    "resolved": "prod-lb-8-1356758963.eu-central-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "3381700a2b7047d6628171c7faa9f9b8c2b398f1d5d38e085c6c5b9d64a04086"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama.com",
+                "clients.boursorama.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "types": {
+        "Script": 4
+    },
+    "nameservers": []
+}

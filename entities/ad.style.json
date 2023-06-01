@@ -1,0 +1,170 @@
+{
+    "domain": "ad.style",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "widgets",
+        "w"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ad\\.style\\/native\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3cc1556284035fb8bfcc68cd78e1aaa8d579bd15adb220b9b1d7a49e77f1ea3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1681949746,
+                    "length": 1,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pi-news.net",
+                "www.pravda-tv.com"
+            ]
+        },
+        {
+            "rule": "ad\\.style\\/get",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "w"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a7c9eec55df62648a5910f7ef7159b62c3e44e99682259e481fa0ec970c75079"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pi-news.net",
+                "www.pravda-tv.com"
+            ]
+        },
+        {
+            "rule": "ad\\.style\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "w"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pi-news.net",
+                "www.pravda-tv.com"
+            ]
+        },
+        {
+            "rule": "ad\\.style\\/img\\/aslogo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "w"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0ead49ad1520351760f2ec83f11a4c74bc9195507839d0424f57d93c46108a30"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pi-news.net",
+                "www.pravda-tv.com"
+            ]
+        },
+        {
+            "rule": "ad\\.style\\/image\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "w"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7367630f7a79277c4cdbf8e8a7cd45aeef8657c617b35cc9d36188063a9c17d4",
+                "35b72307bf4f1a0f59244ac3e740111b4821f028bb904c12c4aa80bef2571f4d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pi-news.net",
+                "www.pi-news.net",
+                "www.pravda-tv.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns41.constellix.net",
+        "ns21.constellix.com",
+        "ns11.constellix.com",
+        "ns51.constellix.net",
+        "ns31.constellix.com",
+        "ns61.constellix.net"
+    ]
+}

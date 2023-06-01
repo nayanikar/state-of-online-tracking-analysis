@@ -1,0 +1,137 @@
+{
+    "domain": "continual.ly",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn-app",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "continual\\.ly\\/js\\/embed\\/continually-embed\\.latest\\.min\\.js",
+            "cookies": 0.000101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-app"
+            ],
+            "apis": {
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c0f21bc868b9db9033fa67bdaccc0753702fd1749922036b9286b89bc3c66e2d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "continually_user_id": {
+                    "ttl": 31536007,
+                    "length": 12,
+                    "prevalence": 0.00010068465565847765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ukcareguide.co.uk",
+                "www.theplasticpeople.co.uk"
+            ]
+        },
+        {
+            "rule": "continual\\.ly\\/css\\/embed\\/continually-embed\\.latest\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d6708a7b59762dc72513e5f14710fcd717d541ae9b37cdf5845029b62bda3a32"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ukcareguide.co.uk",
+                "www.theplasticpeople.co.uk"
+            ]
+        },
+        {
+            "rule": "continual\\.ly\\/chat\\/empty-state",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d254999868878523c6e82d4bf14ab5daabd595e86a9d862871df6a5ee6492b54"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ukcareguide.co.uk",
+                "www.theplasticpeople.co.uk"
+            ]
+        },
+        {
+            "rule": "continual\\.ly\\/css\\/conversation\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c8ae8ea694cd7bcfc811fd3d2d7484dbd4756d8522d4ede05d320938a247d068"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ukcareguide.co.uk",
+                "www.theplasticpeople.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 4,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-1534.awsdns-63.org",
+        "ns-1727.awsdns-23.co.uk",
+        "ns-170.awsdns-21.com",
+        "ns-610.awsdns-12.net"
+    ]
+}

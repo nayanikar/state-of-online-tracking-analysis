@@ -1,0 +1,126 @@
+{
+    "domain": "usermaven.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "t",
+        "events"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "usermaven\\.com\\/lib\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.language": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.onLine": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "9451a33afa1163694a7cc9e2d1a4f888ae68f4d11553aa218f3d84700606f135"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__eventn_id_UMTgk6MZVQ": {
+                    "ttl": 316224000,
+                    "length": 10,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fluentin3months.com",
+                "www.fluentin3months.com",
+                "www.heima24.de"
+            ]
+        },
+        {
+            "rule": "usermaven\\.com\\/api\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+                "29a6c6a4d273bb083ba084ea31f6458d484d9fe59993258f24dfa085dccea9c8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fluentin3months.com",
+                "www.fluentin3months.com",
+                "www.heima24.de"
+            ]
+        },
+        {
+            "rule": "usermaven\\.com\\/api\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fluentin3months.com",
+                "www.fluentin3months.com",
+                "www.heima24.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "jasmine.ns.cloudflare.com",
+        "tadeo.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "domain": "bellmedia.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "prod"
+    ],
+    "cnames": [
+        {
+            "original": "pe-fa-lp01a.9c9media.com",
+            "resolved": "prod.bellmedia.map.fastly.net"
+        },
+        {
+            "original": "pe-fa-lp02a.9c9media.com",
+            "resolved": "prod.bellmedia.map.fastly.net"
+        },
+        {
+            "original": "pe-fa-vp06a.9c9media.com",
+            "resolved": "prod.bellmedia.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bellmedia\\.map\\.fastly\\.net\\/live\\/News1CP24Digi\\/p\\/dash\\/00000001\\/f72f28ac520d63d6\\/manifest\\.mpd",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "pe-fa-lp01a.9c9media.com",
+                    "resolved": "prod.bellmedia.map.fastly.net"
+                },
+                {
+                    "original": "pe-fa-lp02a.9c9media.com",
+                    "resolved": "prod.bellmedia.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "74981adc2a7fbc47db8bac5922db941dff156def62073d51fcfbef4d05345b9b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cp24.com",
+                "www.cp24.com"
+            ]
+        },
+        {
+            "rule": "bellmedia\\.map\\.fastly\\.net\\/playlist\\/5798357\\/70147789\\/vtt\\/00000000\\/4706e46d0444a96f\\/manifest\\.vtt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "pe-fa-vp06a.9c9media.com",
+                    "resolved": "prod.bellmedia.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "4157316659c4beb513b005a9ebe127f4ba5133a0352f4c561e281826f257030c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ctvnews.ca",
+                "www.ctvnews.ca"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "tru.am",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

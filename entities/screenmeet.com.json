@@ -1,0 +1,90 @@
+{
+    "domain": "screenmeet.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "cobrowse"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "screenmeet\\.com\\/CobrowseBootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cobrowse"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "window.sessionStorage": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "08add47a5cddd1c1cfc1a8c8f5cbc00122d376d2129b4bdc211aca1f49d39293"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zennioptical.com",
+                "www.penningtons.com",
+                "www.reitmans.com",
+                "www.rw-co.com",
+                "www.zennioptical.com"
+            ]
+        },
+        {
+            "rule": "screenmeet\\.com\\/CobrowseCore\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cobrowse"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ab924b17f2e06e1cebf44ddab2f9d651d78fb1cbbf2acc65b6afdc80c9818ef2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "penningtons.com",
+                "www.reitmans.com",
+                "www.rw-co.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.18181818181818182
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "ns-156.awsdns-19.com",
+        "ns-1013.awsdns-62.net",
+        "ns-1599.awsdns-07.co.uk",
+        "ns-1395.awsdns-46.org"
+    ]
+}

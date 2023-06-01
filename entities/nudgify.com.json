@@ -1,0 +1,107 @@
+{
+    "domain": "nudgify.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000817,
+    "sites": 12,
+    "subdomains": [
+        "pixel",
+        "data"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nudgify\\.com\\/pixel\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Navigator.prototype.language": 6,
+                "Document.cookie setter": 2
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "c1ee3ed9523f7d778d7ca9235919a73056053bba42b85d0ebae137208f1eb019"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nudgify-visitor": {
+                    "ttl": 31536003,
+                    "length": 74,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "megafamous.com",
+                "onthatass.com",
+                "pictory.ai",
+                "www.automotivetouchup.com",
+                "www.techjockey.com",
+                "www.tilegiant.co.uk"
+            ]
+        },
+        {
+            "rule": "nudgify\\.com\\/bootstrap",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+                "769d150c66619eb06c52a2d6b46ad198893a7265d733990c6109cd2b18cde7f4",
+                "cec7456af21c110e63c1236d118588bedfae8085518548aacb19a7f3b1e9d0be"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "megafamous.com",
+                "onthatass.com",
+                "pictory.ai",
+                "www.automotivetouchup.com",
+                "www.techjockey.com",
+                "www.tilegiant.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "penny.ns.cloudflare.com",
+        "paul.ns.cloudflare.com"
+    ]
+}

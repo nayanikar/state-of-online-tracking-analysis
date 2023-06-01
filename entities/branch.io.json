@@ -1,0 +1,362 @@
+{
+    "domain": "branch.io",
+    "owner": {
+        "name": "Branch Metrics, Inc.",
+        "displayName": "Branch Metrics",
+        "privacyPolicy": "https://branch.io/policies/",
+        "url": "http://branch.io"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00823,
+    "sites": 82,
+    "subdomains": [
+        "cdn",
+        "api2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "branch\\.io\\/branch-latest\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 72,
+                "window.innerHeight": 72,
+                "window.innerWidth": 72,
+                "window.sessionStorage": 72,
+                "NavigatorUAData.prototype.getHighEntropyValues": 68,
+                "window.localStorage": 68,
+                "Navigator.prototype.userAgent": 68,
+                "Screen.prototype.height": 66,
+                "Screen.prototype.width": 66,
+                "Navigator.prototype.language": 66,
+                "window.devicePixelRatio": 66,
+                "Navigator.prototype.languages": 66
+            },
+            "sites": 72,
+            "prevalence": 0.00723,
+            "cnames": [],
+            "responseHashes": [
+                "cdc2bb26fe76a79d54a6f197edf1188e4829093003f26707eed349267a8a96d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "medium.com",
+                "www.nbcnews.com",
+                "www.keno.com.au",
+                "www.afterpay.com",
+                "store.danmurphys.com.au",
+                "www.next.com.au",
+                "bws.com.au",
+                "www.kfc.com.au",
+                "store.bws.com.au",
+                "www.bible.com",
+                "www.originenergy.com.au",
+                "www.mymusclechef.com",
+                "www.nhl.com",
+                "recharge.telstra.com.au",
+                "www.autotrader.com.au",
+                "www.flybuys.com.au",
+                "www.eventbrite.com.au",
+                "www.theknot.com",
+                "www.comparethemarket.com.au"
+            ]
+        },
+        {
+            "rule": "branch\\.io\\/v1\\/open",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api2"
+            ],
+            "apis": {},
+            "sites": 76,
+            "prevalence": 0.00763,
+            "cnames": [],
+            "responseHashes": [
+                "4acbb3befa36d0f26af2ccc248c2c739645a60ca05dea7e3a4e4c82885bf82be",
+                "817027515b3b911f8f4483c193cec685c281c585b8bca17e0edaeef5c27a7c56",
+                "d537d3a95677edd3604dccf4fa556226570e1c4765934e2a0962c8de3f4dec70",
+                "74fe9b2db973a5ffff7d6aa5092438d4419eb9907e2fb296e291bb0048a5b429",
+                "8c6c300bf87cc38b00fc447c0c229faa86154ba77873b12848af88ae0c961073",
+                "7ad757a8ac02236cd03f64111333f122ddc44775d581371f3791c4bdf7b5857c",
+                "08f33b0dec9a23d8b5e72a0bc1d6acd113caa19c3fef15de22a3b8ee00ca2805",
+                "f94f1aac260e5a83e95b9fe04d4ea8b8fffbbe3829610c05fe07361845f6ccd1",
+                "148dd04f36737e7b0c115de8a119357c51e3e3b1015cf9a6994f31b45b3e90d1",
+                "46c7ba4eb660ea3cf55874ea0bf3d4db621fadd9db04a61120069f9fce3e4509",
+                "d5fe87d556650debd882bbcdd1e7bab7ca09183a47c0ad93fe1d89c67a103896",
+                "012ea685ce0a9bd8ee5b7c2dc4e2f7bf7c2c5dd234508722313d089355316156",
+                "67b2749b8aec6488b841fa1c3d7e817f7b1be8821e675b52231446456e420bb2",
+                "85dfab44b0a758d2f6bdf540ede4f82579115a3b0f6aa228f75d8c88e2d16a4d",
+                "475ded068c2e301244f274cc3ca6f5a62585d442f692cd9d0234124ebd9875a3",
+                "e4644582b5a904d6aa999a41a702aacc762771d9522126621a32b6f90eaf4989",
+                "2100a82f7ddf9db35f0eac98ea4f28602d3752ad4f46f1d03befe4e4b4de08b0",
+                "35fcb5da04f13ea9e717b804a741b9330f0809ca16595e14bab533c9e12e7f08",
+                "41eb141d121ac1281e9a3b6adc84b853d369d0385a2a54b2d850e591a216c493",
+                "c623b05dcd646e25e67b63d2f028c80d0859fcc4d3ba70e04010bf42d55f38e4",
+                "41b2fc99ac66902b82008785016b70edc785e74edee1c9246c13f4f96893421d",
+                "99bde0596b4ed984a5297968c6bbb3ff6c8cb159dc591394a2f92b481122fd53",
+                "e384412378c9981e5dab05c1ebce07b0b70c9e2b002b8defad96b6fdd3439532",
+                "8f6e714a330fa54e1d5efb93dff56de426e5676a3748e4e26f3607a3dcba02af",
+                "940c0ef0f3b41db08ecaf1d781e328c21f2b899657360759b3d77542e203d7a6",
+                "f0951377afa096109a2a38aa22cf19a854b5cfed94ea4135168cc0fbe9d599b8",
+                "4864483404245304157045ddda9d975b0cbbffab8c5cbd37824a0753b17e98fb",
+                "014faca304aea6954acf5dad2e25d598724f0dfa89c8eaeac51f2dc4b021accf",
+                "f6250cd85abbc62f3a053351149500af55816a1ed096731493b1c642c8a500a2",
+                "9e9d13dbb1c1da43799c5067f2d63d495b71537c62b125dbfeb63511839d1eb7",
+                "6581c2ca07a7d833e5a73356f37f50af362e814c4710642f2b29b312e6840d00",
+                "321da7baf624bed92c044ef468036faf3b4849102d0724db26aba26b25fa3438",
+                "27ad9c14522cf245c2c24371a7bd816c5d7504db3edc28a7783d79958bcb8a2e",
+                "389521004102d78a11383ab6ee8f2ca071d9515daa86536cd48d946dda9aeff2",
+                "d9a09d5c0926ba9abbbadbd539a1509b2b65caed36a1f72694896c00175fa0c6",
+                "ec9b245c4da7f1aa50455726e64f783f384ca0a629b58a559644b9673b31feb1",
+                "9c2aa52095f8b31c5354d8a280e16f938d781545381e0494013c352e759f8a1a",
+                "14a18cbe3d166e6db8277385b9611803c9377d0a7a91f49ee01178f61e9addc3",
+                "1aa60e1afbc04f60d192fffaf7ee6e87955ed99ef5350ccc59bacf1e9aaa8a87",
+                "726f49350645e7ba1e3ea84b558530c2dc49bfe5a1836eb8c497cd2ccd84ab45",
+                "813efaafa6503b1c56dd5db525840a79f24fc2f2aa162bc75c05cc24eabc49da",
+                "2e22c1c9fed19cd8e05f7bf01ee99ea0311dc0ed41c31bad810328c48b7901e7",
+                "16b4dbc4032540e8942e897be54ea69d0abc595c30e720f7a30404d3d2443c95",
+                "dbe9de3f6f13335c60265c76a75721206c7a7b02d8d654b9c423b812e348d0bd",
+                "3ed4ea0faf540e1477630a345ce8c361cdbe572e7dd7ecf0a459bd8bed3478af",
+                "607b34ed094d361a054212a467a7c8e923fbf67b00d14d61098fddb34df333b4",
+                "2ce65c4aa9921a5dec15bb1b03d5362cd4ce2bd01218c2cb90fb82b81f62ecb3",
+                "2e336b6147c3ddf25b52fce5cd349fb803a857749f84e46f9ec31acec90d0e69",
+                "8f171490d57152c32be6352a767767f21af6665ffb0fdeb2b3b00833f9e9e57a",
+                "30adfdc8a1f9f70eb3c230f904fe6e42d110b29d2a8b7811a1a0627716b83626",
+                "7f0aeea7b0a3f4d233fdd96a69f0339f522aeebc0766ff3af122780ca422362a",
+                "749bca1ad6d88726401bbdffa179127c28d015911452a5dbaca53ef2c447372b",
+                "fffdffe09019e2ecf6eb2e59bb5d763c986c5a8e54ae6d87dd57580d2fb00ec7",
+                "01dde33816a459c1e6bdc0c158d34d55c45175341a3e079bfb78a114850afb8b",
+                "04116d7e63c998cabd43d59c93a23f35f04de20ad90168a2fd8f8794744ed9fb",
+                "8e4a64c49f2b8778cfa4f687331e6e6257be643c3264d7c1a20efd7cbbb9c5fd",
+                "0a6577cb8708013492684d9cf21ccef5cc296210f0abe6adf5d036a451c20ba4",
+                "903053fee99cbedcaf0f2aafc5ae72b9de4c788595b33139165f68c74b1f4a33",
+                "6b76c783d8743485a41430d513ae267d1fe192950cdfca698d1d2774983ba768",
+                "5c2db7bad08bdb36c819b1e3d190d6a354c5e1828ead223d5530aea3fb84a563",
+                "df0bbf38581cf7dda36e1aedb5ab1c6d7f35064ebb01ccc6a5f57db6f0bbfbe6",
+                "7726ea525289f0048407ce33a0066871fc794ae9fc72af32ca3038f47d5d3856",
+                "eb0e8ebe0e89cf4626bba7bcd5586923477bc744f449dd597cf9aaf0359883e7",
+                "ffa6e829130642f840e6e5cf580918321a64abfa2867bc7b8a39142982f33fb8",
+                "b80a84fcbff5e532b955bf823395ae4aa099ceabed4d1262f9141329c610c101",
+                "4b2271871f3eebf5a5ec75ffe92f69da5d6b0479c477a172442f39ff566c9701",
+                "a5d8fddfbb35af66e88390a0609b24cbfca9104093f41ba2cd4ee88cb9b35f61",
+                "25aa41c48be8de03287431dbbd3cc635b889ae8551e9863dff02ceead0a8fc22",
+                "b25a6e5e202aa0ca31aab8bd7145740637c8a8d9e7e19c4ec0943e7d8e7024fb",
+                "73279a76ae0db62132c061f2e6f9c451545cb031636bfd4a2f5bd455bfacedec",
+                "3e7e0d69ed586d344e2a1cf9359c8a4f0bb2d7c46b3c7befa8fbf4641b4c997b",
+                "efd31ba323b01e4cbe54e0e410c230e77b539eb4ca927488d0400c8bb4397b84",
+                "569dcbedb66623c25c0770156cd2134d75ce6202caf42f6ff8ee60b3967ac146"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "m.imdb.com",
+                "medium.com",
+                "www.nbcnews.com",
+                "www.theiconic.com.au",
+                "www.afterpay.com",
+                "swyftx.com",
+                "binge.com.au",
+                "www.flybuys.com.au",
+                "www.eventbrite.com",
+                "9now.nine.com.au",
+                "www.hilton.com",
+                "www.telstra.com.au",
+                "www.webtoons.com",
+                "www.9now.com.au",
+                "10play.com.au",
+                "www.seek.com.au",
+                "mobilesupport.telstra.com.au",
+                "towardsdatascience.com",
+                "outages.telstra.com.au"
+            ]
+        },
+        {
+            "rule": "branch\\.io\\/v1\\/pageview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api2"
+            ],
+            "apis": {},
+            "sites": 77,
+            "prevalence": 0.00773,
+            "cnames": [],
+            "responseHashes": [
+                "a82dc28d43942326b346f92907df3bea5e38b2325ef97176f3b6234966bf19eb",
+                "c3dd5a6fff633c6393dca21ce74cd6dc95265943575b43d2d9616f020eea68fa"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "m.imdb.com",
+                "medium.com",
+                "www.nbcnews.com",
+                "www.iga.net",
+                "www.reckon.com",
+                "www.eventbrite.com.au",
+                "www.hk01.com",
+                "help.tab.com.au",
+                "www.speedcafe.com",
+                "www.seek.com.au",
+                "www.webtoons.com",
+                "www.foxsports.com.au",
+                "www.next.com.au",
+                "felixmobile.com.au",
+                "betterprogramming.pub",
+                "hellostake.com",
+                "www.theknot.com",
+                "www.thetrainline.com",
+                "www.depop.com"
+            ]
+        },
+        {
+            "rule": "branch\\.io\\/v1\\/profile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api2"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "78db00b0647aa3125d6551d596159255cbead04a4462d9bb34e65c0128707fb2",
+                "7e29367bc15731b5ff6c555ea4b93a468a8c53a274499e6d739da81266ce848a",
+                "fa777b9c7eb8db374e221bf7c2875748ef7c480d50155d1cf5da34b704c2e8a4",
+                "0a3a86ecf4889339df14d1900b9aa8ffb9b3bfa478e378f4819c8f60ed218ad6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betterprogramming.pub",
+                "m.imdb.com",
+                "medium.com",
+                "towardsdatascience.com",
+                "www.comparethemarket.com.au"
+            ]
+        },
+        {
+            "rule": "branch\\.io\\/v2\\/event\\/custom",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "catch.com.au",
+                "www.catch.com.au",
+                "www.webtoons.com"
+            ]
+        },
+        {
+            "rule": "branch\\.io\\/v1\\/pageview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pressreader.com",
+                "www.pressreader.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5691699604743083
+        },
+        {
+            "domain": "app.link",
+            "prevalence": 0.15810276679841898
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.06719367588932806
+        },
+        {
+            "domain": "medium.com",
+            "prevalence": 0.03162055335968379
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.03162055335968379
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.023715415019762844
+        },
+        {
+            "domain": "evbstatic.com",
+            "prevalence": 0.015810276679841896
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.015810276679841896
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.011857707509881422
+        },
+        {
+            "domain": "dqpnq362acqdi.cloudfront.net",
+            "prevalence": 0.011857707509881422
+        }
+    ],
+    "types": {
+        "Script": 72,
+        "XHR": 161,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1091.awsdns-08.org",
+        "ns-1809.awsdns-34.co.uk",
+        "ns-236.awsdns-29.com",
+        "ns-991.awsdns-59.net"
+    ]
+}

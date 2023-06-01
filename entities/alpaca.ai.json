@@ -1,0 +1,99 @@
+{
+    "domain": "alpaca.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "assets.met",
+        "api.met"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "alpaca\\.ai\\/prod\\/met\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets.met"
+            ],
+            "apis": {
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Navigator.prototype.language": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie getter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "87822886f449f4d3508f14848213ba3c5eeb9bb29e518a13ee37cee2ae72e6e4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "met_session": {
+                    "ttl": 31536000,
+                    "length": 40,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minkabu.jp",
+                "cc.minkabu.jp",
+                "fx.minkabu.jp",
+                "kabutan.jp"
+            ]
+        },
+        {
+            "rule": "alpaca\\.ai\\/messages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.met"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "4540a8166476053116ba258fa67f4edcb1f73b7e53ae80177daa47ac80e039bf",
+                "a892d7f1a8cbbb71c2ab00b40fbcd06a0ecc28237ca039413414e452b226c19b",
+                "614f9df106ae5fb037dd36660357e5d4bc447a657cc810753bcbe254fb0d3fef"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minkabu.jp",
+                "cc.minkabu.jp",
+                "fx.minkabu.jp",
+                "kabutan.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000545,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ian.ns.cloudflare.com",
+        "lara.ns.cloudflare.com"
+    ]
+}

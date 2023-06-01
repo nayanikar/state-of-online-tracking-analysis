@@ -1,0 +1,166 @@
+{
+    "domain": "beachbody.com",
+    "owner": {
+        "name": "Beachbody, LLC",
+        "displayName": "Beachbody"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "login",
+        "prod.tbb-shop"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "beachbody\\.com\\/03ed5554-4840-327e-9346-6e5c74000000\\/login\\/authorize",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "teambeachbody.com",
+                "www.teambeachbody.com"
+            ]
+        },
+        {
+            "rule": "beachbody\\.com\\/tbb-shop-ui-0\\.0\\.2\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.tbb-shop"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "26dfff9bee1fd59a2817e7f2302882ff8fd6ba46c8fa4b82605fc4e7ca9ddcea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "teambeachbody.com",
+                "www.teambeachbody.com"
+            ]
+        },
+        {
+            "rule": "beachbody\\.com\\/tbb-shop-ui-0\\.0\\.2-2\\.chunk\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod.tbb-shop"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2,
+                "Event.prototype.timeStamp": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8880d103f52e8ced9d4ace6b5331503324fcb1ad83bd662c564d67422a74b938"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "teambeachbody.com",
+                "www.teambeachbody.com"
+            ]
+        },
+        {
+            "rule": "beachbody\\.com\\/tbb-shop-ui-0\\.0\\.2-0\\.chunk\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prod.tbb-shop"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1a8bb16ecd8220976b4dea7735b653700cbba9d3157b31079a0a8b6e9e8ffdd2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "teambeachbody.com",
+                "www.teambeachbody.com"
+            ]
+        },
+        {
+            "rule": "beachbody\\.com\\/api\\/v1\\/cms\\/page",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.tbb-shop"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "10ff11fda8b81b1acf77e74628084c1fb4b41a91974406ce1295338d8bddcd8e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "teambeachbody.com",
+                "www.teambeachbody.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Script": 6,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "pdns147.ultradns.net",
+        "pdns147.ultradns.com",
+        "pdns147.ultradns.org",
+        "pdns147.ultradns.biz"
+    ]
+}

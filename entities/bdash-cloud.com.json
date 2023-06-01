@@ -1,0 +1,382 @@
+{
+    "domain": "bdash-cloud.com",
+    "owner": {
+        "name": "Data X Co., Ltd.",
+        "displayName": "dataX"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000885,
+    "sites": 13,
+    "subdomains": [
+        "cdn.activity",
+        "tracker",
+        "receptions"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bdash-cloud\\.com\\/tracking-script\\/bd-9ihove\\/tracking\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6a6933f8499e1b16831801c7209097475c651df61c4f99b9d4185952d84bf7e4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "ebookstore.sony.jp"
+            ]
+        },
+        {
+            "rule": "bdash-cloud\\.com\\/receptions-script\\/bd-9ihove\\/183\\/concier\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7d94bdb3c3f5da4035663f731fb592684a155476a097ef2581c58f3e7e016bd5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "ebookstore.sony.jp"
+            ]
+        },
+        {
+            "rule": "bdash-cloud\\.com\\/tracking-script\\/bdash_log\\.js",
+            "cookies": 0.0000476,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 8,
+                "Document.cookie setter": 7,
+                "Navigator.prototype.userAgent": 7
+            },
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "fdf446a359d2fd4c234437332f8ca7638228633b2a87e055dde9369fa8277166"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bdck": {
+                    "ttl": 63072004,
+                    "length": 19,
+                    "prevalence": 0.00004764951737845969,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "ebookstore.sony.jp",
+                "knowledge.nurse-senka.jp",
+                "www.agaroot.jp",
+                "www.cdjapan.co.jp",
+                "www.dospara.co.jp",
+                "www.hokkaido-np.co.jp",
+                "www.jp.square-enix.com"
+            ]
+        },
+        {
+            "rule": "bdash-cloud\\.com\\/receptions-script\\/reception\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "8357c314b2953555eec30cd3af66dacb747e909197f9cf7fadb154c9a5269bb1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bd_reception_request_timestamp": {
+                    "ttl": null,
+                    "length": 13,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                },
+                "_bd_reception_session_id": {
+                    "ttl": 1800,
+                    "length": 31,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "ebookstore.sony.jp",
+                "knowledge.nurse-senka.jp",
+                "www.agaroot.jp"
+            ]
+        },
+        {
+            "rule": "bdash-cloud\\.com\\/tracking",
+            "cookies": 0.0000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "3656ceceb3efe59a15ba2b23fed5093f409fbf1d7c2876d1d9a3b646be435e9e",
+                "ca40531fee2c03d379db8e2bccc4662af5b163a1cb468e749ca60dcc16001b12",
+                "45d1f295b1d0d83c13fe0147b03a20d3b5b938cd3409945ce2461347945b469c",
+                "5fccfd09fe48f6eb125a0c633d20c29b710d8d9ee91d5ffdd3523b34ff88a8a9",
+                "93f0a7889e6c5d9b81efffa18032b2b54daeaf47678c3bfd7572cec78b409a10"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "ebookstore.sony.jp",
+                "knowledge.nurse-senka.jp",
+                "www.agaroot.jp",
+                "www.cdjapan.co.jp",
+                "www.dospara.co.jp",
+                "www.hokkaido-np.co.jp",
+                "www.jp.square-enix.com"
+            ]
+        },
+        {
+            "rule": "bdash-cloud\\.com\\/receptions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "receptions"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "f0e241ad028e4d65c69039fab2a6ea81679164bede6e70180df92d27d6cc2a6f",
+                "b80a4e0257c4ee524508b94a2f6948d85431837e201c84139c9628dc5cedf2b6",
+                "50c3bd7976b828c07b9f26fcf117abb84f4950442f1daee55d34d35027196e8e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "ebookstore.sony.jp",
+                "knowledge.nurse-senka.jp",
+                "www.agaroot.jp"
+            ]
+        },
+        {
+            "rule": "bdash-cloud\\.com\\/receptions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "receptions"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "ebookstore.sony.jp",
+                "knowledge.nurse-senka.jp",
+                "www.agaroot.jp"
+            ]
+        },
+        {
+            "rule": "bdash-cloud\\.com\\/receptions-script\\/bd-tue4os\\/372\\/concier\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1b30110eaa1020f5633786dd51665b0a99cb64bc4b06f9179d0d996d8dab7ef5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agaroot.jp",
+                "www.agaroot.jp"
+            ]
+        },
+        {
+            "rule": "bdash-cloud\\.com\\/tracking-script\\/bd-tue4os\\/tracking\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a4db6af0ed24e7fbd5beedaa3918f5e7e0d62ce4ea7a4508efb862a74ac9212d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agaroot.jp",
+                "www.agaroot.jp"
+            ]
+        },
+        {
+            "rule": "bdash-cloud\\.com\\/tracking-script\\/bd-72ac9k\\/tracking\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0ad6a23b186d22b47c4bd1801a7caf3b17dc9cefbf2b5502d0df1610f10c44ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdjapan.co.jp",
+                "www.cdjapan.co.jp"
+            ]
+        },
+        {
+            "rule": "bdash-cloud\\.com\\/tracking-script\\/bd-sty1gc\\/tracking\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4e13625902d2a9b83fc3ff4eb91363298ab3d0711ac319645b0e884c6920ad89"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dospara.co.jp",
+                "www.dospara.co.jp"
+            ]
+        },
+        {
+            "rule": "bdash-cloud\\.com\\/tracking-script\\/bd-g0hefx\\/tracking\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "58a15fe6ff1391985d1dbf2bf06c00de48b2b86e4e788f10a52101577671ef2b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hokkaido-np.co.jp",
+                "www.hokkaido-np.co.jp"
+            ]
+        },
+        {
+            "rule": "bdash-cloud\\.com\\/tracking-script\\/bd-8517ed\\/tracking\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b5ecd4ca2da1259b07c29e0f8a59cf3bc2af8283c788ccfb3605c6b614357219"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "square-enix.com",
+                "www.jp.square-enix.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000885,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2222222222222222
+        }
+    ],
+    "types": {
+        "Script": 28,
+        "XHR": 12,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns-437.awsdns-54.com",
+        "ns-769.awsdns-32.net",
+        "ns-1935.awsdns-49.co.uk",
+        "ns-1314.awsdns-36.org"
+    ]
+}

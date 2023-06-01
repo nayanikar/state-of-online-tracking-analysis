@@ -1,0 +1,78 @@
+{
+    "domain": "radar.io",
+    "owner": {
+        "name": "Radar Labs, Inc.",
+        "displayName": "Radar Labs"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "radar\\.io\\/v1\\/geocode\\/ip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "venetianlasvegas.com",
+                "www.venetianlasvegas.com"
+            ]
+        },
+        {
+            "rule": "radar\\.io\\/v1\\/geocode\\/ip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a06f67e13f85399fdea23fa8fac9e7ebeff83e36a7ba38b3b1aaaff1f513f55c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "venetianlasvegas.com",
+                "www.venetianlasvegas.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "radar.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "melinda.ns.cloudflare.com",
+        "greg.ns.cloudflare.com"
+    ]
+}

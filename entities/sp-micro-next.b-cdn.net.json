@@ -1,0 +1,88 @@
+{
+    "domain": "sp-micro-next.b-cdn.net",
+    "owner": {
+        "name": "BunnyCDN",
+        "displayName": "BunnyCDN"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sp-micro-next\\.b-cdn\\.net\\/sp-micro\\.umd\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Event.prototype.timeStamp": 4,
+                "Navigator.prototype.product": 4,
+                "window.sessionStorage": 4,
+                "window.innerWidth": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "window.devicePixelRatio": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "4cd15a564cdce212aaa2d2d4620dcc8182588e34965e623cd7b9241371c1a888"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vaporboss.com",
+                "www.british-supplements.net",
+                "www.jeepworld.com",
+                "www.stiiizy.com"
+            ]
+        },
+        {
+            "rule": "sp-micro-next\\.b-cdn\\.net\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "7bde9be49acbf603d328294eb18f73b1d3d25efaf5a50f5323ac7cf13f557f50"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vaporboss.com",
+                "www.british-supplements.net",
+                "www.jeepworld.com",
+                "www.stiiizy.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 4
+    },
+    "nameservers": []
+}

@@ -1,0 +1,104 @@
+{
+    "domain": "depict.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000804,
+    "sites": 8,
+    "subdomains": [
+        "ws",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "depict\\.ai\\/ws\\/create-events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bakerenogkokken.no",
+                "www.maxgaming.no",
+                "www.nordiskagalleriet.no",
+                "www.odla.nu",
+                "www.oscarjacobson.com",
+                "www.plantasjen.no"
+            ]
+        },
+        {
+            "rule": "depict\\.ai\\/v2\\/recommend\\/products\\/general",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "3fa4c9bf0fbb8ff554eac3a0b4798bde2ffca94358d9be0766932041512e80c2",
+                "0b6278c8699f081cb32b1d97df70da14a48949061b2d7c77cb0a65a035d99e09"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bakerenogkokken.no",
+                "www.maxgaming.no",
+                "www.plantasjen.no"
+            ]
+        },
+        {
+            "rule": "depict\\.ai\\/v2\\/recommend\\/products\\/product",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fe143380922669ceb27698f1ca1c190f379d5b5760e0c11146111d1c5c885ca6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maxgaming.no",
+                "www.maxgaming.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "WebSocket": 6,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "rosa.ns.cloudflare.com",
+        "clayton.ns.cloudflare.com"
+    ]
+}

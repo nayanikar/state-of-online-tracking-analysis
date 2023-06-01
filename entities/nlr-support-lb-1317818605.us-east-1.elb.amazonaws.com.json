@@ -1,0 +1,92 @@
+{
+    "domain": "nlr-support-lb-1317818605.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "dualstack"
+    ],
+    "cnames": [
+        {
+            "original": "analytics.natlawreview.com",
+            "resolved": "dualstack.nlr-support-lb-1317818605.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nlr-support-lb-1317818605\\.us-east-1\\.elb\\.amazonaws\\.com\\/piwik\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "analytics.natlawreview.com",
+                    "resolved": "dualstack.nlr-support-lb-1317818605.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "8fbe1031e8234fab32983f4e5afbc30831720db278418b5a4a48e50ad7611d15"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natlawreview.com",
+                "www.natlawreview.com"
+            ]
+        },
+        {
+            "rule": "nlr-support-lb-1317818605\\.us-east-1\\.elb\\.amazonaws\\.com\\/piwik\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "analytics.natlawreview.com",
+                    "resolved": "dualstack.nlr-support-lb-1317818605.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "natlawreview.com",
+                "www.natlawreview.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,95 @@
+{
+    "domain": "cookieinformation.com",
+    "owner": {
+        "name": "Cookie Information A/S",
+        "displayName": "Cookie Information"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "policy.app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cookieinformation\\.com\\/uc\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "policy.app"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6b5a08461862f6a52ea9977d07b0a12def8af6bde2d1b9c10b54f1f0b84bac39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "huawei_store_unified_id": {
+                    "ttl": null,
+                    "length": 32,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huawei.com",
+                "www.hearinglife.ca"
+            ]
+        },
+        {
+            "rule": "cookieinformation\\.com\\/cookiesharingiframe\\.html",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "policy.app"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "window.name": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c05407572f3a85559e74489f5afbff7e49ab8e7b4c47a1beb1f5a4826e96bf44"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huawei.com",
+                "www.hearinglife.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns3.dandomain.dk",
+        "ns2.dandomain.dk",
+        "ns.dandomain.dk"
+    ]
+}

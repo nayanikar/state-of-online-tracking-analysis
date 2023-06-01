@@ -1,0 +1,129 @@
+{
+    "domain": "wfp-franklin-shopify-prd.s3-ap-southeast-2.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wfp-franklin-shopify-prd\\.s3-ap-southeast-2\\.amazonaws\\.com\\/public\\/shopify\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "b67db71548fd98112d07b13188fadcd6b25b3bacf0e6b683990141011bcacd72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bathroomfactorywarehouse.com.au",
+                "frankgreen.com.au",
+                "itechworld.com.au",
+                "superbutcher.com.au",
+                "www.bauerfeind.com.au",
+                "www.petersheppard.com.au",
+                "www.reidcycles.com.au",
+                "www.ringerswestern.com"
+            ]
+        },
+        {
+            "rule": "wfp-franklin-shopify-prd\\.s3-ap-southeast-2\\.amazonaws\\.com\\/public\\/abandoned-carts\\.js",
+            "cookies": 0.000803,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 8,
+                "window.innerWidth": 8,
+                "Date.prototype.getTime": 8,
+                "Document.cookie setter": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "ce19ff82e9b40bf5399de6ba9bd065fb19f106ede544a5eb42e56b9b5046a797"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "messagemedia_shown": {
+                    "ttl": 172820,
+                    "length": 1,
+                    "prevalence": 0.0008032128514056225,
+                    "uniqueness": 0.125
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bathroomfactorywarehouse.com.au",
+                "frankgreen.com.au",
+                "itechworld.com.au",
+                "superbutcher.com.au",
+                "www.bauerfeind.com.au",
+                "www.petersheppard.com.au",
+                "www.reidcycles.com.au",
+                "www.ringerswestern.com"
+            ]
+        },
+        {
+            "rule": "wfp-franklin-shopify-prd\\.s3-ap-southeast-2\\.amazonaws\\.com\\/public\\/restock\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "8412f4c3ca65e287aff020ca4ec027037a6d388dab31fe42e1146dfd2e002f42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bathroomfactorywarehouse.com.au",
+                "frankgreen.com.au",
+                "itechworld.com.au",
+                "superbutcher.com.au",
+                "www.bauerfeind.com.au",
+                "www.petersheppard.com.au",
+                "www.reidcycles.com.au",
+                "www.ringerswestern.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000803,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 24
+    },
+    "nameservers": [
+        "ns-70.awsdns-08.com",
+        "ns-1442.awsdns-52.org",
+        "ns-1676.awsdns-17.co.uk",
+        "ns-858.awsdns-43.net"
+    ]
+}

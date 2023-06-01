@@ -1,0 +1,118 @@
+{
+    "domain": "defractal.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "defractal\\.com\\/scripts\\/defractal-0-445504E9-3B7C-49DE-B216-4E2BE48BCCAD\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "957ae1dd2e9e587bef4b1783ef7f63d6d44863c869b2116b6670927869a1c1ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "df_uid": {
+                    "ttl": 94608002,
+                    "length": 36,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24sata.hr",
+                "www.24sata.hr"
+            ]
+        },
+        {
+            "rule": "defractal\\.com\\/Defractal\\/GetRequisition",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "df_uid": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "24sata.hr",
+                "www.24sata.hr"
+            ]
+        },
+        {
+            "rule": "defractal\\.com\\/Defractal\\/GetRequisition",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6fd871cfef2f2a575141ec24b391682e4878816d5e67c3e5dfcecb95fb8923f0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "df_uid": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "24sata.hr",
+                "www.24sata.hr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "violet.ns.cloudflare.com",
+        "scott.ns.cloudflare.com"
+    ]
+}

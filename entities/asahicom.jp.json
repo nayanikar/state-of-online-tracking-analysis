@@ -1,0 +1,644 @@
+{
+    "domain": "asahicom.jp",
+    "owner": {
+        "name": "Asahi Shimbun",
+        "displayName": "Asahi Shimbun"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000749,
+    "sites": 11,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "asahicom\\.jp\\/ad\\/js\\/pc\\/webronza\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b546c8ed705ca2a067c2303882c9aac592fd4ba9357b3fb8afa7f231e02cbbf4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "webronza.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/css\\/asahi-footer\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "793c95a0533e3f79d130c43729bf221961ef302380c816beeb6788b85c8cf8b4",
+                "808aff3de3e720541913c1db47a386b81a5009641ea2c8c42e2c25f802ccc1de"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "webronza.asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/js\\/adobe\\/core\\.min\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appName": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "36d4b2621c52cf830f365690ced5c540610a67e6a1c9f339c08d2b7e0336529f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_D16360625419F1800A4C98A2%40AdobeOrg": {
+                    "ttl": 63158409,
+                    "length": 250,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "AMCVS_D16360625419F1800A4C98A2%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                },
+                "s_nr": {
+                    "ttl": 7776009,
+                    "length": 17,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "sc_clk_btn": {
+                    "ttl": 1809,
+                    "length": 10,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                },
+                "sc_prv_mp": {
+                    "ttl": 1809,
+                    "length": 2,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                },
+                "s_pnum": {
+                    "ttl": 1809,
+                    "length": 82,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "s_lv": {
+                    "ttl": 94608009,
+                    "length": 13,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "s_lv_s": {
+                    "ttl": 1809,
+                    "length": 13,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                },
+                "sc_ppv_pagename": {
+                    "ttl": 1809,
+                    "length": 55,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "sc_ppv_v78": {
+                    "ttl": 1809,
+                    "length": 55,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "s_cc": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "webronza.asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/js\\/gdpr\\/cookieconsent\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "af4c6683814aa527caf53bde3d021e6aafe00833b45f2dead043c87ed7864674"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "webronza.asahi.com",
+                "withnews.jp",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/css\\/images\\/logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cb96e08acf4ce079a22a3f54955403781f3478f7522bed552cc82b87128cb74f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/articles\\/images\\/AS20230412003711_commL\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4d2cae52f69c67bab8cd3d367ebd2b8e73e4f4154aac3305d0eba29e517e435a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/images23\\/fbox\\/ronza\\/230418ronza_fbox3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "431e9b7d7adbc18e3373c647fefa651580bbb8919a50d6c569d707f81d5e8737"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/and\\/data\\/wp-content\\/uploads\\/2023\\/04\\/230418_present_dtop\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cdd633e632eb1393b9f7fdbacd16fd6780df411b6f9e3b3e356d1215ec740fde"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/and\\/data\\/wp-content\\/uploads\\/2023\\/04\\/230417_shiro_dtop01\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b5f082e51eed55f494dd550de60b28c7ccbf09c20af332fa61cafbdd883d7cd6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/articles\\/images\\/AS20230418001947_commL\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f31e33b83cdbb3a7fda2b823f4e8c926ebe97d7834b97216cea9b969b754eac7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/and\\/data\\/wp-content\\/uploads\\/2023\\/04\\/230417_book_dtop\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8797845df55e66f55897fd1b6665d992638a23c8f9dc10f871d10706b891dbd9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/and\\/data\\/wp-content\\/uploads\\/2023\\/04\\/230418_akasaka_dtop\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f2a3f2f323307bdaf84aac19661d6ba13a2447b52472ab2b74a855f514694bf8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/and\\/data\\/wp-content\\/uploads\\/2023\\/04\\/230417_ogawa1_dtop\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "29a295916fa452aa9cfb242efea6e132a18753fd2a940ec575ea4833c3373a10"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/and\\/data\\/wp-content\\/uploads\\/2023\\/04\\/230417_eki_dtop\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "53f2ccc69ab5c7d0bdd7e352d4bd4bce749ec7727d32b9ed37a4dfe0de501b60"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/js\\/jquery-1\\.8\\.3\\.min\\.utf8\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7e93a8247856b456878bf1f210d76ed77273d77d0a0ee3420df2bf3131fe3429"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/js\\/asahi-header2014\\.utf8\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a357f76d38fc4fdcd06c37ed952396c838342908be3ddbc778dc73c397c25769"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/css\\/asahi-nonregi2014\\.utf8\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "60378cd9edd0f603e672213189caa0cf7f6a2504e6d624c361526d4ad23b8287"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/css\\/shimenviewer_n\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8474093b44a710efd458c3c69805061a3efe0d3ae757899e1302d1092a80c404"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/css\\/images\\/header\\/moremenu_hori\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "aa59cc7cf4c947412b8e2d35a4810adb3cc04ac14243107a32f55dcbfcc62e79"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/css\\/images\\/header\\/search\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1aa1ca8874c2b172b703620994e7b31be62530c5f922f11560ba5c5937d02be7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/css\\/images\\/header\\/faq\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9d64784b2f3b3849e8e70096ce285af702ba553ee38aea480e402ab2698f5969"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/css\\/images\\/arrow_link_small_blank\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f3c57a2dbc72c17480d571409a6eaf4774e152ea8fc95eed3a9860e1c90acd17"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "asahicom\\.jp\\/images\\/icon\\/top\\/icon__pr\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a3a85340e3c78780b0b76bdcaf14879156428d8a5a775b43857d4eb696ad4a30"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8656716417910447
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07462686567164178
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.05970149253731343
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Stylesheet": 7,
+        "Image": 30
+    },
+    "nameservers": [
+        "a9-67.akam.net",
+        "a8-66.akam.net",
+        "a24-64.akam.net",
+        "a26-65.akam.net",
+        "a13-67.akam.net",
+        "a1-8.akam.net"
+    ]
+}

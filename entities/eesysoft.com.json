@@ -1,0 +1,104 @@
+{
+    "domain": "eesysoft.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "fft"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "eesysoft\\.com\\/resources\\/js\\/canvas\\/launch\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "fft"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4160692b70f64c23d0172d22e1a831eb4a30ee1259e23bdaa682bfcfd9ca8a33"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "instructure.com",
+                "canvas.instructure.com"
+            ]
+        },
+        {
+            "rule": "eesysoft\\.com\\/rest\\/public\\/canvasLaunchSettings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fft"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "instructure.com",
+                "canvas.instructure.com"
+            ]
+        },
+        {
+            "rule": "eesysoft\\.com\\/rest\\/public\\/canvasLaunchSettings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fft"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d7be8fbaf06a0ac9c93d5bb7c7334ba864d9a591ad3736e647c3cbb49c7961e9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "instructure.com",
+                "canvas.instructure.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "instructure-uploads.s3.amazonaws.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "du11hjcvx0uqb.cloudfront.net",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "emerie.ns.cloudflare.com",
+        "fonzie.ns.cloudflare.com"
+    ]
+}

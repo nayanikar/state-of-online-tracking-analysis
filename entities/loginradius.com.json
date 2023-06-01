@@ -1,0 +1,191 @@
+{
+    "domain": "loginradius.com",
+    "owner": {
+        "name": "LoginRadius, Inc.",
+        "displayName": "LoginRadius"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00281,
+    "sites": 28,
+    "subdomains": [
+        "postmedia.hub",
+        "weforum.hub",
+        "cbc-login.hub",
+        "surrey.hub"
+    ],
+    "cnames": [
+        {
+            "original": "accounts.surrey.ca",
+            "resolved": "surrey.hub.loginradius.com"
+        },
+        {
+            "original": "login.cbc.ca",
+            "resolved": "cbc-login.hub.loginradius.com"
+        },
+        {
+            "original": "login.weforum.org",
+            "resolved": "weforum.hub.loginradius.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "loginradius\\.com\\/ssologin\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "postmedia.hub",
+                "weforum.hub"
+            ],
+            "apis": {},
+            "sites": 25,
+            "prevalence": 0.00251,
+            "cnames": [
+                {
+                    "original": "login.weforum.org",
+                    "resolved": "weforum.hub.loginradius.com"
+                }
+            ],
+            "responseHashes": [
+                "f7a4a046540cd7b682afc0d129cbbdea16081d1a54dfd3385115725f960c54c9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canoe.com",
+                "winnipegsun.com",
+                "calgarysun.com",
+                "windsorstar.com",
+                "driving.ca",
+                "ottawasun.com",
+                "lfpress.com",
+                "torontosun.com",
+                "montrealgazette.com",
+                "www.simcoereformer.ca",
+                "leaderpost.com",
+                "theprovince.com",
+                "vancouversun.com",
+                "thestarphoenix.com",
+                "www.thewhig.com",
+                "www.weforum.org",
+                "www.thesudburystar.com",
+                "www.brantfordexpositor.ca",
+                "ottawacitizen.com",
+                "nationalpost.com"
+            ]
+        },
+        {
+            "rule": "loginradius\\.com\\/ssologin\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "postmedia.hub",
+                "cbc-login.hub",
+                "surrey.hub"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.00271,
+            "cnames": [
+                {
+                    "original": "login.cbc.ca",
+                    "resolved": "cbc-login.hub.loginradius.com"
+                },
+                {
+                    "original": "accounts.surrey.ca",
+                    "resolved": "surrey.hub.loginradius.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.cbc.ca",
+                "www.thesudburystar.com",
+                "www.brantfordexpositor.ca",
+                "edmontonsun.com",
+                "financialpost.com",
+                "vancouversun.com",
+                "newsinteractives.cbc.ca",
+                "leaderpost.com",
+                "www.theobserver.ca",
+                "canoe.com",
+                "theprovince.com",
+                "www.surrey.ca",
+                "lfpress.com",
+                "ottawasun.com",
+                "montrealgazette.com",
+                "edmontonjournal.com",
+                "calgarysun.com",
+                "windsorstar.com",
+                "driving.ca",
+                "ottawacitizen.com"
+            ]
+        },
+        {
+            "rule": "loginradius\\.com\\/ssologin\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "postmedia.hub",
+                "cbc-login.hub",
+                "surrey.hub"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [
+                {
+                    "original": "login.cbc.ca",
+                    "resolved": "cbc-login.hub.loginradius.com"
+                },
+                {
+                    "original": "accounts.surrey.ca",
+                    "resolved": "surrey.hub.loginradius.com"
+                }
+            ],
+            "responseHashes": [
+                "f7a4a046540cd7b682afc0d129cbbdea16081d1a54dfd3385115725f960c54c9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "driving.ca",
+                "financialpost.com",
+                "newsinteractives.cbc.ca",
+                "www.cbc.ca",
+                "www.surrey.ca",
+                "www.thewhig.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "postmedia.digital",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "lrcontent.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Fetch": 25,
+        "Preflight": 27,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns4.p14.dynect.net",
+        "ns3.p14.dynect.net",
+        "ns2.p14.dynect.net",
+        "ns1.p14.dynect.net"
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "domain": "search.gov.sg",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "api",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "search\\.gov\\.sg\\/v1\\/searchconfig\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "280208d34b6bf15fffe08e0abc9016a5dcb279b6c4680ff94363021d8b868723"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mom.gov.sg",
+                "www.mom.gov.sg"
+            ]
+        },
+        {
+            "rule": "search\\.gov\\.sg\\/js\\/searchbar\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mom.gov.sg",
+                "www.mom.gov.sg"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "a8-64.akam.net",
+        "ns7.gdnsdef.com",
+        "a1-6.akam.net",
+        "ns9.gdnsec.com",
+        "ns3.gdnsec.com",
+        "ns12.gdnsec.com",
+        "ns10.gdnsdef.com",
+        "a3-67.akam.net",
+        "ns12.gdnsdef.com",
+        "a2-65.akam.net",
+        "a20-66.akam.net",
+        "a9-65.akam.net"
+    ]
+}

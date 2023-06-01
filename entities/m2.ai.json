@@ -1,0 +1,322 @@
+{
+    "domain": "m2.ai",
+    "owner": {
+        "name": "eSell Solutions Ltd. DBA MonetizeMore",
+        "displayName": "MonetizeMore"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000904,
+    "sites": 9,
+    "subdomains": [
+        "analytics2",
+        "m2d"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "m2\\.ai\\/stream",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chatiw.com",
+                "www.chatiw.me"
+            ]
+        },
+        {
+            "rule": "m2\\.ai\\/stream",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chatiw.com",
+                "www.chatiw.me"
+            ]
+        },
+        {
+            "rule": "m2\\.ai\\/v\\/pg-230405-cc1-nc-d41d8cd98f00b204e9800998ecf8427e\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 3,
+            "subdomains": [
+                "m2d"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.appCodeName": 3,
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.productSub": 3,
+                "Navigator.prototype.platform": 3,
+                "window.indexedDB": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Performance.prototype.memory": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "window.innerWidth": 3,
+                "Document.cookie setter": 3,
+                "WebGLRenderingContext.prototype.getParameter": 3,
+                "WebGLRenderingContext.prototype.getExtension": 3,
+                "window.innerHeight": 3,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.availWidth": 1,
+                "Navigator.prototype.webdriver": 1,
+                "Navigator.prototype.languages": 1,
+                "Navigator.prototype.vendor": 1,
+                "window.outerWidth": 1,
+                "window.outerHeight": 1,
+                "NavigatorUAData.prototype.brands": 1,
+                "Navigator.prototype.hardwareConcurrency": 1,
+                "Navigator.prototype.deviceMemory": 1,
+                "Navigator.prototype.connection": 1,
+                "Navigator.prototype.getBattery": 1,
+                "Navigator.prototype.permissions": 1,
+                "Navigator.prototype.mediaDevices": 1,
+                "MediaDevices.prototype.enumerateDevices": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1,
+                "document.fonts.check": 1,
+                "Navigator.prototype.vendorSub": 1,
+                "Navigator.prototype.javaEnabled": 1,
+                "window.screenTop": 1,
+                "window.screenLeft": 1,
+                "BarProp.prototype.visible": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "10713a63d47c52eaa32c955782910bda8b28b3a9475a00d5774575e7ed6947b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pg_floor_requested": {
+                    "ttl": 3607,
+                    "length": 1,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "pg_lazy": {
+                    "ttl": 86407,
+                    "length": 1,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "pg_driftingTypePercent": {
+                    "ttl": 86407,
+                    "length": 1,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "pg_chaser": {
+                    "ttl": 86407,
+                    "length": 1,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.6666666666666666
+                },
+                "pg_outstream": {
+                    "ttl": 86407,
+                    "length": 1,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.6666666666666666
+                },
+                "pg_vignettePercent": {
+                    "ttl": 86407,
+                    "length": 1,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "pg_session_depth": {
+                    "ttl": 3607,
+                    "length": 1,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "pg_preconnecting": {
+                    "ttl": 86408,
+                    "length": 8,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.6666666666666666
+                },
+                "pg_geo_response_time": {
+                    "ttl": 86408,
+                    "length": 4,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "pg_geo": {
+                    "ttl": null,
+                    "length": 52,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "pg_ip": {
+                    "ttl": 2592008,
+                    "length": 13,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "pg_beacon": {
+                    "ttl": 2592008,
+                    "length": 1,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "pg_mm2_cookie_a": {
+                    "ttl": 31536008,
+                    "length": 36,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "pg_session_id": {
+                    "ttl": 3608,
+                    "length": 36,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "pg_tc": {
+                    "ttl": 86408,
+                    "length": 9,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.6666666666666666
+                },
+                "pg_dynamic_floor_expiry": {
+                    "ttl": 21609,
+                    "length": 1,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "pg_after_init_response_time": {
+                    "ttl": 86408,
+                    "length": 4,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "pg_pl": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "pg_quick_check": {
+                    "ttl": 86408,
+                    "length": 4,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "pg_ua": {
+                    "ttl": 864008,
+                    "length": 119,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "pg_latency_before_tc": {
+                    "ttl": 86408,
+                    "length": 4,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "pg_pv_time_1": {
+                    "ttl": 86418,
+                    "length": 5,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "pg_bot_percent": {
+                    "ttl": 2592010,
+                    "length": 1,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "pg_bot_reason": {
+                    "ttl": 864010,
+                    "length": 3,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "pg_bot_model": {
+                    "ttl": 86410,
+                    "length": 1,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "pg_tc_response_time": {
+                    "ttl": 86410,
+                    "length": 4,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "pg_buildfile": 0.00030120481927710846
+            },
+            "exampleSites": [
+                "coffeeaffection.com",
+                "www.rapidtables.com",
+                "www.visioncenter.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000703,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "pubguru.net",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "pubguru.com",
+            "prevalence": 0.2222222222222222
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Preflight": 2,
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-112.awsdns-14.com",
+        "ns-821.awsdns-38.net",
+        "ns-1186.awsdns-20.org",
+        "ns-2042.awsdns-63.co.uk"
+    ]
+}

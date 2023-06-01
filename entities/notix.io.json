@@ -1,0 +1,129 @@
+{
+    "domain": "notix.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "notix\\.io\\/ent\\/current\\/enot\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.indexedDB": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Notification.permission": 2,
+                "window.localStorage": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "24a84ca4a6d7dfdcc71ab494a76399d839e64a28338c48d6e2c088c4c6d31341"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cannigma.com",
+                "deadlyanimes.com",
+                "www.ghacks.net",
+                "www.mid-day.com"
+            ]
+        },
+        {
+            "rule": "notix\\.io\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4d1ae5967ad9bd206eeab26fb53f80ebb0359a0cfe7c358ab43a711c45a99390",
+                "dcee3bac3ccc87dd87eb012a866e8e2b276ba617ca9832eaeaef401b95b1212b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deadlyanimes.com",
+                "www.ghacks.net",
+                "www.mid-day.com"
+            ]
+        },
+        {
+            "rule": "notix\\.io\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "edc48cd3b0bc4fa7ba23aad40b8508a17d370ca38be174bae2a2f64634e65a2b"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deadlyanimes.com",
+                "www.ghacks.net",
+                "www.mid-day.com"
+            ]
+        },
+        {
+            "rule": "notix\\.io\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deadlyanimes.com",
+                "www.ghacks.net",
+                "www.mid-day.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 3,
+        "Ping": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns-1473.awsdns-56.org",
+        "ns-566.awsdns-06.net",
+        "ns-393.awsdns-49.com",
+        "ns-1879.awsdns-42.co.uk"
+    ]
+}

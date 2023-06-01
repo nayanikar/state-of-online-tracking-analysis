@@ -1,0 +1,78 @@
+{
+    "domain": "trbprodcloud.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "ssor.tribdss"
+    ],
+    "cnames": [
+        {
+            "original": "authenticate.chicagotribune.com",
+            "resolved": "ssor.tribdss.trbprodcloud.com"
+        },
+        {
+            "original": "authenticate.nydailynews.com",
+            "resolved": "ssor.tribdss.trbprodcloud.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "trbprodcloud\\.com\\/read_auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssor.tribdss"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "authenticate.chicagotribune.com",
+                    "resolved": "ssor.tribdss.trbprodcloud.com"
+                },
+                {
+                    "original": "authenticate.nydailynews.com",
+                    "resolved": "ssor.tribdss.trbprodcloud.com"
+                }
+            ],
+            "responseHashes": [
+                "1b881a7056d854949f1eae844deaa5cfc6d8b026283a0d940f70251a8b5ca7b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicagotribune.com",
+                "www.nydailynews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "tribdss.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-352.awsdns-44.com",
+        "ns-866.awsdns-44.net",
+        "ns-1246.awsdns-27.org",
+        "ns-1879.awsdns-42.co.uk"
+    ]
+}

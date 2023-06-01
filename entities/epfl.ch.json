@@ -1,0 +1,89 @@
+{
+    "domain": "epfl.ch",
+    "owner": {
+        "name": "Ecole Polytechnique Fédérale de Lausanne",
+        "displayName": "Ecole Polytechnique Fédérale de Lausanne"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "scalagesrv1"
+    ],
+    "cnames": [
+        {
+            "original": "plausible.scala-lang.org",
+            "resolved": "scalagesrv1.epfl.ch"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "epfl\\.ch\\/js\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scalagesrv1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "plausible.scala-lang.org",
+                    "resolved": "scalagesrv1.epfl.ch"
+                }
+            ],
+            "responseHashes": [
+                "7eec3429c76cb48e5fd457c5afb71b7cf34bc4298d53023bae8aea715443b4a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scala-lang.org",
+                "docs.scala-lang.org"
+            ]
+        },
+        {
+            "rule": "epfl\\.ch\\/api\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scalagesrv1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "plausible.scala-lang.org",
+                    "resolved": "scalagesrv1.epfl.ch"
+                }
+            ],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scala-lang.org",
+                "docs.scala-lang.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "stisun1.epfl.ch",
+        "stisun2.epfl.ch"
+    ]
+}

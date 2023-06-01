@@ -1,0 +1,111 @@
+{
+    "domain": "thelott.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "media"
+    ],
+    "cnames": [
+        {
+            "original": "data.api.thelott.com",
+            "resolved": "media.thelott.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "thelott\\.com\\.edgekey\\.net\\/sales\\/vmax\\/web\\/data\\/lotto\\/latestresults",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "data.api.thelott.com",
+                    "resolved": "media.thelott.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "363a2d02a1e53c192cb5b775813ae6a458773e7bc847346977729ec93ec99965"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thelott.com",
+                "www.thelott.com"
+            ]
+        },
+        {
+            "rule": "thelott\\.com\\.edgekey\\.net\\/sales\\/vmax\\/web\\/data\\/lotto\\/opendraws",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "data.api.thelott.com",
+                    "resolved": "media.thelott.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thelott.com",
+                "www.thelott.com"
+            ]
+        },
+        {
+            "rule": "thelott\\.com\\.edgekey\\.net\\/sales\\/vmax\\/web\\/data\\/lotto\\/opendraws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "data.api.thelott.com",
+                    "resolved": "media.thelott.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thelott.com",
+                "www.thelott.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "types": {
+        "Fetch": 4,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

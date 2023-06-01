@@ -1,0 +1,85 @@
+{
+    "domain": "elevaate.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "elevaate\\.io\\/portal\\/public\\/api\\/autozone\\.com\\/renderPagePrecharge\\.json",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fc407e4d4de47c5453b429d7d98b94905a1143d258b5818af8e4c04fe8227c5d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_elevaate_session_id": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "autozone.com",
+                "www.autozone.com"
+            ]
+        },
+        {
+            "rule": "elevaate\\.io\\/portal\\/public\\/api\\/autozone\\.com\\/renderPagePrecharge\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_elevaate_session_id": 0.0002008435428800964
+            },
+            "exampleSites": [
+                "autozone.com",
+                "www.autozone.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1106.awsdns-10.org",
+        "ns-1768.awsdns-29.co.uk",
+        "ns-551.awsdns-04.net",
+        "ns-158.awsdns-19.com"
+    ]
+}

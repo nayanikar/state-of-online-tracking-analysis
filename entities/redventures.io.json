@@ -1,0 +1,101 @@
+{
+    "domain": "redventures.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "at.adtech"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "redventures\\.io\\/lib\\/api\\/client-info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "at.adtech"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnet.com",
+                "www.zdnet.com"
+            ]
+        },
+        {
+            "rule": "redventures\\.io\\/lib\\/api\\/client-info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "at.adtech"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7cac2266f580747bd11f6591d941f96608b94424754d4d4a85e15e7745349875"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnet.com",
+                "www.zdnet.com"
+            ]
+        },
+        {
+            "rule": "redventures\\.io\\/lib\\/api\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "at.adtech"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnet.com",
+                "www.cnet.com",
+                "www.zdnet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2,
+        "Ping": 3
+    },
+    "nameservers": [
+        "ns-1095.awsdns-08.org",
+        "ns-534.awsdns-02.net",
+        "ns-211.awsdns-26.com",
+        "ns-1761.awsdns-28.co.uk"
+    ]
+}

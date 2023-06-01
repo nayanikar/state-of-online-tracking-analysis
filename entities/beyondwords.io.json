@@ -1,0 +1,84 @@
+{
+    "domain": "beyondwords.io",
+    "owner": {
+        "name": "BeyondWords",
+        "displayName": "BeyondWords",
+        "privacyPolicy": "https://beyondwords.io/privacy/",
+        "url": "http://beyondwords.io"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "proxy"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "beyondwords\\.io\\/npm\\/@beyondwords\\/audio-player@latest\\/dist\\/module\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a90427c8992e6626d14db09a01435a584c0c9fe3e2e53f1994abac83b2bb2c16"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifesitenews.com",
+                "www.sleepfoundation.org"
+            ]
+        },
+        {
+            "rule": "beyondwords\\.io\\/npm\\/@beyondwords\\/audio-player@latest\\/dist\\/module\\/sdk-dc8082ab\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "proxy"
+            ],
+            "apis": {
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "12934d871546759ad77a6bb3c20508d1213d685ae8b1d79ef735834c09eae9b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifesitenews.com",
+                "www.sleepfoundation.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "lee.ns.cloudflare.com",
+        "kate.ns.cloudflare.com"
+    ]
+}

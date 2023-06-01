@@ -1,0 +1,82 @@
+{
+    "domain": "gateway-camsfinder-com.b-cdn.net",
+    "owner": {
+        "name": "BunnyCDN",
+        "displayName": "BunnyCDN"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "gateway.camsfinder.com",
+            "resolved": "gateway-camsfinder-com.b-cdn.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gateway-camsfinder-com\\.b-cdn\\.net\\/wswidget\\/ws-session-widget\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "gateway.camsfinder.com",
+                    "resolved": "gateway-camsfinder-com.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "c6df66fb176b0c7b7e2d66bd6482fcddd59df042a52c4a3fdb48a6458d1110d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "camsfinder.com",
+                "www.camsfinder.com"
+            ]
+        },
+        {
+            "rule": "gateway-camsfinder-com\\.b-cdn\\.net\\/session-api\\/ws-session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "gateway.camsfinder.com",
+                    "resolved": "gateway-camsfinder-com.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "5888f818e86efac8da5b0d858f15ff92ff4fdc438441427678ddcf60ced1b051"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "camsfinder.com",
+                "www.camsfinder.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

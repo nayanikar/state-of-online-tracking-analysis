@@ -1,0 +1,106 @@
+{
+    "domain": "hexia.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "sdk",
+        "zuidwestwonenapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hexia\\.io\\/js\\/hexia\\.js",
+            "cookies": 0.000603,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 6,
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "b1aba9041ae4e89a27f433e8d494343100f1bb6686f04953b9ebafe19f31e2b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dewoningzoeker.nl",
+                "www.klikvoorwonen.nl",
+                "www.wooniezie.nl",
+                "www.woonkeus-stedendriehoek.nl",
+                "www.woonnet-haaglanden.nl",
+                "www.zuidwestwonen.nl"
+            ]
+        },
+        {
+            "rule": "hexia\\.io\\/api\\/v1\\/actueel-aanbod",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zuidwestwonenapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zuidwestwonen.nl",
+                "www.zuidwestwonen.nl"
+            ]
+        },
+        {
+            "rule": "hexia\\.io\\/api\\/v1\\/actueel-aanbod",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zuidwestwonenapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0ce637a6c31509844d059230c0cc17bb2b3598913b6b3bc0c2183bdf3ed10365"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zuidwestwonen.nl",
+                "www.zuidwestwonen.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000603,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "scott.ns.cloudflare.com",
+        "romina.ns.cloudflare.com"
+    ]
+}

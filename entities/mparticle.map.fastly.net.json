@@ -1,0 +1,111 @@
+{
+    "domain": "mparticle.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "cdp.cashrewards.com.au",
+            "resolved": "mparticle.map.fastly.net"
+        },
+        {
+            "original": "mparticle.weather.com",
+            "resolved": "mparticle.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mparticle\\.map\\.fastly\\.net\\/identity\\/v1\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "mparticle.weather.com",
+                    "resolved": "mparticle.map.fastly.net"
+                },
+                {
+                    "original": "cdp.cashrewards.com.au",
+                    "resolved": "mparticle.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weather.com",
+                "www.cashrewards.com.au"
+            ]
+        },
+        {
+            "rule": "mparticle\\.map\\.fastly\\.net\\/identity\\/v1\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "mparticle.weather.com",
+                    "resolved": "mparticle.map.fastly.net"
+                },
+                {
+                    "original": "cdp.cashrewards.com.au",
+                    "resolved": "mparticle.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "8e2e9d97bcc68a1a25d457fec0fc883c8342a62efb5ac7bfbec145b07129301f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weather.com",
+                "www.cashrewards.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "instana.io",
+            "prevalence": 0.9166666666666666
+        },
+        {
+            "domain": "rum.us-east-1.amazonaws.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

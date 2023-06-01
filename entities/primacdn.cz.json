@@ -1,0 +1,500 @@
+{
+    "domain": "primacdn.cz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "static",
+        "authstatic"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "primacdn\\.cz\\/sas\\/cmp\\/iprima-cmp\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d32708d9262d803eea4f9453dff2ff1e336254c9bf9f37472ad85250ed13b2e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "eupubconsent-v2": {
+                    "ttl": 31536007,
+                    "length": 10,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "cnn.iprima.cz",
+                "fresh.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sas\\/cnn_prima_news\\/prod\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "32b77977b750e466d1492a21429f0f617515b4d0f740d69313ecf72eee452aec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "cnn.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sas\\/cnn_prima_news\\/prod\\/cnn_sas_config\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "49531bdbf29e1d9d68eb3366f7e12e252afdb11992a5f04f32f2ba8cbc83ac32"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "cnn.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sso\\/notification\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "authstatic"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "c404bf038875652d5726da9f335cc217a907523ecc999990fa323a945927af44"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "cnn.iprima.cz",
+                "fresh.iprima.cz",
+                "www.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sso\\/device_id\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "authstatic"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "ae2a6b105570b9d4619237800245cd994c2ce9a98572746d659e3078bf4fa6cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "prima_device_id": {
+                    "ttl": 31622405,
+                    "length": 38,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "cnn.iprima.cz",
+                "fresh.iprima.cz",
+                "www.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sso\\/images\\/close\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "authstatic"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "752783354a966005785ac8c4eebd4991b2e6e0a07d0964d93380816db832af48"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "cnn.iprima.cz",
+                "fresh.iprima.cz",
+                "www.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sso\\/images\\/toast-changes\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "authstatic"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "31de214baec8d1a12b0807a6dcf0c41ce2614351ade59694778a3476f1e6a777"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "cnn.iprima.cz",
+                "fresh.iprima.cz",
+                "www.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sso\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "authstatic"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.vendor": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "7977049740d082cf47d7b3133e38a2a686739f9dc2c67ccd1968c610ed4c681b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "cnn.iprima.cz",
+                "fresh.iprima.cz",
+                "www.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sso\\/version\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "authstatic"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "d46f4a482e3c9a3d0dc51dc1661d63a9640121b0e6b8c3392f2768ce90bf90b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "cnn.iprima.cz",
+                "fresh.iprima.cz",
+                "www.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/scripts\\/cmp\\/images\\/whitebg\\/iprima2x\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "9b08900a271383814d134c43c29030cfc5309eab86597442b7644d1eb8c89e06"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "cnn.iprima.cz",
+                "fresh.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sso\\/watch\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "authstatic"
+            ],
+            "apis": {
+                "window.name": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "615daebeedf12ffdc5be40f5351f4a53c1882136b34268f2189117c6dc25633b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "cnn.iprima.cz",
+                "fresh.iprima.cz",
+                "www.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sas\\/fresh\\/prod\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a0bb11cd461ae3ac5c501a2ec0dec03a258f3f0f2b4d55fcc545642f4bbd822e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "fresh.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sas\\/fresh\\/prod\\/fresh_sas_config\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "337f825df9141c77c387e8504d9f1828a686eb0c6daf68168ef4dac91cf52dff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "fresh.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sso\\/sso_main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "authstatic"
+            ],
+            "apis": {
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f6e3de81f227f10188fa5ab8345b9449ec9ba5b1d1965a86f62cf3b4ba2998c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "www.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sas\\/iprima\\/spa\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "75d9097494776c9a8a96d3647d6604c0db6b7196f572d51b8d2d0f6f57bc60ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "www.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sas\\/iprima\\/spa\\/iprima_sas_config\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4bea6d3caa80818ba522dadf296932141070eeeab51d2376139dba281ca33578"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "www.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sas\\/sas\\/sasspa\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2a02b83dde0d3e23b0b37df27ea73bf8f3af90576baa1961af647d6b78af7258"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "www.iprima.cz"
+            ]
+        },
+        {
+            "rule": "primacdn\\.cz\\/sas\\/ads\\/templates\\/creatives\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c8f03fdb5d1a4552b16c7fa26942d9d174d30ba778d8ec0f7506cd5a1b1565ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "www.iprima.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000408,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8867924528301887
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.07547169811320754
+        },
+        {
+            "domain": "dwl2jqo5jww9m.cloudfront.net",
+            "prevalence": 0.03773584905660377
+        }
+    ],
+    "types": {
+        "Script": 37,
+        "Stylesheet": 4,
+        "Image": 11
+    },
+    "nameservers": [
+        "ali.ns.cloudflare.com",
+        "ajay.ns.cloudflare.com"
+    ]
+}

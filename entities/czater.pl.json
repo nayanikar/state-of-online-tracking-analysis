@@ -1,0 +1,102 @@
+{
+    "domain": "czater.pl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "www",
+        "s3"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "czater\\.pl\\/assets\\/modules\\/chat\\/js\\/socket\\.io\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "15d8f261e01e90f1093359c08a496fc4eb9c47865a420f7f23b0b49fd18e35cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topkobiety.pl",
+                "www.topkobiety.pl"
+            ]
+        },
+        {
+            "rule": "czater\\.pl\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topkobiety.pl",
+                "www.topkobiety.pl"
+            ]
+        },
+        {
+            "rule": "czater\\.pl\\/themes\\/new_userpanel\\/chat\\/a\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6558263de3871f63b47a6be7fc5c637ba6dafe692d92b79aa5eebaad90cdbcc1"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topkobiety.pl",
+                "www.topkobiety.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "chater.biz",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "WebSocket": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns2.aftermarket.pl",
+        "ns1.aftermarket.pl"
+    ]
+}

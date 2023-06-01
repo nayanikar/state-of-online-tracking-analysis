@@ -1,0 +1,90 @@
+{
+    "domain": "lb-army-prod-ads-1740583376.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "dualstack"
+    ],
+    "cnames": [
+        {
+            "original": "content.armymwr.com",
+            "resolved": "dualstack.lb-army-prod-ads-1740583376.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "lb-army-prod-ads-1740583376\\.us-east-1\\.elb\\.amazonaws\\.com\\/renderer\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "content.armymwr.com",
+                    "resolved": "dualstack.lb-army-prod-ads-1740583376.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "6e6018e812e634043962091a3d3202391d68097055d2ec45d0757f7145fdff25"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armymwr.com",
+                "www.armymwr.com"
+            ]
+        },
+        {
+            "rule": "lb-army-prod-ads-1740583376\\.us-east-1\\.elb\\.amazonaws\\.com\\/auto\\/contents\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "content.armymwr.com",
+                    "resolved": "dualstack.lb-army-prod-ads-1740583376.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "148713a5594973e2882cee5aafaf27ec5053ccc2cb0c9554c96fc65db8f5880c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armymwr.com",
+                "www.armymwr.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

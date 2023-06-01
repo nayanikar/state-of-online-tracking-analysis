@@ -1,0 +1,117 @@
+{
+    "domain": "bzu.kr",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "logger"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bzu\\.kr\\/logger\\/logger\\.fada",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "93dd820e79ffc7d9da2f8d02849da2b01e4ced508ac655779adbdca14f4a7d54"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "koreaherald.com",
+                "www.koreaherald.com"
+            ]
+        },
+        {
+            "rule": "bzu\\.kr\\/logger\\/logger\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "logger"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appCodeName": 2,
+                "RTCPeerConnection.prototype.constructor": 2,
+                "RTCPeerConnectionIceEvent.prototype.candidate": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "85ebc5fcde163701de05efa2e8bd5be1bff0a1c971d076b63191d3eeb602ca10"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "BZU153": {
+                    "ttl": 5184009,
+                    "length": 14,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "koreaherald.com",
+                "www.koreaherald.com"
+            ]
+        },
+        {
+            "rule": "bzu\\.kr\\/logger\\/logger\\.php",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "BZU153": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "koreaherald.com",
+                "www.koreaherald.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1.fada.kr"
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "domain": "deko.finance",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "pay"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "deko\\.finance\\/plugin\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pay"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4cf3e92c5415fbb70ad7ec2b7b602e96300ad8183ececc987e6f19978c30875c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justlawnmowers.co.uk",
+                "www.justlawnmowers.co.uk"
+            ]
+        },
+        {
+            "rule": "deko\\.finance\\/api\\/retailer",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pay"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "abb5d2ed0b0b503b522b859b41f718d757ff71820a162e7e2c3bc7f7ccf32581"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justlawnmowers.co.uk",
+                "www.justlawnmowers.co.uk"
+            ]
+        },
+        {
+            "rule": "deko\\.finance\\/api\\/retailer",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pay"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justlawnmowers.co.uk",
+                "www.justlawnmowers.co.uk"
+            ]
+        },
+        {
+            "rule": "deko\\.finance\\/api\\/retailer\\/691181c1-aba8-4489-acd3-f3c94c1f6c0a\\/services",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pay"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e171f7c6ac9dcbb71fa4a94039dcfd59989d3e1c98b4c81194e67ecc28371e34"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justlawnmowers.co.uk",
+                "www.justlawnmowers.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-611.awsdns-12.net",
+        "ns-1444.awsdns-52.org",
+        "ns-1858.awsdns-40.co.uk",
+        "ns-356.awsdns-44.com"
+    ]
+}

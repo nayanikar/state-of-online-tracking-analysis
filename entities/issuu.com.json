@@ -1,0 +1,205 @@
+{
+    "domain": "issuu.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "e",
+        "sentry",
+        "pingback"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "issuu\\.com\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "6a6ee5c5aeb31b07e1c6821fd6e1af8f3e653651246a88667c66dfeaeca30f86"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "architectureanddesign.com.au",
+                "www.csu.edu.au",
+                "www.denofgeek.com"
+            ]
+        },
+        {
+            "rule": "issuu\\.com\\/api\\/150\\/envelope\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sentry"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "architectureanddesign.com.au",
+                "www.csu.edu.au",
+                "www.denofgeek.com",
+                "www.echo.net.au",
+                "www.metrotimes.com",
+                "www.southernqueenslandcountry.com.au"
+            ]
+        },
+        {
+            "rule": "issuu\\.com\\/embed\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "33925850bff3425f8516e668676036e036a6061e23cc76a02e713e419aace368"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "denofgeek.com",
+                "www.echo.net.au",
+                "www.metrotimes.com",
+                "www.southernqueenslandcountry.com.au"
+            ]
+        },
+        {
+            "rule": "issuu\\.com\\/issuu-reader3-embed-files\\/427\\/embed\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "URL.createObjectURL": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.platform": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "window.devicePixelRatio": 4,
+                "Navigator.prototype.maxTouchPoints": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "4bb6c217822f1537403e58b749d73101538557c8581681f546d71b3e56b35d17"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "denofgeek.com",
+                "www.echo.net.au",
+                "www.metrotimes.com",
+                "www.southernqueenslandcountry.com.au"
+            ]
+        },
+        {
+            "rule": "issuu\\.com\\/issuu-reader3-embed-files\\/427\\/embed\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "171b557f4781bfb7d19ee98e5deb585c5347516254a787f434086611a3087d5f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "denofgeek.com",
+                "www.echo.net.au",
+                "www.metrotimes.com",
+                "www.southernqueenslandcountry.com.au"
+            ]
+        },
+        {
+            "rule": "issuu\\.com\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pingback"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "denofgeek.com",
+                "www.denofgeek.com",
+                "www.echo.net.au",
+                "www.metrotimes.com",
+                "www.southernqueenslandcountry.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.5833333333333334
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "issuu.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Fetch": 11,
+        "Document": 4,
+        "Stylesheet": 4
+    },
+    "nameservers": [
+        "ns-1343.awsdns-39.org",
+        "ns-1582.awsdns-05.co.uk",
+        "ns-757.awsdns-30.net",
+        "ns-426.awsdns-53.com"
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "domain": "embed.win",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "ad"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "embed\\.win\\/ads\\/v300x100\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9051069111382648ec6910e00e79f9abf07f6959c821ba9427637505208c67df"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fap16.net",
+                "spclip.com"
+            ]
+        },
+        {
+            "rule": "embed\\.win\\/ads\\/v300x250\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "01be0eba0ed34b65e0a5e0f5b7a87c33510c837265a32a3137efd67d6c3568da"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fap16.net",
+                "javbibi.com",
+                "spclip.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Document": 5
+    },
+    "nameservers": [
+        "tom.ns.cloudflare.com",
+        "sue.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "domain": "yieldscale.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00161,
+    "sites": 16,
+    "subdomains": [
+        "cdns"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "yieldscale\\.com\\/prebid\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdns"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d2d2c97b5d46876027c649f5675a783b64db6362f0bba1d5ae4d6db086ab2cec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alleangeln.de",
+                "www.igorslab.de"
+            ]
+        },
+        {
+            "rule": "yieldscale\\.com\\/prebid_mso\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdns"
+            ],
+            "apis": {
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.appName": 1,
+                "Date.prototype.getTime": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8fee81a056efdf87c4d17c72ec53ff2d92840380ae2ee306e95dcb1d8f73c1a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expertentesten.de",
+                "www.igorslab.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "steadycdn.com",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns5.kasserver.com",
+        "ns6.kasserver.com"
+    ]
+}

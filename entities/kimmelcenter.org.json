@@ -1,0 +1,179 @@
+{
+    "domain": "kimmelcenter.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "gtm",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "kimmelcenter\\.org\\/gtm\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gtm"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4e7713b40b7f805236b09110b49000776950585e38241b3e1da0f4dc498fe48d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_gcl_au": {
+                    "ttl": 7776008,
+                    "length": 24,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "prevPage1": {
+                    "ttl": 1808,
+                    "length": 47,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "prevPageReload": {
+                    "ttl": 1808,
+                    "length": 59,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kimmelculturalcampus.org",
+                "www.kimmelculturalcampus.org"
+            ]
+        },
+        {
+            "rule": "kimmelcenter\\.org\\/images\\/KCCFlatStatic\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2f63e6ba91960bb163d4749e3c87a9117bab00c815dbdbe85ce28932c43cde14"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kimmelculturalcampus.org",
+                "www.kimmelculturalcampus.org"
+            ]
+        },
+        {
+            "rule": "kimmelcenter\\.org\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gtm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5971b095cff574a66d35ada016d4c077c86e2dea62e9c0f14cf7c94b258619de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kimmelculturalcampus.org",
+                "www.kimmelculturalcampus.org"
+            ]
+        },
+        {
+            "rule": "kimmelcenter\\.org\\/j\\/collect",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gtm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000027228295644834112
+            },
+            "exampleSites": [
+                "kimmelculturalcampus.org",
+                "www.kimmelculturalcampus.org"
+            ]
+        },
+        {
+            "rule": "kimmelcenter\\.org\\/collect",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gtm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000027228295644834112
+            },
+            "exampleSites": [
+                "kimmelculturalcampus.org",
+                "www.kimmelculturalcampus.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "google-analytics.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "theo.ns.cloudflare.com",
+        "abby.ns.cloudflare.com"
+    ]
+}

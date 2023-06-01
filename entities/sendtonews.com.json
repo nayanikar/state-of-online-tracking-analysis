@@ -1,0 +1,232 @@
+{
+    "domain": "sendtonews.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "embed",
+        "embedcdn",
+        "s2l",
+        "player"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sendtonews\\.com\\/player3\\/embedcode\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicagotribune.com",
+                "www.nydailynews.com"
+            ]
+        },
+        {
+            "rule": "sendtonews\\.com\\/easy-stn-player\\/7\\.15\\.1-G\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embedcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4e3149128340c4394835bb0559edba9bd118e07b596e6fbbb18fef086f3151af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicagotribune.com",
+                "www.nydailynews.com"
+            ]
+        },
+        {
+            "rule": "sendtonews\\.com\\/easy-stn-player\\/7\\.15\\.1-G\\/easy-stn-player\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "MediaSource.isTypeSupported": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3e16b520601222e9febb9322d25f2880f323ab6184bbb20a2dfbc01512d49cec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicagotribune.com",
+                "www.nydailynews.com"
+            ]
+        },
+        {
+            "rule": "sendtonews\\.com\\/library\\/prebid\\/7\\.17\\.0\\/prebid\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "922a293fce4c3fb1526e1a5d8816602ef86fd581c3e438989416bc5c56ce9f0f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicagotribune.com",
+                "www.nydailynews.com"
+            ]
+        },
+        {
+            "rule": "sendtonews\\.com\\/library\\/streamsense\\/6\\.3\\.4\\.190424\\/comScore\\.gt\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "37da4f4e9645bcde259d1669db9d2548d9ff4f80e72bbe405232924129ae4db7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicagotribune.com",
+                "www.nydailynews.com"
+            ]
+        },
+        {
+            "rule": "sendtonews\\.com\\/stn_trk\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s2l"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c00a759275b8628823a9809f24cbeca08cb48b52713adf221f70284e66d9c82f"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicagotribune.com",
+                "www.chicagotribune.com",
+                "www.nydailynews.com"
+            ]
+        },
+        {
+            "rule": "sendtonews\\.com\\/player4\\/data_read\\.php",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "49f66f8ce45ddb3870be064289623d00e62e0c66050556e209986d336860b97c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicagotribune.com",
+                "www.nydailynews.com"
+            ]
+        },
+        {
+            "rule": "sendtonews\\.com\\/bidderFiles\\/0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6484dbdbcc018ef0cc92a28a4ef391571c4651aaa1958a85a24439c6120f9606"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicagotribune.com",
+                "www.nydailynews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Ping": 3,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-603.awsdns-11.net",
+        "ns-348.awsdns-43.com",
+        "ns-1739.awsdns-25.co.uk",
+        "ns-1466.awsdns-55.org"
+    ]
+}

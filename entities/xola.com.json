@@ -1,0 +1,175 @@
+{
+    "domain": "xola.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [
+        "botcdn",
+        "bot"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "xola\\.com\\/checkout\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 5,
+                "Screen.prototype.width": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.platform": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "3d7b4f335e30723f17c5bdea407e81c040dcd53cbbb5115c7b2686b05a890742"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trulyhardseltzer.com",
+                "www.jackdaniels.com",
+                "www.samueladams.com",
+                "www.vancouverplanner.com",
+                "www.woodfordreserve.com"
+            ]
+        },
+        {
+            "rule": "xola\\.com\\/externalLinks",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e67bae5cebcb742b11c4200d47725af65e67c9e713a50c16aa0cde04046989f9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trulyhardseltzer.com",
+                "www.jackdaniels.com",
+                "www.samueladams.com",
+                "www.vancouverplanner.com",
+                "www.woodfordreserve.com"
+            ]
+        },
+        {
+            "rule": "xola\\.com\\/client",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "botcdn"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Navigator.prototype.product": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.sessionStorage": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "521d07ad5aaef8506fcfc70bc7f0015bdcb654b75df08c97d07e0ca6be813891"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trulyhardseltzer.com",
+                "www.jackdaniels.com",
+                "www.samueladams.com",
+                "www.vancouverplanner.com",
+                "www.woodfordreserve.com"
+            ]
+        },
+        {
+            "rule": "xola\\.com\\/activity",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bot"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trulyhardseltzer.com",
+                "www.jackdaniels.com",
+                "www.samueladams.com",
+                "www.vancouverplanner.com",
+                "www.woodfordreserve.com"
+            ]
+        },
+        {
+            "rule": "xola\\.com\\/activity",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bot"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trulyhardseltzer.com",
+                "www.jackdaniels.com",
+                "www.samueladams.com",
+                "www.vancouverplanner.com",
+                "www.woodfordreserve.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.65625
+        },
+        {
+            "domain": "polyfill.io",
+            "prevalence": 0.1875
+        },
+        {
+            "domain": "click2cart.com",
+            "prevalence": 0.15625
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Fetch": 5,
+        "XHR": 5,
+        "Preflight": 5
+    },
+    "nameservers": [
+        "ns-3.awsdns-00.com",
+        "ns-1200.awsdns-22.org",
+        "ns-956.awsdns-55.net",
+        "ns-1861.awsdns-40.co.uk"
+    ]
+}

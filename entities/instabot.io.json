@@ -1,0 +1,545 @@
+{
+    "domain": "instabot.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "widget",
+        "static",
+        "widgetapi",
+        "chat"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "instabot\\.io\\/jsapi\\/rokoInstabot\\.js",
+            "cookies": 0.0000476,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "window.localStorage": 7,
+                "Document.cookie setter": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Date.prototype.getTime": 7,
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "aa348ff23e3551db0f313719d16490c47ce6ed9fce37a1eb420e9e78b5173b9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rokoAPISession": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00004764951737845969,
+                    "uniqueness": 1
+                },
+                "rokoAPI": {
+                    "ttl": 31536002,
+                    "length": 79,
+                    "prevalence": 0.00004764951737845969,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donordrive.com",
+                "mssociety.donordrive.com",
+                "www.arthritis.org",
+                "www.fundera.com",
+                "www.kubotausa.com",
+                "www.naturalgasintel.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/storage\\/ta73eIS2fNSw9wqZE77oBUaVMzd9Hnw9QKWoq5taQMU",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donordrive.com",
+                "mssociety.donordrive.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/storage\\/ta73eIS2fNSw9wqZE77oBUaVMzd9Hnw9QKWoq5taQMU",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1fcdcea1facf42ed3a6ac59ec35765aa7554d5c6d4582b5a341addcba7495359"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donordrive.com",
+                "mssociety.donordrive.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/instabot\\/getConversationsStorage",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "23e1206d9533eba54b8bbcb71ef9e9ab8a75cc8610e5993cd05a487bbb8aa73c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "donordrive.com",
+                "mssociety.donordrive.com",
+                "www.arthritis.org",
+                "www.fundera.com",
+                "www.kubotausa.com",
+                "www.naturalgasintel.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/instabot\\/getConversationsStorage",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "donordrive.com",
+                "mssociety.donordrive.com",
+                "www.arthritis.org",
+                "www.fundera.com",
+                "www.kubotausa.com",
+                "www.naturalgasintel.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/plugins\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "d974fd6f2260e167e3d529e5d23cab1474a060d64e5d3022161cc9d1cf08b847",
+                "311d92ef0347c1d38f968afab34ddaf9bc0096a2393b69bfb27af2fb22227809",
+                "89a378092a87a5740de446701417847de9236b83aa797ccf01791df4be214d2e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donordrive.com",
+                "mssociety.donordrive.com",
+                "www.arthritis.org",
+                "www.fundera.com",
+                "www.naturalgasintel.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/jsapi\\/bot-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 5,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.maxTouchPoints": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "dda735b816c6dd077c9bf232b3a42d8dd91d955ec6bac2ec71d696388c53940b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donordrive.com",
+                "mssociety.donordrive.com",
+                "www.arthritis.org",
+                "www.fundera.com",
+                "www.naturalgasintel.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/user\\/getClientUserInfo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "6195fd165dee4d91ddf787f0ff069b32fcde81f88e41ea39ffa20f8b4e58a937",
+                "4c798f73cb41cd6b1f90054a9540e9e8d01761ac229794a3efb35b522b06fecf",
+                "c6c48e5dcc840c69d2c020a211b3241cc2c2a68bedcddbf4f09cb3d19597e7aa",
+                "84ee53de7fcc1ac1c20f2943ac2df6ab100e60abbaf0d063c1fc6e9b1685e724",
+                "b6c469aa09002e2d78b76de9caff5f6a9b23236d6d42a1bf010289822b6356cd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donordrive.com",
+                "mssociety.donordrive.com",
+                "www.arthritis.org",
+                "www.fundera.com",
+                "www.naturalgasintel.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/user\\/getClientUserInfo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donordrive.com",
+                "mssociety.donordrive.com",
+                "www.arthritis.org",
+                "www.fundera.com",
+                "www.naturalgasintel.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/storage\\/Tt2IWgldF6fBTMgog4sGbaszS7DibmIPmAn5P7isOyI",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1eba8d53e68a9aaa70b1e08cfb0c8bb1a3ba7b81f1dc751bfc0b58d8cef6c155"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arthritis.org",
+                "www.arthritis.org"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/storage\\/Tt2IWgldF6fBTMgog4sGbaszS7DibmIPmAn5P7isOyI",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arthritis.org",
+                "www.arthritis.org"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/storage\\/GaQcRCagqcwUIPpfkVNZzlF40-wxR15WDG8heP-HO78",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naturalgasintel.com",
+                "www.naturalgasintel.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/storage\\/GaQcRCagqcwUIPpfkVNZzlF40-wxR15WDG8heP-HO78",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "44874b333d50c02e1fe56404961af5881acc823002fa9375f30ae3d91f018820"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naturalgasintel.com",
+                "www.naturalgasintel.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/user\\/trackUserSession",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naturalgasintel.com",
+                "www.naturalgasintel.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/user\\/trackUserSession",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d353fe28df19c26de38c2f7017a80968c47cedd495710ac63d51310bff3c0f63",
+                "dc5c66ba8272d3384b4e542cb83c49a37dd4e26eeef0e312e844dd3932ae5e1e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naturalgasintel.com",
+                "www.naturalgasintel.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/clientlogin",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "f3212fa44f7bda25241ea045252281399bc7baba482ff0f663641405fa2621bc",
+                "309bb199c5ae818d5ec7ccf0a575741a8e0e8723f3b6288e2698eed165daba7f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naturalgasintel.com",
+                "www.naturalgasintel.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/501235b8-a484-4677-a52b-1bd4ab8360b7\\/4bfac0b2-874b-49bf-98e6-9743e1ab0bc1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "594adf1eb1785d7dbcc588e6dfc4f7607754a3249708ac66dd83d3ea44dc00a0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naturalgasintel.com",
+                "www.naturalgasintel.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/501235b8-a484-4677-a52b-1bd4ab8360b7\\/2249ceb9-88ef-4e1c-ae33-da9b14efdd71",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "22ac633d9f42a22ddb87172b4a98217b9af9fca06ec082ef432fc634006fdc49"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naturalgasintel.com",
+                "www.naturalgasintel.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/storage\\/psvqlJY1WDDHh8_5fF2f2NmtRDBYc6tf1jg8KA3Mhkg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newyorkurologyspecialists.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/storage\\/psvqlJY1WDDHh8_5fF2f2NmtRDBYc6tf1jg8KA3Mhkg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newyorkurologyspecialists.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000681,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4375
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1875
+        }
+    ],
+    "types": {
+        "Script": 19,
+        "Preflight": 24,
+        "XHR": 27,
+        "Stylesheet": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1294.awsdns-33.org",
+        "ns-1744.awsdns-26.co.uk",
+        "ns-849.awsdns-42.net",
+        "ns-156.awsdns-19.com"
+    ]
+}

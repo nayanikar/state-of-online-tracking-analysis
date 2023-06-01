@@ -1,0 +1,87 @@
+{
+    "domain": "assoc-amazon.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "ws-na",
+        "ws-eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "assoc-amazon\\.com\\/widgets\\/cm",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws-na",
+                "ws-eu"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "163f53a50855f5d41a29cba63f19e29b09a6ef1037b0b36261f3afd223e4e881",
+                "e9a41c116a92586db046964ba2abda0b7c5d81d874ff2173ec2792c8b0e847fe",
+                "7b05784a21a8a4143cbb65e4ea87719b647baef16618f887c4b1b36879b0e5f3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "osxdaily.com",
+                "www.mumsnet.com",
+                "www.roadandtrack.com",
+                "www.seventeen.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Action Pixels"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "tribalfusion.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Document": 4
+    },
+    "nameservers": [
+        "pdns4.ultradns.org",
+        "pdns3.ultradns.org",
+        "pdns1.ultradns.net",
+        "ns3.p31.dynect.net",
+        "pdns6.ultradns.co.uk",
+        "pdns2.ultradns.net",
+        "pdns5.ultradns.info",
+        "ns1.p31.dynect.net",
+        "ns4.p31.dynect.net",
+        "ns2.p31.dynect.net"
+    ]
+}

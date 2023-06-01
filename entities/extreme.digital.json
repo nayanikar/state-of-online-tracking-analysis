@@ -1,0 +1,126 @@
+{
+    "domain": "extreme.digital",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "prd-inss-webclient.omni",
+        "prd-inss-webclient-channel.omni"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "extreme\\.digital\\/static\\/js\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prd-inss-webclient.omni"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.product": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "Navigator.prototype.mediaDevices": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e68e74e5bde8797789ccf253dad709870f27cc93c3867f8ae99e55c55e1005ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inss.gov.br",
+                "meu.inss.gov.br"
+            ]
+        },
+        {
+            "rule": "extreme\\.digital\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prd-inss-webclient-channel.omni"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inss.gov.br",
+                "meu.inss.gov.br"
+            ]
+        },
+        {
+            "rule": "extreme\\.digital\\/chatConfig",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prd-inss-webclient-channel.omni"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inss.gov.br",
+                "meu.inss.gov.br"
+            ]
+        },
+        {
+            "rule": "extreme\\.digital\\/chatConfig",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prd-inss-webclient-channel.omni"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "43506d5fdb395505b77fb7bb4df6b2634c05ee81e140e9e7edb6eae6668ca513"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inss.gov.br",
+                "meu.inss.gov.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "WebSocket": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "leo.ns.cloudflare.com",
+        "keyla.ns.cloudflare.com"
+    ]
+}

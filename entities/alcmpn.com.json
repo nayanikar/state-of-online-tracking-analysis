@@ -1,0 +1,134 @@
+{
+    "domain": "alcmpn.com",
+    "owner": {
+        "name": "ALC",
+        "displayName": "ALC"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "pp",
+        "mpnv2-prod-c",
+        "p"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "alcmpn\\.com\\/wt\\/204\\/webtag\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pp"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b09282bd61e866b2e135d2f98e3d072437d54035e4b5a8a689fcd38d25a6f954"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_1ci_7ag23o86kjasbfd": {
+                    "ttl": 31536004,
+                    "length": 36,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allfreeknitting.com",
+                "www.allfreecrochet.com"
+            ]
+        },
+        {
+            "rule": "alcmpn\\.com\\/acset\\.json",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mpnv2-prod-c"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f8533fa7d803c7cc30ac60744bd817febd6a5badfc6b42ad8e04c6b931845792",
+                "db4bce88ef475e37ea70285b761e3a34184fb5e7e13d607babefa5d3dd2a5d4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allfreecrochet.com",
+                "www.allfreeknitting.com",
+                "www.zulily.com"
+            ]
+        },
+        {
+            "rule": "alcmpn\\.com\\/getIDifyID\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allfreecrochet.com",
+                "www.allfreeknitting.com",
+                "www.zulily.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Analytics",
+        "Audience Measurement"
+    ],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "d1m2oaypgnddv2.cloudfront.net",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "bluecava.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "btstatic.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "ns-1389.awsdns-45.org",
+        "ns-1842.awsdns-38.co.uk",
+        "ns-210.awsdns-26.com",
+        "ns-828.awsdns-39.net"
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "domain": "livesession.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "rs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "livesession\\.io\\/track\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "window.innerHeight": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "42260198449a30facad0b279807545cedba4a71814e541d9cd21cba88790c4a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calranch.com",
+                "www.calranch.com",
+                "www.farmandhomesupply.com",
+                "www.johnnywas.com"
+            ]
+        },
+        {
+            "rule": "livesession\\.io\\/visitors\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rs"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "c298c5e7851a5b7679304dbe4f386ad6744c08ff4c2a1c78b5c1e8c2a14fb9cf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calranch.com",
+                "www.calranch.com",
+                "www.farmandhomesupply.com",
+                "www.johnnywas.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "vera.ns.cloudflare.com",
+        "dean.ns.cloudflare.com"
+    ]
+}

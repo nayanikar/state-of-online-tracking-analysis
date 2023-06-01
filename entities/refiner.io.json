@@ -1,0 +1,138 @@
+{
+    "domain": "refiner.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "refiner\\.io\\/v001\\/client\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.languages": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9411556cbba6c26d28c4f7adf579b5571f56765d816cfde720efd7a431a04c63"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ra.co",
+                "www.eliteprospects.com"
+            ]
+        },
+        {
+            "rule": "refiner\\.io\\/v001\\/render\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ee22af241409af4efc44efd8916de539cb57b32d4018d596a4d4bf927ac174e0"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ra.co",
+                "www.eliteprospects.com"
+            ]
+        },
+        {
+            "rule": "refiner\\.io\\/v001\\/render\\/css\\/app\\.c2e584af\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "deb6bbd09888e0f57cbb88e349c9692697b7e67ce85b2af25e97e7cf0a4d2b29"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ra.co",
+                "www.eliteprospects.com"
+            ]
+        },
+        {
+            "rule": "refiner\\.io\\/v001\\/render\\/js\\/app\\.58a8473b\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f46bddb526e8a1540fee6d801fd6e4b4402c6b2e794930187bbb4b7abf4839b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ra.co",
+                "www.eliteprospects.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-1910.awsdns-46.co.uk",
+        "ns-438.awsdns-54.com",
+        "ns-803.awsdns-36.net",
+        "ns-1222.awsdns-24.org"
+    ]
+}

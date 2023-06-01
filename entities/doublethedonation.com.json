@@ -1,0 +1,124 @@
+{
+    "domain": "doublethedonation.com",
+    "owner": {
+        "name": "Double the Donation LLC",
+        "displayName": "Double the Donation"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "doublethedonation\\.com\\/api\\/css\\/ddplugin\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "fe63a0bc548ebb27d59fe1a01b00dc7dde7c5c108182c65c4ab62a4b0640797d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.lls.org",
+                "www.stvincentdepaul.net",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "doublethedonation\\.com\\/api\\/js\\/ddplugin\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.appVersion": 7,
+                "window.localStorage": 6
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "9d97221f9f0a30c6439a057c13704c11d478dbc59ab28b329d0e27bb589f5118"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.lls.org",
+                "www.stvincentdepaul.net",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "doublethedonation\\.com\\/api\\/v1\\/plugin_settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "df20d9f646f654a25f58b97238ad2a19bf8cb6ccb11c04ad9da589bc5d0e7fd0",
+                "72c7edef655a2dec72b050a316bda37e749f2b98487cabe7f8b5989963bf97d5",
+                "aca4fa3932938d03df812274b9b3010e4526d573012f7111c2204cad2b6ea612"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.lls.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6774193548387096
+        },
+        {
+            "domain": "classy.org",
+            "prevalence": 0.25806451612903225
+        },
+        {
+            "domain": "salvationarmyusa.org",
+            "prevalence": 0.06451612903225806
+        }
+    ],
+    "types": {
+        "Stylesheet": 7,
+        "Script": 7,
+        "XHR": 5
+    },
+    "nameservers": [
+        "ns2-08.azure-dns.net",
+        "ns1-08.azure-dns.com",
+        "ns3-08.azure-dns.org",
+        "ns4-08.azure-dns.info"
+    ]
+}

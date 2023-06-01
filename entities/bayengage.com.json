@@ -1,0 +1,101 @@
+{
+    "domain": "bayengage.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "sf",
+        "sfc-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bayengage\\.com\\/sf\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sf"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "db06383aba250199d31346b5d0099486bac942aad2e338faf1dcfbee3e3253ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ampedairsoft.com",
+                "earthley.com",
+                "grip6.com",
+                "pro2a-tactical.com"
+            ]
+        },
+        {
+            "rule": "bayengage\\.com\\/fetch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sfc-api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "a1e52f93a3fbc5ea926df22814a1840ba367d8c85efa9bff083f18b931779b77",
+                "5f0999d78fea8779ef1f4cfdb7dd0ddaff4fcd66ed70c44814de18d24765b843",
+                "c23a03f90231b24ac9e32493e82187548ab697534045819643df5f3e7561fe1a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ampedairsoft.com",
+                "earthley.com",
+                "grip6.com",
+                "pro2a-tactical.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "34480759f.js",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-1236.awsdns-26.org",
+        "ns-64.awsdns-08.com",
+        "ns-1673.awsdns-17.co.uk",
+        "ns-928.awsdns-52.net"
+    ]
+}

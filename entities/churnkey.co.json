@@ -1,0 +1,85 @@
+{
+    "domain": "churnkey.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "churnkey\\.co\\/js\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.product": 2,
+                "window.indexedDB": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1a287f24c86b8af2dcd905c3a88d4b7834612823df765574bd6bfc276c1ccb4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aidungeon.io",
+                "play.aidungeon.io"
+            ]
+        },
+        {
+            "rule": "churnkey\\.co\\/css\\/app\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "09222fb4d53fd537cf6e2a5ec17b0903b22a7693a040c44b864a56f533df5c8f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aidungeon.io",
+                "play.aidungeon.io"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns2.dnsimple.com",
+        "ns4.dnsimple.com",
+        "ns1.dnsimple.com",
+        "ns3.dnsimple.com"
+    ]
+}

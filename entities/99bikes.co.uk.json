@@ -1,0 +1,104 @@
+{
+    "domain": "99bikes.co.uk",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "www",
+        "blog"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "99bikes\\.co\\.uk\\/ScriptResource\\.axd",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "398cdf1b27ef247e5bc77805f266bb441e60355463fc3d1776f41aae58b08cf1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hargrovescycles.co.uk",
+                "www.hargrovescycles.co.uk"
+            ]
+        },
+        {
+            "rule": "99bikes\\.co\\.uk\\/wsCitrusStore\\.asmx\\/StoreGoogleClickID",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "780e1b18e0904b2686e7e68ae54ea50056ef4e5667be2a918485704234516280"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hargrovescycles.co.uk",
+                "www.hargrovescycles.co.uk"
+            ]
+        },
+        {
+            "rule": "99bikes\\.co\\.uk\\/wp-json\\/wp\\/v2\\/media",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "blog"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "00dd280d6d3fd0cd09f56a0c25afcb1df632db09b7bb754a5a62293ee79665a3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hargrovescycles.co.uk",
+                "www.hargrovescycles.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "mcgrory.ns.cloudflare.com",
+        "natasha.ns.cloudflare.com"
+    ]
+}

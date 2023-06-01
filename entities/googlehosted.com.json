@@ -1,0 +1,436 @@
+{
+    "domain": "googlehosted.com",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00161,
+    "sites": 16,
+    "subdomains": [
+        "ghs"
+    ],
+    "cnames": [
+        {
+            "original": "analytics.camilla.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "analytics.villagecinemas.com.au",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "api.instantscripts.com.au",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "gtm.pointhacks.com.au",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "jtag.services.jobrapido.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "metrics.expertphotography.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "parrot.reedsy.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "sstm.nicks.com.au",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "t.airasia.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "t.lectura-specs.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "tracking.showpo.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "ups.data.cbc.ca",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "www.sgtm.g2a.com",
+            "resolved": "ghs.googlehosted.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "googlehosted\\.com\\/collect",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "analytics.camilla.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "www.sgtm.g2a.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "t.lectura-specs.com",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dy_fs_page": 0.00010040160642570282,
+                "_ga": 0.00040160642570281126
+            },
+            "exampleSites": [
+                "camilla.com",
+                "www.g2a.com",
+                "www.lectura-specs.com"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/_ah\\/api\\/jtag\\/v1\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "jtag.services.jobrapido.com",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jobrapido.com",
+                "au.jobrapido.com"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/g\\/collect",
+            "cookies": 0.000703,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [
+                {
+                    "original": "parrot.reedsy.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "metrics.expertphotography.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "analytics.villagecinemas.com.au",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "www.sgtm.g2a.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "t.lectura-specs.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "sstm.nicks.com.au",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "gtm.pointhacks.com.au",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "tracking.showpo.com",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.0017068273092369479,
+                "_hjTLDTest": 0.00010040160642570282,
+                "custom_session_id": 0.00010040160642570282,
+                "custom_client_id": 0.00010040160642570282,
+                "userId": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "reedsy.com",
+                "expertphotography.com",
+                "villagecinemas.com.au",
+                "www.g2a.com",
+                "www.lectura-specs.com",
+                "www.nicks.com.au",
+                "www.pointhacks.com.au",
+                "www.showpo.com"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/j\\/collect",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "parrot.reedsy.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "t.lectura-specs.com",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00040160642570281126
+            },
+            "exampleSites": [
+                "reedsy.com",
+                "www.lectura-specs.com"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/nearestairport\\/airport\\/user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "t.airasia.com",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "5312d5ae434479d6b0f427ab61e8a89ac187030e9fe8059322ed73bf8a5bfac6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airasia.com",
+                "www.airasia.com"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/NonEcommerceEvent\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "t.airasia.com",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airasia.com",
+                "www.airasia.com"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/v0\\/UIEUser\\/1536489d-bd1b-467e-aa4e-363d84749089\\/UPSPreferences\\/fdfc9e",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "ups.data.cbc.ca",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbc.ca",
+                "www.cbc.ca"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/v0\\/UIEUser\\/1536489d-bd1b-467e-aa4e-363d84749089\\/UPSPreferences\\/bb5bc7",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "ups.data.cbc.ca",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbc.ca",
+                "www.cbc.ca"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/lg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.instantscripts.com.au",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "1a7279c92c730c9cd54922fed835cb36eb0c3277ee48852de0263296367bd7e6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "instantscripts.com.au",
+                "www.instantscripts.com.au"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/orgsAdmin",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.instantscripts.com.au",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "77dce0ddc8dd189f26503c422e0e370e5fef7f69a551bd32493899d3ba9d4c74"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "instantscripts.com.au",
+                "www.instantscripts.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000803,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6756756756756757
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.16216216216216217
+        },
+        {
+            "domain": "google-analytics.com",
+            "prevalence": 0.10810810810810811
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.02702702702702703
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.02702702702702703
+        }
+    ],
+    "types": {
+        "Image": 7,
+        "XHR": 18,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1.google.com",
+        "ns3.google.com",
+        "ns4.google.com",
+        "ns2.google.com"
+    ]
+}

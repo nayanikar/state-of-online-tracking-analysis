@@ -1,0 +1,411 @@
+{
+    "domain": "boldapps.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00201,
+    "sites": 20,
+    "subdomains": [
+        "upsells",
+        "option",
+        "cp",
+        "bundles",
+        "bundles.staging",
+        "mc",
+        "ro",
+        "motivate"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "boldapps\\.net\\/v2_ui\\/js\\/UpsellTracker\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "upsells"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "3a568c5a51a2f7adc1a119f5cfae29b181f0e48a6a84be7681e806fd4204e660"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fleshlight.com",
+                "www.basscentre.com.au",
+                "www.sexyland.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/v2_ui\\/js\\/upsell\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "upsells"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9d698230d2a13c22960d4bfb426a8d31b1ec303cef7ae61260ed5de7e0d4c193"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fleshlight.com",
+                "www.basscentre.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/js\\/options\\.js",
+            "cookies": 0.000703,
+            "fingerprinting": 1,
+            "subdomains": [
+                "option"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "95615ed3303ff5e5140f0a63aa307850bd30493be6f2206bd4dbbd3e227b806e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "desky.com.au",
+                "distilleryking.com.au",
+                "plyco.com.au",
+                "vaporizersdirect.com.au",
+                "www.bevilles.com.au",
+                "www.medshop.com.au",
+                "www.tactoys.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/csp_install_check\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "89562063db1e13a5e176760200dfee24bf397a4c45c1f7aa2ee63248492ed2ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orgoneffectsaustralia.com.au",
+                "www.citizenwatches.com.au",
+                "www.hobbyco.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/js\\/cspqb\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cp"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "cf97b46861d190a38f33bb2f503f433a4c337a23616a3e29d3ceec01abb6e45b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orgoneffectsaustralia.com.au",
+                "plyco.com.au",
+                "www.hobbyco.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/js\\/bundles\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bundles"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "08c870cfdc69939e8bff4055f0e0f67d6658faf7a4ee40a84b11e5d58aa2bb59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scooterhut.com.au",
+                "www.basscentre.com.au",
+                "www.gameology.com.au",
+                "www.minimax.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/bundles_install_check\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bundles",
+                "bundles.staging"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "48922662ded60ae654cf1bd95f3f85d65afa8121d93f155bc7c69cd3b9cb43c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scooterhut.com.au",
+                "thehealthychef.com",
+                "www.basscentre.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/install_assets\\/bold\\.multicurrency\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "036e0c1a89295134a2db83b5b8a90bf42f67831809f9f6dfe73cff0ef50fce38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thehealthychef.com",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/v2\\/basscentre\\.myshopify\\.com\\/display_settings",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bundles"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2d0efcd4c2418802ad99df20bf76b3f95614917089d3a7c3c4b64ae6f5e21e97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "basscentre.com.au",
+                "www.basscentre.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/js\\/csp\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cp"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b6321077d902db2cc2a303b361b29fff1a06c5d150155158c99e8dbf9c340ee9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citizenwatches.com.au",
+                "www.medshop.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/v2_ui\\/js\\/ro\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ro"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "21950b9c93746bd237a41644b4c93111cf999268eee63dcccd14e1eae362693b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medshop.com.au",
+                "www.naturessunshine.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/api_public\\/translations",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ro"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "49b45aac9172bff47962351086150350b33c87eb46b0c175898df4a9041c9a19"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medshop.com.au",
+                "www.naturessunshine.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/api_public\\/recurring_cart_settings",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ro"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b2e4efd2a1982e06b4a223f156c132c46e20af781ed1ad68d838a60c7a46e82c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medshop.com.au",
+                "www.naturessunshine.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/api_public\\/css",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ro"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bb835eb3ce73712dd47f0555cef23e26b2a0d05da6c834a9722e0cf643b9389c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medshop.com.au",
+                "www.naturessunshine.com.au"
+            ]
+        },
+        {
+            "rule": "boldapps\\.net\\/cf_helper\\/get_country\\.php",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "motivate"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1642b579efa3401415ab2711a9e66ee594326632b8a011a0debee2ebeb252224"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medshop.com.au",
+                "www.medshop.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7450980392156863
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.21568627450980393
+        },
+        {
+            "domain": "boldcommerce.com",
+            "prevalence": 0.0392156862745098
+        }
+    ],
+    "types": {
+        "Script": 31,
+        "Fetch": 8,
+        "XHR": 2
+    },
+    "nameservers": [
+        "uma.ns.cloudflare.com",
+        "walt.ns.cloudflare.com"
+    ]
+}

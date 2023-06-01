@@ -1,0 +1,427 @@
+{
+    "domain": "staff-start.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000136,
+    "sites": 20,
+    "subdomains": [
+        "static",
+        "api",
+        "tracking"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "staff-start\\.com\\/js\\/track\\/v3\\.0\\/staffstart\\.sonystore\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e4ee110789a913d941d3859ed9ca90962b760abd786a21dd8597ceb893de8e86"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/js\\/track\\/v2\\.0\\/staffstart\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "11f1f5c012b4b01a0406288d40baf5ca874877298786b168145f46c82aa62b98"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newbalance.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/v1\\/coordinate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "a6f23ecfbd9c820f218f914909de6b815e4aee9a4f6a0d062e6c9f1aaa55eadc",
+                "4bb081c241d3cb1f7d850b46a84e11127ec8438dbfc88a4e8c393705faa66cbe"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.world.co.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/js\\/track\\/v3\\.0\\/staffstart\\.min\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "5ec6d472bcf0f5d0530d4a64287098f08ac8c29c59a68b582656c0716dc24592"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ss_tracking_session_id": {
+                    "ttl": 1810,
+                    "length": 32,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                },
+                "g_sstag": {
+                    "ttl": 7776007,
+                    "length": 47,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp",
+                "store.world.co.jp",
+                "www.beams.co.jp",
+                "www.e-earphone.jp",
+                "www.enoteca.co.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/v2\\/articles\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "570c376d7cf3e70950e26066dbf13775caf2d3f6d2c4af304f6fbbeed1559e44"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "world.co.jp",
+                "www.goldwin.co.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/v1\\.0\\/pv",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ss_tracking_session_id": 0.00003403536955604264,
+                "kgs90anbjs8": 0.000006807073911208528,
+                "g_sstag": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "world.co.jp",
+                "store.world.co.jp",
+                "www.e-earphone.jp",
+                "www.enoteca.co.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/js\\/track\\/v2\\.0\\/ssviam\\/staffstart\\.ssviam\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "889d5a3eed311dabe3c302960fef6e6fa31b8599dbaf5b9207aef4d3a649c96a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldwin.co.jp",
+                "www.goldwin.co.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/js\\/alhd\\/palcloset\\.jp\\/css\\/pc_ini\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bda00f931d6345a291a2eacea3d55beca99b0ee00dfe702f9ebe888e6e9c6537"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "palcloset.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/17\\/common\\/user-icon\\/noimage\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8aa7fae9e6fa667abd21481d870b391b56c32879c1b63706d546a8213130f14d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "palcloset.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/v2\\/articles",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "86d6eaede69c1e603eed96a22da9e559cb937bf97642e99c520e492cbfda8839"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "palcloset.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/UserIconImage\\/17\\/34352\\/017343520001665672679\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7e5a3f93c6ba15537ad8d966aac2487051ea22f423f7d5ab3c1c4e74d3291abb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "palcloset.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/img\\/staff\\/icon\\/17\\/1b388c8b7c863fde3f559142fdc123b0-5849\\/b1b14f7a974fbf26b0bd75f680150866\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fd962f7bc7dae3057010060f9c9000fce8aab7bf1ed88233c8abe6c40857a5b3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "palcloset.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/img\\/staff\\/icon\\/17\\/5fdacd92600fcc2bc6fe136b85fd7ed6-80522\\/45096579ef6ec9ea00fe2bfe05680378\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "33abd005ab35979162a1e2c3a581241fbbef9927c2b8fa5eea0f169ff1cef81b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "palcloset.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/img\\/coordinates\\/17\\/e2b50c88ec705a24d075478459c7289c-46663\\/7207005cc47754523d14376f1e9e2cd7_m\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "018b98ee72eecd54b602b9e06f1986eaeb2dbdb0d5cc0eefddb2da98c8bf694a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "palcloset.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "staff-start\\.com\\/img\\/coordinates\\/17\\/e2b50c88ec705a24d075478459c7289c-46663\\/85459830639d54c3371182219f049781_m\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1e7eeb8d9564bf2e0fb912ede6fe96836897b77a19aef5c86001406e983bdfc3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "palcloset.jp",
+                "www.palcloset.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9032258064516129
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.05865102639296188
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.020527859237536656
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.008797653958944282
+        },
+        {
+            "domain": "yjtag.jp",
+            "prevalence": 0.005865102639296188
+        },
+        {
+            "domain": "segreencolumn.com",
+            "prevalence": 0.002932551319648094
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "XHR": 12,
+        "Stylesheet": 2,
+        "Image": 12
+    },
+    "nameservers": [
+        "ns-601.awsdns-11.net",
+        "ns-432.awsdns-54.com",
+        "ns-1757.awsdns-27.co.uk",
+        "ns-1386.awsdns-45.org"
+    ]
+}

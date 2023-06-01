@@ -1,0 +1,122 @@
+{
+    "domain": "comm100.com",
+    "owner": {
+        "name": "Comm100 Network Corporation",
+        "displayName": "Comm100 Network"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "vue"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "comm100\\.com\\/livechat\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vue"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "f5d2ffc59813fe15cb34016c8fbc61428af488b6dfe4ceae615a85cb4abf6a11",
+                "c5408d9010eadfd9bbfa4ce738d01995a73154e103784c86cfdcd0cf09ea42a3",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "educba.com",
+                "www.jaycar.co.nz",
+                "www.jaycar.com.au",
+                "www.more.com.au",
+                "www.roadtechmarine.com.au",
+                "www.swanvalley.com.au"
+            ]
+        },
+        {
+            "rule": "comm100\\.com\\/visitorside\\/js\\/bundle\\.3d6eb7717a8fc103b86ce8454d84e118\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 2,
+            "subdomains": [
+                "vue"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.mediaDevices": 5,
+                "window.localStorage": 5,
+                "window.sessionStorage": 5,
+                "Notification.permission": 5,
+                "Document.cookie setter": 5,
+                "Document.cookie getter": 5,
+                "Screen.prototype.orientation": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "419a2488134ac8f63123db588e5f2b669b89e8e54714e71ecde2568028536e11"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "comm100_visitorguid_90004140": {
+                    "ttl": 251720345668,
+                    "length": 36,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "comm100_visitorguid_235683": {
+                    "ttl": 251720347169,
+                    "length": 36,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "comm100_visitorguid_90000060": {
+                    "ttl": 251720343732,
+                    "length": 36,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "educba.com",
+                "www.jaycar.co.nz",
+                "www.jaycar.com.au",
+                "www.more.com.au",
+                "www.roadtechmarine.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 11
+    },
+    "nameservers": [
+        "pns102.cloudns.net",
+        "pns101.cloudns.net",
+        "pns103.cloudns.net",
+        "pns104.cloudns.net"
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "domain": "pmweb.com.br",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "df",
+        "rt"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "pmweb\\.com\\.br\\/df\\/tag\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "window.sessionStorage": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.outerWidth": 4,
+                "window.outerHeight": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "30de4e05c6e6590a9cc4d1ff42fba76961179587b44051598899d9d4ea1f5083",
+                "7bc11fe2afd54fa4356dea62c2bcfee0818d736c0e2d6e2201e114bdb9419f57",
+                "2c1ac2baa6216bec628c6a6a8c7bbc75a95fa64216937848fb84604aa4bab624"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pm_id": {
+                    "ttl": 63072003,
+                    "length": 18,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                },
+                "_pm_sid": {
+                    "ttl": 1803,
+                    "length": 18,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centauro.com.br",
+                "www.centauro.com.br",
+                "www.lojasrenner.com.br",
+                "www.oi.com.br"
+            ]
+        },
+        {
+            "rule": "pmweb\\.com\\.br\\/push\\/",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "df",
+                "rt"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "54d626e08c1c802b305dad30b7e54a82f102390cc92c7d4db112048935236e9c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "sInit": 0.000006807073911208528,
+                "_pm_id": 0.000027228295644834112,
+                "_pm_sid": 0.000027228295644834112
+            },
+            "exampleSites": [
+                "centauro.com.br",
+                "www.centauro.com.br",
+                "www.lojasrenner.com.br",
+                "www.oi.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5454545454545454
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2727272727272727
+        },
+        {
+            "domain": "akamaihd.net",
+            "prevalence": 0.18181818181818182
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-1287.awsdns-32.org",
+        "ns-1737.awsdns-25.co.uk",
+        "ns-460.awsdns-57.com",
+        "ns-559.awsdns-05.net"
+    ]
+}

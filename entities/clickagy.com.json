@@ -1,0 +1,197 @@
+{
+    "domain": "clickagy.com",
+    "owner": {
+        "name": "Clickagy",
+        "displayName": "Clickagy",
+        "privacyPolicy": "https://www.clickagy.com/privacy/",
+        "url": "http://clickagy.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0123,
+    "sites": 123,
+    "subdomains": [
+        "aorta",
+        "tags",
+        "hemsync"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "clickagy\\.com\\/pixel\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aorta"
+            ],
+            "apis": {},
+            "sites": 123,
+            "prevalence": 0.0123,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cc_id": 0.0036144578313253013
+            },
+            "exampleSites": [
+                "arstechnica.com",
+                "forum.xda-developers.com",
+                "support.hp.com",
+                "takano.panel-laboralcj.gob.mx",
+                "roshy.tv",
+                "www.resetera.com",
+                "www.lululemon.com.au",
+                "vip.panel-laboralcj.gob.mx",
+                "ruwix.com",
+                "aison.comapatecoman.gob.mx",
+                "www.komando.com",
+                "bestpractice.bmj.com",
+                "www.myxxgirl.com",
+                "bobistheoilguy.com",
+                "ukutabs.com",
+                "www.fictiondb.com",
+                "www.flightconnections.com",
+                "simantan.mom",
+                "ca.panel-laboralcj.gob.mx",
+                "uproxx.com"
+            ]
+        },
+        {
+            "rule": "clickagy\\.com\\/data\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Navigator.prototype.hardwareConcurrency": 5,
+                "Navigator.prototype.platform": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "8557723acebc8e4c614ab5168c4d46da69a93ea0b7ae4ad2851bf1e10302690e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmj.com",
+                "resources.infosecinstitute.com",
+                "www.nvidia.com",
+                "www.smartsheet.com",
+                "www.spglobal.com"
+            ]
+        },
+        {
+            "rule": "clickagy\\.com\\/data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aorta"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "67bb6fb352e76b4d428d405c01e0eb611fa6586594e00d239f8e35e5824a80cb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmj.com",
+                "resources.infosecinstitute.com",
+                "www.nvidia.com",
+                "www.smartsheet.com",
+                "www.spglobal.com"
+            ]
+        },
+        {
+            "rule": "clickagy\\.com\\/external\\/hasHashes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hemsync"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmj.com",
+                "resources.infosecinstitute.com",
+                "www.nvidia.com",
+                "www.smartsheet.com",
+                "www.spglobal.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "lijit.com",
+            "prevalence": 0.5282051282051282
+        },
+        {
+            "domain": "crwdcntrl.net",
+            "prevalence": 0.24615384615384617
+        },
+        {
+            "domain": "zoominfo.com",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "demdex.net",
+            "prevalence": 0.03076923076923077
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.03076923076923077
+        },
+        {
+            "domain": "bizible.com",
+            "prevalence": 0.010256410256410256
+        }
+    ],
+    "types": {
+        "Image": 123,
+        "Script": 5,
+        "XHR": 10
+    },
+    "nameservers": [
+        "rajeev.ns.cloudflare.com",
+        "tara.ns.cloudflare.com"
+    ]
+}

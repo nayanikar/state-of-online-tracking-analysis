@@ -1,0 +1,316 @@
+{
+    "domain": "codemarketing.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "asset",
+        "log",
+        "conf"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "codemarketing\\.cloud\\/js-sdk\\/code-1\\.0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "fc06e38c8f8424222674f1f10e3256254d5d40e79e81a01e015166137ea9a082"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epark.jp",
+                "www.4900.co.jp",
+                "www.asoview.com",
+                "www.keyence.co.jp"
+            ]
+        },
+        {
+            "rule": "codemarketing\\.cloud\\/js-sdk\\/code-main\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Event.prototype.timeStamp": 4,
+                "Navigator.prototype.language": 4,
+                "Date.prototype.getTimezoneOffset": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "f8cbb16148ec7de2ce07d21cbcbb5df589d86e5e8c80672cf964f1f9c6c5a094"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ctauu_370_1": {
+                    "ttl": 63244807,
+                    "length": 92,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ctass_370_1": {
+                    "ttl": 1807,
+                    "length": 96,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ctassw_370_1": {
+                    "ttl": 1808,
+                    "length": 50,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ctauu_6045_1": {
+                    "ttl": 63244803,
+                    "length": 92,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ctass_6045_1": {
+                    "ttl": 1803,
+                    "length": 147,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ctassw_6045_1": {
+                    "ttl": 1804,
+                    "length": 50,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ctauu_661_1": {
+                    "ttl": 63244811,
+                    "length": 92,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ctass_661_1": {
+                    "ttl": 1811,
+                    "length": 96,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ctassw_661_1": {
+                    "ttl": 1811,
+                    "length": 50,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ctauu_5027_2": {
+                    "ttl": 63244804,
+                    "length": 92,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ctass_5027_2": {
+                    "ttl": 1804,
+                    "length": 96,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ctassw_5027_2": {
+                    "ttl": 1805,
+                    "length": 50,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epark.jp",
+                "www.4900.co.jp",
+                "www.asoview.com",
+                "www.keyence.co.jp"
+            ]
+        },
+        {
+            "rule": "codemarketing\\.cloud\\/track\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epark.jp",
+                "www.4900.co.jp",
+                "www.asoview.com",
+                "www.keyence.co.jp"
+            ]
+        },
+        {
+            "rule": "codemarketing\\.cloud\\/track\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "2d932177efebd2366c403d4700b5fd9d0f441ca2dc6eec2bcca2f22b12cc6007",
+                "51ea517abd0bd5d3dddeb04f9c6d7d5b3f9a757cb526cf52c7c8738901db18ea",
+                "8d2aae9ce2a2a98768e69e5e072d0289f6add2d95b274daaaf3207e5dc80e9aa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epark.jp",
+                "www.4900.co.jp",
+                "www.asoview.com",
+                "www.keyence.co.jp"
+            ]
+        },
+        {
+            "rule": "codemarketing\\.cloud\\/css\\/code\\/default\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "8a5520cb91f82aa87802bde760c003d21a698b27a30b71c7ca96d417e80b3b70"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epark.jp",
+                "www.4900.co.jp",
+                "www.asoview.com",
+                "www.keyence.co.jp"
+            ]
+        },
+        {
+            "rule": "codemarketing\\.cloud\\/fcconf\\/fcconf_5027_0002\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "conf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2fa19d8b2da39459fdb4c1eef83b5c79d68f4322905e6ae36ff2ddf8201cfe0a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "keyence.co.jp",
+                "www.keyence.co.jp"
+            ]
+        },
+        {
+            "rule": "codemarketing\\.cloud\\/serverSide\\/account_5027\\/site_2\\/pageViewEventConditions\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "conf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a3880afc119ba508623e0e2e356830054816299126d115d3bef59e956dfd2ddd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "keyence.co.jp",
+                "www.keyence.co.jp"
+            ]
+        },
+        {
+            "rule": "codemarketing\\.cloud\\/serverSide\\/account_5027\\/site_2\\/conversionConditions\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "conf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "76e123de5d37bd31b3333d321f9a00f972ccbb8e8efbdfd229702f0fe516aaa9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "keyence.co.jp",
+                "www.keyence.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.35714285714285715
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.21428571428571427
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Preflight": 4,
+        "Fetch": 8,
+        "Stylesheet": 4
+    },
+    "nameservers": [
+        "ns-1788.awsdns-31.co.uk",
+        "ns-1157.awsdns-16.org",
+        "ns-13.awsdns-01.com",
+        "ns-665.awsdns-19.net"
+    ]
+}

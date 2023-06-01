@@ -1,0 +1,137 @@
+{
+    "domain": "trustyou.com",
+    "owner": {
+        "name": "Trustyou GmbH",
+        "displayName": "Trustyou"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "trustyou\\.com\\/v2\\/hotel\\/widget-ui\\/trustscore\\/trustscore\\.umd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a673b1daa1a99ccbfdeac10136efa4ed9c5cbc1531db9b84c74597365f76b00c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brenscino.ch",
+                "www.pilatus.ch",
+                "www.swissholidaypark.ch"
+            ]
+        },
+        {
+            "rule": "trustyou\\.com\\/v2\\/hotel\\/widget-ui\\/shared\\/assets\\/css\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e7197d95c96395cd9aeed15973e047d7042ef91ccbc3c3e2e460e755bdea280a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brenscino.ch",
+                "www.pilatus.ch",
+                "www.swissholidaypark.ch"
+            ]
+        },
+        {
+            "rule": "trustyou\\.com\\/i18n\\/bundles\\/widget_seal\\/en",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0125246edea1b200e909439dfdc9a7345a993f47f302fe55a35591cf17bf3c7e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brenscino.ch",
+                "www.swissholidaypark.ch"
+            ]
+        },
+        {
+            "rule": "trustyou\\.com\\/v2\\/hotel\\/widget-ui\\/shared\\/assets\\/fonts\\/woff2\\/Roboto-Medium\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c006a5995590d891ed8e1939ac178be11c27b7cc6f02a90a874ce0d6b9e5468f"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brenscino.ch",
+                "www.pilatus.ch",
+                "www.swissholidaypark.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "nh-hotels.net",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Stylesheet": 3,
+        "Fetch": 2,
+        "Font": 3
+    },
+    "nameservers": [
+        "ns2.trustyou.com",
+        "ns1.trustyou.com",
+        "ns4.trustyou.com"
+    ]
+}

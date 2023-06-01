@@ -1,0 +1,80 @@
+{
+    "domain": "gadget-edge.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "superspeed"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gadget-edge\\.com\\/ua\\/storefront\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "superspeed"
+            ],
+            "apis": {
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2eafca032834c90c79105a3dd13e123d0ff6e44458f79f5cdaf7988928f05c56"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dapperboi.com",
+                "www.dapperboi.com"
+            ]
+        },
+        {
+            "rule": "gadget-edge\\.com\\/speculate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "superspeed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "735d87a851588e11a686fbce69466f82db0c4f83de0493d413a3272eb8ed9b9a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dapperboi.com",
+                "www.dapperboi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "rihana.ns.cloudflare.com",
+        "nero.ns.cloudflare.com"
+    ]
+}

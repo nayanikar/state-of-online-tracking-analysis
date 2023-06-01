@@ -1,0 +1,127 @@
+{
+    "domain": "zenloop-website-overlay-production.s3.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zenloop-website-overlay-production\\.s3\\.amazonaws\\.com\\/loader\\/zenloop\\.load\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8593aa768c2c23a76cbed812e1d2866562854da91361b8375ff88457c14f1961"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "snocks.com",
+                "www.makerist.de"
+            ]
+        },
+        {
+            "rule": "zenloop-website-overlay-production\\.s3\\.amazonaws\\.com\\/script\\/2\\.0\\/manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2b83240d7933d3f24a8157991bbd5e127f44d25a74e31c9314a016578c269e99"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "snocks.com",
+                "www.makerist.de"
+            ]
+        },
+        {
+            "rule": "zenloop-website-overlay-production\\.s3\\.amazonaws\\.com\\/script\\/2\\.0\\/zenloop-8df2d7cb1cacd027b12c\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7244b2f825fbd4e9ac3abf22c7eb223f0116739a75ab762e362a51bdfb4a750b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zl-seen-WlRnNE9HRTRPREF0WXpVeU55MDBPV1JtTFRnelptVXRaV1V3T0RCbFpHTXlPV1Ex": {
+                    "ttl": 6,
+                    "length": 1,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "zl-seen-TTJGbVlURTRNVFF0WTJabE9TMDBZV0k0TFdJNVpUQXRaalZpWldSak5qVmxNekpr": {
+                    "ttl": 4,
+                    "length": 1,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "snocks.com",
+                "www.makerist.de"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "rollbar.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1425.awsdns-50.org",
+        "ns-1573.awsdns-04.co.uk",
+        "ns-299.awsdns-37.com",
+        "ns-687.awsdns-21.net"
+    ]
+}

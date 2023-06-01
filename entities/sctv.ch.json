@@ -1,0 +1,76 @@
+{
+    "domain": "sctv.ch",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "services.prd"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sctv\\.ch\\/bootstrap",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services.prd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blue.ch",
+                "tv.blue.ch"
+            ]
+        },
+        {
+            "rule": "sctv\\.ch\\/bootstrap",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services.prd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2c8fb3308d2f5ad270fca6a5caf9e536282b264a83c201ea9edbb6e2b6ee7a72"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blue.ch",
+                "tv.blue.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "dns1.swisscom.com",
+        "dns3.swisscom.com",
+        "dns2.swisscom.com"
+    ]
+}

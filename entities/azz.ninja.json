@@ -1,0 +1,81 @@
+{
+    "domain": "azz.ninja",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "sc",
+        "render"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "azz\\.ninja\\/azz\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3696e7282004b3e8058c4b9dcdf6273bb74791f4178114a58ab9b433cf3e651"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnetfrance.fr",
+                "www.cnetfrance.fr",
+                "www.lesnumeriques.com"
+            ]
+        },
+        {
+            "rule": "azz\\.ninja\\/api\\/v1\\/render\\/context",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "render"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnetfrance.fr",
+                "www.cnetfrance.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+    ]
+}

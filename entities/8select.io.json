@@ -1,0 +1,82 @@
+{
+    "domain": "8select.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "wgt",
+        "eltx"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "8select\\.io\\/f31c01b4-6cb5-4350-9183-5526f60ca22d\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wgt"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "79aaf602c2c71dcd0519e85b15cb2cd856f0ba9ec8826943423e88d0b46ef072"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lodenfrey.com",
+                "www.lodenfrey.com"
+            ]
+        },
+        {
+            "rule": "8select\\.io\\/eightlytics\\/client\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eltx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "afdca9e087a011e56096086d57e4574add86eb58aba04ed9747b45a2bc153cea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lodenfrey.com",
+                "www.lodenfrey.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-410.awsdns-51.com",
+        "ns-1969.awsdns-54.co.uk",
+        "ns-880.awsdns-46.net",
+        "ns-1264.awsdns-30.org"
+    ]
+}

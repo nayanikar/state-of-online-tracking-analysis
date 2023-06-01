@@ -1,0 +1,444 @@
+{
+    "domain": "huntingtonbank.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "ensighten",
+        "ddata"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "huntingtonbank\\.com\\/huntington\\/olb\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ensighten"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1973666fcd9d945106c8eac093b1ee22dad69adcda52d7d7c651a833ede49143"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huntington.com",
+                "onlinebanking.huntington.com"
+            ]
+        },
+        {
+            "rule": "huntingtonbank\\.com\\/huntington\\/olb\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ensighten"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c26ff1585649ea767f58eb32a3273fe68291e41b8a75fc86f0cf9f0a9c93787d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huntington.com",
+                "onlinebanking.huntington.com"
+            ]
+        },
+        {
+            "rule": "huntingtonbank\\.com\\/huntington\\/olb\\/code\\/d709d9d8c828fbe7e6611a3ea0ff3dad\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ensighten"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Screen.prototype.pixelDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6170bec565e703f7fce1aa90366406c2f97a02bac4e68007afa14d736d4765ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rkglsid": {
+                    "ttl": 31536000,
+                    "length": 47,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "AMCV_A80C071A551AFEC90A4C98A6%40AdobeOrg": {
+                    "ttl": 63158403,
+                    "length": 263,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "AMCVS_A80C071A551AFEC90A4C98A6%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "s_pnval": {
+                    "ttl": null,
+                    "length": 37,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "s_ch": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "s_pvt": {
+                    "ttl": null,
+                    "length": 7,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "gpv_pn": {
+                    "ttl": 1803,
+                    "length": 37,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "gpv_ch": {
+                    "ttl": 1803,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "s_ppvl": {
+                    "ttl": null,
+                    "length": 98,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "s_ppv": {
+                    "ttl": null,
+                    "length": 98,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "s_visit": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "s_pvs": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "s_tps": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "s_vs": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "s_cpc": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "s_cc": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huntington.com",
+                "onlinebanking.huntington.com"
+            ]
+        },
+        {
+            "rule": "huntingtonbank\\.com\\/error\\/e\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ensighten"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huntington.com",
+                "onlinebanking.huntington.com",
+                "www.huntington.com"
+            ]
+        },
+        {
+            "rule": "huntingtonbank\\.com\\/fp\\/clear\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ddata"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6882437cef514eeafff92a4dde96489b049e439967c6c99faff992e2045d994c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huntington.com",
+                "onlinebanking.huntington.com"
+            ]
+        },
+        {
+            "rule": "huntingtonbank\\.com\\/fp\\/clear\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ddata"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huntington.com",
+                "onlinebanking.huntington.com"
+            ]
+        },
+        {
+            "rule": "huntingtonbank\\.com\\/huntington\\/com\\/Bootstrap\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ensighten"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.orientation": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ed714045f032d532a1b487d27bb65e3211ffaf762eab060c036eeeaddc239575"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_A80C071A551AFEC90A4C98A6%40AdobeOrg": {
+                    "ttl": 63158404,
+                    "length": 239,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "mbox": {
+                    "ttl": 63244806,
+                    "length": 103,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "mboxEdgeCluster": {
+                    "ttl": 1865,
+                    "length": 2,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "AMCVS_A80C071A551AFEC90A4C98A6%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huntington.com",
+                "www.huntington.com"
+            ]
+        },
+        {
+            "rule": "huntingtonbank\\.com\\/huntington\\/com\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ensighten"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c2552ac323cefce3c99d085c106a2608af3284ae82bc0bf5b43873819936d64a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huntington.com",
+                "www.huntington.com"
+            ]
+        },
+        {
+            "rule": "huntingtonbank\\.com\\/huntington\\/com\\/code\\/e4e4515980f369e0500408adfa565653\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ensighten"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.devicePixelRatio": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Screen.prototype.pixelDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d8b4316c52fee0d44615da1b505f567a8b0e62a3db556fa55320e8e7be025c28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "gpv_pn": {
+                    "ttl": 1804,
+                    "length": 16,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "gpv_ch": {
+                    "ttl": 1804,
+                    "length": 3,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "s_ppvl": {
+                    "ttl": null,
+                    "length": 70,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "s_ppv": {
+                    "ttl": null,
+                    "length": 70,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "s_vs": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "s_cpc": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "s_cc": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huntington.com",
+                "www.huntington.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 14,
+        "Image": 5
+    },
+    "nameservers": [
+        "a14-67.akam.net",
+        "a9-67.akam.net",
+        "a20-65.akam.net",
+        "a18-64.akam.net",
+        "a1-90.akam.net",
+        "a3-66.akam.net"
+    ]
+}

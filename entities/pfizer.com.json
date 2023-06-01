@@ -1,0 +1,190 @@
+{
+    "domain": "pfizer.com",
+    "owner": {
+        "name": "Pfizer Inc.",
+        "displayName": "Pfizer"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "chatterbox56",
+        "chatterbox46"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "pfizer\\.com\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatterbox56"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zecken.de",
+                "www.zecken.de"
+            ]
+        },
+        {
+            "rule": "pfizer\\.com\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatterbox56"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7c9104dcd1053577213800ad5a125344faab5db4bf0ced870c27c447afef97fb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zecken.de",
+                "www.zecken.de"
+            ]
+        },
+        {
+            "rule": "pfizer\\.com\\/api\\/oAuth\\/token\\/jwtgrant",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatterbox46"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ae136d8ccff219e7019bed25f15585934d93a7f0a03a8f518f5ece4091baca69"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zecken.de",
+                "www.zecken.de"
+            ]
+        },
+        {
+            "rule": "pfizer\\.com\\/api\\/oAuth\\/token\\/jwtgrant",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatterbox46"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zecken.de",
+                "www.zecken.de"
+            ]
+        },
+        {
+            "rule": "pfizer\\.com\\/api\\/rtm\\/start",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatterbox46"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "075b64452bb2184eadc8e9483514aa0cc01c111a2f2df700ad681302b1cc4095"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zecken.de",
+                "www.zecken.de"
+            ]
+        },
+        {
+            "rule": "pfizer\\.com\\/api\\/rtm\\/start",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatterbox46"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zecken.de",
+                "www.zecken.de"
+            ]
+        },
+        {
+            "rule": "pfizer\\.com\\/rtm\\/bot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatterbox46"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zecken.de",
+                "www.zecken.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "digitalpfizer.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Preflight": 6,
+        "XHR": 6,
+        "WebSocket": 2
+    },
+    "nameservers": [
+        "ns1.p15.dynect.net",
+        "ns2.p15.dynect.net",
+        "ns4.p15.dynect.net",
+        "ns3.p15.dynect.net"
+    ]
+}

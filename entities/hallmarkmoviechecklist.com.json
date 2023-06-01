@@ -1,0 +1,84 @@
+{
+    "domain": "hallmarkmoviechecklist.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [
+        "web",
+        "clientapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hallmarkmoviechecklist\\.com\\/web-sdk\\/1\\.0\\.0\\/movieChecklist\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "63d9dbfc79bb65175f75302c15948e6be2cd8bd71094312a4d0a82b76c938e57"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hallmarkmoviesandmysteries.com",
+                "www.hallmarkmoviesandmysteries.com"
+            ]
+        },
+        {
+            "rule": "hallmarkmoviechecklist\\.com\\/api\\/app\\/movie\\/code\\/ATM1018",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clientapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bca883215f69b61e8fae1ae74cc51be45522cad32991eaec0f3b0fc076e8b2d0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hallmarkmoviesandmysteries.com",
+                "www.hallmarkmoviesandmysteries.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns4-05.azure-dns.info",
+        "ns3-05.azure-dns.org",
+        "ns2-05.azure-dns.net",
+        "ns1-05.azure-dns.com"
+    ]
+}

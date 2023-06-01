@@ -1,0 +1,489 @@
+{
+    "domain": "appier.net",
+    "owner": {
+        "name": "Appier",
+        "displayName": "Appier",
+        "privacyPolicy": "https://www.appier.com/retargeting-privacy-policy-2/",
+        "url": "http://appier.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0343,
+    "sites": 342,
+    "subdomains": [
+        "gocm.c",
+        "a.c",
+        "s.c",
+        "jscdn",
+        "anylist.c",
+        "apn.c",
+        "adx.c",
+        "aiqua-user.c",
+        "aiqua-sdk.c"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "appier\\.net\\/pubmatic",
+            "cookies": 0.0275,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gocm.c"
+            ],
+            "apis": {},
+            "sites": 307,
+            "prevalence": 0.0308,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cplusplus.com",
+                "dailycaller.com",
+                "dictionary.reverso.net",
+                "drudgereport.com",
+                "forum.xda-developers.com",
+                "gamefaqs.gamespot.com",
+                "itsfoss.com",
+                "mobile-dictionary.reverso.net",
+                "screenrant.com",
+                "twinfinite.net",
+                "lunchtime.com.au",
+                "volvo.panel-laboralcj.gob.mx",
+                "www.goldcoastpoint.com.au",
+                "arduinogetstarted.com",
+                "www.supercheats.com",
+                "www.koreaboo.com",
+                "dqydj.com",
+                "dev-api-aggregator-mock.londonstockexchange.com",
+                "sex3.comapatecoman.gob.mx",
+                "www.homestratosphere.com"
+            ]
+        },
+        {
+            "rule": "appier\\.net\\/gcm",
+            "cookies": 0.00281,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a.c"
+            ],
+            "apis": {},
+            "sites": 31,
+            "prevalence": 0.00311,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9gag.com",
+                "www.timesmojo.com",
+                "quoteinvestigator.com",
+                "www.realitytitbit.com",
+                "meaww.com",
+                "atotaxcalculator.com.au",
+                "www.rcgroups.com",
+                "www.cookitrealgood.com",
+                "www.aupropertyreport.com",
+                "auloca.com",
+                "www.australian-coins.com",
+                "ontheworldmap.com",
+                "netrider.net.au",
+                "iknowthepilot.com.au",
+                "www.iching-online.com",
+                "wind.willyweather.com.au",
+                "www.mathematicshed.com",
+                "pinkpages.com.au",
+                "www.trustedtarot.com",
+                "www.bettereducation.com.au"
+            ]
+        },
+        {
+            "rule": "appier\\.net\\/tappx",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s.c"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boxrec.com",
+                "fstoppers.com",
+                "photographylife.com",
+                "publicholidays.com.au",
+                "tinyurl.com",
+                "www.babycenter.com.au",
+                "www.cpu-monkey.com",
+                "www.myabandonware.com"
+            ]
+        },
+        {
+            "rule": "appier\\.net\\/aa\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jscdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "PerformanceTiming.prototype.navigationStart": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a18894995ff50d378410f3b6964bac2c290c9ae1ff56cdb9fb5386d2caf364c7",
+                "e7c5d86d113e2b1c65157cf146125112b60bfbdcfdb88001fdb62cac0c78dadb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "appier_tp": {
+                    "ttl": -1681954484,
+                    "length": 1,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "appier_utmz": {
+                    "ttl": 604807,
+                    "length": 6,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_atrk_siteuid": {
+                    "ttl": 31536007,
+                    "length": 16,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "_atrk_ssid": {
+                    "ttl": 1807,
+                    "length": 22,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "_atrk_sessidx": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                },
+                "appier_pv_counterPageView_ATM": {
+                    "ttl": 3607,
+                    "length": 1,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "appier_page_isView_PageView_ATM": {
+                    "ttl": 3607,
+                    "length": 64,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "appier_pv_counterViewTwoPages_ATM": {
+                    "ttl": 3607,
+                    "length": 1,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "appier_page_isView_ViewTwoPages_ATM": {
+                    "ttl": 3607,
+                    "length": 64,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "_fbp": {
+                    "ttl": 7785,
+                    "length": 29,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "appier_pv_counterPageView_84fa": {
+                    "ttl": 3609,
+                    "length": 1,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "appier_page_isView_PageView_84fa": {
+                    "ttl": 3609,
+                    "length": 64,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "appier_pv_counterViewTwoPages_a990": {
+                    "ttl": 3609,
+                    "length": 1,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "appier_page_isView_ViewTwoPages_a990": {
+                    "ttl": 3609,
+                    "length": 64,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "_hjTLDTest": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "virginmoney.com.au",
+                "www.betashares.com.au",
+                "www.umart.com.au"
+            ]
+        },
+        {
+            "rule": "appier\\.net\\/r2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "anylist.c"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_atrk_siteuid": 0.00030120481927710846,
+                "_atrk_ssid": 0.00030120481927710846,
+                "_hjTLDTest": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "virginmoney.com.au",
+                "www.betashares.com.au",
+                "www.umart.com.au"
+            ]
+        },
+        {
+            "rule": "appier\\.net\\/aprcm",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s.c"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "appier_utmz": 0.00030120481927710846,
+                "_atrk_siteuid": 0.00030120481927710846,
+                "_atrk_ssid": 0.00030120481927710846,
+                "_hjTLDTest": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "virginmoney.com.au",
+                "www.betashares.com.au",
+                "www.umart.com.au"
+            ]
+        },
+        {
+            "rule": "appier\\.net\\/pb\\/0wHT9JDiP3SORJx\\/pb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apn.c",
+                "adx.c"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.getHighEntropyValues": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a08f2c1fb2674840fcb80472d4f4f41fbc4d855b0ce37904111c681257fa760a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hk01.com",
+                "www.hk01.com"
+            ]
+        },
+        {
+            "rule": "appier\\.net\\/web-inapp\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aiqua-user.c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fbd56574656362b0418adccac50341d3d551c1c265f58d55d081534e6e0c4925"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "QGUserId": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "msy.com.au",
+                "www.umart.com.au"
+            ]
+        },
+        {
+            "rule": "appier\\.net\\/qg",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gocm.c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "msy.com.au",
+                "www.umart.com.au"
+            ]
+        },
+        {
+            "rule": "appier\\.net\\/aiqua\\/web\\/188f6aaab877746dd7f5\\/data\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aiqua-sdk.c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fc0b73082f65869268072562098c9c23a7e204fb6ed808f64d49f24303d8ee1d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "msy.com.au",
+                "www.msy.com.au"
+            ]
+        },
+        {
+            "rule": "appier\\.net\\/aiqua\\/web\\/188f6aaab877746dd7f5\\/data\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aiqua-sdk.c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "msy.com.au",
+                "www.msy.com.au"
+            ]
+        },
+        {
+            "rule": "appier\\.net\\/aiqua\\/web\\/c0d178afd4372bddbda3\\/data\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aiqua-sdk.c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "788a499b52716656b438fb38cc403327f1877dc96c0c7d49e469acaa573b26a9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "umart.com.au",
+                "www.umart.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0.0309,
+    "topInitiators": [
+        {
+            "domain": "pubmatic.com",
+            "prevalence": 0.843501326259947
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.08753315649867374
+        },
+        {
+            "domain": "tappx.com",
+            "prevalence": 0.021220159151193633
+        },
+        {
+            "domain": "qgraph.io",
+            "prevalence": 0.021220159151193633
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.013262599469496022
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.007957559681697613
+        },
+        {
+            "domain": "genieesspv.jp",
+            "prevalence": 0.002652519893899204
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.002652519893899204
+        }
+    ],
+    "types": {
+        "Document": 307,
+        "Image": 39,
+        "Script": 5,
+        "XHR": 14,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1449.awsdns-53.org",
+        "ns-73.awsdns-09.com",
+        "ns-729.awsdns-27.net",
+        "ns-1861.awsdns-40.co.uk"
+    ]
+}

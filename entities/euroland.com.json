@@ -1,0 +1,86 @@
+{
+    "domain": "euroland.com",
+    "owner": {
+        "name": "Europe Investor Direct AB",
+        "displayName": "Europe Investor Direct"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "tools",
+        "asia.tools"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "euroland\\.com\\/tools\\/pricefeed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tools",
+                "asia.tools"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "5f43c1ac682d2945018c352986422e560df121b85a36860c9da1d920397bb974",
+                "6eebc0e1dbe32111669a253c73e509d82442a71138579da4fe109e80c0553ee6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordea.com",
+                "www.nordea.com",
+                "www.takeda.com"
+            ]
+        },
+        {
+            "rule": "euroland\\.com\\/tools\\/common\\/eurolandiframeautoheight\\/eurolandtoolsintegrationobject\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tools"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c5403c764b0256d79bc86ccad84ea44ab50ca01f904b6298bfeb38f754387d86"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "riotinto.com",
+                "www.riotinto.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns2-09.azure-dns.net",
+        "ns3-09.azure-dns.org",
+        "ns1-09.azure-dns.com",
+        "ns4-09.azure-dns.info"
+    ]
+}

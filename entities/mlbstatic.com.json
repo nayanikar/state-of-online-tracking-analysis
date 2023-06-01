@@ -1,0 +1,570 @@
+{
+    "domain": "mlbstatic.com",
+    "owner": {
+        "name": "MLB Advanced Media, LP",
+        "displayName": "MLB Advanced Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "www",
+        "builds",
+        "img"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mlbstatic\\.com\\/mlb\\.com\\/vendor\\/mlb-okta\\/mlb-okta\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "88b154b920feffb91942882165250b1dc16317ad4db9a90f93523445f8116ea2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/milb\\.com\\/builds\\/site-core\\/1681140267959\\/styles\\/site\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "builds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dbb104175e44b3b40886a8f6f95ada189d1609bf05c9ba0606b0e59a4f29bed9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/team-logos\\/league-on-dark\\/milb-alt\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "06dee34755c3078471eaf5a8a1252a83c5f29c6e27bc17aacdc3eaf68cfd15ab"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/milb\\.com\\/builds\\/site-core\\/1681140267959\\/scripts\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "builds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6dcf5812a14d0b5853f0960b85141160dd0cb73100067feb92754ecf3726c7d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/milb\\.com\\/builds\\/site-core\\/1681140267959\\/scripts\\/vendor\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "builds"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.appName": 1,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Screen.prototype.pixelDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9cc71af9e4f59cc6207018900df0ab170882db3cb830bee7eb9c98deb6239b71"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_A65F776A5245B01B0A490D44%40AdobeOrg": {
+                    "ttl": 63158404,
+                    "length": 264,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "AMCVS_A65F776A5245B01B0A490D44%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "s_cc": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/milb\\.com\\/builds\\/site-core\\/1681140267959\\/fonts\\/Lato-Regular\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "builds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a0306ddab1ebff75bcb14946bfcbd0cff505923067d9c6c97c57cef16939ad89"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/milb\\.com\\/builds\\/site-core\\/1681140267959\\/fonts\\/Lato-Bold\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "builds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7b921004a0dd0fe3240d0c57a7926deb53c1fcdaa957d2cf9e7589c06715d016"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/team-logos\\/541\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3e61f13d6332a4769a87148a36a3506ef3bff391eae896fbb3486ecb57f23f16"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/mlb\\.com\\/vendor\\/datadog\\/datadog-rum-v4\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "edbb5145efc49607980b0920490a9a72361518249f4e071a659acc7e1ad4d8cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_dd_s": {
+                    "ttl": 932,
+                    "length": 3,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/milb\\.com\\/builds\\/site-core\\/1681140267959\\/scripts\\/site\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "builds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4476f5eb1f226b4d2b2d0ba7bb273ffc887194162d7cc2529526420726f0933d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/milb\\.com\\/builds\\/site-core\\/1681140267959\\/images\\/icons\\/icons\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "builds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b81b9ff8c1efce51ff1916a3c629fb43f37f759b98ec7a3b5f127cfaec858b3c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/mlb\\.com\\/fonts\\/proxima-nova-bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "748a6051d5c54155fbb67ca00ade246be525d5aee84a0481f6b715635fba7c0a"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yesnetwork.com",
+                "www.yesnetwork.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/mlb\\.com\\/fonts\\/proxima-nova-regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eb850d60fbabb78f1049c8d45e3ad1a712ea0c442eb9204f4e3719d49b9a15bd"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yesnetwork.com",
+                "www.yesnetwork.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/team-logos\\/yes-network\\/yes\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2dc95f085ca04c14f99dab462f614eed7843750d6ea2a29cbb2253de0877835b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yesnetwork.com",
+                "www.yesnetwork.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/opprops-images\\/image\\/upload\\/t_5x2\\/w_1024\\/v1681824115\\/opprops\\/xkgzu2ikkxjajqnrxyly\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c5bebc82adfac92ef2d2c4d29d849347b47fd6d95d619ec614299d67fa9b2163"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yesnetwork.com",
+                "www.yesnetwork.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/opprops-images\\/image\\/upload\\/t_5x2\\/w_1024\\/v1681788483\\/opprops\\/wbhsx68613rrta96r9dt\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bfb0aea51bc438fb2d67007b335b8d70abaa898caa4ab099d9612f71db50e4ee"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yesnetwork.com",
+                "www.yesnetwork.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/opprops-images\\/image\\/upload\\/t_16x9\\/w_372\\/opprops\\/nsf3jizactltupx1yewu\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "47565ccd586e6955c399caaf871d81561e2ce3381373d1d41da44f3ac8e727e3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yesnetwork.com",
+                "www.yesnetwork.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/opprops-images\\/image\\/upload\\/t_16x9\\/w_372\\/opprops\\/vsl8qbudncpzcrdeocv0\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f8bc8b6f6a7da13f1257b398a3286660a1968d31010658d02655efd1ad995a33"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yesnetwork.com",
+                "www.yesnetwork.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/opprops-images\\/image\\/upload\\/t_16x9\\/w_372\\/opprops\\/vdkxw805dwqlgsjkvgul\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f165456d900f03e4041bd044b888ae0e5cbee458656e0c9adddea918bec66cf5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yesnetwork.com",
+                "www.yesnetwork.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/opprops-images\\/image\\/upload\\/t_16x9\\/w_372\\/opprops\\/g0n0iqxcsretusjnuayy\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5ec9d96433aa5fedec505a9f8f2b113a737bc16571d3261500b8ade512826d22"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yesnetwork.com",
+                "www.yesnetwork.com"
+            ]
+        },
+        {
+            "rule": "mlbstatic\\.com\\/opprops-images\\/image\\/upload\\/t_16x9\\/w_372\\/opprops\\/pkq0rlitehgmuzxccor7\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f7e2dcfaa5c4af9b9d4b3961cd5d83fc7c78fcc09c9a495b2296ab8949815428"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yesnetwork.com",
+                "www.yesnetwork.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Stylesheet": 2,
+        "Image": 20,
+        "Font": 8,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-cloud-c4.googledomains.com",
+        "ns-cloud-c3.googledomains.com",
+        "ns-cloud-c1.googledomains.com",
+        "ns-cloud-c2.googledomains.com",
+        "ns-1424.awsdns-50.org",
+        "ns-1660.awsdns-15.co.uk",
+        "ns-127.awsdns-15.com",
+        "ns-664.awsdns-19.net"
+    ]
+}

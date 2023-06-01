@@ -1,0 +1,177 @@
+{
+    "domain": "gearjunkie.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "plausible",
+        "dev1"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gearjunkie\\.com\\/js\\/plausible\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "plausible"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.webdriver": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "7eec3429c76cb48e5fd457c5afb71b7cf34bc4298d53023bae8aea715443b4a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autowise.com",
+                "www.irunfar.com",
+                "www.theinertia.com"
+            ]
+        },
+        {
+            "rule": "gearjunkie\\.com\\/matomo\\/matomo\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dev1"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "NavigatorUAData.prototype.brands": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.platform": 3,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d7fc375178c93a2fc15fd888e30170eedf4ef3d04497e7f951ab7bfe0c921693"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.3.5e20": {
+                    "ttl": 33955201,
+                    "length": 28,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_pk_ses.3.5e20": {
+                    "ttl": 1800,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_pk_id.5.2238": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_pk_ses.5.2238": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autowise.com",
+                "www.irunfar.com",
+                "www.theinertia.com"
+            ]
+        },
+        {
+            "rule": "gearjunkie\\.com\\/api\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plausible"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autowise.com",
+                "www.irunfar.com",
+                "www.theinertia.com"
+            ]
+        },
+        {
+            "rule": "gearjunkie\\.com\\/matomo\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dev1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ju_dm": 0.000006807073911208528,
+                "mptest": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "autowise.com",
+                "www.irunfar.com",
+                "www.theinertia.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "XHR": 3,
+        "Ping": 3
+    },
+    "nameservers": [
+        "ns4.linode.com",
+        "ns1.linode.com",
+        "ns5.linode.com",
+        "ns3.linode.com",
+        "ns2.linode.com"
+    ]
+}

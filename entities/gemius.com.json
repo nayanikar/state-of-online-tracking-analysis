@@ -1,0 +1,81 @@
+{
+    "domain": "gemius.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "cmp"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gemius\\.com\\/cmp\\/v2\\/stub\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "092a090c172edd286fffff05b2fb72e09662a9ecbf1c90286bfe887eb64fd6f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cinemagia.ro",
+                "www.cinemagia.ro"
+            ]
+        },
+        {
+            "rule": "gemius\\.com\\/cmp\\/v2\\/cmp\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "717364dd4d3494f22994d3013da1eb852baf2ddd8ee1d782267edf017f58cfbb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cinemagia.ro",
+                "www.cinemagia.ro"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns1.gemius.pl",
+        "ns3.gemius.pl",
+        "ns2.gemius.pl"
+    ]
+}

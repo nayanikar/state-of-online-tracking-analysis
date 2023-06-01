@@ -1,0 +1,162 @@
+{
+    "domain": "momentummedia.com.au",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "ip",
+        "delivery",
+        "kevel"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "momentummedia\\.com\\.au\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ip"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "27522f2104249d6c72dd79104bd22fe6d4f15718ddbac56f35456b025696ab6e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australianaviation.com.au",
+                "www.defenceconnect.com.au",
+                "www.lawyersweekly.com.au",
+                "www.moneymanagement.com.au"
+            ]
+        },
+        {
+            "rule": "momentummedia\\.com\\.au\\/api\\/v2",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "16b58a162e6aa542649641e29f1a10ec7b5f829e6847141fcaea2fa25eaed6cf",
+                "470db6601e2016bf8f162e89708d747f903ab2cc5510215598d089c6c0f76fe7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australianaviation.com.au",
+                "www.defenceconnect.com.au",
+                "www.moneymanagement.com.au"
+            ]
+        },
+        {
+            "rule": "momentummedia\\.com\\.au\\/api\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australianaviation.com.au",
+                "www.defenceconnect.com.au",
+                "www.moneymanagement.com.au"
+            ]
+        },
+        {
+            "rule": "momentummedia\\.com\\.au\\/proxy\\/",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kevel"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1914adc538b06e3bceab8e3f3976c50de78eed9de4948622ba799cd85d3373ce",
+                "d90a0d810b37072070d489d75fdb673ce5b47f48b63446ec3e737e0701ed1192"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australianaviation.com.au",
+                "www.defenceconnect.com.au",
+                "www.moneymanagement.com.au"
+            ]
+        },
+        {
+            "rule": "momentummedia\\.com\\.au\\/i\\.gif",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australianaviation.com.au",
+                "www.defenceconnect.com.au",
+                "www.lawyersweekly.com.au",
+                "www.moneymanagement.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8611111111111112
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.013888888888888888
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Fetch": 3,
+        "Preflight": 3,
+        "Image": 7
+    },
+    "nameservers": [
+        "burt.ns.cloudflare.com",
+        "rachel.ns.cloudflare.com"
+    ]
+}

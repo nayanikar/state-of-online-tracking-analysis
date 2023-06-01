@@ -1,0 +1,106 @@
+{
+    "domain": "one.network",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [
+        "api-gb",
+        "portal-gb"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "one\\.network\\/layers\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-gb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7b952d002e7cd566372a919bdc78a9304ef124061d5eeaa761b4efeb6baf7ae9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gloucestershire.gov.uk",
+                "www.gloucestershire.gov.uk"
+            ]
+        },
+        {
+            "rule": "one\\.network\\/8400a034-df52-4292-b580-4e558a153667",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "portal-gb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "90c20841c7669f13dfc4163e423492559bb83db5ef7257c1b5cc8e606660ce57"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gloucestershire.gov.uk",
+                "www.gloucestershire.gov.uk"
+            ]
+        },
+        {
+            "rule": "one\\.network\\/prd-portal-one-network\\/json\\/qry_userMessages\\.cfm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "portal-gb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7c5928b3d4cfac2db7b5746f0bab095a148a53953264c0ca0ac2001e0852a307"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gloucestershire.gov.uk",
+                "www.gloucestershire.gov.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "one.network",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns-1844.awsdns-38.co.uk",
+        "ns-522.awsdns-01.net",
+        "ns-1293.awsdns-33.org",
+        "ns-74.awsdns-09.com"
+    ]
+}

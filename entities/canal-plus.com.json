@@ -1,0 +1,58 @@
+{
+    "domain": "canal-plus.com",
+    "owner": {
+        "name": "GROUPE CANAL +",
+        "displayName": "Groupe Canal+"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "pass-api-v2"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "canal-plus\\.com\\/provider\\/services\\/fr\\/public\\/createToken",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pass-api-v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c173d2ecb4b04e395a4620a4361858780549a59ee4307ab18efdf6012c35bc99"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canalplus.com",
+                "client.canalplus.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": [
+        "nsb.perf1.com",
+        "nsc.perf1.com",
+        "nsa.perf1.fr"
+    ]
+}

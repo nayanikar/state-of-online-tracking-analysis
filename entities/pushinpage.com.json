@@ -1,0 +1,135 @@
+{
+    "domain": "pushinpage.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000503,
+    "sites": 5,
+    "subdomains": [
+        "secure-apis"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pushinpage\\.com\\/scripts\\/pip-sdk\\.js",
+            "cookies": 0.000302,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie getter": 5,
+                "window.indexedDB": 3,
+                "Document.cookie setter": 3,
+                "window.sessionStorage": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "110a15cd0bff41f01e7e6c062a32792f58f12e8837ee929e4546d9c3a51a333e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nadzCampaign": {
+                    "ttl": 29892,
+                    "length": 1,
+                    "prevalence": 0.0003015378429992964,
+                    "uniqueness": 0.3333333333333333
+                },
+                "nadzPipDailyCp": {
+                    "ttl": 29892,
+                    "length": 1,
+                    "prevalence": 0.0002010252286661976,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boruto-france.fr",
+                "www.chassepassion.net",
+                "www.coulisses-tv.fr",
+                "www.lecalendrier.fr",
+                "www.toutvendre.fr"
+            ]
+        },
+        {
+            "rule": "pushinpage\\.com\\/scripts\\/pip-impact\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "30f30b2fe1a25b2f8c7101ef3a1922bd701ec66fdfd69ed2d0d1713737b3c586"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boruto-france.fr",
+                "www.chassepassion.net"
+            ]
+        },
+        {
+            "rule": "pushinpage\\.com\\/scripts\\/pip-outbrain\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "20cb089fd16a78c823106a7baef4aa085147177f62a3bc50df7787fe7e20bc87"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boruto-france.fr",
+                "www.lecalendrier.fr"
+            ]
+        },
+        {
+            "rule": "pushinpage\\.com\\/pip\\/o",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-apis"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boruto-france.fr",
+                "www.chassepassion.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "bob.ns.cloudflare.com",
+        "melinda.ns.cloudflare.com"
+    ]
+}

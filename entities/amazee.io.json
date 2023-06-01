@@ -1,0 +1,99 @@
+{
+    "domain": "amazee.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "ch4",
+        "build-luks.prod.luks-ch.ch4",
+        "build-ksnw.prod.luks-ch.ch4"
+    ],
+    "cnames": [
+        {
+            "original": "build.luks.ch",
+            "resolved": "build-luks.prod.luks-ch.ch4.amazee.io"
+        },
+        {
+            "original": "build.spital-nidwalden.ch",
+            "resolved": "build-ksnw.prod.luks-ch.ch4.amazee.io"
+        },
+        {
+            "original": "cms.caritas.ch",
+            "resolved": "ch4.amazee.io"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "amazee\\.io\\/graphql\\/www_caritas_ch\\/build",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ch4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "cms.caritas.ch",
+                    "resolved": "ch4.amazee.io"
+                }
+            ],
+            "responseHashes": [
+                "d944ca037722686b0c286620137ccfbc2be2d308300b45bd46411786ddb9345f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caritas.ch",
+                "www.caritas.ch"
+            ]
+        },
+        {
+            "rule": "amazee\\.io\\/___status\\/changes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "build-luks.prod.luks-ch.ch4",
+                "build-ksnw.prod.luks-ch.ch4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "build.luks.ch",
+                    "resolved": "build-luks.prod.luks-ch.ch4.amazee.io"
+                },
+                {
+                    "original": "build.spital-nidwalden.ch",
+                    "resolved": "build-ksnw.prod.luks-ch.ch4.amazee.io"
+                }
+            ],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luks.ch",
+                "www.spital-nidwalden.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Fetch": 2,
+        "WebSocket": 2
+    },
+    "nameservers": [
+        "ns2.amazee.io",
+        "ns1.amazee.io"
+    ]
+}

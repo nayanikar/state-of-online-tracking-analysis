@@ -1,0 +1,88 @@
+{
+    "domain": "gamedock.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "tracker"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gamedock\\.io\\/gamemonkey-web-tracker\\/5\\.0\\.0\\/script\\/gamemonkey-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3d282f3390f7d642ec298e123e4367aafeb419ced85e8ed4eec98160fe066e46"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "colortunnel.io",
+                "speellingo.nl"
+            ]
+        },
+        {
+            "rule": "gamedock\\.io\\/v1\\/events-tracker\\/track\\/gd\\/event\\/pageview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "colortunnel.io",
+                "speellingo.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "gamedistribution.com",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "agamecdn.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "gamesgamescdn.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "max.ns.cloudflare.com",
+        "mimi.ns.cloudflare.com"
+    ]
+}

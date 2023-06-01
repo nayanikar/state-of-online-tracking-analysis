@@ -1,0 +1,66 @@
+{
+    "domain": "mail.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "dl"
+    ],
+    "cnames": [
+        {
+            "original": "dl.mail.com",
+            "resolved": "dl.mail.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mail\\.com\\.edgekey\\.net\\/tcf\\/live\\/v1\\/js\\/tcf-api\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "dl.mail.com",
+                    "resolved": "dl.mail.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "aef4596ca7046bacbcc6c307f3311c676bfb038a06271cc2e64616bc9c18eb99"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mail.com",
+                "www.mail.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "uicdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

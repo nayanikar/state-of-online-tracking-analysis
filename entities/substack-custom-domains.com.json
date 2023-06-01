@@ -1,0 +1,119 @@
+{
+    "domain": "substack-custom-domains.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "target"
+    ],
+    "cnames": [
+        {
+            "original": "anewsletter.alisoneroman.com",
+            "resolved": "target.substack-custom-domains.com"
+        },
+        {
+            "original": "blog.nateliason.com",
+            "resolved": "target.substack-custom-domains.com"
+        },
+        {
+            "original": "morningmemo.talkingpointsmemo.com",
+            "resolved": "target.substack-custom-domains.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "substack-custom-domains\\.com\\/embed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "target"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "morningmemo.talkingpointsmemo.com",
+                    "resolved": "target.substack-custom-domains.com"
+                },
+                {
+                    "original": "anewsletter.alisoneroman.com",
+                    "resolved": "target.substack-custom-domains.com"
+                },
+                {
+                    "original": "blog.nateliason.com",
+                    "resolved": "target.substack-custom-domains.com"
+                }
+            ],
+            "responseHashes": [
+                "b1e8bb3dca19581d81d6a5b30331ee690ef07cd607a46e6e704480999286d78e",
+                "db0bd4610b352df252013244d593707ee91abb9146f4a93fa0e14fc0f5455071"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "talkingpointsmemo.com",
+                "www.alisoneroman.com",
+                "www.nateliason.com"
+            ]
+        },
+        {
+            "rule": "substack-custom-domains\\.com\\/api\\/v1\\/firehose",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "target"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "morningmemo.talkingpointsmemo.com",
+                    "resolved": "target.substack-custom-domains.com"
+                },
+                {
+                    "original": "anewsletter.alisoneroman.com",
+                    "resolved": "target.substack-custom-domains.com"
+                },
+                {
+                    "original": "blog.nateliason.com",
+                    "resolved": "target.substack-custom-domains.com"
+                }
+            ],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "talkingpointsmemo.com",
+                "www.alisoneroman.com",
+                "www.nateliason.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "substackcdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 3,
+        "Image": 3
+    },
+    "nameservers": [
+        "ali.ns.cloudflare.com",
+        "lee.ns.cloudflare.com"
+    ]
+}

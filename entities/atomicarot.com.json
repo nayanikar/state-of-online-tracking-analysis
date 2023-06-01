@@ -1,0 +1,67 @@
+{
+    "domain": "atomicarot.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "atomicarot\\.com\\/bens\\/vinos\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "9e9107ae95246425cfa0232eb765e7972ea826843ff1a24d412ce63a520ae699",
+                "456a6a31bfc4af82518cfaf445e94569606b9ed9cfcc48da8b912207c41c452d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "u_count": {
+                    "ttl": 43202,
+                    "length": 11,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flibusta.site",
+                "new-rutor.org",
+                "www.rutor.info"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+    ]
+}

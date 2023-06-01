@@ -1,0 +1,148 @@
+{
+    "domain": "discover.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "messaging",
+        "card"
+    ],
+    "cnames": [
+        {
+            "original": "card.discover.com",
+            "resolved": "card.discover.com.edgekey.net"
+        },
+        {
+            "original": "messaging.discover.com",
+            "resolved": "messaging.discover.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "discover\\.com\\.edgekey\\.net\\/js\\/freshchat-widget-links\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "messaging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "messaging.discover.com",
+                    "resolved": "messaging.discover.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4af0dc12ed07b47bbc7c6665b42363f738335aed74f2e7eea5ca0e1d02ca53e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discover.com",
+                "portal.discover.com"
+            ]
+        },
+        {
+            "rule": "discover\\.com\\.edgekey\\.net\\/js\\/freshchat-common\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "messaging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "messaging.discover.com",
+                    "resolved": "messaging.discover.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "957e4c072a3936e202dc5585e113b096941004d5a4dbcd2cff2d4b0cc1fcafce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discover.com",
+                "portal.discover.com"
+            ]
+        },
+        {
+            "rule": "discover\\.com\\.edgekey\\.net\\/css\\/freshchat-style\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "messaging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "messaging.discover.com",
+                    "resolved": "messaging.discover.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "24e90171982a04e69f68974a75d19b0fc4c8ae482dfa5dc73f6cceb69b9206b1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discover.com",
+                "portal.discover.com"
+            ]
+        },
+        {
+            "rule": "discover\\.com\\.edgekey\\.net\\/cardissuer\\/public\\/rewards\\/offer\\/v1\\/offer-categories",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "card"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "card.discover.com",
+                    "resolved": "card.discover.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "5717c8336477522a39a262ffdbe6b19c8c672207d86632f0fa7bd49f046d55b5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discover.com",
+                "www.discover.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

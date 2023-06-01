@@ -1,0 +1,136 @@
+{
+    "domain": "vgregion.se",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "piwik-ext"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vgregion\\.se\\/matomo\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "piwik-ext"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a8823745de15e880fbf283dbd841b17085c2ff6a7600a053aa185c99d7d8a8c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.217.2219": {
+                    "ttl": 33955202,
+                    "length": 28,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_pk_ses.217.2219": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vasttrafik.se",
+                "www.vasttrafik.se"
+            ]
+        },
+        {
+            "rule": "vgregion\\.se\\/matomo\\.php",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "piwik-ext"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vasttrafik.se",
+                "www.vasttrafik.se"
+            ]
+        },
+        {
+            "rule": "vgregion\\.se\\/plugins\\/HeatmapSessionRecording\\/configs\\.php",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "piwik-ext"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5c3482f97aa4e073f730c1a4836ee33525e9b9b0d92b581b9179cce980772b4c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vasttrafik.se",
+                "www.vasttrafik.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Ping": 2
+    },
+    "nameservers": [
+        "world.excedodns.org",
+        "sto.excedodns.se",
+        "ns2.vgregion.se",
+        "emea.excedodns.eu",
+        "nordic.excedodns.net",
+        "ns5.vgregion.net",
+        "ns1.vgregion.se",
+        "global.excedodns.com",
+        "ns4.vgregion.se"
+    ]
+}

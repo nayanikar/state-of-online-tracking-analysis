@@ -1,0 +1,81 @@
+{
+    "domain": "onlineradiobox.com",
+    "owner": {
+        "name": "FinalLevel OU",
+        "displayName": "FinalLevel OU"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "ecdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "onlineradiobox\\.com\\/js\\/plwidget\\.min\\.a1649ec0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ecdn"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "54702c30e1b86a762bb737e7938308d965fab8d06d289e29c2c0330224058169"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vcyamerica.org",
+                "www.vcyamerica.org"
+            ]
+        },
+        {
+            "rule": "onlineradiobox\\.com\\/json\\/us\\/kvch\\/playlist\\/0",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0b6e3f00c147f97b0a9f90d46bf6ef1d548f1fa6d3c86b81bcf4d263494b5166"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vcyamerica.org",
+                "www.vcyamerica.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "erin.ns.cloudflare.com",
+        "everton.ns.cloudflare.com"
+    ]
+}

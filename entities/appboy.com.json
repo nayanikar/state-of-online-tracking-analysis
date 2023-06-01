@@ -1,0 +1,96 @@
+{
+    "domain": "appboy.com",
+    "owner": {
+        "name": "Braze, Inc.",
+        "displayName": "Braze"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "dev",
+        "sdk-02.iad"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "appboy\\.com\\/api\\/v3\\/data\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dev",
+                "sdk-02.iad"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "69f7f0661d11825dc1a33cfb877dd8ab676e5551f735cde7ff611a9ee13a7430",
+                "531f149aa1c53cf1fcccbcd3bdbf9a9fc5a8fa0f939f7345db9c5dcd494172a6",
+                "4c38fa5843014b16938c1f4ce0056b6cb50dafadc8eeaaacac26fbebd822b8b8",
+                "ba3ecaa14ee3011b60bb55265378dc74972d61ac121e4bf12276de724d79a7cd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atomtickets.com",
+                "www.atomtickets.com",
+                "www.grubhub.com",
+                "www.seamless.com",
+                "www.wellrx.com"
+            ]
+        },
+        {
+            "rule": "appboy\\.com\\/api\\/v3\\/data\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dev",
+                "sdk-02.iad"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atomtickets.com",
+                "www.atomtickets.com",
+                "www.grubhub.com",
+                "www.seamless.com",
+                "www.wellrx.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "appboycdn.com",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "XHR": 5,
+        "Preflight": 5
+    },
+    "nameservers": [
+        "ns-1219.awsdns-24.org",
+        "ns-1546.awsdns-01.co.uk",
+        "ns-443.awsdns-55.com",
+        "ns-865.awsdns-44.net"
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "domain": "agentiq.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "chat",
+        "chat-service.imcu",
+        "chat-service.nicolet",
+        "chat-service.rockland"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "agentiq\\.co\\/webchat\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Event.prototype.timeStamp": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d50620f0798385571e59b2fc1ce8da2aa184f2acc87d7c1baf2b7a4ed26ffa4e",
+                "e7ea1b2624d75b61d5240ae1526e7f1769eb9ceb01af5eecd8dde96868a00aa1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "imcu.com",
+                "www.nicoletbank.com",
+                "www.rocklandtrust.com"
+            ]
+        },
+        {
+            "rule": "agentiq\\.co\\/static\\/themes\\/base\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-service.imcu",
+                "chat-service.nicolet",
+                "chat-service.rockland"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "2ec8215f39c9c841fd345a7946173df4538fdcf67ed3ac67ebacfe0366de24fb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "imcu.com",
+                "www.nicoletbank.com",
+                "www.rocklandtrust.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "pdns13.domaincontrol.com",
+        "pdns14.domaincontrol.com"
+    ]
+}

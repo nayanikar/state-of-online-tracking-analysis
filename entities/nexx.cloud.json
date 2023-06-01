@@ -1,0 +1,83 @@
+{
+    "domain": "nexx.cloud",
+    "owner": {
+        "name": "nexx.tv GmbH",
+        "displayName": "nexx.tv"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "arc"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "nexx\\.cloud\\/libs\\/shaka-mux_1136_br\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "arc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "da8f64a4ca8ff9ceec948e69585faa28aae42be87ddc45c801a1ac7530a4c682"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "einfachbacken.de",
+                "www.einfachbacken.de",
+                "www.playboy.de"
+            ]
+        },
+        {
+            "rule": "nexx\\.cloud\\/static\\/structure\\/pixel_transparent\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "arc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "04d65c76f0c1140eee4611b75256d97de58a9b4985cef0c89583ddd301c09ca8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "einfachbacken.de",
+                "www.playboy.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns2-01.azure-dns.net",
+        "ns3-01.azure-dns.org",
+        "ns4-01.azure-dns.info",
+        "ns1-01.azure-dns.com"
+    ]
+}

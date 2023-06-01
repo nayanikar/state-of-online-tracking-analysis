@@ -1,0 +1,77 @@
+{
+    "domain": "fcl.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "identity-auth-ui.edge.soar"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "fcl\\.cloud\\/accountData",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity-auth-ui.edge.soar"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flightcentre.com.au",
+                "www.flightcentre.com.au"
+            ]
+        },
+        {
+            "rule": "fcl\\.cloud\\/accountData",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity-auth-ui.edge.soar"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "29e839e90935cc017d60734d2b86a7bcbb10386143bc24d8f793cd2b87301561"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flightcentre.com.au",
+                "www.flightcentre.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1914.awsdns-47.co.uk",
+        "ns-148.awsdns-18.com",
+        "ns-895.awsdns-47.net",
+        "ns-1456.awsdns-54.org"
+    ]
+}

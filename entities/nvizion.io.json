@@ -1,0 +1,144 @@
+{
+    "domain": "nvizion.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "pf-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nvizion\\.io\\/_ui\\/js\\/pfRecommendations\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pf-api"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fa4f32194c8ba457f9d49332c029d497bb457b8afc784bc8847ddaecd0656b0b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pureformulas.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "nvizion\\.io\\/eventingest\\/userInterests",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pf-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pureformulas.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "nvizion\\.io\\/eventingest\\/userInterests",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pf-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pureformulas.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "nvizion\\.io\\/getRecommendations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pf-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bf0bfc028eab81eab4aaf63c28276d9d256fad2713068b3016f6e8a16b26f3fe"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pureformulas.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "nvizion\\.io\\/getRecommendations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pf-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pureformulas.com",
+                "www.pureformulas.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns1-02.azure-dns.com",
+        "ns3-02.azure-dns.org",
+        "ns2-02.azure-dns.net",
+        "ns4-02.azure-dns.info"
+    ]
+}

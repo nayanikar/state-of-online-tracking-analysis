@@ -1,0 +1,86 @@
+{
+    "domain": "cegedim.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "stats-cnrs"
+    ],
+    "cnames": [
+        {
+            "original": "statistiques.cnrs.fr",
+            "resolved": "stats-cnrs.cegedim.cloud"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cegedim\\.cloud\\/matomo\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "stats-cnrs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "statistiques.cnrs.fr",
+                    "resolved": "stats-cnrs.cegedim.cloud"
+                }
+            ],
+            "responseHashes": [
+                "d7fc375178c93a2fc15fd888e30170eedf4ef3d04497e7f951ab7bfe0c921693"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnrs.fr",
+                "www.cnrs.fr"
+            ]
+        },
+        {
+            "rule": "cegedim\\.cloud\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stats-cnrs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "statistiques.cnrs.fr",
+                    "resolved": "stats-cnrs.cegedim.cloud"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnrs.fr",
+                "www.cnrs.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "types": {
+        "Script": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns2.cegedim.com",
+        "ns1.cegedim.fr"
+    ]
+}

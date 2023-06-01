@@ -1,0 +1,129 @@
+{
+    "domain": "juxxi.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [
+        "www",
+        "ads"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "juxxi\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1579b41e10d653593d3bb1cb9e06256d1bba2a910fa0877c9d00f31ad1b47ded"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arbuildjunkie.com",
+                "www.arbuildjunkie.com"
+            ]
+        },
+        {
+            "rule": "juxxi\\.com\\/ad\\.php",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Navigator.prototype.javaEnabled": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.colorDepth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "92a1d439d666b9e4a02503266fd5c862afa73e0073d3d4c2e9cb8ab1f52dda17"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arbuildjunkie.com",
+                "www.arbuildjunkie.com"
+            ]
+        },
+        {
+            "rule": "juxxi\\.com\\/ad\\.php",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1cfaf533b9965b7d9cf11f372b0eecdc7839642d73db9971d7533b9ad4cbc54c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arbuildjunkie.com",
+                "www.arbuildjunkie.com"
+            ]
+        },
+        {
+            "rule": "juxxi\\.com\\/objects\\/playlists\\.json\\.php",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arbuildjunkie.com",
+                "www.arbuildjunkie.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Script": 2,
+        "Image": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "pat.ns.cloudflare.com",
+        "martin.ns.cloudflare.com"
+    ]
+}

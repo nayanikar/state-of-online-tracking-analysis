@@ -1,0 +1,386 @@
+{
+    "domain": "emarsys.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00703,
+    "sites": 70,
+    "subdomains": [
+        "webchannel-content.eservice",
+        "link-dissh-com-au",
+        "link-roddandgunn-com",
+        "link-seton-net-au",
+        "suite54",
+        "suite24",
+        "suite34",
+        "suite40",
+        "snippet.plugins",
+        "assets"
+    ],
+    "cnames": [
+        {
+            "original": "link.dissh.com.au",
+            "resolved": "link-dissh-com-au.emarsys.net"
+        },
+        {
+            "original": "link.roddandgunn.com",
+            "resolved": "link-roddandgunn-com.emarsys.net"
+        },
+        {
+            "original": "link.seton.net.au",
+            "resolved": "link-seton-net-au.emarsys.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "emarsys\\.net\\/customer\\/876992150\\/campaigns",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchannel-content.eservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7eb9884cace78c2b70fcac12ead3c821110e3191027db9564ebbd8dce3c4418f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "adventurekings.com",
+                "www.4wdsupacentre.com.au"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/u\\/nprefill\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "link-dissh-com-au",
+                "link-roddandgunn-com",
+                "link-seton-net-au"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "link.dissh.com.au",
+                    "resolved": "link-dissh-com-au.emarsys.net"
+                },
+                {
+                    "original": "link.roddandgunn.com",
+                    "resolved": "link-roddandgunn-com.emarsys.net"
+                },
+                {
+                    "original": "link.seton.net.au",
+                    "resolved": "link-seton-net-au.emarsys.net"
+                }
+            ],
+            "responseHashes": [
+                "4235969d830ac3e0700fd400ba4fc11fa3418fe4fd91689ca1d7ab7600c86a18"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dissh.com.au",
+                "www.roddandgunn.com",
+                "www.seton.net.au"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "suite54",
+                "suite24",
+                "suite34",
+                "suite40"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "71ff591774bdb9f8c3c582e6aacf7b63a42b277631928ee480f0e6c694c54e72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dissh.com.au",
+                "www.frenchconnection.com.au",
+                "www.hijinxhotel.com.au",
+                "www.holeymoley.com.au",
+                "www.kingliving.com.au",
+                "www.ninewest.com.au",
+                "www.seedheritage.com",
+                "www.strikebowling.com.au",
+                "www.theblockshop.com.au"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/emarsys-m2-email-after-233\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "snippet.plugins"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "6a6935717b8f193b0b20e15004501169b1ecc91ad99480118028d08b5834ac23"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "511tactical.com",
+                "www.511tactical.com",
+                "www.forevernew.com.au",
+                "www.sportsgirl.com.au",
+                "www.sussan.com.au",
+                "www.suzannegrae.com.au"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/web-emarsys-sdk\\/3\\.6\\.0\\/web-emarsys-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "window.indexedDB": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.language": 1,
+                "Notification.permission": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c91bbb1217543d015bcadf6208b9a3f6b59c3a0aae83b7336624fff235a71d12"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adorebeauty.com.au",
+                "www.citybeach.com"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/web-emarsys-sdk\\/3\\.6\\.0\\/web-emarsys-service-worker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3cbeb215286e1ac5ff18c5141cf3f2d9fd4559f44b4c758b0f36417d557c9ac2"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citybeach.com",
+                "www.citybeach.com"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/img\\/trans\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "suite24",
+                "suite34"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frenchconnection.com.au",
+                "www.hijinxhotel.com.au",
+                "www.holeymoley.com.au",
+                "www.strikebowling.com.au"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/web-emarsys-sdk\\/4\\.0\\.0\\/web-emarsys-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "window.indexedDB": 3,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.language": 2,
+                "Notification.permission": 2,
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f9de08162583772df83c06c14d250fb1dffe6a03af71743ffc6006128bd54519"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gluestore.com.au",
+                "www.lornajane.com.au",
+                "www.pillowtalk.com.au"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/web-emarsys-sdk\\/4\\.0\\.0\\/web-emarsys-service-worker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "11e1c6f0281ad4a90f9263fa0118514193115359adbf5fe18549490b5481f090"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gluestore.com.au",
+                "www.gluestore.com.au",
+                "www.pillowtalk.com.au"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/customer\\/794833621\\/campaigns",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchannel-content.eservice"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "afb4dea4df54fdf0446f4a8a8b229cb9f8d052a20fe311e68068ab5630febe6c",
+                "cfefa08165840a60974b55bcfe491f40d6ce57c0344f1becc4bde853a11d5dab"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hijinxhotel.com.au",
+                "www.holeymoley.com.au",
+                "www.strikebowling.com.au"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/web-emarsys-sdk\\/3\\.2\\.0\\/web-emarsys-service-worker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "200310ee3ccadea1eb8ff08d7c71c2275fcd79649ab7250fdfb1df35ce5167f4"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "totaltools.com.au",
+                "www.totaltools.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "scarabresearch.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3508771929824561
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.05263157894736842
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.03508771929824561
+        },
+        {
+            "domain": "lr-in.com",
+            "prevalence": 0.017543859649122806
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.017543859649122806
+        },
+        {
+            "domain": "trackjs.com",
+            "prevalence": 0.008771929824561403
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.008771929824561403
+        },
+        {
+            "domain": "contentsquare.net",
+            "prevalence": 0.008771929824561403
+        }
+    ],
+    "types": {
+        "XHR": 5,
+        "Script": 23,
+        "Other": 7,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns1.dnsmadeeasy.com",
+        "ns3.dnsmadeeasy.com",
+        "ns4.dnsmadeeasy.com",
+        "ns2.dnsmadeeasy.com",
+        "ns0.dnsmadeeasy.com"
+    ]
+}

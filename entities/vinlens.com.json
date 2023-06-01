@@ -1,0 +1,143 @@
+{
+    "domain": "vinlens.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "vinlens\\.com\\/vl2\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e44db25d1dfc522e4ee49efe962de56f8648a0debe073bc2f905f32e767a7b44"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vlVisitCreatedUtc": {
+                    "ttl": 43205,
+                    "length": 29,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "lmc": {
+                    "ttl": 1805,
+                    "length": 24,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "vlStoredAamHash": {
+                    "ttl": null,
+                    "length": 32,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aviscarsales.com",
+                "www.aviscarsales.com",
+                "www.davesmith.com"
+            ]
+        },
+        {
+            "rule": "vinlens\\.com\\/raw\\.ashx",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "1e5e386fc13c50db7ebbb3b3593f7aabbcd02cf6bf1be2516311af8ef8c60ff9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "abc": 0.000020421221733625584,
+                "lmc": 0.000020421221733625584
+            },
+            "exampleSites": [
+                "aviscarsales.com",
+                "www.aviscarsales.com",
+                "www.davesmith.com"
+            ]
+        },
+        {
+            "rule": "vinlens\\.com\\/Services\\/AudienceManager\\.asmx\\/LogObject",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "780e1b18e0904b2686e7e68ae54ea50056ef4e5667be2a918485704234516280"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aviscarsales.com",
+                "www.aviscarsales.com",
+                "www.davesmith.com"
+            ]
+        },
+        {
+            "rule": "vinlens\\.com\\/Services\\/AudienceManager\\.asmx\\/LogObject",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aviscarsales.com",
+                "www.aviscarsales.com",
+                "www.davesmith.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Image": 3,
+        "XHR": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns-1738.awsdns-25.co.uk",
+        "ns-300.awsdns-37.com",
+        "ns-682.awsdns-21.net",
+        "ns-1343.awsdns-39.org"
+    ]
+}

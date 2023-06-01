@@ -1,0 +1,169 @@
+{
+    "domain": "netomi.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "chatapps-us"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "netomi\\.com\\/app\\/2\\.cfd7c22414bf6bcda607\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatapps-us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "04f1b2395eb3e9556900a752f321f1e7d92cd3acc56ffd28a5dd1c71c582205d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harryrosen.com",
+                "www.westjet.com"
+            ]
+        },
+        {
+            "rule": "netomi\\.com\\/app\\/app\\.bb86d7f8765f377144f6\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatapps-us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ae6acc1131f118570dce859db9f43f6d699a27f121137104b8765b6ea371289b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harryrosen.com",
+                "www.westjet.com"
+            ]
+        },
+        {
+            "rule": "netomi\\.com\\/app\\/vendor\\.79a8f54956125ad4e11e\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "chatapps-us"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Event.prototype.timeStamp": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.product": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "efe5cc8e2c892fdd4c965ec5cd9ad8cd7ffaa9e738aad7502d20d04623614311"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harryrosen.com",
+                "www.harryrosen.com",
+                "www.westjet.com"
+            ]
+        },
+        {
+            "rule": "netomi\\.com\\/app\\/netomi_sdk\\.79a8f54956125ad4e11e\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "chatapps-us"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "BroadcastChannel.prototype.constructor": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.onLine": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4593bda4189da461cdf21cfdc28dd9a7e78e98eb167db24b198fee9a4d06d824"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "net_userId": {
+                    "ttl": 251720373323,
+                    "length": 36,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 0.6666666666666666
+                },
+                "net_conversationId": {
+                    "ttl": 1800,
+                    "length": 36,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 0.6666666666666666
+                },
+                "net_createdAt": {
+                    "ttl": 1800,
+                    "length": 13,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 0.6666666666666666
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harryrosen.com",
+                "www.harryrosen.com",
+                "www.westjet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.35714285714285715
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "netomi.io",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Stylesheet": 4,
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-178.awsdns-22.com",
+        "ns-1591.awsdns-06.co.uk",
+        "ns-1417.awsdns-49.org",
+        "ns-551.awsdns-04.net"
+    ]
+}

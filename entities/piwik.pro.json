@@ -1,0 +1,118 @@
+{
+    "domain": "piwik.pro",
+    "owner": {
+        "name": "Piwik PRO Sp. z o.o.",
+        "displayName": "Piwik PRO"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "airbus.containers",
+        "rxreedpop.containers",
+        "geogebra.containers",
+        "airbus",
+        "rxreedpop",
+        "geogebra"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "piwik\\.pro\\/ppms\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "airbus.containers",
+                "rxreedpop.containers",
+                "geogebra.containers"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.mimeTypes": 6,
+                "Navigator.prototype.javaEnabled": 6,
+                "Navigator.prototype.cookieEnabled": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.platform": 5,
+                "window.name": 6,
+                "PerformanceTiming.prototype.navigationStart": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "4738e9da8534afa970e8ee128c0784c1d6b5955e3ab81f97dc1c00a216ba84fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airbus.com",
+                "www.eurogamer.net",
+                "www.geogebra.org",
+                "www.moddb.com",
+                "www.rockpapershotgun.com",
+                "www.vg247.com"
+            ]
+        },
+        {
+            "rule": "piwik\\.pro\\/ppms\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "airbus",
+                "rxreedpop",
+                "geogebra"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airbus.com",
+                "www.eurogamer.net",
+                "www.geogebra.org",
+                "www.moddb.com",
+                "www.rockpapershotgun.com",
+                "www.vg247.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Ping": 6
+    },
+    "nameservers": [
+        "ns-344.awsdns-43.com",
+        "ns-945.awsdns-54.net",
+        "ns-1249.awsdns-28.org",
+        "ns-1658.awsdns-15.co.uk"
+    ]
+}

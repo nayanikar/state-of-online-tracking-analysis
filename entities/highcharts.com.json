@@ -1,0 +1,86 @@
+{
+    "domain": "highcharts.com",
+    "owner": {
+        "name": "Highsoft AS",
+        "displayName": "Highsoft"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [
+        "code"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "highcharts\\.com\\/highcharts\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "code"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "23c718824a5c88b1469f12f9a4ee4c08481076fd26df5159a34835664cdfc3f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citygoldbullion.com.au",
+                "virginmoney.com.au",
+                "www.flightsfrom.com",
+                "www.sustainability.vic.gov.au"
+            ]
+        },
+        {
+            "rule": "highcharts\\.com\\/stock\\/highstock\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "code"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5040e6046d7ac278dbf5c01fc5c0ce30e59394f59f277b1236657019c39939e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldprice.org",
+                "silverprice.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000803,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "fred.ns.cloudflare.com",
+        "lisa.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "domain": "servicecloudweb.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "dw-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "servicecloudweb\\.com\\/v2\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dw-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "holla.world",
+                "www.monkey.app"
+            ]
+        },
+        {
+            "rule": "servicecloudweb\\.com\\/v2\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dw-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a627cdef47d90beb8922c69653ebe40592d9af103fb4e925c2dee8bc0615f83e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "holla.world",
+                "www.monkey.app"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "monkey.cool",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "cacheserv.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-141.awsdns-17.com",
+        "ns-953.awsdns-55.net",
+        "ns-1260.awsdns-29.org",
+        "ns-1801.awsdns-33.co.uk"
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "domain": "gokwik.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "pdp",
+        "analytics",
+        "hits"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gokwik\\.co\\/integration\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pdp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "2de815ea3ffc1db811fb87bf7d76219d415808ba2b6b4104b966e9bc270dde00"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drvaidyas.com",
+                "www.boat-lifestyle.com",
+                "www.fireboltt.com",
+                "www.gonoise.com"
+            ]
+        },
+        {
+            "rule": "gokwik\\.co\\/build\\/gokwik\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pdp"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.platform": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "4a9c6919e1d47f2797cc6cc6d1def2cabf861e0867f7166d90a02bfb5f3cf249"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drvaidyas.com",
+                "www.boat-lifestyle.com",
+                "www.fireboltt.com",
+                "www.gonoise.com"
+            ]
+        },
+        {
+            "rule": "gokwik\\.co\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "abb5735d8d7f239731211b0174d2c9089c083c9f5ee4f3d4bd05d3ea6ea4b11b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drvaidyas.com",
+                "www.boat-lifestyle.com",
+                "www.gonoise.com"
+            ]
+        },
+        {
+            "rule": "gokwik\\.co\\/api\\/v1\\/header\\/events\\/update",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hits"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8900642d4c2973d06224e76e4a9ab143a9bdbf9a373184435ef23de5f0c0f131"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gonoise.com",
+                "www.gonoise.com"
+            ]
+        },
+        {
+            "rule": "gokwik\\.co\\/api\\/v1\\/header\\/events\\/update",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hits"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gonoise.com",
+                "www.gonoise.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7333333333333333
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.26666666666666666
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-736.awsdns-28.net",
+        "ns-1786.awsdns-31.co.uk",
+        "ns-120.awsdns-15.com",
+        "ns-1485.awsdns-57.org"
+    ]
+}

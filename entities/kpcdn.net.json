@@ -1,0 +1,54 @@
+{
+    "domain": "kpcdn.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "s02.api.yc"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "kpcdn\\.net\\/content\\/api\\/1\\/pages\\/get\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s02.api.yc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "55ba81db506d88059abf3d570df56402f5259a33854f985b21db763f81cfcabf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kp.ru",
+                "www.kp.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns2.yandexcloud.net",
+        "ns1.yandexcloud.net"
+    ]
+}

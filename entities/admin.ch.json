@@ -1,0 +1,177 @@
+{
+    "domain": "admin.ch",
+    "owner": {
+        "name": "Bundesamt für Informatik und Telekommunikation BIT",
+        "displayName": "Bundesamt für Informatik und Telekommunikation BIT"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "api3.geo",
+        "wms.geo"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "admin\\.ch\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api3.geo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ff8181fd298d7b534ab9eac5f4a8b40d20d5853e830d45b9965b20e4e15f7ea6",
+                "001ef9c07cb8c3e290e999c4f0a96a33b8677f212c795ad45fb6a5653f158bf3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalmuseum.ch",
+                "www.cadastre.ch",
+                "www.landesmuseum.ch"
+            ]
+        },
+        {
+            "rule": "admin\\.ch\\/resources\\/api\\/3\\.6\\.0\\/ga\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api3.geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1fb17724a5d1a0e83177adefea21428a623661140e183de96c716873529ddfb4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cadastre.ch",
+                "www.landesmuseum.ch"
+            ]
+        },
+        {
+            "rule": "admin\\.ch\\/resources\\/api\\/3\\.6\\.0\\/EPSG21781\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api3.geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e4289389915c19aecf4aaa2dd519943c59db5d2693fc78fb8289964e31e70ded"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cadastre.ch",
+                "www.landesmuseum.ch"
+            ]
+        },
+        {
+            "rule": "admin\\.ch\\/resources\\/api\\/3\\.6\\.0\\/EPSG2056\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api3.geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "74445a4c96c90d28ccdb1513fc1e11fb6f8977bc6a4009caf1a0c4ba9632724e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cadastre.ch",
+                "www.landesmuseum.ch"
+            ]
+        },
+        {
+            "rule": "admin\\.ch\\/resources\\/api\\/3\\.6\\.0\\/ga\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api3.geo"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2,
+                "CanvasRenderingContext2D.prototype.getImageData": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d1b7c240e8c297f1fd586390b2ee84f8e47795ec3ef5f889056650735f1bb48a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cadastre.ch",
+                "www.landesmuseum.ch"
+            ]
+        },
+        {
+            "rule": "admin\\.ch\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wms.geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "da4a0d40c1fda6372016d8e0391633f7ff61843a4806af013355812a2ed6476f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cadastre.ch",
+                "www.cadastre.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Stylesheet": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ins3.admin.ch",
+        "ins2.admin.ch",
+        "ins1.admin.ch"
+    ]
+}

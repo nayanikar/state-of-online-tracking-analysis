@@ -1,0 +1,61 @@
+{
+    "domain": "plaid.com",
+    "owner": {
+        "name": "Plaid Inc",
+        "displayName": "Plaid"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "plaid\\.com\\/link\\/v2\\/stable\\/link-initialize\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a64bb708f0ceebbf1e282c78c5f9dd4f5c105c93c10103d84e38fdd197014b06"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wealthsimple.com",
+                "my.wealthsimple.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-967.awsdns-56.net",
+        "ns-1123.awsdns-12.org",
+        "ns-1688.awsdns-19.co.uk",
+        "ns-309.awsdns-38.com"
+    ]
+}

@@ -1,0 +1,393 @@
+{
+    "domain": "letslinc.com",
+    "owner": {
+        "name": "Linc Global, Inc",
+        "displayName": "Linc Global"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000102,
+    "sites": 15,
+    "subdomains": [
+        "connect",
+        "care",
+        "web-chat",
+        "event-service",
+        "linc-campaign-media"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "letslinc\\.com\\/v1\\/webChat\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "window.innerHeight": 6,
+                "window.innerWidth": 6,
+                "Document.cookie setter": 4
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "d3826b3a217e9caa6532b5d27524a3bfd68e2ce53eaa5479e7b1bf8729a4fecd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "linc.web_chat.ids.client.development": {
+                    "ttl": 157680023,
+                    "length": 63,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carters.com",
+                "www.carters.com",
+                "www.eddiebaueroutlet.com",
+                "www.pacsun.com",
+                "www.pureformulas.com",
+                "www.talbots.com",
+                "www.venus.com"
+            ]
+        },
+        {
+            "rule": "letslinc\\.com\\/webchat\\/widget",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "care"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "2993b3bb55d89386e982694fd37a94f8217b2ffa6c56ea1d02be138703e98745",
+                "c52d87b39e5d6740dced1eb91203ed955cff06b47906dc85507a5145671154c3",
+                "235c623af40c3756e96947dd00739cb221224ceed0143db1b45e7910ae6fbb06",
+                "f6e2b53f54e7dd10f88083d0e6b3379b9c34bcdb8aa6542344a3ca3e6b5571b7",
+                "9d73184cf4e49cd730dca2f5b6a61c4d80a9222f0dce6ec447bfa2cbe145f0fb"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dy_fs_page": 0.000006807073911208528,
+                "parent_domain": 0.000006807073911208528,
+                "IR_gbd": 0.000006807073911208528,
+                "_li_dcdm_c": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "carters.com",
+                "www.carters.com",
+                "www.eddiebaueroutlet.com",
+                "www.pacsun.com",
+                "www.pureformulas.com",
+                "www.talbots.com",
+                "www.venus.com"
+            ]
+        },
+        {
+            "rule": "letslinc\\.com\\/r97\\.2-3752-g312731f3\\/webChatClient\\.65e53977\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "5ba9a6cdca41fdbd86ae395829f3117518cdfa25f9ab7c6ba8a5349b27916d7b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carters.com",
+                "www.carters.com",
+                "www.eddiebaueroutlet.com",
+                "www.pacsun.com",
+                "www.pureformulas.com",
+                "www.talbots.com",
+                "www.venus.com"
+            ]
+        },
+        {
+            "rule": "letslinc\\.com\\/r97\\.2-3752-g312731f3\\/898\\.b327f68f\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Event.prototype.timeStamp": 3
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "c2e609c19a1aa76446e9360be5e6dbdbf1df5196cc20c59179fd25b0d82e4475"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carters.com",
+                "www.carters.com",
+                "www.eddiebaueroutlet.com",
+                "www.pacsun.com",
+                "www.pureformulas.com",
+                "www.talbots.com",
+                "www.venus.com"
+            ]
+        },
+        {
+            "rule": "letslinc\\.com\\/r97\\.2-3752-g312731f3\\/webChatClient\\.65e53977\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 6,
+                "Date.prototype.getTime": 6
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "f714e497edfb4938630c30b10526ed66eb431e4bc8a4416f1087cf8e9ceea743"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carters.com",
+                "www.carters.com",
+                "www.eddiebaueroutlet.com",
+                "www.pacsun.com",
+                "www.pureformulas.com",
+                "www.talbots.com",
+                "www.venus.com"
+            ]
+        },
+        {
+            "rule": "letslinc\\.com\\/user\\/init",
+            "cookies": 0.0000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-chat"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carters.com",
+                "www.eddiebaueroutlet.com",
+                "www.pacsun.com",
+                "www.pureformulas.com",
+                "www.talbots.com",
+                "www.venus.com"
+            ]
+        },
+        {
+            "rule": "letslinc\\.com\\/event_api",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event-service"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "f1ea07a1e51a389c8de07120ae5c2e432e9dd8f4fbd6f92489f185b0523a3fd4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carters.com",
+                "www.eddiebaueroutlet.com",
+                "www.pacsun.com",
+                "www.pureformulas.com",
+                "www.talbots.com",
+                "www.venus.com"
+            ]
+        },
+        {
+            "rule": "letslinc\\.com\\/user\\/init",
+            "cookies": 0.0000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-chat"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "47ba311dbdc22068a5904f6ddb0fb4f9185533bd4fdcbbbc92a9ab8656b5c628",
+                "55d0802e486a08b76bdd45c4b9daada37bd791e696402a0eb5356deb4cebab9a",
+                "5fab9d5b1a2ea1086a1fbf36fbd737bffa081a400f24e153372d83b092252406",
+                "48e4ee7008609a31c1f67504662dcc02775cb59a029d77819a9b3ea6569b65e4",
+                "f6b3a426935bb5f5609bb34eea0257168545ccdfe42158f8c3081a2b249212bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carters.com",
+                "www.eddiebaueroutlet.com",
+                "www.pacsun.com",
+                "www.pureformulas.com",
+                "www.talbots.com",
+                "www.venus.com"
+            ]
+        },
+        {
+            "rule": "letslinc\\.com\\/v1\\/optinWidget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3ca4a69e79b69d66bda28b5a05b68889e1da451af9b5bce8f870b4466525dd06"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carters.com",
+                "www.cartersoshkosh.ca"
+            ]
+        },
+        {
+            "rule": "letslinc\\.com\\/eddiebauer\\/2021-11-08\\/eb_chat_text_icon\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "linc-campaign-media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6642379bfb86cdec2d1b4315ab8250414e2125693b12dfbbd23bf9addddd8446"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eddiebaueroutlet.com",
+                "www.eddiebaueroutlet.com"
+            ]
+        },
+        {
+            "rule": "letslinc\\.com\\/pacsun\\/2021-06-11\\/Promo+Bar\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "linc-campaign-media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d9bf76d9b96a128626c512f9c310c541d105da7771cc322d018ba0f96ad08a07"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pacsun.com",
+                "www.pacsun.com"
+            ]
+        },
+        {
+            "rule": "letslinc\\.com\\/venus\\/2020-04-29\\/linc-chat-400px\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "linc-campaign-media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b8adcea0266bf9381f5d8ff5839e91a459168946b8a7f3fa7522d59ab244b252"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "venus.com",
+                "www.venus.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4827586206896552
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.41379310344827586
+        },
+        {
+            "domain": "carters.mobi",
+            "prevalence": 0.06896551724137931
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.034482758620689655
+        }
+    ],
+    "types": {
+        "Script": 23,
+        "Document": 7,
+        "Stylesheet": 7,
+        "Preflight": 6,
+        "Fetch": 12,
+        "Image": 6
+    },
+    "nameservers": [
+        "ns-230.awsdns-28.com",
+        "ns-1000.awsdns-61.net",
+        "ns-1893.awsdns-44.co.uk",
+        "ns-1089.awsdns-08.org"
+    ]
+}

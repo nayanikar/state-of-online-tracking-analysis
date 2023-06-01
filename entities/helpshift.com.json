@@ -1,0 +1,441 @@
+{
+    "domain": "helpshift.com",
+    "owner": {
+        "name": "Helpshift, Inc.",
+        "displayName": "Helpshift"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "webchat",
+        "fishbrai-df6b5caf3d6247d.webchat",
+        "stitcher-1156c6e32e386fb.webchat",
+        "scopely-1e0cf5ab3faff85.webchat",
+        "bytro-fd2bc92bed08e2c.webchat",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "helpshift\\.com\\/webChat\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "c433511d62ff95e3fbc87c03af63c6579dc3649eaa0980be2cf6cee3fd55e4e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fishbrain.com",
+                "golficity.com",
+                "www.callofwar.com",
+                "www.stitcher.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/latest\\/html\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "13f70847630fa3c7f0058b57af3a446b262ed29e9ce3b222c8d3285d8def1210"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fishbrain.com",
+                "golficity.com",
+                "marvelstrikeforce.com",
+                "www.callofwar.com",
+                "www.stitcher.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/latest\\/html\\/ls-migration\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "fishbrai-df6b5caf3d6247d.webchat",
+                "stitcher-1156c6e32e386fb.webchat",
+                "scopely-1e0cf5ab3faff85.webchat",
+                "bytro-fd2bc92bed08e2c.webchat"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "22ad5ceca8bd72c8204ed48b00d5358b1142bc106cc10d44dd0a05dbfd17a88d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fishbrain.com",
+                "golficity.com",
+                "marvelstrikeforce.com",
+                "www.callofwar.com",
+                "www.stitcher.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/latest\\/3\\.58\\.1\\/css\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "c6b0b2a67c0eaeb49e5226ec2bb31b04f050a71080ced3d384f8c0a2e17842da"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fishbrain.com",
+                "golficity.com",
+                "marvelstrikeforce.com",
+                "www.callofwar.com",
+                "www.stitcher.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/latest\\/3\\.58\\.1\\/libs\\/libs-min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.platform": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "3882f35733e0d5c24bab97723c299416b1beca3de488fb76444073cf79e4f252"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fishbrain.com",
+                "golficity.com",
+                "marvelstrikeforce.com",
+                "www.callofwar.com",
+                "www.stitcher.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/latest\\/3\\.58\\.1\\/scripts\\/app-min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.languages": 5,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.connection": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "9c5ca99a862444183ab01bb821674f0ff597f1af5bbfcc1e784b2449d113d340"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fishbrain.com",
+                "golficity.com",
+                "marvelstrikeforce.com",
+                "www.callofwar.com",
+                "www.stitcher.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/3\\.58\\.1\\/assets\\/audio\\/send\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "b2d68dc5b846313560d2dcda6412e8647064ea1efefe5679b6028cd057f0328a"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fishbrain.com",
+                "golficity.com",
+                "marvelstrikeforce.com",
+                "www.callofwar.com",
+                "www.stitcher.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/3\\.58\\.1\\/assets\\/audio\\/receive\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "6e8c21ad071d08cb178ab97faeb8c2d16caa17384a5456a380e398ed59ddd17a"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fishbrain.com",
+                "golficity.com",
+                "marvelstrikeforce.com",
+                "www.callofwar.com",
+                "www.stitcher.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/websdk\\/stitcher\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d94947960ed24fe65bc38222f506b91749673d9c05de319cc1c1e113f7543e03"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golficity.com",
+                "www.stitcher.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/events\\/v1\\/stitcher\\/websdk\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3b9de8f3bb4d65ebe964703b38c9ce2f3b40a58b33484e6eed8f92bbd5f10a4f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golficity.com",
+                "www.stitcher.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/events\\/v1\\/stitcher\\/websdk\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golficity.com",
+                "www.stitcher.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/events\\/v1\\/stitcher\\/logs\\/websdk\\/performance",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3b9de8f3bb4d65ebe964703b38c9ce2f3b40a58b33484e6eed8f92bbd5f10a4f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golficity.com",
+                "www.stitcher.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/websdk\\/bytro\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0e01a7dd26bb6f2da9fc16405b3d0221a2671ccc22617d7ccd2f560f45d17a11"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "callofwar.com",
+                "www.callofwar.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/events\\/v1\\/bytro\\/websdk\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "callofwar.com",
+                "www.callofwar.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/events\\/v1\\/bytro\\/websdk\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3b9de8f3bb4d65ebe964703b38c9ce2f3b40a58b33484e6eed8f92bbd5f10a4f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "callofwar.com",
+                "www.callofwar.com"
+            ]
+        },
+        {
+            "rule": "helpshift\\.com\\/events\\/v1\\/bytro\\/logs\\/websdk\\/performance",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3b9de8f3bb4d65ebe964703b38c9ce2f3b40a58b33484e6eed8f92bbd5f10a4f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "callofwar.com",
+                "www.callofwar.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8076923076923077
+        },
+        {
+            "domain": "stitcher.com",
+            "prevalence": 0.19230769230769232
+        }
+    ],
+    "types": {
+        "Script": 14,
+        "Document": 10,
+        "Stylesheet": 5,
+        "Media": 10,
+        "XHR": 12,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns-1219.awsdns-24.org",
+        "ns-616.awsdns-13.net",
+        "ns-376.awsdns-47.com",
+        "ns-1972.awsdns-54.co.uk"
+    ]
+}

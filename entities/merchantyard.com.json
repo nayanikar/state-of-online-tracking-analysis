@@ -1,0 +1,162 @@
+{
+    "domain": "merchantyard.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "stack-discounts",
+        "store-credit"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "merchantyard\\.com\\/js\\/integrations\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "stack-discounts",
+                "store-credit"
+            ],
+            "apis": {
+                "Document.cookie getter": 5
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "2234c5bb61aa76eb698a3e9a7b815a255739ebb396d396aab538c44a29cc55a5",
+                "4ae0fe4dbc182c2ea1baaccc780ff5aaff5320fdfa169c4e60346d90b719c0d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dangerfield.com.au",
+                "energymuse.com",
+                "gormanshop.com.au",
+                "princesshighway.com.au",
+                "www.hobbyco.com.au",
+                "www.manchesterwarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "merchantyard\\.com\\/api\\/shopify\\/coupons\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stack-discounts"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dangerfield.com.au",
+                "energymuse.com",
+                "gormanshop.com.au",
+                "princesshighway.com.au",
+                "www.manchesterwarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "merchantyard\\.com\\/api\\/shopify\\/coupons\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stack-discounts"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "333d6804f7f46f41f0e7edf9c308c28f7c773ba115b4f073a4818ea3d1e0f85a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dangerfield.com.au",
+                "energymuse.com",
+                "gormanshop.com.au",
+                "princesshighway.com.au",
+                "www.manchesterwarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "merchantyard\\.com\\/api\\/shopify\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "store-credit"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vivobarefoot.com.au",
+                "www.hobbyco.com.au"
+            ]
+        },
+        {
+            "rule": "merchantyard\\.com\\/api\\/shopify\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "store-credit"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vivobarefoot.com.au",
+                "www.hobbyco.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.5384615384615384
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.46153846153846156
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Preflight": 7,
+        "XHR": 7
+    },
+    "nameservers": [
+        "ns-53.awsdns-06.com",
+        "ns-984.awsdns-59.net",
+        "ns-2016.awsdns-60.co.uk",
+        "ns-1532.awsdns-63.org"
+    ]
+}

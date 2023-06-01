@@ -1,0 +1,297 @@
+{
+    "domain": "zap.co.il",
+    "owner": {
+        "name": "Zap Group ltd",
+        "displayName": "Zap Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "sso",
+        "zum"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zap\\.co\\.il\\/Scripts\\/sso2\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4758da3ee82b9965820ce321c6fa869f5f3a2a7137af26c915eec9f5ab32ef71"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rest.co.il",
+                "www.rest.co.il"
+            ]
+        },
+        {
+            "rule": "zap\\.co\\.il\\/scripts\\/google\\/one-tap\\/5\\/script\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6614a15fba1f4b08ac1232c3691bb7922bdc634dcd7e7bf29c0d662dac9e6914"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rest.co.il",
+                "www.rest.co.il"
+            ]
+        },
+        {
+            "rule": "zap\\.co\\.il\\/scripts\\/zapum\\/zapid_v1\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5036352385200ac2adff55b4894315ff2d16cd41c357fc3f2a31ef71cf56a3e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "googleInfo": {
+                    "ttl": 86404,
+                    "length": 45,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "zapum_v1": {
+                    "ttl": 157680010,
+                    "length": 102,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rest.co.il",
+                "www.rest.co.il"
+            ]
+        },
+        {
+            "rule": "zap\\.co\\.il\\/LoginCheck\\.html",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cec87482dbd9aa152e983d006c6ec4a31a5c586e5f0d20811070b12fc6f8a394"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rest.co.il",
+                "www.rest.co.il"
+            ]
+        },
+        {
+            "rule": "zap\\.co\\.il\\/scripts\\/google\\/one-tap\\/5\\/template\\.html",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ca5d60ec7e54017df11c9f5bab262f2d129223b2a6cd4f20734313f2bd08f281"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rest.co.il",
+                "www.rest.co.il"
+            ]
+        },
+        {
+            "rule": "zap\\.co\\.il\\/scripts\\/google\\/one-tap\\/5\\/style\\.css",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7da06c8061a7fddb4d4b27cf123197086d9d5b75c10af26284eff58c26e28f7d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rest.co.il",
+                "www.rest.co.il"
+            ]
+        },
+        {
+            "rule": "zap\\.co\\.il\\/api\\/ingest\\/GetBrowserDataAsync",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zum"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7910f0897a2743252e11cff234c2cfa1456abcf75eb5e5f4a7eb21ff19afe3ec"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rest.co.il",
+                "www.rest.co.il"
+            ]
+        },
+        {
+            "rule": "zap\\.co\\.il\\/api\\/ingest\\/GetBrowserDataAsync",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zum"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rest.co.il",
+                "www.rest.co.il"
+            ]
+        },
+        {
+            "rule": "zap\\.co\\.il\\/Handlers\\/LoginCheck\\.ashx",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rest.co.il",
+                "www.rest.co.il"
+            ]
+        },
+        {
+            "rule": "zap\\.co\\.il\\/scripts\\/afterLogin\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "496c737541ba97f20695a20122e240fefa4fc483033374f10197afe87b2cecb6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "SiteCookie": {
+                    "ttl": 308,
+                    "length": 11,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rest.co.il",
+                "www.rest.co.il"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "google-analytics.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Document": 4,
+        "XHR": 6,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "selah.ns.cloudflare.com",
+        "donovan.ns.cloudflare.com"
+    ]
+}

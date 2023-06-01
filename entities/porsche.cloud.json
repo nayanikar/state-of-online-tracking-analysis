@@ -1,0 +1,152 @@
+{
+    "domain": "porsche.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "assets.identity.p-dub.myaccess.aws",
+        "auth0.p-dub.myaccess.aws",
+        "prs.visservice.aws.platform"
+    ],
+    "cnames": [
+        {
+            "original": "assets.identity.porsche.com",
+            "resolved": "assets.identity.p-dub.myaccess.aws.porsche.cloud"
+        },
+        {
+            "original": "identity.porsche.com",
+            "resolved": "auth0.p-dub.myaccess.aws.porsche.cloud"
+        },
+        {
+            "original": "prs.porsche.com",
+            "resolved": "prs.visservice.aws.platform.porsche.cloud"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "porsche\\.cloud\\/migration\\/configuration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.identity.p-dub.myaccess.aws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "assets.identity.porsche.com",
+                    "resolved": "assets.identity.p-dub.myaccess.aws.porsche.cloud"
+                }
+            ],
+            "responseHashes": [
+                "6b3486d1a87f179e1af1be2f07a7c73106ff46b277ae16d5cd6119c3c3d2264a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "porsche.com",
+                "www.porsche.com"
+            ]
+        },
+        {
+            "rule": "porsche\\.cloud\\/authorize",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth0.p-dub.myaccess.aws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "identity.porsche.com",
+                    "resolved": "auth0.p-dub.myaccess.aws.porsche.cloud"
+                }
+            ],
+            "responseHashes": [
+                "725e0b760dfcf91ffea3e0feb242a8fb6a5864790c662a6ee6dcc6550acc5063"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "porsche.com",
+                "www.porsche.com"
+            ]
+        },
+        {
+            "rule": "porsche\\.cloud\\/products\\/products\\/Y1AFH1\\/details",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prs.visservice.aws.platform"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "prs.porsche.com",
+                    "resolved": "prs.visservice.aws.platform.porsche.cloud"
+                }
+            ],
+            "responseHashes": [
+                "6bc8dd7a740df3e5c5285dedfcee0e90d2d7fa0e166b5825276c3d690ea2a27b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "porsche.com",
+                "www.porsche.com"
+            ]
+        },
+        {
+            "rule": "porsche\\.cloud\\/ruler\\/configuration\\/Y1AFH1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prs.visservice.aws.platform"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "prs.porsche.com",
+                    "resolved": "prs.visservice.aws.platform.porsche.cloud"
+                }
+            ],
+            "responseHashes": [
+                "6500d38fb6ada983806be01ad32b32ce297af36b9dbcf167a24ed1fc784fab7a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "porsche.com",
+                "www.porsche.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "types": {
+        "Fetch": 6,
+        "Document": 2
+    },
+    "nameservers": [
+        "dns1.p09.nsone.net",
+        "dns4.p09.nsone.net",
+        "dns2.p09.nsone.net",
+        "dns3.p09.nsone.net"
+    ]
+}

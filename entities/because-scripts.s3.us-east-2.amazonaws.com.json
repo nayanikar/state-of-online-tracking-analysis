@@ -1,0 +1,90 @@
+{
+    "domain": "because-scripts.s3.us-east-2.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "because-scripts\\.s3\\.us-east-2\\.amazonaws\\.com\\/prod\\/because-widget\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "876f712bc664e7f0382d2da9ae239e754135a1a23ad205cd9ab86e904ee0f238"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dukecannon.com",
+                "oliveandjune.com",
+                "tomboyx.com",
+                "www.newair.com",
+                "www.ohpolly.com"
+            ]
+        },
+        {
+            "rule": "because-scripts\\.s3\\.us-east-2\\.amazonaws\\.com\\/prod\\/shim\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.product": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.languages": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "6471654b4e41b5a14d150d3a5f75015f48080f2ff6308358e58c7a2d1bb0ad9d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dukecannon.com",
+                "oliveandjune.com",
+                "tomboyx.com",
+                "www.newair.com",
+                "www.ohpolly.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10
+    },
+    "nameservers": [
+        "ns-90.awsdns-11.com",
+        "ns-1974.awsdns-54.co.uk",
+        "ns-1428.awsdns-50.org",
+        "ns-1009.awsdns-62.net"
+    ]
+}

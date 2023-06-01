@@ -1,0 +1,124 @@
+{
+    "domain": "stockinstore.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "logusage"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stockinstore\\.net\\/widgets\\/stockinstore-global\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.appCodeName": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "56c57fd73a8752c54bd2e63a36cfec7085a313c29f5919e3e6df2b71c5f3586d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_SIS_UID": {
+                    "ttl": 31536008,
+                    "length": 18,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "_SIS_SESSID": {
+                    "ttl": 1808,
+                    "length": 32,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsgirl.com.au",
+                "www.sussan.com.au",
+                "www.suzannegrae.com.au"
+            ]
+        },
+        {
+            "rule": "stockinstore\\.net\\/widget\\/initWidgetSession",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ab1d7b9272b4f84599288334a51f6b2d9c5de01763905f9ee31d323dc0093637",
+                "0d9199d6137f4b43fa0ed8afcf24a4bc2f2188a124a850afdbc8e55b17bd0513"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsgirl.com.au",
+                "www.sussan.com.au",
+                "www.suzannegrae.com.au"
+            ]
+        },
+        {
+            "rule": "stockinstore\\.net\\/widget\\/logUsage",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logusage"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ab140244cd2fd2892fec183c503c0f9522f9935f5e6c5ace01e92924a7e2e90e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsgirl.com.au",
+                "www.sussan.com.au",
+                "www.suzannegrae.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 6
+    },
+    "nameservers": [
+        "anahi.ns.cloudflare.com",
+        "terry.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "domain": "adwise.bg",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "dmp"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "adwise\\.bg\\/servlet\\/audittrail",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "2199099c8d97ec48729039d1f05f9c4752f1697861d84018c41c38103983df06",
+                "a157cae3bd8042e488717b627ea5789df7a9505b50cd4f75aabd2b871c2a0a4f",
+                "dc79c524e4de0912953950a7fdc1efd4279943343fe6e18cc13d1098fac8e9c2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nova.bg",
+                "www.abv.bg",
+                "www.sinoptik.bg",
+                "www.vbox7.com",
+                "www.vesti.bg"
+            ]
+        },
+        {
+            "rule": "adwise\\.bg\\/servlet\\/tag",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abv.bg",
+                "www.abv.bg"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5384615384615384
+        },
+        {
+            "domain": "netinfo.bg",
+            "prevalence": 0.3076923076923077
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.15384615384615385
+        }
+    ],
+    "types": {
+        "XHR": 5,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.netinfo.bg",
+        "ns.netinfo.bg"
+    ]
+}

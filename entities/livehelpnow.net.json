@@ -1,0 +1,396 @@
+{
+    "domain": "livehelpnow.net",
+    "owner": {
+        "name": "LiveHelpNow, Inc",
+        "displayName": "LiveHelpNow"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "developer",
+        "app",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "livehelpnow\\.net\\/js\\/sdk\\/lhn-jssdk-current\\.min\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "developer"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appVersion": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
+                "Screen.prototype.width": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.cookieEnabled": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "54696ca988d099913baf56d66296cbc3e789e1993aaadc6a9601c6d50fc1e7cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "lhnStorageType": {
+                    "ttl": 86409,
+                    "length": 6,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 0.3333333333333333
+                },
+                "lhnJWT": {
+                    "ttl": 86411,
+                    "length": 513,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 1
+                },
+                "lhnRefresh": {
+                    "ttl": 345610,
+                    "length": 36,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 1
+                },
+                "lhnContact": {
+                    "ttl": 63113915,
+                    "length": 50,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "durhamcollege.ca",
+                "www.flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        },
+        {
+            "rule": "livehelpnow\\.net\\/js\\/lhn-jquery-3\\.5\\.1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "developer"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ef07f5edf74062cd3a86de8cd8cd51e95c09995df0f878290b9dc3b1608fba90"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "durhamcollege.ca",
+                "www.flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        },
+        {
+            "rule": "livehelpnow\\.net\\/oauth\\/token\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "developer"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c3b1aa370958f33208f109e7d5931301f0c7514fbaa2c6097d9ab8683dc2ef45",
+                "afbced760ca01a54c0fe06adaba2745b7d34fe837dbfe4434301de11a10f0869"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "durhamcollege.ca",
+                "www.flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        },
+        {
+            "rule": "livehelpnow\\.net\\/oauth\\/token\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "developer"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "durhamcollege.ca",
+                "www.flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        },
+        {
+            "rule": "livehelpnow\\.net\\/css\\/fonts\\/opensans\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "developer"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "67f95399cb549dfd484586476f9679b76c4e92d949def87dff1893d0db532e0d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "durhamcollege.ca",
+                "www.flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        },
+        {
+            "rule": "livehelpnow\\.net\\/css\\/modern\\/button\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "developer"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "65e8a5f4b2fdf876a06d7329c63baeac81baa67fde47122acd23fdb282b7dd02"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "durhamcollege.ca",
+                "www.flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        },
+        {
+            "rule": "livehelpnow\\.net\\/css\\/modern\\/hoc\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "developer"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d44f0f4578eb4720b964ea4fff7ecd1ce37fb6a2d84e6e5c7d9f59575c0f835c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "durhamcollege.ca",
+                "www.flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        },
+        {
+            "rule": "livehelpnow\\.net\\/api\\/visitor\\/init\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "developer"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4e9da323bba68428b9706ebe5588fe6ffde44d73960c9b6c0fc217dab666e74e",
+                "95cf445eee65546323f139b33089059d89826e3c933f2875bd4828dada0d09b5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "durhamcollege.ca",
+                "www.flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        },
+        {
+            "rule": "livehelpnow\\.net\\/images\\/button-closer\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "developer"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1428c76fe21c9f3b2b01e4252dab7c1a8ac1f272c635369dabd37101414cb15c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "durhamcollege.ca",
+                "www.flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        },
+        {
+            "rule": "livehelpnow\\.net\\/api\\/visitor\\/init\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "developer"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "durhamcollege.ca",
+                "www.flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        },
+        {
+            "rule": "livehelpnow\\.net\\/js\\/socket\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "developer"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a2f551839963d9af36f9e2badd84bf31710b2f0a644dfe5f1c82cfc041deabab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "durhamcollege.ca",
+                "www.flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        },
+        {
+            "rule": "livehelpnow\\.net\\/socket\\/websocket",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "durhamcollege.ca",
+                "www.flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        },
+        {
+            "rule": "livehelpnow\\.net\\/assets\\/fonts\\/opensans\\/k3k702ZOKiLJc3WVjuplzBampu5_7CjHW5spxoeN3Vs\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "15afb3fc37ec4ed7f966a3337c0440b5748afeda5b23d29306a5707f0ec64d66"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        },
+        {
+            "rule": "livehelpnow\\.net\\/assets\\/fonts\\/opensans\\/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1ef98286ed8483059a0c7df3525fdd3e6067fca900a1501a4c90979f0995909f"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flightcentre.ca",
+                "www.rawlings.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 6,
+        "Preflight": 6,
+        "Stylesheet": 9,
+        "Image": 3,
+        "WebSocket": 3,
+        "Font": 4
+    },
+    "nameservers": [
+        "ns.rackspace.com",
+        "ns2.rackspace.com"
+    ]
+}

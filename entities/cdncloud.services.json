@@ -1,0 +1,58 @@
+{
+    "domain": "cdncloud.services",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "fonts"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cdncloud\\.services\\/fonts\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "fonts"
+            ],
+            "apis": {
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "07be5dc8169960c13486831fe1e1bbab5c0de0cd85ce968507998265ac948fe5",
+                "5874657372f4f0209beb6a8163d7fa125b0a8b9f79f6d5e8d38cd8f783329298"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hogueinc.com",
+                "www.hogueinc.com",
+                "www.pearson.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "pdns2.registrar-servers.com",
+        "pdns1.registrar-servers.com"
+    ]
+}

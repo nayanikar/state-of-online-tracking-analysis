@@ -1,0 +1,85 @@
+{
+    "domain": "clientgear.com",
+    "owner": {
+        "name": "Easy Click Worldwide Network Technology Co., Ltd.",
+        "displayName": "Easy Click Worldwide"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "event"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "clientgear\\.com\\/cookie\\/seedtag",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segmentnext.com",
+                "www.metatube.com",
+                "www.thehealthyjournal.com"
+            ]
+        },
+        {
+            "rule": "clientgear\\.com\\/track",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "uid": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "jjshouse.com.au",
+                "www.jjshouse.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "seedtag.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-162.awsdns-20.com",
+        "ns-1553.awsdns-02.co.uk"
+    ]
+}

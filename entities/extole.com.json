@@ -1,0 +1,367 @@
+{
+    "domain": "extole.com",
+    "owner": {
+        "name": "Extole",
+        "displayName": "Extole"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000109,
+    "sites": 16,
+    "subdomains": [
+        "ancestrydna",
+        "american-giant",
+        "clearme-ssl",
+        "hostgator",
+        "moo",
+        "sperry",
+        "talbots"
+    ],
+    "cnames": [
+        {
+            "original": "refer.american-giant.com",
+            "resolved": "american-giant.extole.com"
+        },
+        {
+            "original": "refer.ancestry.com",
+            "resolved": "ancestrydna.extole.com"
+        },
+        {
+            "original": "refer.clearme.com",
+            "resolved": "clearme-ssl.extole.com"
+        },
+        {
+            "original": "refer.moo.com",
+            "resolved": "moo.extole.com"
+        },
+        {
+            "original": "refer.sperry.com",
+            "resolved": "sperry.extole.com"
+        },
+        {
+            "original": "refer.talbots.com",
+            "resolved": "talbots.extole.com"
+        },
+        {
+            "original": "referral.hostgator.com",
+            "resolved": "hostgator.extole.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "extole\\.com\\/core\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ancestrydna",
+                "american-giant",
+                "clearme-ssl",
+                "hostgator",
+                "moo",
+                "sperry"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [
+                {
+                    "original": "refer.ancestry.com",
+                    "resolved": "ancestrydna.extole.com"
+                },
+                {
+                    "original": "refer.american-giant.com",
+                    "resolved": "american-giant.extole.com"
+                },
+                {
+                    "original": "refer.clearme.com",
+                    "resolved": "clearme-ssl.extole.com"
+                },
+                {
+                    "original": "referral.hostgator.com",
+                    "resolved": "hostgator.extole.com"
+                },
+                {
+                    "original": "refer.moo.com",
+                    "resolved": "moo.extole.com"
+                },
+                {
+                    "original": "refer.sperry.com",
+                    "resolved": "sperry.extole.com"
+                }
+            ],
+            "responseHashes": [
+                "b55f0a2e97206f704d7d3152e9d080601d29746d70441227db691c09e86f20fb",
+                "58ef2ce46c978a777ff2656eb9c7e5ec750b788f538546d61464842a30c67fc1",
+                "b842ef679017ee0461560ac20fdc1ca240bc093695ac9bd15b45e27a0a45fc84",
+                "3b35d774b9d553e4f59714182f36a6735bc666ff3e5ca88c9875720c5e430020",
+                "23582a1928c40b11522b07e45ca4deadb2469c5568a894a10a80959852f7d910",
+                "843526162d3f9d3919da3bd36133787fb93f05837022b186f316de82896da3fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancestry.com",
+                "support.ancestry.com",
+                "www.american-giant.com",
+                "www.ancestry.com",
+                "www.clearme.com",
+                "www.hostgator.com",
+                "www.moo.com",
+                "www.sperry.com"
+            ]
+        },
+        {
+            "rule": "extole\\.com\\/zones\\/global_footer_qa",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hostgator"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "referral.hostgator.com",
+                    "resolved": "hostgator.extole.com"
+                }
+            ],
+            "responseHashes": [
+                "1a3cacd7940428df7439988ae47bf1d6175218655ce8673b0d471fb1c70c760d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hostgator.com",
+                "www.hostgator.com"
+            ]
+        },
+        {
+            "rule": "extole\\.com\\/api\\/v4\\/debug\\/logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hostgator",
+                "moo",
+                "sperry"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [
+                {
+                    "original": "referral.hostgator.com",
+                    "resolved": "hostgator.extole.com"
+                },
+                {
+                    "original": "refer.moo.com",
+                    "resolved": "moo.extole.com"
+                },
+                {
+                    "original": "refer.sperry.com",
+                    "resolved": "sperry.extole.com"
+                }
+            ],
+            "responseHashes": [
+                "3ec8596b61523bffee26d71e76a14cd434d354428fc0e2aa83f14dddde483b48",
+                "3ed6b78e6d551f12e301e600dea1d2adf1c43d7d6d742832900555f24405cbfc",
+                "90358bd2823d1b1fe743e1f37c27c3c7dc9fe0a015704db341a5e596f99dc8fe"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hostgator.com",
+                "www.hostgator.com",
+                "www.moo.com",
+                "www.sperry.com"
+            ]
+        },
+        {
+            "rule": "extole\\.com\\/api\\/v4\\/debug\\/metrics",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hostgator",
+                "moo",
+                "sperry"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "referral.hostgator.com",
+                    "resolved": "hostgator.extole.com"
+                },
+                {
+                    "original": "refer.moo.com",
+                    "resolved": "moo.extole.com"
+                },
+                {
+                    "original": "refer.sperry.com",
+                    "resolved": "sperry.extole.com"
+                }
+            ],
+            "responseHashes": [
+                "45df351bc167524327182602e5ff2503cc849e826f1dc4c313a9e46fc5a85a8e",
+                "475a1d72f190778ef599c2e4cd5a88c67d00a25936021679b0ba0d37a057f389"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hostgator.com",
+                "www.moo.com",
+                "www.sperry.com"
+            ]
+        },
+        {
+            "rule": "extole\\.com\\/zones\\/referral_page",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "moo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "refer.moo.com",
+                    "resolved": "moo.extole.com"
+                }
+            ],
+            "responseHashes": [
+                "62f5e174e1f1b60c99205328119e9bd5364445bc83b529f50d20ed83e64594ee"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moo.com",
+                "www.moo.com"
+            ]
+        },
+        {
+            "rule": "extole\\.com\\/zones\\/promo_bar",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sperry"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "refer.sperry.com",
+                    "resolved": "sperry.extole.com"
+                }
+            ],
+            "responseHashes": [
+                "f4b30cfa75cae75e3a0175ed7232c109064f3eafadf277e46bb0b954259a8e6d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sperry.com",
+                "www.sperry.com"
+            ]
+        },
+        {
+            "rule": "extole\\.com\\/zones\\/global_header",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "talbots"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "refer.talbots.com",
+                    "resolved": "talbots.extole.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "talbots.com",
+                "www.talbots.com"
+            ]
+        },
+        {
+            "rule": "extole\\.com\\/zones\\/global_footer",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "talbots"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "refer.talbots.com",
+                    "resolved": "talbots.extole.com"
+                }
+            ],
+            "responseHashes": [
+                "e31c08e8d441a4e9005edbb8434160a271abc8335785f8c39535d65561748554"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "talbots.com",
+                "www.talbots.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "xtlo.net",
+            "prevalence": 0.48
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.16
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16
+        },
+        {
+            "domain": "extole.io",
+            "prevalence": 0.16
+        },
+        {
+            "domain": "ancestrycdn.com",
+            "prevalence": 0.04
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 17
+    },
+    "nameservers": [
+        "ns-1967.awsdns-53.co.uk",
+        "ns-409.awsdns-51.com",
+        "ns-988.awsdns-59.net",
+        "ns-1155.awsdns-16.org"
+    ]
+}

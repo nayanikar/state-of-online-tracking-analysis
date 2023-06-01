@@ -1,0 +1,262 @@
+{
+    "domain": "e-i.com",
+    "owner": {
+        "name": "Europeenne de Traitement de l'Information SAS",
+        "displayName": "Europeenne de Traitement de l'Information"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "cdnsi",
+        "cdnii",
+        "staticii"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "e-i\\.com\\/WEBO\\/sd\\/wat\\/1\\.0\\.10\\/\\/javascripts\\/tracking_event\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnsi",
+                "cdnii"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "a7d9bcf1b2680e9523e363c0bc366c48f0ed788ddc142c3c116f434e8cfe526e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auchantelecom.fr",
+                "www.cofidis.fr",
+                "www.monabanq.com",
+                "www.nrjmobile.fr"
+            ]
+        },
+        {
+            "rule": "e-i\\.com\\/SITW\\/sd\\/tools\\/2\\.2\\.2\\/javascripts\\/SITW-tools\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnii",
+                "cdnsi"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "c6483bd52bf183c013229a6367f958a538d332d99f552af813e714b3c4b75211"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cic.fr",
+                "www.cofidis.fr",
+                "www.creditmutuel.fr",
+                "www.nrjmobile.fr"
+            ]
+        },
+        {
+            "rule": "e-i\\.com\\/WEBO\\/sd\\/wat\\/1\\.0\\.11\\/\\/javascripts\\/tracking_event\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnii",
+                "cdnsi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5d1a82bd9e4d0a20c16b311bdaf6a5051db65c03f36a42f11bb7ac240dc2846c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cic.fr",
+                "www.creditmutuel.fr"
+            ]
+        },
+        {
+            "rule": "e-i\\.com\\/MSGS\\/sd\\/chat\\/6\\.2\\.39\\/runtime\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnii"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6c5acbb82a46a4971660f65131241dffcc28828f4dbd76b8ec7bab0b468250f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cofidis.fr",
+                "www.monabanq.com"
+            ]
+        },
+        {
+            "rule": "e-i\\.com\\/MSGS\\/sd\\/chat\\/6\\.2\\.39\\/polyfills\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnii"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0b02ff1a1322e2bf075992665e4b259de7b407198be789794df51b1bc3dc89e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cofidis.fr",
+                "www.monabanq.com"
+            ]
+        },
+        {
+            "rule": "e-i\\.com\\/MSGS\\/sd\\/chat\\/6\\.2\\.39\\/styles\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnii"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c2881051ec62249ab7c806caa3979ac4cd4a1a2e82d288b1eb46858e24fd2c3e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cofidis.fr",
+                "www.monabanq.com"
+            ]
+        },
+        {
+            "rule": "e-i\\.com\\/MSGS\\/sd\\/chat\\/6\\.2\\.39\\/main\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnii"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "247020b1de03a9a9c02de853999c2f255678d9ec4a2e8810159266f95cc4fe5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "msgs-authent-state": {
+                    "ttl": 3604,
+                    "length": 5,
+                    "prevalence": 0.0002010252286661976,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cofidis.fr",
+                "www.monabanq.com"
+            ]
+        },
+        {
+            "rule": "e-i\\.com\\/public\\/shared\\/jquery\\/3\\.5\\.1\\/jquery\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "staticii"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f1c65ee7ffb0f275ac05214ff6ce8d595bf1f92a7edf4647056e8bdc5fb9cb6e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cofidis.fr",
+                "www.monabanq.com"
+            ]
+        },
+        {
+            "rule": "e-i\\.com\\/public\\/shared\\/malihu-custom-scrollbar-plugin\\/3\\.0\\.9\\/jquery\\.mCustomScrollbar\\.concat\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "staticii"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c50f405a8145af9bc337ad8cece8c1f3193178118d85e8a40a4cca4728a6f03c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cofidis.fr",
+                "www.monabanq.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 22
+    },
+    "nameservers": [
+        "ldnsse2p.e-i.net",
+        "ldnsse1p.e-i.net",
+        "ldnsie2p.e-i.net",
+        "ldnsie1p.e-i.net"
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "domain": "shanon-services.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "tracker"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "shanon-services\\.com\\/tracker\\/create_new_id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "761603b056a047bc291cddd1417d80c9f7a9cd0168dcd2f6d3e1a8ac93fd8b63",
+                "99e9fe11bfae2f16dc052fc224b383b9b8a512dda65c5a83fdfff20357752a8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gentosha-go.com",
+                "www.brother.co.jp",
+                "www.zeiri4.com"
+            ]
+        },
+        {
+            "rule": "shanon-services\\.com\\/tracker2\\/register",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__CAMVID": 0.000013614147822417056,
+                "__CAMSID": 0.000013614147822417056,
+                "__CAMINFO": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "brother.co.jp",
+                "www.zeiri4.com"
+            ]
+        },
+        {
+            "rule": "shanon-services\\.com\\/static\\/js\\/cam3\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b00d3cff0f9a9463c17075bcc29b9808101597167e5db40d310efcfc451539fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__CAMVID": {
+                    "ttl": 31536008,
+                    "length": 10,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "__CAMSID": {
+                    "ttl": 1808,
+                    "length": 13,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "__CAMINFO": {
+                    "ttl": 31536008,
+                    "length": 32,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zeiri4.com",
+                "www.zeiri4.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "smartseminar.jp",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 7
+    },
+    "nameservers": [
+        "ns-668.awsdns-19.net",
+        "ns-508.awsdns-63.com",
+        "ns-1613.awsdns-09.co.uk",
+        "ns-1500.awsdns-59.org"
+    ]
+}

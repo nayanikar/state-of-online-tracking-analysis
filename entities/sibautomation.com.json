@@ -1,0 +1,121 @@
+{
+    "domain": "sibautomation.com",
+    "owner": {
+        "name": "Dual Technologies Services",
+        "displayName": "Dual Technologies Services"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sibautomation\\.com\\/sa\\.js",
+            "cookies": 0.000803,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 8,
+                "Date.prototype.getTime": 8,
+                "Document.cookie setter": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "eb837b1365c8ee1fc3dbc33c46595f628e8f96a7ec963b6b8c8386aac203b2e2",
+                "312c606642c23493e38601f78a24348960a0303629bf45f2f141a31233182c35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sib_cuid": {
+                    "ttl": 15645618,
+                    "length": 36,
+                    "prevalence": 0.0008032128514056225,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australiaoneparty.com",
+                "k2.com.au",
+                "startsat60.com",
+                "www.capral.com.au",
+                "www.inyourpocket.com",
+                "www.phonearena.com",
+                "www.thevapestore.com.au",
+                "www.tupperware.com.au"
+            ]
+        },
+        {
+            "rule": "sibautomation\\.com\\/cm\\.html",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 7,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "7ca730fefd0cd655e1cc3ecdf0f14265271b2fa8417d5d57cfd572074f3ed8ad",
+                "4b2054d8e9e0398e41cc06db96690539ee8e13dd02e2d412b8b84bf0b2cfe061",
+                "2d55bc84579fd11de0ee04dd699193b2743009b3288409e85a3ddafd675453e9",
+                "47f0faaf07521f167b6e770a712331721019315c600c1a66aa94bcca52a61f0f",
+                "6c4b10eac908748ca55d72b653bc0a09319fd8e57e85f4224f7e9e9b16e25127",
+                "d1dea6470ca41c29c3e1b81930bdb789952473ecb1178658e4125f2b4995c397"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "uuid": {
+                    "ttl": 15645619,
+                    "length": 36,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australiaoneparty.com",
+                "k2.com.au",
+                "startsat60.com",
+                "www.capral.com.au",
+                "www.inyourpocket.com",
+                "www.thevapestore.com.au",
+                "www.tupperware.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000803,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "sendinblue.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Document": 7
+    },
+    "nameservers": [
+        "josh.ns.cloudflare.com",
+        "mary.ns.cloudflare.com"
+    ]
+}

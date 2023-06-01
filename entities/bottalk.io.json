@@ -1,0 +1,105 @@
+{
+    "domain": "bottalk.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bottalk\\.io\\/player\\/bottalkplayer\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.devicePixelRatio": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "0831836a10c7c15bf4185448bcce7484d97d7c889bb8762eec79f05953124334"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abendblatt.de",
+                "www.nrz.de",
+                "www.thueringer-allgemeine.de",
+                "www.wp.de"
+            ]
+        },
+        {
+            "rule": "bottalk\\.io\\/player\\/loader-v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "33e46508c1e3e5f6e0ed28a973f39249a90dfcc325a80377fe4f491d9051ef16"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nrz.de",
+                "www.thueringer-allgemeine.de",
+                "www.wp.de"
+            ]
+        },
+        {
+            "rule": "bottalk\\.io\\/audio",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "07494a60cdcbb53c1edbc3464cd8d6f417a150b66b9a7e069aad1aa189b66a50",
+                "7bfb64339eba6a9bfd0146e36d7ea90bd1432777f4dad1362789950ac9970d45"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nrz.de",
+                "www.thueringer-allgemeine.de",
+                "www.wp.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "tinypass.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "oxygen.ns.hetzner.com",
+        "helium.ns.hetzner.de",
+        "hydrogen.ns.hetzner.com"
+    ]
+}

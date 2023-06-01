@@ -1,0 +1,115 @@
+{
+    "domain": "klarnacdn.net",
+    "owner": {
+        "name": "Klarna Bank AB",
+        "displayName": "Klarna Bank"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "x"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "klarnacdn\\.net\\/kp\\/lib\\/v1\\/api\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "x"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "console.memory": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "3683d6127b316b3aced3b79dc2c591e62137a9f5077f22cfe3e1819b26713c48"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scorptec.com.au",
+                "www.freedom.com.au",
+                "www.scorptec.com.au",
+                "www.toysrus.com.au"
+            ]
+        },
+        {
+            "rule": "klarnacdn\\.net\\/ui\\/fonts\\/v1\\.3\\/fonts\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "x"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "facb59b2ae83c0d73ae3aa0c23731f8e1791fcd3148f525bdfe1b381e14c70d4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jabra.com",
+                "www.sanity.com.au"
+            ]
+        },
+        {
+            "rule": "klarnacdn\\.net\\/express-button\\/v1\\/lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "x"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "console.memory": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ae51d41c4ea69dca7bb31a05397db1e4a78c8b4a195fc39e3d9e20b22afa8866"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanity.com.au",
+                "www.toysrus.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "klarnaservices.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

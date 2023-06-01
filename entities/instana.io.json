@@ -1,0 +1,113 @@
+{
+    "domain": "instana.io",
+    "owner": {
+        "name": "Instana, Inc.",
+        "displayName": "Instana"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "eum",
+        "eum-eu-west-1",
+        "eum-orange-saas",
+        "eum-green-saas",
+        "eum-red-saas"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "instana\\.io\\/eum\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "eum"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.languages": 6,
+                "PerformanceTiming.prototype.navigationStart": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Navigator.prototype.connection": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "04857d263d127bca083f9036ffcb2c030cd12b943cf4cde1a71daf4da22fcdde"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cookidoo.com.au",
+                "weather.com",
+                "www.autoexpress.co.uk",
+                "www.hellomagazine.com",
+                "www.sixt.com.au",
+                "www.wellandgood.com"
+            ]
+        },
+        {
+            "rule": "instana\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eum-eu-west-1",
+                "eum-orange-saas",
+                "eum-green-saas",
+                "eum-red-saas"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cookidoo.com.au",
+                "weather.com",
+                "www.autoexpress.co.uk",
+                "www.hellomagazine.com",
+                "www.sixt.com.au",
+                "www.wellandgood.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Ping": 6
+    },
+    "nameservers": [
+        "ns-1272.awsdns-31.org",
+        "ns-1952.awsdns-52.co.uk",
+        "ns-240.awsdns-30.com",
+        "ns-517.awsdns-00.net"
+    ]
+}

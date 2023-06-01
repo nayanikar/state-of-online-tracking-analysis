@@ -1,0 +1,107 @@
+{
+    "domain": "ontraport.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "optassets",
+        "mywaterfilter",
+        "biddytarot"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ontraport\\.com\\/tracking\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "optassets"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "631b53cee14f8501d01fe646031ad98faaf9e5e0b3581109ab05bfe74864acc0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sess_": {
+                    "ttl": 465428728,
+                    "length": 20,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                },
+                "lastvisit": {
+                    "ttl": 465428728,
+                    "length": 10,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodrevolution.org",
+                "mywaterfilter.com.au",
+                "www.biddytarot.com"
+            ]
+        },
+        {
+            "rule": "ontraport\\.com\\/track\\.php",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mywaterfilter",
+                "biddytarot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6b222004b4fb499f7d56a233f2481640017fac1029b3c79daa577eac84a34f48"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "sess_": 0.00020080321285140563,
+                "_ga": 0.00040160642570281126,
+                "lotame_domain_check": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "mywaterfilter.com.au",
+                "www.biddytarot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-103.awsdns-12.com",
+        "ns-656.awsdns-18.net",
+        "ns-1366.awsdns-42.org",
+        "ns-1570.awsdns-04.co.uk"
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "domain": "clickattribution.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "clickattribution\\.com\\/scripts\\/v2\\/path-to-purchase\\.min\\.js",
+            "cookies": 0.0000408,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "0fa4bd10c6e1dee392a249ba586978c24baf21268f2eb753ded70399a8f18ef1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "PathToPurchaseSessionId": {
+                    "ttl": 5184003,
+                    "length": 36,
+                    "prevalence": 0.00004084244346725117,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carawayhome.com",
+                "www.carawayhome.com",
+                "www.chiccousa.com",
+                "www.ripleyaquariums.com",
+                "www.ripleys.com",
+                "www.worldwidestereo.com"
+            ]
+        },
+        {
+            "rule": "clickattribution\\.com\\/hit",
+            "cookies": 0.0000408,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "33f9086c4ec731e871fcb7a0b8f77e87fc5a2268732e5d136c5d2689784ba3a9",
+                "0c3c8b782b6ecf592e90aad2d2e4c445f8398608747196edd49fb4e4ee3ef581",
+                "cb6f25f623423358829d25c6653e7ade15d02b843faedb44a9921e7347fbaf61",
+                "320020529151759cc667f1866b2da4b4a35220f9d5f9eda2c37de5353c7bbdcc",
+                "86e702d1073f22e05752149c8b1de573aca7342c2af77fb95db129c21c136e27"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carawayhome.com",
+                "www.carawayhome.com",
+                "www.chiccousa.com",
+                "www.ripleyaquariums.com",
+                "www.ripleys.com",
+                "www.worldwidestereo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000681,
+    "topInitiators": [
+        {
+            "domain": "pixeleze.com",
+            "prevalence": 0.6923076923076923
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.15384615384615385
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-1611.awsdns-09.co.uk",
+        "ns-591.awsdns-09.net",
+        "ns-170.awsdns-21.com",
+        "ns-1405.awsdns-47.org"
+    ]
+}

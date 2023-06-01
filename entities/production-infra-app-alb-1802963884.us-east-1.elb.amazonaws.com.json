@@ -1,0 +1,58 @@
+{
+    "domain": "production-infra-app-alb-1802963884.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "infrastructure.mubicdn.net",
+            "resolved": "production-infra-app-alb-1802963884.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "production-infra-app-alb-1802963884\\.us-east-1\\.elb\\.amazonaws\\.com\\/api\\/public\\/v1\\/\\/regions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "infrastructure.mubicdn.net",
+                    "resolved": "production-infra-app-alb-1802963884.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "37ccb2f946e02960b34b0e40a7279145cb2b93d104c8e0694ed1bbe69302bb8b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mubi.com",
+                "legacy.mubi.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": []
+}

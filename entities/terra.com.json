@@ -1,0 +1,62 @@
+{
+    "domain": "terra.com",
+    "owner": {
+        "name": "Terra Networks Brasil S.A.",
+        "displayName": "Terra Networks Brasil"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "wstpush-mobile"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "terra\\.com\\/public\\/tpush-core\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wstpush-mobile"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1635fd7fb20f45ad272001ca1e1ef82e51bc03e2f42ff3aa7696bc16ef1d107e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "terra.com.mx",
+                "www.terra.com.mx"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "b.dns.terra.com.br",
+        "d.dns.terra.com.br",
+        "a.dns.terra.com",
+        "c.dns.terra.com"
+    ]
+}

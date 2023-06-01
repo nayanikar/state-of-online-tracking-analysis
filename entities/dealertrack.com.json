@@ -1,0 +1,92 @@
+{
+    "domain": "dealertrack.com",
+    "owner": {
+        "name": "Dealertrack, Inc",
+        "displayName": "Dealertrack"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "ebusiness",
+        "suite.dtdrs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dealertrack\\.com\\/Suite\\/suite\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ebusiness"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "7ad8d9850005ca02348ff6a0b4d19e7239133e1fae859364ded46209d7a50436"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kia.com",
+                "www.hyundai.com",
+                "www.hyundaiusa.com",
+                "www.kia.com"
+            ]
+        },
+        {
+            "rule": "dealertrack\\.com\\/suite\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "suite.dtdrs"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "7ad8d9850005ca02348ff6a0b4d19e7239133e1fae859364ded46209d7a50436"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kia.com",
+                "www.hyundai.com",
+                "www.hyundaiusa.com",
+                "www.kia.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "hyundaiusa.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "ns-1486.awsdns-57.org",
+        "ns-414.awsdns-51.com",
+        "ns-1950.awsdns-51.co.uk",
+        "ns-603.awsdns-11.net"
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "domain": "marketamerica.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "webmetrics"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "marketamerica\\.com\\/webstats\\/ma\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "webmetrics"
+            ],
+            "apis": {
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "window.devicePixelRatio": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bbf92ff2662c20482635ad5834daf775283a9a33e21e4c8662297d8436aad92d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_dvs": {
+                    "ttl": 1800,
+                    "length": 43,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_dvp": {
+                    "ttl": 63072000,
+                    "length": 43,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shop.com",
+                "www.shop.com"
+            ]
+        },
+        {
+            "rule": "marketamerica\\.com\\/webstats\\/csc-event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webmetrics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shop.com",
+                "www.shop.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "edns1.ultradns.net",
+        "edns1.ultradns.biz",
+        "edns1.ultradns.org",
+        "edns1.ultradns.com"
+    ]
+}

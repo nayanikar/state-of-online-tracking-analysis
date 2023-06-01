@@ -1,0 +1,88 @@
+{
+    "domain": "adalliance.io",
+    "owner": {
+        "name": "G+J Electronic Media Sales GmbH",
+        "displayName": "G+J Electronic Media Sales"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "engagement",
+        "zipservice"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adalliance\\.io\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engagement"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vodafone.de",
+                "live.vodafone.de"
+            ]
+        },
+        {
+            "rule": "adalliance\\.io\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zipservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c6e566ea979dfed9479f994c755f356621ed38aa1db5479b4807389d6530dc12"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "essen-und-trinken.de",
+                "www.toggo.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "emsservice.de",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "essentrinken.de",
+            "prevalence": 0.2222222222222222
+        }
+    ],
+    "types": {
+        "WebSocket": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns.second-ns.com",
+        "ns1.your-server.de",
+        "ns3.second-ns.de"
+    ]
+}

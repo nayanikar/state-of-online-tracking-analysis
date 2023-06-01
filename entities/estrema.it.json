@@ -1,0 +1,129 @@
+{
+    "domain": "estrema.it",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "stats",
+        "pushdeploy"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "estrema\\.it\\/js\\/plausible\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.webdriver": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "ae4216bfc85c99ffd32e7745f0d7d4cd5f57b714f3a4911176b8cd78a176c97c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alvolante.it",
+                "www.alvolante.it",
+                "www.cosedicasa.com"
+            ]
+        },
+        {
+            "rule": "estrema\\.it\\/api\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alvolante.it",
+                "www.alvolante.it",
+                "www.cosedicasa.com"
+            ]
+        },
+        {
+            "rule": "estrema\\.it\\/public\\/sw\\/serviceworker-AL012820-1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pushdeploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "835916aaca0402a89008988f4c8764f1bf7af1db8fdfbcca97fd913c608286c4"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alvolante.it",
+                "www.alvolante.it"
+            ]
+        },
+        {
+            "rule": "estrema\\.it\\/public\\/sw\\/serviceworker-CS012820-1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pushdeploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2411b531919aa42410bf82e925b3a1756138a53e76bd72111d9258a6757bb5c0"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cosedicasa.com",
+                "www.cosedicasa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3,
+        "Other": 4
+    },
+    "nameservers": [
+        "dns2.netjust.com",
+        "dns1.netjust.com"
+    ]
+}

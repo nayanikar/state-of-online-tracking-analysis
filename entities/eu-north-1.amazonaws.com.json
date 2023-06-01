@@ -1,0 +1,257 @@
+{
+    "domain": "eu-north-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000109,
+    "sites": 16,
+    "subdomains": [
+        "d-m0mt5xgfbj.execute-api",
+        "d-vtexf2ykgi.execute-api",
+        "6n4r1rnzpa.execute-api",
+        "d-9tv6fr4kw7.execute-api",
+        "cognito-identity"
+    ],
+    "cnames": [
+        {
+            "original": "apcapi.asianpaints.com",
+            "resolved": "d-m0mt5xgfbj.execute-api.eu-north-1.amazonaws.com"
+        },
+        {
+            "original": "graphql.svenskafans.com",
+            "resolved": "d-9tv6fr4kw7.execute-api.eu-north-1.amazonaws.com"
+        },
+        {
+            "original": "s2s.makro.co.za",
+            "resolved": "d-vtexf2ykgi.execute-api.eu-north-1.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "eu-north-1\\.amazonaws\\.com\\/static\\/DhPixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d-m0mt5xgfbj.execute-api",
+                "d-vtexf2ykgi.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "apcapi.asianpaints.com",
+                    "resolved": "d-m0mt5xgfbj.execute-api.eu-north-1.amazonaws.com"
+                },
+                {
+                    "original": "s2s.makro.co.za",
+                    "resolved": "d-vtexf2ykgi.execute-api.eu-north-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "f75f3232df7139e13dd9afbbf171fa6c52ca7121d436bca09d70af4e170fc4b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asianpaints.com",
+                "www.makro.co.za"
+            ]
+        },
+        {
+            "rule": "eu-north-1\\.amazonaws\\.com\\/tr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-m0mt5xgfbj.execute-api",
+                "d-vtexf2ykgi.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "apcapi.asianpaints.com",
+                    "resolved": "d-m0mt5xgfbj.execute-api.eu-north-1.amazonaws.com"
+                },
+                {
+                    "original": "s2s.makro.co.za",
+                    "resolved": "d-vtexf2ykgi.execute-api.eu-north-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asianpaints.com",
+                "www.makro.co.za"
+            ]
+        },
+        {
+            "rule": "eu-north-1\\.amazonaws\\.com\\/v2\\/country",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "6n4r1rnzpa.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f0e19cf9cd3cbbd2b3e44063e972f3b282fd27984ee705f411e1252f7f5837c9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atg.se",
+                "www.atg.se"
+            ]
+        },
+        {
+            "rule": "eu-north-1\\.amazonaws\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-9tv6fr4kw7.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "graphql.svenskafans.com",
+                    "resolved": "d-9tv6fr4kw7.execute-api.eu-north-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "22b93e49f72d79e75bb2e6d7f0f2af81e24f14886fd23157bfdd52d65d17ba97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "svenskafans.com",
+                "www.svenskafans.com"
+            ]
+        },
+        {
+            "rule": "eu-north-1\\.amazonaws\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-9tv6fr4kw7.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "graphql.svenskafans.com",
+                    "resolved": "d-9tv6fr4kw7.execute-api.eu-north-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "svenskafans.com",
+                "www.svenskafans.com"
+            ]
+        },
+        {
+            "rule": "eu-north-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telenor.se",
+                "www.telenor.se"
+            ]
+        },
+        {
+            "rule": "eu-north-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "37fe480143704023a69a720e7ee7433be5e6b9dac61ff417cf7ad4e1a92935d1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telenor.se",
+                "www.telenor.se"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "rum.us-east-1.amazonaws.com",
+            "prevalence": 0.3888888888888889
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2777777777777778
+        },
+        {
+            "domain": "medialinq.se",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "compileit.com",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2,
+        "XHR": 2,
+        "Fetch": 4,
+        "Preflight": 4
+    },
+    "nameservers": []
+}

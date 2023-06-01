@@ -1,0 +1,135 @@
+{
+    "domain": "springernature.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "geo-gcp.cdn"
+    ],
+    "cnames": [
+        {
+            "original": "idp.nature.com",
+            "resolved": "geo-gcp.cdn.springernature.io"
+        },
+        {
+            "original": "idp.springer.com",
+            "resolved": "geo-gcp.cdn.springernature.io"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "springernature\\.io\\/authorize",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo-gcp.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "idp.springer.com",
+                    "resolved": "geo-gcp.cdn.springernature.io"
+                },
+                {
+                    "original": "idp.nature.com",
+                    "resolved": "geo-gcp.cdn.springernature.io"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "springer.com",
+                "www.nature.com"
+            ]
+        },
+        {
+            "rule": "springernature\\.io\\/transit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo-gcp.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "idp.springer.com",
+                    "resolved": "geo-gcp.cdn.springernature.io"
+                },
+                {
+                    "original": "idp.nature.com",
+                    "resolved": "geo-gcp.cdn.springernature.io"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "springer.com",
+                "www.nature.com"
+            ]
+        },
+        {
+            "rule": "springernature\\.io\\/exposed-details",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo-gcp.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "idp.springer.com",
+                    "resolved": "geo-gcp.cdn.springernature.io"
+                },
+                {
+                    "original": "idp.nature.com",
+                    "resolved": "geo-gcp.cdn.springernature.io"
+                }
+            ],
+            "responseHashes": [
+                "0d699f1fc29c3899170f5b4bcfe4f4a7fe6249f1f29f9ff62673ea23315aa121"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "springer.com",
+                "www.nature.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "pdns5.ultradns.info",
+        "pdns4.ultradns.org",
+        "pdns2.ultradns.net",
+        "pdns6.ultradns.co.uk",
+        "pdns1.ultradns.net",
+        "pdns3.ultradns.org"
+    ]
+}

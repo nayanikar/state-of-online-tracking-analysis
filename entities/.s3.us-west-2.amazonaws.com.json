@@ -1,0 +1,87 @@
+{
+    "domain": ".s3.us-west-2.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "\\.s3\\.us-west-2\\.amazonaws\\.com\\/images\\.arcteryx\\.com\\/campaign\\/S23\\/regear\\/ReGear_Wordmark_W\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e0ce7ea5ed59d3f318046a29a3b8a687ebe5d69c1696fd496366847c02ccd3dd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arcteryx.com",
+                "www.arcteryx.com"
+            ]
+        },
+        {
+            "rule": "\\.s3\\.us-west-2\\.amazonaws\\.com\\/s\\.leveragelab\\.com\\/lytics-keymedia\\/keymedia-overrides\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "05bc986e4bb9527c8908372c4f4d8fc2170033abedab3d5880f28c97187a57ca"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canadianlawyermag.com",
+                "www.hrreporter.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "d2my2wpsc41l6t.cloudfront.net",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "lytics.io",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

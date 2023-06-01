@@ -1,0 +1,79 @@
+{
+    "domain": "ziffstatic.com",
+    "owner": {
+        "name": "Ziff Davis LLC",
+        "displayName": "Ziff Davis"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ziffstatic\\.com\\/jst\\/zdconsent\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 9,
+                "Screen.prototype.width": 9,
+                "Screen.prototype.height": 9,
+                "Navigator.prototype.userAgent": 9,
+                "Document.cookie setter": 1
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "b0ee4aede22a0fc1bfc60149e5269f3e303370fce64aecc905c159487c3442db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "newPrivacyPolicy": {
+                    "ttl": 33955200,
+                    "length": 6,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babycenter.com",
+                "community.babycentre.co.uk",
+                "downdetector.com.au",
+                "howlongtobeat.com",
+                "lifehacker.com",
+                "www.babycenter.com.au",
+                "www.babycenter.com",
+                "www.humblebundle.com",
+                "www.spiceworks.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "ns-1581.awsdns-05.co.uk",
+        "ns-1372.awsdns-43.org",
+        "ns-129.awsdns-16.com",
+        "ns-1007.awsdns-61.net"
+    ]
+}

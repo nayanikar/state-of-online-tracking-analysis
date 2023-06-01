@@ -1,0 +1,161 @@
+{
+    "domain": "conversionbear.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "cookie-bar",
+        "upsell",
+        "salespop"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "conversionbear\\.com\\/script",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cookie-bar",
+                "upsell",
+                "salespop"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 4,
+                "window.innerWidth": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.language": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1579bca0a03f9121e78598af5f04357cced6f062db8c44b800255e3f62e8fd56",
+                "f978f6493e61c80c6a6be651439f56a947f39f7ca3bfb2195a4849750a04f945",
+                "d04026551fb8fed420e2f77303ae37cb3e9aca8b1ed7ef35a3cd40350639155f",
+                "e66c052dc8925dc5ea85ac816455595ed5f7b5306a7a73bb136da539fd7b36ce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lightforce.com",
+                "theoodie.com",
+                "uggaustralia.com.au",
+                "www.cheapaschips.com.au",
+                "www.minimax.com.au"
+            ]
+        },
+        {
+            "rule": "conversionbear\\.com\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-bar",
+                "upsell",
+                "salespop"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "61fac8475b60f1929d0e1000f265989c8d3e192e22d22b5f69984bda20136f97",
+                "79209c14d927b197df867d3b2bc137a64bce2abacf90c337c0be7976bf0a77e9",
+                "ccdad524627a30b9afa1783f21c28c4816193e7910f50f15aefcbebd588fe2d6",
+                "d79585df5a5d93ae0246e94c0586df21fbaa3505b088c933c4fdb938d03caed6",
+                "7656ef851c56d63274aff1e7f43985035ffa9e8f52dc3b97c1af1ab3a557ccaa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lightforce.com",
+                "theoodie.com",
+                "uggaustralia.com.au",
+                "www.cheapaschips.com.au",
+                "www.manchesterwarehouse.com.au",
+                "www.minimax.com.au"
+            ]
+        },
+        {
+            "rule": "conversionbear\\.com\\/get_orders",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "salespop"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ec4984a18672588fed00eb91858b986d4434457934eee6fde710ceba1a72fdc3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uggaustralia.com.au",
+                "www.manchesterwarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "conversionbear\\.com\\/language_locale",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "salespop"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "589f8b4e26803955596e77eb509e0af70523bb409fe2208fe08fc891187ff6c9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uggaustralia.com.au",
+                "www.manchesterwarehouse.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "qikify.com",
+            "prevalence": 0.1875
+        },
+        {
+            "domain": "beamimpact.com",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 10
+    },
+    "nameservers": [
+        "coby.ns.cloudflare.com",
+        "brianna.ns.cloudflare.com"
+    ]
+}

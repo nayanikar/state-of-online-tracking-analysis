@@ -1,0 +1,155 @@
+{
+    "domain": "foxsports.com",
+    "owner": {
+        "name": "Fox Corporation",
+        "displayName": "Fox",
+        "privacyPolicy": "https://www.foxnews.com/privacy-policy",
+        "url": "http://foxnews.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "statics",
+        "www",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "foxsports\\.com\\/static\\/orion\\/style\\/css\\/scorestrip-external\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "statics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "5ef396c9f4fed253140d4b558ebe371daa676537f846d837bd865f0fab851d6d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iheart.com",
+                "www.fox6now.com",
+                "www.q13fox.com"
+            ]
+        },
+        {
+            "rule": "foxsports\\.com\\/static\\/orion\\/scorestrip\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "statics"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Event.prototype.timeStamp": 3,
+                "Navigator.prototype.product": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 1,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "8d91f20a7679de22dd361e8e099a1966ef02aa65b053afbb8050415399fbc8e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iheart.com",
+                "www.fox6now.com",
+                "www.q13fox.com"
+            ]
+        },
+        {
+            "rule": "foxsports\\.com\\/accounts\\/favorites-modal\\/location\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "2f7e2541fe965f413227ae1bba0a1fadbe056fb378e5ff93c48e35b077664520"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iheart.com",
+                "foxsportsradio.iheart.com",
+                "www.fox6now.com",
+                "www.q13fox.com"
+            ]
+        },
+        {
+            "rule": "foxsports\\.com\\/bifrost\\/v1\\/general\\/foxbet\\/details",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "5ba921098f68e0faa0d1587bcce34d4504a0c034287882abdaa19f2a858f8ea1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iheart.com",
+                "foxsportsradio.iheart.com",
+                "www.fox6now.com",
+                "www.q13fox.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5172413793103449
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.4827586206896552
+        }
+    ],
+    "types": {
+        "Stylesheet": 3,
+        "Script": 3,
+        "XHR": 8
+    },
+    "nameservers": [
+        "ns04.dns.fox",
+        "ns02.foxdoua.com",
+        "ns04.foxdoua.com",
+        "ns03.foxdoua.com",
+        "ns01.foxdoua.com",
+        "ns03.dns.fox",
+        "ns02.dns.fox",
+        "ns01.dns.fox"
+    ]
+}

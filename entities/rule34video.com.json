@@ -1,0 +1,124 @@
+{
+    "domain": "rule34video.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "r34us08-130",
+        "r34us05-815"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rule34video\\.com\\/player\\/kt_player\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.userAgent": 2,
+                "HTMLMediaElement.prototype.canPlayType": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bb2b9f10adbcb414277e784d4c2da30836a8408e6204e9b58dea4a1d958567f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futavid.com",
+                "rule34collection.com"
+            ]
+        },
+        {
+            "rule": "rule34video\\.com\\/player\\/skin\\/youtube\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "72d23d5f736fb63fab4be2aaa2d6cbaa3648113e62fe77e1df58140fa8baaba4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futavid.com",
+                "rule34collection.com"
+            ]
+        },
+        {
+            "rule": "rule34video\\.com\\/player\\/skin\\/fonts\\/ktplayeryt\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9032a14ded4aa168d2aa01aa8afaea3d6a96c03fdf0bce3193ba3e4f8eb6672a"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futavid.com",
+                "rule34collection.com"
+            ]
+        },
+        {
+            "rule": "rule34video\\.com\\/remote_control\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r34us08-130",
+                "r34us05-815"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futavid.com",
+                "rule34collection.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 2,
+        "Font": 2,
+        "Media": 2
+    },
+    "nameservers": [
+        "rita.ns.cloudflare.com",
+        "charles.ns.cloudflare.com"
+    ]
+}

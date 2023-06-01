@@ -1,0 +1,1793 @@
+{
+    "domain": "shoprunner.com",
+    "owner": {
+        "name": "Shoprunner Inc",
+        "displayName": "Shoprunner"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00015,
+    "sites": 22,
+    "subdomains": [
+        "content",
+        "dp",
+        "logs-api",
+        "apiv2",
+        "holidays",
+        "page-analytics",
+        "expresscheckout",
+        "srsvc-proxy-prd",
+        "network-profile"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "shoprunner\\.com\\/srsec\\/sra\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "ce9701380b3e968d10a7abe9b180198f73821a0379d64e1b4f5aa316f5db20ca"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "neimanmarcus.com",
+                "us.jimmychoo.com",
+                "www.allbirds.com",
+                "www.brahmin.com",
+                "www.charlottesweb.com",
+                "www.chicos.com",
+                "www.johnnie-o.com",
+                "www.narscosmetics.com",
+                "www.peets.com",
+                "www.pureformulas.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/2\\.9\\.0\\/sp\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dp"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 13,
+                "Navigator.prototype.userAgent": 13,
+                "Navigator.prototype.doNotTrack": 13,
+                "Navigator.prototype.language": 13,
+                "Navigator.prototype.mimeTypes": 13,
+                "Navigator.prototype.javaEnabled": 13,
+                "Screen.prototype.width": 13,
+                "Screen.prototype.height": 13,
+                "Screen.prototype.colorDepth": 13,
+                "window.sessionStorage": 13,
+                "window.localStorage": 13,
+                "Navigator.prototype.plugins": 12,
+                "Date.prototype.getTime": 13,
+                "Document.cookie getter": 13,
+                "window.innerWidth": 13,
+                "window.innerHeight": 13,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "e425b0f8fcd9f1b3eae02842e55e57fb4835cf3126403ff1ea0f3dbe408536da"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sp_ses.8d72": {
+                    "ttl": 1818,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_sp_id.8d72": {
+                    "ttl": 63072018,
+                    "length": 108,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "neimanmarcus.com",
+                "us.jimmychoo.com",
+                "www.allbirds.com",
+                "www.brahmin.com",
+                "www.charlottesweb.com",
+                "www.chicos.com",
+                "www.johnnie-o.com",
+                "www.narscosmetics.com",
+                "www.peets.com",
+                "www.pureformulas.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/datadog\\.pik",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs-api"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "neimanmarcus.com",
+                "us.jimmychoo.com",
+                "www.allbirds.com",
+                "www.brahmin.com",
+                "www.charlottesweb.com",
+                "www.chicos.com",
+                "www.johnnie-o.com",
+                "www.narscosmetics.com",
+                "www.peets.com",
+                "www.pureformulas.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/components\\/post-robot\\.8\\.0\\.28\\.ie\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "window.name": 11
+            },
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "9df8c509e8454c702e8e002c07e07c3f7970be255a1d41111f660558dc11939f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "neimanmarcus.com",
+                "us.jimmychoo.com",
+                "www.allbirds.com",
+                "www.brahmin.com",
+                "www.charlottesweb.com",
+                "www.chicos.com",
+                "www.johnnie-o.com",
+                "www.narscosmetics.com",
+                "www.peets.com",
+                "www.pureformulas.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/i",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dp"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dy_fs_page": 0.000020421221733625584,
+                "IR_gbd": 0.000020421221733625584,
+                "_li_dcdm_c": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "neimanmarcus.com",
+                "us.jimmychoo.com",
+                "www.allbirds.com",
+                "www.brahmin.com",
+                "www.charlottesweb.com",
+                "www.chicos.com",
+                "www.johnnie-o.com",
+                "www.narscosmetics.com",
+                "www.peets.com",
+                "www.pureformulas.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/srsec\\/sra_analytics\\.min\\.js",
+            "cookies": 0.0000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "window.localStorage": 10,
+                "Date.prototype.getTime": 12,
+                "Document.cookie setter": 10,
+                "Document.cookie getter": 11
+            },
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "ccac19a6f0b76895d2ca5e35eff7a63ef32eb7172807caca9eadc841a87a4da4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sr_analytics_session_cookie": {
+                    "ttl": null,
+                    "length": 35,
+                    "prevalence": 0.00006807073911208527,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "neimanmarcus.com",
+                "us.jimmychoo.com",
+                "www.allbirds.com",
+                "www.brahmin.com",
+                "www.charlottesweb.com",
+                "www.chicos.com",
+                "www.johnnie-o.com",
+                "www.narscosmetics.com",
+                "www.peets.com",
+                "www.pureformulas.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/components\\/storedDataManager\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "046e1e7b108cfe7b9fb864ef3b69da53a10cb12a53544972161b0e29d8b58437"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "neimanmarcus.com",
+                "us.jimmychoo.com",
+                "www.allbirds.com",
+                "www.brahmin.com",
+                "www.charlottesweb.com",
+                "www.chicos.com",
+                "www.johnnie-o.com",
+                "www.narscosmetics.com",
+                "www.peets.com",
+                "www.pureformulas.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/components\\/storedDataManager\\/js\\.cookie\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "Document.cookie getter": 9
+            },
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "d437a28c28b8fb3aa41884582979e073e636280ce0d3030180c028a12a374fbb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "neimanmarcus.com",
+                "us.jimmychoo.com",
+                "www.allbirds.com",
+                "www.brahmin.com",
+                "www.charlottesweb.com",
+                "www.chicos.com",
+                "www.johnnie-o.com",
+                "www.narscosmetics.com",
+                "www.peets.com",
+                "www.pureformulas.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/components\\/storedDataManager\\/storedDataManager\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "window.localStorage": 9
+            },
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "fa860536c5e8cec3e7f8fd62a422ae421d0333f3814bdf78a7366392b4e02a18"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "neimanmarcus.com",
+                "us.jimmychoo.com",
+                "www.allbirds.com",
+                "www.brahmin.com",
+                "www.charlottesweb.com",
+                "www.chicos.com",
+                "www.johnnie-o.com",
+                "www.narscosmetics.com",
+                "www.peets.com",
+                "www.pureformulas.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/public\\/auth\\/recognize",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiv2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "274fb16efef1ceb7d256fb1a4cc258d6d05edc1791b836274c52debe86f68387"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "neimanmarcus.com",
+                "www.chicos.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/public\\/auth\\/recognize",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiv2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "neimanmarcus.com",
+                "www.chicos.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/JCHOO\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4c40d26622c3b83585a6afe823556bb00d49365f5a11661254e93ee67ca1802d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jimmychoo.com",
+                "us.jimmychoo.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/JCHOO\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "444824f153d68a0dd77abc49e3b03b64098378200f92d47a3ddd69b68570af29"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sr_pik_session_id": {
+                    "ttl": 3608,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "sr_browser_id": {
+                    "ttl": 946080008,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jimmychoo.com",
+                "us.jimmychoo.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/ALLBIRDS\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9cd28f0a427337ead9fc394a551772a061391f95f33d0ebbe00f7cde9e1e3046"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allbirds.com",
+                "www.allbirds.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/ALLBIRDS\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0697800cf88e9c7df18f9f9cc10c87e2b850236d88edc99a748e49e37432bced"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sr_pik_session_id": {
+                    "ttl": 3607,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "sr_browser_id": {
+                    "ttl": 946080007,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allbirds.com",
+                "www.allbirds.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/holidays",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "holidays"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000749,
+            "cnames": [],
+            "responseHashes": [
+                "2c9a1f0233dc7b642b5cc7f6acc1ec94ffc1690135bcf48be0c21ee7a4717fe4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allbirds.com",
+                "www.allbirds.com",
+                "www.charlottesweb.com",
+                "www.chicos.com",
+                "www.johnnie-o.com",
+                "www.narscosmetics.com",
+                "www.peets.com",
+                "www.pureformulas.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/ALLBIRDS\\/latest\\/pageAnalyticsALLBIRDS\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "page-analytics"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "da96453ed6a4277659a96877cb61719e589a31f7beafce7ff3dbf79e778a50ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allbirds.com",
+                "www.allbirds.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/BRAHMIN\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8ec0b8824d13828f4e565d003d6132633fd2cf7c4dad956b263410b7a64f0680"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brahmin.com",
+                "www.brahmin.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/BRAHMIN\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6ec9550ecb064656e5edbd88808ca3f3c2388e263da07c2d4cd89fb1ce4b8778"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sr_pik_session_id": {
+                    "ttl": 3609,
+                    "length": 35,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "sr_browser_id": {
+                    "ttl": 946080009,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brahmin.com",
+                "www.brahmin.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/config\\/BRAHMIN\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a92d0a664a5a736195cbf8025ac66f78369b111bacf0b84aeb21c5674d1e8bd5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brahmin.com",
+                "www.brahmin.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/BRAHMIN\\/latest\\/pageAnalyticsBRAHMIN\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "page-analytics"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "02cd49bfa737efb386967537287bb8d7cbd088488dd4ad86c7a5b54cb387c324"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brahmin.com",
+                "www.brahmin.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/zoid\\.6\\.0\\.65\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "PerformanceTiming.prototype.navigationStart": 7,
+                "window.name": 7,
+                "window.innerHeight": 2
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "51be8f7a9554534a049339eaeec8b07103ea4770c0db6d47faa5788223705ece"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brahmin.com",
+                "www.brahmin.com",
+                "www.charlottesweb.com",
+                "www.pureformulas.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "expresscheckout"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "5e62abe653d4179fe14ee9b3c7660cc25a7459cfe75fe2bcaf7779480f03171f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brahmin.com",
+                "www.brahmin.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/oneclick\\.7bae583f0955a179f8a5\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "expresscheckout"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "4755b3d3f7ff0fcb2265759c30a44c022cf1056dc77d8341af26b039f7714a2d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brahmin.com",
+                "www.brahmin.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/oneclick\\.7bae583f0955a179f8a5\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "expresscheckout"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "window.innerHeight": 3,
+                "window.name": 3,
+                "window.localStorage": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "de259ecc7aca99d0071094b8c44046ffb511b18ceed17fa19d99d074c7ee26f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brahmin.com",
+                "www.brahmin.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/CHARWEB\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9cd28f0a427337ead9fc394a551772a061391f95f33d0ebbe00f7cde9e1e3046"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.charlottesweb.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/CHARWEB\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "97a993edf9a56d970d230b2c5b55823c252fe5a796044c1b8e9af87906e4cce5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sr_pik_session_id": {
+                    "ttl": 3616,
+                    "length": 34,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "sr_browser_id": {
+                    "ttl": 946080015,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.charlottesweb.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/CHARWEB\\/latest\\/pageAnalyticsCHARWEB\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "page-analytics"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b777ea923d4137241223fe8bce8dda88db64c2ec64c0d7b38dd0fdd0affdb483"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.charlottesweb.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/components\\/divRenderer\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "70a5ce9b776497598a091f66c195805678f918615eb0345c3c7836f3d3d9c5a6"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/components\\/divRenderer\\/tachyons\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "5e227e3de7658c498f3f655a4334b37a47c265d3ebd1fa6a9a1f5d63a929b2e4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/components\\/divRenderer\\/main\\.6cdb3a82\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.product": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "47895d1bcb67648c9f3edee05d0b9905a491b4bce5b24fd56dd73d4249958209"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com",
+                "www.whitehouseblackmarket.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/datadog\\.divrenderer",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/assets\\/pik_images\\/v4\\/_sr_logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "7ba88f5bfaae0d1aceacd913e16a99e14aedd6af46b8a9a90de0d5d8def874da"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottesweb.com",
+                "www.shiseido.com",
+                "www.swansonvitamins.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/NARS\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4a3642b9dc693d935dd00ff0e57bfe6a59752f121fb62d9ec5412a8f5ab802c8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "narscosmetics.com",
+                "www.narscosmetics.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/NARS\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "99e535035b379c4e44f087ec80895f0304734100217d32db31a9a6a1f2761455"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sr_pik_session_id": {
+                    "ttl": 3621,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "sr_browser_id": {
+                    "ttl": 946080020,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "narscosmetics.com",
+                "www.narscosmetics.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/config\\/NARS\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "adc01d815604cd474f5556145c9215879109792394e721c8e89b2d02513fe86c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "narscosmetics.com",
+                "www.narscosmetics.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/NARS\\/latest\\/pageAnalyticsNARS\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "page-analytics"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "636274f58b44baedd73ceeb70570ed58bb0fec7552a5aa2c4a2c5257c0d7d96c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "narscosmetics.com",
+                "www.narscosmetics.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/PEETS\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "52d8a6e72dee3588ddfca8cb9e0196b3d6dd3903022b99977f2395670dcbdbc4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "peets.com",
+                "www.peets.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/PEETS\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "39a2889a6d2d5c3868e65c6826e2505b1d91cb55c3ea828fc2e7fbb1875a0ed1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sr_pik_session_id": {
+                    "ttl": 3609,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "sr_browser_id": {
+                    "ttl": 946080008,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "peets.com",
+                "www.peets.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/config\\/PEETS\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d88bf65d7f5d8a91be8861097d86f7458df3fad712ed81626aac082fbf886617"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "peets.com",
+                "www.peets.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/PEETS\\/latest\\/pageAnalyticsPEETS\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "page-analytics"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a91101bba1ef786127816a4c6b97b53609a5e8f8e7eb82911877313985d40dfb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "peets.com",
+                "www.peets.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/assets\\/pik_images\\/v4\\/_sr_logo_19\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "04938c2beed711a01f8fc03552a393a77cbba58928e23b4d5787d017371b0ee0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "peets.com",
+                "www.peets.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/v2\\/stream\\/sra\\/record",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "srsvc-proxy-prd"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "peets.com",
+                "www.peets.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/PUREF\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "621dc387d1a938c4d5c0b29e90b538cf084b695e6198c3ca7446518b47860749"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pureformulas.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/PUREF\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 1,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTimezoneOffset": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f1e0df197779facc8613256d9e7e846bc3107dbbfb6fab09937ef8ce1befb76a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sr_np_1_exp": {
+                    "ttl": 15552006,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "sr_pik_session_id": {
+                    "ttl": 3622,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "sr_browser_id": {
+                    "ttl": 946080014,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pureformulas.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/config\\/PUREF\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e819f3c512da02e25414b5db660c6d6fcfdd61cf8528d2885f1a7681c03264fc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pureformulas.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "network-profile"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6ade041e553ceb36499cecbeede39d0df0f745096f85b18e8a443d96819fc893"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pureformulas.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/static\\/css\\/main\\.be9cd952\\.chunk\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "network-profile"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c33182b8f42b2873b8fe443486a71f2685b914e1cc41f91d37ecacdaf2dd3765"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pureformulas.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/static\\/js\\/2\\.31bddfb2\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "network-profile"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ef4bce9e5c8ff4fcaf36b23f4b2fe7f890e6641ac7ae6f4c9ea0599f3c558227"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pureformulas.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/static\\/js\\/main\\.1ba208a6\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "network-profile"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "88c9bc392fb820b4837b5cff8f10510d85f978dbdfc1bac36014dbc4d45fde45"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pureformulas.com",
+                "www.pureformulas.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/SHISEIDO\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4bbd8f663fd4280502801d30bc7be1db0b2d0f0e11f52d48152f0c678695af76"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shiseido.com",
+                "www.shiseido.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/SHISEIDO\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cb93dd3c1f8ffc1d073f85a7e797ac6767fe2e8a749ad7e0cae62c593359050f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sr_pik_session_id": {
+                    "ttl": 3617,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "sr_browser_id": {
+                    "ttl": 946080014,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shiseido.com",
+                "www.shiseido.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/config\\/SHISEIDO\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f6eaaacbdfb57d9294b02c6f74ecbc13937f68e22c1d225faea62d1f65d45e3f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shiseido.com",
+                "www.shiseido.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/SHISEIDO\\/latest\\/pageAnalyticsSHISEIDO\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "page-analytics"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "aa71286de7b333e771b3910b188a6677a58f5d264224af327472e0a284707133"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shiseido.com",
+                "www.shiseido.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/SWANSONHLTH\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9cd28f0a427337ead9fc394a551772a061391f95f33d0ebbe00f7cde9e1e3046"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swansonvitamins.com",
+                "www.swansonvitamins.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/SWANSONHLTH\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "37fa334cd8c404c26be3629304837cb6937fa09c13b72dc989746536ffc89d21"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sr_pik_session_id": {
+                    "ttl": 3606,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "sr_browser_id": {
+                    "ttl": 946080005,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swansonvitamins.com",
+                "www.swansonvitamins.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/config\\/SWANSONHLTH\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "08f2e9bf52c22379300d7bbe583dda0c39a7e6edd28bee4554445414fcfab578"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swansonvitamins.com",
+                "www.swansonvitamins.com"
+            ]
+        },
+        {
+            "rule": "shoprunner\\.com\\/SWANSONHLTH\\/latest\\/pageAnalyticsSWANSONHLTH\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "page-analytics"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9f21abf451e73eff45ecd5f7263bc8b436db42ee82fb9c35bb883d4157660e00"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swansonvitamins.com",
+                "www.swansonvitamins.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00015,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.18012422360248448
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.09316770186335403
+        },
+        {
+            "domain": "gbqofs.com",
+            "prevalence": 0.08695652173913043
+        },
+        {
+            "domain": "trackjs.com",
+            "prevalence": 0.037267080745341616
+        },
+        {
+            "domain": "ipscdn.net",
+            "prevalence": 0.024844720496894408
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.006211180124223602
+        }
+    ],
+    "types": {
+        "Document": 35,
+        "Script": 115,
+        "XHR": 42,
+        "Image": 22,
+        "Preflight": 3,
+        "Stylesheet": 27
+    },
+    "nameservers": [
+        "ns-71.awsdns-08.com",
+        "ns-1348.awsdns-40.org",
+        "ns-744.awsdns-29.net",
+        "ns-1996.awsdns-57.co.uk"
+    ]
+}

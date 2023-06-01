@@ -1,0 +1,85 @@
+{
+    "domain": "ok.ru",
+    "owner": {
+        "name": "VK Company Ltd.",
+        "displayName": "VK"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "connect"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ok\\.ru\\/connect\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3b672a69cf35a1540aeb8228010b2c5874cd5b90a027b115ac0845f70f05ebba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autoban.by",
+                "www.ontvtime.ru"
+            ]
+        },
+        {
+            "rule": "ok\\.ru\\/dk",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3687d792819b11a1c97768481e979a983aff3aad5a514e38299d5037189dfa5a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autoban.by",
+                "www.ontvtime.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "stackpathcdn.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns1.ok.ru",
+        "ns2.ok.ru",
+        "ns3.ok.ru"
+    ]
+}

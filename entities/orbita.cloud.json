@@ -1,0 +1,129 @@
+{
+    "domain": "orbita.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "centracare",
+        "arc-chat"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "orbita\\.cloud\\/chatbot\\/v2\\/chat-plugin\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "centracare",
+                "arc-chat"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6c6cb5ae1790732ed97f14279d1b3cb53ec50f151be8b8fb1cba0897f744d646"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centracare.com",
+                "www.centracare.com",
+                "www.redcrossblood.org"
+            ]
+        },
+        {
+            "rule": "orbita\\.cloud\\/oeapi\\/initialize-chat\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "centracare"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c86611db7a240762d07328c9f91b4f3303f9b05db75c8e3ffceb42dafd96745c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centracare.com",
+                "www.centracare.com"
+            ]
+        },
+        {
+            "rule": "orbita\\.cloud\\/oeapi\\/chat-custom\\.css",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "centracare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "99d5f177254fe39cf03dd771fe74f5eb2406111f5630053013bd5910d36acc7f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centracare.com",
+                "www.centracare.com"
+            ]
+        },
+        {
+            "rule": "orbita\\.cloud\\/oeapi\\/assets\\/chat-bubble\\.svg",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "centracare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0678798a5704d2d5cdd9ecb7f8f01a863ddbb878aaf825bbd937dfea3c884922"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centracare.com",
+                "www.centracare.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Stylesheet": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-770.awsdns-32.net",
+        "ns-248.awsdns-31.com",
+        "ns-1814.awsdns-34.co.uk",
+        "ns-1381.awsdns-44.org"
+    ]
+}

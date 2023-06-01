@@ -1,0 +1,101 @@
+{
+    "domain": "edgetier.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "ei"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "edgetier\\.com\\/ei\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a3455f28a173f1c540d55a7c76bd5ff06e19cb07eb21ef81edff57d1b3c3caa5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "electricireland.ie",
+                "www.electricireland.ie"
+            ]
+        },
+        {
+            "rule": "edgetier\\.com\\/api\\/chat-enabled\\/1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ei"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "electricireland.ie",
+                "www.electricireland.ie"
+            ]
+        },
+        {
+            "rule": "edgetier\\.com\\/api\\/chat-enabled\\/1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ei"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5f8ea2182eaab38f18da347c42d8337ed422b3f3a3444ba40339fa265e2028d7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "electricireland.ie",
+                "www.electricireland.ie"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns74.domaincontrol.com",
+        "ns73.domaincontrol.com"
+    ]
+}

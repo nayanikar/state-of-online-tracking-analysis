@@ -1,0 +1,90 @@
+{
+    "domain": "k8s-main03-098cf5d1f6-368361864.us-west-2.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "g.vevor.com",
+            "resolved": "k8s-main03-098cf5d1f6-368361864.us-west-2.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "k8s-main03-098cf5d1f6-368361864\\.us-west-2\\.elb\\.amazonaws\\.com\\/Z3RhZy9qcw==",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "g.vevor.com",
+                    "resolved": "k8s-main03-098cf5d1f6-368361864.us-west-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "5812e48a298455387d3c71b2e7b25cc9e9745da37472283ad9083eb9e7446ad5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vevor.com",
+                "www.vevor.com"
+            ]
+        },
+        {
+            "rule": "k8s-main03-098cf5d1f6-368361864\\.us-west-2\\.elb\\.amazonaws\\.com\\/g\\/collect",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "g.vevor.com",
+                    "resolved": "k8s-main03-098cf5d1f6-368361864.us-west-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vevor.com",
+                "www.vevor.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "vevorstatic.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

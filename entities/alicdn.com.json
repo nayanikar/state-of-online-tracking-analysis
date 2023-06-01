@@ -1,0 +1,111 @@
+{
+    "domain": "alicdn.com",
+    "owner": {
+        "name": "Alibaba Group",
+        "displayName": "Alibaba"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000904,
+    "sites": 9,
+    "subdomains": [
+        "retcode",
+        "g"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "alicdn\\.com\\/retcode\\/bl\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "retcode"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.connection": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1887df99fdf341ac77c13d72958ee925ae13bdae1bfc8f2e760a74eb909f0b7c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bl_uid": {
+                    "ttl": 15552000,
+                    "length": 28,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dji.com",
+                "www.shangri-la.com"
+            ]
+        },
+        {
+            "rule": "alicdn\\.com\\/jssdk\\/u-link\\/index\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "g"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f4b935922d875119ed78b0b8ea59452528b5e15598566d772ecaade856d083c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fotor.com",
+                "www.fotor.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5333333333333333
+        },
+        {
+            "domain": "aliexpress.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns1.alibabadns.com",
+        "ns2.alibabadns.com"
+    ]
+}

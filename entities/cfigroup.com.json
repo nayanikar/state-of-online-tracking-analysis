@@ -1,0 +1,73 @@
+{
+    "domain": "cfigroup.com",
+    "owner": {
+        "name": "CFI Group",
+        "displayName": "CFI Group"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "cdnmon"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cfigroup\\.com\\/source\\/webmon\\/2a98066ab51058\\/webmon\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnmon"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "65a43651960d050235f72571f2aadb904eac422384bc65edc991c4a79e3fffe4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CFIWebMonSession": {
+                    "ttl": null,
+                    "length": 838,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usgs.gov",
+                "www.usgs.gov"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "eva.ns.cloudflare.com",
+        "jeremy.ns.cloudflare.com"
+    ]
+}

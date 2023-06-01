@@ -1,0 +1,171 @@
+{
+    "domain": "nation.africa",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "scripts"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nation\\.africa\\/css\\/ev-widgets\\.min-v3\\.22\\.0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "58e849edf52dd1ef276063b86aed9b61b0ec5cfe059aba305e8dd47a9b034d96"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monitor.co.ug",
+                "www.monitor.co.ug"
+            ]
+        },
+        {
+            "rule": "nation\\.africa\\/css\\/ev-em\\.min-v3\\.4\\.4\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "65ebf62cae39a011b98aee0e28cf173e241356083a959737ba6630f99ade5825"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monitor.co.ug",
+                "www.monitor.co.ug"
+            ]
+        },
+        {
+            "rule": "nation\\.africa\\/ev-widgets\\.min-v3\\.22\\.0\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "59b159598d26e279afec0be72b3cecba8a355a2ba44b79071ea86c7f84182835"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monitor.co.ug",
+                "www.monitor.co.ug"
+            ]
+        },
+        {
+            "rule": "nation\\.africa\\/cdn-cgi\\/trace",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "35f222f03ee9498bb000a6e7aa1b17b3cf282f94a8d195a1c54853076e6fb1d2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monitor.co.ug",
+                "www.monitor.co.ug"
+            ]
+        },
+        {
+            "rule": "nation\\.africa\\/ev-em\\.min-v3\\.4\\.4\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "95e75a0bfd1ae056fbb15d55bc059e31ebd420c6619b23cd78b197a647610699"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ev_sid": {
+                    "ttl": 126144008,
+                    "length": 24,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "ev_did": {
+                    "ttl": 126144008,
+                    "length": 24,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monitor.co.ug",
+                "www.monitor.co.ug"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 4,
+        "Script": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "kim.ns.cloudflare.com",
+        "gabe.ns.cloudflare.com"
+    ]
+}

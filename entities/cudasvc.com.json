@@ -1,0 +1,104 @@
+{
+    "domain": "cudasvc.com",
+    "owner": {
+        "name": "Barracuda Networks Inc.",
+        "displayName": "Barracuda Networks"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "linkprotect"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cudasvc\\.com\\/url",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "linkprotect"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.plugins": 1,
+                "Navigator.prototype.language": 1,
+                "Document.cookie setter": 2,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_schn1": {
+                    "ttl": -1681955563,
+                    "length": 4,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "_scid": {
+                    "ttl": 34186706,
+                    "length": 36,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "_scid_r": {
+                    "ttl": 34186706,
+                    "length": 36,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "_sctr": {
+                    "ttl": 34186709,
+                    "length": 17,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "__tmbid": {
+                    "ttl": 31536007,
+                    "length": 46,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carpetcourt.com.au",
+                "www.frontiertouring.com",
+                "www.gwmhaval.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-1405.awsdns-47.org",
+        "ns-1942.awsdns-50.co.uk",
+        "ns-279.awsdns-34.com",
+        "ns-811.awsdns-37.net"
+    ]
+}

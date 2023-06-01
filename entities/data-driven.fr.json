@@ -1,0 +1,153 @@
+{
+    "domain": "data-driven.fr",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "tags"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "data-driven\\.fr\\/tags",
+            "cookies": 0.000201,
+            "fingerprinting": 3,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.plugins": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5acf2660efdfc17725116c87d1073e126d148c96dbcd19b37f2376d4a69f3eab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "DaDri_Udom": {
+                    "ttl": 34128006,
+                    "length": 13,
+                    "prevalence": 0.0002010252286661976,
+                    "uniqueness": 1
+                },
+                "DaDri_Sdom": {
+                    "ttl": null,
+                    "length": 13,
+                    "prevalence": 0.0002010252286661976,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lefigaro.fr",
+                "www.aerocontact.com"
+            ]
+        },
+        {
+            "rule": "data-driven\\.fr\\/ins2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "071f615e218367bcb0c343e7b95c220e77e819181a481cb7e13dd54cb8f58b7a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lefigaro.fr",
+                "www.aerocontact.com"
+            ]
+        },
+        {
+            "rule": "data-driven\\.fr\\/ins2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lefigaro.fr",
+                "www.aerocontact.com"
+            ]
+        },
+        {
+            "rule": "data-driven\\.fr\\/imgmgmt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lefigaro.fr",
+                "www.aerocontact.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns17.ovh.net",
+        "dns17.ovh.net"
+    ]
+}

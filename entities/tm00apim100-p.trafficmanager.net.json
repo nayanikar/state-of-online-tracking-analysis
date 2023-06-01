@@ -1,0 +1,89 @@
+{
+    "domain": "tm00apim100-p.trafficmanager.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "gateway.apiportal.ns.nl",
+            "resolved": "tm00apim100-p.trafficmanager.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tm00apim100-p\\.trafficmanager\\.net\\/omni-product-api\\/propositions\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "gateway.apiportal.ns.nl",
+                    "resolved": "tm00apim100-p.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "49d96e39d5e947ab3e70d424b90d6030d69816a522d5d84a3ecad4acb1ec1048"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ns.nl",
+                "www.ns.nl"
+            ]
+        },
+        {
+            "rule": "tm00apim100-p\\.trafficmanager\\.net\\/brxm-faqs\\/faqs\\/FlexDVD",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "gateway.apiportal.ns.nl",
+                    "resolved": "tm00apim100-p.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "c98f8f69d1e5e1e108dade704f684182c9662896da3bfddf9807d96a2dc2bb80"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ns.nl",
+                "www.ns.nl"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4
+    },
+    "nameservers": []
+}

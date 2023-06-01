@@ -1,0 +1,78 @@
+{
+    "domain": "memo.co",
+    "owner": {
+        "name": "Memorandum Inc",
+        "displayName": "Memo",
+        "privacyPolicy": "https://www.memo.co/privacy",
+        "url": "http://memo.co"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000904,
+    "sites": 9,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "memo\\.co\\/js\\/memo\\.js",
+            "cookies": 0.000803,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "Document.cookie setter": 8
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "4d7b91ed4a7804e22b94e4873af273def73469e80b740bd9787e287003058868"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__srret": {
+                    "ttl": 31536021,
+                    "length": 1,
+                    "prevalence": 0.0008032128514056225,
+                    "uniqueness": 0.125
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allure.com",
+                "www.architecturaldigest.com",
+                "www.epicurious.com",
+                "www.glamour.com",
+                "www.gq.com",
+                "www.self.com",
+                "www.teenvogue.com",
+                "www.vanityfair.com",
+                "www.wired.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000803,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "ns-283.awsdns-35.com",
+        "ns-717.awsdns-25.net",
+        "ns-1096.awsdns-09.org",
+        "ns-1541.awsdns-00.co.uk"
+    ]
+}

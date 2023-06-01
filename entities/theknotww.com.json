@@ -1,0 +1,60 @@
+{
+    "domain": "theknotww.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "ironman-ingress-public.us-east-1.k8s.eng"
+    ],
+    "cnames": [
+        {
+            "original": "prod-core-api.regsvcs.theknot.com",
+            "resolved": "ironman-ingress-public.us-east-1.k8s.eng.theknotww.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "theknotww\\.com\\/v2\\/members\\/E94DB1EB-CA67-4449-BB24-F1B541CF4F8C\\/public-summary",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ironman-ingress-public.us-east-1.k8s.eng"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "prod-core-api.regsvcs.theknot.com",
+                    "resolved": "ironman-ingress-public.us-east-1.k8s.eng.theknotww.com"
+                }
+            ],
+            "responseHashes": [
+                "a9bfd47349aa972f88534917dc983a996991a0e79d8ce59cb2cd3a5506ac429b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theknot.com",
+                "registry.theknot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-972.awsdns-57.net",
+        "ns-1130.awsdns-13.org",
+        "ns-43.awsdns-05.com",
+        "ns-1590.awsdns-06.co.uk"
+    ]
+}

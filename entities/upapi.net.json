@@ -1,0 +1,61 @@
+{
+    "domain": "upapi.net",
+    "owner": {
+        "name": "Blockthrough Inc.",
+        "displayName": "Blockthrough"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "mrb"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "upapi\\.net\\/code",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mrb"
+            ],
+            "apis": {
+                "window.sessionStorage": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mako.co.il",
+                "www.skelbiu.lt"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "anna.ns.cloudflare.com",
+        "anuj.ns.cloudflare.com"
+    ]
+}

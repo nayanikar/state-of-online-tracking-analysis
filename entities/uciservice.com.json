@@ -1,0 +1,190 @@
+{
+    "domain": "uciservice.com",
+    "owner": {
+        "name": "Expedia Group, Inc.",
+        "displayName": "Expedia Group"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "uciservice\\.com\\/assets\\/meso-loaders\\/expads-blocked\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e4802e9d8a732fe0f028e26f113a84df08627bdc9d84931fa60bc4c80a5f2089"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotels.com",
+                "www.hotels.com"
+            ]
+        },
+        {
+            "rule": "uciservice\\.com\\/assets\\/meso-loaders\\/meso-loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7c827d35769d26bcb8a9fc714ee35e2b44b65bbd86179bd2d613b63be7d668e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotels.com",
+                "www.hotels.com"
+            ]
+        },
+        {
+            "rule": "uciservice\\.com\\/ds\\/api\\/v1\\/toolkit\\/Homepage\\/300000035\\/en_AU\\/pwa",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a22b9ce0ebaaae5cdb9346925979dc1f83e275b72496e2fcace6e25e10a944a4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "s_ppn": 0.00020080321285140563,
+                "page_name": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "hotels.com",
+                "www.hotels.com"
+            ]
+        },
+        {
+            "rule": "uciservice\\.com\\/assets\\/md-libs\\/1\\.0\\/3fc0a93bd51523c879f0b9b25f344688a377e194\\/meso-gpt\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e9a081f2c789a01867a125fad58df24019c26d3d77c22fb09bcf6791756a0dc6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotels.com",
+                "www.hotels.com"
+            ]
+        },
+        {
+            "rule": "uciservice\\.com\\/assets\\/md-libs\\/1\\.0\\/3fc0a93bd51523c879f0b9b25f344688a377e194\\/meso-native\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "69bcbde7326afdfe3d0a4e6886361c7f168496d00d5b35848ab41b4834828b63"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotels.com",
+                "www.hotels.com"
+            ]
+        },
+        {
+            "rule": "uciservice\\.com\\/assets\\/md-libs\\/1\\.0\\/3fc0a93bd51523c879f0b9b25f344688a377e194\\/meso-gpt-fluid\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "873f62d82da434e04a8916e61e4e29266e92905ed7deeea6752c059da060f523"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotels.com",
+                "www.hotels.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "travel-assets.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "pdns3.ultradns.org",
+        "pdns4.ultradns.org",
+        "pdns1.ultradns.net",
+        "pdns2.ultradns.net",
+        "pdns5.ultradns.info",
+        "pdns6.ultradns.co.uk"
+    ]
+}

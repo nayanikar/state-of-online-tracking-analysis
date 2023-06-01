@@ -1,0 +1,170 @@
+{
+    "domain": "pricespider.com",
+    "owner": {
+        "name": "PriceSpider (NeuIntel, LLC)",
+        "displayName": "PriceSpider (NeuIntel, LLC)"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0011,
+    "sites": 11,
+    "subdomains": [
+        "cdn",
+        "locate",
+        "wtbevents"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pricespider\\.com\\/1\\/lib\\/ps-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "48882847908b4c62522038ab815efbc7c766209ef9273e397a6462d148bd3acb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belkin.com",
+                "www.gainsboroughhardware.com.au",
+                "www.milwaukeetool.com.au",
+                "www.netgear.com",
+                "www.nintendo.com"
+            ]
+        },
+        {
+            "rule": "pricespider\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "locate",
+                "wtbevents"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "1d4282010015ea1ecf91dbf6acfb8aa856bc094a6472157cba0825be51e1733a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "belkin.com",
+                "www.belkin.com",
+                "www.gainsboroughhardware.com.au",
+                "www.milwaukeetool.com.au",
+                "www.netgear.com",
+                "www.nintendo.com"
+            ]
+        },
+        {
+            "rule": "pricespider\\.com\\/pathinsights\\/ps-pi-ps\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1986a513079b099d8210473e4636ea4917fc0a400628b7e17fc64bf1eecfac41"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cltoolcentre.com.au",
+                "www.totaltools.com.au",
+                "www.tradetools.com"
+            ]
+        },
+        {
+            "rule": "pricespider\\.com\\/1\\/1744\\/ps-utid\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9fa57355adc607ca19321f1a8022f15f30bb204aee14038223b916b7709fd9c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "colgate.com",
+                "www.hillspet.com"
+            ]
+        },
+        {
+            "rule": "pricespider\\.com\\/1\\/vendor\\/socketio\\/2\\.3\\.0\\/socket-io\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0ee978734f5c76b58a5d5b5a9653f1179e7c970c4cc020bc75725d6743d55b9e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milwaukeetool.com.au",
+                "www.netgear.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 18
+    },
+    "nameservers": [
+        "ns10.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns14.dnsmadeeasy.com",
+        "ns15.dnsmadeeasy.com"
+    ]
+}

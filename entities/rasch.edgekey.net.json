@@ -1,0 +1,102 @@
+{
+    "domain": "rasch.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "prod",
+        "prod-ipv6"
+    ],
+    "cnames": [
+        {
+            "original": "api.handelszeitung.ch",
+            "resolved": "prod.rasch.edgekey.net"
+        },
+        {
+            "original": "api.pme.ch",
+            "resolved": "prod.rasch.edgekey.net"
+        },
+        {
+            "original": "cdn.graphql.service.beobachter.ch",
+            "resolved": "prod.rasch.edgekey.net"
+        },
+        {
+            "original": "cdn.graphql.service.cash.ch",
+            "resolved": "prod-ipv6.rasch.edgekey.net"
+        },
+        {
+            "original": "cdn.graphql.service.schweizer-illustrierte.ch",
+            "resolved": "prod.rasch.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rasch\\.edgekey\\.net\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod",
+                "prod-ipv6"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [
+                {
+                    "original": "cdn.graphql.service.beobachter.ch",
+                    "resolved": "prod.rasch.edgekey.net"
+                },
+                {
+                    "original": "cdn.graphql.service.cash.ch",
+                    "resolved": "prod-ipv6.rasch.edgekey.net"
+                },
+                {
+                    "original": "api.handelszeitung.ch",
+                    "resolved": "prod.rasch.edgekey.net"
+                },
+                {
+                    "original": "api.pme.ch",
+                    "resolved": "prod.rasch.edgekey.net"
+                },
+                {
+                    "original": "cdn.graphql.service.schweizer-illustrierte.ch",
+                    "resolved": "prod.rasch.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "90319d480c689f932ec4d8cf977bc586c27252020a8c4c15cb6c22092e6d09f4",
+                "4c21158bda2a9043f5ef09b4a302b1eef32b6a6302c4fd8889092c3bc5e72c24",
+                "346fb94dcb7fddeace6f3bfeaebdf5e3df677c9214f1fec975782781ee0c6dce",
+                "3f1c2e95e2db911f7c17fe5ae6a74314dde57aad7a3dab16d9c998260b08fc83",
+                "1f4a80f655ac880ffc1bf5aab21fcea1f4a3cdec6f66b262d764b4a5a712f706"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beobachter.ch",
+                "www.beobachter.ch",
+                "www.cash.ch",
+                "www.handelszeitung.ch",
+                "www.pme.ch",
+                "www.schweizer-illustrierte.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Fetch": 6
+    },
+    "nameservers": []
+}

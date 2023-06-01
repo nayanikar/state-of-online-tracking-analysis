@@ -1,0 +1,163 @@
+{
+    "domain": "otstatic.com",
+    "owner": {
+        "name": "OpenTable, Inc.",
+        "displayName": "OpenTable"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "components"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "otstatic\\.com\\/reservation-widget-generator\\/3\\/js\\/oc-client\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c469b83df6437f4b6f464446490e26a8918eb238342e5f9736830a756afc5543"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eastsidemarios.com",
+                "www.kelseys.ca",
+                "www.montanas.ca"
+            ]
+        },
+        {
+            "rule": "otstatic\\.com\\/reservation-widget-generator\\/3\\/js\\/modaloverlay\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "05c01ea9e640ab9fe888dfed81c40950973b942eae58dcbcc816ba97c4520618"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eastsidemarios.com",
+                "www.kelseys.ca",
+                "www.montanas.ca"
+            ]
+        },
+        {
+            "rule": "otstatic\\.com\\/components\\/reservation-widget-multi\\/5\\.0\\.14\\/template\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "components"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f3502c3c7c1de78aa449d847bd408b1cff4fbfe21439c366750df27cfac5d60b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eastsidemarios.com",
+                "www.kelseys.ca",
+                "www.montanas.ca"
+            ]
+        },
+        {
+            "rule": "otstatic\\.com\\/components\\/reservation-widget-multi\\/5\\.0\\.14\\/assets\\/css\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "components"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "bbc4c30281370cb1643aa0726d8c15dc636b570cc63ac6aef454bac49d27c1ad"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eastsidemarios.com",
+                "www.kelseys.ca",
+                "www.montanas.ca"
+            ]
+        },
+        {
+            "rule": "otstatic\\.com\\/components\\/reservation-widget-multi\\/5\\.0\\.14\\/assets\\/js\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "components"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c561640a35a8ee6ec18bb35488135d4f9d38c7ae4ce6458173a077264b43538c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eastsidemarios.com",
+                "www.kelseys.ca",
+                "www.montanas.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "a1-93.akam.net",
+        "a4-66.akam.net",
+        "a28-65.akam.net",
+        "a11-66.akam.net",
+        "a13-64.akam.net",
+        "a12-67.akam.net"
+    ]
+}

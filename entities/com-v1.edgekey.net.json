@@ -1,0 +1,177 @@
+{
+    "domain": "com-v1.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0012,
+    "sites": 12,
+    "subdomains": [
+        "gbxgateway.dell",
+        "geo.cnbc"
+    ],
+    "cnames": [
+        {
+            "original": "gbxgateway.dell.com",
+            "resolved": "gbxgateway.dell.com-v1.edgekey.net"
+        },
+        {
+            "original": "geo.cnbc.com",
+            "resolved": "geo.cnbc.com-v1.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "com-v1\\.edgekey\\.net\\/PROD\\/GBX_6\\.6\\.80\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 3,
+            "subdomains": [
+                "gbxgateway.dell"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "gbxgateway.dell.com",
+                    "resolved": "gbxgateway.dell.com-v1.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "af1bd944fec51be3e6908681b4221ce676b329f46af1720da57e95ff1914d29d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "www.dell.com"
+            ]
+        },
+        {
+            "rule": "com-v1\\.edgekey\\.net\\/PROD\\/GBX_6\\.6\\.80\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gbxgateway.dell"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "gbxgateway.dell.com",
+                    "resolved": "gbxgateway.dell.com-v1.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "af1bd944fec51be3e6908681b4221ce676b329f46af1720da57e95ff1914d29d"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "www.dell.com"
+            ]
+        },
+        {
+            "rule": "com-v1\\.edgekey\\.net\\/post\\/WEB\\/report",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gbxgateway.dell"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "gbxgateway.dell.com",
+                    "resolved": "gbxgateway.dell.com-v1.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2b35d8c5cf111289d914c1c1bd8a0815dd6a7417aaec261fbc29c96afd3025e5",
+                "f495d5f5442dba9e0250ad0a90a7679a1b0cf9b1789412b110e5fcc4e243e494"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com"
+            ]
+        },
+        {
+            "rule": "com-v1\\.edgekey\\.net\\/info\\/",
+            "cookies": 0.000602,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo.cnbc"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [
+                {
+                    "original": "geo.cnbc.com",
+                    "resolved": "geo.cnbc.com-v1.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6911765aabb8f59c22ca80a29a7a80b5f69d2ca7602eb5f707ad05dbbf25a591"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnbc.com",
+                "www.cnbc.com",
+                "www.msnbc.com",
+                "www.nbcnews.com",
+                "www.telemundo.com",
+                "www.today.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000904,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "securiti.ai",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "cnbcfm.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "medscapestatic.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "webcontentassessor.global.ssl.fastly.net",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Other": 2,
+        "XHR": 3,
+        "Fetch": 6
+    },
+    "nameservers": []
+}

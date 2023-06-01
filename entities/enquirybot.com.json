@@ -1,0 +1,81 @@
+{
+    "domain": "enquirybot.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "prod-qa"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "enquirybot\\.com\\/socket\\.io\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-qa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "raineandhorne.com.au",
+                "www.raineandhorne.com.au"
+            ]
+        },
+        {
+            "rule": "enquirybot\\.com\\/socket\\.io\\/",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-qa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "55fe8b3c1c37f0807147c0806946c023aff0b6ef85946f2e0a07f52c0191d2da"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "raineandhorne.com.au",
+                "www.raineandhorne.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "podium.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1636.awsdns-12.co.uk",
+        "ns-120.awsdns-15.com",
+        "ns-1298.awsdns-34.org",
+        "ns-773.awsdns-32.net"
+    ]
+}

@@ -1,0 +1,357 @@
+{
+    "domain": "athena.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "cdn.nimbus",
+        "resources-prod2304131644.cf.px"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "athena\\.io\\/static\\/login-branding-content\\/1\\.0\\.3\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.nimbus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "523358723bb14de8bae7b6872752076934351149793508fbe28f5a034602557b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athenahealth.com",
+                "athenanet.athenahealth.com"
+            ]
+        },
+        {
+            "rule": "athena\\.io\\/ping\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.nimbus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d5db8805dc99a096cecddc0f88792a2ec055cd0f038d09643786b9b138cbaabd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athenahealth.com",
+                "athenanet.athenahealth.com"
+            ]
+        },
+        {
+            "rule": "athena\\.io\\/quickpay-prod2304131644\\/content\\/runtime\\.3403c19f1df407e0acb5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-prod2304131644.cf.px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d3598d38a6d0059b627ff7bea1ef8be682af92681fde1920592b5a32723d1fd8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athenahealth.com",
+                "payment.athenahealth.com"
+            ]
+        },
+        {
+            "rule": "athena\\.io\\/quickpay-prod2304131644\\/content\\/79\\.442360a305fcf37eb596\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 2,
+            "subdomains": [
+                "resources-prod2304131644.cf.px"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "window.localStorage": 1,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fbfe181bd3678e183cfff0e707c95d0764aa2239fe1cb884b1be9a32837b76e3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ai_user": {
+                    "ttl": 31536000,
+                    "length": 47,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "ai_session": {
+                    "ttl": 1800,
+                    "length": 50,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "amp_ac7b3a": {
+                    "ttl": 31536002,
+                    "length": 50,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athenahealth.com",
+                "payment.athenahealth.com"
+            ]
+        },
+        {
+            "rule": "athena\\.io\\/quickpay-prod2304131644\\/content\\/main\\.cf7643231acc4bf061b7\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-prod2304131644.cf.px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c58ddc821f22ff1dc0ff73ca12f8f3fbb66ccc7aa6194d03f01581f8bf35a336"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athenahealth.com",
+                "payment.athenahealth.com"
+            ]
+        },
+        {
+            "rule": "athena\\.io\\/quickpay-prod2304131644\\/content\\/79\\.29cb24bb44107c0ea044\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-prod2304131644.cf.px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "345f08769ad48921226e58008b01152ce0bdd55dd7da519a4b991297b56411fd"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athenahealth.com",
+                "payment.athenahealth.com"
+            ]
+        },
+        {
+            "rule": "athena\\.io\\/quickpay-prod2304131644\\/content\\/main\\.bf3813ef72733192a725\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-prod2304131644.cf.px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0e3f786c8c45e737f15076ed6755fbf4efda147ae0b158fee61bf61aac65bc6a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athenahealth.com",
+                "payment.athenahealth.com"
+            ]
+        },
+        {
+            "rule": "athena\\.io\\/quickpay-prod2304131644\\/content\\/img\\/2FA_wavy_shape_MOBILE\\.8e36258d\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-prod2304131644.cf.px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "926160075f5d39476b4e6a41a82b03d9c5710c4a6f566e26e42981eee87cfbef"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athenahealth.com",
+                "payment.athenahealth.com"
+            ]
+        },
+        {
+            "rule": "athena\\.io\\/quickpay-prod2304131644\\/content\\/fonts\\/SourceSansPro-Regular\\.otf\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-prod2304131644.cf.px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d1d85319455f70f00856c1d8a2c7d16917ec004597468e06750e7ee9fc2b7fce"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athenahealth.com",
+                "payment.athenahealth.com"
+            ]
+        },
+        {
+            "rule": "athena\\.io\\/quickpay-prod2304131644\\/content\\/fonts\\/SourceSansPro-Semibold\\.otf\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-prod2304131644.cf.px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "670de6fb6318cd2522dc9da42ab0387b134a92692b7fdb25d076a3800a0645d0"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athenahealth.com",
+                "payment.athenahealth.com"
+            ]
+        },
+        {
+            "rule": "athena\\.io\\/quickpay-prod2304131644\\/content\\/img\\/athenahealth-logo\\.ce5c261d\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-prod2304131644.cf.px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "62c3167b6f609f9333872cda68bb069317b13d4018d59b6df2ffa3e426e37b03"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athenahealth.com",
+                "payment.athenahealth.com"
+            ]
+        },
+        {
+            "rule": "athena\\.io\\/quickpay-prod2304131644\\/content\\/img\\/ILLO_Family_DGT_2048px\\.9fe3eb50\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-prod2304131644.cf.px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4d73e713d7346c992e50fe2241bbdb93bb4c4e6efe176f3fc3e5c484edc5a802"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athenahealth.com",
+                "payment.athenahealth.com"
+            ]
+        },
+        {
+            "rule": "athena\\.io\\/quickpay-prod2304131644\\/content\\/img\\/lock\\.706d973a\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-prod2304131644.cf.px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "316088c2140636203b492bba4c10e81224379faaff00e103e19fb058f863f66d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athenahealth.com",
+                "payment.athenahealth.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 2,
+        "Stylesheet": 4,
+        "Image": 8,
+        "Font": 4
+    },
+    "nameservers": [
+        "dns1.p03.nsone.net",
+        "dns2.p03.nsone.net",
+        "dns3.p03.nsone.net",
+        "dns4.p03.nsone.net",
+        "ns01.athenahealth-dns.com",
+        "ns02.athenahealth-dns.com",
+        "ns03.athenahealth-dns.com",
+        "ns04.athenahealth-dns.com"
+    ]
+}

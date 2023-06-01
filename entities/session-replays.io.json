@@ -1,0 +1,108 @@
+{
+    "domain": "session-replays.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "worker-visa",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "session-replays\\.io\\/ssr-worker\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "worker-visa"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6638b0aa56e64388c8aa42029e916106a06f82489c4baaaeb0f8a8ea36524d06"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sw-database.com",
+                "www.sw-database.com",
+                "www.tanzite.com"
+            ]
+        },
+        {
+            "rule": "session-replays\\.io\\/api\\/websites\\/external\\/ab3cb5e1-cee8-11ed-b589-901b0edac50a\\/sessions\\/b3b9a192-599f-4496-9f71-ecacfe174cfd\\/recordings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tum.de",
+                "www.tum.de"
+            ]
+        },
+        {
+            "rule": "session-replays\\.io\\/api\\/websites\\/external\\/ab3cb5e1-cee8-11ed-b589-901b0edac50a\\/sessions\\/b3b9a192-599f-4496-9f71-ecacfe174cfd\\/recordings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bbca0fcdd39f1e0daa168c743ece591e38ea647ecdc59064645b1c738b9912c6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tum.de",
+                "www.tum.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "visitor-analytics.io",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1.first-ns.de",
+        "robotns2.second-ns.de",
+        "robotns3.second-ns.com"
+    ]
+}

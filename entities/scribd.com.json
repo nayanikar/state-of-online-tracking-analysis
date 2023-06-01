@@ -1,0 +1,112 @@
+{
+    "domain": "scribd.com",
+    "owner": {
+        "name": "Scribd, Inc.",
+        "displayName": "Scribd"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "www",
+        "wa"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "scribd\\.com\\/csrf_token",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0d41293f4d6345b8e12c32841e27658fe8f8d363852f3b93b111a4987985a44c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "michaelsmithnews.com",
+                "www.michaelsmithnews.com"
+            ]
+        },
+        {
+            "rule": "scribd\\.com\\/api\\/v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "michaelsmithnews.com",
+                "www.michaelsmithnews.com"
+            ]
+        },
+        {
+            "rule": "scribd\\.com\\/api\\/v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "97d5aa458ae622677dbd0e091aca9796aba8b99ce226aa081b8f518390e23c3e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "michaelsmithnews.com",
+                "www.michaelsmithnews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "scribdassets.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1449.awsdns-53.org",
+        "ns-2000.awsdns-58.co.uk",
+        "ns-630.awsdns-14.net",
+        "ns-474.awsdns-59.com"
+    ]
+}

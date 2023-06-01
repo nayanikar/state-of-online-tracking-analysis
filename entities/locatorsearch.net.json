@@ -1,0 +1,77 @@
+{
+    "domain": "locatorsearch.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [
+        "clsws"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "locatorsearch\\.net\\/Rest\\/LocatorSearchAPI\\.svc\\/GetLocations",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clsws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "traviscu.org",
+                "www.traviscu.org"
+            ]
+        },
+        {
+            "rule": "locatorsearch\\.net\\/Rest\\/LocatorSearchAPI\\.svc\\/GetLocations",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clsws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5cd23b4b876d648c3840c288d8a57d077166ead6d074c1ca7e985401417d834f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "traviscu.org",
+                "www.traviscu.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-343.awsdns-42.com",
+        "ns-976.awsdns-58.net",
+        "ns-1143.awsdns-14.org",
+        "ns-1909.awsdns-46.co.uk"
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "domain": "clustrmaps.com",
+    "owner": {
+        "name": "ClustrMaps",
+        "displayName": "ClustrMaps"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [
+        "www",
+        "cdn",
+        "www3",
+        "www2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "clustrmaps\\.com\\/map_v2\\.png",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "523d99f30d4b3937fb3b162f85aad79c5119bfa6a43af2be09e959ca9494ddc1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clonezilla.org",
+                "crystalmark.info",
+                "www.eutimes.net"
+            ]
+        },
+        {
+            "rule": "clustrmaps\\.com\\/globe\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0706ac35408c05e25873a0437250dd593c5f8bf8ca31ee5b61a927c4dd0b65be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "honeybeesuite.com",
+                "www.honeybeesuite.com"
+            ]
+        },
+        {
+            "rule": "clustrmaps\\.com\\/counter\\/index2\\.php",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www3",
+                "www2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d5fb04885f8c1d5030e8992022c9b90a0d9670bd176098da5b7d3339054e9b52"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "keeptalkinggreece.com",
+                "www.keeptalkinggreece.com",
+                "www.spaziolink.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000613,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Image": 6,
+        "Script": 2
+    },
+    "nameservers": [
+        "liz.ns.cloudflare.com",
+        "jay.ns.cloudflare.com"
+    ]
+}

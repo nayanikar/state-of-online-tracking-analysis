@@ -1,0 +1,127 @@
+{
+    "domain": "botstar.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "gateway",
+        "app-upload-assets.cdn",
+        "realtime"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "botstar\\.com\\/web\\/live\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herlawyer.com",
+                "networklessons.com"
+            ]
+        },
+        {
+            "rule": "botstar\\.com\\/web\\/live\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1af81855776726f16c3c7b920ef4847abf5665a8f01f6e680aa55db9bb61ef73"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herlawyer.com",
+                "networklessons.com"
+            ]
+        },
+        {
+            "rule": "botstar\\.com\\/static\\/nothing\\.wav",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-upload-assets.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "093d0547f145aa23792f4a1bf4328fed19044ebae567af4b99022e4108941bf9"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herlawyer.com",
+                "networklessons.com"
+            ]
+        },
+        {
+            "rule": "botstar\\.com\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "realtime"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "herlawyer.com",
+                "networklessons.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "installchatbot.com",
+            "prevalence": 0.9166666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2,
+        "Media": 2,
+        "WebSocket": 2
+    },
+    "nameservers": [
+        "ns-144.awsdns-18.com",
+        "ns-530.awsdns-02.net",
+        "ns-2026.awsdns-61.co.uk",
+        "ns-1397.awsdns-46.org"
+    ]
+}

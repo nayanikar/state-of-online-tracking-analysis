@@ -1,0 +1,125 @@
+{
+    "domain": "scotiabank.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "dmtags",
+        "cdb-search-platform-api"
+    ],
+    "cnames": [
+        {
+            "original": "cdb-search-platform-api.scotiabank.com",
+            "resolved": "cdb-search-platform-api.scotiabank.com.edgekey.net"
+        },
+        {
+            "original": "dmtags.scotiabank.com",
+            "resolved": "dmtags.scotiabank.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "scotiabank\\.com\\.edgekey\\.net\\/contentsquare\\/canada\\/a397c330ed1de\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dmtags"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "dmtags.scotiabank.com",
+                    "resolved": "dmtags.scotiabank.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ac7d15a6cf5a0295670098d32df8e0b53ce57ac19524747853b91b9032040bbe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scotiabank.com",
+                "help.scotiabank.com"
+            ]
+        },
+        {
+            "rule": "scotiabank\\.com\\.edgekey\\.net\\/category",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdb-search-platform-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "cdb-search-platform-api.scotiabank.com",
+                    "resolved": "cdb-search-platform-api.scotiabank.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scotiabank.com",
+                "help.scotiabank.com"
+            ]
+        },
+        {
+            "rule": "scotiabank\\.com\\.edgekey\\.net\\/category",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdb-search-platform-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "cdb-search-platform-api.scotiabank.com",
+                    "resolved": "cdb-search-platform-api.scotiabank.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "88bb12f7649d81b8e1c028eaed97c1bded00c486ae677fa6423f7961586f6781"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scotiabank.com",
+                "help.scotiabank.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

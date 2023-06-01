@@ -1,0 +1,153 @@
+{
+    "domain": "beyable.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "tag",
+        "front.lytics",
+        "front.activation"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "beyable\\.com\\/api\\/beYableJS-analytics\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c97dcea758c57b5c2e39b744f78be01844cae1ac35b35cc7f482f9532a669fda"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bey_id": {
+                    "ttl": 33696006,
+                    "length": 32,
+                    "prevalence": 0.0003012653143201446,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltricks.fr",
+                "www.mister-auto.ch",
+                "www.philibertnet.com"
+            ]
+        },
+        {
+            "rule": "beyable\\.com\\/v1\\/api\\/pageview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front.lytics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e03fa3bd24dd614b6ad9bf9141750e71976fde2221647bc4aa287af234fda153",
+                "b2f1ab35d8048c65a9aa52ec22f2049168f06821c23bf511bba45f6c04e66158"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltricks.fr",
+                "www.mister-auto.ch",
+                "www.philibertnet.com"
+            ]
+        },
+        {
+            "rule": "beyable\\.com\\/v1\\/api\\/pageview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front.lytics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltricks.fr",
+                "www.mister-auto.ch",
+                "www.philibertnet.com"
+            ]
+        },
+        {
+            "rule": "beyable\\.com\\/apiwithnotracking\\/v2\\/displayswithnotracking",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front.activation"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "609723b2ead7da7f3804162ecd9c9dd866365d907e36c4b47f8866424aef241f",
+                "455d1a18d1494f23f9371a7b4e701e3d898eeb2ccc554a940f0ca44b945ff51f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltricks.fr",
+                "www.la-vie-naturelle.com",
+                "www.mister-auto.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "XHR": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "dns200.anycast.me",
+        "ns200.anycast.me"
+    ]
+}

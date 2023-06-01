@@ -1,0 +1,138 @@
+{
+    "domain": "churnzero.net",
+    "owner": {
+        "name": "ChurnZero, Inc",
+        "displayName": "ChurnZero"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "analytics",
+        "sae.us1app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "churnzero\\.net\\/churnzero\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.appName": 1,
+                "Navigator.prototype.cookieEnabled": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e7ddd4345ce09894fe67f036469a9fe21525539acac6844a6df5234ab45c92f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cloudacademy.com",
+                "www.sae.org"
+            ]
+        },
+        {
+            "rule": "churnzero\\.net\\/api\\/v1\\/sockets\\/connect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "839e8fb4604baf7811cfb6b48839fcdf8bb879e44c2c5ae905f0f70165c5490c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sae.org",
+                "www.sae.org"
+            ]
+        },
+        {
+            "rule": "churnzero\\.net\\/api\\/v1\\/sockets\\/connectStatus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sae.us1app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sae.org",
+                "www.sae.org"
+            ]
+        },
+        {
+            "rule": "churnzero\\.net\\/api\\/v1\\/sockets\\/poll\\/3562",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sae.us1app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sae.org",
+                "www.sae.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-117.awsdns-14.com",
+        "ns-1806.awsdns-33.co.uk",
+        "ns-1256.awsdns-29.org",
+        "ns-938.awsdns-53.net"
+    ]
+}

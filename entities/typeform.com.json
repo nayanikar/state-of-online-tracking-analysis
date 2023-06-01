@@ -1,0 +1,426 @@
+{
+    "domain": "typeform.com",
+    "owner": {
+        "name": "Typeform S.L.",
+        "displayName": "Typeform"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0011,
+    "sites": 11,
+    "subdomains": [
+        "embed",
+        "renderer-assets",
+        "form",
+        "rudderstack-control-plane.cdp.prod.data",
+        "rudderstack.cdp.prod.data",
+        "font"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "typeform\\.com\\/next\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "fbbf536bef37756df49ad4d23557ff6bfcc4b7279557d9360bdc70487481d132"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auto-gpt.ai",
+                "bloomscape.com",
+                "diablo.fandom.com",
+                "www.cleanaway.com.au",
+                "www.clickbank.com",
+                "www.meritonsuites.com.au",
+                "www.miracare.com",
+                "www.savings.com.au",
+                "www.yourinvestmentpropertymag.com.au",
+                "www.yourmortgage.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/next\\/css\\/widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "339f82086eb610c04641daa0f9ae1a81c438fd8b0e985704032ed98ee6f5f224"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "www.cleanaway.com.au",
+                "www.meritonsuites.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/modern-renderer\\.85a81a8aa1fd31239762\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "renderer-assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.connection": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Event.prototype.timeStamp": 1,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "8de734ec430f82ff21d0c931cb20534dfa0be8ee25c8e36adc041481bcef34ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "www.cleanaway.com.au",
+                "www.meritonsuites.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/cdn-cgi\\/challenge-platform\\/scripts\\/invisible\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "form"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "www.cleanaway.com.au",
+                "www.meritonsuites.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/cdn-cgi\\/challenge-platform\\/h\\/g\\/scripts\\/jsd\\/70d5f7ce\\/invisible\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "form"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "71aff7fafa92f0c682ef642fad192f2769abc92882de8201d8747484a24ced62",
+                "91a44954efd406dfe1eff331b27efaf334ad4ae312b77b9bb7efda32039b2edf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "www.cleanaway.com.au",
+                "www.meritonsuites.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/cdn-cgi\\/challenge-platform\\/h\\/g\\/scripts\\/pica\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "form"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "68e5a363562ef2438fd517faec233cc25da162115cf7c7b25337366cac65b77a",
+                "f6db3d5c018b851a9f26a203fd4a4ca37ca8d5e5593af3b19653ca99386f45cd"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "www.cleanaway.com.au",
+                "www.meritonsuites.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/vendors~form~blocks-validation-phone_number~blocks-renderer-contact_info~blocks-renderer-phone_number\\.0c35a1c1193305df993f\\.renderer\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "renderer-assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c683a0b24c9732c0eaa4f0e9552d815dde7e4e5eea1270da99e81dd703c950dc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "www.cleanaway.com.au",
+                "www.meritonsuites.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/vendors~form\\.b2baa5a8bd2e694c533b\\.renderer\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "renderer-assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "PerformanceTiming.prototype.navigationStart": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4ea465976ade57e08827a02f01f7a861aa32da547f2bffbbffc6640a52b940ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "www.cleanaway.com.au",
+                "www.meritonsuites.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/form\\.334a1169c8a8df6bc61a\\.renderer\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "renderer-assets"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "680b93fd76592fbbe0608d79f1c1bc9b732216e0b4387ea321bf58ea8649900f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "www.cleanaway.com.au",
+                "www.meritonsuites.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/sourceConfig\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rudderstack-control-plane.cdp.prod.data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "www.cleanaway.com.au",
+                "www.meritonsuites.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/sourceConfig\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rudderstack-control-plane.cdp.prod.data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1e1bfbb50209ae8693353623fab7eeeef5ae1c0ca5d128a40c3be54099e59028"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "www.cleanaway.com.au",
+                "www.meritonsuites.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/v1\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rudderstack.cdp.prod.data"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "diablo.fandom.com",
+                "www.cleanaway.com.au",
+                "www.meritonsuites.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/v1\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rudderstack.cdp.prod.data"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "diablo.fandom.com",
+                "www.cleanaway.com.au",
+                "www.meritonsuites.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/dist\\/google\\/karla\\/index\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "font"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3b7159665d46932ea05eeb92e0973a5b629050e6b896f7535c5048e46ce7cf5f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cleanaway.com.au",
+                "www.cleanaway.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/next\\/css\\/popup\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e1b0ae7a4891363c0798f66aae3fa1229d2efbcf59d1fbe35348e2eb8283dd08"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickbank.com",
+                "www.savings.com.au",
+                "www.yourinvestmentpropertymag.com.au",
+                "www.yourmortgage.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "rudderlabs.com",
+            "prevalence": 0.45
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Script": 28,
+        "Stylesheet": 9,
+        "Other": 3,
+        "Preflight": 7,
+        "XHR": 7
+    },
+    "nameservers": [
+        "ns-14.awsdns-01.com",
+        "ns-1444.awsdns-52.org",
+        "ns-1725.awsdns-23.co.uk",
+        "ns-788.awsdns-34.net"
+    ]
+}

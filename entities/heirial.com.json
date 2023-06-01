@@ -1,0 +1,132 @@
+{
+    "domain": "heirial.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "client",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "heirial\\.com\\/hc\\.min\\.js\\.gz",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b9c5af36e5caf17682c183249e389c3b388adfe5825ba17e4459823b95a9a406"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "heirial2": {
+                    "ttl": 465650239,
+                    "length": 112,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "heirial2.uid": {
+                    "ttl": 465650239,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "heirial2.ver": {
+                    "ttl": 465650239,
+                    "length": 5,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "heirial2.vid": {
+                    "ttl": -735130609,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drugrehab.com",
+                "www.drugrehab.com"
+            ]
+        },
+        {
+            "rule": "heirial\\.com\\/v2\\/intake\\/load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bb95e7bfe3538a1502b3049637c9dc8eb763374123085ad20d9302bc603f9a44"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drugrehab.com",
+                "www.drugrehab.com"
+            ]
+        },
+        {
+            "rule": "heirial\\.com\\/v2\\/intake\\/load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drugrehab.com",
+                "www.drugrehab.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-708.awsdns-24.net",
+        "ns-312.awsdns-39.com",
+        "ns-1118.awsdns-11.org",
+        "ns-1936.awsdns-50.co.uk"
+    ]
+}

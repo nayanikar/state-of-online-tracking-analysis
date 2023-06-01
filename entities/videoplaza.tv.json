@@ -1,0 +1,153 @@
+{
+    "domain": "videoplaza.tv",
+    "owner": {
+        "name": "Brightcove, Inc.",
+        "displayName": "Brightcove",
+        "privacyPolicy": "https://www.brightcove.com/en/legal/privacy",
+        "url": "http://brightcove.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000204,
+    "sites": 30,
+    "subdomains": [
+        "es-sunelespanol",
+        "es-sunicontent",
+        "service"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "videoplaza\\.tv\\/proxy\\/distributor\\/v2",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "es-sunelespanol",
+                "es-sunicontent"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "91098fa72d8104bd6b2b93dae6722863383a7704b41ce97f0e904708a3e9547c",
+                "2911f209265a6781c1d3d763376a12d3e6676a739f8e3a7b8619f1c2c1676273",
+                "569ee0652d078a4ba5826130f14d134733a36c8ac95854d4139caf600069b665",
+                "29fbe36bb76e757e78568d68a111685a1a5fbf5a4fe7c2fb8ea426dcd82e1cfc",
+                "feeda84e337b3f162f8ddd07c8b19461994aa4ac26f1936bbcf37bf45afcbfd5",
+                "9fa72baf12e4334a9063a6d09f1c8da611601ca86145b3e1152bca8b1c1cb70d",
+                "8bfdd38a68ea93468d9d0e580c32311e7c2037e36de148851cf56ad58ca0d6fc",
+                "b8330e18c7c4c9c0c1d63e3a56bc35dbf3c0b5b67732406655e9ee11fa10656f",
+                "b8ba5bfd98bd4262e482c3330851a746d627fff07b9e5566369c435123c878f9",
+                "f73d5648f2847b47d224f63540904ca404a8a3ae0063c2f204b492f3f95ea025",
+                "b8d62ac3d24719ccbdca92acb57f710ba3ce5d45ea46fe07625b8890edc4d9de",
+                "a990d5f794dadd2925817f76924e7693f2076b465cd664b4edd3a92473529768",
+                "010d26966a6b7f98f4daa5bc7e6a49b5aa6ee91393984a256e241c1e4f8f3cb1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expansion.com",
+                "datosmacro.expansion.com",
+                "efe.com",
+                "magnet.xataka.com",
+                "ww7.readblackclover.com",
+                "www.burbuja.info",
+                "www.directoalpaladar.com",
+                "www.genbeta.com",
+                "www.kimovil.com",
+                "www.lawebdelprogramador.com",
+                "www.mestmotor.se",
+                "www.musica.com",
+                "www.teletexto.com",
+                "www.vitonica.com",
+                "www.xataka.com",
+                "www.xatakafoto.com",
+                "www.xatakamovil.com",
+                "www.xatakandroid.com"
+            ]
+        },
+        {
+            "rule": "videoplaza\\.tv\\/proxy\\/pulse-sdk-html5\\/2\\.1\\/latest\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "service"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "99de9990035787d5c7f278cad098dba7ef1625356d725f1740b06f4432e8832a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dstv.com",
+                "now.dstv.com"
+            ]
+        },
+        {
+            "rule": "videoplaza\\.tv\\/proxy\\/bwtest\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "service"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "bdb408b24803990a8770f666375e83677a55bede9772c3a8c07db2341d5d2a56"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "krmg.com",
+                "www.krmg.com",
+                "www.wsbradio.com",
+                "xpn.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00015,
+    "topInitiators": [
+        {
+            "domain": "sunmedia.tv",
+            "prevalence": 0.7631578947368421
+        },
+        {
+            "domain": "streamguys.com",
+            "prevalence": 0.15789473684210525
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.05263157894736842
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.02631578947368421
+        }
+    ],
+    "types": {
+        "XHR": 22,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e1.googledomains.com"
+    ]
+}

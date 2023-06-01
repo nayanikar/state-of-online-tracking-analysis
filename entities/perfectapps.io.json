@@ -1,0 +1,120 @@
+{
+    "domain": "perfectapps.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000476,
+    "sites": 7,
+    "subdomains": [
+        "swift",
+        "swift-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "perfectapps\\.io\\/store\\/assets\\/dist\\/js\\/main\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "swift"
+            ],
+            "apis": {
+                "Navigator.prototype.connection": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "820e104676e640f7b18bef1a904497d0a48db2b18c0d4b4d9ee2341607ddbe12"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tacomabeast.com",
+                "thecoldplunge.com",
+                "www.greenworkstools.com"
+            ]
+        },
+        {
+            "rule": "perfectapps\\.io\\/api\\/store-front\\/prefetch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swift-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "aa72f251d2179b9d26296fd6c9dad0d7f102f049e754a0d0fa8bf64803e3ff47"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "brilliant_products_recently": 0.000006807073911208528,
+                "epb_previous_pathname": 0.000006807073911208528,
+                "usb_previous_pathname": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "tacomabeast.com",
+                "thecoldplunge.com",
+                "www.greenworkstools.com"
+            ]
+        },
+        {
+            "rule": "perfectapps\\.io\\/api\\/store-front\\/prefetch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swift-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "brilliant_products_recently": 0.000006807073911208528,
+                "epb_previous_pathname": 0.000006807073911208528,
+                "usb_previous_pathname": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "tacomabeast.com",
+                "thecoldplunge.com",
+                "www.greenworkstools.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "melnicoff.ns.cloudflare.com",
+        "mia.ns.cloudflare.com"
+    ]
+}

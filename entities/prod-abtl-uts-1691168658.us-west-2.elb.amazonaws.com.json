@@ -1,0 +1,104 @@
+{
+    "domain": "prod-abtl-uts-1691168658.us-west-2.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "dualstack"
+    ],
+    "cnames": [
+        {
+            "original": "uts.abtl.io",
+            "resolved": "dualstack.prod-abtl-uts-1691168658.us-west-2.elb.amazonaws.com"
+        },
+        {
+            "original": "uts.aws.abtl.io",
+            "resolved": "dualstack.prod-abtl-uts-1691168658.us-west-2.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "prod-abtl-uts-1691168658\\.us-west-2\\.elb\\.amazonaws\\.com\\/api\\/collect\\/v1\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "uts.abtl.io",
+                    "resolved": "dualstack.prod-abtl-uts-1691168658.us-west-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "aedb6d44a9950d6ca299aa615003fb2b8c78f1262e3f1e55c3ff6e88c8e03f92"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autobytel.com",
+                "www.autobytel.com"
+            ]
+        },
+        {
+            "rule": "prod-abtl-uts-1691168658\\.us-west-2\\.elb\\.amazonaws\\.com\\/api\\/collect\\/v1",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "uts.aws.abtl.io",
+                    "resolved": "dualstack.prod-abtl-uts-1691168658.us-west-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "2ae025301d76567915c5e1e8b0e08137d39f7c64551dcde6db3e1c3b522dd393"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usedcars.com",
+                "www.usedcars.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "car.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

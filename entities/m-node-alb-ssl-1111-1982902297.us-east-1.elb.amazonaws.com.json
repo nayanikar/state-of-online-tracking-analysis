@@ -1,0 +1,70 @@
+{
+    "domain": "m-node-alb-ssl-1111-1982902297.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "prod-m-node-1111.ssp.advertising.com",
+            "resolved": "m-node-alb-ssl-1111-1982902297.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "m-node-alb-ssl-1111-1982902297\\.us-east-1\\.elb\\.amazonaws\\.com\\/admax\\/adEvent\\.do",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [
+                {
+                    "original": "prod-m-node-1111.ssp.advertising.com",
+                    "resolved": "m-node-alb-ssl-1111-1982902297.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "ca.yahoo.com",
+                "sports.yahoo.com",
+                "www.engadget.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "yimg.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "yahoo.com",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Image": 4
+    },
+    "nameservers": []
+}

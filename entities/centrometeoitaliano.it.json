@@ -1,0 +1,91 @@
+{
+    "domain": "centrometeoitaliano.it",
+    "owner": {
+        "name": "CENTRO METEO ITALIANO S.R.L",
+        "displayName": "CENTRO METEO ITALIANO"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "www",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "centrometeoitaliano\\.it\\/scpsiti\\/cmi_localita\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "c4e2737255fd9428d274c30bee277942088d6fd67bbd65d3a4b94a99cc9128f3",
+                "53cf8af1feb928ae455c79e91d76d7b3cebffa8e3b2364736ce9ab8f18a0489d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fcinternews.it",
+                "m.fcinternews.it",
+                "www.fcinternews.it"
+            ]
+        },
+        {
+            "rule": "centrometeoitaliano\\.it\\/scpsiti\\/css\\/scriptxsiti\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b6b91c5524d83178d45d27a9f73d7c741da33123d8e953684afc1e5b08d643f4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fcinternews.it",
+                "m.fcinternews.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Document": 3,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns1.register.it",
+        "ns2.register.it"
+    ]
+}

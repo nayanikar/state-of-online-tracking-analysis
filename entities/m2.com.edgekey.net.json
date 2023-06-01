@@ -1,0 +1,101 @@
+{
+    "domain": "m2.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "somfy.eshop"
+    ],
+    "cnames": [
+        {
+            "original": "boutique.somfy.fr",
+            "resolved": "somfy.eshop.m2.com.edgekey.net"
+        },
+        {
+            "original": "store.somfysystems.com",
+            "resolved": "somfy.eshop.m2.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "m2\\.com\\.edgekey\\.net\\/index\\.php\\/rest\\/V1\\/quote\\/getid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "somfy.eshop"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "boutique.somfy.fr",
+                    "resolved": "somfy.eshop.m2.com.edgekey.net"
+                },
+                {
+                    "original": "store.somfysystems.com",
+                    "resolved": "somfy.eshop.m2.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "somfy.fr",
+                "www.somfy.fr",
+                "www.somfysystems.com"
+            ]
+        },
+        {
+            "rule": "m2\\.com\\.edgekey\\.net\\/index\\.php\\/rest\\/V1\\/quote\\/getid",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "somfy.eshop"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "boutique.somfy.fr",
+                    "resolved": "somfy.eshop.m2.com.edgekey.net"
+                },
+                {
+                    "original": "store.somfysystems.com",
+                    "resolved": "somfy.eshop.m2.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c978b864a2395e1de719428181bccf6e1d168c3268dfe0a0964ad8e8966036ec",
+                "f70c3f2ec7563c990a3bcee4c03c9b23a7220e271a6cf04ad63566c050dda2dd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "somfy.fr",
+                "www.somfy.fr",
+                "www.somfysystems.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "types": {
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": []
+}

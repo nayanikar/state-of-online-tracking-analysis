@@ -1,0 +1,106 @@
+{
+    "domain": "weatherstem.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "websockets",
+        "cdn",
+        "apiv2"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "weatherstem\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "websockets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usf.edu",
+                "wusfnews.wusf.usf.edu",
+                "www.wuft.org"
+            ]
+        },
+        {
+            "rule": "weatherstem\\.com\\/skycamera\\/hillsborough\\/fprwusf\\/cumulus\\/snapshot\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "04a51ff542da884dc93fc07e362b8c0a80f40969f243659dc9cdd095f6db3fd7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usf.edu",
+                "wusfnews.wusf.usf.edu"
+            ]
+        },
+        {
+            "rule": "weatherstem\\.com\\/apiv2\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiv2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "09ad243f40210e6c61ea91817050271a89d0845dc9480ab41055729e356e45e2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wccbcharlotte.com",
+                "www.wccbcharlotte.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "pbsweather.org",
+            "prevalence": 0.375
+        }
+    ],
+    "types": {
+        "WebSocket": 3,
+        "Image": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns2.xecu.net",
+        "ns.ucompass.com",
+        "ns.xecu.net"
+    ]
+}

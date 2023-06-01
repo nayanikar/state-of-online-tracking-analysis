@@ -1,0 +1,124 @@
+{
+    "domain": "publisher1st.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "publisher1st\\.com\\/p1st_ms_11_dyn\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "804437d458e07a166b0800377b548a0cbe56ec9761d92d41cb48dadad30833b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idokep.hu",
+                "www.idokep.hu",
+                "www.mafab.hu"
+            ]
+        },
+        {
+            "rule": "publisher1st\\.com\\/main_script_v2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d3eca433adb6d127d1dedb2b2580102ff65e13d2a7f2644819fe487234d37be9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idokep.hu",
+                "www.idokep.hu",
+                "www.mafab.hu"
+            ]
+        },
+        {
+            "rule": "publisher1st\\.com\\/ads_prebid\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 3,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "window.name": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Navigator.prototype.connection": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "a3d74585cee01dd1ca3c5d3920ea15aaf5f0213e35bfa8616da1b55f36bee678"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idokep.hu",
+                "www.idokep.hu",
+                "www.mafab.hu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "atmedia.hu",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "ns1.dns23.hu",
+        "ns2.dns23.hu"
+    ]
+}

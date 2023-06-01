@@ -1,0 +1,100 @@
+{
+    "domain": "allgemeine-zeitung.de",
+    "owner": {
+        "name": "VRM Digital GmbH",
+        "displayName": "VRM Digital"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "allgemeine-zeitung\\.de\\/snowplow\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d9d3121e71dce2125cbda723cce69ac8a2feb3ccecb4c3f6ba846d835f9ca0d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "spses.00de": {
+                    "ttl": 1822,
+                    "length": 1,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "spid.00de": {
+                    "ttl": 63072022,
+                    "length": 108,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "spses.49be": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "spid.49be": {
+                    "ttl": 63072006,
+                    "length": 108,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "echo-online.de",
+                "www.mittelhessen.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "helium.ns.hetzner.de",
+        "oxygen.ns.hetzner.com",
+        "hydrogen.ns.hetzner.com"
+    ]
+}

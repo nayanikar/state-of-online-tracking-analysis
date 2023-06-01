@@ -1,0 +1,616 @@
+{
+    "domain": "teads.tv",
+    "owner": {
+        "name": "Teads ( Luxenbourg ) SA",
+        "displayName": "Teads",
+        "privacyPolicy": "https://teads.tv/privacy-policy/",
+        "url": "http://teads.tv"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0636,
+    "sites": 633,
+    "subdomains": [
+        "a",
+        "sync",
+        "criteo-sync",
+        "at",
+        "p",
+        "cm",
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "teads\\.tv\\/hb\\/index\\/bid-request",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "6a7b0c8bf87b2bd5ca31557f25cf2a6c80f93af72bf68a6085e9b55a87fe908c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "7news.com.au",
+                "www.7news.com.au",
+                "www.motorcyclenews.com"
+            ]
+        },
+        {
+            "rule": "teads\\.tv\\/hb\\/bid-request",
+            "cookies": 0.0183,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 253,
+            "prevalence": 0.0254,
+            "cnames": [],
+            "responseHashes": [
+                "6a7b0c8bf87b2bd5ca31557f25cf2a6c80f93af72bf68a6085e9b55a87fe908c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bulbapedia.bulbagarden.net",
+                "dictionary.reverso.net",
+                "forums.macrumors.com",
+                "health.usnews.com",
+                "heavy.com",
+                "metro.co.uk",
+                "mobile-dictionary.reverso.net",
+                "pastebin.com",
+                "thoughtcatalog.com",
+                "variety.com",
+                "www.talkbass.com",
+                "www.bestwordlist.com",
+                "www.yourtango.com",
+                "strengthlevel.com",
+                "www.mapsofworld.com",
+                "ezgif.com",
+                "tasty.co",
+                "www.gardeningknowhow.com",
+                "www.billboard.com",
+                "www.readersdigest.com.au"
+            ]
+        },
+        {
+            "rule": "teads\\.tv\\/um",
+            "cookies": 0.0249,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync",
+                "criteo-sync"
+            ],
+            "apis": {},
+            "sites": 279,
+            "prevalence": 0.028,
+            "cnames": [],
+            "responseHashes": [
+                "328e90a318268aea96180cc31666ae6d6f79d90d078c123bc3d98ee08a192fb7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthyeating.sfgate.com",
+                "www.zanui.com.au",
+                "quordlegame.com",
+                "bluethumb.com.au",
+                "www.bowens.com.au",
+                "bluebungalow.com.au",
+                "australianskinclinics.com.au",
+                "www.propertyfinder.ae",
+                "www.theteacentre.com.au",
+                "www.surfstitch.com",
+                "www.timesmojo.com",
+                "www.rydges.com",
+                "www.downsizing.com.au",
+                "www.replicafurniture.com.au",
+                "www.1001fonts.com",
+                "www.godfreys.com.au",
+                "www.onlymelbourne.com.au",
+                "wccftech.com",
+                "www.arealme.com",
+                "www.umart.com.au"
+            ]
+        },
+        {
+            "rule": "teads\\.tv\\/analytics\\/tag\\.js",
+            "cookies": 0.00512,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Document.cookie getter": 56,
+                "Document.cookie setter": 51
+            },
+            "sites": 74,
+            "prevalence": 0.00743,
+            "cnames": [],
+            "responseHashes": [
+                "221e69003af87e6e8f934828ab416477126f3c062500e3bcb636bb9d87bf9b06"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_tfpvi": {
+                    "ttl": 31536010,
+                    "length": 58,
+                    "prevalence": 0.0029116465863453815,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dictionary.cambridge.org",
+                "en.bab.la",
+                "thehill.com",
+                "www.buzzfeed.com",
+                "www.dailydot.com",
+                "www.dailymail.co.uk",
+                "www.techradar.com",
+                "www.tomshardware.com",
+                "www.tomsguide.com",
+                "www.golfmonthly.com",
+                "www.thedailybeast.com",
+                "www.malaymail.com",
+                "www.cyclingnews.com",
+                "www.t3.com",
+                "www.mumsnet.com",
+                "musictech.com",
+                "www.classicfm.com",
+                "www.smoothradio.com",
+                "www.marieclaire.com",
+                "guitar.com"
+            ]
+        },
+        {
+            "rule": "teads\\.tv\\/fpc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "at"
+            ],
+            "apis": {},
+            "sites": 69,
+            "prevalence": 0.00693,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "2bba99d6072e8e161f088c7cf9ea64d4bca015d1f50fb8db568950419be856d2",
+                "95f9a71ff5f447fc4569faa404a2111946e03e80086672c92d0fe50e1d62ed8a",
+                "da47b435a55d67fedb1eac60a830e887e053001ada14370eb226eaa109bed44c",
+                "9189a4671858133a0dbd92950952acc448522057fa80b61ed5899b80d2d2d993",
+                "9c6c7a53d2c1a3fc7fc214a051fcebca7a73195c1cc6f0cfdda2f6057c5ba2b7",
+                "a64b0ebbe9dbe4a1d1070209ff8b06ca15829077af80e66db3f6605e5aa739b2",
+                "abf0f27da93fa135fc1c5333fda24d073340bfdb8084438d80e9fee1e3758afe",
+                "7198c9b33a0407ff3173f85981658de90612e549ffc1a008f7ef0e85a31d3303",
+                "f716b579233ab2df5f49bf43316cdfc8f5eb5b77dc1ef3e09c2ec043b818cbc2",
+                "42c8803dfac6b0fa0d01ff307d7261f374d776d54a3955ae9ea6a02875ef29a6",
+                "9b9a46cec07ec2a6f00e912c8352ae6938388fcae8d5510dda2a77a0245b63a9",
+                "50c00c4b73db501d2ac5f47cb294901615d66fab962bbaf770a5a55bcc7798e4",
+                "cd162236e43a3a2fc3a56b904b4c2be97ea6c81a943044458be9d85ce762dea7",
+                "489264b485c13eca9cb366d4028c5d99798c2f71ccf88bc0d094dcdccae3bf84",
+                "db266f74d5a5dea758d4a578f57fff152cbbdcec84a0cd70408c64433b3d2dc6",
+                "34e1831f2e03daefcf18374c7c32e259e87d3ccf08ccbd14f0880d6c171748ec",
+                "e4e66d717169613fe319bf8639cedc27cf6690bc35cefc0df493a7a16a9da35e",
+                "fcff0a94edee04d7f2a1355849fd00df5913741fdbc5f6af22063532e1c0725d",
+                "4a2754b43f18afe9318741eb0a75b2fe8f5e3680ed50a47abbbad40239268969",
+                "665e6d1a7b5869f80680414ca23f3a72dbc92e1fb76a200b470890866a5e1840",
+                "fac9461c32a28ea231b1a316997f50d270c31f57bbc52694418d5359ee33ffa3",
+                "fc0e6fb6cb8ed0e61cec5ff029dc1304e626d23355a8401cccb06005cd3e47a8",
+                "4eb0f5738478a694cb49214759338dc7abb138cccd0020a86e71185c64f054fb",
+                "559e0655eef2afd69767f56c002a6882fad4cfa288369bbb2276687119dc444a",
+                "c884cbdbc187da44c11d91f470997263d863c1a633b67c16e8ffeaafdeb4c839",
+                "6e26b918ba052bb5844745ae0d0930520656b559852eec98a45d98354d9c7dac",
+                "5994fc73b5045df079b18e313375a0e59f91c0ae93e5a992033c18a5b1f4848b",
+                "6e13a4a0b2214b8b7a43287d264d5e91c0eba24cef8f76fc59b26c84cc0a5c84",
+                "0bac9ce760c01b7bbb882d083a8e80d1a9af77dbf6d81d610aeb63a8f9cc670c",
+                "76cffc29f1fe9197c6e27ee4fa0db4a879bb11433e7f2317e0f080cd183f63e1",
+                "c1f500dd88540b10ade8864fdbedcf53334f0c739607d8173c720ac4594adee1",
+                "60519f502dadcca693e60705ac9fad476e31784919dca1b6b3f23c93ae77ba09",
+                "c8a81768af67d0170e2df8995093a5ddf78db807481b9951ef1c029e4ce38155",
+                "ea4dec536165a3cc52d9b684c28f59d23e15a5324b52a1bc74566a22e63f7c39"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dictionary.cambridge.org",
+                "en.bab.la",
+                "thehill.com",
+                "www.buzzfeed.com",
+                "www.dailydot.com",
+                "www.dailymail.co.uk",
+                "www.t3.com",
+                "segmentnext.com",
+                "www.marieclaire.com",
+                "www.whathifi.com",
+                "www.guitarworld.com",
+                "www.cyclingnews.com",
+                "www.toptenreviews.com",
+                "www.laptopmag.com",
+                "guitar.com",
+                "www.whowhatwear.com",
+                "www.eurosport.com",
+                "www.sqltutorial.org",
+                "www.decanter.com",
+                "perezhilton.com"
+            ]
+        },
+        {
+            "rule": "teads\\.tv\\/um\\/report",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.00261,
+            "cnames": [],
+            "responseHashes": [
+                "328e90a318268aea96180cc31666ae6d6f79d90d078c123bc3d98ee08a192fb7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.r-bloggers.com",
+                "www.qldtravel.com.au",
+                "railmaps.com.au",
+                "www.dreamaboutmeaning.com",
+                "www.timesmojo.com",
+                "netrider.net.au",
+                "pinkpages.com.au",
+                "wccftech.com",
+                "www.1eyedeel.com",
+                "www.hunterhunter.com.au",
+                "www.timecalculator.net",
+                "appadvice.com",
+                "www.brightcamping.com",
+                "pixelmon.site",
+                "www.bettereducation.com.au",
+                "quoteinvestigator.com",
+                "ontheworldmap.com",
+                "www.biblestudytools.com",
+                "atotaxcalculator.com.au",
+                "www.pprune.org"
+            ]
+        },
+        {
+            "rule": "teads\\.tv\\/media\\/format\\/v3\\/teads-format\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.language": 6,
+                "Navigator.prototype.maxTouchPoints": 6,
+                "URL.createObjectURL": 5,
+                "Navigator.prototype.webdriver": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4,
+                "Navigator.prototype.connection": 4
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "fae171879ecb23a11754ade0c77afc6a92eed5d99de82f046439521e3798ec95",
+                "7bce58c10b496dd71a74084b71f1a9bea16897847fca3d306a10a311b44344ce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arstechnica.com",
+                "guitar.com",
+                "musictech.com",
+                "www.allure.com",
+                "www.fullyloaded.com.au",
+                "www.myjewishlearning.com",
+                "www.themandarin.com.au"
+            ]
+        },
+        {
+            "rule": "teads\\.tv\\/teads-fellow\\.js",
+            "cookies": 0.00351,
+            "fingerprinting": 1,
+            "subdomains": [
+                "p"
+            ],
+            "apis": {
+                "window.name": 37,
+                "Document.cookie getter": 35,
+                "Document.cookie setter": 35
+            },
+            "sites": 39,
+            "prevalence": 0.00392,
+            "cnames": [],
+            "responseHashes": [
+                "b0cc9a2cf38a0cc4dca290f198ff87deeaa70dbb397165d15b5e7a69efc018c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tfpsi": {
+                    "ttl": 1800,
+                    "length": 36,
+                    "prevalence": 0.0034136546184738957,
+                    "uniqueness": 1
+                },
+                "tfpvi": {
+                    "ttl": 7776000,
+                    "length": 36,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.spiritoftasmania.com.au",
+                "login.mailchimp.com",
+                "www.superloop.com",
+                "www.kathmandu.com.au",
+                "www.cartier.com.au",
+                "www.ingeniaholidays.com.au",
+                "www.aptouring.com",
+                "www.net-a-porter.com",
+                "www.razer.com",
+                "www.clubx.com.au",
+                "www.kia.com",
+                "docs.unity3d.com",
+                "flights.flyscoot.com",
+                "www.icebreaker.com",
+                "www.nikonusa.com",
+                "www.flyscoot.com",
+                "www.iwm.org.uk",
+                "www.petcircle.com.au",
+                "tommy.com",
+                "www.ledger.com"
+            ]
+        },
+        {
+            "rule": "teads\\.tv\\/v2\\/advertiser",
+            "cookies": 0.00361,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm"
+            ],
+            "apis": {},
+            "sites": 36,
+            "prevalence": 0.00361,
+            "cnames": [],
+            "responseHashes": [
+                "a3111f31293dba3a7182986b0ba274efd5d359ef5e3be0d85bc0c6972598a350",
+                "b0e638d8e13511c8df8d7ad7170db57431341c6646cca3a16fe67ebef1af9632",
+                "7615f80de3f5771cac648477639c82a29abb852880a8ed6c27fbf1047840953c",
+                "1d492b12236a8422f1736c22e04fd99ef9283d6fcfd67f42d13e31e04324d34b",
+                "ed5721b289b0916fbb033ec4c7204e2a0e2dec451e134d2f3f4bdd4fd5b3a55b",
+                "1da3dbbfda584a79377c34a990255192793de4450894723229938b4f900a438c",
+                "113496572ff89dc4f9e7e260c330a9b543290d7c8fde44691415951666cad905",
+                "5a2af40a87f8e7b36ce29720e76b7a216578e3060a4373ece18bccd548b88f3d",
+                "41d42c1e3e51575887b4e8df16cd00a353127cfd05f456ace4a7710fc061b039",
+                "e50554a6fd4cb2dfbb6ec4439a5dea623d71bb934a6edfe463186ce9080be3db",
+                "5b83dd1c7d57a173224c6f5dcea04ef552661807b074f493da6dc3a01d1fcaaa",
+                "0b3489f2f514957ca5ab6d60c7e4fba524006b5c050201e2d58944cca93f95fd",
+                "66cb72116f7e5f0765d55053b838239d594e996dbc60bba88b2fcd9f1dd8bd65",
+                "aad6892c26e1e454c3bdc5691befbdbc30154a83c5fcfcdea02baed67cd64d30",
+                "0bfae53b3973b157fb4546579835c5bd29ebadb52505f82d34bd95d1908fed1d",
+                "7a7fbd71cbf6fc5af00f563e63a60e9d32bfbec568d87f126b75f041503b44f8",
+                "d1ffc3a19ce074da1d4bd6ded2f637790f625fe6bff3f727dbb2413ffac4c0b4",
+                "95aed8b6b2e5d5e029ab9243b16d12a1ec70d42c08e59a935fe5bed9ae701d51",
+                "3235ea9a83e80c62744612f3ca43c5fae273d8c6edae24b089a205a72a49de0a",
+                "c1306f20b087abdc5a9eab6d9b561a2345eada4c7229dc0cb0a07612716268fb",
+                "b612a8e9e20a82805774096bb3a5c98cac2d06c9c70e8f2b26f9d6bae91896d9",
+                "caaaa4235b8508d315895a708198cbd0694d6f2cb52a802c1af505af759bb669",
+                "e0d7d68c86108ae4caf7a0dace1a71c0e288586fa57d1814ae42c6c88e2c3c18",
+                "601fad22e6a8e1779c122f7559b305e708389e03d91f1be15f5e66bb9509afae",
+                "65dc44ce03f32da066b84bea65f2ff2a1f88ac337b7e35633662ccd2dea189d0",
+                "64c5538e7714a730dfeee321eae322c1d878544546823f976ac263069b06c7fe",
+                "48b8d91b8418645f349aede757107b12a047dcbe9d273e2bc809587accce315d",
+                "7c14a8d3b4d85ee6acdf40cfec4657491e2ebed439bb0bdc5807af40b14c0965",
+                "5c781904a1ff259318215d8693ff19180e71ce6c00d445e482b223a55765ed6f",
+                "7f2589e55bb7ca1054d0cc120d65a75587b25dd7c980ab13baf5c5951b00f586",
+                "74d00a839eb5f489b4d96f0c8395cf824744e74d3aaf29177186b09f95e63251",
+                "09de08e0579256e9570c67ae46316899e62494ec2a2cf644cf4ab42ac2e37e80",
+                "4245d75c47696d14094c7d85a7b1e8c0b454821f2c9a497b211c35eba0ebc429",
+                "fe61e0410595609ed923461154c56169b76973d761cae417e6c77c37a24ec413",
+                "41227faeefd8fb5a7a4a61547b9e09892a2508d7626c744ad42df28435431b2c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00030120481927710846
+            },
+            "exampleSites": [
+                "www.endclothing.com",
+                "www.lululemon.com.au",
+                "www.ledger.com",
+                "www.razer.com",
+                "www.discovergreece.com",
+                "www.icebreaker.com",
+                "www.propertyfinder.ae",
+                "www.squarespace.com",
+                "www.ingeniaholidays.com.au",
+                "tommy.com",
+                "www.spiritoftasmania.com.au",
+                "www.intrepidtravel.com",
+                "www.oppo.com",
+                "www.gucci.com",
+                "login.mailchimp.com",
+                "www.cartier.com.au",
+                "www.kia.com",
+                "flights.flyscoot.com",
+                "www.superloop.com",
+                "macpaw.com"
+            ]
+        },
+        {
+            "rule": "teads\\.tv\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 42,
+            "prevalence": 0.00422,
+            "cnames": [],
+            "responseHashes": [
+                "328e90a318268aea96180cc31666ae6d6f79d90d078c123bc3d98ee08a192fb7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "tfpsi": 0.0036144578313253013,
+                "IR_gbd": 0.00030120481927710846,
+                "tfpvi": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "www.calvinklein.com.au",
+                "musictech.com",
+                "www.nikonusa.com",
+                "www.ledger.com",
+                "www.cartier.com.au",
+                "www.endclothing.com",
+                "www.grammarly.com",
+                "www.propertyfinder.ae",
+                "mailchimp.com",
+                "www.discovertasmania.com.au",
+                "www.petcircle.com.au",
+                "www.kia.com",
+                "www.superloop.com",
+                "www.allure.com",
+                "www.myjewishlearning.com",
+                "www.ingeniaholidays.com.au",
+                "www.discovergreece.com",
+                "www.spiritoftasmania.com.au",
+                "www.flyscoot.com",
+                "www.squarespace.com"
+            ]
+        },
+        {
+            "rule": "teads\\.tv\\/hb\\/bid-request",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6a7b0c8bf87b2bd5ca31557f25cf2a6c80f93af72bf68a6085e9b55a87fe908c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "feastingathome.com",
+                "www.usatoday.com"
+            ]
+        },
+        {
+            "rule": "teads\\.tv\\/ex\\/sync",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "independent.co.uk",
+                "www.standard.co.uk"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0.0521,
+    "topInitiators": [
+        {
+            "domain": "adthrive.com",
+            "prevalence": 0.3385321100917431
+        },
+        {
+            "domain": "criteo.com",
+            "prevalence": 0.17706422018348625
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.12752293577981652
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.05321100917431193
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.04128440366972477
+        },
+        {
+            "domain": "fuseplatform.net",
+            "prevalence": 0.029357798165137616
+        },
+        {
+            "domain": "pub.network",
+            "prevalence": 0.029357798165137616
+        },
+        {
+            "domain": "contextweb.com",
+            "prevalence": 0.027522935779816515
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.02110091743119266
+        },
+        {
+            "domain": "d4el4parm0zb3.cloudfront.net",
+            "prevalence": 0.01834862385321101
+        }
+    ],
+    "types": {
+        "XHR": 325,
+        "Image": 349,
+        "Script": 120,
+        "Fetch": 38
+    },
+    "nameservers": [
+        "ns-645.awsdns-16.net",
+        "ns-1425.awsdns-50.org",
+        "ns-38.awsdns-04.com",
+        "ns-1881.awsdns-43.co.uk"
+    ]
+}

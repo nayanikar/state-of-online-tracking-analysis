@@ -1,0 +1,291 @@
+{
+    "domain": "yawave.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "app",
+        "api",
+        "sso"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "yawave\\.com\\/sdk\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksb.ch",
+                "fcl.ch",
+                "www.mssports.ch"
+            ]
+        },
+        {
+            "rule": "yawave\\.com\\/core\\/yawave-tenant\\/open\\/sdk\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksb.ch",
+                "fcl.ch",
+                "www.mssports.ch",
+                "www.zsclions.ch"
+            ]
+        },
+        {
+            "rule": "yawave\\.com\\/public\\/v1\\/open\\/sdk\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "11a7e5fadec2c0d8e93b575b355c3e040fb0e8198416aa3b2936914419818504",
+                "22e5844c88b885e4842f1ed8877cde2b00c91eb0a32e77935b73aa7f7d458999",
+                "81488ee17b6f4187e0a62e55bd16462e8e07128f953846bc60453b28e06babbf",
+                "ee2bdee1f239629b8dbb01aca2fa54500fc0a6bddd7e8308e256c69ed98c0293"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksb.ch",
+                "fcl.ch",
+                "www.mssports.ch",
+                "www.titlis.ch",
+                "www.zsclions.ch"
+            ]
+        },
+        {
+            "rule": "yawave\\.com\\/init\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9d3fcf78a78705550943667540e2ef4ac91756ed60e5e604caa2e7755717ec95"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksb.ch",
+                "www.mssports.ch"
+            ]
+        },
+        {
+            "rule": "yawave\\.com\\/sdk\\/user-status",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c3ca3da20b23aae0f82de9de3d2bc068d83099f1f89f5112b4f85fd4c38bfc74"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksb.ch",
+                "www.mssports.ch"
+            ]
+        },
+        {
+            "rule": "yawave\\.com\\/sites\\/default\\/files\\/advagg_js\\/js__ScZmPIcyWwEU_g1knq39-zKokx6ckvcDAKGqD68Clcw__isZDT5JUInLjrRxZuWDcDsYPyZN1Dawv8X2Wd85cpfc__Utd6R3NkN9gw3_rwANm4eMHHy0bBnnSStEHAeP91vDc\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "07e6ab50cf94cdfd66750018965e385f5a398fc3b3bc4f95a5ddb04c1fd83a6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "has_js": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksb.ch",
+                "www.mssports.ch"
+            ]
+        },
+        {
+            "rule": "yawave\\.com\\/auth\\/realms\\/yawave\\/protocol\\/openid-connect\\/3p-cookies\\/step1\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8e08d6c979c3b89f8735ddec57645eea1633c985de66818d1c9d7a2478bcbd32"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksb.ch",
+                "www.mssports.ch"
+            ]
+        },
+        {
+            "rule": "yawave\\.com\\/auth\\/realms\\/yawave\\/protocol\\/openid-connect\\/3p-cookies\\/step2\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "20ae6a4a7d0d0a5cf52120dea92dcfc64fe95a1aa230399bbbeef27d2e5fe074"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksb.ch",
+                "www.mssports.ch"
+            ]
+        },
+        {
+            "rule": "yawave\\.com\\/auth\\/realms\\/yawave\\/protocol\\/openid-connect\\/auth",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksb.ch",
+                "www.mssports.ch"
+            ]
+        },
+        {
+            "rule": "yawave\\.com\\/keycloak\\/check-sso",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d4f69493c006af4fd3cabc4cccfba6d80df09f21ce639540ffad8cf0b32de9a6"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksb.ch",
+                "www.mssports.ch"
+            ]
+        },
+        {
+            "rule": "yawave\\.com\\/core\\/yawave-tenant\\/open\\/sdk\\/track",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c0b0832f8e3b7c8d199b6feddbdd8b81e81141d4b3a0c2217d2a391b7e8fe67f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksb.ch",
+                "www.mssports.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 14,
+        "Document": 12,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "donna.ns.cloudflare.com",
+        "logan.ns.cloudflare.com"
+    ]
+}

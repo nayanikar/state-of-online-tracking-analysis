@@ -1,0 +1,260 @@
+{
+    "domain": "impervadns.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0012,
+    "sites": 12,
+    "subdomains": [
+        "naouzqe",
+        "mk4e428",
+        "ixbmf9s",
+        "c58ssel",
+        "qhvzvlb",
+        "xbmp7g6"
+    ],
+    "cnames": [
+        {
+            "original": "api.kmart.co.nz",
+            "resolved": "c58ssel.impervadns.net"
+        },
+        {
+            "original": "api.kmart.com.au",
+            "resolved": "qhvzvlb.impervadns.net"
+        },
+        {
+            "original": "api.priceline.com.au",
+            "resolved": "xbmp7g6.impervadns.net"
+        },
+        {
+            "original": "login.accor.com",
+            "resolved": "naouzqe.impervadns.net"
+        },
+        {
+            "original": "mediaassets.airbus.com",
+            "resolved": "mk4e428.impervadns.net"
+        },
+        {
+            "original": "secure-uat.amp.com.au",
+            "resolved": "ixbmf9s.impervadns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "impervadns\\.net\\/as\\/authorization\\.oauth2",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "naouzqe"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "login.accor.com",
+                    "resolved": "naouzqe.impervadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accor.com",
+                "all.accor.com"
+            ]
+        },
+        {
+            "rule": "impervadns\\.net\\/medias\\/domain38\\/media101851\\/555343-axnfdce994-whr\\.jpg",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mk4e428"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "mediaassets.airbus.com",
+                    "resolved": "mk4e428.impervadns.net"
+                }
+            ],
+            "responseHashes": [
+                "5936788e21fef720974560769b3a5e19125645e7d1e5410d74b8ac8c21e92931"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airbus.com",
+                "www.airbus.com"
+            ]
+        },
+        {
+            "rule": "impervadns\\.net\\/wps\\/CustomerPortlets\\/UserProfileServlet",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ixbmf9s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "secure-uat.amp.com.au",
+                    "resolved": "ixbmf9s.impervadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amp.com.au",
+                "www.amp.com.au"
+            ]
+        },
+        {
+            "rule": "impervadns\\.net\\/gateway\\/graphql",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c58ssel",
+                "qhvzvlb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.kmart.co.nz",
+                    "resolved": "c58ssel.impervadns.net"
+                },
+                {
+                    "original": "api.kmart.com.au",
+                    "resolved": "qhvzvlb.impervadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kmart.co.nz",
+                "www.kmart.com.au"
+            ]
+        },
+        {
+            "rule": "impervadns\\.net\\/gateway\\/graphql",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c58ssel",
+                "qhvzvlb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.kmart.co.nz",
+                    "resolved": "c58ssel.impervadns.net"
+                },
+                {
+                    "original": "api.kmart.com.au",
+                    "resolved": "qhvzvlb.impervadns.net"
+                }
+            ],
+            "responseHashes": [
+                "c655d245f0b61ef22e7f0940a346ceeca34f01a4f3aead316462ff470cd45d1a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kmart.co.nz",
+                "www.kmart.com.au"
+            ]
+        },
+        {
+            "rule": "impervadns\\.net\\/medias\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "xbmp7g6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.priceline.com.au",
+                    "resolved": "xbmp7g6.impervadns.net"
+                }
+            ],
+            "responseHashes": [
+                "7af021cfc41b32efe017dc34df4f74569cb658ba859d396f581b2830bea15f83"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "priceline.com.au",
+                "www.priceline.com.au"
+            ]
+        },
+        {
+            "rule": "impervadns\\.net\\/medias\\/300Wx300H-null",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "xbmp7g6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.priceline.com.au",
+                    "resolved": "xbmp7g6.impervadns.net"
+                }
+            ],
+            "responseHashes": [
+                "73349884cdd7701c875aa07f5ae9f0702c9ce582b8b98ab1b8d968b515b40726"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "priceline.com.au",
+                "www.priceline.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0012,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Image": 6,
+        "XHR": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns3.impervadns.net",
+        "ns2.impervadns.net",
+        "ns1.impervadns.net"
+    ]
+}

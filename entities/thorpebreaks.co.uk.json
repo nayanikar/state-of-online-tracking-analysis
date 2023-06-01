@@ -1,0 +1,111 @@
+{
+    "domain": "thorpebreaks.co.uk",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "search-form",
+        "search-form-service"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "thorpebreaks\\.co\\.uk\\/v2\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-form"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "787145dddacc030467304daec22e2550087e82747a1798e0f7eb6b510a77c18c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thorpepark.com",
+                "www.thorpepark.com"
+            ]
+        },
+        {
+            "rule": "thorpebreaks\\.co\\.uk\\/v2\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "search-form"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Event.prototype.timeStamp": 2,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b8c5816d540461c026e16d58983b4b36fe719ab82fb6acd562878f702a6ae61d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thorpepark.com",
+                "www.thorpepark.com"
+            ]
+        },
+        {
+            "rule": "thorpebreaks\\.co\\.uk\\/packaging",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-form-service"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4c314c049508a1a632a970ee6093715374342c628a98c0c09c13a74207b26148"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thorpepark.com",
+                "www.thorpepark.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1984.awsdns-56.co.uk",
+        "ns-21.awsdns-02.com",
+        "ns-986.awsdns-59.net",
+        "ns-1530.awsdns-63.org"
+    ]
+}

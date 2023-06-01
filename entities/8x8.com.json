@@ -1,0 +1,112 @@
+{
+    "domain": "8x8.com",
+    "owner": {
+        "name": "8x8, Inc.",
+        "displayName": "8x8"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "vcc-au1"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "8x8\\.com\\/CHAT\\/common\\/js\\/chat\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "vcc-au1"
+            ],
+            "apis": {
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "window.outerWidth": 1,
+                "window.outerHeight": 1,
+                "window.screenLeft": 1,
+                "window.screenTop": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3ff49a99351aa926f9ab969aa0491cb40c89adcfe42ff401860e158e879255fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "legalvision.com.au",
+                "sydneytools.com.au"
+            ]
+        },
+        {
+            "rule": "8x8\\.com\\/CHAT\\/common\\/html\\/config-broker\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vcc-au1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a59ecd7ca41219d99637d61086c2441760f0d4ffbc554d0c0862874628974528"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "legalvision.com.au",
+                "sydneytools.com.au"
+            ]
+        },
+        {
+            "rule": "8x8\\.com\\/CHAT\\/chat\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vcc-au1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "db3e2de353dbb9ed6f61e23d4e81a5f08b6144b363b4ce8542c8f9c1b568f76e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "legalvision.com.au",
+                "sydneytools.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns6.packet8.net",
+        "ns5.packet8.net"
+    ]
+}

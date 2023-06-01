@@ -1,0 +1,82 @@
+{
+    "domain": "dlocal.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "js",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dlocal\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0a4c175e052e27406ccef046ac895bff86d6f96ca566b4b40da0194eb97803d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beatstars.com",
+                "www.beatstars.com"
+            ]
+        },
+        {
+            "rule": "dlocal\\.com\\/modules\\/fields\\/3\\.4\\.0\\/parent\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0a4c175e052e27406ccef046ac895bff86d6f96ca566b4b40da0194eb97803d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beatstars.com",
+                "www.beatstars.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-110.awsdns-13.com",
+        "ns-1713.awsdns-22.co.uk",
+        "ns-762.awsdns-31.net",
+        "ns-1396.awsdns-46.org"
+    ]
+}

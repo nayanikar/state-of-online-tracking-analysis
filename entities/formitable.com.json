@@ -1,0 +1,60 @@
+{
+    "domain": "formitable.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "formitable\\.com\\/sdk\\/v1\\/ft\\.sdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Screen.prototype.width": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4916fbaaa3d329cc3bcb4d19192aef1e4c6719a68a81b586867c8a8aaf65c56f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "annemax.nl",
+                "www.hartlooper.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1-04.azure-dns.com",
+        "ns2-04.azure-dns.net",
+        "ns3-04.azure-dns.org",
+        "ns4-04.azure-dns.info"
+    ]
+}

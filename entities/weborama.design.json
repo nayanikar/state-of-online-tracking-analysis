@@ -1,0 +1,135 @@
+{
+    "domain": "weborama.design",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000885,
+    "sites": 13,
+    "subdomains": [
+        "cloud"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "weborama\\.design\\/board\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cloud"
+            ],
+            "apis": {
+                "window.localStorage": 8,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "da7cfc9e6badce5db17bb135de777c6efa624433ee301d47bc24249e773ee054"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iol.pt",
+                "cnnportugal.iol.pt",
+                "maisfutebol.iol.pt",
+                "tviplayer.iol.pt",
+                "www.cmjornal.pt",
+                "www.jornaldenegocios.pt",
+                "www.record.pt",
+                "www.yotel.com"
+            ]
+        },
+        {
+            "rule": "weborama\\.design\\/ls\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cloud"
+            ],
+            "apis": {
+                "window.localStorage": 4
+            },
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [],
+            "responseHashes": [
+                "383b16459e7127a27208f53fef37fc34655f5c44b0ae2f7778eaaa3d940d9327"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iol.pt",
+                "cnnportugal.iol.pt",
+                "maisfutebol.iol.pt",
+                "tviplayer.iol.pt",
+                "www.cmjornal.pt",
+                "www.jornaldenegocios.pt",
+                "www.record.pt",
+                "www.yotel.com"
+            ]
+        },
+        {
+            "rule": "weborama\\.design\\/nonio\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cloud"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.width": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "9fa2c25a50d52de85cab3fe6b20b5ae0ba749989089531476d1a86e0eed033ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wbo_sid": {
+                    "ttl": 5184009,
+                    "length": 20,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmjornal.pt",
+                "www.cmjornal.pt",
+                "www.jornaldenegocios.pt",
+                "www.record.pt"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000408,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Document": 8
+    },
+    "nameservers": [
+        "ns3.digitalocean.com",
+        "ns2.digitalocean.com",
+        "ns1.digitalocean.com"
+    ]
+}

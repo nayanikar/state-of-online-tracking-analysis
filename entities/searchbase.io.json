@@ -1,0 +1,75 @@
+{
+    "domain": "searchbase.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "joule-cma-pisgtrk-arc"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "searchbase\\.io\\/cma\\/_reactivesearch\\.v3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "joule-cma-pisgtrk-arc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e339631208da1fd21ec5d9a7d3884e5040bc255645543b7d145ddd98131568bf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cma.ca",
+                "www.cma.ca"
+            ]
+        },
+        {
+            "rule": "searchbase\\.io\\/cma\\/_reactivesearch\\.v3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "joule-cma-pisgtrk-arc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cma.ca",
+                "www.cma.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "nash.ns.cloudflare.com",
+        "alice.ns.cloudflare.com"
+    ]
+}

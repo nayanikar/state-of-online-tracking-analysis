@@ -1,0 +1,104 @@
+{
+    "domain": "baqend.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "bmw.app",
+        "bugaboo.app",
+        "swarovski.app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "baqend\\.com\\/v1\\/speedkit\\/install\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bmw.app",
+                "bugaboo.app",
+                "swarovski.app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Screen.prototype.width": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.height": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "9865ad610078ab6d71dfc66dd30f009eec52153e2637c0f0ff383d495d353fe0",
+                "8c5033c1e19167887c40adff98e03ea8ccdc281ec27f9fc43934053f4e80dbb8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "baqend-speedkit-user-id": {
+                    "ttl": 15552007,
+                    "length": 25,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmw.com",
+                "www.bugaboo.com",
+                "www.swarovski.com"
+            ]
+        },
+        {
+            "rule": "baqend\\.com\\/v1\\/rum\\/pi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bmw.app",
+                "swarovski.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmw.com",
+                "www.bmw.com",
+                "www.swarovski.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Ping": 3
+    },
+    "nameservers": [
+        "ns-2024.awsdns-61.co.uk",
+        "ns-224.awsdns-28.com",
+        "ns-839.awsdns-40.net",
+        "ns-1037.awsdns-01.org"
+    ]
+}

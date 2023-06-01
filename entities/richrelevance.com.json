@@ -1,0 +1,116 @@
+{
+    "domain": "richrelevance.com",
+    "owner": {
+        "name": "RichRelevance",
+        "displayName": "RichRelevance",
+        "privacyPolicy": "https://www.richrelevance.com/privacy/",
+        "url": "http://richrelevance.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "media",
+        "recs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/js\\/1\\.2\\/p13n\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "d5d2f9a54af2018f649b13a42dca11f6cb8f373ce616c810dd7ac5d0e11e37b0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rr_rcs": {
+                    "ttl": 31449612,
+                    "length": 91,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bws.com.au",
+                "www.aldi.co.uk",
+                "www.halloweencostumes.com.au",
+                "www.officeworks.com.au"
+            ]
+        },
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/p13n_generated\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "ae25cee249cefc73df098213267020c0736fb0d8932e76f811a54e532f5f1b89",
+                "5b6e91ceeedf7f9d1795ac9a1bfa6f29b033b62a59692864b79bf3c9a56a13e7",
+                "1e71c576fd822571d88bc28c2690ab7efb8a62e34a7a183d6be16b91b223ea17",
+                "4ee69658244055be38dfa7b540231d4bf57479ba2ccd78eda6cdaaa60bc26853",
+                "fa6ab8d2ac96b5b8bf311e3492883029ffd1d19863ba37f7e3a6b636c9239348"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "bws.com.au",
+                "www.aldi.co.uk",
+                "www.halloweencostumes.com.au",
+                "www.officeworks.com.au",
+                "www.rei.com",
+                "www.swarovski.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "aldi-digital.co.uk",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.09090909090909091
+        }
+    ],
+    "types": {
+        "Script": 10
+    },
+    "nameservers": [
+        "ns1.p01.dynect.net",
+        "ns3.p01.dynect.net",
+        "ns2.p01.dynect.net",
+        "ns4.p01.dynect.net"
+    ]
+}

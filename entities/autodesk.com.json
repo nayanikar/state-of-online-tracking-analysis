@@ -1,0 +1,119 @@
+{
+    "domain": "autodesk.com",
+    "owner": {
+        "name": "Autodesk, Inc.",
+        "displayName": "Autodesk"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "swc",
+        "ipm-aem",
+        "app.digital-help-prd"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "autodesk\\.com\\/pharmacopeia\\/fonts\\/ArtifaktElement\\/v1\\.0\\/WOFF2\\/Artifakt%20Element%20Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cb53ce0ba52c7d6f79769a94e5f2617cb5e867bf9ce30d96b8375dd488a136a8"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autodesk.com.au",
+                "www.autodesk.com.au"
+            ]
+        },
+        {
+            "rule": "autodesk\\.com\\/services\\/universal-header\\/content-services",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ipm-aem"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "903e7652a26d26607b7fe56d2db50dc0fee2b720cb8f69493fc7557bb0b4c211"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autodesk.com.au",
+                "www.autodesk.com.au"
+            ]
+        },
+        {
+            "rule": "autodesk\\.com\\/universal-help\\/current\\/\\[fullhash]\\.worker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app.digital-help-prd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6ba20f7eaa0ce435553a8ec9c4a05fd48e580e55214e2caedefb8b4c4a944149"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autodesk.com.au",
+                "www.autodesk.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7631578947368421
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.13157894736842105
+        },
+        {
+            "domain": "autodesk.net",
+            "prevalence": 0.10526315789473684
+        }
+    ],
+    "types": {
+        "Font": 2,
+        "XHR": 2,
+        "Other": 2
+    },
+    "nameservers": [
+        "dns1.p05.nsone.net",
+        "dns4.p05.nsone.net",
+        "dns2.p05.nsone.net",
+        "ns03.adskdns.com",
+        "ns04.adskdns.com",
+        "ns02.adskdns.com",
+        "dns3.p05.nsone.net",
+        "ns01.adskdns.com"
+    ]
+}

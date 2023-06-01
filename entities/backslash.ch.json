@@ -1,0 +1,637 @@
+{
+    "domain": "backslash.ch",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00191,
+    "sites": 19,
+    "subdomains": [
+        "aarau02",
+        "baden02",
+        "comet09",
+        "comet03",
+        "comet10",
+        "ktgl02",
+        "comet02",
+        "comet07",
+        "comet05",
+        "ktsz01",
+        "comet04",
+        "stat-aarau",
+        "stat-baden",
+        "stat-frauenfeld",
+        "stat-glarus",
+        "stat-koeniz",
+        "stat-kuesnacht",
+        "stat-maur",
+        "stat-schulemuri",
+        "stat-kriens",
+        "stat-sz",
+        "stat-volketswil",
+        "stat-zofingen"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "backslash\\.ch\\/js\\/global\\/helper\\/helper\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "aarau02",
+                "baden02",
+                "comet09",
+                "comet03",
+                "comet10",
+                "ktgl02",
+                "comet02",
+                "comet07",
+                "comet05",
+                "ktsz01",
+                "comet04"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 19,
+                "Navigator.prototype.userAgent": 19
+            },
+            "sites": 19,
+            "prevalence": 0.00191,
+            "cnames": [],
+            "responseHashes": [
+                "3989d692fff1bc1f6989d792c307fbe34633313d488a97f31f32038cd829f447"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aarau.ch",
+                "www.baden.ch",
+                "www.dietlikon.ch",
+                "www.diessenhofen.ch",
+                "www.frauenfeld.ch",
+                "www.gl.ch",
+                "www.glarus-sued.ch",
+                "www.glarus.ch",
+                "www.koeniz.ch",
+                "www.kuesnacht.ch",
+                "www.langnau-ie.ch",
+                "www.maur.ch",
+                "www.muri.ch",
+                "www.murgenthal.ch",
+                "www.stadt-kriens.ch",
+                "www.stadtbibliothekaarau.ch",
+                "www.sz.ch",
+                "www.volketswil.ch",
+                "www.zofingen.ch"
+            ]
+        },
+        {
+            "rule": "backslash\\.ch\\/matomo\\.js",
+            "cookies": 0.00151,
+            "fingerprinting": 2,
+            "subdomains": [
+                "stat-aarau",
+                "stat-baden",
+                "stat-frauenfeld",
+                "stat-glarus",
+                "stat-koeniz",
+                "stat-kuesnacht",
+                "stat-maur",
+                "stat-schulemuri",
+                "stat-kriens",
+                "stat-sz",
+                "stat-volketswil",
+                "stat-zofingen"
+            ],
+            "apis": {
+                "Document.cookie getter": 15,
+                "window.name": 15,
+                "Date.prototype.getTime": 15,
+                "Navigator.prototype.cookieEnabled": 15,
+                "NavigatorUAData.prototype.brands": 15,
+                "NavigatorUAData.prototype.platform": 15,
+                "NavigatorUAData.prototype.getHighEntropyValues": 15,
+                "Navigator.prototype.userAgent": 15,
+                "Navigator.prototype.mimeTypes": 15,
+                "Navigator.prototype.javaEnabled": 15,
+                "Screen.prototype.width": 15,
+                "Screen.prototype.height": 15,
+                "Navigator.prototype.platform": 15,
+                "Document.cookie setter": 15
+            },
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "d7fc375178c93a2fc15fd888e30170eedf4ef3d04497e7f951ab7bfe0c921693"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.2.0848": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.2.0848": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.1.60c4": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.1.60c4": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "mtm_consent": {
+                    "ttl": 946080005,
+                    "length": 13,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.8.ab73": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.8.ab73": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.3.f695": {
+                    "ttl": 33955204,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.3.f695": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.6.1241": {
+                    "ttl": 33955204,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.6.1241": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.5.5fef": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.5.5fef": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.30.c69c": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.30.c69c": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.21.0ff2": {
+                    "ttl": 33955202,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.21.0ff2": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.11.02fa": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.11.02fa": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.76.f236": {
+                    "ttl": 33955204,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.76.f236": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.31.80f6": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.31.80f6": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.6.d447": {
+                    "ttl": 33955202,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.6.d447": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.2.7984": {
+                    "ttl": 33955202,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.2.7984": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.8.119e": {
+                    "ttl": 33955204,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.8.119e": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_id.14.6d4c": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_pk_ses.14.6d4c": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aarau.ch",
+                "www.baden.ch",
+                "www.frauenfeld.ch",
+                "www.gl.ch",
+                "www.glarus-sued.ch",
+                "www.glarus.ch",
+                "www.koeniz.ch",
+                "www.kuesnacht.ch",
+                "www.maur.ch",
+                "www.muri.ch",
+                "www.stadt-kriens.ch",
+                "www.stadtbibliothekaarau.ch",
+                "www.sz.ch",
+                "www.volketswil.ch",
+                "www.zofingen.ch"
+            ]
+        },
+        {
+            "rule": "backslash\\.ch\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stat-aarau",
+                "stat-baden",
+                "stat-frauenfeld",
+                "stat-glarus",
+                "stat-koeniz",
+                "stat-kuesnacht",
+                "stat-maur",
+                "stat-schulemuri",
+                "stat-kriens",
+                "stat-sz",
+                "stat-volketswil",
+                "stat-zofingen"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aarau.ch",
+                "www.baden.ch",
+                "www.frauenfeld.ch",
+                "www.gl.ch",
+                "www.glarus-sued.ch",
+                "www.glarus.ch",
+                "www.koeniz.ch",
+                "www.kuesnacht.ch",
+                "www.maur.ch",
+                "www.muri.ch",
+                "www.stadt-kriens.ch",
+                "www.stadtbibliothekaarau.ch",
+                "www.sz.ch",
+                "www.volketswil.ch",
+                "www.zofingen.ch"
+            ]
+        },
+        {
+            "rule": "backslash\\.ch\\/js\\/lib\\/cffp\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "baden02",
+                "comet07"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f62db88038317a4097ffc7a6c696b9f2e3cbfee6d7282a2ddfeab185516e7c5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baden.ch",
+                "www.maur.ch"
+            ]
+        },
+        {
+            "rule": "backslash\\.ch\\/js\\/global\\/jquery\\/validate\\/1\\.19\\.5\\/jquery\\.validate\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "baden02",
+                "comet02",
+                "comet07"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "270524b0d27afd1d3b6622d1a176c678daed94564c143297e217a63e21ce9820"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baden.ch",
+                "www.kuesnacht.ch",
+                "www.maur.ch"
+            ]
+        },
+        {
+            "rule": "backslash\\.ch\\/js\\/global\\/jquery\\/validate\\/messages\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "baden02",
+                "comet02",
+                "comet07"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "5c8bb6846048d5107e02401d4dabed8a14b76d38573a83219a3801561e9ff2ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baden.ch",
+                "www.kuesnacht.ch",
+                "www.maur.ch"
+            ]
+        },
+        {
+            "rule": "backslash\\.ch\\/js\\/global\\/jquery\\/validate\\/validate-zip-comet\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "baden02",
+                "comet02",
+                "comet07"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "73c84191d97059f090f1f72ebd48fd354755623d8f9791eb5caca45c5e6b7c4c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baden.ch",
+                "www.kuesnacht.ch",
+                "www.maur.ch"
+            ]
+        },
+        {
+            "rule": "backslash\\.ch\\/js\\/global\\/jquery\\/validate\\/validate-comet\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "baden02",
+                "comet02",
+                "comet07"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7fab42558386a4ded013deb74eff9153e4c2df6a44eca2e7c310d5c80028efba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baden.ch",
+                "www.kuesnacht.ch",
+                "www.maur.ch"
+            ]
+        },
+        {
+            "rule": "backslash\\.ch\\/js\\/global\\/helper\\/menu\\/entireAjax\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comet09",
+                "comet07",
+                "comet03"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "918ae6531dc7f09581c1d70d59f4a81d65833e80021695ddb44cc06b4588edd1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dietlikon.ch",
+                "www.langnau-ie.ch",
+                "www.maur.ch",
+                "www.muri.ch",
+                "www.murgenthal.ch"
+            ]
+        },
+        {
+            "rule": "backslash\\.ch\\/js\\/global\\/jquery\\/magnific\\/magnific-1\\.1\\.0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ktgl02",
+                "ktsz01"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "45d1f5f6cf913746c45dd697b1a8f3b719c02d8b3f678dc7fc2766d54e1aaf6e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gl.ch",
+                "www.glarus-sued.ch",
+                "www.glarus.ch",
+                "www.sz.ch"
+            ]
+        },
+        {
+            "rule": "backslash\\.ch\\/js\\/global\\/jquery\\/jquery-3\\.6\\.4\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ktgl02",
+                "ktsz01"
+            ],
+            "apis": {
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "a0fe8723dcf55da64d06b25446d0a8513e52527c45afcb37073465f9c6f352af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gl.ch",
+                "www.glarus-sued.ch",
+                "www.glarus.ch",
+                "www.sz.ch"
+            ]
+        },
+        {
+            "rule": "backslash\\.ch\\/js\\/global\\/jquery\\/magnific\\/magnific-1\\.1\\.0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ktgl02",
+                "ktsz01"
+            ],
+            "apis": {
+                "Navigator.prototype.appVersion": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "3fddc6d28aba3c13d64cfd4847c333ff48c71d4a5a58bd1a0494ca6ae8ac1bb4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gl.ch",
+                "www.glarus-sued.ch",
+                "www.glarus.ch",
+                "www.sz.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00151,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.987012987012987
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.012987012987012988
+        }
+    ],
+    "types": {
+        "Script": 61,
+        "Ping": 15,
+        "Stylesheet": 4
+    },
+    "nameservers": [
+        "ns1.backslash.ch",
+        "ns2.backslash.ch",
+        "ns3.backslash.ch"
+    ]
+}

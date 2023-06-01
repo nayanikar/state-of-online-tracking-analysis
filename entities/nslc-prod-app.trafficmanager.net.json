@@ -1,0 +1,91 @@
+{
+    "domain": "nslc-prod-app.trafficmanager.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "login.norton.com",
+            "resolved": "nslc-prod-app.trafficmanager.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "nslc-prod-app\\.trafficmanager\\.net\\/sso\\/idp\\/SAML2",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [
+                {
+                    "original": "login.norton.com",
+                    "resolved": "nslc-prod-app.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "720ee6821c9000bb9059769f965454184fed61c45242302bd9f0c86bdc2c0452",
+                "61a5f42226e764c3d17d86e86b20293665050eac9372a17ad8a2783857acb2a8",
+                "e8f4f6c53ab32d2f4cc97a9c644cde75b3d581e923d0ae5973acec5596509925"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "community.norton.com",
+                "memberportal.lifelock.com",
+                "safeweb.norton.com"
+            ]
+        },
+        {
+            "rule": "nslc-prod-app\\.trafficmanager\\.net\\/sso\\/idp\\/OIDC",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "login.norton.com",
+                    "resolved": "nslc-prod-app.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "support.norton.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 6
+    },
+    "nameservers": []
+}

@@ -1,0 +1,86 @@
+{
+    "domain": "us-central1-benchmark-media.cloudfunctions.net",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "us-central1-benchmark-media\\.cloudfunctions\\.net\\/getRecommendationId",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investorplace.com",
+                "invezz.com",
+                "moneymade.io",
+                "stockinvest.us",
+                "www.thestockdork.com"
+            ]
+        },
+        {
+            "rule": "us-central1-benchmark-media\\.cloudfunctions\\.net\\/getRecommendationId",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "b5231c701fb8979cb52263d962c46c01f0498f77455289e90480809231c0dad6",
+                "29c01c193366c738df45787fb8fa86b1d5302521933f89977e357fd3adae8730",
+                "fd4bde6f0d10f25c99c3930f28a38cc729038a95a6e8a572ccc30d331f7457bf",
+                "4ee596d2e1668bca0559ef2fcfb02cc81b712a0fd20bd9aceafe4011bad2404b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investorplace.com",
+                "invezz.com",
+                "moneymade.io",
+                "stockinvest.us",
+                "www.thestockdork.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6363636363636364
+        },
+        {
+            "domain": "moneymade.io",
+            "prevalence": 0.36363636363636365
+        }
+    ],
+    "types": {
+        "Preflight": 5,
+        "XHR": 5
+    },
+    "nameservers": []
+}

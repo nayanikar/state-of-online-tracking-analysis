@@ -1,0 +1,75 @@
+{
+    "domain": "sibforms.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sibforms\\.com\\/forms\\/end-form\\/build\\/sib-styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "cd2dee2817dbbcb2a8edd9d2d5c4754b81cccc3fa1417c2448a50dbfe548409c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bali.com",
+                "www.coinsandaustralia.com",
+                "www.moongiant.com"
+            ]
+        },
+        {
+            "rule": "sibforms\\.com\\/forms\\/end-form\\/build\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1c0f651c3c90096df9ef001b0473f96b28f4dac4754b41bfae901135ebc64c50"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bali.com",
+                "www.coinsandaustralia.com",
+                "www.moongiant.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 3,
+        "Script": 3
+    },
+    "nameservers": [
+        "josh.ns.cloudflare.com",
+        "mary.ns.cloudflare.com"
+    ]
+}

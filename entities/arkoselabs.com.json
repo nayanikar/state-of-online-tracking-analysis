@@ -1,0 +1,89 @@
+{
+    "domain": "arkoselabs.com",
+    "owner": {
+        "name": "Arkose Labs, Inc.",
+        "displayName": "Arkose Labs"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "roblox-api",
+        "tabcorp-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "arkoselabs\\.com\\/cdn\\/fc\\/js\\/606dcf30627935a81cf1d2bbb0a948f369f01e1a\\/standard\\/funcaptcha_api\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "roblox-api",
+                "tabcorp-api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ba46ebc65fe2ebd8448ee648ed20bb3e0697491510a7854cc958e5b7ad820ad3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roblox.com",
+                "www.thelott.com"
+            ]
+        },
+        {
+            "rule": "arkoselabs\\.com\\/v2\\/1A413285-A58D-4629-A9FD-B77170BBCBCE\\/api\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tabcorp-api"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "47074243f4dd722b0c4d6146add5c2e6afa19ff8f82984ca47445289a3a13c72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thelott.com",
+                "www.thelott.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-1890.awsdns-44.co.uk",
+        "ns-1457.awsdns-54.org",
+        "ns-1019.awsdns-63.net",
+        "ns-475.awsdns-59.com"
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "domain": "codefi.network",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [
+        "gas.metaswap",
+        "price-api.metafi"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "codefi\\.network\\/networks\\/1\\/suggestedGasFees",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gas.metaswap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "metamask.io",
+                "portfolio.metamask.io"
+            ]
+        },
+        {
+            "rule": "codefi\\.network\\/networks\\/1\\/suggestedGasFees",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gas.metaswap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3b5a521b8a6df1f9ed35b187296190c8008b5b73b680160b91d1d140bd64b584"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "metamask.io",
+                "portfolio.metamask.io"
+            ]
+        },
+        {
+            "rule": "codefi\\.network\\/v1\\/exchange-rates",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "price-api.metafi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "58a2e6f67ce95a6820f95845ebda0ea8530f180e46091101378f7a6eebedf04b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "metamask.io",
+                "portfolio.metamask.io"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-353.awsdns-44.com",
+        "ns-1678.awsdns-17.co.uk",
+        "ns-1178.awsdns-19.org",
+        "ns-702.awsdns-23.net"
+    ]
+}

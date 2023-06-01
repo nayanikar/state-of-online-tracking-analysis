@@ -1,0 +1,135 @@
+{
+    "domain": "medyanetads.com",
+    "owner": {
+        "name": "Dogan Internet Yayinciligi ve Yatirim A.S.",
+        "displayName": "Dogan Internet Yayinciligi ve Yatirim"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "ad"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "medyanetads\\.com\\/adservice\\/adservice\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.connection": 2,
+                "Screen.prototype.width": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7aa58f81f1e2e73dcb123e69fe9aae4bc009b0dbe56139635adf549a061f4a2e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hurriyet.com.tr",
+                "www.milliyet.com.tr"
+            ]
+        },
+        {
+            "rule": "medyanetads\\.com\\/adservice\\/currency\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d53e4aed8fd11eae0186f6cfcf3ce7f2726135bcd61d48edd89bdb344f3d703c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hurriyet.com.tr",
+                "www.milliyet.com.tr"
+            ]
+        },
+        {
+            "rule": "medyanetads\\.com\\/adservice\\/prebid\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "84b899880c1bc0c8e646311e58e41680560646842ca7a061f353fe008a5ef859"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592004,
+                    "length": 16,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hurriyet.com.tr",
+                "www.milliyet.com.tr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1589.awsdns-06.co.uk",
+        "ns-1114.awsdns-11.org",
+        "ns-849.awsdns-42.net",
+        "ns-181.awsdns-22.com"
+    ]
+}

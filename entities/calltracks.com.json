@@ -1,0 +1,120 @@
+{
+    "domain": "calltracks.com",
+    "owner": {
+        "name": "Calltracks Limited",
+        "displayName": "Calltracks"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "lookers",
+        "lite"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "calltracks\\.com\\/wnd\\/loader\\.js",
+            "cookies": 0.000302,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lookers",
+                "lite"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "a057df1fd8088e67f7aefb756c5daa38fff166ef9a45fb123bc392370bae18c0",
+                "6a00845c0b35ea3fcfe913935c7651bc955973cb81cfdf6063645f235a311d83"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charleshurstgroup.co.uk",
+                "www.landc.co.uk",
+                "www.lookers.co.uk"
+            ]
+        },
+        {
+            "rule": "calltracks\\.com\\/wnd\\/g3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lookers",
+                "lite"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "36841cbc44a22e385bd76fa882bd51044a6a1aff6a134d69d268c445922b135b",
+                "932d8a9c552d69c30387857558f35659d7b043b7209c1854f1336a2804d3579e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charleshurstgroup.co.uk",
+                "www.landc.co.uk",
+                "www.lookers.co.uk"
+            ]
+        },
+        {
+            "rule": "calltracks\\.com\\/wnd\\/pingback\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lookers",
+                "lite"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "cd49e54988729544c314886ec90b1a2f363356aaebdbbfccf94557facc77341a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charleshurstgroup.co.uk",
+                "www.landc.co.uk",
+                "www.lookers.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "ns-cloud-c2.googledomains.com",
+        "ns-cloud-c4.googledomains.com",
+        "ns-cloud-c1.googledomains.com",
+        "ns-cloud-c3.googledomains.com"
+    ]
+}

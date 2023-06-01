@@ -1,0 +1,60 @@
+{
+    "domain": "proxy-mycigna-prod-678433465.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "p.login.my.cigna.com",
+            "resolved": "proxy-mycigna-prod-678433465.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "proxy-mycigna-prod-678433465\\.us-east-1\\.elb\\.amazonaws\\.com\\/public\\/digital-experience\\/js\\/common\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "p.login.my.cigna.com",
+                    "resolved": "proxy-mycigna-prod-678433465.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "87f2639c21683684a7030aa7c2a357b0b374be2d1d5a5d1f7e54099f9d754ac6",
+                "add79682b21e45bf39f212156d08dfe6c4ec1799bad3f6e3a8ca504034623d38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cigna.com",
+                "my.cigna.com",
+                "www.cigna.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000272,
+    "types": {
+        "Script": 3
+    },
+    "nameservers": []
+}

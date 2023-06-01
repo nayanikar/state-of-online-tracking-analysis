@@ -1,0 +1,1784 @@
+{
+    "domain": "classy.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "sdk",
+        "www",
+        "mask15",
+        "prod-frs.content",
+        "vanity",
+        "mask19",
+        "pay",
+        "assets",
+        "live"
+    ],
+    "cnames": [
+        {
+            "original": "donate.centralusa.salvationarmy.org",
+            "resolved": "mask15.classy.org"
+        },
+        {
+            "original": "give.concernusa.org",
+            "resolved": "vanity.classy.org"
+        },
+        {
+            "original": "give.littlefreelibrary.org",
+            "resolved": "vanity.classy.org"
+        },
+        {
+            "original": "givenow.lls.org",
+            "resolved": "vanity.classy.org"
+        },
+        {
+            "original": "support.whitehousehistory.org",
+            "resolved": "mask19.classy.org"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "classy\\.org\\/embedded-giving\\.js",
+            "cookies": 0.0000408,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "window.localStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "42ed58b0409f371b69b8aa901df86d1b048c75b97101d2ee44af4dbd918ce9d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/472966\\/0\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www",
+                "mask15"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "donate.centralusa.salvationarmy.org",
+                    "resolved": "mask15.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "430bdf6ae77e7677d2d36aa89c434878dba41505bb6173bdbd5de757f692ca90"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18167\\/static\\/frs\\/main\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "743400827279a748ff4e9c0760b9d878206351259383b9913183294f68bc2871"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/cdn-cgi\\/scripts\\/7d0fa10a\\/cloudflare-static\\/rocket-loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mask15",
+                "vanity",
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [
+                {
+                    "original": "donate.centralusa.salvationarmy.org",
+                    "resolved": "mask15.classy.org"
+                },
+                {
+                    "original": "give.littlefreelibrary.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "give.concernusa.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "givenow.lls.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "ccf00d1923b0131a10e0c6d26f95e5dee6ebf8621a27e83c5a2f68a2e0093142"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.lls.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18167\\/static\\/onetrust\\/onetrustConsent-1539020710655\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 4,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "987371454c1ad11929a412bd48f8ca28d2a951425e60023e9b1031575980ac9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 31536016,
+                    "length": 11,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18167\\/static\\/frs\\/donation\\/module\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "2e60089421dbb62b7064eb8cc3cb72115dc6ffabdad8835bd131c95de1ed915f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18167\\/static\\/global\\/module\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.languages": 6,
+                "window.innerHeight": 6,
+                "window.innerWidth": 6,
+                "PerformanceTiming.prototype.navigationStart": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "fd8be1f415e873bf9ceec9ccbc8910764e4270c704d004ecb2d636e7604e9032"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "c_src": {
+                    "ttl": 1209617,
+                    "length": 132,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18167\\/static\\/global\\/libs\\.min\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.mimeTypes": 4,
+                "Navigator.prototype.language": 5,
+                "Date.prototype.getTime": 6,
+                "window.name": 6,
+                "Document.cookie getter": 6,
+                "Event.prototype.timeStamp": 6,
+                "Navigator.prototype.appName": 4,
+                "Document.cookie setter": 4,
+                "window.localStorage": 4,
+                "Element.prototype.getClientRects": 4,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "b05bc405a4294a1d778025a79275c288477dda7cf50f679c9b621925b0dad5a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/sso\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask15",
+                "vanity",
+                "www",
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [
+                {
+                    "original": "donate.centralusa.salvationarmy.org",
+                    "resolved": "mask15.classy.org"
+                },
+                {
+                    "original": "give.littlefreelibrary.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "give.concernusa.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "givenow.lls.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "a39c7130747e5795889aa3ee603173b357eb0deade0252622413c78ddbe00350",
+                "d44d5b965d360cd9c8e2fdc4d06e115266a1fbcac34f1b511395e4f9059577a6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/token\\/paypal",
+            "cookies": 0.0000476,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pay"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "8be8380bd7e26952ccdcd39838b25636495a92bf444d2367682580b24c9ef56c",
+                "683beafc191e3fcfde893bb145bc1a8d36ed2193fa5bbf4e2633bdade9cd61f2",
+                "831afd7a2d4fdac28718bbc96524509cb980a06b7ebd7debbae42288aa6ea27a",
+                "5f34a6eda2be70d01ea49b1ef800a9af5e3e3c905d4b2dbea1703ea1faff581b",
+                "4bc6a401ae5b3ea6d022c5eb5d2acb607683ab9f9ddc661b14ad3b97578fe280"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/token\\/plaid",
+            "cookies": 0.0000476,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pay"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "86cb276d0550d189e7dad4800fbbcfe7b5312f7845e0e711115d5aad589b5d27"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18167\\/static\\/global\\/images\\/dropdown-caret\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "bc0a71276f63a3490a9b27a6fea0fc1610576a415a8d45d05e53a7a0b88ba6b1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18167\\/static\\/fonts\\/fontawesome-webfont\\.woff2",
+            "cookies": 0.0000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "4f2721fcaed5436f55432318b274d1542e96753b56c6ec6cdbd1c0fdd46bc66d"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18167\\/static\\/onetrust\\/skins\\/3\\.6\\.25\\/default_flat_bottom_two_button_white\\/v2\\/css\\/optanon\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "adf4afee15d307888f52c5c1b8649ba2ef593e9a04e1400b63f80774c0d20176"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask15",
+                "vanity",
+                "www",
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [
+                {
+                    "original": "donate.centralusa.salvationarmy.org",
+                    "resolved": "mask15.classy.org"
+                },
+                {
+                    "original": "give.littlefreelibrary.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "give.concernusa.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "givenow.lls.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/static\\/global\\/images\\/user-icon\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask15",
+                "vanity",
+                "www",
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [
+                {
+                    "original": "donate.centralusa.salvationarmy.org",
+                    "resolved": "mask15.classy.org"
+                },
+                {
+                    "original": "give.littlefreelibrary.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "give.concernusa.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "givenow.lls.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "bfb92ada1872e7b784777fabb6e61340269324d4d03929090169b767ff5387f4",
+                "88aef739692cb91dca57e8e7f4b9f8739f386c3eb32e24a64786691fbfa7b55b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/token\\/stripePublishableKey",
+            "cookies": 0.0000476,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pay"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "a4f03677f716f1db373f1c115b0199d7d777dd90634465e8e9de07ada8d96036"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "centralusa.salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/sso\\/ssobuild\\/js\\/iframeResizer-6bb8ec1b02\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [
+                {
+                    "original": "give.littlefreelibrary.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "give.concernusa.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "givenow.lls.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "fb92a1ef1cf264bb8eea72c2931c0792c88263258e00e86de118bdd5f1aae997"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/sso\\/status",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [
+                {
+                    "original": "give.littlefreelibrary.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "give.concernusa.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "givenow.lls.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "f5c540eed1ba37233537830b1705d5c56581caf3c056a813cda1e50bf319d24a",
+                "d483329f70ec40d9f5cb6d52fd330d5ccf358804ad947f19d75d68decdf05885",
+                "1ac832f66172f0d9d8a54e2a0e1a3f9907f42d893614d7aebaf15503b8aade35"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "www.concernusa.org",
+                "www.gofundme.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/static\\/global\\/images\\/digitalWallets\\/GooglePay-logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "give.littlefreelibrary.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "ee8b513e01e58127f81cb40ae5909a16a8eb0f8185efa32fd0a9104a7deb2c78"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "www.gofundme.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/455795\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaigns\\/455795\\/channels",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "give.concernusa.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "9eff67e0a1c83e052ece6f4fc4dc2cd6622e0ae1a6c76de5deaaceb6b74edca7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/organizations\\/53049\\/tax-entities",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "give.concernusa.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "555462d154f1e07ae56adb8b52d712c17efd0fcad2877c5a1789074259abede9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/organizations\\/53049\\/ach-account-routing",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "give.concernusa.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "db35d9942ff3fe390acc214cea81723f9c880cdd53788be8a16d6b3e0aab3965"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaign\\/455795\\/transaction-estimates",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "give.concernusa.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "1a07229d8ffd4053493409f218f82f3207fd5aa1d6f9e30eb76229f6769b2687"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/18661573\\/d69314f0-72e9-11ec-8167-0a58a9feac02\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "79fc24233bcb0d7b4ea775505dd4c6379c26974f7d02ae6c1358629dd68ca33a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/18661573\\/dd0bc610-72e9-11ec-8e33-0a58a9feac02\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d700c291ac29f170b79eea90ebe717e407b75eb0d8cd857c7ca735e508a9caa1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/6882589\\/a02f0fa0-2d1a-11ec-9e68-0ea2efc44717\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c8e13ca49499b460e7014275d27235f6bd0319f3000211f6769e2009fc032d23"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/6882589\\/335daf70-2d1b-11ec-a1a1-0a58a9feac03\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3ebf0f3205d84c60a94bba605e2b041fc67be76db51843336d528401c4b0e945"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/6882589\\/39d00e64-2d1d-11ec-a78a-0a68cfcdd775\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c0e3463e4ce7cadde5d3e1f33f704e345c322147eec8189c009ff32b4c81c884"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/6882589\\/c126d488-2d1d-11ec-bb43-0ef0286df799\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b261379e85fb692e3f915b9b4a54b9eee241383ebd5046591dd6fb49e3d1bcfa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/6882589\\/01996288-2d1e-11ec-a326-0e7bc7e3df1b\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e214b645e48a887df2fa3ada03558763e49431a2b0db0d493741505d2434b744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/6882589\\/40a3f34e-2d1e-11ec-a829-0e20100ad355\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "92c281af351408e584f6681c6cfff5682c08008522d1d964887dea6bb42fc06f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/7958773\\/5208f040-aa39-11e9-ae8d-0aa2a488994c\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d3f837116b0014d76e6c575a0f104eba5bd26ee5ed3b39193ac1cfd74d51f1f3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concernusa.org",
+                "www.concernusa.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/450554\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8cd8def45c50dbcc921d86afba0f252f1dcdefddacae7b14f058d0853955e088"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.org",
+                "www.gofundme.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/organizations\\/26302\\/tax-entities",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "802c97c8cae3cbf4238c49664ce4730e848e185a5fb1ff79f37464572a5dd2a6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.org",
+                "www.gofundme.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/organizations\\/26302\\/ach-account-routing",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "db35d9942ff3fe390acc214cea81723f9c880cdd53788be8a16d6b3e0aab3965"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.org",
+                "www.gofundme.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaigns\\/450554\\/designations",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eeca9123fe7d38de6e99a1dd1c046a0606a9de95c339075a3ca771df4f5f2106"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.org",
+                "www.gofundme.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaign\\/450554\\/transaction-estimates",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c9bc68c5d56d761de813dbd7cac6d6fb246e11e0ef7e87df748243943257b7b1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.org",
+                "www.gofundme.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/25305446\\/dd17d0da-6f60-11ed-9a53-0a4452eb3447\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9a51c6a9780b52472efcc7317ef5eb63fc1947ce4b9eb0c089b3fcc4d0cb9761"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.org",
+                "www.gofundme.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaigns\\/450554\\/groups",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9fa1ace356dd5a1aa8ec3298ae45c6f34bdc4fa1f10ad35e52abc51297a178fb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "OptanonConsent": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "gofundme.org",
+                "www.gofundme.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/auth\\/clear-token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "live"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.org",
+                "www.gofundme.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/390400\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "givenow.lls.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "e51c6e0ad5e6a5ba0c3efbec7c6f8987832ed1cc5da8f9c93e356a7f98ec0627"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lls.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaigns\\/390400\\/channels",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "givenow.lls.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "300c0774f619966caf878298171bd933a774f3100d0cd77f4afeca427cf3e78f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lls.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/organizations\\/33874\\/tax-entities",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "givenow.lls.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "ecb8db5cce14758494b967647bf771905022f3e68363de55b7440e9f6b65615c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lls.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/organizations\\/33874\\/ach-account-routing",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "givenow.lls.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "db35d9942ff3fe390acc214cea81723f9c880cdd53788be8a16d6b3e0aab3965"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lls.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaign\\/390400\\/transaction-estimates",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "givenow.lls.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "5798f8be71f3397512482ba70f70799fb57902ad5e3630ca7cc40a66cbe6714b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lls.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/13648750\\/df89db70-890a-11ec-ad02-0a79afb50c1f\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cfbef2ff9eaf04eb79a534c674f0c49858a9458244bfeafbc00acce7307dd63a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lls.org",
+                "www.lls.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/420949\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18073\\/static\\/frs\\/main\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9a0bdd1ae4ee32d4baae9d67a408487db873a859d0c39adfb05b45b755f2037b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18073\\/static\\/onetrust\\/onetrustConsent-1539020710655\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "987371454c1ad11929a412bd48f8ca28d2a951425e60023e9b1031575980ac9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 31536003,
+                    "length": 11,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18073\\/static\\/frs\\/donation\\/module\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9d6e591d92a24fd320dc58bed706a0ae674dc91c5c9effd5470e48694252fa41"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18073\\/static\\/global\\/module\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.languages": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "005ff4910da9715c20b25351f3ec257c7cd86fc43e8982073ab4b850d0d2a863"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18073\\/static\\/global\\/libs\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b05bc405a4294a1d778025a79275c288477dda7cf50f679c9b621925b0dad5a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18073\\/static\\/onetrust\\/skins\\/3\\.6\\.25\\/default_flat_bottom_two_button_white\\/v2\\/css\\/optanon\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "adf4afee15d307888f52c5c1b8649ba2ef593e9a04e1400b63f80774c0d20176"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaigns\\/420949\\/channels",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "0e8ce665f8c7131635713e432c5a5bd9610c52b8cd93bffebbf2cd2fadd459fb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/organizations\\/59717\\/tax-entities",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "afdb3b05d2adc098d2315e6acc9148b84035b3596b942186dd5b6b4bcba9ed0a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/organizations\\/59717\\/ach-account-routing",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "db35d9942ff3fe390acc214cea81723f9c880cdd53788be8a16d6b3e0aab3965"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaign\\/420949\\/transaction-estimates",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "154ab0f5a494349202c8dd12d653023028834e2c28ab9fea2d664a7550cbcb4d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/13488663\\/3cd88fbe-1421-11ed-be41-0e05ae8c477d\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18073\\/static\\/global\\/images\\/dropdown-caret\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bc0a71276f63a3490a9b27a6fea0fc1610576a415a8d45d05e53a7a0b88ba6b1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/18073\\/static\\/fonts\\/fontawesome-webfont\\.woff2",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5302325581395348
+        },
+        {
+            "domain": "classy.org",
+            "prevalence": 0.2651162790697674
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.08837209302325581
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.08372093023255814
+        },
+        {
+            "domain": "salvationarmyusa.org",
+            "prevalence": 0.03255813953488372
+        }
+    ],
+    "types": {
+        "Script": 48,
+        "Document": 12,
+        "Stylesheet": 15,
+        "XHR": 70,
+        "Image": 40,
+        "Font": 8
+    },
+    "nameservers": [
+        "eric.ns.cloudflare.com",
+        "elsa.ns.cloudflare.com"
+    ]
+}

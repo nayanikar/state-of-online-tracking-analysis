@@ -1,0 +1,105 @@
+{
+    "domain": "prod-ps-cdn-us1.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000476,
+    "sites": 7,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "prod-ps-cdn-us1\\.azureedge\\.net\\/content\\/pixels\\/zoomd_pixels_sports_new\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bada6f5854cc61fe1326280c21c890e61184e7ecb9438545b29916189243ad49"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sport5.co.il",
+                "www.sport5.co.il"
+            ]
+        },
+        {
+            "rule": "prod-ps-cdn-us1\\.azureedge\\.net\\/content\\/pixels\\/zoomd_pixels_new_sports\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "de07382d71e2f5b1446104c39b3a316e8c86d5191ad00db197797f5b7ec329ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sport-fm.gr",
+                "www.sport-fm.gr"
+            ]
+        },
+        {
+            "rule": "prod-ps-cdn-us1\\.azureedge\\.net\\/content\\/pixels\\/zoomd_pixels_midtc_yourdailyjournal\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dacb7cde1da439f63c89c7c6edba385017608c920db7863e2481bbf49b35df65"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yourdailyjournal.com",
+                "www.yourdailyjournal.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "sphereup.com",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "zoomd.com",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": []
+}

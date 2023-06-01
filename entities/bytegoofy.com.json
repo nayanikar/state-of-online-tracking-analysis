@@ -1,0 +1,110 @@
+{
+    "domain": "bytegoofy.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "lf1-cdn-tos",
+        "sf16-short-va"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "bytegoofy\\.com\\/goofy\\/ttzz\\/push\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lf1-cdn-tos"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "76fe1175f0b9100429f6e06ee61f795e83c496c5700d0d897fb92137ccd31c54"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "163.com",
+                "www.docin.com"
+            ]
+        },
+        {
+            "rule": "bytegoofy\\.com\\/slardar\\/fe\\/sdk-web\\/browser\\.maliva\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sf16-short-va"
+            ],
+            "apis": {
+                "Navigator.prototype.connection": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a83c4abbd4a9722051a75c74939b8a81dc2a5f502780942da2a305b41c96279d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lemon8-app.com",
+                "www.lemon8-app.com"
+            ]
+        },
+        {
+            "rule": "bytegoofy\\.com\\/slardar\\/fe\\/sdk-web\\/plugins\\/common-monitors\\.1\\.5\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sf16-short-va"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b20dfc5fa44e7c4df84aea06512c0d1a08f0446b5f0052fda8a25241049f3ccf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lemon8-app.com",
+                "www.lemon8-app.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "vip3.alidns.com",
+        "vip4.alidns.com"
+    ]
+}

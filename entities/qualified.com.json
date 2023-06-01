@@ -1,0 +1,95 @@
+{
+    "domain": "qualified.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "js",
+        "ws"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "qualified\\.com\\/qualified\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b35d82b798aebddbfe122e4e6ee91088e71685cfe1f3ca37042aec6f2f6fe934"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__q_state_2qYJ2dzsqrwWZnjR": {
+                    "ttl": 315360015,
+                    "length": 102,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "__q_state_9u7uiM39FyWVMWQF": {
+                    "ttl": 315360014,
+                    "length": 106,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickup.com",
+                "www.similarweb.com"
+            ]
+        },
+        {
+            "rule": "qualified\\.com\\/cable",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickup.com",
+                "www.similarweb.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "WebSocket": 2
+    },
+    "nameservers": [
+        "bart.ns.cloudflare.com",
+        "emma.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,273 @@
+{
+    "domain": "adobe.com",
+    "owner": {
+        "name": "Adobe Inc.",
+        "displayName": "Adobe",
+        "privacyPolicy": "https://www.adobe.com/privacy/marketing-cloud.html",
+        "url": "http://adobe.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "entitlement.auth",
+        "sp.auth"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "adobe\\.com\\/entitlement\\/v4\\/AccessEnabler\\.js",
+            "cookies": 0.000602,
+            "fingerprinting": 2,
+            "subdomains": [
+                "entitlement.auth"
+            ],
+            "apis": {
+                "console.memory": 6,
+                "Document.cookie getter": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.vendor": 6,
+                "Navigator.prototype.platform": 6,
+                "Document.cookie setter": 6,
+                "Date.prototype.getTime": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "7343a89d64b1dbc970a595aec322ece7f553495022d0aed12ab010dc680e4971"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "client_type": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.0006024096385542169,
+                    "uniqueness": 0.16666666666666666
+                },
+                "client_version": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.0006024096385542169,
+                    "uniqueness": 0.16666666666666666
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bravotv.com",
+                "www.history.com",
+                "www.msnbc.com",
+                "www.nbc.com",
+                "www.oxygen.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/entitlement\\/v4\\/AccessEnablerProxy\\.html",
+            "cookies": 0.000602,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "8f99f22cffcb5058e052e6bda2985db8a453e898e940f58f9e65d49bf608481b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bravotv.com",
+                "www.history.com",
+                "www.msnbc.com",
+                "www.nbc.com",
+                "www.oxygen.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/entitlement\\/v4\\/AccessEnablerProxy\\.js",
+            "cookies": 0.000602,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {
+                "console.memory": 6,
+                "window.localStorage": 6,
+                "Document.cookie getter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "d3268165d9b6017caa31bb72a2c7ab073d672587ca9ed0043ff523bae709d71a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bravotv.com",
+                "www.history.com",
+                "www.msnbc.com",
+                "www.nbc.com",
+                "www.oxygen.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/o\\/client\\/register",
+            "cookies": 0.000602,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "c58da01cbca1ecfd85006749dd07a22959ccf285b2ea5d246dcb732e41eff72e",
+                "295c474e6a1ac96f080dea1e97c58381dace61d0f490ded89fb1c33dca51ed6c",
+                "4842843d8cdb06104ff467273b94c81b230b18c2e58d610b20ecb858764aa264",
+                "fcfaf8e6a1d388b5a04dd3c06da5160bc33ea88d5ad04f66e1ca10dc5cd8ecac",
+                "0e401ed5e8f1c9b50be3d55d9158c66af21d8eba43f46ea3388fc5de4359cb5c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bravotv.com",
+                "www.history.com",
+                "www.msnbc.com",
+                "www.nbc.com",
+                "www.oxygen.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/o\\/client\\/register",
+            "cookies": 0.000602,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bravotv.com",
+                "www.history.com",
+                "www.msnbc.com",
+                "www.nbc.com",
+                "www.oxygen.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/o\\/client\\/token",
+            "cookies": 0.000602,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "db8126b89d2289fe3a990e082c2cc275ac2eff1c613660020881adcd68f8f44c",
+                "c97c8207b42c2806ba9aa1a02b1ca5a5ba1b0e749d48089954c4f33058b95f17",
+                "ec34ad76e836ff056af1e8a4c55988755f155925bf29bbc29f8f0126f945cd84",
+                "283943605c9e148ba75e842df8a2863002b5172d48d9a24d062626f6e961e27e",
+                "ee3737a23b3f1d6b3d71450b5dc340eea493ef90feb61e6efb59a83effcfa691"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bravotv.com",
+                "www.history.com",
+                "www.msnbc.com",
+                "www.nbc.com",
+                "www.oxygen.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/o\\/client\\/token",
+            "cookies": 0.000602,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bravotv.com",
+                "www.history.com",
+                "www.msnbc.com",
+                "www.nbc.com",
+                "www.oxygen.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6060606060606061
+        },
+        {
+            "domain": "nbcnews.com",
+            "prevalence": 0.24242424242424243
+        },
+        {
+            "domain": "bleacherreport.net",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "d1je72vo6cxqo9.cloudfront.net",
+            "prevalence": 0.06060606060606061
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Document": 6,
+        "XHR": 12,
+        "Preflight": 12
+    },
+    "nameservers": [
+        "adobe-dns-01.adobe.com",
+        "a28-67.akam.net",
+        "a7-64.akam.net",
+        "a10-64.akam.net",
+        "a13-65.akam.net",
+        "adobe-dns-03.adobe.com",
+        "a1-217.akam.net",
+        "adobe-dns-04.adobe.com",
+        "adobe-dns-05.adobe.com",
+        "a26-66.akam.net"
+    ]
+}

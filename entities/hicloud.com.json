@@ -1,0 +1,61 @@
+{
+    "domain": "hicloud.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "dtm-dre.platform",
+        "dtm-drcn.platform"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hicloud\\.com\\/download\\/web\\/dtm\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dtm-dre.platform",
+                "dtm-drcn.platform"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "bf8e94171ce3ced68cef3fd65af39fac568630e4062a5b4387cc06400c3e4377",
+                "897450037ce1ef8bb14698899252781c6e1da003dfa1deea3484c395a9bb89be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huawei.com",
+                "www.cebupacificair.com",
+                "www.thestar.com.my"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns3.dnsv5.com",
+        "ns4.dnsv5.com"
+    ]
+}

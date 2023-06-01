@@ -1,0 +1,117 @@
+{
+    "domain": "geetest.com",
+    "owner": {
+        "name": "Wuhan Jiyi Network Technology Co., Ltd.",
+        "displayName": "Wuhan Jiyi Network Technology"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "api-na",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "geetest\\.com\\/gettype\\.php",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-na"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "5f70f93cac1cc136c97a982d59d055ddf1450a72b9ecc72b89e291950f3e0430"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltrails.com",
+                "www.footlocker.com.au",
+                "www.musicnotes.com",
+                "www.redbook.com.au"
+            ]
+        },
+        {
+            "rule": "geetest\\.com\\/static\\/js\\/fullpage\\.9\\.1\\.4\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.appName": 1,
+                "WebGLRenderingContext.prototype.getExtension": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.hardwareConcurrency": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.languages": 1,
+                "window.devicePixelRatio": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Navigator.prototype.onLine": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "window.outerWidth": 1,
+                "window.outerHeight": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availHeight": 1,
+                "window.screenLeft": 1,
+                "window.screenTop": 1,
+                "Screen.prototype.availLeft": 1,
+                "Screen.prototype.availTop": 1,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "window.indexedDB": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 1,
+                "Navigator.prototype.plugins": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Navigator.prototype.javaEnabled": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltrails.com",
+                "www.footlocker.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "captcha-delivery.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns3.dnsv5.com",
+        "ns4.dnsv5.com"
+    ]
+}

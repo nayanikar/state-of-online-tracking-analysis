@@ -1,0 +1,192 @@
+{
+    "domain": "route.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "protection-widget",
+        "bigcommerce",
+        "shopify"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "route\\.com\\/protect\\.core\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "protection-widget"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "958e9ab1fd505f4ddb0cad114b4b2125d6f9061ea8220dc5ad3d3776149aa045"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "labyrinthos.co",
+                "www.minimax.com.au"
+            ]
+        },
+        {
+            "rule": "route\\.com\\/checkout\\/routeimg\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bigcommerce"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "fce5270feb8bfbcde1fecd994d48a05d186efd33ba7565d5541fba1fd835154d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "petchemist.com.au",
+                "superpharmacyplus.com.au",
+                "www.wolf4x4.com.au"
+            ]
+        },
+        {
+            "rule": "route\\.com\\/checkout\\/listener\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bigcommerce"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "9c292a71f2a3ed22c46d4bb592705747b4ffac3bb430ca8970e14f4946c39aee",
+                "c229abda86a117c348018228cbc9ada690128c872523d53d63de178ead64c07f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "petchemist.com.au",
+                "superpharmacyplus.com.au",
+                "www.wolf4x4.com.au"
+            ]
+        },
+        {
+            "rule": "route\\.com\\/css\\/custom\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bigcommerce"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "92cc6ca2c255085b726fbf567aeff34df5d21951aebaef0e269b0fbad22777c2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "petchemist.com.au",
+                "superpharmacyplus.com.au",
+                "www.wolf4x4.com.au"
+            ]
+        },
+        {
+            "rule": "route\\.com\\/route-protection-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "protection-widget"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "958e9ab1fd505f4ddb0cad114b4b2125d6f9061ea8220dc5ad3d3776149aa045"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00010040160642570282,
+                "_hjTLDTest": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "petchemist.com.au",
+                "superpharmacyplus.com.au",
+                "www.wolf4x4.com.au"
+            ]
+        },
+        {
+            "rule": "route\\.com\\/v1\\/merchant-info\\/minimaxau\\.myshopify\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopify"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fa55facd0af9135c01e2197ddc4cb101518f9cce6e55f72f8a09e43c6a5a4661"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minimax.com.au",
+                "www.minimax.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "routeapp.io",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Stylesheet": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "jim.ns.cloudflare.com",
+        "grace.ns.cloudflare.com"
+    ]
+}

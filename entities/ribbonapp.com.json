@@ -1,0 +1,101 @@
+{
+    "domain": "ribbonapp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ribbonapp\\.com\\/ribbon\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "19da86b7890e4ff97e884a4d902816b51b243b7d7c7aab4732ea7aca87e351c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dyson.com",
+                "www.dyson.com.au"
+            ]
+        },
+        {
+            "rule": "ribbonapp\\.com\\/api\\/recruit\\/v2\\/fc72937d55eb4867b23cf2c4b09103c8\\/r\\/global",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a48cff502e76e984cbdc03a2d4aa3deefe6bac674ef1bb5615b956504fc7bccc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dyson.com",
+                "www.dyson.com.au"
+            ]
+        },
+        {
+            "rule": "ribbonapp\\.com\\/api\\/recruit\\/v2\\/fc72937d55eb4867b23cf2c4b09103c8\\/r\\/global",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dyson.com",
+                "www.dyson.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "carrera.ns.cloudflare.com",
+        "chase.ns.cloudflare.com"
+    ]
+}

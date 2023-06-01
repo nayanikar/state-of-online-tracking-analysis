@@ -1,0 +1,112 @@
+{
+    "domain": "weglot.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "weglot\\.com\\/flags\\/rectangle_mat\\/gb\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "720d4a3364adb0f6dab95c8339fc8538a4388e302b8a8173d401e8471998ebf1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bruderx.com",
+                "thespectrum.org.au"
+            ]
+        },
+        {
+            "rule": "weglot\\.com\\/weglot\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.languages": 1,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8560f6cf962f2e9bbc422d4488f3fbff78b46532b1504ebb11cdc6244c548fcc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stability.ai",
+                "www.carandclassic.com"
+            ]
+        },
+        {
+            "rule": "weglot\\.com\\/weglot\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6cbf5b3bbfcd2f23a688b189310c36484be77a86a6a59ab11d2666a255d172d0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stability.ai",
+                "www.carandclassic.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.85
+        },
+        {
+            "domain": "squarespace.com",
+            "prevalence": 0.15
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Script": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-1007.awsdns-61.net",
+        "ns-12.awsdns-01.com",
+        "ns-1405.awsdns-47.org",
+        "ns-1734.awsdns-24.co.uk"
+    ]
+}

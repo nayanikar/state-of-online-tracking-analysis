@@ -1,0 +1,97 @@
+{
+    "domain": "anapx.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "anapx\\.net\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.language": 1,
+                "window.localStorage": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "04ef111a60382686ab0450b5cfecf92aacca45aeb39ff166fad27dfdfc7a91ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fmovies.llc",
+                "movieshd.watch",
+                "www.actvid.com",
+                "w1.123-movies.lol"
+            ]
+        },
+        {
+            "rule": "anapx\\.net\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e53e7bb1d4a08c67d38ca5eb5c4f9b392f5f13e871cc1e3fa9fe92a491451478"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "123-movies.lol",
+                "w1.123-movies.lol"
+            ]
+        },
+        {
+            "rule": "anapx\\.net\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "123-movies.lol",
+                "w1.123-movies.lol"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ken.ns.cloudflare.com",
+        "melissa.ns.cloudflare.com"
+    ]
+}

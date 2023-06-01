@@ -1,0 +1,246 @@
+{
+    "domain": "nhk.or.jp",
+    "owner": {
+        "name": "NHK(Japan Broadcasting Corporation)",
+        "displayName": "NHK(Japan Broadcasting Corporation)"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "mtcs",
+        "movie-a",
+        "apps",
+        "location",
+        "www",
+        "emb"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nhk\\.or\\.jp\\/id",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mtcs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "a1f61861f2924f3f4c5cc528abc0b8ec1a6f64eaf77f61ab31b85de2a185526c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhk.jp",
+                "plus.nhk.jp",
+                "www.nhk.jp"
+            ]
+        },
+        {
+            "rule": "nhk\\.or\\.jp\\/movie\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "movie-a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "134961fafb9bd7cf63901087ec40ed32859019df69940ae031ebef537c7b0594"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhk.jp",
+                "www.nhk.jp"
+            ]
+        },
+        {
+            "rule": "nhk\\.or\\.jp\\/assets\\/dtm\\/launch-EN7d55f9d4f78b412597c9c6586b2a86ec\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.appName": 1,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0aa7763dc0aec0d988a70f3e380e453e19e28833fe83a86262236b34e6290ec8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhk.jp",
+                "www.nhk.jp"
+            ]
+        },
+        {
+            "rule": "nhk\\.or\\.jp\\/assets\\/dtm\\/f085c0790456\\/8e1981ebf526\\/ad613d4953d4\\/EX1b0b3eb48d454c4ab84934eaebe07715-libraryCode_source\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.javaEnabled": 1,
+                "Screen.prototype.pixelDepth": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2f8191c0f8262589efd8a4fe2df491113f4ec98943b330136f7f8fc5f54d4ebf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhk.jp",
+                "www.nhk.jp"
+            ]
+        },
+        {
+            "rule": "nhk\\.or\\.jp\\/geoip\\/area\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "location"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "754107d3727c894856c9c6d1d3be48cae636d705d57a443ff55bc25a29568f59"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhk.jp",
+                "www.nhk.jp"
+            ]
+        },
+        {
+            "rule": "nhk\\.or\\.jp\\/kishou-saigai\\/static\\/js\\/KSConsole\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0de0178b640c2f8fab76349231fc7069181ec8ca9d037a83b3a9768957a075c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhk.jp",
+                "www.nhk.jp"
+            ]
+        },
+        {
+            "rule": "nhk\\.or\\.jp\\/kishou-saigai\\/static\\/js\\/CORSLocalStorage\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www",
+                "emb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "acd8172539efecb267526f724938b8fe4898689bf04e69e24302a804f6ffdd8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhk.jp",
+                "www.nhk.jp"
+            ]
+        },
+        {
+            "rule": "nhk\\.or\\.jp\\/weather-data\\/v1\\/tbl\\/disaster_system\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6b62b69fd597ec456b8f1ada52df6abf6e0077489625490b028924983c6e308d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhk.jp",
+                "www.nhk.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 5,
+        "Document": 2,
+        "Script": 8,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns019-e5l0ajvig3adn0c3.e.d-53.info",
+        "ns019-e5l0ajvig3adn0c3.e.d-53.net",
+        "ns019-e5l0ajvig3adn0c3.e.d-53.jp"
+    ]
+}

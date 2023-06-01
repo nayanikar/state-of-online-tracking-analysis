@@ -1,0 +1,566 @@
+{
+    "domain": "jsuol.com.br",
+    "owner": {
+        "name": "Universo Online S.A.",
+        "displayName": "Universo Online"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "tm",
+        "me"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "jsuol\\.com\\.br\\/uoltm\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 9,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.appVersion": 5,
+                "Date.prototype.getTime": 6,
+                "window.localStorage": 9,
+                "Document.cookie getter": 9,
+                "Screen.prototype.width": 1,
+                "window.innerHeight": 2
+            },
+            "sites": 10,
+            "prevalence": 0.0000681,
+            "cnames": [],
+            "responseHashes": [
+                "9f985d7d954ef7fa47d18a8ad53cf30edf2f896ca510be24b160eb88f356a230",
+                "7fefbe9e706d245367a458f764d216b67c59edb3e99b63c5d79f1c244b0f8605",
+                "84c8b4f3e19718363d98664deebabb6f728929d5c409b98baabb3973b9b444e1",
+                "7e78acc2d0e2389c7abccec7297d1473531ac610bac1f34d45f386aa68048a73",
+                "1a3d871862551decf1c23e13bca291517d66ba8d22801378b654b4ef0c7ad0cd",
+                "ded56e5bb767c970eaac8121de5855c374834283adbe0d38770dd07a69f7c482",
+                "1cf2c275ac06547a85c73a817a64a1adb6cf666952995874d3eca28fc3063c50",
+                "445206fde90e2430ac170cc179da0a6b3b22ac30ad677569c2e628a03d621e9a",
+                "991b51825d7a33bf4f6d14db1fe92edd22203f74699e2122ae0b3cbf2ad3b9ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jus.com.br",
+                "olhardigital.com.br",
+                "www.dicionarioinformal.com.br",
+                "www.honda.com.br",
+                "www.infoescola.com",
+                "www.ingresso.com",
+                "www.netshoes.com.br",
+                "www.receiteria.com.br",
+                "www.voegol.com.br",
+                "www.voeazul.com.br"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/modules\\/external\\/Prebid\\.js",
+            "cookies": 0.0000408,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "window.sessionStorage": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.appName": 6,
+                "Date.prototype.getTime": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.cookieEnabled": 6,
+                "Document.cookie getter": 6,
+                "Document.cookie setter": 6,
+                "NavigatorUAData.prototype.getHighEntropyValues": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Navigator.prototype.doNotTrack": 6,
+                "Navigator.prototype.language": 6,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.name": 3
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "051ac3a3782c01b58a8ea3bd27684cf16b0f64aaa57d1ca8d0267a00621215fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592002,
+                    "length": 16,
+                    "prevalence": 0.00004084244346725117,
+                    "uniqueness": 0.16666666666666666
+                },
+                "cto_bundle": {
+                    "ttl": 33696002,
+                    "length": 208,
+                    "prevalence": 0.00004084244346725117,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696002,
+                    "length": 159,
+                    "prevalence": 0.00004084244346725117,
+                    "uniqueness": 1
+                },
+                "_lr_retry_request": {
+                    "ttl": 3606,
+                    "length": 4,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_lr_env_src_ats": {
+                    "ttl": 2592006,
+                    "length": 5,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jus.com.br",
+                "olhardigital.com.br",
+                "www.dicionarioinformal.com.br",
+                "www.infoescola.com",
+                "www.ingresso.com",
+                "www.receiteria.com.br"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/modules\\/external\\/tailtarget\\/profiles\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "67ed54856b743c6e064253f611084475015ce883fff3150f710b8781e599d4a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jus.com.br",
+                "olhardigital.com.br",
+                "www.ingresso.com",
+                "www.receiteria.com.br"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/modules\\/external\\/tailtarget\\/t3m\\/TT-10162-1\\/CT-10\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "9ddbe9aa05aada2582bfad72b47468fe4aa620fb45b7cce885ca5231629d945d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jus.com.br",
+                "olhardigital.com.br",
+                "www.ingresso.com",
+                "www.receiteria.com.br"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/modules\\/dmp-uol-sync-p\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "window.localStorage": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "b32359ec94158e5ca101115130040f90731766aa1e859b3557f9968144f16c77"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jus.com.br",
+                "olhardigital.com.br",
+                "www.dicionarioinformal.com.br",
+                "www.infoescola.com",
+                "www.receiteria.com.br"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/modules\\/mercurio\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Document.cookie getter": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "1a95f2a16310d3feba1a18264cb7baf64411fe9dd9da44a37d964d614b96dba1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jus.com.br",
+                "olhardigital.com.br",
+                "www.honda.com.br",
+                "www.infoescola.com",
+                "www.ingresso.com",
+                "www.netshoes.com.br",
+                "www.voegol.com.br"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/modules\\/external\\/tailtarget\\/libs\\/conversion\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "f4cd27b5ef047a264e3a40b63ba85441de12d23d043a986d469ec1c757067090"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tt_c_vmt": {
+                    "ttl": 1808,
+                    "length": 10,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                },
+                "tt_c_c": {
+                    "ttl": 1808,
+                    "length": 6,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 0.25
+                },
+                "tt_c_s": {
+                    "ttl": 1808,
+                    "length": 6,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 0.25
+                },
+                "tt_c_m": {
+                    "ttl": 1808,
+                    "length": 6,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jus.com.br",
+                "olhardigital.com.br",
+                "www.ingresso.com",
+                "www.receiteria.com.br"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/modules\\/client-purge\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "8edf79f31f38afd348cd93ad56ae7df804394b8a403191af474496823161bdc8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jus.com.br",
+                "olhardigital.com.br",
+                "www.dicionarioinformal.com.br",
+                "www.ingresso.com",
+                "www.receiteria.com.br"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/modules\\/external\\/tailtarget\\/libs\\/base\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "window.sessionStorage": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "711a8d3c6d036e5d2907810b7255622e34f23373f8d1387a1fc938e44c60fea0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ttuu.s": {
+                    "ttl": 62208012,
+                    "length": 13,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                },
+                "tt.u": {
+                    "ttl": 31536019,
+                    "length": 32,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jus.com.br",
+                "olhardigital.com.br",
+                "www.ingresso.com",
+                "www.receiteria.com.br"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/aud\\/dicionarioinformal\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "me"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fc73d5cca40c805580d20f119768aeb5d256e0ba3dfb716f725815665d353f5f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dicionarioinformal.com.br",
+                "www.dicionarioinformal.com.br"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/modules\\/external\\/NativeAPI\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dd0e37549cb6bb59eca740965898ba653ee7da4d94361080c2dbdc9d7e43721f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dicionarioinformal.com.br",
+                "www.dicionarioinformal.com.br"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/modules\\/update-persistence\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8edf79f31f38afd348cd93ad56ae7df804394b8a403191af474496823161bdc8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "honda.com.br",
+                "www.netshoes.com.br"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/aud\\/infoescola\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "me"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c833aac0341fdb61eeb668f66ebaf8cf59366cb54938444e07f5682a3484abf0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "infoescola.com",
+                "www.infoescola.com"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/uoltm\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "voeazul.com.br",
+                "www.voeazul.com.br"
+            ]
+        },
+        {
+            "rule": "jsuol\\.com\\.br\\/modules\\/dynad-track-cookies\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8edf79f31f38afd348cd93ad56ae7df804394b8a403191af474496823161bdc8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dynad_rt_exp": {
+                    "ttl": 5184016,
+                    "length": 22,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "voeazul.com.br",
+                "www.voeazul.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000817,
+    "topInitiators": [
+        {
+            "domain": "uol.com.br",
+            "prevalence": 0.5230769230769231
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2923076923076923
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07692307692307693
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.07692307692307693
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.03076923076923077
+        }
+    ],
+    "types": {
+        "Script": 59,
+        "Image": 2
+    },
+    "nameservers": [
+        "borges.uol.com.br",
+        "charles.uol.com.br",
+        "eliot.uol.com.br"
+    ]
+}

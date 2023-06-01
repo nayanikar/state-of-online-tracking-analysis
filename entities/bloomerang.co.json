@@ -1,0 +1,190 @@
+{
+    "domain": "bloomerang.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000749,
+    "sites": 11,
+    "subdomains": [
+        "api",
+        "crm"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bloomerang\\.co\\/v1\\/WebsiteVisit",
+            "cookies": 0.000034,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "820715ccd1397f78fce9cb6a708ead2b5ab40dbd67c2b8e3fe18597499cea136",
+                "c704e20b09802bb7db76928bc3475a0c7e9fb5ef48c2701ea913782e1b8a8fb3",
+                "b879e80df5e774a1fa5b51ab8e04f34d69a5b20fc3c1077e752601176518feb3",
+                "c9e6f837917051861e45b17c21dab51e95b82b2447f1594ce4a1de96f26e8c39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "bloomerangConstituent": {
+                    "ttl": 464043921,
+                    "length": 36,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalresearch.org",
+                "discovergoodwill.org",
+                "torah.org",
+                "www.monroeinstitute.org",
+                "www.strongtowns.org"
+            ]
+        },
+        {
+            "rule": "bloomerang\\.co\\/Content\\/Scripts\\/Api\\/Bloomerang-v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "crm"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "7581bd0d7b3b5996e68e1615dd2cbb248cfa89f3fa56028244ede8b1ca3c025f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalresearch.org",
+                "discovergoodwill.org",
+                "llli.org",
+                "torah.org",
+                "www.monroeinstitute.org",
+                "www.strongtowns.org"
+            ]
+        },
+        {
+            "rule": "bloomerang\\.co\\/Content\\/Scripts\\/Lib\\/accounting\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "crm"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "ec8e2929277658d918b53d1d03853d33efa78dbd89f3e4f2e08d7dfe0d330555"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalresearch.org",
+                "discovergoodwill.org",
+                "llli.org",
+                "torah.org",
+                "www.monroeinstitute.org",
+                "www.strongtowns.org"
+            ]
+        },
+        {
+            "rule": "bloomerang\\.co\\/v1\\/WebsiteVisit\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "6fbd1fa3ca5f1eb2894a1244e032218b0153c8e74eb2345595e17b17dd3c8d55",
+                "a67c3e7735d76de7e96588831d0be873e91484b31a626fc46c733ed94923716f",
+                "9bb2fb7be61b1cbeb441ae29657fa280f4d270271c4523fdc5acb0b0d3712b92",
+                "d8fea980dcedb9b8f79329197e1b6d07d63e0e72f6e52692ea6597c3b79646e9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalresearch.org",
+                "discovergoodwill.org",
+                "torah.org",
+                "www.monroeinstitute.org",
+                "www.strongtowns.org"
+            ]
+        },
+        {
+            "rule": "bloomerang\\.co\\/v1\\/WebsiteVisit\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalresearch.org",
+                "discovergoodwill.org",
+                "torah.org",
+                "www.monroeinstitute.org",
+                "www.strongtowns.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000613,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "XHR": 5,
+        "Preflight": 5
+    },
+    "nameservers": [
+        "ns12.domaincontrol.com",
+        "ns11.domaincontrol.com"
+    ]
+}

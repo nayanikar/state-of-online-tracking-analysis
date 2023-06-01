@@ -1,0 +1,306 @@
+{
+    "domain": "qumucloud.com",
+    "owner": {
+        "name": "Qumu",
+        "displayName": "Qumu"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "cbre",
+        "cvsh-tv",
+        "janushenderson",
+        "cdn",
+        "analytics"
+    ],
+    "cnames": [
+        {
+            "original": "video.janushenderson.com",
+            "resolved": "janushenderson.qumucloud.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "qumucloud\\.com\\/widgets\\/application\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cbre",
+                "cvsh-tv",
+                "janushenderson"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie setter": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [
+                {
+                    "original": "video.janushenderson.com",
+                    "resolved": "janushenderson.qumucloud.com"
+                }
+            ],
+            "responseHashes": [
+                "d987acf063fd32b358ec0064b21bdc8211deb2aaa9192ff0967ac85ff8aaa6c5",
+                "bf10555d1cdc6dc6daa4bdb5997f9a492032efcec8aecaa3a13c5fff1b671ca9",
+                "b9b4e5bce63417693fd3957efbfa10113a04b2653656c109d76c3b89cc40a731"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "i18next": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbre.com",
+                "www.cbre.com",
+                "www.cvshealth.com",
+                "www.janushenderson.com"
+            ]
+        },
+        {
+            "rule": "qumucloud\\.com\\/origin\\/public\\/cbre\\.qumucloud\\.com\\/staticcontent\\/592\\/client\\/js-lib\\/widgets\\/jquery\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "717dd26f0a6497c5d239f8ddbbd2ad64470643a2c9ce5a03b4ddd00ce95a2ffe"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbre.com",
+                "www.cbre.com"
+            ]
+        },
+        {
+            "rule": "qumucloud\\.com\\/origin\\/public\\/cbre\\.qumucloud\\.com\\/staticcontent\\/592\\/client\\/application\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4dfa987473f68401385440d3b1de9d73a3566b90100bfb0a3c7587ea6705b168"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbre.com",
+                "www.cbre.com"
+            ]
+        },
+        {
+            "rule": "qumucloud\\.com\\/widgets\\/reporting",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cbre"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d232c8b8a08fb1879942b3624666f991e517d842d83da7598f7792cd8b06f87d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbre.com",
+                "www.cbre.com"
+            ]
+        },
+        {
+            "rule": "qumucloud\\.com\\/origin\\/public\\/cbre\\.qumucloud\\.com\\/staticcontent\\/592\\/client\\/application\\/widget-reporting\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eea5e3edfea16df4c5fdf96e7b1500a1556ebae0815e6c2513a1317a51bd1acc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbre.com",
+                "www.cbre.com"
+            ]
+        },
+        {
+            "rule": "qumucloud\\.com\\/nr-spa-1215\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "dd2d8d288526b88b0eae53168e31b4092acf39ed38d40ffcbc6d0ab2f7a4aa66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbre.com",
+                "www.cbre.com",
+                "www.lloydsbankinggroup.com"
+            ]
+        },
+        {
+            "rule": "qumucloud\\.com\\/1\\/245c3146b4",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "dac715f087720dd7ff7067f5d2ec1988851fa93140ae8a9cbfaa15659dd7fd82"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbre.com",
+                "www.cbre.com",
+                "www.lloydsbankinggroup.com"
+            ]
+        },
+        {
+            "rule": "qumucloud\\.com\\/events\\/1\\/245c3146b4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbre.com",
+                "www.cbre.com",
+                "www.lloydsbankinggroup.com"
+            ]
+        },
+        {
+            "rule": "qumucloud\\.com\\/origin\\/public\\/video\\.janushenderson\\.com\\/staticcontent\\/551\\/client\\/js-lib\\/widgets\\/jquery\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "717dd26f0a6497c5d239f8ddbbd2ad64470643a2c9ce5a03b4ddd00ce95a2ffe"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "janushenderson.com",
+                "www.janushenderson.com"
+            ]
+        },
+        {
+            "rule": "qumucloud\\.com\\/origin\\/public\\/video\\.janushenderson\\.com\\/staticcontent\\/551\\/client\\/application\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ae794b1bd303b5e02aaf92d8f810a45064725a11e1c388bd14ac857f9adc0a66"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "janushenderson.com",
+                "www.janushenderson.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000408,
+    "topInitiators": [
+        {
+            "domain": "kuluvalley.com",
+            "prevalence": 0.8055555555555556
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.19444444444444445
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "XHR": 11,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-1096.awsdns-09.org",
+        "ns-1959.awsdns-52.co.uk",
+        "ns-735.awsdns-27.net",
+        "ns-299.awsdns-37.com"
+    ]
+}

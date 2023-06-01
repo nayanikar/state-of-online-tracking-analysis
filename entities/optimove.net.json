@@ -1,0 +1,192 @@
+{
+    "domain": "optimove.net",
+    "owner": {
+        "name": "Mobius Solutions",
+        "displayName": "Mobius Solutions"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "sdk-cdn",
+        "sdkuaservice",
+        "stream-813",
+        "stream-702",
+        "realtime-813",
+        "realtime-702"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "optimove\\.net\\/websdk\\/sdk-v2\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk-cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "492ade39fca6ef3911968569dc4d962f3d3e880210259da57d9e2ee5d9b449b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sodastream.com.au",
+                "www.wolfwinner.net"
+            ]
+        },
+        {
+            "rule": "optimove\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdkuaservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ad8cc310f5910c46a1825028d7af0c012c54006fadb412ac80540350dccec902"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sodastream.com.au",
+                "www.wolfwinner.net"
+            ]
+        },
+        {
+            "rule": "optimove\\.net\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stream-813",
+                "stream-702"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sodastream.com.au",
+                "www.wolfwinner.net"
+            ]
+        },
+        {
+            "rule": "optimove\\.net\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stream-813",
+                "stream-702"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "68d279222cffe1df4b841a0f2bb2acb746638f689245da20a6d91b00ab259e94"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sodastream.com.au",
+                "www.wolfwinner.net"
+            ]
+        },
+        {
+            "rule": "optimove\\.net\\/reportEvent",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "realtime-813",
+                "realtime-702"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "14811480475c2171ce84c472a6d16a5355ce92a03e8955814fde8827e8a34d55"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sodastream.com.au",
+                "www.wolfwinner.net"
+            ]
+        },
+        {
+            "rule": "optimove\\.net\\/reportEvent",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "realtime-813",
+                "realtime-702"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sodastream.com.au",
+                "www.wolfwinner.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "wolfwinner.online",
+            "prevalence": 0.5625
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.3125
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-858.awsdns-43.net",
+        "ns-1517.awsdns-61.org",
+        "ns-90.awsdns-11.com",
+        "ns-1880.awsdns-43.co.uk"
+    ]
+}

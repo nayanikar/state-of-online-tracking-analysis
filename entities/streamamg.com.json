@@ -1,0 +1,480 @@
+{
+    "domain": "streamamg.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00111,
+    "sites": 11,
+    "subdomains": [
+        "sunderlandafcpayments",
+        "astonvillafcpayments",
+        "fulhampayments",
+        "ozonelivepayments",
+        "sheffieldpayments",
+        "avfc-cm",
+        "lfcanywhere",
+        "theopen-cm"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "streamamg\\.com\\/_resx\\/js\\/stream-payments\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sunderlandafcpayments",
+                "astonvillafcpayments",
+                "fulhampayments",
+                "ozonelivepayments",
+                "sheffieldpayments"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "safc.com",
+                "www.avfc.co.uk",
+                "www.fulhamfc.com",
+                "www.leytonorient.com",
+                "www.sufc.co.uk"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/_resx\\/js\\/stream-payments-22022023140417\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sunderlandafcpayments",
+                "astonvillafcpayments",
+                "fulhampayments",
+                "ozonelivepayments",
+                "sheffieldpayments"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "9eb2270bd5ab9486fbdfe56cce55e8d1cbeef4e4769a63abd216185549c593dd",
+                "5854caf7ab61143963ab8a7a98e3a8cae60d0065a5ebd67e4aeb483823cab4d6",
+                "4bd2163bff57bde587fafc2bb678033db73385d54e2b20756add923222697f3d",
+                "ecccea3c13ad427f17076c7c50040f20775b0f22e83d79afd41ca7e414de9394"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "safc.com",
+                "www.avfc.co.uk",
+                "www.fulhamfc.com",
+                "www.leytonorient.com",
+                "www.sufc.co.uk"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/8788263e-4674-4c6d-b223-b228e01010e0\\/MbmTyYbMlMqtfOJwS2FjNd5iDKHuGK22eAfbaLnFvzBWdtcN4s\\/en\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avfc-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1a4d71ad05b0b5bff690426c7ea077eb5a4fee219ce4c74d4947419395c5adbd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avfc.co.uk",
+                "www.avfc.co.uk"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/dc18d175-6a79-4cc6-bd76-0b799750de92\\/t9F8CsvRVcrPmrY7iXIADF9FqMkoVTfXJlwFWQ5bUmvwGxT59W\\/6648b235-b5b2-4a00-aceb-7127d6e30eb3\\/en\\/feed\\/latest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lfcanywhere"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liverpoolfc.com",
+                "www.liverpoolfc.com"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/search\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "50dc6d9c7306497f6d802861756d10f936acc8b2322013870fac72b94056b89c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/c229e8af-8dd9-43f8-9cc6-39b3ba34849e\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1e10854491d7617bd45c2b85790f489404955fb65c6cde16dd5722055eebb95d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/7a170650-51e0-4ea2-8293-6e4b06732742\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "32e022aaa214862833aa69f53e40a28ba6e9c08b23d4216d7c4fd9017540e47b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/56c93534-5ef3-4b21-a017-d9280137850b\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b2d7399b9d1228562cbac1fd026064dfce87b7f3be91aeeed92058f960b9d6c2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/00287abb-b533-4237-861e-1c53e7d95d9a\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0377d67e40eb030dcd8383cd61b6b86204207dc9242b444b6d54c4f7c292a2bd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/0153afe2-13f5-4de3-9369-fc32647343fa\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "509d24c773a1a5200898f0bbadd77168213c85e01f2ec7bed71df3b1c981acca"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/295b1d41-de84-4eef-bcd8-bb503d738d24\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "34b978843dc00983634d45fb0fcd578869e0f39be9ffac223da2525dde601fa6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/6ec8e1ba-5d75-4f63-acfc-bac8d38770a5\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ee51af0a56807357d43f90fcc5af8ce1711661dcfe56e4413852987bfcedad84"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/c376b912-c34c-4572-8e73-71f68fed3d96\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2e944621bafa55585f8c57764f65c12bef01876baff4122c88d6f62ce81cca76"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/37bfb5f3-59d0-4831-84f0-fdb860ddb7e4\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ecd3d4cd68cffcd2e6d0be7a1ec29761f501e94ceffa0e66f181199fa5b5176e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/e68f788e-c9dc-499c-bb3e-979f9c63dcb5\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d63e2571c830d17784bcf4bc7e6eae2f2f34db6c6a704845aa1acdfa36f26904"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/77a932c2-317e-45d6-9f4d-df8e2749cc8c\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0a6862578a7673a7aa30d8b03e403bd59fdcccc853357a9f38c986c9c6497166"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/977b17bc-0803-4b32-b23a-6c1f4bdf6e0f\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "32f10a0bf5cb2c95a20f45eefc8896d0bd579b2b9c0aa7d850428c76c65fd2c8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/fea75e85-995a-40d6-a712-016a701b4a0b\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5ed9d3cc8c1edde2eb5eb64755f5d2ecbb2b5a5302f5e079790fb31a43591c6b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        },
+        {
+            "rule": "streamamg\\.com\\/api\\/v1\\/12094480-d9cb-422f-8273-2fbe6f396e87\\/YQhW8fhyXz3S3WMrLd4UK3uZYi2D1NhbxTWshbaknj89ylV6Ax\\/en\\/feed\\/7469f850-ede8-48b9-8399-3117ae1740eb\\/sections\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theopen-cm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a6b84a748c5ae31023cfa4726322c1084a32c3b5fe15ab5825da0710741fe2f7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "randa.org",
+                "www.randa.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9919354838709677
+        },
+        {
+            "domain": "d1zbjaxbvt7rbs.cloudfront.net",
+            "prevalence": 0.008064516129032258
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 2,
+        "Fetch": 32
+    },
+    "nameservers": [
+        "ns-213.awsdns-26.com",
+        "ns-864.awsdns-44.net",
+        "ns-1488.awsdns-58.org",
+        "ns-1651.awsdns-14.co.uk"
+    ]
+}

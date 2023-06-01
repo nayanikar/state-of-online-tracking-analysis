@@ -1,0 +1,128 @@
+{
+    "domain": "realpage.com",
+    "owner": {
+        "name": "RealPage, INC",
+        "displayName": "RealPage"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "telescope"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "realpage\\.com\\/tracker",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "telescope"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "79b1a669cea9e84a1a08a15663dd45930450fcc056a2f3aa54f3b1d2809ad015"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rpTrackingExternalUserId": {
+                    "ttl": 2592005,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "rpTrackingFirstPartyUserObj": {
+                    "ttl": 2592005,
+                    "length": 75,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morgan-properties.com",
+                "www.morgan-properties.com"
+            ]
+        },
+        {
+            "rule": "realpage\\.com\\/collect",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "telescope"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "140468c2943b3adb55aaf20af5a5b4d487986d3b136465c842d2bc868cb632dc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rpTrackingExternalUserId": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "morgan-properties.com",
+                "www.morgan-properties.com"
+            ]
+        },
+        {
+            "rule": "realpage\\.com\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "telescope"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rpTrackingExternalUserId": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "morgan-properties.com",
+                "www.morgan-properties.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "honeybadger.io",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "rpns3.realpage.com",
+        "rpns1.realpage.com",
+        "rpns2.realpage.com",
+        "rpns4.realpage.com"
+    ]
+}

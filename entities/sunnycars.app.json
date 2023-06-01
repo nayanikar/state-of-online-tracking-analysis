@@ -1,0 +1,132 @@
+{
+    "domain": "sunnycars.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sunnycars\\.app\\/sc-widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7576fb07bc7a320c22c50733ef608a6412346007d0b038e83c8cb2630f67758e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunnycars.de",
+                "www.sunnycars.de"
+            ]
+        },
+        {
+            "rule": "sunnycars\\.app\\/assets\\/ui\\/fonts\\/calibri\\/calibri-bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1c64ff8dd5f4302507ff42ec87b2e130aedca31825d2c049d3799c9d35d906d3"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunnycars.de",
+                "www.sunnycars.de"
+            ]
+        },
+        {
+            "rule": "sunnycars\\.app\\/assets\\/ui\\/fonts\\/calibri\\/calibri-regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2739e34ef482e54eb76df31313bc49d7ed244e669ccd50798fe2044ae4c474d2"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunnycars.de",
+                "www.sunnycars.de"
+            ]
+        },
+        {
+            "rule": "sunnycars\\.app\\/sc-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 1,
+                "window.innerWidth": 1,
+                "NavigatorUAData.prototype.brands": 1,
+                "window.devicePixelRatio": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "87c2e5c3adecf0cb7948bda4314c66e45646460e061b59676e5dbf115a8337d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunnycars.de",
+                "www.sunnycars.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Font": 4,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1168.awsdns-18.org",
+        "ns-1601.awsdns-08.co.uk",
+        "ns-307.awsdns-38.com",
+        "ns-681.awsdns-21.net"
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "domain": "us-east-2.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "00lpc7tdyj.execute-api",
+        "kinesis"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "us-east-2\\.amazonaws\\.com\\/prod\\/public\\/cart",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "00lpc7tdyj.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "405029dbfd749215ade2a4daa8050eed07a727f167b2c78abb5c38be8488eb58"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bprimal.com.au",
+                "www.brandhousedirect.com.au"
+            ]
+        },
+        {
+            "rule": "us-east-2\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinesis"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodmenproject.com",
+                "www.pravda.com.ua",
+                "www.ukrinform.net"
+            ]
+        },
+        {
+            "rule": "us-east-2\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinesis"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2143bc82ba538e99605b8e53081680dd29a8a886e52f08e2ccbd67715b65cbdc",
+                "89f53041f71bfd4e7b4e610b19c9978089e8d0313b299aea7c65789236ffe6e0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodmenproject.com",
+                "www.pravda.com.ua",
+                "www.ukrinform.net"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "membrana.media",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": []
+}

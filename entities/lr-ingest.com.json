@@ -1,0 +1,181 @@
+{
+    "domain": "lr-ingest.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000885,
+    "sites": 13,
+    "subdomains": [
+        "cdn",
+        "r"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "lr-ingest\\.com\\/LogRocket\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.connection": 4,
+                "Navigator.prototype.onLine": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "451306698a517c91c00493def465f3c603c690fdebd286a08691031903216d0c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adage.com",
+                "www.autonews.com",
+                "www.chicagobusiness.com",
+                "www.crainsdetroit.com",
+                "www.sprayerdepot.com"
+            ]
+        },
+        {
+            "rule": "lr-ingest\\.com\\/logger-1\\.min\\.js",
+            "cookies": 0.000034,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.sessionStorage": 5,
+                "window.localStorage": 5,
+                "URL.createObjectURL": 4,
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 5,
+                "Navigator.prototype.appCodeName": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.appName": 5,
+                "Navigator.prototype.platform": 5,
+                "Navigator.prototype.appVersion": 5,
+                "PerformanceTiming.prototype.navigationStart": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Performance.prototype.memory": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "90cb8970b4aa323ef4b41b4b3e7a97d98e6c03f95a044b4c607c61ef768b6d7f",
+                "93549c8d0e8ede17027026d3b10831c5b67465fef6d426aad3cbdd54099a4dd5",
+                "0f3d4eec65c57f6c2f9fdfc91de285db46cf5d942b2a94a133317dbbdb06d63d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_lr_tabs_-wlb5gx%2Fdrupal-sites": {
+                    "ttl": 86411,
+                    "length": 119,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                },
+                "_lr_hb_-wlb5gx%2Fdrupal-sites": {
+                    "ttl": 86411,
+                    "length": 31,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                },
+                "_lr_uf_-wlb5gx": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                },
+                "_lr_tabs_-rdllpa%2Fsprayerdepot-website": {
+                    "ttl": 86403,
+                    "length": 119,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_lr_hb_-rdllpa%2Fsprayerdepot-website": {
+                    "ttl": 86403,
+                    "length": 31,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_lr_uf_-rdllpa": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adage.com",
+                "classpass.com",
+                "www.autonews.com",
+                "www.chicagobusiness.com",
+                "www.crainsdetroit.com",
+                "www.rappi.com.mx",
+                "www.sprayerdepot.com"
+            ]
+        },
+        {
+            "rule": "lr-ingest\\.com\\/i",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "e15bab4f1439f8183d9eec5e6d335944950cb114ed29fac37f3bec1886d2aa93",
+                "fd858920c73a5033e0a937496adfa698198a21e6bf33be415a2c3afcdd23f18c",
+                "264bcdfe8bbf784204aabee0b9dd81086151b8486dff4bc2360f3bb98445a045"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adage.com",
+                "classpass.com",
+                "www.autonews.com",
+                "www.chicagobusiness.com",
+                "www.crainsdetroit.com",
+                "www.sprayerdepot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000749,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "trackjs.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "XHR": 6
+    },
+    "nameservers": [
+        "rita.ns.cloudflare.com",
+        "dan.ns.cloudflare.com"
+    ]
+}

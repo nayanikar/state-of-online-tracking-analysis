@@ -1,0 +1,107 @@
+{
+    "domain": "img-bahn.de",
+    "owner": {
+        "name": "DB Vertrieb GmbH",
+        "displayName": "DB Vertrieb"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "img-bahn\\.de\\/s3\\/prod\\/es\\/\\/js\\/es6-promise\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "82e5a556f607b2cc1eda8e23198af2925599b002c5c64dc1ae401bd8f50c3708"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bahn.de",
+                "www.bahn.de"
+            ]
+        },
+        {
+            "rule": "img-bahn\\.de\\/s3\\/prod\\/es\\/\\/js\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "afcd98169c73d70ef5eff7ab4de96342abf68ff26cb05c101802c8738d3e6715"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bahn.de",
+                "www.bahn.de"
+            ]
+        },
+        {
+            "rule": "img-bahn\\.de\\/s3\\/prod\\/es\\/\\/js\\/softlogin\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dc321e63996d64d52c3704c7ccf0b771ed1c92ee37e9e4b3fcaaa4a856105ce2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bahn.de",
+                "www.bahn.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-19.awsdns-02.com",
+        "ns-1353.awsdns-41.org",
+        "ns-968.awsdns-57.net",
+        "ns-1753.awsdns-27.co.uk"
+    ]
+}

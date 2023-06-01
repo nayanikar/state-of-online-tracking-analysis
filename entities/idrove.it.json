@@ -1,0 +1,264 @@
+{
+    "domain": "idrove.it",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "pureinfluencer",
+        "pureinfluencer-api",
+        "rts-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "idrove\\.it\\/behaviour\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pureinfluencer"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "4ff774c16404f5a9824c0930554d011667e38cb4193fbe46f10ae5aaf741df11"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "davesmith.com",
+                "www.davesmith.com",
+                "www.hertzcarsales.com"
+            ]
+        },
+        {
+            "rule": "idrove\\.it\\/api\\/v1\\/public\\/dealership-info\\/62a217d374686e68f28e8be9",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pureinfluencer-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3d6692ba55d6814c347e93afce1bb57f2b52092fd322e2471b2f1934ae4958e0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "davesmith.com",
+                "www.davesmith.com"
+            ]
+        },
+        {
+            "rule": "idrove\\.it\\/cs\\/library\\/fp\\.min\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 3,
+            "subdomains": [
+                "pureinfluencer"
+            ],
+            "apis": {
+                "Screen.prototype.availTop": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.availWidth": 4,
+                "Screen.prototype.availLeft": 4,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.availHeight": 4,
+                "Navigator.prototype.vendor": 4,
+                "OfflineAudioContext.prototype.constructor": 4,
+                "AudioBuffer.prototype.getChannelData": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.languages": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Navigator.prototype.deviceMemory": 4,
+                "Navigator.prototype.hardwareConcurrency": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "window.sessionStorage": 4,
+                "window.localStorage": 4,
+                "window.indexedDB": 4,
+                "Navigator.prototype.platform": 4,
+                "Navigator.prototype.plugins": 4,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 4,
+                "HTMLCanvasElement.prototype.toDataURL": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "1b3152bc30941ccaa90f75789e40777bd78bc9b83c80389784d08528f8010f25"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1681885915,
+                    "length": 1,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "davesmith.com",
+                "www.davesmith.com",
+                "www.hertzcarsales.com",
+                "www.mitsubishicars.com"
+            ]
+        },
+        {
+            "rule": "idrove\\.it\\/api\\/payload",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rts-api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "b00ede4392c5b1414909064a0124dc64169d2f28445600d25ea96bb793e69960",
+                "2bafb1cd243889e0ed3a093fe86ce76d27e4fa3b76322f0139b2e8dff650c0b9",
+                "dacbd7c3b220f5e8f07d250f6e04ed49dddfb608d0c2f4544cb2edd5569504b0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "davesmith.com",
+                "www.davesmith.com",
+                "www.hertzcarsales.com",
+                "www.mitsubishicars.com"
+            ]
+        },
+        {
+            "rule": "idrove\\.it\\/api\\/payload",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rts-api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "davesmith.com",
+                "www.davesmith.com",
+                "www.hertzcarsales.com",
+                "www.mitsubishicars.com"
+            ]
+        },
+        {
+            "rule": "idrove\\.it\\/api\\/v1\\/public\\/dealership-info\\/610afbe1d66fd005ac87a597",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pureinfluencer-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "19ddeb8e3d3aaeebaa24063b2aa38537716c9efda7a68b8ac162dd488f57f839"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertzcarsales.com",
+                "www.hertzcarsales.com"
+            ]
+        },
+        {
+            "rule": "idrove\\.it\\/behaviour\\.mitsubishi\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pureinfluencer"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0333a74dd0df603ed8bc269f6edb6a741e90f43156dc1de6e782293cd122ca2e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mitsubishicars.com",
+                "www.mitsubishicars.com"
+            ]
+        },
+        {
+            "rule": "idrove\\.it\\/api\\/v1\\/public\\/dealership-info\\/616f1e72e5b97870475e70fa",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pureinfluencer-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e5f3131edbcdabfb645c40d11949811edf20b37c79aa5d77420323aed1b6a994"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mitsubishicars.com",
+                "www.mitsubishicars.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000408,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7647058823529411
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.23529411764705882
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 10,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "parkct2.secureserver.net",
+        "parkct1.secureserver.net"
+    ]
+}

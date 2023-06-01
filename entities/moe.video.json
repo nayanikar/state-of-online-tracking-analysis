@@ -1,0 +1,131 @@
+{
+    "domain": "moe.video",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "cdn1",
+        "x0g6du",
+        "5luy4u"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "moe\\.video\\/storage\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "55a8269a9ad8cd1bb408b968b3b2264430dd2cb68ddac8d5ee4e68ba802bb660"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animefox.org",
+                "gotovim-doma.ru",
+                "svpressa.ru",
+                "zaycev.net"
+            ]
+        },
+        {
+            "rule": "moe\\.video\\/player\\/mvplayer\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ebd93f1042c2a150e66ede74be25edb1c347a190e26184f639e13bd366bde957"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "glavkniga.ru",
+                "www.glavbukh.ru"
+            ]
+        },
+        {
+            "rule": "moe\\.video\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "x0g6du",
+                "5luy4u"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "glavkniga.ru",
+                "www.glavbukh.ru"
+            ]
+        },
+        {
+            "rule": "moe\\.video\\/integration\\/yandex\\.rtb\\.vpaid\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8a6450d9859b0bc5b557dedce42d9102096248abd539fc9c6c4f22a752451c26"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "glavkniga.ru",
+                "www.glavbukh.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "playreplay.me",
+            "prevalence": 0.5806451612903226
+        },
+        {
+            "domain": "moevideo.biz",
+            "prevalence": 0.25806451612903225
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16129032258064516
+        }
+    ],
+    "types": {
+        "Document": 4,
+        "Script": 4,
+        "WebSocket": 2
+    },
+    "nameservers": [
+        "ns2.moe.video",
+        "ns3.moe.video"
+    ]
+}

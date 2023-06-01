@@ -1,0 +1,90 @@
+{
+    "domain": "heureka.cz",
+    "owner": {
+        "name": "Heureka Shopping, s.r.o.",
+        "displayName": "Heureka Shopping"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "www",
+        "ssl",
+        "serve.affiliate"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "heureka\\.cz\\/direct\\/i\\/gjs\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www",
+                "ssl"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d1b18cd0f7102d31f188505d975c5cf260caa9b16e8c0440c84596ac71e72935",
+                "e62653f03035db4e00c81fee5d1de53167c700da3e5d01893f76ead0d3235db4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hornbach.cz",
+                "www.hornbach.cz",
+                "www.lidl.cz"
+            ]
+        },
+        {
+            "rule": "heureka\\.cz\\/js\\/trixam\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "serve.affiliate"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "642c6620f21d7a8c50c77424fb2456721c8a639e08de032f4f24777aef01c4e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euro.cz",
+                "zdravi.euro.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns.hdc2.cz",
+        "ns.hdc1.cz",
+        "nsttc.hdc1.cz"
+    ]
+}

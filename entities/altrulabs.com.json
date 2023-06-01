@@ -1,0 +1,236 @@
+{
+    "domain": "altrulabs.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "widget",
+        "api",
+        "cdn-us",
+        "usage",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "altrulabs\\.com\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "b85a2860c5b238bcb52d3bed268050cb14c82bd26682d15168d29f14ba05f49e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aldi.us",
+                "careers.aldi.us",
+                "jobs.target.com",
+                "www.glassdoor.co.uk",
+                "www.indeed.jobs"
+            ]
+        },
+        {
+            "rule": "altrulabs\\.com\\/cap\\/main\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.doNotTrack": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.vendor": 2,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.width": 4,
+                "window.innerWidth": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.platform": 3,
+                "Screen.prototype.availWidth": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.languages": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "0c19c5109064f01b4a29617bb9ae606de054a098ee2a6b84d81e29334c809906"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aldi.us",
+                "careers.aldi.us",
+                "jobs.target.com",
+                "www.glassdoor.co.uk"
+            ]
+        },
+        {
+            "rule": "altrulabs\\.com\\/dist-api\\/us\\/answers",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8f52505c499a4478cfd8d460f5cbf67483fdd41ed439a13f8ac7b4c44e49695b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aldi.us",
+                "careers.aldi.us"
+            ]
+        },
+        {
+            "rule": "altrulabs\\.com\\/uploads\\/production\\/videos\\/video-40052\\/video_40052_KTkUjeNM12ky-FJAEa9PKQ-preview\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1f0a49cff7ee31b0d97032e5795713f2142e159878a4bd4712bd60cf48c36058"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aldi.us",
+                "careers.aldi.us"
+            ]
+        },
+        {
+            "rule": "altrulabs\\.com\\/track\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "usage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e39a8118ec6cdf6ac33e6961518e9fe6ba3f6caf099aeeaec1389c2108ba90ba"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aldi.us",
+                "careers.aldi.us"
+            ]
+        },
+        {
+            "rule": "altrulabs\\.com\\/www\\/plyr\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4846018760f6e11a8a1dea7639a5c75c712f198d978eccf117840820bb8c37d7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aldi.us",
+                "careers.aldi.us"
+            ]
+        },
+        {
+            "rule": "altrulabs\\.com\\/uploads\\/production\\/videos\\/video-116590\\/video_116590_coNYSJ9cgkSzEa8A-zGOzA\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aldi.us",
+                "careers.aldi.us"
+            ]
+        },
+        {
+            "rule": "altrulabs\\.com\\/uploads\\/production\\/videos\\/video-120538\\/video_120538_2oauj2MlWEh4wjfQRKkS1Q\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aldi.us",
+                "careers.aldi.us"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Fetch": 2,
+        "Media": 6,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-480.awsdns-60.com",
+        "ns-770.awsdns-32.net",
+        "ns-1139.awsdns-14.org",
+        "ns-1836.awsdns-37.co.uk"
+    ]
+}

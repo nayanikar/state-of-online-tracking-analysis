@@ -1,0 +1,57 @@
+{
+    "domain": "coinbase.com",
+    "owner": {
+        "name": "Coinbase, Inc.",
+        "displayName": "Coinbase"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "coinbase\\.com\\/v2\\/exchange-rates",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "486fc81659c733929cac10bb3cab7ed6579b82e44dc01c52a09b39a0df97b8a0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orbiter.finance",
+                "www.orbiter.finance"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": [
+        "sue.ns.cloudflare.com",
+        "sam.ns.cloudflare.com"
+    ]
+}

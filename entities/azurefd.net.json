@@ -1,0 +1,1293 @@
+{
+    "domain": "azurefd.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0012,
+    "sites": 12,
+    "subdomains": [
+        "afd-b2c-iibozyiouoyi4.z01",
+        "tf-frontdoor",
+        "plush-bkd8bsethahbcwds.z01",
+        "sd-tagging"
+    ],
+    "cnames": [
+        {
+            "original": "assets.plush.com.au",
+            "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+        },
+        {
+            "original": "cms.fiji.travel",
+            "resolved": "tf-frontdoor.azurefd.net"
+        },
+        {
+            "original": "consumer.intel.com",
+            "resolved": "afd-b2c-iibozyiouoyi4.z01.azurefd.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "azurefd\\.net\\/intelcorpb2c\\.onmicrosoft\\.com\\/B2C_1A_UNIFIEDLOGIN_SISU_STD_OIDC\\/oauth2\\/v2\\.0\\/authorize",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "afd-b2c-iibozyiouoyi4.z01"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "consumer.intel.com",
+                    "resolved": "afd-b2c-iibozyiouoyi4.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intel.com",
+                "ark.intel.com",
+                "community.intel.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/customapi\\/Login\\/GetXperienceUrl",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tf-frontdoor"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "cms.fiji.travel",
+                    "resolved": "tf-frontdoor.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "20ad3718a2e3d758bb28f6e89f37edbb0d32183df77509096c41b972272fcc5f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fiji.travel",
+                "www.fiji.travel"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/customapi\\/Website\\/GetWebPages",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tf-frontdoor"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "cms.fiji.travel",
+                    "resolved": "tf-frontdoor.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "4378ca7f29cdab38e19bb13790ec7e313474b122e96f6f403937b7b144807e5f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fiji.travel",
+                "www.fiji.travel"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/logo\\/stores\\/1\\/plush\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "ad6db0397ce885c29e526c20413a25223a4047acf83229c6d00388b8951ec82e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/wysiwyg\\/blocks\\/Finance-offer_Meganav_500x5004\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "a9b2e87d02e2c7b5f7e9f1c3e1b4f630d0d1d5ad60e631359c789dc410820dd4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/weltpixel\\/owlcarouselslider\\/images\\/a\\/p\\/april_sofa_sale_sunday_desktop_\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "6849e1e26a68e65dce352c60177382aa0aa81da7c008e2dd76985582633c2bb9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/weltpixel\\/owlcarouselslider\\/images\\/a\\/p\\/april_sofa_sale_sunday_mobile_2\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/weltpixel\\/owlcarouselslider\\/images\\/a\\/p\\/april_sofa_sale_sunday_mobile_3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/weltpixel\\/owlcarouselslider\\/images\\/a\\/p\\/april_sofa_sale_sunday_mobile_4\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/weltpixel\\/owlcarouselslider\\/images\\/a\\/p\\/april_sofa_sale_sunday_mobile_5\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/weltpixel\\/owlcarouselslider\\/images\\/a\\/p\\/april_sofa_sale_sunday_mobile_6\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/catalog\\/product\\/cache\\/abf278b2fe3077ae5c04744ed8322a60\\/2\\/d\\/2d5370-ce-front\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "e8ad2028326aefde8eb1ca979939533983716c0264776569147e3c2dabf79ddc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/catalog\\/product\\/cache\\/abf278b2fe3077ae5c04744ed8322a60\\/2\\/d\\/2d2332-3-m5658-front\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "fab6b517d1156e3dfc883833b05cc4b72c68087dc6f302b4722da609d504bd10"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/catalog\\/product\\/cache\\/abf278b2fe3077ae5c04744ed8322a60\\/1\\/9\\/1920x960px_5a0520-3_seasalt-front\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "df6549e59dcedf4c25f6de0426c7174dee2a97c5a7053699f83c5db929f0f276"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/catalog\\/product\\/cache\\/abf278b2fe3077ae5c04744ed8322a60\\/1\\/9\\/1920x960px_5a0389-3-front-r3018\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "77fcf2e5abdf8eabec5ac37455aeaec52a6cecd731c94955d0a8b826b13ab30e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/catalog\\/product\\/cache\\/abf278b2fe3077ae5c04744ed8322a60\\/5\\/z\\/5z1747-ce-s0002-front\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "79822ea1a4dfed79a75c5c032520b6fa30b775b2aa3516ba757f54931b8469f8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/shop_sofa_v3_1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "90202c644148875781f8438edbbf9b9e484b36f4aa7f56106b24f796ff235bf4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/mobile_shop_sofas_v3_1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "1d97c9f321abbd1c2c6bd0877fb5ba326fda62d88f2f4dbc8c47047a3b1bff1d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/shop_recliners_v3_1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "c290c8b977e62c30b4d4bb80542cb08280f65dd8a30900f0f47373373669f53b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/shop_accent_chairs_v3_1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "b6a612ebb2de755bd09a01420765d50b8884f53ccec22b83b912af9b6b7f7027"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/shop_swivel_chairs_v3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "e3cd6a75ab965bc8e2bc2261b57d8739fe01d7a81b005f8cbcf5053dbb316885"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/mobile_shop_swivel_chairs_v3_1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "d028834fe0bdfc4e8cee601c4fe20ccdda26b370bb33475083d1637255475406"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/shop_sofa_beds_v4\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "ab6032ea12e7fb86a224e571f26abba9e6ccfe98d4ff724b6756274ff32dfda8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/shop_rugs_beds_v3_1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "5241cb1c38a57bfb60c95d3e9ed09243fccd3f854d130ab8914bd61fe6083b7e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/sofa\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "3a1f2a97605911f61ec80eab9b272c0734b529b201db018aedd3e3a5265ef18c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/umbrella\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "9c7ae2a2d66bc45d54a653235845cfef386c637461c35ea2edda93f54ef9e448"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/customer-service\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "006ee00ca92b39cb574f1eea44d62746db03915ddbe424d83bfa4f6c9b652b14"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/delivery\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "1cf2df1a9ae0564b1a10a8166b31530ad6c3d34ce98e1724b0e51a06724d2a3b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/instagram\\/1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "79a1dcd0dcaecf506d29dd788eff935a76265c683f6ca0b71721e43687d46e4b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/instagram\\/2\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "8598e25fb119a4346caea6cd7e81a3228dade00037e1d9a0480ef5e1c373bcc9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/instagram\\/3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "d5d99b63eb4cfcbfed03171adf1c1e8ae1b23a7aedf8898a08cb549122b02805"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/instagram\\/4\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "24edf3562e3d7210ac4ee44da587be6ceb12ba3a42ee507488a18e927b3db8da"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/instagram\\/5\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "aa209e1d429f5e31873dbc1e0b84661e2062be33caf8654bad91d6c7f242e554"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/instagram\\/6\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "9390066187d8c5e0f2dbea18d8b302d529f6e8122b518548cb3e02dcf421edef"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/instagram\\/7\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "643f63792af6bef24d74e6402ff48699da2b65d5fc116093abe8c429eaf08ac0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/instagram\\/8\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "fd294de3ea8e81d60b59d527daaca589a19c82bd8dbdb563bbf8e4dbb0e7f689"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/instagram\\/9\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "23823030dae511fc8a7ab05fcbe1100e21d1921b66f571542084ab176e09cf42"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/homepage\\/instagram\\/10\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "b6b6763950c1fbf049a233ddcbc487d99e739ca63df09f74a64f54016c055a38"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/wysiwyg\\/Plush_logo_stacked\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "11ee66048b3f8f4518953bd57bfd00395f450fca1ac72894e5d0580e883f8a65"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/weltpixel\\/owlcarouselslider\\/images\\/a\\/p\\/april_sofa_sale_sunday_desktop_2\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "db7769a6d4e9d4be49ff15c6aa4bb30a193beaf943f4a2c83b1f18248978cca5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/weltpixel\\/owlcarouselslider\\/images\\/a\\/p\\/april_sofa_sale_sunday_desktop_3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "1787f71ad8959cb84a8ec173165e9bf57802720f15e973fbae3184103fe3d7e1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/weltpixel\\/owlcarouselslider\\/images\\/a\\/p\\/april_sofa_sale_sunday_desktop_4_v2\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "a0046037f25adad38e8d328271069eb29a16b0e618b7965504ac13e8c140949f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/weltpixel\\/owlcarouselslider\\/images\\/a\\/p\\/april_sofa_sale_sunday_desktop_5\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "0557ef192372be74253a6c0e123f47d6478db088ffeb336255a9961f68d9cfff"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/weltpixel\\/owlcarouselslider\\/images\\/a\\/p\\/april_sofa_sale_sunday_desktop_6\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plush-bkd8bsethahbcwds.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.plush.com.au",
+                    "resolved": "plush-bkd8bsethahbcwds.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "6052c342234b31e5744e8b8d6f9e2352a3ccf8d2e7ff61cd8c9be15afdcde814"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plush.com.au",
+                "www.plush.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/id\\/3pc",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sd-tagging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c66f7861c34fc6f763ac7252bff7f738e49c43946d846bc0a7a01040ad452ef2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.com",
+                "www.toyota.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/endpoint\\/toyota\\/1x1\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sd-tagging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a11732bf41736baed4d00a1f73d63d0f9314f7917649d47143edc062cdc29658"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.com",
+                "www.toyota.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "canary.js",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "kwcdn.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Document": 3,
+        "XHR": 4,
+        "Image": 84,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1-37.azure-dns.com",
+        "ns2-37.azure-dns.net",
+        "ns4-37.azure-dns.info",
+        "ns3-37.azure-dns.org"
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "domain": "iteratehq.com",
+    "owner": {
+        "name": "Pickaxe LLC",
+        "displayName": "Iterate",
+        "privacyPolicy": "https://iteratehq.com",
+        "url": "http://iteratehq.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "platform"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "iteratehq\\.com\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d81ca692d3f86250f5689c6f371d6232d1563bd2b152ff93f5a9b8af8a6b3dde"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "www.kmart.co.nz",
+                "www.nytimes.com"
+            ]
+        },
+        {
+            "rule": "iteratehq\\.com\\/match-prod-59cae9aea20144ec6356\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {
+                "console.memory": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8ccfdef0b343c8566c21fb52f62fac5b31b51296d9bb0d45fa70a5406a2440cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "iter_id": {
+                    "ttl": 315360023,
+                    "length": 203,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "www.kmart.co.nz"
+            ]
+        },
+        {
+            "rule": "iteratehq\\.com\\/api\\/v1\\/surveys\\/embed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c84354d3b5dfc55168cbc8feccab0460a86ecf446256cad819401cf34daec9c9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "www.kmart.co.nz"
+            ]
+        },
+        {
+            "rule": "iteratehq\\.com\\/api\\/v1\\/surveys\\/embed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "www.kmart.co.nz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "nyt.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "val.ns.cloudflare.com",
+        "lars.ns.cloudflare.com"
+    ]
+}

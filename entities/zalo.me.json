@@ -1,0 +1,210 @@
+{
+    "domain": "zalo.me",
+    "owner": {
+        "name": "VNG Corporation",
+        "displayName": "VNG"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "sp",
+        "button-share",
+        "za"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zalo\\.me\\/plugins\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "79064a8766d900a98247bbc116e488552fb9a2c7d36436a823e77053aa75e7cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "thanhnien.vn",
+                "vietnamnet.vn",
+                "we-xpats.com"
+            ]
+        },
+        {
+            "rule": "zalo\\.me\\/share_inline",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "button-share"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "3e446a4bed4eecfeb4223c430553952f22c3444f021f8adc2d48a590355d077a",
+                "713dbbc685a879fa06443812473083312bf12d8365dfaff440c1d13d3cfbb0c1",
+                "9c46f95eb38895e427760d80c101a3fbf0e4dba7a2060349e02c002ef71560e9"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "thanhnien.vn",
+                "vietnamnet.vn",
+                "we-xpats.com"
+            ]
+        },
+        {
+            "rule": "zalo\\.me\\/main\\.464a90c9d9505b964443708f3239f885\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "button-share"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "dfa9539ec614fbea62d83a735c72844e7ffe1813e57474da7382dd9d957ac811"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "thanhnien.vn",
+                "vietnamnet.vn",
+                "we-xpats.com"
+            ]
+        },
+        {
+            "rule": "zalo\\.me\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "button-share"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "9ced576c839cb8dd5ade412394b85db0eaaf5cf091b64fa3f59a0f13af3bd811"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "thanhnien.vn",
+                "vietnamnet.vn",
+                "we-xpats.com"
+            ]
+        },
+        {
+            "rule": "zalo\\.me\\/ajax",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "756747db3619ec2d34b02fa199a048b937bc3d207904ca8bafcb2cecca097a8f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "thanhnien.vn",
+                "vietnamnet.vn",
+                "we-xpats.com"
+            ]
+        },
+        {
+            "rule": "zalo\\.me\\/v3\\/w\\/t",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "za"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "20c04ad4fc6ecb8c48f07923bd238e19db07bdd8ada6bfbd0aaaad7f2ae8c75e",
+                "81e7e802a3cb15f31a8fc90b6fd015ee524ab15256614c724f79f53499c60eb9",
+                "d814d63959bb7f752d0731ed4cfdc438132cc5f09dc41409606b430ec1afb568"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "thanhnien.vn",
+                "vietnamnet.vn",
+                "we-xpats.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "zdn.vn",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "phunuvietnam.vn",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "vnncdn.net",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Document": 4,
+        "Stylesheet": 4,
+        "Fetch": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns1.vngdns.net",
+        "ns2.vngdns.vn",
+        "ns3.vngdns.net",
+        "ns4.vngdns.vn",
+        "ns5.vngdns.net"
+    ]
+}

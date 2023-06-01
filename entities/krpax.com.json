@@ -1,0 +1,106 @@
+{
+    "domain": "krpax.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000817,
+    "sites": 12,
+    "subdomains": [
+        "beta-tt"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "krpax\\.com\\/tracker\\.js",
+            "cookies": 0.0000408,
+            "fingerprinting": 1,
+            "subdomains": [
+                "beta-tt"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 7,
+                "Document.cookie setter": 6
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "7c1ac9f1540e6a22a3bbf81964aaba3b15b4c723425c67deb3362cf7677df4a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "LAKID": {
+                    "ttl": 63072006,
+                    "length": 36,
+                    "prevalence": 0.00004084244346725117,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anker.com",
+                "community.anker.com",
+                "de.anker.com",
+                "us.anker.com",
+                "us.eufy.com",
+                "us.soundcore.com",
+                "www.anker.com"
+            ]
+        },
+        {
+            "rule": "krpax\\.com\\/track",
+            "cookies": 0.0000476,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beta-tt"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LAKID": 0.00004084244346725117,
+                "_fbp": 0.000027228295644834112,
+                "IR_gbd": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "anker.com",
+                "community.anker.com",
+                "de.anker.com",
+                "us.anker.com",
+                "us.eufy.com",
+                "us.soundcore.com",
+                "www.anker.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000817,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Image": 7
+    },
+    "nameservers": [
+        "pdns14.domaincontrol.com",
+        "pdns13.domaincontrol.com"
+    ]
+}

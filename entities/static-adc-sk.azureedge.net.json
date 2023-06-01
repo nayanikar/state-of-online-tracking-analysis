@@ -1,0 +1,137 @@
+{
+    "domain": "static-adc-sk.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "static-adc-sk\\.azureedge\\.net\\/themes\\/css\\/all\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "37e1aa92f2459fc8d4d54826f6038a833b4a852998424e94a628f82b74bd3511"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adc.sk",
+                "www.adc.sk"
+            ]
+        },
+        {
+            "rule": "static-adc-sk\\.azureedge\\.net\\/themes\\/js\\/lazysizes\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7ddd7be63d602debff3bdd61103c9e984edf48121174d6d77cb37d3d085d396b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adc.sk",
+                "www.adc.sk"
+            ]
+        },
+        {
+            "rule": "static-adc-sk\\.azureedge\\.net\\/themes\\/js\\/vendors\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Element.prototype.getClientRects": 2,
+                "Date.prototype.getTime": 2,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e521ce4adae86268bfc01be189869643eb04e360dc538fdf591078d4d07219b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adc.sk",
+                "www.adc.sk"
+            ]
+        },
+        {
+            "rule": "static-adc-sk\\.azureedge\\.net\\/themes\\/js\\/main\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b9f45d981e03514286d2805ed2b16dfe7c21f18f979874672962ee112e3f2b75"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nls-sts": {
+                    "ttl": 345602,
+                    "length": 10,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adc.sk",
+                "www.adc.sk"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 6
+    },
+    "nameservers": []
+}

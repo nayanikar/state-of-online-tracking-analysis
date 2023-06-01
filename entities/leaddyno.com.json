@@ -1,0 +1,163 @@
+{
+    "domain": "leaddyno.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "static",
+        "collector"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "leaddyno\\.com\\/js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1b301612c2223d3fa922e3a4b3667f87e13f417f67490d9e71162da62b1e5084"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "LD_T": {
+                    "ttl": 3153600002,
+                    "length": 36,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "LD_S": {
+                    "ttl": 302,
+                    "length": 13,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "LD_U": {
+                    "ttl": 3153600002,
+                    "length": 30,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aktien.guide",
+                "privacypros.io"
+            ]
+        },
+        {
+            "rule": "leaddyno\\.com\\/visit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "945c8a3e786e8859c485674ae2b2f1f209abfc768c7993ebda2985713db1fb3e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LD_T": 0.00020080321285140563,
+                "LD_U": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "aktien.guide",
+                "privacypros.io"
+            ]
+        },
+        {
+            "rule": "leaddyno\\.com\\/x",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LD_T": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "aktien.guide",
+                "privacypros.io"
+            ]
+        },
+        {
+            "rule": "leaddyno\\.com\\/clickstream",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3bdd4e4d15aa4bfacbf7081a8b027c3540464a9a7addedc38fa140d24310c52a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LD_T": 0.00020080321285140563,
+                "LD_U": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "aktien.guide",
+                "privacypros.io"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9090909090909091
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.09090909090909091
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "ns-1481.awsdns-57.org",
+        "ns-1793.awsdns-32.co.uk",
+        "ns-164.awsdns-20.com",
+        "ns-625.awsdns-14.net"
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "domain": "freespee.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "freespee\\.com\\/js\\/external\\/fs\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "38740031f23184c673d3569b16024d8fab48aa188ffe9f8dd86e814665b4ca32"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__fs_dncs_sessionid_9213edec-dfe5-4106-8ae5-1ae0287a7582": {
+                    "ttl": 1804,
+                    "length": 36,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "__fs_dncs_trackingid_9213edec-dfe5-4106-8ae5-1ae0287a7582": {
+                    "ttl": 31536004,
+                    "length": 36,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "__fs_dncs_exttrack": {
+                    "ttl": 31536004,
+                    "length": 1,
+                    "prevalence": 0.0002010252286661976,
+                    "uniqueness": 0.5
+                },
+                "__fs_dncs_sessionid_368208ca-3e20-4f96-a4f7-7032d13aa4bd": {
+                    "ttl": 1803,
+                    "length": 36,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                },
+                "__fs_dncs_trackingid_368208ca-3e20-4f96-a4f7-7032d13aa4bd": {
+                    "ttl": 31536003,
+                    "length": 36,
+                    "prevalence": 0.0001005126143330988,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lamutuellegenerale.fr",
+                "www.vroomly.com"
+            ]
+        },
+        {
+            "rule": "freespee\\.com\\/index\\.php",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "03974b3cade78d1cec9981f7afb5ea9818498ccd5c2663fb76bfc12b476fddac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lamutuellegenerale.fr",
+                "www.vroomly.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "tagcommander.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-396.awsdns-49.com",
+        "ns-1584.awsdns-06.co.uk",
+        "ns-804.awsdns-36.net",
+        "ns-1479.awsdns-56.org"
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "domain": "fcp.codes",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "fcp\\.codes\\/embed-code-template\\/embed-code-iframe\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "aed36367af814cda49770fcc4e5e681e585a6e2075c2d5f1f79a233dd41ff81e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kooora.com",
+                "www.kooora.com"
+            ]
+        },
+        {
+            "rule": "fcp\\.codes\\/brand_safety\\/brand_safety\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f6393ae2a254a4b88b33c0abf43c96b929b9225cd5cf8deb1f716074b8a0409f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kooora.com",
+                "www.kooora.com"
+            ]
+        },
+        {
+            "rule": "fcp\\.codes\\/brand_safety\\/brand_safety\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kooora.com",
+                "www.kooora.com"
+            ]
+        },
+        {
+            "rule": "fcp\\.codes\\/embed-code-template\\/style\\/player\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7ac999aed58e3f7e1cc3ce62be3d4e6fa6b3daedd029bd845f40299fa84d2140"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kooora.com",
+                "www.kooora.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-932.awsdns-52.net",
+        "ns-284.awsdns-35.com",
+        "ns-1705.awsdns-21.co.uk",
+        "ns-1044.awsdns-02.org"
+    ]
+}

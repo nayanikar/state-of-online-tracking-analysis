@@ -1,0 +1,338 @@
+{
+    "domain": "gazeta.pl",
+    "owner": {
+        "name": "AGORA SA",
+        "displayName": "AGORA"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "squid",
+        "static",
+        "biv",
+        "p",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gazeta\\.pl\\/bdtrck\\/getScript\\/bluewhale",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "squid"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "bwGuidv2": {
+                    "ttl": 31536009,
+                    "length": 24,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "bwVisitId": {
+                    "ttl": 1809,
+                    "length": 24,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "bwPageviewId": {
+                    "ttl": 3609,
+                    "length": 24,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helios.pl",
+                "www.helios.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/info\\/bluewhale\\/3\\.0\\.10\\/main-min\\.jsgz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6537f4f01aa1a85e1404804c77c2850576a4e34819f57bbed043c8ac06fbe7d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helios.pl",
+                "www.helios.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/bdtrck\\/getBdIf2",
+            "cookies": 0.0000272,
+            "fingerprinting": 2,
+            "subdomains": [
+                "squid"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 4,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Navigator.prototype.platform": 4,
+                "Navigator.prototype.doNotTrack": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "bbf385479018383780222c546392aabf29ad0ceee9bb6e177d6e743235ba1934",
+                "db0762fb4da0767f527ca1d16747bdde6e50d75e234e10d0daa84676ce94d58d",
+                "14e17c52a0da6b6e01e1a3fa06c6db87073bb6f678d2e7199967c735f7748da3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006807073911208528,
+                "_ga": 0.000006807073911208528,
+                "OptanonConsent": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "helios.pl",
+                "www.helios.pl",
+                "www.plotek.pl",
+                "www.sport.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/bdtrck\\/updDcPv",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "squid"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "221691826eec3f63b9cb29a3ffd23380ed70bc88eca9c4554a536c77ddc94631",
+                "066d19d1d30385cc94e08c4bb50014ebcd99f0614e7a5ff528b8ea52df2d0d88",
+                "9c57488188ccc6f5af05151605c872d31e497fae8722399102078336b9764b3e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helios.pl",
+                "www.helios.pl",
+                "www.plotek.pl",
+                "www.sport.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/bdtrck\\/updDcEv",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "squid"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helios.pl",
+                "www.helios.pl",
+                "www.plotek.pl",
+                "www.sport.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/static\\/front\\/ot-iab-consent\\/master\\/rodoGuard-ux\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "biv"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "1781ade0bda0a6f1c352a42313c9f261a0301b0fc574f49cbf9b59623c0b495a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotek.pl",
+                "www.plotek.pl",
+                "www.sport.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/static\\/front\\/ot-iab-consent\\/master\\/adsVisibilityMonitor\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "biv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c7fce25c91e278f1eab9dc5b293c4c1d0490af05a18930cc8b023f216913af8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotek.pl",
+                "www.sport.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/static\\/front\\/ot-iab-consent\\/master\\/ot-ux-fix\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "biv"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.language": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "ec5e4e7f0870841c4380035bb5d1065afd1cb14e245ba4097895d5851011b7ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rodoAccepted": {
+                    "ttl": 31622403,
+                    "length": 2,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                },
+                "rodoConfigData": {
+                    "ttl": 31622403,
+                    "length": 70,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotek.pl",
+                "www.plotek.pl",
+                "www.sport.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "87afc3ae6cbb31059ec3dc8a061e96b92d72824918274c4f57e4638a74d8812a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotek.pl",
+                "www.sport.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/livedata-enetpulse-links\\/v1\\/eventsUrls",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1a7740a479739fd59762704cb1409938d1d90d4b3e3d5b8ea3d0608972bee88a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sport.pl",
+                "www.sport.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000408,
+    "topInitiators": [
+        {
+            "domain": "im-g.pl",
+            "prevalence": 0.6727272727272727
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.32727272727272727
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Document": 4,
+        "XHR": 8,
+        "Image": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "hera.gazeta.pl",
+        "zeus.gazeta.pl"
+    ]
+}

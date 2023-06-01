@@ -1,0 +1,591 @@
+{
+    "domain": "consensu.org",
+    "owner": {
+        "name": "IAB Europe",
+        "displayName": "IAB Europe"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0152,
+    "sites": 151,
+    "subdomains": [
+        "quantcast.mgr",
+        "cdn.consentmanager.mgr",
+        "consentmanager.mgr",
+        "test.quantcast.mgr",
+        "clickio.mgr",
+        "cdn.conversant.mgr"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/cmp2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 87,
+                "Navigator.prototype.userAgent": 87,
+                "window.localStorage": 61,
+                "Document.cookie getter": 61,
+                "Date.prototype.getTime": 9
+            },
+            "sites": 88,
+            "prevalence": 0.00884,
+            "cnames": [],
+            "responseHashes": [
+                "5e70200a467f4f91f09892f187585ec6cf3e9a547d6a7d0b777cb3d29b3fb1e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.002811244979919679,
+                "_li_dcdm_c": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "9gag.com",
+                "forum.xda-developers.com",
+                "itsfoss.com",
+                "myanimelist.net",
+                "www.bustle.com",
+                "www.express.co.uk",
+                "www.motherearthnews.com",
+                "bobistheoilguy.com",
+                "framed.wtf",
+                "www.thestudentroom.co.uk",
+                "www.romper.com",
+                "www.thesouthafrican.com",
+                "www.mic.com",
+                "www.racedepartment.com",
+                "au.toyotaownersclub.com",
+                "uproxx.com",
+                "cults3d.com",
+                "www.timesofisrael.com",
+                "readysteadycut.com",
+                "www.albumoftheyear.org"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/delivery\\/automatic\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.consentmanager.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "36106f4376e73d27c5b020a1269bf9d243243e81fa6b5e194d7adcc98b2ec4b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nine.com.au",
+                "www.cuponation.com.au"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/delivery\\/cmp\\.php",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consentmanager.mgr"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "fff93064dd0870768a56b1d73ca1df90ec372c20147cf74dc9816dd6c0d3980b",
+                "9b0a1dc78936da4812dcda8789cff83cad3844f3e1571492fcd10f0f66b32dcf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nine.com.au",
+                "coupons.nine.com.au",
+                "www.cuponation.com.au"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/delivery\\/js\\/cmp_en\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.consentmanager.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f26c5e21623dc973b83fc5681840f9396d0106c4842d83a4f2c8126fb015f417"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__cmpconsentx26949": {
+                    "ttl": 1209608,
+                    "length": 44,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "__cmpcvcx26949": {
+                    "ttl": 1209608,
+                    "length": 30,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "__cmpcpcx26949": {
+                    "ttl": 1209608,
+                    "length": 4,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "__cmpcvc": {
+                    "ttl": 1209610,
+                    "length": 30,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                },
+                "__cmpcpc": {
+                    "ttl": 1209610,
+                    "length": 4,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "__cmpcccx30388": {
+                    "ttl": 1209610,
+                    "length": 30,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nine.com.au",
+                "www.cuponation.com.au"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/delivery\\/info\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentmanager.mgr"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1cfaf533b9965b7d9cf11f372b0eecdc7839642d73db9971d7533b9ad4cbc54c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nine.com.au",
+                "coupons.nine.com.au",
+                "www.cuponation.com.au"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/google-atp-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.00231,
+            "cnames": [],
+            "responseHashes": [
+                "31d1a8b234ef7e3fcd967fe38bb63298be8faf869e0dcd5352c330ed5c18964b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.seabreeze.com.au",
+                "perezhilton.com",
+                "hotcopper.com.au",
+                "uv.willyweather.com.au",
+                "petapixel.com",
+                "www.stayathomemum.com.au",
+                "www.grays.com",
+                "www.betootaadvocate.com",
+                "sunrisesunset.willyweather.com.au",
+                "wind.willyweather.com.au",
+                "www.willyweather.com.au",
+                "tides.willyweather.com.au",
+                "www.swellnet.com",
+                "www.broadsheet.com.au",
+                "digital-photography-school.com",
+                "www.executivetraveller.com",
+                "technical.city",
+                "www.rsvp.com.au",
+                "www.wareable.com",
+                "strengthlevel.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/GVL-v2\\/cmp-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "test.quantcast.mgr"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00241,
+            "cnames": [],
+            "responseHashes": [
+                "3d6bd7be503ce901a7b60e8146f28eeda5f38169e3828773219edc95c12da506"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.betootaadvocate.com",
+                "perezhilton.com",
+                "happymag.tv",
+                "www.rsvp.com.au",
+                "wind.willyweather.com.au",
+                "www.swellnet.com",
+                "linuxconfig.org",
+                "digital-photography-school.com",
+                "www.weatherzone.com.au",
+                "www.seabreeze.com.au",
+                "uv.willyweather.com.au",
+                "technical.city",
+                "hotcopper.com.au",
+                "www.wareable.com",
+                "www.phoronix.com",
+                "www.broadsheet.com.au",
+                "www.willyweather.com.au",
+                "petapixel.com",
+                "tides.willyweather.com.au",
+                "www.executivetraveller.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/GVL-v2\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quantcast.mgr",
+                "test.quantcast.mgr"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.00271,
+            "cnames": [],
+            "responseHashes": [
+                "b3d19acaedbb34b8bd49f5a4457b6544de09b851fb20c366dc8312b04c84bc4e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.betootaadvocate.com",
+                "happymag.tv",
+                "petapixel.com",
+                "linuxconfig.org",
+                "wind.willyweather.com.au",
+                "digital-photography-school.com",
+                "sunrisesunset.willyweather.com.au",
+                "uv.willyweather.com.au",
+                "www.broadsheet.com.au",
+                "technical.city",
+                "www.phoronix.com",
+                "trip101.com",
+                "tides.willyweather.com.au",
+                "www.willyweather.com.au",
+                "www.wareable.com",
+                "www.swellnet.com",
+                "www.seabreeze.com.au",
+                "hotcopper.com.au",
+                "perezhilton.com",
+                "www.indy100.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/45\\/cmp2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 14,
+                "Navigator.prototype.userAgent": 14,
+                "window.localStorage": 12,
+                "Document.cookie getter": 12
+            },
+            "sites": 14,
+            "prevalence": 0.00141,
+            "cnames": [],
+            "responseHashes": [
+                "8224fdc6526385e2ad6767e926c8d70df1dc24696afbd156ab47b5f523bd224e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__pid": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "androidcentral.com",
+                "forums.anandtech.com",
+                "forums.practicalcaravan.com",
+                "forums.tomshardware.com",
+                "forums.tomsguide.com",
+                "forums.ybw.com",
+                "whatculture.com",
+                "www.decanter.com",
+                "www.howtogeek.com",
+                "www.reviewgeek.com",
+                "www.rolex.com",
+                "www.sciencealert.com",
+                "www.whowhatwear.com",
+                "www.yachtingworld.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/23\\/cmp2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.product": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "b3d7664a9bc1602bae1581a2bb4181109516fb2ae83e439e272954399a8adb12"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "perezhilton.com",
+                "petapixel.com",
+                "www.phoronix.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/46\\/cmp2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Document.cookie getter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "a15e530e5c2ecf56f02734b014ea604bc9416bbb6c3ae7370c9fa946252dd593"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000502008032128514
+            },
+            "exampleSites": [
+                "tasty.co",
+                "www.buzzfeed.com",
+                "www.buzzfeednews.com",
+                "www.huffpost.com",
+                "www.huffingtonpost.co.uk"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/t\\/consent_218348\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clickio.mgr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2c651572eb781dac0faf8b61afab93a312a7331ab40f3eea9f8b71d26af277b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adpost.com",
+                "www.babynamespedia.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/38\\/cmp2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "99d3a35cb295c4056ab352e9c427bc40b90a30cedfa64fe1b0f4bc9fff48701a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "cheatsheet.com",
+                "www.motorbiscuit.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/gdpr\\/cmp\\/config\\/p\\/o\\/politifact\\.com\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.conversant.mgr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "politifact.com",
+                "www.politifact.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/gdpr\\/cmp\\/gdpr-cmp-bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.conversant.mgr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "politifact.com",
+                "www.politifact.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Non-Tracking"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "quantcast.com",
+            "prevalence": 0.5492957746478874
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.323943661971831
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.051643192488262914
+        },
+        {
+            "domain": "gemius.com",
+            "prevalence": 0.023474178403755867
+        },
+        {
+            "domain": "d4el4parm0zb3.cloudfront.net",
+            "prevalence": 0.014084507042253521
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.014084507042253521
+        },
+        {
+            "domain": "thisiswaldo.com",
+            "prevalence": 0.004694835680751174
+        },
+        {
+            "domain": "yollamedia.com",
+            "prevalence": 0.004694835680751174
+        },
+        {
+            "domain": "azureedge.net",
+            "prevalence": 0.004694835680751174
+        },
+        {
+            "domain": "holid.io",
+            "prevalence": 0.004694835680751174
+        }
+    ],
+    "types": {
+        "Script": 125,
+        "Image": 3,
+        "XHR": 74
+    },
+    "nameservers": [
+        "pdns10.domaincontrol.com",
+        "pdns09.domaincontrol.com"
+    ]
+}

@@ -1,0 +1,360 @@
+{
+    "domain": "edmunds.com",
+    "owner": {
+        "name": "Edmunds.com, Inc.",
+        "displayName": "Edmunds.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "www",
+        "edw",
+        "content-container",
+        "widgetstore",
+        "cas-assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "edmunds\\.com\\/cgi-bin\\/edw_partner\\.cgi",
+            "cookies": 0.000034,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "2c8937ff93d60910b318e9327ddabcd1c40b955958c51aece799189685009aa8",
+                "a6cddb0a789f15d984264383d58522fd0632592d523f819cc7eea20f7071dca6",
+                "8815a46cecfd259f832ceb6c6a8f9c4a2328b3b65690e16e04d1bf6c36929e37",
+                "091d520039ca4b081d952f49663f8d2850bf80b5a292a238d48829131b389101"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_edwpv": {
+                    "ttl": 315360005,
+                    "length": 36,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                },
+                "_edwps": {
+                    "ttl": 1805,
+                    "length": 18,
+                    "prevalence": 0.00003403536955604264,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bergstromauto.com",
+                "www.bergstromauto.com",
+                "www.echopark.com",
+                "www.offleaseonly.com",
+                "www.sewell.com"
+            ]
+        },
+        {
+            "rule": "edmunds\\.com\\/edw\\/edw1x1\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edw"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_edwpv": 0.00003403536955604264,
+                "_edwps": 0.00003403536955604264
+            },
+            "exampleSites": [
+                "bergstromauto.com",
+                "www.bergstromauto.com",
+                "www.echopark.com",
+                "www.offleaseonly.com",
+                "www.sewell.com"
+            ]
+        },
+        {
+            "rule": "edmunds\\.com\\/1919897\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "content-container"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4c0e4aa38621c09f93bceea288be8e11a7a97da87d11fc2f74cec1d58e7e94cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "edmunds": {
+                    "ttl": 31536009,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "edw": {
+                    "ttl": 1809,
+                    "length": 18,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_edwvts": {
+                    "ttl": 31536009,
+                    "length": 18,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "echopark.com",
+                "www.echopark.com"
+            ]
+        },
+        {
+            "rule": "edmunds\\.com\\/api\\/extension\\/v1\\/js\\/10aa190f-6cdb-4cdc-b448-11eb7224d444",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgetstore"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9fcfdfe35236776c420d58dbca37754d9eeeec9e931ee1d1e43c6c06b742054b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "edmunds": {
+                    "ttl": 31536006,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "edw": {
+                    "ttl": 1806,
+                    "length": 18,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "echopark.com",
+                "www.echopark.com"
+            ]
+        },
+        {
+            "rule": "edmunds\\.com\\/partner-analytics\\/1919897\\/eas\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cas-assets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7b100e270b5d6b25f29570a7d4c5d758f75a4b24072478bfcb15738a756da60e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "adsol_nv": {
+                    "ttl": 2592010,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "adsol_session": {
+                    "ttl": 1810,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "echopark.com",
+                "www.echopark.com"
+            ]
+        },
+        {
+            "rule": "edmunds\\.com\\/ddc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content-container"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "da917236ac85cbc45a31a68d374d476c04a73bf2f65b0f803b3a23668b0891cf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "offleaseonly.com",
+                "www.offleaseonly.com"
+            ]
+        },
+        {
+            "rule": "edmunds\\.com\\/889727\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "content-container"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e12dc54a5ac61b949087223d8b714508d2b959ee4cb7ae4f197d70c5bc99f92a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "edmunds": {
+                    "ttl": 31536006,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "edw": {
+                    "ttl": 1806,
+                    "length": 18,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_edwvts": {
+                    "ttl": 31536006,
+                    "length": 18,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "offleaseonly.com",
+                "www.offleaseonly.com"
+            ]
+        },
+        {
+            "rule": "edmunds\\.com\\/partner-analytics\\/889727\\/eas\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cas-assets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "34b3d012b0d41fc86b77df438def28d9834b4014fb28f8ef2a75901306e7c38e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "adsol_nv": {
+                    "ttl": 2592010,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "adsol_session": {
+                    "ttl": 1810,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "offleaseonly.com",
+                "www.offleaseonly.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000545,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8260869565217391
+        },
+        {
+            "domain": "edmunds-media.com",
+            "prevalence": 0.17391304347826086
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns-1671.awsdns-16.co.uk",
+        "ns-424.awsdns-53.com",
+        "ns-1242.awsdns-27.org",
+        "ns-592.awsdns-10.net"
+    ]
+}

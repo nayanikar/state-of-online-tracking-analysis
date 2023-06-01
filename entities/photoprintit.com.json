@@ -1,0 +1,124 @@
+{
+    "domain": "photoprintit.com",
+    "owner": {
+        "name": "CEWE Stiftung & Co. KGaA",
+        "displayName": "CEWE Stiftung &"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "searchservice",
+        "delapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "photoprintit\\.com\\/health\\/check",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "searchservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cewe.de",
+                "www.cewe.de"
+            ]
+        },
+        {
+            "rule": "photoprintit\\.com\\/health\\/check",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "searchservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cewe.de",
+                "www.cewe.de"
+            ]
+        },
+        {
+            "rule": "photoprintit\\.com\\/web\\/70000000\\/dlp\\/api\\/categories",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4ae0e15984b00f8e0df219ca84c1f9ef71971c8a6ec54f6e8e670e6e7ff03647"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cewe.de",
+                "www.cewe.de"
+            ]
+        },
+        {
+            "rule": "photoprintit\\.com\\/web\\/70000000\\/dlp\\/api\\/designFamilies",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "51466bc140eea2efc93e7f56f403cfec6cf5cb41f13d658693266db66c85565a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cewe.de",
+                "www.cewe.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "dns02.cewedigital.de",
+        "dns01.cewedigital.de"
+    ]
+}

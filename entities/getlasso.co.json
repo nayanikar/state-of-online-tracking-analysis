@@ -1,0 +1,95 @@
+{
+    "domain": "getlasso.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "getlasso\\.co\\/lasso-event-tracking\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "window.innerWidth": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "19b05cd39bad5158232286d390c8ac305cd6b922752202fd710ddd0b45c36825"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buggybuddys.com.au",
+                "redlightnetwork.net",
+                "wealthygorilla.com",
+                "www.3dsourced.com",
+                "www.homestratosphere.com",
+                "www.k9ofmine.com",
+                "www.knowyourmobile.com",
+                "www.lifehack.org",
+                "www.thewaywardhome.com"
+            ]
+        },
+        {
+            "rule": "getlasso\\.co\\/bots\\.min\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "cb1547bfa10f3b67c910439886989a85d858ef60d660b683b1768c4e4e1bf935"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buggybuddys.com.au",
+                "redlightnetwork.net",
+                "wealthygorilla.com",
+                "www.3dsourced.com",
+                "www.divein.com",
+                "www.homestratosphere.com",
+                "www.k9ofmine.com",
+                "www.knowyourmobile.com",
+                "www.lifehack.org",
+                "www.thewaywardhome.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 10
+    },
+    "nameservers": [
+        "scott.ns.cloudflare.com",
+        "mona.ns.cloudflare.com"
+    ]
+}

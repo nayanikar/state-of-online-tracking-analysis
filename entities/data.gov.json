@@ -1,0 +1,154 @@
+{
+    "domain": "data.gov",
+    "owner": {
+        "name": "U.S. General Services Administration",
+        "displayName": "U.S. General Services Administration"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "api-open-fec-gov.domains.api",
+        "api-foia-gov.domains.api"
+    ],
+    "cnames": [
+        {
+            "original": "api.foia.gov",
+            "resolved": "api-foia-gov.domains.api.data.gov"
+        },
+        {
+            "original": "api.open.fec.gov",
+            "resolved": "api-open-fec-gov.domains.api.data.gov"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "data\\.gov\\/v1\\/schedules\\/schedule_a\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-open-fec-gov.domains.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api.open.fec.gov",
+                    "resolved": "api-open-fec-gov.domains.api.data.gov"
+                }
+            ],
+            "responseHashes": [
+                "95e0fbbe1ff8d77489efc8a0c5087733a1128c23c442cd3e2121c20207201776"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fec.gov",
+                "www.fec.gov"
+            ]
+        },
+        {
+            "rule": "data\\.gov\\/v1\\/calendar-dates\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-open-fec-gov.domains.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api.open.fec.gov",
+                    "resolved": "api-open-fec-gov.domains.api.data.gov"
+                }
+            ],
+            "responseHashes": [
+                "f0b79bfabcd186d1f21d0a7cc1cc895396a1fcc7546e62cf01f852385413c32e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fec.gov",
+                "www.fec.gov"
+            ]
+        },
+        {
+            "rule": "data\\.gov\\/api\\/agency_components",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-foia-gov.domains.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api.foia.gov",
+                    "resolved": "api-foia-gov.domains.api.data.gov"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foia.gov",
+                "www.foia.gov"
+            ]
+        },
+        {
+            "rule": "data\\.gov\\/api\\/agency_components",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-foia-gov.domains.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api.foia.gov",
+                    "resolved": "api-foia-gov.domains.api.data.gov"
+                }
+            ],
+            "responseHashes": [
+                "06bb919ddd2687c19c30d38f43147127d42a454d47aa9d7e88d0ba7a7b32ab3c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foia.gov",
+                "www.foia.gov"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 6,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-965.awsdns-56.net",
+        "ns-1354.awsdns-41.org",
+        "ns-60.awsdns-07.com",
+        "ns-1826.awsdns-36.co.uk"
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "domain": "viqeo.tv",
+    "owner": {
+        "name": "Viqeo LLC.",
+        "displayName": "Viqeo"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "stats"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "viqeo\\.tv\\/js\\/vq_starter\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mk.ru",
+                "www.woman.ru"
+            ]
+        },
+        {
+            "rule": "viqeo\\.tv\\/js\\/assets\\/724\\/js\\/vq_init\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fdaa26a0c63d9101d1d2438004c1b86e428d78b7a8e8b5be57f6a5ec85c8bb59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mk.ru",
+                "www.woman.ru"
+            ]
+        },
+        {
+            "rule": "viqeo\\.tv\\/storage\\/7e\\/2d\\/9e68d6fa8628733488b6acc71168544f\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e29c59ccfcbca13d2caa5c9bc43d42f12b0a3584e88d61b15543a569477187ea"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mk.ru",
+                "www.mk.ru"
+            ]
+        },
+        {
+            "rule": "viqeo\\.tv\\/storage\\/7e\\/2d\\/67ecb548b4de7bfb705cc3ed2e3c9cf1\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "38d6e755170548b2b603bd0190de3ff04ba109f7fb2e9702df90ea2258bc2443"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mk.ru",
+                "www.mk.ru"
+            ]
+        },
+        {
+            "rule": "viqeo\\.tv\\/stats",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cbd100d7cdab80ff21d2b11415e4d289beb2560bf07960915286afbeb5460c12"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mk.ru",
+                "www.mk.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "yastatic.net",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "hsmedia.ru",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 6
+    },
+    "nameservers": [
+        "pns103.cloudns.net",
+        "pns101.cloudns.net",
+        "pns102.cloudns.net",
+        "pns104.cloudns.net"
+    ]
+}

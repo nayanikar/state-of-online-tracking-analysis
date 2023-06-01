@@ -1,0 +1,65 @@
+{
+    "domain": "os.tc",
+    "owner": {
+        "name": "OneSignal",
+        "displayName": "OneSignal",
+        "privacyPolicy": "https://onesignal.com/privacy_policy",
+        "url": "http://onesignal.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "bounding",
+        "alternet",
+        "crimeonline"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "os\\.tc\\/webPushIframe",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bounding",
+                "alternet",
+                "crimeonline"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "51dc65a98675e00ef9d5f0193330143fca316b2167fc8783ced409eeb7e27f9d",
+                "4f8d1236c21353ec53d0c0abb139d654c7dfee024cc662fc9e85af30395b88c7"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boundingintocomics.com",
+                "www.alternet.org",
+                "www.crimeonline.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "onesignal.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 3
+    },
+    "nameservers": [
+        "gail.ns.cloudflare.com",
+        "vin.ns.cloudflare.com"
+    ]
+}

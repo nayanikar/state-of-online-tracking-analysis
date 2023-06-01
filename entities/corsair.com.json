@@ -1,0 +1,110 @@
+{
+    "domain": "corsair.com",
+    "owner": {
+        "name": "Corsair Memory, Inc",
+        "displayName": "Corsair Memory"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "www",
+        "brands",
+        "cwsmgmt"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "corsair\\.com\\/pl\\/pl\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oppaisan.com",
+                "www.bridgestonegolf.com"
+            ]
+        },
+        {
+            "rule": "corsair\\.com\\/sites\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "brands"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4117462d9e5d681bb474266920830026227b8a555072f3f0a9e6f94a64fa86d3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scufgaming.com",
+                "www.originpc.com"
+            ]
+        },
+        {
+            "rule": "corsair\\.com\\/sites\\/UAT\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cwsmgmt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "acd8db6a47e5b4158a11298dda4c21f815a694192019768d2ad6ef1c381ed496"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elgato.com",
+                "www.elgato.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "hlmiq.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 4
+    },
+    "nameservers": [
+        "shaz.ns.cloudflare.com",
+        "huxley.ns.cloudflare.com"
+    ]
+}

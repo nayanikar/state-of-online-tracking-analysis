@@ -1,0 +1,129 @@
+{
+    "domain": "de2pmm85odupd.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "feedback.esp.vmware.com",
+            "resolved": "de2pmm85odupd.cloudfront.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "de2pmm85odupd\\.cloudfront\\.net\\/assets\\/ipf\\/esp\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "feedback.esp.vmware.com",
+                    "resolved": "de2pmm85odupd.cloudfront.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vmware.com",
+                "docs.vmware.com",
+                "www.vmware.com"
+            ]
+        },
+        {
+            "rule": "de2pmm85odupd\\.cloudfront\\.net\\/api\\/feedback\\/v1\\/trigger-events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "feedback.esp.vmware.com",
+                    "resolved": "de2pmm85odupd.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "72ee5ac8794ec2ae209c7c806e3a25df3e3b859c179386ea6316e0e74eac1dac",
+                "6e466d18b50268b671a6e32959c5b141588a362891f156a4e4d1893217492839"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vmware.com",
+                "docs.vmware.com",
+                "kb.vmware.com",
+                "www.vmware.com"
+            ]
+        },
+        {
+            "rule": "de2pmm85odupd\\.cloudfront\\.net\\/assets\\/ipf\\/feedback\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "feedback.esp.vmware.com",
+                    "resolved": "de2pmm85odupd.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "401b224d230dd850907d2b8d835f9fd41936714e7697447c0b67f21674e99c00",
+                "441c3ebf39cd9058b122b8dd2f52396328358b233352d5a68cc75dfbd16948df"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vmware.com",
+                "docs.vmware.com",
+                "kb.vmware.com",
+                "www.vmware.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-1278.awsdns-31.org",
+        "ns-1676.awsdns-17.co.uk",
+        "ns-430.awsdns-53.com",
+        "ns-523.awsdns-01.net"
+    ]
+}

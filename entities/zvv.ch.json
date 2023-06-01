@@ -1,0 +1,65 @@
+{
+    "domain": "zvv.ch",
+    "owner": {
+        "name": "Zürcher Verkehrsbund (ZVV)",
+        "displayName": "Zürcher Verkehrsbund (ZVV)"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "fpcdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "zvv\\.ch\\/cdn\\/v1\\/searchmask\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "fpcdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.platform": 2,
+                "window.devicePixelRatio": 2,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "590073bd84de9c695bee1df25ccd619651fddc35d87055b42e6968c25c9adcce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stadt-zuerich.ch",
+                "www.zsg.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "dakota.ns.cloudflare.com",
+        "wally.ns.cloudflare.com"
+    ]
+}

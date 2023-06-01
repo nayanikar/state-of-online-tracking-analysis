@@ -1,0 +1,77 @@
+{
+    "domain": "doctolib.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "events-logs"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "doctolib\\.com\\/b2c_content_engagement",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events-logs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctolib.fr",
+                "www.doctolib.fr"
+            ]
+        },
+        {
+            "rule": "doctolib\\.com\\/b2c_content_engagement",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events-logs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctolib.fr",
+                "www.doctolib.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "bob.ns.cloudflare.com",
+        "naomi.ns.cloudflare.com"
+    ]
+}

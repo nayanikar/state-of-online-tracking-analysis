@@ -1,0 +1,126 @@
+{
+    "domain": "o2.shared.global.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "graph.goodrx.com",
+            "resolved": "o2.shared.global.fastly.net"
+        },
+        {
+            "original": "segment-api.goodrx.com",
+            "resolved": "o2.shared.global.fastly.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "o2\\.shared\\.global\\.fastly\\.net\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "graph.goodrx.com",
+                    "resolved": "o2.shared.global.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodrx.com",
+                "www.goodrx.com"
+            ]
+        },
+        {
+            "rule": "o2\\.shared\\.global\\.fastly\\.net\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "graph.goodrx.com",
+                    "resolved": "o2.shared.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "d849d7bae4d1e0e90a4cbd53496df0e4f6942b7bd09126d3e2e42ff6229adece"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodrx.com",
+                "www.goodrx.com"
+            ]
+        },
+        {
+            "rule": "o2\\.shared\\.global\\.fastly\\.net\\/v1\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "segment-api.goodrx.com",
+                    "resolved": "o2.shared.global.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodrx.com",
+                "www.goodrx.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.6428571428571429
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.35714285714285715
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 4
+    },
+    "nameservers": []
+}

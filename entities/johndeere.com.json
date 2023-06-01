@@ -1,0 +1,87 @@
+{
+    "domain": "johndeere.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "signin",
+        "sso"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "johndeere\\.com\\/api\\/v1\\/sessions\\/me",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "signin",
+                "sso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "myjohndeere.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeere\\.com\\/api\\/v1\\/sessions\\/me",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "signin",
+                "sso"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "fdc83aede3c6d634585f97cc120e8956093c7f5d7c53d3f6115298b9ec34a451",
+                "bf01d41e55957a9108a4e8a8de93939576359b90063c49ece4c4efe1ffa68f12"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "myjohndeere.deere.com",
+                "shop.deere.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns3.deere.com",
+        "ns1.deere.com",
+        "ns2.deere.com",
+        "ns4.deere.com",
+        "ns2a.deere.com"
+    ]
+}

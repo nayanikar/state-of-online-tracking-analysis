@@ -1,0 +1,98 @@
+{
+    "domain": "b2wdigital.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [
+        "sni-wildsan"
+    ],
+    "cnames": [
+        {
+            "original": "catalogo-bff-v2-americanas.b2w.io",
+            "resolved": "sni-wildsan.b2wdigital.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "b2wdigital\\.com\\.edgekey\\.net\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sni-wildsan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "catalogo-bff-v2-americanas.b2w.io",
+                    "resolved": "sni-wildsan.b2wdigital.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanas.com.br",
+                "www.americanas.com.br"
+            ]
+        },
+        {
+            "rule": "b2wdigital\\.com\\.edgekey\\.net\\/graphql",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sni-wildsan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "catalogo-bff-v2-americanas.b2w.io",
+                    "resolved": "sni-wildsan.b2wdigital.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanas.com.br",
+                "www.americanas.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9574468085106383
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.02127659574468085
+        },
+        {
+            "domain": "b2w.io",
+            "prevalence": 0.02127659574468085
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

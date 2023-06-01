@@ -1,0 +1,78 @@
+{
+    "domain": "adraker-dev.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adraker-dev\\.azureedge\\.net\\/web\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1c6c45a3ae7d15f184a2605921b65b9c1528897e8471a059fe2f8d0ea55ec84c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__ar_v_id": {
+                    "ttl": 31536010,
+                    "length": 22,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "__ar_d_id": {
+                    "ttl": 31536010,
+                    "length": 22,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "__ar_si": {
+                    "ttl": 3610,
+                    "length": 122,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nocowanie.pl",
+                "www.nocowanie.pl"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

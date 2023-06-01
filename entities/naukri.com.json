@@ -1,0 +1,104 @@
+{
+    "domain": "naukri.com",
+    "owner": {
+        "name": "Info Edge (India) Ltd",
+        "displayName": "Info Edge (India)"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "static",
+        "logs"
+    ],
+    "cnames": [
+        {
+            "original": "logs.ambitionbox.com",
+            "resolved": "logs.naukri.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "naukri\\.com\\/s\\/0\\/0\\/j\\/nLoggerJB_v3\\.0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.appName": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c894b6c428382dd0e754d0abc422f12b741180c2a73250922b2687a6a7068ee0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ambitionbox.com",
+                "www.ambitionbox.com"
+            ]
+        },
+        {
+            "rule": "naukri\\.com\\/collectorapi\\/v1\\/uba",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "logs.ambitionbox.com",
+                    "resolved": "logs.naukri.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ambitionbox.com",
+                "www.ambitionbox.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "naukimg.com",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns2.infoedgeindia.net",
+        "ns1.infoedgeindia.net",
+        "ns4.infoedgeindia.net",
+        "ns3.infoedgeindia.net"
+    ]
+}

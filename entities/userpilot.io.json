@@ -1,0 +1,109 @@
+{
+    "domain": "userpilot.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "js",
+        "find"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "userpilot\\.io\\/sdk\\/latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7b48e19bcbdf4508ec1f7cd4b9b021e240abd222e58919fbc5f19ce2f10e25b0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airdna.co",
+                "www.airdna.co"
+            ]
+        },
+        {
+            "rule": "userpilot\\.io\\/sdk\\/version\\/0\\.961\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1151d6afdf8275ad5c7605a4fa1786b427814e560b1039b6079900926b05b7ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airdna.co",
+                "www.airdna.co"
+            ]
+        },
+        {
+            "rule": "userpilot\\.io\\/v1\\/lookups\\/NX-0ff9cc81",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "find"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "78d4cf76a9c539325f0aba255f0563cc39c0dc37e6f35ac4105e45f8f3514705"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airdna.co",
+                "www.airdna.co"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "segment.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "terin.ns.cloudflare.com",
+        "savanna.ns.cloudflare.com"
+    ]
+}

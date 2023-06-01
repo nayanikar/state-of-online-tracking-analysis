@@ -1,0 +1,132 @@
+{
+    "domain": "kleekr.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "advapi",
+        "sdk"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "kleekr\\.com\\/v3\\/delivery\\/start",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "advapi"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "785fc13e04addb91d0fccf0bcc2ed261bfd9fda91d80aa7ab55792b20c32043f",
+                "bf2eb270c12c3db51ecff58f6b03e88a9e99e8f83026ef69ffa0d256d135a603",
+                "37bd508d0d716f35a7f1ec618db111f10d6671c7a6784b565dce4cf6c644d176"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "faitsdivers.org",
+                "m.scan-manga.com",
+                "www.faitsdivers.org",
+                "www.scan-manga.com"
+            ]
+        },
+        {
+            "rule": "kleekr\\.com\\/mediation\\/ptmpb\\.js",
+            "cookies": 0.000302,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "Navigator.prototype.appName": 3,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie getter": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "Document.cookie setter": 3,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e0ffcf2a23f32438df2dc2987647213976506ab4daf95d5c296b8dfa3963f837"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592028,
+                    "length": 16,
+                    "prevalence": 0.0002010252286661976,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "faitsdivers.org",
+                "m.scan-manga.com",
+                "www.faitsdivers.org",
+                "www.scan-manga.com"
+            ]
+        },
+        {
+            "rule": "kleekr\\.com\\/v3\\/tracking\\/provider",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "advapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "fcf31f6f5e7645da7e671537d68c2adf290b396fdc43bbf04228c4e4c32dd918"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "faitsdivers.org",
+                "m.faitsdivers.org",
+                "www.scan-manga.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "playtem.com",
+            "prevalence": 0.6111111111111112
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3888888888888889
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Image": 3
+    },
+    "nameservers": [
+        "dns19.ovh.net",
+        "ns19.ovh.net"
+    ]
+}

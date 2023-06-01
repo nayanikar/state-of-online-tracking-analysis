@@ -1,0 +1,88 @@
+{
+    "domain": "accesso.com",
+    "owner": {
+        "name": "accesso, LLC",
+        "displayName": "accesso"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "me-twalton.secure-cdn20",
+        "dnc-ksc.secure"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "accesso\\.com\\/embed\\/accesso\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "me-twalton.secure-cdn20",
+                "dnc-ksc.secure"
+            ],
+            "apis": {
+                "Navigator.prototype.appVersion": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "d915e921305fc95cb2a752de58df23f9973e0ffd9bfe20ee1184c5bae71bc177"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gardaland.it",
+                "www.gardaland.it",
+                "www.kennedyspacecenter.com",
+                "www.legolanddiscoverycentre.com"
+            ]
+        },
+        {
+            "rule": "accesso\\.com\\/embed\\/shim\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "me-twalton.secure-cdn20"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gardaland.it",
+                "www.gardaland.it",
+                "www.legolanddiscoverycentre.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 3
+    },
+    "nameservers": [
+        "ns-857.awsdns-43.net",
+        "ns-471.awsdns-58.com",
+        "ns-1669.awsdns-16.co.uk",
+        "ns-1404.awsdns-47.org"
+    ]
+}

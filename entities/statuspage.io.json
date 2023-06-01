@@ -1,0 +1,94 @@
+{
+    "domain": "statuspage.io",
+    "owner": {
+        "name": "Atlassian Corporation plc",
+        "displayName": "Atlassian"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "wsblf4dlhddw"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "statuspage\\.io\\/embed\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wsblf4dlhddw"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dd1952d60ab46d3cb3d4bb5ef0ef80ebd0ed6048a1912bc7ba9e84d18aeb37eb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justbikes.com.au",
+                "www.justcars.com.au"
+            ]
+        },
+        {
+            "rule": "statuspage\\.io\\/embed\\/frame",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wsblf4dlhddw"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3e777877920c314602c255e551eae479ea4fbcd862e64e2bab818da3627ca60e"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justbikes.com.au",
+                "www.justcars.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-1407.awsdns-47.org",
+        "ns-1560.awsdns-03.co.uk",
+        "ns-951.awsdns-54.net",
+        "ns-209.awsdns-26.com"
+    ]
+}

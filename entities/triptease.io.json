@@ -1,0 +1,115 @@
+{
+    "domain": "triptease.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "onboard"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "triptease\\.io\\/bootstrap\\/v6458\\.73969\\/bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "onboard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9d4fd2c6dbd03f0e1ed2ad521846df4b8a35aa0f3d3d911ffccb7fce1b50953b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hamiltonisland.com.au",
+                "www.oakshotels.com"
+            ]
+        },
+        {
+            "rule": "triptease\\.io\\/kernel\\/v6458\\.73969\\/kernel-host\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "onboard"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.name": 1,
+                "BroadcastChannel.prototype.constructor": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "da2af265bbc28eed2cb9c70d5697e0ad6d8301af33fa322be954c70a3a4d26bc"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hamiltonisland.com.au",
+                "www.oakshotels.com"
+            ]
+        },
+        {
+            "rule": "triptease\\.io\\/kernel\\/v6458\\.73969\\/kernel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "onboard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a67c8105e586dcc4b672cd6b1faed42bc5931d9a2136d08f8537aaaf3f4f93a5"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hamiltonisland.com.au",
+                "www.oakshotels.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "d2wy8f7a9ursnm.cloudfront.net",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a4.googledomains.com",
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a3.googledomains.com"
+    ]
+}

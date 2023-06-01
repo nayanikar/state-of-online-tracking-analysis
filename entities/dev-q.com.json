@@ -1,0 +1,86 @@
+{
+    "domain": "dev-q.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "static",
+        "fbgw"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dev-q\\.com\\/escoffier\\/lead-processing\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "56f488d007887c87ec76e7f2d9730a7cc1f7f70ee157f559d41a860f7893be8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "escoffier.edu",
+                "www.escoffier.edu"
+            ]
+        },
+        {
+            "rule": "dev-q\\.com\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fbgw"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "escoffier.edu",
+                "www.escoffier.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-852.awsdns-42.net",
+        "ns-257.awsdns-32.com",
+        "ns-1597.awsdns-07.co.uk",
+        "ns-1043.awsdns-02.org"
+    ]
+}

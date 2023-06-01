@@ -1,0 +1,186 @@
+{
+    "domain": "summari.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "previews",
+        "impression"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "summari\\.com\\/summari-previews\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "previews"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "8b86cc381a2556509d0e0aec321500da9e2079ffde8dae3c8cd072b67ee118f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "addictiongroup.org",
+                "www.addictiongroup.org",
+                "www.goodgoodgood.co",
+                "www.wral.com"
+            ]
+        },
+        {
+            "rule": "summari\\.com\\/initPreviews\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "previews"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.maxTouchPoints": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "98c7132c911cada84189af9cabce0442e5dc12d438b73475921d1cdb621f6d8b",
+                "7b30b582ecbb15215e766cf67e2c3a509509bde377c57bc4a7b271157232c330"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "addictiongroup.org",
+                "www.addictiongroup.org",
+                "www.goodgoodgood.co",
+                "www.wral.com"
+            ]
+        },
+        {
+            "rule": "summari\\.com\\/iserver\\/features",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "impression"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "859988ccfd04cfcd07e116857c0c60f664d088cb009134e2ff7b7d24f47ceed4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodgoodgood.co",
+                "www.goodgoodgood.co"
+            ]
+        },
+        {
+            "rule": "summari\\.com\\/iserver\\/features",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "impression"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodgoodgood.co",
+                "www.goodgoodgood.co"
+            ]
+        },
+        {
+            "rule": "summari\\.com\\/iserver\\/signal",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "impression"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dc51b8c96c2d745df3bd5590d990230a482fd247123599548e0632fdbf97fc22"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodgoodgood.co",
+                "www.goodgoodgood.co"
+            ]
+        },
+        {
+            "rule": "summari\\.com\\/iserver\\/signal",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "impression"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodgoodgood.co",
+                "www.goodgoodgood.co"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "taboola.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "mediavine.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns-1582.awsdns-05.co.uk",
+        "ns-713.awsdns-25.net",
+        "ns-1526.awsdns-62.org",
+        "ns-406.awsdns-50.com"
+    ]
+}

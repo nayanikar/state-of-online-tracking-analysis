@@ -1,0 +1,822 @@
+{
+    "domain": "cruisecritic.com",
+    "owner": {
+        "name": "TripAdvisor LLC",
+        "displayName": "TripAdvisor"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cruisecritic\\.com\\/assets-1531942207\\/js\\/_vendors\\/tpixel\\.min\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2b97875c6659271713d450972411162b79efc466e805ad95c9714e11073f3ed0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tp_trfsrc": {
+                    "ttl": 1800,
+                    "length": 6,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "tp_uuid": {
+                    "ttl": 31536000,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "tp_sid": {
+                    "ttl": 1800,
+                    "length": 13,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "tp_ts": {
+                    "ttl": 604800,
+                    "length": 7,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "tp_tier": {
+                    "ttl": 604800,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "tp_sess_ts": {
+                    "ttl": 1800,
+                    "length": 7,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "tp_sess_tier": {
+                    "ttl": 1800,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "boards.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/scripts\\/tpixel\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fdac71109000ee5e21163bc6b60221d4077f59d8224d3e7cb16fa994a184440b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "tp_trfsrc": 0.000006807073911208528,
+                "tp_uuid": 0.000006807073911208528,
+                "tp_sid": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "boards.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/media\\/7777133e901cd5ed-s\\.p\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d9c6f2786583d24e114e545b712f110aae07a24a57965f8d31a9c7f7da3d925b"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/media\\/9a881e2ac07d406b-s\\.p\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c7e4c88b3fc3203823fa65955b4680676881fec87e67a01693c7c0f22259d59d"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/media\\/916d3686010a8de2-s\\.p\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a3f23333f71d0d99e810d428517a119f05cefbdc56272db5a3945a4e1e6d9069"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/media\\/d869208648ca5469-s\\.p\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ae9b4d4306c4c08255f63dd3a078f57fcc99c838b89ff2b1ea3e86805d6199d7"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/media\\/eb15695615c924c8-s\\.p\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "65ede01a0ba7c32497e7e5a2c14559fd87beb485c40d011f39c8586e15a2c946"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/media\\/e76d11d14e7e04a4-s\\.p\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3f53c2c90b71d657a17b9f8071f74abdde7032830a6db5549058558305ed6ea5"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/css\\/b7dc30f152552cfc\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "192cf3d6380b45e4ac312e5d87300edc3dfd0b6f7d2d030e7713103870e48b3d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/static\\/referrer\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6cf0c09138b24a65e493c7be6dac49a82a745434d9f19f95daad639295c71d05"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/static\\/appsFlyer\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ac3a8a4652d8765a7f5b48cdbf6f882c27736c3bc7b62339e78d58a932948a4b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/chunks\\/webpack-b41215ba2d0c1949\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9161800b809f4d00c1056226ce85c28dd7c2819288b226706edaf9ce400475a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/chunks\\/framework-ce84985cd166733a\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "21e67844bd44af52119de8c22c866e82cbc0c8e38a3ed317efb1c418422b6d4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/chunks\\/main-83aefedf852c7c10\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5213eede4190062f887bf1672e072da0836f4b16e3f291c32132d203868691c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/chunks\\/pages\\/_app-b1bda6ab8d4745b5\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.onLine": 2,
+                "window.devicePixelRatio": 1,
+                "Navigator.prototype.userAgent": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "538ca5a4c95422b283eacfbd89649ff9800e31125b4288b3658bbe3fcc98b069"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_dd_s": {
+                    "ttl": 928,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "pinpt_endpt_ct": {
+                    "ttl": 31536017,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/chunks\\/3919-94b862b73a4405c4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a168ea85cf6a0da09797174b08d76b5ad5b78b41f02cbfa96b5971455dbf9e53"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/chunks\\/2962-44e6b6270c2084cd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "01d31f2d73769420f0da467f0cad3c8118a623d45043acacbd664acb892f8fc7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/chunks\\/5936-9b1c2c12693d1fe3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "adcf9152a54c1d97fe4e55b67850d53ef1da72fa39d7123701731be0501576a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/chunks\\/4737-393f20524e988670\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ea0f2294d4177d23136130c89ef7bbed9a3d0bde36f5fb2eae79b9fc52e9cb7d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/qQpAcmJ56Le8RjBYfICVQ\\/_buildManifest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1d84a49e6a8d6d7dc6a48c602e09ea66778241e0436b4b1e7694a5b8a3e25e0c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/qQpAcmJ56Le8RjBYfICVQ\\/_ssgManifest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cdd6c83d31bee2922fb088f2c76aae65ec4837219c2ba1c3a53c30410986124a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/api\\/ab-tests\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4563d5aec63ade5d6e94d631fb0cd08293751d1537c03664eb2b380eedb2f080"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/chunks\\/5815\\.f7d2047b05f2c9ce\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c48d76046ba03e098fdc75492ba9da77b3848494ed370307df21c9083ad5bb1b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/api\\/geoip\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c0cb7020b2858f7a70ac8b407235e90295bb124fa308e12fe83d31211f4d5477"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/api\\/auth\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/va\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9f4e033ff511125d65cc8334438acbe897694896c72cc5790ae1300863b63e99"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/graphql\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "538acbb75ee182c5b56c2247456ca58fbc32e6880a81589225327843f1e8939a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/chunks\\/6467\\.a51a6144fecbbaed\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5a0576b2fd7058a2d05eb16ea50db8aa88af90076c68d74cd9eee16d57eb1b03"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/api\\/auth\\/session\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/va\\/view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        },
+        {
+            "rule": "cruisecritic\\.com\\/_next\\/static\\/chunks\\/8177\\.448e7fc411c239b5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "645d68bd60145bff3ee0d7a6b0b3c7ee447b576a27a17ee4139acf0d783f1bde"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisecritic.co.uk",
+                "www.cruisecritic.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 34,
+        "Image": 2,
+        "Font": 12,
+        "Stylesheet": 2,
+        "Fetch": 12
+    },
+    "nameservers": [
+        "ns3.cruisecritic.net",
+        "ns4.cruisecritic.net",
+        "ns2.cruisecritic.net",
+        "ns1.cruisecritic.net"
+    ]
+}

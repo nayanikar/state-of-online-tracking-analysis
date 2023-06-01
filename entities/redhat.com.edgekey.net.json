@@ -1,0 +1,136 @@
+{
+    "domain": "redhat.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "static",
+        "id"
+    ],
+    "cnames": [
+        {
+            "original": "id.redhat.com",
+            "resolved": "id.redhat.com.edgekey.net"
+        },
+        {
+            "original": "static.redhat.com",
+            "resolved": "static.redhat.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "redhat\\.com\\.edgekey\\.net\\/libs\\/redhat\\/marketing\\/latest\\/trustarc\\/trustarc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "static.redhat.com",
+                    "resolved": "static.redhat.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "aa323bf770a03b4a35b77d9d583836f4723c11d1e82c5f285505230a5b753d40"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redhat.com",
+                "opensource.com",
+                "www.redhat.com"
+            ]
+        },
+        {
+            "rule": "redhat\\.com\\.edgekey\\.net\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "id.redhat.com",
+                    "resolved": "id.redhat.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "997201c0fdd126e8ab315a8d0a0246836599f91d3a01c166a75a9d6aa54749a4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redhat.com",
+                "www.redhat.com"
+            ]
+        },
+        {
+            "rule": "redhat\\.com\\.edgekey\\.net\\/libs\\/@redhat\\/marketing\\/latest\\/rh\\.mktg\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "static.redhat.com",
+                    "resolved": "static.redhat.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "5da9939a38cf838fc088d233bf3db7465fa506b0f9e13cfe36b71f041ff2a029"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rh_omni_tc": {
+                    "ttl": 2592009,
+                    "length": 18,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redhat.com",
+                "docs.ansible.com",
+                "opensource.com",
+                "www.redhat.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

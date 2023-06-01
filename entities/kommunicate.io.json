@@ -1,0 +1,362 @@
+{
+    "domain": "kommunicate.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "widget",
+        "cdn",
+        "api",
+        "chat"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "kommunicate\\.io\\/v2\\/kommunicate\\.app",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bc657eaa4f44dae8cbc929b056a30300560f70c404de312a5eeedd852099f026"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javhd.com",
+                "www.bccancer.bc.ca"
+            ]
+        },
+        {
+            "rule": "kommunicate\\.io\\/kommunicate\\/jquery-3\\.5\\.1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 1,
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javhd.com",
+                "www.bccancer.bc.ca"
+            ]
+        },
+        {
+            "rule": "kommunicate\\.io\\/resources\\/kommunicate\\.5891ff0a\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c96fbc7f2a9c16644de67dffeae096a38ee0785b61556fdadf112b976b4d2c30"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_km_id": {
+                    "ttl": 2592004,
+                    "length": 32,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_km_user_name": {
+                    "ttl": 2592004,
+                    "length": 15,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "_km_lead_collection": {
+                    "ttl": 2592004,
+                    "length": 5,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "www._km_id": {
+                    "ttl": 2592004,
+                    "length": 32,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "www._km_user_name": {
+                    "ttl": 2592004,
+                    "length": 16,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                },
+                "www._km_lead_collection": {
+                    "ttl": 2592004,
+                    "length": 5,
+                    "prevalence": 0.0001004217714400482,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javhd.com",
+                "www.bccancer.bc.ca"
+            ]
+        },
+        {
+            "rule": "kommunicate\\.io\\/applozic\\/applozic\\.chat-6\\.2\\.2\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Navigator.prototype.onLine": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cda4fc80e5aba22d06b3fab676941654e2e6d73afdd8720b70ff1ae8e7b74c6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javhd.com",
+                "www.bccancer.bc.ca"
+            ]
+        },
+        {
+            "rule": "kommunicate\\.io\\/resources\\/kommunicate\\.5891ff0a\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "106ab85f5d9dfd7659de2f00f7eea4092c8267c51ca887f7eead0932e485f756"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javhd.com",
+                "www.bccancer.bc.ca"
+            ]
+        },
+        {
+            "rule": "kommunicate\\.io\\/resources\\/mck-sidebox\\.5891ff0a\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fc5cd0eec433e94d34f57da9e139aec121b2a24b9146905324330bfb0fc41102"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javhd.com",
+                "www.bccancer.bc.ca"
+            ]
+        },
+        {
+            "rule": "kommunicate\\.io\\/users\\/v2\\/chat\\/plugin\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c4df97586b23e9d930a662a315ac6cea0b33b152cfb48489cb757beb0941aa87"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javhd.com",
+                "www.bccancer.bc.ca"
+            ]
+        },
+        {
+            "rule": "kommunicate\\.io\\/v2\\/tab\\/initialize\\.page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javhd.com",
+                "www.bccancer.bc.ca"
+            ]
+        },
+        {
+            "rule": "kommunicate\\.io\\/v2\\/tab\\/initialize\\.page",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "34af2cbf608b4da8010b1547a4fcd1092bc5442593a618864de05a5fb6fbacfa"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javhd.com",
+                "www.bccancer.bc.ca"
+            ]
+        },
+        {
+            "rule": "kommunicate\\.io\\/kommunicate\\/chat-popup-notification-tone\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d595ccf0eed293d71990bf4173b9e48f8cbaf68c36923a89b046fcb134f65038"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javhd.com",
+                "www.bccancer.bc.ca"
+            ]
+        },
+        {
+            "rule": "kommunicate\\.io\\/rest\\/ws\\/message\\/list",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fed6bec71162e75f1a47e78024253a7ca69f3d4fd8ce23036a338770e352fda5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javhd.com",
+                "www.bccancer.bc.ca"
+            ]
+        },
+        {
+            "rule": "kommunicate\\.io\\/rest\\/ws\\/message\\/list",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javhd.com",
+                "www.bccancer.bc.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "cdnjhd.com",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Stylesheet": 2,
+        "XHR": 8,
+        "Preflight": 4,
+        "Media": 2
+    },
+    "nameservers": [
+        "ns-406.awsdns-50.com",
+        "ns-770.awsdns-32.net",
+        "ns-1496.awsdns-59.org",
+        "ns-1609.awsdns-09.co.uk"
+    ]
+}

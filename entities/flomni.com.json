@@ -1,0 +1,163 @@
+{
+    "domain": "flomni.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "i.v2",
+        "link.v2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "flomni\\.com\\/chat\\.corner\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "i.v2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "315fc17b7c52fc95fc02865f14a2c6677d48ee99a89be72986696d83992031a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "flomni_5d713233e8bc9e000b3ebfd2": {
+                    "ttl": 31536008,
+                    "length": 59,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdek.ru",
+                "www.cdek.ru"
+            ]
+        },
+        {
+            "rule": "flomni\\.com\\/widget\\/v3\\/settings\\/5d713233e8bc9e000b3ebfd2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "link.v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8273972d3727f226c6eaefd7ec057f9d376acf3c860a4160f7a4e01ae4fd7ea3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdek.ru",
+                "www.cdek.ru"
+            ]
+        },
+        {
+            "rule": "flomni\\.com\\/threads\\/5d713233e8bc9e000b3ebfd2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "link.v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdek.ru",
+                "www.cdek.ru"
+            ]
+        },
+        {
+            "rule": "flomni\\.com\\/common-modules-a1215b68e78523084110\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "i.v2"
+            ],
+            "apis": {
+                "Navigator.prototype.languages": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a61814281220117a1e7b239262c486d2b571dbf52efaa5f22ebf85c507385086"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdek.ru",
+                "www.cdek.ru"
+            ]
+        },
+        {
+            "rule": "flomni\\.com\\/common-modules\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i.v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5c3a87be466461b77d7f34d9450b6d1977d5a30daeaf75ce7902558e3cb26670"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdek.ru",
+                "www.cdek.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "irma.ns.cloudflare.com",
+        "dean.ns.cloudflare.com"
+    ]
+}

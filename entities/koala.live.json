@@ -1,0 +1,71 @@
+{
+    "domain": "koala.live",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "koala\\.live\\/v1\\/airplane\\/umd\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ea1d4f0e17bccd634c59745096b06615a07eb847e7a7c1cb7caf15c5e364a450"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "containiq.com",
+                "www.containiq.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "ethyca.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "aragorn.ns.cloudflare.com",
+        "nadia.ns.cloudflare.com"
+    ]
+}

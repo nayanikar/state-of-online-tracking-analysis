@@ -1,0 +1,130 @@
+{
+    "domain": "infusionsoft.com",
+    "owner": {
+        "name": "Infusion Software",
+        "displayName": "Infusion Software"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "py248",
+        "qn534",
+        "homeopathyworks",
+        "coolthings",
+        "ng361"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "infusionsoft\\.com\\/app\\/timezone\\/timezoneInputJs",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "py248",
+                "qn534"
+            ],
+            "apis": {
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5795665f0342c873a92c69618163ef6a657f8819b1ea3938f74945d7b8b52522"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expertphotography.com",
+                "www.doorsplus.com.au"
+            ]
+        },
+        {
+            "rule": "infusionsoft\\.com\\/resources\\/external\\/recaptcha\\/production\\/recaptcha\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "py248",
+                "qn534"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5ff05a727ce5424d579c112ddc5f63a025fd73fd6c696783958696438dc3788d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expertphotography.com",
+                "www.doorsplus.com.au"
+            ]
+        },
+        {
+            "rule": "infusionsoft\\.com\\/app\\/webTracking\\/getTrackingCode",
+            "cookies": 0.000502,
+            "fingerprinting": 1,
+            "subdomains": [
+                "py248",
+                "homeopathyworks",
+                "coolthings",
+                "qn534",
+                "ng361"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Document.cookie getter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.javaEnabled": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "182ebf1ffcf9cd36296159910ee79a1a65d9494be48a64b487f5f2e196f15205",
+                "d443e07059393352eec2c8ae2a5ae71df4c863423e128fdbf18603981122dfda",
+                "fa0e230e35670f80977f8ebe88da7af6f6f49f9b0d6a36cb38bed467b4f7b217",
+                "f1990032dda4a531dacaadd243dfc6f92315632d3bd4569764d3193fd11886bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expertphotography.com",
+                "joettecalabrese.com",
+                "www.coolthings.com.au",
+                "www.doorsplus.com.au",
+                "www.stihl.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "dina.ns.cloudflare.com",
+        "alan.ns.cloudflare.com"
+    ]
+}

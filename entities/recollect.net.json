@@ -1,0 +1,334 @@
+{
+    "domain": "recollect.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "assets.ca",
+        "assets.us",
+        "surreyep.api.global",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "recollect\\.net\\/api\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets.ca",
+                "assets.us",
+                "surreyep.api.global"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Document.cookie getter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "24a3ec13faea5c0d2c3205e8711161791b0d45a6865f446cb94a85b4b3bdca1a",
+                "15d38aa2fa1b85be55b3c6794d17015708b27634a3b45c4b531d5d268d055601"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ottawa.ca",
+                "www.memphistn.gov",
+                "www.recology.com",
+                "www.surreycc.gov.uk"
+            ]
+        },
+        {
+            "rule": "recollect\\.net\\/0\\.11\\.1681757690\\/javascript\\/compiled\\/recollect-widget-loader-prod-us\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.ca",
+                "surreyep.api.global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "15d38aa2fa1b85be55b3c6794d17015708b27634a3b45c4b531d5d268d055601"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ottawa.ca",
+                "www.surreycc.gov.uk"
+            ]
+        },
+        {
+            "rule": "recollect\\.net\\/0\\.11\\.1681765610\\/javascript\\/compiled\\/recollect-widget-prod-us\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Event.prototype.timeStamp": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "window.sessionStorage": 3,
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70e5fd24a067725f6e7d862d4f4eb0da952ab3cebd4dc5b90bbc402afc8dd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "recollect-locale": {
+                    "ttl": 31536006,
+                    "length": 4,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "rCclient": {
+                    "ttl": 31536031,
+                    "length": 36,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                },
+                "temp-client-id": {
+                    "ttl": 604831,
+                    "length": 36,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ottawa.ca",
+                "www.recology.com",
+                "www.surreycc.gov.uk"
+            ]
+        },
+        {
+            "rule": "recollect\\.net\\/api\\/widget\\.gif",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "10f9bfa42bb96c99729c9b2fee669803ad9c6fcd434d8d7d60a8dc8f5f7cc331"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ottawa.ca",
+                "www.memphistn.gov",
+                "www.recology.com",
+                "www.surreycc.gov.uk"
+            ]
+        },
+        {
+            "rule": "recollect\\.net\\/w\\/start",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "console.memory": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "1e06db80ee7b5f638ff87b0ad65bcf3eb5bd9cb39ba4d3431cd309933df116c6",
+                "f254a0240367b8613ead2c49dc0ed6f77ee6ef04c3db1abb457d67b09554dec0",
+                "689b5cba6051531b095aca4569743dd04a32d3dee9ab80027357e505fda4656f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ottawa.ca",
+                "www.memphistn.gov",
+                "www.recology.com",
+                "www.surreycc.gov.uk"
+            ]
+        },
+        {
+            "rule": "recollect\\.net\\/0\\.11\\.1681765610\\/javascript\\/compiled\\/recollect-widget-loader-prod-us\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "15d38aa2fa1b85be55b3c6794d17015708b27634a3b45c4b531d5d268d055601"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "memphistn.gov",
+                "www.recology.com"
+            ]
+        },
+        {
+            "rule": "recollect\\.net\\/0\\.11\\.1681850272\\/javascript\\/compiled\\/recollect-widget-prod-us\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Event.prototype.timeStamp": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Element.prototype.getClientRects": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4058ca405c373b8bb7e7e69b1e97f6d888b65c1ac08723ba321c0b20b1f0f11e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "recollect-locale": {
+                    "ttl": 31536003,
+                    "length": 5,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "rCclient": {
+                    "ttl": 31536003,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "temp-client-id": {
+                    "ttl": 604803,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "memphistn.gov",
+                "www.memphistn.gov"
+            ]
+        },
+        {
+            "rule": "recollect\\.net\\/0\\.11\\.1681850272\\/javascript\\/compiled\\/recollect-l10n-widget\\.en-US\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d23498fa97bd9b63a1c0f7a686acb0fe2dd68de814bf37d58b70f1792faa9c4f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "memphistn.gov",
+                "www.memphistn.gov"
+            ]
+        },
+        {
+            "rule": "recollect\\.net\\/0\\.11\\.1681765610\\/javascript\\/compiled\\/recollect-l10n-widget\\.en-US\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d23498fa97bd9b63a1c0f7a686acb0fe2dd68de814bf37d58b70f1792faa9c4f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "recology.com",
+                "www.recology.com"
+            ]
+        },
+        {
+            "rule": "recollect\\.net\\/0\\.11\\.1681765610\\/javascript\\/compiled\\/recollect-l10n-widget\\.en-GB\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "47beb1e28d7fc7a5fdb35505aca8488a8f41cd77cd8ad2e93c367763abfb309f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "surreycc.gov.uk",
+                "www.surreycc.gov.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 19,
+        "Image": 4,
+        "Document": 4
+    },
+    "nameservers": [
+        "ns-160.awsdns-20.com",
+        "ns-940.awsdns-53.net",
+        "ns-1622.awsdns-10.co.uk",
+        "ns-1296.awsdns-34.org"
+    ]
+}

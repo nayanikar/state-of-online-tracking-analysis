@@ -1,0 +1,87 @@
+{
+    "domain": "mh-n.nl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "ndcp-api",
+        "ndcp-api.development.c01"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mh-n\\.nl\\/api\\/v1\\/personalisations\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ndcp-api",
+                "ndcp-api.development.c01"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dvhn.nl",
+                "frieschdagblad.nl",
+                "lc.nl",
+                "test.dvhn.nl",
+                "www.sikkom.nl"
+            ]
+        },
+        {
+            "rule": "mh-n\\.nl\\/api\\/v1\\/personalisations\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ndcp-api",
+                "ndcp-api.development.c01"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "0e2b2d84799e184a82a198577dd3cd9095a0f67df159dddc53d906ad1f063308",
+                "49c7e3007a7530f1fa02a1606e1310541fc4b35220bbacae79d97893d1ebb680",
+                "634ffc1344eee1a53a583f61a66d449c5b293740d4fe390b62e7853657523025",
+                "b81788f0e870826d96adb455af2cff02c7ab3b4f6b1416f5fa3a0512525d10a6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dvhn.nl",
+                "frieschdagblad.nl",
+                "lc.nl",
+                "test.dvhn.nl",
+                "www.sikkom.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 5,
+        "XHR": 5
+    },
+    "nameservers": [
+        "earl.ns.cloudflare.com",
+        "millie.ns.cloudflare.com"
+    ]
+}

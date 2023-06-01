@@ -1,0 +1,226 @@
+{
+    "domain": "unibuddy.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "api",
+        "traffic-drivers",
+        "translations"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "unibuddy\\.co\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kuleuven.be",
+                "www.kuleuven.be"
+            ]
+        },
+        {
+            "rule": "unibuddy\\.co\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d0107d74b31e28c0d8e972c19d190057128cbac73a875b68390bbbe9150374ad"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kuleuven.be",
+                "www.kuleuven.be"
+            ]
+        },
+        {
+            "rule": "unibuddy\\.co\\/chat-bubble\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "traffic-drivers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e063b0bd3997ca129972a1e72cbd97842dabb2480588c3327c2201ab6b7d4aa1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scad.edu",
+                "www.scad.edu"
+            ]
+        },
+        {
+            "rule": "unibuddy\\.co\\/chat-bubble\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "traffic-drivers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "06f147fead5e5e09d64289a3b9d75abb5f3186d318b4026400b04dfe782dcadd"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scad.edu",
+                "www.scad.edu"
+            ]
+        },
+        {
+            "rule": "unibuddy\\.co\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "traffic-drivers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "65cbed36574b88e2c059854fd303294fd67d4c0979f36d18d8e3e2bd30c5410d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scad.edu",
+                "www.scad.edu"
+            ]
+        },
+        {
+            "rule": "unibuddy\\.co\\/chat-bubble\\/chat-bubble\\.b0d403876fae1b4d6fc3\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "traffic-drivers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "949910864cee243cc64abae5a6da6be154b9063ed2265d955e1644af7a335148"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scad.edu",
+                "www.scad.edu"
+            ]
+        },
+        {
+            "rule": "unibuddy\\.co\\/chat-bubble\\/main\\.4a043b334d77af5adcae\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "traffic-drivers"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "85aec90f53fa76acc0d85ba7cb9fce6e21199175620c4c57a9d46e45fd71abb1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scad.edu",
+                "www.scad.edu"
+            ]
+        },
+        {
+            "rule": "unibuddy\\.co\\/namespaces\\/chat-bubble\\/en-GB\\/common\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "translations"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "37d4d318bec4cdc341aac8acbfce3804cabff19b8c116bd3b52eb6624d2e0cea"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scad.edu",
+                "www.scad.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 4,
+        "Script": 6,
+        "Document": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "daisy.ns.cloudflare.com",
+        "noel.ns.cloudflare.com"
+    ]
+}

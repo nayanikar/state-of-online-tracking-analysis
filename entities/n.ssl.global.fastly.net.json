@@ -1,0 +1,246 @@
+{
+    "domain": "n.ssl.global.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "prod"
+    ],
+    "cnames": [
+        {
+            "original": "articles.bleacherreport.com",
+            "resolved": "prod.n.ssl.global.fastly.net"
+        },
+        {
+            "original": "layserbeam-cached.bleacherreport.com",
+            "resolved": "prod.n.ssl.global.fastly.net"
+        },
+        {
+            "original": "live-fallback.bleacherreport.com",
+            "resolved": "prod.n.ssl.global.fastly.net"
+        },
+        {
+            "original": "statmilk.bleacherreport.com",
+            "resolved": "prod.n.ssl.global.fastly.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "n\\.ssl\\.global\\.fastly\\.net\\/oam\\/v2\\/anonymous\\/register",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "live-fallback.bleacherreport.com",
+                    "resolved": "prod.n.ssl.global.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bleacherreport.com"
+            ]
+        },
+        {
+            "rule": "n\\.ssl\\.global\\.fastly\\.net\\/oam\\/v2\\/anonymous\\/register",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "live-fallback.bleacherreport.com",
+                    "resolved": "prod.n.ssl.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "ee03544c5cb174cc40a0bd2a5476e98f6f424dff1264a90dcf07568f4da06c25"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bleacherreport.com"
+            ]
+        },
+        {
+            "rule": "n\\.ssl\\.global\\.fastly\\.net\\/api\\/scores\\/schedules",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "statmilk.bleacherreport.com",
+                    "resolved": "prod.n.ssl.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "626635bfdb5c38998aa2ffa160acfc5b6f2fa4ef91fb2b0b2e2e18a0dbc8b7f5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bleacherreport.com"
+            ]
+        },
+        {
+            "rule": "n\\.ssl\\.global\\.fastly\\.net\\/oam\\/v2\\/anonymous\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "live-fallback.bleacherreport.com",
+                    "resolved": "prod.n.ssl.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "779ab163d96b2b9049afb3d8e963c44a070337f8193bcea285caa300ccc8c465"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bleacherreport.com"
+            ]
+        },
+        {
+            "rule": "n\\.ssl\\.global\\.fastly\\.net\\/oam\\/v2\\/anonymous\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "live-fallback.bleacherreport.com",
+                    "resolved": "prod.n.ssl.global.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bleacherreport.com"
+            ]
+        },
+        {
+            "rule": "n\\.ssl\\.global\\.fastly\\.net\\/trending_articles",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "layserbeam-cached.bleacherreport.com",
+                    "resolved": "prod.n.ssl.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "a3b92278f449e1ca59cc7da45a6c122eeb4948fb88556ffbb14f1732b5b319e0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bleacherreport.com"
+            ]
+        },
+        {
+            "rule": "n\\.ssl\\.global\\.fastly\\.net\\/articles\\/collection",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "articles.bleacherreport.com",
+                    "resolved": "prod.n.ssl.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "491f2dadd52f8b5f863569aead8d81a69e5e61826eb1c97b3fe97be2681d4da0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bleacherreport.com",
+                "www.bleacherreport.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "d1je72vo6cxqo9.cloudfront.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 10
+    },
+    "nameservers": []
+}

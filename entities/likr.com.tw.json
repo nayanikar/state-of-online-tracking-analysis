@@ -1,0 +1,80 @@
+{
+    "domain": "likr.com.tw",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "auto-load-balancer"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "likr\\.com\\.tw\\/pushEndPoint\\/uuid_gen\\/uuid_iframe\\.php",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "auto-load-balancer"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "294b0c2e3ec3edc89ec51dcef5ef2e099b3111a0634b2e7121cd249744d39b3a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "AviviD_uuid": {
+                    "ttl": 315360011,
+                    "length": 36,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                },
+                "AviviD_refresh_uuid_status": {
+                    "ttl": 315360011,
+                    "length": 1,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalantikus.com",
+                "thanhnien.vn",
+                "www.chinatimes.com",
+                "www.islampos.com",
+                "www.setn.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7647058823529411
+        },
+        {
+            "domain": "likr.tw",
+            "prevalence": 0.23529411764705882
+        }
+    ],
+    "types": {
+        "Document": 5
+    },
+    "nameservers": [
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+    ]
+}

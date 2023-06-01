@@ -1,0 +1,90 @@
+{
+    "domain": "fixitonline.no",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fixitonline\\.no\\/cookie-consent\\/dist\\/fixit-cookie-consent\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.webdriver": 4,
+                "Document.cookie getter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "ee924fb3a78434750ce1847aad74e86cf8126ceb14dd1843391ac5e076194d24"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centimeter.no",
+                "chilli-frisorer.no",
+                "fixit.no",
+                "straa.no"
+            ]
+        },
+        {
+            "rule": "fixitonline\\.no\\/cookie-consent\\/dist\\/fixit-cookie-consent\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "10d5e9c0cbe940fd88256312eb8747c72442720d69ed59f6f0f728771d7035fb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centimeter.no",
+                "chilli-frisorer.no",
+                "fixit.no",
+                "straa.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 4
+    },
+    "nameservers": [
+        "ns1.hyp.net",
+        "ns3.hyp.net",
+        "ns2.hyp.net"
+    ]
+}

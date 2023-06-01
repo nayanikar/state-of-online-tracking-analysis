@@ -1,0 +1,90 @@
+{
+    "domain": "connext-cdn.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "engage-connext.ajc.com",
+            "resolved": "connext-cdn.azureedge.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "connext-cdn\\.azureedge\\.net\\/prod\\/ajc\\/t8y9347t\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "engage-connext.ajc.com",
+                    "resolved": "connext-cdn.azureedge.net"
+                }
+            ],
+            "responseHashes": [
+                "b202c7b8139e3d56569a55aa8fd657f00cffbff49548b7f6bd4735048e5c2990"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ajc.com",
+                "www.ajc.com"
+            ]
+        },
+        {
+            "rule": "connext-cdn\\.azureedge\\.net\\/prod\\/ajc\\/t8y9347t\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "engage-connext.ajc.com",
+                    "resolved": "connext-cdn.azureedge.net"
+                }
+            ],
+            "responseHashes": [
+                "6653d2cca03c490c0032cd74205c6c37a494ea31ac1c46aec8e55c7017c1b3f9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ajc.com",
+                "www.ajc.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "includemodal.global.ssl.fastly.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

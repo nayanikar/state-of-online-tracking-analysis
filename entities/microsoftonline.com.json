@@ -1,0 +1,92 @@
+{
+    "domain": "microsoftonline.com",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "login"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "microsoftonline\\.com\\/baf8218e-b302-4465-a993-4a39c97251b2\\/oauth2\\/v2\\.0\\/authorize",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "01f2bdee18f5e61d2680d429c166f63a1add71025e1a5aa97884e2db99d625de"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liberty.edu",
+                "mylu.liberty.edu"
+            ]
+        },
+        {
+            "rule": "microsoftonline\\.com\\/common\\/instrumentation\\/dssostatus",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c847061bbf353ab7b5899b782f731acb38d450edfd88746b9ca797202e29d671"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liberty.edu",
+                "mylu.liberty.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "msftauth.net",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "nse21.o365filtering.com",
+        "ns1-34.azure-dns.com",
+        "ns4-34.azure-dns.info",
+        "nse13.o365filtering.com",
+        "ns2-34.azure-dns.net",
+        "nse12.o365filtering.com",
+        "nse24.o365filtering.com",
+        "ns3-34.azure-dns.org"
+    ]
+}

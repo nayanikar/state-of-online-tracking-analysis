@@ -1,0 +1,126 @@
+{
+    "domain": "digitransit.fi",
+    "owner": {
+        "name": "Liikennevirasto",
+        "displayName": "Liikennevirasto"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "digitransit\\.fi\\/routing\\/v2\\/routers\\/hsl\\/index\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hsl.fi",
+                "reittiopas.hsl.fi"
+            ]
+        },
+        {
+            "rule": "digitransit\\.fi\\/routing\\/v2\\/routers\\/hsl\\/index\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "11f5aba5649e34b2cee4dba639fde342319afd9d0e1355e422a2ecdb53efba18"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hsl.fi",
+                "reittiopas.hsl.fi"
+            ]
+        },
+        {
+            "rule": "digitransit\\.fi\\/routing\\/v1\\/routers\\/hsl\\/index\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hsl.fi",
+                "www.hsl.fi"
+            ]
+        },
+        {
+            "rule": "digitransit\\.fi\\/routing\\/v1\\/routers\\/hsl\\/index\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9293ae9e7167c035803ea101240ce0efee8d6a918b0498c5fe49a94440b49e36"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hsl.fi",
+                "www.hsl.fi"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "azureedge.net",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns1-01.azure-dns.com",
+        "ns2-01.azure-dns.net",
+        "ns3-01.azure-dns.org",
+        "ns4-01.azure-dns.info"
+    ]
+}

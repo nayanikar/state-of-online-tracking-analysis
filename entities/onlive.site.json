@@ -1,0 +1,185 @@
+{
+    "domain": "onlive.site",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "onlive\\.site\\/loader\\/v1\\/loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "715a7ddc1d3c9a04ff88dc9b50149dba2f8704b5b1781dc278924fc850b4c7cf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delonghi.com",
+                "www.kenwoodworld.com"
+            ]
+        },
+        {
+            "rule": "onlive\\.site\\/widget\\/12m\\/4\\.3\\.17\\/onlive-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e12eb92028f7e66035983321a9ad1e940e9ab9244043c4291f020647ce4f6bfa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delonghi.com",
+                "www.kenwoodworld.com"
+            ]
+        },
+        {
+            "rule": "onlive\\.site\\/widget\\/12m\\/4\\.3\\.17\\/onlive-widget\\.2d521ceb9fba964fe68c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4ec8c532376bd2b17aef531a098cefc7fbd26fd7a0f3e29e01f032a9cb449469"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delonghi.com",
+                "www.kenwoodworld.com"
+            ]
+        },
+        {
+            "rule": "onlive\\.site\\/widget\\/12m\\/4\\.3\\.17\\/onlive-widget\\.f2c3c03cfd4248bc748d\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6077396b86afda52a69877895687bebb0e78183ea91d75f241823ad39cb10c43"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delonghi.com",
+                "www.kenwoodworld.com"
+            ]
+        },
+        {
+            "rule": "onlive\\.site\\/api\\/v1\\/events\\/highlight\\/45bdd899-f4fd-4154-b839-07b626a05297",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delonghi.com",
+                "www.delonghi.com"
+            ]
+        },
+        {
+            "rule": "onlive\\.site\\/api\\/v1\\/events\\/highlight\\/38d09ba9-02d9-48db-878d-7012572ac03b",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kenwoodworld.com",
+                "www.kenwoodworld.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 4
+    },
+    "nameservers": [
+        "dexter.ns.cloudflare.com",
+        "beth.ns.cloudflare.com"
+    ]
+}

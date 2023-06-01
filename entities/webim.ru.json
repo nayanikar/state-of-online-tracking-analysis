@@ -1,0 +1,379 @@
+{
+    "domain": "webim.ru",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "alltimeru",
+        "stolotoru"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "webim\\.ru\\/webim\\/js\\/button\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "alltimeru",
+                "stolotoru"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Element.prototype.getClientRects": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "99f5ec0ec3b0245f98c470a31178689970cefe63c6553faf664cb412914440ae",
+                "20b56f640b1a2d76611d37a92844451782703ce9422524b66cf2ee9cbba29f0d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "WEBIM_ENABLED": {
+                    "ttl": -86392,
+                    "length": 4,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                },
+                "WEBIM_VISITED_PAGES_CNT": {
+                    "ttl": -86394,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "WEBIM_VISIT_START_TS": {
+                    "ttl": -86394,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "WEBIM_VISITOR_DEVICE": {
+                    "ttl": -86394,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltime.ru",
+                "www.alltime.ru",
+                "www.stoloto.ru"
+            ]
+        },
+        {
+            "rule": "webim\\.ru\\/api\\/visitor\\/v1\\/configs\\/depttrub",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alltimeru"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3f9e2c75bdd1b98855a3db621f71a2c43b99d99b2be2a9ee74d165ca58886ae6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltime.ru",
+                "www.alltime.ru"
+            ]
+        },
+        {
+            "rule": "webim\\.ru\\/v\\/ui-resources\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alltimeru",
+                "stolotoru"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "9c686a86c32a3e7568c45669c5db1289db03db7662fd65cf7016fe0d7241842e",
+                "8951d9f8712a9785a17cb3324a26b32189540e746a4fd20e8795a49ab38e450d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltime.ru",
+                "www.alltime.ru",
+                "www.stoloto.ru"
+            ]
+        },
+        {
+            "rule": "webim\\.ru\\/l\\/v\\/get-online-status",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alltimeru",
+                "stolotoru"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "a8be3abb90c184493e9d9c1f3053c3b8a59bd32aca980a43553f90ebea541429"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltime.ru",
+                "www.alltime.ru",
+                "www.stoloto.ru"
+            ]
+        },
+        {
+            "rule": "webim\\.ru\\/v\\/images\\/ui-icons_222222_256x240\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alltimeru"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f738e6e5e775c2e18ee241cb03941721233603d2f48e2857811509e667255ca1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltime.ru",
+                "www.alltime.ru"
+            ]
+        },
+        {
+            "rule": "webim\\.ru\\/v\\/images\\/logo_webim\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alltimeru"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "205e6b3777dc55ca4da8d725aaa964aac9d52d2e86f600c2f63c1dd5832878f1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltime.ru",
+                "www.alltime.ru"
+            ]
+        },
+        {
+            "rule": "webim\\.ru\\/v\\/fonts\\/Roboto-Bold\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alltimeru"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltime.ru",
+                "www.alltime.ru"
+            ]
+        },
+        {
+            "rule": "webim\\.ru\\/v\\/fonts\\/Roboto\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alltimeru"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltime.ru",
+                "www.alltime.ru"
+            ]
+        },
+        {
+            "rule": "webim\\.ru\\/webim\\/images\\/cursor\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alltimeru"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dc8f34d631650ffae20ca212ea8dd26888e48c61069e2bed16834935bb9f778c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltime.ru",
+                "www.alltime.ru"
+            ]
+        },
+        {
+            "rule": "webim\\.ru\\/\\/images\\/logo\\/alltimeru_site_logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alltimeru"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "24419474b1ab827fca1c45d77b2ecfd6d6840b2e1e7cdbe54cdf8c4834046901"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltime.ru",
+                "www.alltime.ru"
+            ]
+        },
+        {
+            "rule": "webim\\.ru\\/v\\/images\\/upload\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alltimeru"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c2a98b44fc17981658566a14aba4f69926c0a2fa726bef0bde1b038ed1617f53"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltime.ru",
+                "www.alltime.ru"
+            ]
+        },
+        {
+            "rule": "webim\\.ru\\/v\\/images\\/default-department-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alltimeru"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0d0ce0bd29112aa0839a350d0d351a542f7de910b67b4879b1c63f6f4f919ee7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltime.ru",
+                "www.alltime.ru"
+            ]
+        },
+        {
+            "rule": "webim\\.ru\\/webim\\/js\\/v\\/iframe-helper\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stolotoru"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "203ebd4229dcec2249e23487ad5ffefa6445d15c879c61350fb22729e9a18a4c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stoloto.ru",
+                "www.stoloto.ru"
+            ]
+        },
+        {
+            "rule": "webim\\.ru\\/iclient\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stolotoru"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stoloto.ru",
+                "www.stoloto.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Image": 12,
+        "Font": 4,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns1.olegb.ru",
+        "ns2.olegb.ru"
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "domain": "mindbox.ru",
+    "owner": {
+        "name": "Mindbox Ltd.",
+        "displayName": "Mindbox"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "api",
+        "personalization-web-stable"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mindbox\\.ru\\/scripts\\/v1\\/tracker\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "console.memory": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "649d61e5a77446dd58715471f9a05fb8a8bc41cfe7e6d14394d7fd3683da5c7d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mindboxDeviceUUID": {
+                    "ttl": 468204817,
+                    "length": 36,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 1
+                },
+                "directCrm-session": {
+                    "ttl": 63158017,
+                    "length": 67,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tinkoff.ru",
+                "www.litres.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/v1\\.1\\/customer\\/track-visit",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d90762f01683811729fd82557f243d0431303b50e9b36c2a8efbe9afc1547c15"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tinkoff.ru",
+                "www.litres.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/init\\/5263\\/domain_and_endpoint\\/journal\\.tinkoff\\.ru:journal\\.tinkoff\\.ru",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "personalization-web-stable"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "30dab304078d8980ce9b820a41fcb470013cb3e147fb2001cb4306c3c1cd3af1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tinkoff.ru",
+                "journal.tinkoff.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "popmechanic.ru",
+            "prevalence": 0.7058823529411765
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.17647058823529413
+        },
+        {
+            "domain": "tinkoffjournal.ru",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns2.yandexcloud.net",
+        "ns1.yandexcloud.net"
+    ]
+}

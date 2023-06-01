@@ -1,0 +1,179 @@
+{
+    "domain": "firstimpression.io",
+    "owner": {
+        "name": "AppendAd LTD",
+        "displayName": "AppendAd"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "ecdn",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "firstimpression\\.io\\/fi_client\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ecdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 7,
+                "window.localStorage": 7,
+                "Date.prototype.getTime": 6,
+                "window.innerHeight": 6,
+                "window.innerWidth": 6,
+                "Document.cookie getter": 6,
+                "Event.prototype.timeStamp": 6
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "faea5c49217c9ab20a528e3f5f3bd9c0ca81d2c1cfbd963becd0371372ad927b",
+                "57d5af57cf47b868dc11c47b6f0c752b9ea771ede29498eecff745980567647d",
+                "852cca3926812645a924100ad799d8cb3ca4d6fd2c467647d1bbad2f73485ba2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "akinator.com",
+                "www.allfreeknitting.com",
+                "www.archdaily.com",
+                "www.bleepingcomputer.com",
+                "www.crazydaysandnights.net",
+                "www.onthemarket.com",
+                "www.ynet.co.il"
+            ]
+        },
+        {
+            "rule": "firstimpression\\.io\\/delivery\\/spc_fi\\.php",
+            "cookies": 0.000602,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "4c61b71542b524617bf0a7a8ddbabe1c1e1e537a5a6645ee8031d2ed72c37e47",
+                "3c1a8964a8187f36193176246ee10f4f9f148b2dcec2d4960f24b0fd9a1925f0",
+                "671b4dae2519134d0b676d5fdf79f432cf2669391116e59a909f97df3cbc8157",
+                "84844e03c027e5c10cc0ca4b35317631a675f45b2d95e98cdc4ceb48bd9c5a79",
+                "2db40c4fc35574a9ffdfe62a1094c595420b561096ed3d4190901b51a7770706"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00030120481927710846
+            },
+            "exampleSites": [
+                "akinator.com",
+                "www.archdaily.com",
+                "www.bleepingcomputer.com",
+                "www.crazydaysandnights.net",
+                "www.onthemarket.com",
+                "www.ynet.co.il"
+            ]
+        },
+        {
+            "rule": "firstimpression\\.io\\/static\\/js\\/prebidamp\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ecdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "831072a54afe12cda53494738ad62b8a345b73bc6a12fc63777a71a830b12781"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crazydaysandnights.net",
+                "www.crazydaysandnights.net"
+            ]
+        },
+        {
+            "rule": "firstimpression\\.io\\/delivery\\/lg\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crazydaysandnights.net",
+                "www.crazydaysandnights.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "d1m2oaypgnddv2.cloudfront.net",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 6,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns-303.awsdns-37.com",
+        "ns-711.awsdns-24.net",
+        "ns-1564.awsdns-03.co.uk",
+        "ns-1137.awsdns-14.org"
+    ]
+}

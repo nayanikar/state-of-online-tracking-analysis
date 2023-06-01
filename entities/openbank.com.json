@@ -1,0 +1,78 @@
+{
+    "domain": "openbank.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "assets",
+        "wup"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "openbank\\.com\\/web\\/fonts\\/Outfit-Semibold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openbank.nl",
+                "www.openbank.nl"
+            ]
+        },
+        {
+            "rule": "openbank\\.com\\/client\\/v3\\.1\\/web\\/wup",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wup"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "74082aa299212e429c35689327851e4aea0a79e058c0a16f03fe0366d6771d3b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openbank.nl",
+                "www.openbank.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Font": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-632.awsdns-15.net",
+        "ns-473.awsdns-59.com",
+        "ns-1988.awsdns-56.co.uk",
+        "ns-1436.awsdns-51.org"
+    ]
+}

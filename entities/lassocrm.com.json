@@ -1,0 +1,120 @@
+{
+    "domain": "lassocrm.com",
+    "owner": {
+        "name": "Lasso Data Systems Inc",
+        "displayName": "Lasso Data Systems"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "lassocrm\\.com\\/analytics\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9b19b8ca26fef6e6e367a391f5c97eec2156dd68204ea173872ac8849b6374ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ldstut": {
+                    "ttl": 315360003,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ldstud": {
+                    "ttl": 315400530,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ldstuw": {
+                    "ttl": 315573330,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "_ldstum": {
+                    "ttl": 316610131,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oakcreekhomes.com",
+                "www.thevillages.com"
+            ]
+        },
+        {
+            "rule": "lassocrm\\.com\\/_ldst\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "63f31f9a5988f712d22db3ca02b89ba5603b65abffe69cb8d7900bbf21264b34"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ldstut": 0.000013614147822417056,
+                "_ldstud": 0.000013614147822417056,
+                "_ldstuw": 0.000013614147822417056,
+                "_ldstum": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "oakcreekhomes.com",
+                "www.thevillages.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-504.awsdns-63.com",
+        "ns-1027.awsdns-00.org",
+        "ns-1703.awsdns-20.co.uk",
+        "ns-867.awsdns-44.net"
+    ]
+}

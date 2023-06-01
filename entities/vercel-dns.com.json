@@ -1,0 +1,58 @@
+{
+    "domain": "vercel-dns.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "cname"
+    ],
+    "cnames": [
+        {
+            "original": "thebmj-frontend.bmj.com",
+            "resolved": "cname.vercel-dns.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vercel-dns\\.com\\/_next\\/image",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cname"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "thebmj-frontend.bmj.com",
+                    "resolved": "cname.vercel-dns.com"
+                }
+            ],
+            "responseHashes": [
+                "1be8a92a33abc9a14e3c64d27a7002da8a44cd66c0383b5472cfa47be2e69ef2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmj.com",
+                "www.bmj.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "types": {
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1.vercel-dns.com",
+        "ns2.vercel-dns.com"
+    ]
+}

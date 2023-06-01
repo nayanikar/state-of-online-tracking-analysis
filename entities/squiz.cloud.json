@@ -1,0 +1,73 @@
+{
+    "domain": "squiz.cloud",
+    "owner": {
+        "name": "Squiz Australia Pty. Ltd.",
+        "displayName": "Squiz Australia"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [
+        "hss-search",
+        "lgasa-search",
+        "dfed-search"
+    ],
+    "cnames": [
+        {
+            "original": "search.aci.health.nsw.gov.au",
+            "resolved": "hss-search.squiz.cloud"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "squiz\\.cloud\\/s\\/resources-global\\/js\\/funnelback\\.autocompletion-2\\.6\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hss-search",
+                "lgasa-search",
+                "dfed-search"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "search.aci.health.nsw.gov.au",
+                    "resolved": "hss-search.squiz.cloud"
+                }
+            ],
+            "responseHashes": [
+                "8415e8c7f73bd81bc6c58ddf25e7f352eaafd6ada546de4c2bc9b8cc7da00ddc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nsw.gov.au",
+                "www.cityofpae.sa.gov.au",
+                "www.education.sa.gov.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns1.squiz.net",
+        "ns2.squiz.net",
+        "ns3.squiz.net"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "domain": "spaseekerscheckoutapi.azurewebsites.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "checkout-api.spaseekers.com",
+            "resolved": "spaseekerscheckoutapi.azurewebsites.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "spaseekerscheckoutapi\\.azurewebsites\\.net\\/v1\\/cart\\/item-count",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "checkout-api.spaseekers.com",
+                    "resolved": "spaseekerscheckoutapi.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spaseekers.com",
+                "www.spaseekers.com"
+            ]
+        },
+        {
+            "rule": "spaseekerscheckoutapi\\.azurewebsites\\.net\\/v1\\/cart\\/item-count",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "checkout-api.spaseekers.com",
+                    "resolved": "spaseekerscheckoutapi.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "196192342b95896d0350f65ebd892ca784414cf2b545d34a669678b5721703d9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spaseekers.com",
+                "www.spaseekers.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,88 @@
+{
+    "domain": "1smc.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "smemails"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "1smc\\.com\\/js\\/frs-next\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "smemails"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3b95555ecf083a644c052294f6ae432237dae1a96bba1fd36d6fd50008e244a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smcusa.com",
+                "www.smcusa.com"
+            ]
+        },
+        {
+            "rule": "1smc\\.com\\/web-next\\.gif",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smemails"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a2492aab8fd8c10293bb9e0729ccbbc28601112a98157ae21d92fe382225b256"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smcusa.com",
+                "www.smcusa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1.cdnetdns.net",
+        "ns2.cdnetdns.net"
+    ]
+}

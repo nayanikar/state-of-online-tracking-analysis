@@ -1,0 +1,87 @@
+{
+    "domain": "networx.com",
+    "owner": {
+        "name": "Networx Systems LLC",
+        "displayName": "Networx Systems"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "networx\\.com\\/iframe\\.php",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bb8286f033e850747f36fbdae64678032b44511eb0480a1377f5ea8ec9e148ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airconditionerlab.com",
+                "www.remodelingexpense.com"
+            ]
+        },
+        {
+            "rule": "networx\\.com\\/form\\.php",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "0023f05e49cb046061d591559429d7f130959cf389de51ed39977ec1837ac81a",
+                "8e6b5a68d7779ebba15dbb11b86f2f407664e9721b7c4761d36938a0a2baeba2"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airconditionerlab.com",
+                "www.licensed.contractors",
+                "www.remodelingexpense.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000034,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 3
+    },
+    "nameservers": [
+        "ns1.dnsmadeeasy.com",
+        "ns2.dnsmadeeasy.com",
+        "ns0.dnsmadeeasy.com",
+        "ns4.dnsmadeeasy.com",
+        "ns3.dnsmadeeasy.com"
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "domain": "scale.sc",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "lb.hz",
+        "de-fsn1.lb"
+    ],
+    "cnames": [
+        {
+            "original": "reco.kirstein.de",
+            "resolved": "lb.hz.scale.sc"
+        },
+        {
+            "original": "sst.kirstein.de",
+            "resolved": "lb.hz.scale.sc"
+        },
+        {
+            "original": "sst.rofu.de",
+            "resolved": "de-fsn1.lb.scale.sc"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "scale\\.sc\\/gtm\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lb.hz",
+                "de-fsn1.lb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "sst.kirstein.de",
+                    "resolved": "lb.hz.scale.sc"
+                },
+                {
+                    "original": "sst.rofu.de",
+                    "resolved": "de-fsn1.lb.scale.sc"
+                }
+            ],
+            "responseHashes": [
+                "fa575a03b630a3266b72813d6714cf18ee6a0f636f2190e735399611e8b0a772"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kirstein.de",
+                "www.rofu.de"
+            ]
+        },
+        {
+            "rule": "scale\\.sc\\/merchants\\/14C8A97D281945A5\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lb.hz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "reco.kirstein.de",
+                    "resolved": "lb.hz.scale.sc"
+                }
+            ],
+            "responseHashes": [
+                "2dbcf01598e458b1b4147239f62d1f3468a59d053bcafe29f1066afc22dfce82"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kirstein.de",
+                "www.kirstein.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "dana.ns.cloudflare.com",
+        "dave.ns.cloudflare.com"
+    ]
+}

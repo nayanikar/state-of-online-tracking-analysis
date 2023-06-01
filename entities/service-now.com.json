@@ -1,0 +1,185 @@
+{
+    "domain": "service-now.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "api-appsee",
+        "aspiraconnect"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "service-now\\.com\\/web\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-appsee"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "517fc9a22d46b139074c06e24d7ad6181aa590963abf1ff1806ea43cc9f8575d",
+                "b1d24f3ee6de643cf9f9867e42eb27aabdead909a9cc782ef4d4759aa127a5cc",
+                "0abebfce2415589fe9a6e417e3b8b780473a14f088a97d52c7cb2173d5091937"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disneyplus.com",
+                "help.disneyplus.com",
+                "help.espnplus.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "service-now\\.com\\/web\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-appsee"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disneyplus.com",
+                "help.disneyplus.com",
+                "help.espnplus.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "service-now\\.com\\/web\\/heartbeat",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-appsee"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disneyplus.com",
+                "help.disneyplus.com"
+            ]
+        },
+        {
+            "rule": "service-now\\.com\\/web\\/heartbeat",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-appsee"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disneyplus.com",
+                "help.disneyplus.com"
+            ]
+        },
+        {
+            "rule": "service-now\\.com\\/scripts\\/sn_csm_ec\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "aspiraconnect"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0025a4376c27efe84497f9e58a16d7d8d748b3a1c24cbe67584486b4df3b002e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reserveamerica.com",
+                "www.reserveamerica.com"
+            ]
+        },
+        {
+            "rule": "service-now\\.com\\/styles\\/fonts\\/source-sans-pro\\/source-sans-pro-latin\\.css",
+            "cookies": 0.00000681,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aspiraconnect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1c7c259141b903c0b2f76cd49515cee7cb34ecea8a59c08dd2a7304da457a871"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reserveamerica.com",
+                "www.reserveamerica.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9285714285714286
+        },
+        {
+            "domain": "cwf_em_header.js",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Preflight": 6,
+        "Script": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "aus1.akam.net",
+        "edns140.ultradns.biz",
+        "edns140.ultradns.com",
+        "edns140.ultradns.net",
+        "edns140.ultradns.org",
+        "eur6.akam.net",
+        "ns1-234.akam.net",
+        "ns1-98.akam.net",
+        "usc4.akam.net",
+        "use1.akam.net",
+        "use3.akam.net",
+        "usw1.akam.net"
+    ]
+}

@@ -1,0 +1,145 @@
+{
+    "domain": "splash-screen.net",
+    "owner": {
+        "name": "International Business Machines Corporation",
+        "displayName": "International Business Machines",
+        "privacyPolicy": "https://www.ibm.com/privacy/us/en/",
+        "url": "http://ibm.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000034,
+    "sites": 5,
+    "subdomains": [
+        "www",
+        "stage",
+        "events"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "splash-screen\\.net\\/207555\\/rapi\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5692ba2e40c7b70b080e6e197ddb760b0fdad4fa5163116c1e9560ab88372175"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "banamex.com",
+                "bancanet.banamex.com"
+            ]
+        },
+        {
+            "rule": "splash-screen\\.net\\/42242\\/rapi\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "25775f5bdc977df8741d484f110662d1936b04874ab07295471b5dd1d9954b1a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstrepublic.com",
+                "www.firstrepublic.com"
+            ]
+        },
+        {
+            "rule": "splash-screen\\.net\\/222453\\/splash\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "stage"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f29957756936237705c29851a2bb60bcd9258726d519fa26c78a1559a6d4e1af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "splash_tiaa_everbank_retail_20180610": {
+                    "ttl": 31536006,
+                    "length": 25,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiaabank.com",
+                "www.tiaabank.com"
+            ]
+        },
+        {
+            "rule": "splash-screen\\.net\\/splash_events\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiaabank.com",
+                "www.tiaabank.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1087.awsdns-07.org",
+        "ns-1626.awsdns-11.co.uk",
+        "ns-394.awsdns-49.com",
+        "ns-732.awsdns-27.net"
+    ]
+}

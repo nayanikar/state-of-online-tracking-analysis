@@ -1,0 +1,887 @@
+{
+    "domain": "juicer.cc",
+    "owner": {
+        "name": "Logly, Inc.",
+        "displayName": "Logly"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000259,
+    "sites": 38,
+    "subdomains": [
+        "kitchen",
+        "cdn.kitchen"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "juicer\\.cc\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.000143,
+            "cnames": [],
+            "responseHashes": [
+                "8910b99ca68da488db8c1110b0d641aba0a8a788a1b019f8c8e044468bafa270",
+                "b1651acb9962d54ee412b786b758014b564cb88f49612a21e29dad891262209e",
+                "42ca4a164149697e860b186234a4c039bd1745ae3ababddd1eb735bb2a493fd6",
+                "87a366777d3dfdf5d4fd4eb19cf6081bc8ec5d2de4fc5f9b606f5a98f963cc9a",
+                "1826902816d9b787773708eb70071e8819eb6f29e356f46f576f60d7b129ba52",
+                "d25b10d760afeb372c9cdd11e4241289de2091093f8b2bf386237d8aacab5275",
+                "94273515ccc13c308bbcdbce9857f50159f5ea5d9f5d77303044c63363c131c6",
+                "186bcd6b5cf274208bd2919e8f54a4ed48d972ba8fda69bb15d4cd05cd32ca14",
+                "8b2b978c00f1456984a242855503cdbf1948d212962b10656e70b62ee481fa63",
+                "32a8c14c3d5a7d9db01041b86da5d0540fb0f427ea8756fc362517917b5f7808",
+                "c0f08ec24a56094b7419f6a338cf1a310e73df8a62f5a8842daaecfb284a2755",
+                "176d982d653d1c73265f433548029ea4ccd813c1b9d455070c3700ca2510f25f",
+                "f208521530414d8aa7b607a7722e776d874781df4b5fdf717acd6b23aead530f",
+                "8c9b108067537fe468f9acc71f6663fc834a0152f4ab1ce7c4b8c686f68f7531",
+                "03d2c76ec75c18b242dacbec2f43107a3d004e5e84d4baa0394fe46208f66703",
+                "4541d7309e60c09704cb4eee891ae6a22124a79dcd18d9e3708e66b9961708dd",
+                "b6362097b2c498d07669888d171292135af169306e444b9a01bfd31800711229",
+                "2a4b5cb1c71ada0075de1e75974c8913fce31f6df930a52f4801b32205b94e42",
+                "6e05502061f9d4a41bad39a388cc207718317d6c978a5ccd4526e851769bfae2",
+                "42c8a2313e6c7e39faf92062b7370cd2485967a33de559ba3cf98a3ecf611c79"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.orangepage.net",
+                "www.e-earphone.jp",
+                "www.kajitaku.com",
+                "tokusengai.com",
+                "www.cyzo.com",
+                "www.fnn.jp",
+                "trafficnews.jp",
+                "hentaitokyo.com",
+                "tarotfun.jp",
+                "dekiru.net",
+                "realsound.jp",
+                "mrs.living.jp",
+                "www.autoby.jp",
+                "kurashi.biglobe.ne.jp",
+                "forbesjapan.com",
+                "www.suruga-ya.jp",
+                "food.biglobe.ne.jp",
+                "pmall.gpoint.co.jp",
+                "www.ehonnavi.net",
+                "kuruma-news.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/version\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.000143,
+            "cnames": [],
+            "responseHashes": [
+                "72f5248d4b4d6fc874d2cf0e4e3ad723fb7f793fda6f3e319b260b2151b7656d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pmall.gpoint.co.jp",
+                "tarotfun.jp",
+                "halmek.co.jp",
+                "kurashi.biglobe.ne.jp",
+                "tokusengai.com",
+                "trafficnews.jp",
+                "www.kajitaku.com",
+                "www.suruga-ya.jp",
+                "www.orangepage.net",
+                "kuruma-news.jp",
+                "www.autoby.jp",
+                "dekiru.net",
+                "hentaitokyo.com",
+                "www.ehonnavi.net",
+                "www.cyzo.com",
+                "realsound.jp",
+                "www.fnn.jp",
+                "forbesjapan.com",
+                "food.biglobe.ne.jp",
+                "mrs.living.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/core\\/",
+            "cookies": 0.000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 20,
+                "Navigator.prototype.userAgent": 20,
+                "Navigator.prototype.appVersion": 20,
+                "window.localStorage": 20,
+                "Document.cookie getter": 20,
+                "Document.cookie setter": 20
+            },
+            "sites": 21,
+            "prevalence": 0.000143,
+            "cnames": [],
+            "responseHashes": [
+                "369c94844c0aa658c106687508daaeb3047d14919f02d54c057802cef9e939df",
+                "944706fa0f41c90997d1d1383e9d3daaae367d66ff0a4a226146880e4e5667d5",
+                "70648e2df9b9cae4e7fe3f9533c649d2524ba29c64026d45e1f13b0ee1abf404",
+                "735397d5fe68c5009e4c1d8e56a5f618c69bc94c0a3940c96db225820a7feff3",
+                "71b3cb14a8c584650b120dc4e2d64ec51edd292c8ce690a2ed5d40209fc2fa14",
+                "df15307e74bf63b99798711d3619444e37deabc30fefff9ffabca347f372016a",
+                "28eb0265d99493409bee4ef74c323e2c0fcdc2347d8d1014996e926bc8888205",
+                "7aa689d65ee60b4dbb9de6a0c25dec6f009fdd92f8cf03caf613c8098a0196d3",
+                "f46694dec05726d39d9c66bb3c391a6b218616ef666bf80312c6ad18d94bd4b4",
+                "2be09fe6cd8cdf0ad28a3e7a71faab6dfb72a16f58b10c56dc0df933684cbd80",
+                "97863996343fc7165c2c69d1c0b233493a8209410b7a5a908f96fefa9c2e0413",
+                "8efa2848b34cee7de98237df122ac67cc02630dee4cce7f64f7b06244aac31d6",
+                "13a0a21a22be7e17cda04c6bc2def9b7b332022caf20602416690914d976f70e",
+                "e4872fe559a7ea3b7c9c79450a747f9e66aca9b9eb07377d3aa625ab9d980ff2",
+                "77f1a4fb590cc8df2b3db0ce6736c206157cc17db9ebc83876f78a5c397d3102",
+                "d332ae1d22671eadb752dab76df13e54474854535ac8274d6fab8bd7313bf03b",
+                "9f0b6ca86675a1ff68922c6c436532ba17d96039676c1472ea409314d90b9c2e",
+                "4361f1f40493b51574891edbca367fff9d440e23e308c531e44f720f97a037b8",
+                "3774df8afe7ae2d92d1bd256d046b9e2066be989894b5369840dbc55d327c935",
+                "4cc094729f231b092515d39faeadeae2f1e66048975449b4b324833883176931"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__juicer_sesid_9i3nsdfP_": {
+                    "ttl": 1807,
+                    "length": 36,
+                    "prevalence": 0.00009529903475691939,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.kajitaku.com",
+                "trafficnews.jp",
+                "www.orangepage.net",
+                "kuruma-news.jp",
+                "kurashi.biglobe.ne.jp",
+                "realsound.jp",
+                "hentaitokyo.com",
+                "www.suruga-ya.jp",
+                "www.cyzo.com",
+                "www.fnn.jp",
+                "halmek.co.jp",
+                "tarotfun.jp",
+                "dekiru.net",
+                "www.autoby.jp",
+                "pmall.gpoint.co.jp",
+                "www.e-earphone.jp",
+                "forbesjapan.com",
+                "www.ehonnavi.net",
+                "food.biglobe.ne.jp",
+                "tokusengai.com"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/scripts\\/stack-driver-errors\\/1\\.0\\.0\\/stack-driver-errors\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.kitchen"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 21,
+            "prevalence": 0.000143,
+            "cnames": [],
+            "responseHashes": [
+                "f2bf81f7cec79fde4d594be203b20ddce637c4d01010f1ec250e510a32023ded"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mrs.living.jp",
+                "realsound.jp",
+                "www.autoby.jp",
+                "www.cyzo.com",
+                "kurashi.biglobe.ne.jp",
+                "food.biglobe.ne.jp",
+                "pmall.gpoint.co.jp",
+                "halmek.co.jp",
+                "kuruma-news.jp",
+                "tarotfun.jp",
+                "www.suruga-ya.jp",
+                "forbesjapan.com",
+                "www.e-earphone.jp",
+                "www.orangepage.net",
+                "trafficnews.jp",
+                "hentaitokyo.com",
+                "dekiru.net",
+                "www.fnn.jp",
+                "www.kajitaku.com",
+                "www.ehonnavi.net"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/c\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.000143,
+            "cnames": [],
+            "responseHashes": [
+                "82dcfd3670df4e0aad38cefef94395f2eaa0b4f790a75113d97fb917b2325d9a",
+                "3a73392f1780495adb418d9904a7ed06df2f788a1bc9c3c288e57a010073efb7",
+                "ce6fd63f65823f68b2cb46403066091e39d78858be886249533e41af54216f47",
+                "d9073468786e37ce74f4639ab0f0a01af3a72cb76eae14e4bf5249c023a11d31",
+                "3559968d0435d30d152cc1c6b8632342f91608131997bcb84d042a86765c5446",
+                "618f11667ecf6d5b2959986d818ad58b265ced7dbd70f81dfe16d2f1b7e33722",
+                "721de5c7d6b71317be828db87cc1e52072fb12997833fa2e76389ad1d22e2888",
+                "33dedded70ecffcdc21866cd515719c22749018666c53c2a026ec5d62b3116a1",
+                "9486da9d8312f4103e0df2917a7e2586e0c44b7b631c47f1c7834268f412963c",
+                "a7cff17b0289fd9e86b4c5091916b30ec4e58a3c0f026999409984f978772d23",
+                "a4f9c9154fb634a95cd2b2b7d9caee94b8ed867693bc40e315664bfdc0a364b4",
+                "dbfaf969b227ddab190abb4f681eb86614e3d5898fdc70d44e86d621c300e268",
+                "5b75bc080abbeafced59f122be50bcfa641da8e2f8289b9226d94219c33c1cd2",
+                "607e26dd23d3af14b56892fd74882de867c456981b7d1beb7765558e45720303",
+                "c9ab88213dca1f80e843ebcfee486b3488d0ae323bcdfe907c7a92f23e968fb7",
+                "aeeabaa371dbf093adbc55942eeb0eb982e0e963e7621ab116e1caab8064bbca",
+                "55c32fb159c82644ef39581cf701ec3720d12d91fc4425cdf9bd4c5f0c8a3789"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.orangepage.net",
+                "pmall.gpoint.co.jp",
+                "kuruma-news.jp",
+                "tarotfun.jp",
+                "tokusengai.com",
+                "trafficnews.jp",
+                "www.cyzo.com",
+                "kurashi.biglobe.ne.jp",
+                "hentaitokyo.com",
+                "www.ehonnavi.net",
+                "www.e-earphone.jp",
+                "realsound.jp",
+                "mrs.living.jp",
+                "dekiru.net",
+                "forbesjapan.com",
+                "www.fnn.jp",
+                "www.autoby.jp",
+                "www.suruga-ya.jp",
+                "www.kajitaku.com",
+                "food.biglobe.ne.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/scripts\\/juicer-treasure\\/2\\.3\\.0\\/juicertreasure\\.min\\.js",
+            "cookies": 0.000123,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn.kitchen"
+            ],
+            "apis": {
+                "window.localStorage": 19,
+                "Navigator.prototype.userAgent": 19,
+                "Document.cookie getter": 18,
+                "Date.prototype.getTime": 18,
+                "Document.cookie setter": 18,
+                "Navigator.prototype.language": 18,
+                "Screen.prototype.colorDepth": 18,
+                "Screen.prototype.width": 18,
+                "Screen.prototype.height": 18,
+                "window.innerHeight": 18,
+                "window.innerWidth": 18,
+                "Navigator.prototype.platform": 18
+            },
+            "sites": 19,
+            "prevalence": 0.000129,
+            "cnames": [],
+            "responseHashes": [
+                "1c08aa1df70a43171fcf1da525a0d82108065f2c10a15ecf882cf50f3e2344dd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_td": {
+                    "ttl": 63072010,
+                    "length": 36,
+                    "prevalence": 0.0001225273304017535,
+                    "uniqueness": 1
+                },
+                "__td_signed": {
+                    "ttl": 63072010,
+                    "length": 4,
+                    "prevalence": 0.00010210610866812792,
+                    "uniqueness": 0.06666666666666667
+                },
+                "_td_global": {
+                    "ttl": 6000,
+                    "length": 36,
+                    "prevalence": 0.00011572025649054497,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dekiru.net",
+                "food.biglobe.ne.jp",
+                "forbesjapan.com",
+                "halmek.co.jp",
+                "hentaitokyo.com",
+                "kurashi.biglobe.ne.jp",
+                "pmall.gpoint.co.jp",
+                "realsound.jp",
+                "tarotfun.jp",
+                "tokusengai.com",
+                "trafficnews.jp",
+                "www.autoby.jp",
+                "www.cyzo.com",
+                "www.e-earphone.jp",
+                "www.ehonnavi.net",
+                "www.fnn.jp",
+                "www.kajitaku.com",
+                "www.orangepage.net",
+                "www.suruga-ya.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/t\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.000129,
+            "cnames": [],
+            "responseHashes": [
+                "12deb3348b5194b9b93acb2690257b0971b5463d20ea31d9b07b731ae5b8fb70",
+                "bdcc67ac6e658130b340a6a1cd2307cb6ff07b33edfa9dd16d75e73209f42351",
+                "a04e965af38537e0c9040f0011162c62f30cbfe7e84853173874b90b2bedf030",
+                "54f7cb7dcaf768e2c02181fcfd9aa9fa59f718276f525a0ab99713b85884f488",
+                "cc813c487a576521573933da134ee446a8a6d4a4d985962bc6ce32d5a634af52",
+                "3a23a8387410274a3ed9ce6d1bab2cdaadd1f3eee44c50cd24a233faaf697e40",
+                "268ea6eae233b7fc69be8d4383bc463291d21138b7c9801092384394f3aad00b",
+                "56ae6fb86a87cf16dea889315b313dfea60886594221e58dcab5c1e756e1df0a",
+                "99e2ca2d87cb071b2dd560d709784bf9e4012c2ef881d23a504bc5cfdf69d8c8",
+                "35c9502202b39e0560b0158a3a24310b37b80913faee998da63669dea82c4075",
+                "f6600ede1d29ccc6b4629c95ee656458261a654feaebbc43a24cdfb2d5ec7247",
+                "d938b3d2672f2e2a5838668fb1cbb5f2364d30380b286d58bbcabf8722d3824b",
+                "56be9f857132d9765c438a06b5bc47e944a96403c0f0b183781e01dc83076a61",
+                "a758e5e39000dec56dc07b4c82c2b751950e230bdc9e8e3013cefb1dfc59ff5d",
+                "d7cba1e3d4a15dff60aa48815cc3e933db62225ac479b27808246e6634453cd7",
+                "fd38c16d745f1c318c0c2ac6ff024d4eab5642cadf8f5916349946d2dd45d0dd",
+                "5b5bec33075aeca58a5b28047f3abb3663248dd16b91a7e6189ba663502fc567"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dekiru.net",
+                "food.biglobe.ne.jp",
+                "forbesjapan.com",
+                "halmek.co.jp",
+                "hentaitokyo.com",
+                "kurashi.biglobe.ne.jp",
+                "pmall.gpoint.co.jp",
+                "realsound.jp",
+                "tarotfun.jp",
+                "tokusengai.com",
+                "trafficnews.jp",
+                "www.autoby.jp",
+                "www.cyzo.com",
+                "www.e-earphone.jp",
+                "www.ehonnavi.net",
+                "www.fnn.jp",
+                "www.kajitaku.com",
+                "www.orangepage.net",
+                "www.suruga-ya.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/activity\\/",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "d6e02962f38c64b9cf51e281c6d9d96d46d66c9e08713c276d6a33831fff960c",
+                "65588190d7ebb3ef076c27b6f86272e5b74868b48dfab825af4ab529feef4ddc",
+                "544fb5a0f8d0aa958291f2add1a970852606b5bf0476ff4ff7b1d1647b9f6535",
+                "d231383208df9a7d3e70136c2e0375823f492b4a7dbac6e081820f833ff20929",
+                "1744cc286c9b8ac00e96b3be2ca35d170b6270302dc6c1ec4e05d5e471454324",
+                "2ae813ed80b944e6448d59761644deccb7a22be1fc3bc867739e7efe8bf31af6",
+                "a524a13ea2dc22bcaa1243fcb44bb2cf8d09acf6e971c60563a5ecbc4ac79150",
+                "56a76967d283ba080be81dda7a6699ede7cbd1d1e7848a3bda8e8d2436bcab22",
+                "67163076e38c2203502086363a774c6b28c9c4f160eb5d4f0184b059a70fa8ca",
+                "1be5069187dcb0b588efeab2756726d836ada45e86d1729cb72dfd1914015acd",
+                "35ce97316ab0df05d1568a0ba8da95466f6c58675b215755612d738e02c5e6b4",
+                "c828dd42544f336db526dd28791bd534feab5a92a895a8803f0c3306324a38ce",
+                "b5e7621e1f42ddf949ed2acec019089e36a686eab49271d409bcc524f334d874",
+                "c2ebc70e0cfccb7bcf3cbc3f28687f3586d6e20cc189bf0824f9c79a4a806ebb",
+                "fbe1d9cd96ad93243ec4429a46bd4e5bb43cefc2d053161623bf74fb05f4990f",
+                "61e19195b175e68279f4d0fd00f9b0e177e8d56fe227a0443f8470f1973b5c2d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_td": 0.00016336977386900467,
+                "_td_global": 0.00011572025649054497
+            },
+            "exampleSites": [
+                "dekiru.net",
+                "food.biglobe.ne.jp",
+                "forbesjapan.com",
+                "hentaitokyo.com",
+                "kurashi.biglobe.ne.jp",
+                "pmall.gpoint.co.jp",
+                "realsound.jp",
+                "tarotfun.jp",
+                "tokusengai.com",
+                "trafficnews.jp",
+                "www.autoby.jp",
+                "www.cyzo.com",
+                "www.e-earphone.jp",
+                "www.ehonnavi.net",
+                "www.fnn.jp",
+                "www.kajitaku.com",
+                "www.orangepage.net",
+                "www.suruga-ya.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/activity\\/set\\/",
+            "cookies": 0.000116,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dekiru.net",
+                "food.biglobe.ne.jp",
+                "forbesjapan.com",
+                "hentaitokyo.com",
+                "kurashi.biglobe.ne.jp",
+                "pmall.gpoint.co.jp",
+                "realsound.jp",
+                "tarotfun.jp",
+                "tokusengai.com",
+                "trafficnews.jp",
+                "www.autoby.jp",
+                "www.cyzo.com",
+                "www.e-earphone.jp",
+                "www.ehonnavi.net",
+                "www.fnn.jp",
+                "www.kajitaku.com",
+                "www.suruga-ya.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/function\\/popup-core\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "c7e1660b0178800ba1de9fe0841c9984b5284224970f73b6c486954e1da4d109",
+                "fbd2c426680bbe211ea4f00af7e5145460ed0b66ced320dcb0bf31e268a916df",
+                "8d254dfb7168df414e3c3427a367119ea999bd6592b4e85385c23d104e3dfbd8",
+                "9d4c9a8e583d8f2adc86037135e70d6e60c923c2879f086bbe15028e533d250a",
+                "e9194908ca21ef8179092fd7ca7c9b808f57dc4198585fd19fe8678e4aa25809",
+                "7f6598ad0fe49e752dae92cf9c8d08d7165d762d5adfc5fbdd601c0b6f425602",
+                "d66b2c3c22d3f3a5607eb735f8a676b458bc38de41e412f8fd38c838ad89a168",
+                "aada37ca6cb7ca6b571dbf4648754cd113b62d12d8d0a5b5f686fddc8078642b",
+                "8a1f5f982a2430ff60ef80fec79cc5418d0713dac80c25cc2ddbe22d743f14cf",
+                "ece2bd86fb364ee7ae702e083ada9cef0de53dd1bad88e009a9db1d69db6002b",
+                "defcd020f6f85653677f8650dba1bd0a214ad5e8eeed83ef80c62359cdc23894",
+                "d1a6e09380aa319f1dc74259f0702c718223c312556fac0c1b0a43ec1c8570f9",
+                "c5e1734668547a2501e9f29b1366881844d0c1eb99a7fd6dee7ad197658f83b2",
+                "f9eb39416645be106f79f64b3a31563c7d632519ba92f4d374c1ac87f9a9c249",
+                "b3ff6169ef417954c7146faeb9e5e00d3c88a28a56961cbf9d0c10c8438c6725",
+                "924ce19627b4f9892962eada17fece63d004143fd1874574e64e0b05cbe13e01"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dekiru.net",
+                "food.biglobe.ne.jp",
+                "forbesjapan.com",
+                "hentaitokyo.com",
+                "kurashi.biglobe.ne.jp",
+                "pmall.gpoint.co.jp",
+                "realsound.jp",
+                "tarotfun.jp",
+                "tokusengai.com",
+                "trafficnews.jp",
+                "www.autoby.jp",
+                "www.cyzo.com",
+                "www.e-earphone.jp",
+                "www.ehonnavi.net",
+                "www.fnn.jp",
+                "www.kajitaku.com",
+                "www.suruga-ya.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/collabo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "e59d4e9e96410a625d80bd77cc00e9712ffa0cc077b01d42d8c3ee4c5c30336d",
+                "c9706135c51f1aed99671f7949d47e19adf6d0d09c2b1097ca7ffa444804c31e",
+                "aa191b446d21f0c9a0c9c13c291d8fa4fefe41303e69f74de1f7d990d561df75",
+                "ea5c27fff3a0954d343993d1384758646c46e9e7a77e992a096f76e5c86ad621",
+                "350e06208cbadd1a568530df81cf9ae88d73e7fcd560e546c640ce465bc672b4",
+                "e9dfc78b4de8182a4c426f27d73f078a38067ae8ef241b02239d474e516f864a",
+                "5f642e48a75ae89c508c8ca174df1c0d348f0b06334ab51221a2502507afa972",
+                "05065101b780e7f69443e19636362d5aa6fc6f6ca53dbc283f997e527abe95b4",
+                "8935c3027ba85493bb98a098ba1aab80deb07245daf9289981ba138285ae024c",
+                "519bee7d0a4db4ef7ebdcf37bb351e97ee5ddc614841e0f57c953bd661964e6f",
+                "f806e53a49e7a4b3a46ff125933b266180ff0d2ee2f5ef2a1759542ab1b1a91e",
+                "fe0f00bb65b719a9123d4f55e2509c1259c029bb9e9365f8ac196d804f2118a8",
+                "722310534c275bd7150da9c0da3992fbfd118993988fba9ad5fbd8afe02e2067",
+                "2d568ab130387402339909a2a2748d2b1fff91b5a9283e09ac7beab7e6085511",
+                "b3fc56628b39f6f01a046194c794207073d3620a8df4e079368e98c779f43129",
+                "e740571bf10719b4df5eb74699edb74aba27ace5dc42dbb19f503da5a2f9de36"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dekiru.net",
+                "food.biglobe.ne.jp",
+                "forbesjapan.com",
+                "hentaitokyo.com",
+                "kurashi.biglobe.ne.jp",
+                "pmall.gpoint.co.jp",
+                "realsound.jp",
+                "tarotfun.jp",
+                "tokusengai.com",
+                "trafficnews.jp",
+                "www.autoby.jp",
+                "www.cyzo.com",
+                "www.e-earphone.jp",
+                "www.ehonnavi.net",
+                "www.fnn.jp",
+                "www.kajitaku.com",
+                "www.suruga-ya.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/parallel\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {
+                "Document.cookie getter": 17
+            },
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "85fb4b5b9cbcd97f761a9745babbacc81f60dd4210aae7ca04539c4acc48b83b",
+                "3fe0ff5e0800a0d10e073ed4837a1573bdfbee0f3305c4df6b5cfea1968b875b",
+                "40e9705903015ac180df03c23de1a6e58c2e5cca5521180b9ee2e98c7b592657",
+                "3f491cc9548e13b8073ba3e8406ca4b1e4b57b28af9ce5587e3cfe0d7c73a9d7",
+                "a9dcf6d4fb320544e207bbbc25edbaad34769b3637f9f7ef3c8a5a11966f4b7c",
+                "0830bed98977e13adad950b98f430d16d56ba747b124b19763e61a3da7b2c85f",
+                "f2c488354caa1c50b081c9e9e72a2db29f5a92d89eee27aaee4f1801db668eb7",
+                "cd531308d1b4393c7d2c46206609b239522e7cb0128502d700a8d27b27156e0f",
+                "3c35f9430fa991d0c2ee290e78c92f4b90c5770889e6ec844ca64a8afcfe4133",
+                "cda7acceb08bf336f20907c28195aba0018093d2327aa35593c0cb127581d3ac",
+                "be19e42f2e3b4445f2d7fa020982df8190b01422385f21899100aa588aa9be68",
+                "cf5ec5f308886395a00af61297d48767f9353588d2951191adb11ee4f0eb7793",
+                "738b9712e805851e2a4e009cf4170ca5facba27d26d9ceaf6b897b290de795cc",
+                "e322c32bb8845d941b6282a49d7ce6393d77a4819908f6263303d7075acce37a",
+                "97f44ceffa5900b7b1f913ccb2890166fb234e340c07c8bc5d846144630b4cc1",
+                "67e8daa5afe902cbadb82edd1691a3bb15d7b60213a54253529c7cf97222632a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__juicer_sesid_9i3nsdfP_": 0.00011572025649054497
+            },
+            "exampleSites": [
+                "dekiru.net",
+                "food.biglobe.ne.jp",
+                "forbesjapan.com",
+                "hentaitokyo.com",
+                "kurashi.biglobe.ne.jp",
+                "pmall.gpoint.co.jp",
+                "realsound.jp",
+                "tarotfun.jp",
+                "tokusengai.com",
+                "trafficnews.jp",
+                "www.autoby.jp",
+                "www.cyzo.com",
+                "www.e-earphone.jp",
+                "www.ehonnavi.net",
+                "www.fnn.jp",
+                "www.kajitaku.com",
+                "www.suruga-ya.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/function\\/popup-nps\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dekiru.net",
+                "food.biglobe.ne.jp",
+                "forbesjapan.com",
+                "hentaitokyo.com",
+                "kurashi.biglobe.ne.jp",
+                "pmall.gpoint.co.jp",
+                "realsound.jp",
+                "tarotfun.jp",
+                "tokusengai.com",
+                "trafficnews.jp",
+                "www.autoby.jp",
+                "www.cyzo.com",
+                "www.e-earphone.jp",
+                "www.ehonnavi.net",
+                "www.fnn.jp",
+                "www.kajitaku.com",
+                "www.suruga-ya.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/function\\/popup-ad\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "4eba97a69e544d0a7b459f704b1f1fabf9d5d6940aa40714b844f2e5fd559b16",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dekiru.net",
+                "food.biglobe.ne.jp",
+                "forbesjapan.com",
+                "hentaitokyo.com",
+                "kurashi.biglobe.ne.jp",
+                "pmall.gpoint.co.jp",
+                "realsound.jp",
+                "tarotfun.jp",
+                "tokusengai.com",
+                "trafficnews.jp",
+                "www.autoby.jp",
+                "www.cyzo.com",
+                "www.e-earphone.jp",
+                "www.ehonnavi.net",
+                "www.fnn.jp",
+                "www.kajitaku.com",
+                "www.suruga-ya.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/assets\\/popup\\/styles\\/juicer-popup\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2e7b1784ff8f84df4554c3e0455d167c2f0ee8b729320a5798bd91cced4576b1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biglobe.ne.jp",
+                "food.biglobe.ne.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/assets\\/popup\\/styles\\/juicer-popup_sp\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "201b573829988317a7848b69e0963a9f892467b90e8927851fea729c57d73288"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biglobe.ne.jp",
+                "food.biglobe.ne.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/assets\\/popup\\/img\\/btn-close\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e61e2153d65d04e11594c48f10c5fded75a58d5812e0c7bb781c707218f7043d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biglobe.ne.jp",
+                "food.biglobe.ne.jp"
+            ]
+        },
+        {
+            "rule": "juicer\\.cc\\/core\\/",
+            "cookies": 0.000034,
+            "fingerprinting": 1,
+            "subdomains": [
+                "kitchen"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.appVersion": 5,
+                "window.localStorage": 5,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "df15307e74bf63b99798711d3619444e37deabc30fefff9ffabca347f372016a",
+                "28eb0265d99493409bee4ef74c323e2c0fcdc2347d8d1014996e926bc8888205",
+                "97863996343fc7165c2c69d1c0b233493a8209410b7a5a908f96fefa9c2e0413",
+                "e4872fe559a7ea3b7c9c79450a747f9e66aca9b9eb07377d3aa625ab9d980ff2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halmek.co.jp",
+                "kuruma-news.jp",
+                "mrs.living.jp",
+                "tokusengai.com",
+                "www.cyzo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000245,
+    "topInitiators": [
+        {
+            "domain": "treasuredata.com",
+            "prevalence": 0.7058823529411765
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1711229946524064
+        },
+        {
+            "domain": "flux-cdn.com",
+            "prevalence": 0.0481283422459893
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.0427807486631016
+        },
+        {
+            "domain": "yjtag.jp",
+            "prevalence": 0.0213903743315508
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.0106951871657754
+        }
+    ],
+    "types": {
+        "Script": 203,
+        "Fetch": 21,
+        "XHR": 44,
+        "Stylesheet": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-871.awsdns-44.net",
+        "ns-226.awsdns-28.com",
+        "ns-1483.awsdns-57.org",
+        "ns-1625.awsdns-11.co.uk"
+    ]
+}

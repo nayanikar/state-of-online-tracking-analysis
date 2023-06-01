@@ -1,0 +1,187 @@
+{
+    "domain": "karakuri.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "analytics",
+        "sbisec-cs.faq",
+        "dinos"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "karakuri\\.ai\\/v1\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.devicePixelRatio": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "window.outerHeight": 2,
+                "window.outerWidth": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "249838cb41f1e52bcdb8d53c4be060ea1c07693434e576e0523c7a3c69c1e25a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbisec.co.jp",
+                "faq.sbisec.co.jp"
+            ]
+        },
+        {
+            "rule": "karakuri\\.ai\\/v1\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5185643e4c1f7a039a721e5b5b752eda429c9fbb243f6246353345ddc29853de"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbisec.co.jp",
+                "faq.sbisec.co.jp"
+            ]
+        },
+        {
+            "rule": "karakuri\\.ai\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sbisec-cs.faq"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1c2c3d14bed1d70e01a6d6b445bd4ff1da181f6bf7fdbcc40ef253e147c048af"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbisec.co.jp",
+                "faq.sbisec.co.jp"
+            ]
+        },
+        {
+            "rule": "karakuri\\.ai\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sbisec-cs.faq"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbisec.co.jp",
+                "faq.sbisec.co.jp"
+            ]
+        },
+        {
+            "rule": "karakuri\\.ai\\/api\\/chats\\/popup\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dinos"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d458bc12df74cfc81ddc363e9a1610206eacf09e28f8a75542a7524ce1c6435e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dinos.co.jp",
+                "www.dinos.co.jp"
+            ]
+        },
+        {
+            "rule": "karakuri\\.ai\\/api\\/action",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dinos"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2239b262c04b0873fdc66df5751bb7dfe53d3fac7df2de01fff2ca121dbcc9e6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dinos.co.jp",
+                "www.dinos.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 4,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-702.awsdns-23.net",
+        "ns-1147.awsdns-15.org",
+        "ns-1874.awsdns-42.co.uk",
+        "ns-102.awsdns-12.com"
+    ]
+}

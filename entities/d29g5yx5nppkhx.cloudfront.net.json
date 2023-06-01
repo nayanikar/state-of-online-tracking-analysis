@@ -1,0 +1,117 @@
+{
+    "domain": "d29g5yx5nppkhx.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "d29g5yx5nppkhx\\.cloudfront\\.net\\/scripts\\/lazyload-min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d11b6afc0f64a9c6a4e7d07ecde81851058aa459ba8c83d690c8aafc4f1551d2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fleetfeet.com",
+                "www.fleetfeet.com"
+            ]
+        },
+        {
+            "rule": "d29g5yx5nppkhx\\.cloudfront\\.net\\/location-data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "896d99871725dd518a0c529fec53157c418e4d343b46862e32f18c1b1d230270"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fleetfeet.com",
+                "www.fleetfeet.com"
+            ]
+        },
+        {
+            "rule": "d29g5yx5nppkhx\\.cloudfront\\.net\\/scripts\\/all\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "486b89821fbc6f07379e5d827adfa6a1e0e3051fad59f0fffa1bc686c39029c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ff_back": {
+                    "ttl": 78969603,
+                    "length": 47,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fleetfeet.com",
+                "www.fleetfeet.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-1662.awsdns-15.co.uk",
+        "ns-703.awsdns-23.net",
+        "ns-1433.awsdns-51.org",
+        "ns-367.awsdns-45.com"
+    ]
+}

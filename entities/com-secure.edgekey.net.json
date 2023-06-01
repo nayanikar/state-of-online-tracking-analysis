@@ -1,0 +1,127 @@
+{
+    "domain": "com-secure.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000705,
+    "sites": 7,
+    "subdomains": [
+        "www.nowtv",
+        "assets.sky"
+    ],
+    "cnames": [
+        {
+            "original": "assets.sky.com",
+            "resolved": "assets.sky.com-secure.edgekey.net"
+        },
+        {
+            "original": "web.static.nowtv.com",
+            "resolved": "www.nowtv.com-secure.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "com-secure\\.edgekey\\.net\\/images\\/logo\\/now_logo_gradient\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www.nowtv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "web.static.nowtv.com",
+                    "resolved": "www.nowtv.com-secure.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "bb845d86e39b7c2426acee4aa18a1685231f0089714ef65dc42d2bc15be3392b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nowtv.com",
+                "www.nowtv.com"
+            ]
+        },
+        {
+            "rule": "com-secure\\.edgekey\\.net\\/new\\/bundle-ab342ef4\\.css",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.sky"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.sky.com",
+                    "resolved": "assets.sky.com-secure.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1f2339dd16c99dbca009b2a9371328ee0941fc046bdbf6db251015589e91a307"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sky.com",
+                "www.sky.com"
+            ]
+        },
+        {
+            "rule": "com-secure\\.edgekey\\.net\\/new\\/bundle-ab342ef4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets.sky"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.sky.com",
+                    "resolved": "assets.sky.com-secure.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0f1640361ed7d485b1bd29c4073a3ffc7da48f205d5cf47c93d10bfd437ca245"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sky.com",
+                "www.sky.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000503,
+    "topInitiators": [
+        {
+            "domain": "privacy-mgmt.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": []
+}

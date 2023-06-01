@@ -1,0 +1,58 @@
+{
+    "domain": "prod-ra-vml-elb-1184774415.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "ra-api.adoptapet.com",
+            "resolved": "prod-ra-vml-elb-1184774415.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "prod-ra-vml-elb-1184774415\\.us-east-1\\.elb\\.amazonaws\\.com\\/v1\\/pet-utilities\\/1\\/breeds",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "ra-api.adoptapet.com",
+                    "resolved": "prod-ra-vml-elb-1184774415.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "efbd040c222d4ac5277c930387d189721096e8448c1c62f43538ebdbe6782f9a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adoptapet.com",
+                "www.adoptapet.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,169 @@
+{
+    "domain": "kompas.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "asset",
+        "apis",
+        "sttribunnews"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "kompas\\.com\\/data\\/2021\\/sso\\/js\\/extender\\.min\\.js",
+            "cookies": 0.000302,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "67a09458aa2b97d54491755dcf3d3d00298de54799b49fded2de6db24e103a94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ukid": {
+                    "ttl": 31536005,
+                    "length": 32,
+                    "prevalence": 0.0003015378429992964,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tribunnews.com",
+                "pekanbaru.tribunnews.com",
+                "sultra.tribunnews.com"
+            ]
+        },
+        {
+            "rule": "kompas\\.com\\/api\\/activity\\/user",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apis"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "8f3aee9951145cc5f4f176d574b7b0dae7f9cf34680e912e0b9bf84dbaebacdc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tribunnews.com",
+                "pekanbaru.tribunnews.com",
+                "sultra.tribunnews.com"
+            ]
+        },
+        {
+            "rule": "kompas\\.com\\/kgnotif\\/tribun-sw\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sttribunnews"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "7f39d3c740217c8495642fa649047e3a4e7095e7096619d1f87226c6e9cfaeb8"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tribunnews.com",
+                "pekanbaru.tribunnews.com",
+                "sultra.tribunnews.com"
+            ]
+        },
+        {
+            "rule": "kompas\\.com\\/api\\/isdeleted",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apis"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tribunnews.com",
+                "pekanbaru.tribunnews.com",
+                "sultra.tribunnews.com"
+            ]
+        },
+        {
+            "rule": "kompas\\.com\\/api\\/isdeleted",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apis"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "e9f38a034a7e5f0ebf6fa2c3b0ba3160034db7045d540d792e84808406e863cf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tribunnews.com",
+                "pekanbaru.tribunnews.com",
+                "sultra.tribunnews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "tstatic.net",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3,
+        "Other": 3,
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-20.awsdns-02.com",
+        "ns-538.awsdns-03.net",
+        "ns-1357.awsdns-41.org",
+        "ns-1870.awsdns-41.co.uk"
+    ]
+}

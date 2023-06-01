@@ -1,0 +1,99 @@
+{
+    "domain": "internetbrands.com",
+    "owner": {
+        "name": "Internet Brands Inc",
+        "displayName": "Internet Brands",
+        "privacyPolicy": "https://www.internetbrands.com/privacy/privacy-main.html",
+        "url": "http://internetbrands.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "geocoding",
+        "gdpr"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "internetbrands\\.com\\/geocoding\\/api\\/v1\\/getIsoCode",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geocoding"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "1945e873f1b29723e7490ec32486dd78810220b629e5f13eb32e82da6a2fb242"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dentalplans.com",
+                "www.dentalplans.com",
+                "www.realestatelawyers.com"
+            ]
+        },
+        {
+            "rule": "internetbrands\\.com\\/v1\\/ibeugdpr\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gdpr"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "904fcba0873dba2a89975d5a20191c9f9ba7b9484eb4c7b508ef761223fc82b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ibeugdpr": {
+                    "ttl": 315360002,
+                    "length": 18,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "realestatelawyers.com",
+                "www.realestatelawyers.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9545454545454546
+        },
+        {
+            "domain": "wbmdstatic.com",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Script": 2
+    },
+    "nameservers": [
+        "lily.ns.cloudflare.com",
+        "jerome.ns.cloudflare.com"
+    ]
+}

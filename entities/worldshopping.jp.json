@@ -1,0 +1,1036 @@
+{
+    "domain": "worldshopping.jp",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000143,
+    "sites": 21,
+    "subdomains": [
+        "checkout-api",
+        "checkout-js",
+        "static-contents",
+        "shop-js",
+        "checkout-static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "worldshopping\\.jp\\/v1\\/script",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "checkout-api"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 13
+            },
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "37f4cc679d6b2a3ac45df495b317ef3549dc0e8ff601f6048056a9545b1fe35c",
+                "0bc775cf2556d028090af9da0bdbe334f7c67ab2e735184e59276cfec2f695d0",
+                "580384278a7e2d918f3f61d211b49fec7c7d628b6b538dfed8de53b573ee440b",
+                "fafaf4ebb7c2be64a93f418d1bad0a8b32f01087768c075f3eaa974d189cd376",
+                "c0ca438152fb62d97c883a29e55c1ffe461bd4bccfdd6f4b1e08025eecadee18",
+                "5d67e66fc48779877ab0a690e753b8d3d804e7cf91cbcf96ca20f07dd44c4138",
+                "fe7b06fb5b8f2735a15ea6ba3f153aba0b3d36c3be047d23efe696fa4ae16cd4",
+                "8c5c3228a06888170c9d48601cfbba085f1a53439d257b4763493421867d5880",
+                "154e851a6f5fcd648fedf954f7c4834d4a72169af4715a36ae9bd6351c21d737",
+                "fe74fc231ca66fe66b36534d29bb26f4ade8bd2b5a1f45b62b92eea817e3cd13",
+                "79df84de6c12158a43f894c5c37cee970974ed73245e8e433eaddc18ec104ee2",
+                "0d2fd8b8ff515af3260d44c8604ad585b3722b3adf02b85db4de8265d4024338"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "kawashima-ya.jp",
+                "store.united-arrows.co.jp",
+                "tower.jp",
+                "www.2ndstreet.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.mistore.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/v1\\/geolocation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout-api"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "0d568e680034161576aae321316b3551568f4f44f243666506e2a465f32b5b9a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "kawashima-ya.jp",
+                "store.united-arrows.co.jp",
+                "tower.jp",
+                "www.2ndstreet.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.mistore.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkout-3_31_1-v1_f9f0e46f\\.js",
+            "cookies": 0.0000885,
+            "fingerprinting": 2,
+            "subdomains": [
+                "checkout-js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 13,
+                "window.localStorage": 13,
+                "Date.prototype.getTime": 13,
+                "Navigator.prototype.language": 13,
+                "Document.cookie getter": 13,
+                "window.sessionStorage": 13,
+                "Navigator.prototype.onLine": 13,
+                "Document.cookie setter": 13,
+                "Screen.prototype.height": 13,
+                "Screen.prototype.width": 13,
+                "Navigator.prototype.languages": 13,
+                "Navigator.prototype.vendor": 13,
+                "window.innerHeight": 13,
+                "window.innerWidth": 13
+            },
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "c455d9483fcb3abd3d6693026d9a27db6440025a4ff4d74f69acd2f686117ad0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ph_phc_tnQZyAK9BM0WkS5fdAZAxA1bNnyKUlWSACWzmxDfVrA_posthog": {
+                    "ttl": 31536011,
+                    "length": 91,
+                    "prevalence": 0.00008849196084571086,
+                    "uniqueness": 1
+                },
+                "__ph_opt_in_out_phc_tnQZyAK9BM0WkS5fdAZAxA1bNnyKUlWSACWzmxDfVrA": {
+                    "ttl": -86389,
+                    "length": 6,
+                    "prevalence": 0.00008849196084571086,
+                    "uniqueness": 0.07692307692307693
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "kawashima-ya.jp",
+                "store.united-arrows.co.jp",
+                "tower.jp",
+                "www.2ndstreet.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.mistore.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/v1\\/fetch-html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout-api"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000749,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "kawashima-ya.jp",
+                "tower.jp",
+                "www.2ndstreet.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.dot-st.com",
+                "www.mistore.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/icon_arrow\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "9d8ead407e87b21c3da1f3a48e8e4b4d96069cfb3d76b5798595fd61272abb13"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "kawashima-ya.jp",
+                "store.united-arrows.co.jp",
+                "tower.jp",
+                "www.2ndstreet.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.mistore.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/icon_close\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "3cdea23f87026d20d0b28aeb191c7775253051c8343ee5ed1cd42777bc8f15aa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "kawashima-ya.jp",
+                "store.united-arrows.co.jp",
+                "tower.jp",
+                "www.2ndstreet.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.mistore.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/icon_arrow_down_wh\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "b62b393adf226dc3f8ed6155f1ab5e67cdc29557d1dc7f841df02d8b7c97cbe2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "kawashima-ya.jp",
+                "store.united-arrows.co.jp",
+                "tower.jp",
+                "www.2ndstreet.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.mistore.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "03beda9444a55caa90698ff3cbbf1d1dc831b57447b342f8220b20fe1fb85e01"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "kawashima-ya.jp",
+                "store.united-arrows.co.jp",
+                "tower.jp",
+                "www.2ndstreet.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.mistore.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/x\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "14f21c47ee499a549e51182d9053b39e1c24c7544332c64c9c45e5e169d58aad"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "www.2ndstreet.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/payment_logos\\/paypal\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "c62ffd595551099bf7d0fe55b9aa49eb4cf9b21c1a8825a23454531af9f0cedf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "www.2ndstreet.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/payment_logos\\/unionpay\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "fe707b7dc230fe690770cf19d581be318fc3d07fd8cd9cd2b308bb750a2e80bf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "www.2ndstreet.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/payment_logos\\/amazonpay\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "e270d4691458083555c4e6bf69436cab2a89bbadc7216b8b62746030d7cb40a6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "www.2ndstreet.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/payment_logos\\/alipay_partner\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "7fcea27e32b933fac7c036a2f78d221d1a60d0d1839605f3343ac9adf97723da"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "www.2ndstreet.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/payment_logos\\/alipay\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "b4e5941f3fdc6d249cc26ee6376298dbc7ef77918c5de544a86aaa97f9ec6f4b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "www.2ndstreet.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/banner_cart\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "2f3bb6a796835b74547c86091819744361c3502dc6e1d64fc056d571d0857fe7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "kawashima-ya.jp",
+                "store.united-arrows.co.jp",
+                "tower.jp",
+                "www.2ndstreet.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.mistore.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/icon_cart\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "5900eeef6b5d756cd8853d97a80aa2332bbeb2fccc98198a68019e1d202519bb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "kawashima-ya.jp",
+                "store.united-arrows.co.jp",
+                "tower.jp",
+                "www.2ndstreet.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.mistore.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/bt\\/close_dialog\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "785f87b611a0aac645857fb23e4efa612547162bda5c38fd1b9c7acdc986e102"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "kawashima-ya.jp",
+                "store.united-arrows.co.jp",
+                "tower.jp",
+                "www.2ndstreet.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.mistore.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/tutorial\\/img_notice\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000885,
+            "cnames": [],
+            "responseHashes": [
+                "01d359de5d125ba63820efc0d6a45285517977e2a3e5390076cc6bac0082e69a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "kawashima-ya.jp",
+                "store.united-arrows.co.jp",
+                "tower.jp",
+                "www.2ndstreet.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.mistore.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/tutorial\\/img_cart_notice\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000817,
+            "cnames": [],
+            "responseHashes": [
+                "c5ba210cb6ac056e4fec6414a673b67288a26b325889a933291e510b6e29ccb8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "kawashima-ya.jp",
+                "store.united-arrows.co.jp",
+                "tower.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.dot-st.com",
+                "www.irisplaza.co.jp",
+                "www.mistore.jp",
+                "www.nissen.co.jp",
+                "www.palcloset.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/arrow-wanted\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "c6a2e53b85daebf5a84fa793c03c33d1d97692ecb2d23da4816ab68efd519a84"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "tower.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.irisplaza.co.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/close_popup\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "31b5f242ac722dac3c6a890dbf4fbca174ee7326b7218b6921b567feb8361ea8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "tower.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/common\\/payment-logos-color__2\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "d05482d2a808492478a53eb39598c10f258d20768a744c04d88ad2e5c1947439"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kawashima-ya.jp",
+                "store.united-arrows.co.jp",
+                "tower.jp",
+                "www.beams.co.jp",
+                "www.dinos.co.jp",
+                "www.mistore.jp",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/store_united-arrows_co_jp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shop-js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c7ad54fabf523e565eea1a2acafe915d224990ba7668c537f7c021a7f79e324e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/2ndstreet_jp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shop-js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "50cc7122627b414d1b42d345da833b56fb7cffaa1b1b3721ec07140df2f4b05e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "2ndstreet.jp",
+                "www.2ndstreet.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/shops\\/2ndstreet_jp\\/logo\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cf9f1a27c997c1468a7dd128546f0c3e1ff8994a5307a02039fb574b40733560"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "2ndstreet.jp",
+                "www.2ndstreet.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/checkoutjs\\/images\\/tutorial\\/img_cart_notice_2\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "78f1795378243646a2deadc27cdfe53be1066b10f0c88da9ac6e2fbb52af541d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "2ndstreet.jp",
+                "www.2ndstreet.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/beams_co_jp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shop-js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3fbf73736c7e74eaa55941c1f9ed259346038d4b65d2e482d6fbe35acd238bf5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beams.co.jp",
+                "www.beams.co.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/images\\/common\\/logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "03beda9444a55caa90698ff3cbbf1d1dc831b57447b342f8220b20fe1fb85e01"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dinos.co.jp",
+                "www.mistore.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/dot-st_com\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shop-js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bf929ec6dee6e174af34e722ae8a739a0016bc7063c9f1ff8f5dbf4465b86d6d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dot-st.com",
+                "www.dot-st.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/shops\\/dot-st_com\\/logo\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e77ec431e45ce450b86f3f7af1926da16ecc7030d9f9fbc36f8aecf85d80b055"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dot-st.com",
+                "www.dot-st.com"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/palcloset_jp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shop-js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "db3e79b18d4f24c3c8e8436ad4b0b399eb0e1dfd836e72b08e6e69de9c437cee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "palcloset.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/shops\\/palcloset_jp\\/logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-contents"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1440b3e5fc9ce855a81b921095add02c9bcf268d1bc5424ee32135453ad1f9af"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "palcloset.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "worldshopping\\.jp\\/sofmap_com\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shop-js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ee22080e784cc0489ffa87f2c04b01e83051a32536c4ca632eb2f7e487a07c16"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sofmap.com",
+                "www.sofmap.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000143,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5983606557377049
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.11475409836065574
+        },
+        {
+            "domain": "tagfab.jp",
+            "prevalence": 0.10655737704918032
+        },
+        {
+            "domain": "id5-sync.com",
+            "prevalence": 0.06557377049180328
+        },
+        {
+            "domain": "poster.ooo",
+            "prevalence": 0.05737704918032787
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.03278688524590164
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.02459016393442623
+        }
+    ],
+    "types": {
+        "Script": 38,
+        "XHR": 24,
+        "Image": 178
+    },
+    "nameservers": [
+        "ns-1660.awsdns-15.co.uk",
+        "ns-679.awsdns-20.net",
+        "ns-22.awsdns-02.com",
+        "ns-1038.awsdns-01.org"
+    ]
+}

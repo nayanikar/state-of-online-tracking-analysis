@@ -1,0 +1,81 @@
+{
+    "domain": "informagt.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "external-scripts"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "informagt\\.com\\/js\\/adobe-target\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "external-scripts"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.orientation": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.devicePixelRatio": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d997a186578fe553f0d5d9c2653c7262ac3fa10956ee84e41070fd8c237333dd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mbox": {
+                    "ttl": 63244812,
+                    "length": 103,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "mboxEdgeCluster": {
+                    "ttl": 1871,
+                    "length": 2,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamedeveloper.com",
+                "www.gamedeveloper.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "nick.ns.cloudflare.com",
+        "marjory.ns.cloudflare.com"
+    ]
+}

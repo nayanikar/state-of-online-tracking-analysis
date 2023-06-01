@@ -1,0 +1,174 @@
+{
+    "domain": "shop.pe",
+    "owner": {
+        "name": "Add Shoppers",
+        "displayName": "Add Shoppers"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "shopper",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "shop\\.pe\\/widget\\/widget_async\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bensnaturalhealth.com",
+                "www.guns.com",
+                "www.hellotech.com",
+                "www.routledge.com",
+                "www.techsmith.com"
+            ]
+        },
+        {
+            "rule": "shop\\.pe\\/widget\\/main\\/init\\/params",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "2525bd5a1bbf19e657f424603b9a90946ab6fa6d7691be1d5c6b1334b78e0f35",
+                "d0f77924fd6af0fa3d7349e7404a9f2a5aedb632264efa44950c0e16b33f90ef",
+                "496084932101554e2ede96e72e05fb54d4ac6af5334554306eaac35a05c14baf",
+                "098dcc13535587c28050a599bf93b5af7eccd59653bd15c9f6be36eec703bccb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "addshoppers.com": 0.00010040160642570282,
+                "IR_gbd": 0.00020080321285140563
+            },
+            "exampleSites": [
+                "guns.com",
+                "www.guns.com",
+                "www.hellotech.com",
+                "www.routledge.com",
+                "www.techsmith.com"
+            ]
+        },
+        {
+            "rule": "shop\\.pe\\/input\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "shopper"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "bc1f719ad8a9fb36c5f164463ae53ad79a27e84143b027da42c6ee08021ff399"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guns.com",
+                "www.hellotech.com",
+                "www.routledge.com",
+                "www.techsmith.com"
+            ]
+        },
+        {
+            "rule": "shop\\.pe\\/app\\/datapartners\\/status",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "b4435b5ac2f1916ed1135fb1738a1cef87cb666f4356a6678fb1c77e1273f9e1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guns.com",
+                "www.hellotech.com",
+                "www.routledge.com",
+                "www.techsmith.com"
+            ]
+        },
+        {
+            "rule": "shop\\.pe\\/query\\/datareg\\/consent",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guns.com",
+                "www.routledge.com",
+                "www.techsmith.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "d3rr3d0n31t48m.cloudfront.net",
+            "prevalence": 0.64
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.12
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.08
+        }
+    ],
+    "types": {
+        "Script": 14,
+        "XHR": 7
+    },
+    "nameservers": [
+        "ns-1375.awsdns-43.org",
+        "ns-1678.awsdns-17.co.uk",
+        "ns-482.awsdns-60.com",
+        "ns-601.awsdns-11.net"
+    ]
+}

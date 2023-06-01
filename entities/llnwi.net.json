@@ -1,0 +1,112 @@
+{
+    "domain": "llnwi.net",
+    "owner": {
+        "name": "Limelight Networks, Inc.",
+        "displayName": "Limelight Networks"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "toi.s",
+        "epiconstat.s"
+    ],
+    "cnames": [
+        {
+            "original": "img.etimg.com",
+            "resolved": "toi.s.llnwi.net"
+        },
+        {
+            "original": "scores.iplt20.com",
+            "resolved": "epiconstat.s.llnwi.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "llnwi\\.net\\/photo\\/msid-74451948,quality-100\\/et-logo\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "toi.s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "img.etimg.com",
+                    "resolved": "toi.s.llnwi.net"
+                }
+            ],
+            "responseHashes": [
+                "114b9462ef3a8d9fd26a0544bfc5c5719e86bf25437a4ab0457824edbfcd1074"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indiatimes.com",
+                "economictimes.indiatimes.com"
+            ]
+        },
+        {
+            "rule": "llnwi\\.net\\/ipl\\/mc\\/smBSCustom\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "epiconstat.s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "scores.iplt20.com",
+                    "resolved": "epiconstat.s.llnwi.net"
+                }
+            ],
+            "responseHashes": [
+                "3dbd37ed3e7f9b597c5b82951523a212e52a4c8739f56294a18d4b346dee6530"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iplt20.com",
+                "www.iplt20.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9636363636363636
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.01818181818181818
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.01818181818181818
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "dns23.llnwi.net",
+        "dns26.llnwi.net",
+        "dns24.llnwi.net",
+        "dns25.llnwi.net"
+    ]
+}

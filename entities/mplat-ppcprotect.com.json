@@ -1,0 +1,111 @@
+{
+    "domain": "mplat-ppcprotect.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "client.prod",
+        "click.prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mplat-ppcprotect\\.com\\/QN4EoOvldmFXdANiWLXWdfMU4Dnm2U3mXS7kqIpI\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "client.prod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "875a926c5510bb32885003e980c8222460ff60d72d92926743766d1f112a2702"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theladyshake.com.au",
+                "themanshake.com.au"
+            ]
+        },
+        {
+            "rule": "mplat-ppcprotect\\.com\\/recv",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "click.prod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "02c045b5a38b1e9a01bf15ab6d48d526dc60a726bf041fe32d153b4ffd71e761"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theladyshake.com.au",
+                "themanshake.com.au",
+                "www.afl.com.au",
+                "www.selfridges.com"
+            ]
+        },
+        {
+            "rule": "mplat-ppcprotect\\.com\\/recv",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "click.prod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theladyshake.com.au",
+                "themanshake.com.au",
+                "www.afl.com.au",
+                "www.selfridges.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns-49.awsdns-06.com",
+        "ns-780.awsdns-33.net",
+        "ns-1740.awsdns-25.co.uk",
+        "ns-1466.awsdns-55.org"
+    ]
+}

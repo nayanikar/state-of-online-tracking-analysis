@@ -1,0 +1,180 @@
+{
+    "domain": "ft.com",
+    "owner": {
+        "name": "The Financial Times Limited",
+        "displayName": "The Financial Times",
+        "privacyPolicy": "https://www.ft.com/",
+        "url": "http://ft.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "www",
+        "privacy"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ft\\.com\\/__origami\\/service\\/build\\/v3\\/bundles\\/css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6ef1cd16c17c1f32093af663a057f5ceb6e8a50847554cf05374969bc6ed8186"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ftadviser.com",
+                "www.investorschronicle.co.uk"
+            ]
+        },
+        {
+            "rule": "ft\\.com\\/__origami\\/service\\/build\\/v3\\/bundles\\/js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b56f3f8c0a7431830086a8e88e6566ea0b1d59b6addda7145b596bc4068940b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ftadviser.com",
+                "www.investorschronicle.co.uk"
+            ]
+        },
+        {
+            "rule": "ft\\.com\\/__origami\\/service\\/build\\/v3\\/font",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "d4b66dd41e125bf76238d5f51399efdaac06d6ef7bce02f6789722b5a06a8f40",
+                "d67df5c75e23948dded82b13be84509981dcef0cee22a459ae37d546733b7fb3"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ftadviser.com",
+                "www.ftadviser.com",
+                "www.investorschronicle.co.uk"
+            ]
+        },
+        {
+            "rule": "ft\\.com\\/api\\/v1\\/compliance-region\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "privacy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "594b22c44b9763f83b80e04c6c76c5f7157b934a5d6451d0972d3a7afef3ca53"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ftadviser.com",
+                "www.investorschronicle.co.uk"
+            ]
+        },
+        {
+            "rule": "ft\\.com\\/__origami\\/service\\/image\\/v2\\/images\\/raw\\/https%3A%2F%2Fs3-eu-west-1\\.amazonaws\\.com%2Fic-ez-prod%2Fez%2Fimages%2F8%2F2%2F9%2F7%2F5677928-1-eng-GB%2FITspecial\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a2be5db8a1c99721739117abcfceb81b33740ad275ab4781fd887d65ab4b71c6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investorschronicle.co.uk",
+                "www.investorschronicle.co.uk"
+            ]
+        },
+        {
+            "rule": "ft\\.com\\/__origami\\/service\\/image\\/v2\\/images\\/raw\\/https%3A%2F%2Fs3-eu-west-1\\.amazonaws\\.com%2Fic-ez-prod%2Fez%2Fimages%2F6%2F6%2F9%2F0%2F5870966-5-eng-GB%2FCommercialProperty_Fotoware_081021\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1c121490cc7fd5299937445fe186151179afa1f7b5292cdf9a3a544d43ec4dd5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investorschronicle.co.uk",
+                "www.investorschronicle.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2,
+        "Font": 3,
+        "Fetch": 2,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns-52.awsdns-06.com",
+        "ns-530.awsdns-02.net",
+        "ns-1984.awsdns-56.co.uk",
+        "ns-1447.awsdns-52.org"
+    ]
+}

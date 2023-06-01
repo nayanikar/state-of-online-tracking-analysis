@@ -1,0 +1,86 @@
+{
+    "domain": "oath.com",
+    "owner": {
+        "name": "Verizon Media",
+        "displayName": "Verizon Media",
+        "privacyPolicy": "https://www.verizon.com/about/privacy/privacy-policy-summary",
+        "url": "http://verizon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "consent.cmp"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "oath\\.com\\/cmp\\.js",
+            "cookies": 0.0000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent.cmp"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "f204ab420a5067e50cf449c161ca633301e47849248e691863bae78110990e60"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cmp": {
+                    "ttl": 31536000,
+                    "length": 1,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                },
+                "gpp": {
+                    "ttl": 86400,
+                    "length": 17,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                },
+                "gpp_sid": {
+                    "ttl": 86400,
+                    "length": 1,
+                    "prevalence": 0.000020421221733625584,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "compuserve.com",
+                "www.compuserve.com",
+                "www.intheknow.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns2.yahoo.com",
+        "ns3.yahoo.com",
+        "ns1.yahoo.com",
+        "ns4.yahoo.com",
+        "ns5.yahoo.com"
+    ]
+}

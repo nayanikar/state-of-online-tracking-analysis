@@ -1,0 +1,147 @@
+{
+    "domain": "civiccomputing.com",
+    "owner": {
+        "name": "Civic Computing Limited",
+        "displayName": "Civic Computing"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0011,
+    "sites": 11,
+    "subdomains": [
+        "cc.cdn",
+        "apikeys"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "civiccomputing\\.com\\/9\\/cookieControl-9\\.x\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cc.cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.product": 5,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "395bb06e33236a5a3a0b797bc5f095e2e34f8631221df8bbe88b2bb95ae2e91e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieControl": {
+                    "ttl": 7776007,
+                    "length": 198,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "msi.com",
+                "www.herbertsmithfreehills.com",
+                "www.iwm.org.uk",
+                "www.kink.com",
+                "www.msi.com"
+            ]
+        },
+        {
+            "rule": "civiccomputing\\.com\\/c\\/v",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apikeys"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "7f86b6f81becb992f3e57d5e778e735cc0d03ebf6f40b6f257065b08373ffbdb",
+                "85ad406bf9299522f3fd05fed2d1f50a505a543801300aafa8af4cbd45b31b1a",
+                "beff6f3e26613adc1aba97ef0d6e32c604dc3df19121a122b22fd69ad49651fc",
+                "67021dfd4ed899b62cdb085b8e48c0fd27d257545f61e4269497121ac1ee99bf",
+                "623700d73b2b4e363f333f600432f16c3cc4db34ead9d7c88bc24d30f86d437e",
+                "9932a93dab3cc1564798614aab32093012cec892b065ed39cbb1d06746880f05",
+                "38d83c3327bebdd0c23ce3b6ccb2d58e44c91354d5f6f4f304def5bcc167063b",
+                "f8a159ef9b80c04f19602e0ac442ccabd8db6a7e118354f558dd3a0bf0d15b37"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "msi.com",
+                "healthunlocked.com",
+                "tetris.com",
+                "www.aptouring.com",
+                "www.herbertsmithfreehills.com",
+                "www.iwm.org.uk",
+                "www.jamieoliver.com",
+                "www.metoffice.gov.uk",
+                "www.onthemarket.com"
+            ]
+        },
+        {
+            "rule": "civiccomputing\\.com\\/vl\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cc.cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7d212850f4e9f7cdb250fa40758871e65bf4487e052360f38a1bb195b7e9753d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jamieoliver.com",
+                "www.metoffice.gov.uk",
+                "www.onthemarket.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "hu-production.be",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 12
+    },
+    "nameservers": [
+        "ns0.civiccomputing.com",
+        "ns1.civiccomputing.com",
+        "ns2.civiccomputing.com",
+        "ns3.civiccomputing.com"
+    ]
+}

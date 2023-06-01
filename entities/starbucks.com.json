@@ -1,0 +1,134 @@
+{
+    "domain": "starbucks.com",
+    "owner": {
+        "name": "Starbucks Coffee Company",
+        "displayName": "Starbucks Coffee Company"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "sts-vis-cloud1",
+        "sts-vis-main",
+        "id"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "starbucks\\.com\\/ofis\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sts-vis-cloud1",
+                "sts-vis-main"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ccc8c9845402bfdc1b782f8aba269156628d101dc4a7ec5a4ad263f97f165820"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jdadelivers.com",
+                "starbucks-wfmr.jdadelivers.com"
+            ]
+        },
+        {
+            "rule": "starbucks\\.com\\/ofis\\/public\\/HRD\\.aspx",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sts-vis-cloud1",
+                "sts-vis-main"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ccc8c9845402bfdc1b782f8aba269156628d101dc4a7ec5a4ad263f97f165820"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jdadelivers.com",
+                "starbucks-wfmr.jdadelivers.com"
+            ]
+        },
+        {
+            "rule": "starbucks\\.com\\/ofis\\/public\\/FedLogin\\.aspx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sts-vis-cloud1",
+                "sts-vis-main"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ccc8c9845402bfdc1b782f8aba269156628d101dc4a7ec5a4ad263f97f165820"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jdadelivers.com",
+                "starbucks-wfmr.jdadelivers.com"
+            ]
+        },
+        {
+            "rule": "starbucks\\.com\\/SecureAuth87\\/WebResource\\.axd",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.vendor": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.appName": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "40732e9dcfa704cf615e4691bb07aecfd1cc5e063220a46e4a7ff6560c77f5db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jdadelivers.com",
+                "starbucks-wfmr.jdadelivers.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 6,
+        "Script": 2
+    },
+    "nameservers": [
+        "udns2.cscdns.uk",
+        "udns1.cscdns.net"
+    ]
+}

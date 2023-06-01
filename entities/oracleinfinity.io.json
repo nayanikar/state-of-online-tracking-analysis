@@ -1,0 +1,756 @@
+{
+    "domain": "oracleinfinity.io",
+    "owner": {
+        "name": "Oracle Corporation",
+        "displayName": "Oracle",
+        "privacyPolicy": "https://www.oracle.com/legal/privacy/privacy-policy.html",
+        "url": "http://oracle.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00171,
+    "sites": 17,
+    "subdomains": [
+        "c",
+        "dc",
+        "d"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/mghopengs5\\/js\\/manual\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "5470be4c6aecefe0fe6ff956ae1d707ff805693efca0205fbaf9837365282961"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bws.com.au",
+                "store.bws.com.au",
+                "store.danmurphys.com.au",
+                "www.danmurphys.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/common\\/js\\/1\\.3\\.37\\/common\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 2,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "Navigator.prototype.language": 7,
+                "Navigator.prototype.appName": 7,
+                "Screen.prototype.pixelDepth": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Navigator.prototype.javaEnabled": 7,
+                "window.innerWidth": 7,
+                "window.innerHeight": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie getter": 7,
+                "Navigator.prototype.doNotTrack": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Document.cookie setter": 5
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "65228fd2558cd49b47573d964a5615c31fa39a7c621990a4e3fb2438f2be05d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ORA_FPC": {
+                    "ttl": 63113868,
+                    "length": 2,
+                    "prevalence": 0.00040160642570281126,
+                    "uniqueness": 0.25
+                },
+                "FPC": {
+                    "ttl": 63113876,
+                    "length": 2,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bws.com.au",
+                "store.bws.com.au",
+                "store.danmurphys.com.au",
+                "www.coles.com.au",
+                "www.danmurphys.com.au",
+                "www.kmart.com.au",
+                "www.shopback.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/mghopengs5\\/js\\/manual\\/analytics-default\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "b719b882c3ae99c1c23b0a48f3f5040c02b3ebce7fb6df72f9f36a13f09292c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bws.com.au",
+                "store.bws.com.au",
+                "store.danmurphys.com.au",
+                "www.danmurphys.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/mghopengs5\\/wtid\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "d7685d38c06c672b2a6a3c55c6ed420e2197d9250e897e88cbc0501dd6330ce9",
+                "b381c29d6c155c9377bd8d2ce91747c75aa3446d31bffb734e59358c2e6160cd",
+                "08e82f09f3aead60d1ce4d8113cd33861a9400cb3e056e4a2f6d2adb35fbe4df"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bws.com.au",
+                "store.bws.com.au",
+                "store.danmurphys.com.au",
+                "www.danmurphys.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/mghopengs5\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "bws.com.au",
+                "www.danmurphys.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/05029f888a5340a7858f875889820074\\/js\\/rtam\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "92abc183bc5ba392cc9c0b5e1ed978e73a6282e305c405182a9b58a5477adb50"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cisco.com",
+                "www.cisco.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/05029f888a5340a7858f875889820074\\/js\\/rtam\\/analytics-production\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eca4a8276dfe15e9bcf1d7380837a511ad9c0a3c963b27128672076d4f80af47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cisco.com",
+                "www.cisco.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/common\\/js\\/1\\.3\\.46\\/common\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.appName": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "5233b8e628617f99719b3b7ae193f9b5e5b5897c181d06f578a82f140c38dfda"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ORA_FPC": {
+                    "ttl": 63113872,
+                    "length": 2,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                },
+                "WTPERSIST": {
+                    "ttl": 31536023,
+                    "length": 12,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cisco.com",
+                "www.cisco.com",
+                "www.readersdigest.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/05029f888a5340a7858f875889820074\\/js\\/rtam\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b40e4f2848a25704ae705ee6968187b3b95c1a458155bf0dac684c5ac7dd3a0e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cisco.com",
+                "www.cisco.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/05029f888a5340a7858f875889820074\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ae9ed5babb9998a802add112bd2267bad9de92225142420bc91273ca5c136e7a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cisco.com",
+                "www.cisco.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/common\\/js\\/1\\.3\\.45\\/common\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.appName": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "154ad6de6380d2749374c82b8e61f172eb2f7614861592040c5ab783c23aaa2e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ORA_FPC": {
+                    "ttl": 63113871,
+                    "length": 2,
+                    "prevalence": 0.00020080321285140563,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canon.com",
+                "www.healthgrades.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/ymfedzmzxs\\/js\\/gtm\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "00d17a8c9c0800d29d7e8d33181ed523ed02fd76d4da89ac25c08c2046ab9804"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstchoiceliquor.com.au",
+                "www.vintagecellars.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/common\\/js\\/0\\.0\\.23\\/common\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.appName": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "86858cd0288dad2be819484b57532f299c393c1851d884eb0c11a84d5cc5ad42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ORA_FPC": {
+                    "ttl": 63113865,
+                    "length": 2,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstchoiceliquor.com.au",
+                "www.vintagecellars.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/ymfedzmzxs\\/js\\/gtm\\/analytics-default\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "31b713625e486162a96ffdc1d7bb05a1385ff9ce2b3f7d194c2eb465105d3122"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstchoiceliquor.com.au",
+                "www.vintagecellars.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/ymfedzmzxs\\/wtid\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4d5c2bc9b05d72f87820730b950c268d98035f864360c42a963e03cc612b9b9a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstchoiceliquor.com.au",
+                "www.vintagecellars.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/df27aa426e9d4d996280eb808af503e0\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthgrades.com",
+                "www.healthgrades.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/j00n6tclrh\\/js\\/tms\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c849d83dab498b6d6d7bc6fc3a99283d739a181ef7461bf55d2eee546fd9b7ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "net-a-porter.com",
+                "www.theoutnet.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/common\\/js\\/1\\.3\\.38\\/common\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.appName": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 1,
+                "Navigator.prototype.doNotTrack": 2,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "efc1d2852da7b324d02aad6c8cd091a621d985d8ef684b6cd772c563729b7a29"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ORA_FPC": {
+                    "ttl": 63113871,
+                    "length": 2,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "net-a-porter.com",
+                "www.theoutnet.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/j00n6tclrh\\/js\\/tms\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3d4927d31265a31335ffb5d111c52b5428fed371ccf48e0010ca7a20dc6d7673"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "net-a-porter.com",
+                "www.theoutnet.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/j00n6tclrh\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "00b1590ccc018720c2ebfcd530f9171b161a954cf3fffc118823d6d0db8c0e58"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "net-a-porter.com",
+                "www.theoutnet.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/j00n6tclrh\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "net-a-porter.com",
+                "www.theoutnet.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/8e61362ee80546ccfdc73140807fdc7e\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "readersdigest.com.au",
+                "www.readersdigest.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/w68wir4wc9\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopback.com.au",
+                "www.shopback.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0011,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.43548387096774194
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.1774193548387097
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.0967741935483871
+        },
+        {
+            "domain": "shopback.com",
+            "prevalence": 0.08064516129032258
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.06451612903225806
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.06451612903225806
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "contentsquare.net",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "bizible.com",
+            "prevalence": 0.016129032258064516
+        }
+    ],
+    "types": {
+        "Script": 44,
+        "Image": 10,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns4.p201.dns.oraclecloud.net",
+        "ns3.p201.dns.oraclecloud.net",
+        "ns1.p201.dns.oraclecloud.net",
+        "ns2.p201.dns.oraclecloud.net"
+    ]
+}

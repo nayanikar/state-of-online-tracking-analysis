@@ -1,0 +1,81 @@
+{
+    "domain": "centrum.cz",
+    "owner": {
+        "name": "Economia, a.s.",
+        "displayName": "Economia"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000476,
+    "sites": 7,
+    "subdomains": [
+        "pocasi-backend"
+    ],
+    "cnames": [
+        {
+            "original": "pocasi-backend.aktualne.cz",
+            "resolved": "pocasi-backend.centrum.cz"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "centrum\\.cz\\/api\\/v2\\/widget\\/tiny_actual",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocasi-backend"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [
+                {
+                    "original": "pocasi-backend.aktualne.cz",
+                    "resolved": "pocasi-backend.centrum.cz"
+                }
+            ],
+            "responseHashes": [
+                "1dd6e3e4a64be7ce3cee67db44afe8b6c4602a9fe432699e6c39b1d628e98497",
+                "6e6dd294fe502a4672163690b20894d2062f73b03b095c92f43210750666dfc2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aktualne.cz",
+                "www.aktualne.cz",
+                "zpravy.aktualne.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "stdout.cz",
+            "prevalence": 0.6551724137931034
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1896551724137931
+        },
+        {
+            "domain": "cpex.cz",
+            "prevalence": 0.10344827586206896
+        },
+        {
+            "domain": "rubiconproject.com",
+            "prevalence": 0.05172413793103448
+        }
+    ],
+    "types": {
+        "Fetch": 3
+    },
+    "nameservers": [
+        "pam.ns.cloudflare.com",
+        "max.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,177 @@
+{
+    "domain": "regionsjob.com",
+    "owner": {
+        "name": "RegionsJob-",
+        "displayName": "RegionsJob-"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "regionsjob\\.com\\/javascripts\\/tracker-2-latest\\.min\\.js",
+            "cookies": 0.000302,
+            "fingerprinting": 2,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "console.memory": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.platform": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "window.devicePixelRatio": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Navigator.prototype.cookieEnabled": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "470eaad058ed160315737d07065e650d20b411534700fd9aec464b73e885e3a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_hw_sid": {
+                    "ttl": 155520000002,
+                    "length": 16,
+                    "prevalence": 0.0003015378429992964,
+                    "uniqueness": 1
+                },
+                "_hw_pid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.0002010252286661976,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diplomeo.com",
+                "www.hellowork.com",
+                "www.maformation.fr"
+            ]
+        },
+        {
+            "rule": "regionsjob\\.com\\/i\\/getpid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diplomeo.com",
+                "www.hellowork.com",
+                "www.maformation.fr"
+            ]
+        },
+        {
+            "rule": "regionsjob\\.com\\/i\\/getpid",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "af00a2509ab5bfac6cb0daa90b04dfecaf62a548f23923ffa8e3cfe3f0eab62d",
+                "8f78df5b3669b21f380d8444ea3c14fa17736176d489c947b97eb0ce34daeb1a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diplomeo.com",
+                "www.hellowork.com",
+                "www.maformation.fr"
+            ]
+        },
+        {
+            "rule": "regionsjob\\.com\\/i\\/allowcookie",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diplomeo.com",
+                "www.hellowork.com",
+                "www.maformation.fr"
+            ]
+        },
+        {
+            "rule": "regionsjob\\.com\\/i\\/allowcookie",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diplomeo.com",
+                "www.hellowork.com",
+                "www.maformation.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Preflight": 6,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-193-c.gandi.net",
+        "ns-249-a.gandi.net",
+        "ns-0-b.gandi.net"
+    ]
+}

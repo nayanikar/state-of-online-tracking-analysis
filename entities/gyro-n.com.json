@@ -1,0 +1,94 @@
+{
+    "domain": "gyro-n.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "dfm-asset-v2",
+        "dfm-cast-v2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gyro-n\\.com\\/dfmapi\\.js",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dfm-asset-v2"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "3c481c8fab09b476f0a521c13597ba6efdbdd7b8f7c39e9ec425c36bf7589d98"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__gyrinfo": {
+                    "ttl": 16,
+                    "length": 4,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "2ndstreet.jp",
+                "www.2ndstreet.jp",
+                "zexy.net"
+            ]
+        },
+        {
+            "rule": "gyro-n\\.com\\/configs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dfm-cast-v2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "6d5dc98173f48b1888cefc013f040b8f9a0957fe05e9f1e513c2f1b625fb5544",
+                "e66f000b3071f1711a44ae9e264d9f3b5bca1bda544bc1e02d284b745291ebfd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "2ndstreet.jp",
+                "www.2ndstreet.jp",
+                "zexy.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-90.awsdns-11.com",
+        "ns-730.awsdns-27.net",
+        "ns-1876.awsdns-42.co.uk",
+        "ns-1510.awsdns-60.org"
+    ]
+}

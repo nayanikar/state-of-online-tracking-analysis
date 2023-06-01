@@ -1,0 +1,87 @@
+{
+    "domain": "probo.biz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000408,
+    "sites": 6,
+    "subdomains": [
+        "poplink-f"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "probo\\.biz\\/pl3\\/poplink3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "poplink-f"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "8d3700b071eaa7d733ef0f4b1b18fa36e16aa7138b02d5c7f189dbfbee4eb93f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nestle.jp",
+                "tomiz.com",
+                "workman.jp",
+                "www.suntory-kenko.com"
+            ]
+        },
+        {
+            "rule": "probo\\.biz\\/pl3\\/stylesheets\\/pc022\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "poplink-f"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "548452bf6014f4d1f5b49670b5fd592bb4bda76ba3cb1694165c6e4ab61dbefc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomiz.com",
+                "workman.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "c00sil01.probo.biz",
+        "c00stz01.probo.biz",
+        "c00sih01.probo.biz",
+        "c00soz01.probo.biz",
+        "c00stl01.probo.biz"
+    ]
+}

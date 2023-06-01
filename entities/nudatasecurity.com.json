@@ -1,0 +1,128 @@
+{
+    "domain": "nudatasecurity.com",
+    "owner": {
+        "name": "Mastercard Technologies Canada ULC",
+        "displayName": "Mastercard Technologies Canada ULC"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "api-hrblock-origin.nd",
+        "api-keybank.nd"
+    ],
+    "cnames": [
+        {
+            "original": "api-nd.hrblock.com",
+            "resolved": "api-hrblock-origin.nd.nudatasecurity.com"
+        },
+        {
+            "original": "nd.key.com",
+            "resolved": "api-keybank.nd.nudatasecurity.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "nudatasecurity\\.com\\/2\\.2\\/w\\/w-446637\\/sync\\/js\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
+            "subdomains": [
+                "api-hrblock-origin.nd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api-nd.hrblock.com",
+                    "resolved": "api-hrblock-origin.nd.nudatasecurity.com"
+                }
+            ],
+            "responseHashes": [
+                "f02da7acd49e93101d38541211ac25d44a0247256648390ea8ec2820673fff2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hrblock.com",
+                "account.hrblock.com"
+            ]
+        },
+        {
+            "rule": "nudatasecurity\\.com\\/2\\.2\\/w\\/w-446637\\/init\\/js\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-hrblock-origin.nd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api-nd.hrblock.com",
+                    "resolved": "api-hrblock-origin.nd.nudatasecurity.com"
+                }
+            ],
+            "responseHashes": [
+                "e531089fcb5551f3368d759961826769cdf370c356912e13fa8091603258bb6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hrblock.com",
+                "account.hrblock.com"
+            ]
+        },
+        {
+            "rule": "nudatasecurity\\.com\\/2\\.2\\/w\\/w-734496\\/init\\/js\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-keybank.nd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "nd.key.com",
+                    "resolved": "api-keybank.nd.nudatasecurity.com"
+                }
+            ],
+            "responseHashes": [
+                "08d3e0116d83ef3d7b7d9fa44a51191ea3bad0dd4f2e200dee7b5392b0189fe2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "key.com",
+                "ibx.key.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-1793.awsdns-32.co.uk",
+        "ns-209.awsdns-26.com",
+        "ns-1093.awsdns-08.org",
+        "ns-973.awsdns-57.net"
+    ]
+}

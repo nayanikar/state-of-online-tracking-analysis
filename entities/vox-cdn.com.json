@@ -1,0 +1,125 @@
+{
+    "domain": "vox-cdn.com",
+    "owner": {
+        "name": "Vox Media, Inc.",
+        "displayName": "Vox Media"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vox-cdn\\.com\\/packs\\/js\\/concert_ads-39629d26f571563b556c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c835b178bc45f20688a788b8520596c1aaa8dd59d8589ed426ee9b3852382986"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "draftkings.com",
+                "www.theringer.com"
+            ]
+        },
+        {
+            "rule": "vox-cdn\\.com\\/packs\\/js\\/hub_pages-61a553d769ebdf3cca92\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "window.innerHeight": 2,
+                "window.devicePixelRatio": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6f98930fcbff43264f4f271df5de9a78f972c96391fe4fe1bb7bb3eae28bc995"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "draftkings.com",
+                "www.theringer.com"
+            ]
+        },
+        {
+            "rule": "vox-cdn\\.com\\/packs\\/js\\/chorus-445adab02eca8b1d5e29\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d7f8e3141104cccf66879951733a90cee362e11c4c92998bd0a508875fe3a393"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "draftkings.com",
+                "www.theringer.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8611111111111112
+        },
+        {
+            "domain": "concert.io",
+            "prevalence": 0.1388888888888889
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-19.awsdns-02.com",
+        "ns-1610.awsdns-09.co.uk",
+        "ns-629.awsdns-14.net",
+        "ns-1041.awsdns-02.org"
+    ]
+}

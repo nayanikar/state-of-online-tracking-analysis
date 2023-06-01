@@ -1,0 +1,86 @@
+{
+    "domain": "fortiwebcloud.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "api.tim.it.28978"
+    ],
+    "cnames": [
+        {
+            "original": "api.tim.it",
+            "resolved": "api.tim.it.28978.fortiwebcloud.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "fortiwebcloud\\.net\\/api\\/v3\\/getAdformParameters",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.tim.it.28978"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api.tim.it",
+                    "resolved": "api.tim.it.28978.fortiwebcloud.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tim.it",
+                "www.tim.it"
+            ]
+        },
+        {
+            "rule": "fortiwebcloud\\.net\\/api\\/v3\\/getAdformParameters",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.tim.it.28978"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "api.tim.it",
+                    "resolved": "api.tim.it.28978.fortiwebcloud.net"
+                }
+            ],
+            "responseHashes": [
+                "006fb50c8d4e947e56f5a2fd01dd4a08045997bc4fdbbc45c7d532365ac094c3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tim.it",
+                "www.tim.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-111.awsdns-13.com",
+        "ns-690.awsdns-22.net",
+        "ns-1470.awsdns-55.org",
+        "ns-1716.awsdns-22.co.uk"
+    ]
+}

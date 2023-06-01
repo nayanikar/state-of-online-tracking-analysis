@@ -1,0 +1,112 @@
+{
+    "domain": "awsxfinity.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "dl-ingest-v2"
+    ],
+    "cnames": [
+        {
+            "original": "dl.cws.xfinity.com",
+            "resolved": "dl-ingest-v2.awsxfinity.akadns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "awsxfinity\\.akadns\\.net\\/event\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dl-ingest-v2"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [
+                {
+                    "original": "dl.cws.xfinity.com",
+                    "resolved": "dl-ingest-v2.awsxfinity.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xfinity.com",
+                "customer.xfinity.com",
+                "forums.xfinity.com",
+                "login.xfinity.com",
+                "my.comcast.net",
+                "my.xfinity.com",
+                "www.xfinity.com",
+                "xtv-pil.xfinity.com"
+            ]
+        },
+        {
+            "rule": "awsxfinity\\.akadns\\.net\\/event\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dl-ingest-v2"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000545,
+            "cnames": [
+                {
+                    "original": "dl.cws.xfinity.com",
+                    "resolved": "dl-ingest-v2.awsxfinity.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "01eb0134d7a4100753d9944e080a92a7c5d8f995bb07fe27ce1f3f1e0ab500b3",
+                "fb957015ef29673f3474b1f19d0625e4bb04af40a415b099e28d3a916f3ed600",
+                "d1f9247df9c2c8b20456ea2cffe4f15707818cf9d89241f693908dc5ff6b1244",
+                "7b6bbbb67572cffc75658628e5465fdf1c933bd0295b23cbe15283056a96a8d2",
+                "01608a82510f7267fbd3507eed6e7338f7f23aed2ece004f18cec180725d14de",
+                "49d8b295857010497a1954e0d10746e182d3aa972955b57ccfe510b4b9f94a08",
+                "a8b45ee7bf7fad1f9f40b868886fec8ea019b9e457eca1cb439f41151923b5fa"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xfinity.com",
+                "customer.xfinity.com",
+                "forums.xfinity.com",
+                "login.xfinity.com",
+                "my.comcast.net",
+                "my.xfinity.com",
+                "www.xfinity.com",
+                "xtv-pil.xfinity.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "cimcontent.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 8,
+        "XHR": 8
+    },
+    "nameservers": []
+}

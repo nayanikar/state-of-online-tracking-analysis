@@ -1,0 +1,64 @@
+{
+    "domain": "prod-paris-mk2-load-balancer-316020393.eu-west-3.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "prod.api.mk2.com",
+            "resolved": "prod-paris-mk2-load-balancer-316020393.eu-west-3.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "prod-paris-mk2-load-balancer-316020393\\.eu-west-3\\.elb\\.amazonaws\\.com\\/users\\/newsletters",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "prod.api.mk2.com",
+                    "resolved": "prod-paris-mk2-load-balancer-316020393.eu-west-3.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "8a48a7fddbd17c2ea1c3550baaf9f9d7883018210683c67e451cd3e1e1ff75d2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mk2.com",
+                "www.mk2.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "prismic.io",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": []
+}

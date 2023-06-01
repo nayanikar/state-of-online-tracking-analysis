@@ -1,0 +1,398 @@
+{
+    "domain": "medtargetsystem.com",
+    "owner": {
+        "name": "MedTargetSystem",
+        "displayName": "MedTargetSystem"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000602,
+    "sites": 6,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "medtargetsystem\\.com\\/javascript\\/beacon\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 6,
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "window.sessionStorage": 6,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 6,
+                "window.name": 6,
+                "Document.cookie setter": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "0e3b0ea28676eb4d866f61dc08234b98df73f368ed4e5aa4e4be76d9bc5cf59e",
+                "883bc9a26e0b329e37d1139486e92e8ebe940b5521433a0f8592be1c252edb8f",
+                "5aa1aca02ae3f8c01293db6e61c6087fe70e1307023144c6cdbcd7161b51f661",
+                "2d30742efab88405b8046937fcd762f8e2fd87fc8bbbc6c0c72df6f5aab15044"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sess": {
+                    "ttl": 1808,
+                    "length": 86,
+                    "prevalence": 0.00040160642570281126,
+                    "uniqueness": 1
+                },
+                "dmd-vid": {
+                    "ttl": 1808,
+                    "length": 36,
+                    "prevalence": 0.00040160642570281126,
+                    "uniqueness": 1
+                },
+                "dmd-sid": {
+                    "ttl": 1808,
+                    "length": 36,
+                    "prevalence": 0.00040160642570281126,
+                    "uniqueness": 1
+                },
+                "dmd-ahk": {
+                    "ttl": 1808,
+                    "length": 10,
+                    "prevalence": 0.00040160642570281126,
+                    "uniqueness": 0.25
+                },
+                "dmd-signal-246-10250-3F3B6BD6-2005655d-90a5-486a-a50a-07fd6b837a29": {
+                    "ttl": 1805,
+                    "length": 3,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "dmd-signal-118-503-EA8A36BD-75f4da71-8359-409e-996e-58d7b4e1f10b": {
+                    "ttl": 1808,
+                    "length": 3,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "dmd-signal-52-500-9E888B4D-0f6cba42-0c37-43e9-a7e4-80f0df3e56f9": {
+                    "ttl": 1809,
+                    "length": 3,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "dmd-signal-102-456-06EED9C9-753ae9bf-9ada-4e60-8580-ee66584e517e": {
+                    "ttl": 1807,
+                    "length": 3,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dermnetnz.org",
+                "radiopaedia.org",
+                "www.goodrx.com",
+                "www.healingwell.com",
+                "www.healthgrades.com",
+                "www.mdcalc.com"
+            ]
+        },
+        {
+            "rule": "medtargetsystem\\.com\\/beacon\\/portal\\/",
+            "cookies": 0.000602,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "70c70a55860f41814281b11038b67e57b0e27d8afc613d77a94ce44f3056f616",
+                "9be22c862c7ce06381c03c7fd3b84fa284b46662f228ad1be9ca4d99e2f76334",
+                "df58ce1c13426bdff77383247705fa74745034e21e8f6353a87db210cf8cfb51",
+                "dbfa6b4ca26889cc47ef68219f688802bf776b9e0e3bb30bb24ee5642afd33ab"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dmd-vid": 0.0006024096385542169,
+                "dmd-sid": 0.0006024096385542169
+            },
+            "exampleSites": [
+                "dermnetnz.org",
+                "radiopaedia.org",
+                "www.goodrx.com",
+                "www.healingwell.com",
+                "www.healthgrades.com",
+                "www.mdcalc.com"
+            ]
+        },
+        {
+            "rule": "medtargetsystem\\.com\\/analytics\\/collect\\.gif",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dmd-vid": 0.0006024096385542169,
+                "dmd-sid": 0.0006024096385542169
+            },
+            "exampleSites": [
+                "dermnetnz.org",
+                "radiopaedia.org",
+                "www.goodrx.com",
+                "www.healingwell.com",
+                "www.healthgrades.com",
+                "www.mdcalc.com"
+            ]
+        },
+        {
+            "rule": "medtargetsystem\\.com\\/js\\/build\\/iframe\\/signal\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie getter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "f1db11b118feb0ca0c40bb5f11386390f272d9386039668b4d51e2a3895a69f5",
+                "58564129b96c6293a1527e37e052722a9e88c45447e58312eee9224489e940ed",
+                "d4e805e6827557b49896fee1bc385e7540c70779d6486a8638f29fae0d114870"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dermnetnz.org",
+                "radiopaedia.org",
+                "www.goodrx.com",
+                "www.healingwell.com",
+                "www.healthgrades.com"
+            ]
+        },
+        {
+            "rule": "medtargetsystem\\.com\\/js\\/build\\/iframe\\/fp\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.platform": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.width": 5,
+                "Navigator.prototype.appCodeName": 5,
+                "Navigator.prototype.appName": 5,
+                "Navigator.prototype.appVersion": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Navigator.prototype.plugins": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie getter": 5,
+                "CanvasRenderingContext2D.prototype.getImageData": 5,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "4027efd0eefed596c7acf93de68503aa8e8ddbf898c8ce02b30f651229593155",
+                "8e69b2dcb2917cdac2bd0ff8b8f91f86add2c33734f539436af36c2b6cbc218d",
+                "abce3e2fe44fc8b8fafd8b8faaef670e9206a56f031efdfb1c99049234775a3b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dermnetnz.org",
+                "radiopaedia.org",
+                "www.goodrx.com",
+                "www.healingwell.com",
+                "www.healthgrades.com"
+            ]
+        },
+        {
+            "rule": "medtargetsystem\\.com\\/_itu\\.png",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "184f2ea285c1f4a147ee230c0c0a8532a8d940801ef8cd14e8a01afe5e146e4c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dermnetnz.org",
+                "radiopaedia.org",
+                "www.goodrx.com",
+                "www.healingwell.com",
+                "www.healthgrades.com"
+            ]
+        },
+        {
+            "rule": "medtargetsystem\\.com\\/beacon\\/process\\/",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "bde695cbe81617b0a200e29db2a356bc6c9b7ef1e64012cf769dffb7ea597ec3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dermnetnz.org",
+                "radiopaedia.org",
+                "www.goodrx.com",
+                "www.healingwell.com",
+                "www.healthgrades.com"
+            ]
+        },
+        {
+            "rule": "medtargetsystem\\.com\\/partner\\/auth_review",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dermnetnz.org",
+                "radiopaedia.org",
+                "www.healingwell.com",
+                "www.healthgrades.com"
+            ]
+        },
+        {
+            "rule": "medtargetsystem\\.com\\/partner\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dermnetnz.org",
+                "www.healingwell.com"
+            ]
+        },
+        {
+            "rule": "medtargetsystem\\.com\\/iframe\\/transition",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodrx.com",
+                "www.mdcalc.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000602,
+    "topInitiators": [
+        {
+            "domain": "osano.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "tapnative.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "ehealthcaresolutions.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Document": 8,
+        "Image": 11,
+        "XHR": 11
+    },
+    "nameservers": [
+        "ns-271.awsdns-33.com",
+        "ns-830.awsdns-39.net",
+        "ns-1786.awsdns-31.co.uk",
+        "ns-1272.awsdns-31.org"
+    ]
+}

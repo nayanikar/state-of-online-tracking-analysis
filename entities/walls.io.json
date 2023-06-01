@@ -1,0 +1,217 @@
+{
+    "domain": "walls.io",
+    "owner": {
+        "name": "Die Socialisten Social Software Development GmbH",
+        "displayName": "Die Socialisten Social Software Development"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "my",
+        "mtm",
+        "app",
+        "broadcaster"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "walls\\.io\\/js\\/wallsio-widget-1\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.innerHeight": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1979f722aa61c3a1b953fdedf5d69bff642f21ec4e21c22ada7fa9a13d09ed3f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "verbier4vallees.ch",
+                "www.ktm.com",
+                "www.ost.ch",
+                "www.spar.ch",
+                "www.unisg.ch"
+            ]
+        },
+        {
+            "rule": "walls\\.io\\/helfenmachtgluecklich",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "srk-zuerich.ch",
+                "www.srk-zuerich.ch"
+            ]
+        },
+        {
+            "rule": "walls\\.io\\/mtm\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mtm"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a98bcbffd5d9ea7bf01dfdc4d0b7f0c75bfcefffa62a51e237082f7d05d18987"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "srk-zuerich.ch",
+                "www.waldschweiz.ch"
+            ]
+        },
+        {
+            "rule": "walls\\.io\\/record_view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "srk-zuerich.ch",
+                "www.waldschweiz.ch"
+            ]
+        },
+        {
+            "rule": "walls\\.io\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "broadcaster"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "srk-zuerich.ch",
+                "www.waldschweiz.ch"
+            ]
+        },
+        {
+            "rule": "walls\\.io\\/mtm\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mtm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "srk-zuerich.ch",
+                "www.waldschweiz.ch"
+            ]
+        },
+        {
+            "rule": "walls\\.io\\/w46ju",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6d3d8a60d17b97c54834ccf1d97a5a283b3e25687de87148f0fc348e8bae419b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "waldschweiz.ch",
+                "www.waldschweiz.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6428571428571429
+        },
+        {
+            "domain": "dpt5udl8tkpo9.cloudfront.net",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Document": 4,
+        "Ping": 4,
+        "WebSocket": 2
+    },
+    "nameservers": [
+        "ns-1519.awsdns-61.org",
+        "ns-2037.awsdns-62.co.uk",
+        "ns-501.awsdns-62.com",
+        "ns-570.awsdns-07.net"
+    ]
+}

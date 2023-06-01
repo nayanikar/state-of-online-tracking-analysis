@@ -1,0 +1,86 @@
+{
+    "domain": "ulmoyc.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ulmoyc\\.com\\/v1\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.permissions": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "56def95203abaa5546a20ea96cf2052408a1c1a6cbd6510bc13c18238ccd886d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abcdef.wiki",
+                "fr.abcdef.wiki"
+            ]
+        },
+        {
+            "rule": "ulmoyc\\.com\\/fp\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1537c4bc6ada66bef6266fa3cea2cb5808b92993944ea1a0b91f49f162865111"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ufp2": {
+                    "ttl": 604803,
+                    "length": 40,
+                    "prevalence": 0.0002008435428800964,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abcdef.wiki",
+                "fr.abcdef.wiki"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "cjvdfw.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "brit.ns.cloudflare.com",
+        "lex.ns.cloudflare.com"
+    ]
+}

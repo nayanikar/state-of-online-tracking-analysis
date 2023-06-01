@@ -1,0 +1,122 @@
+{
+    "domain": "gedi.it",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "eulogin"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gedi\\.it\\/sdk\\.config\\.get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eulogin"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "8efca31d9bb2dec4f434824c5b5bb21c37fc7901776c50f3a759286a6ed3212c",
+                "10c53c5664b3ce8027ffce1910b68d8546cb51d8524a6d8daf89071fcd88cbd3",
+                "b42b799d7d276da8a66726adf7af640631338288104c4e2c19282a9196f18cdb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huffingtonpost.it",
+                "www.huffingtonpost.it",
+                "www.lastampa.it",
+                "www.repubblica.it"
+            ]
+        },
+        {
+            "rule": "gedi\\.it\\/gs\\/webSdk\\/Api\\.aspx",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "eulogin"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "0b1e38a211b5fcf95372b14bcd64312c9a287511aecc5ea18d2127ff1922565a",
+                "ba227d644c490ff1d664706eea22657242ba006111c22f27646800d60d838f68"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huffingtonpost.it",
+                "www.lastampa.it",
+                "www.repubblica.it"
+            ]
+        },
+        {
+            "rule": "gedi\\.it\\/gs\\/sso\\.htm",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "eulogin"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.appVersion": 4,
+                "Navigator.prototype.mimeTypes": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "3429bcc21e4bfadbe94b42ac7e2f7d1b9754d678095de77a1b79afcba73de5d2"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huffingtonpost.it",
+                "www.huffingtonpost.it",
+                "www.lastampa.it",
+                "www.repubblica.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "gigya.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Document": 7
+    },
+    "nameservers": [
+        "ns-1643.awsdns-13.co.uk",
+        "ns-55.awsdns-06.com",
+        "ns-1346.awsdns-40.org",
+        "ns-829.awsdns-39.net"
+    ]
+}

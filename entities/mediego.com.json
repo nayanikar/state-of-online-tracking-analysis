@@ -1,0 +1,89 @@
+{
+    "domain": "mediego.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "api",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mediego\\.com\\/agent\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api",
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "fc54dce84c86b8a9ee08a5a308928bd29d2afc0901456ab8b4c466a69001f028"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auto-moto.com",
+                "www.autonews.fr",
+                "www.laliberte.ch",
+                "www.maxisciences.com"
+            ]
+        },
+        {
+            "rule": "mediego\\.com\\/1\\.0\\/track\\/visit",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "08cd7a779b22b412645fe9241fed133bdaec012f0c1fc3142dae248822bc1591",
+                "5770e2a9f2d5e8e7c9aba8594f7432b023f193759bdc7bef17c8757b494e8ad5",
+                "cf8157c650e265d37260e4756e1200cf5ab870578ab00e379cec7ee4264c2c75"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autonews.fr",
+                "www.auto-moto.com",
+                "www.laliberte.ch",
+                "www.maxisciences.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "dns200.anycast.me",
+        "ns200.anycast.me"
+    ]
+}

@@ -1,0 +1,219 @@
+{
+    "domain": "expoints.nl",
+    "owner": {
+        "name": "Trust Provider B.V.",
+        "displayName": "Trust Provider"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000904,
+    "sites": 9,
+    "subdomains": [
+        "gdl1",
+        "dela1",
+        "gemeentedenhaag1",
+        "veh1",
+        "enexis1",
+        "stedin1",
+        "vgz1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "expoints\\.nl\\/m\\/Scripts\\/dist\\/expoints-external-loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gdl1",
+                "dela1",
+                "gemeentedenhaag1",
+                "veh1",
+                "enexis1",
+                "stedin1",
+                "vgz1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "32380c39d984e84f85bdb04cafa61819606739a81b74b3d66aae43b82fd7bbb9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postcodeloterij.nl",
+                "www.dela.nl",
+                "www.denhaag.nl",
+                "www.eigenhuis.nl",
+                "www.enexis.nl",
+                "www.postcodeloterij.nl",
+                "www.stedin.net",
+                "www.vgz.nl",
+                "www.vriendenloterij.nl"
+            ]
+        },
+        {
+            "rule": "expoints\\.nl\\/m\\/Scripts\\/dist\\/expoints-external\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gdl1",
+                "dela1",
+                "gemeentedenhaag1",
+                "veh1",
+                "enexis1",
+                "stedin1",
+                "vgz1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "window.localStorage": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "4073ea8e0ced4273eb3b9d2a83a3fae257dca5cdc201f10e031b50ce37f692ed",
+                "fd58c864e31c32e11b6a24732e8cb34602c8722d98ef62a17a6c793d46eafacb",
+                "291d0383f3a371ec5a4673898b3d0211b4e1a2775532b2d135177e2423051061"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postcodeloterij.nl",
+                "www.dela.nl",
+                "www.denhaag.nl",
+                "www.eigenhuis.nl",
+                "www.enexis.nl",
+                "www.postcodeloterij.nl",
+                "www.stedin.net",
+                "www.vgz.nl",
+                "www.vriendenloterij.nl"
+            ]
+        },
+        {
+            "rule": "expoints\\.nl\\/m\\/external-configs\\/4004f8a2-4a87-42f3-9f97-98204e64d004\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdl1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1778ff733b61f8f8aef93f7241a22270985fa622d80a07fd52b4f14dd18d45d1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postcodeloterij.nl",
+                "www.postcodeloterij.nl",
+                "www.vriendenloterij.nl"
+            ]
+        },
+        {
+            "rule": "expoints\\.nl\\/m\\/content\\/dist\\/custom\\/external\\/button\\/a9a84c68-439f-49e5-b578-19befb8ae4d0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdl1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "88574103aeab7c9d24955ef69f702f554659a2d04e9a6f15ff4034068c9ef4fb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postcodeloterij.nl",
+                "www.postcodeloterij.nl"
+            ]
+        },
+        {
+            "rule": "expoints\\.nl\\/m\\/api\\/File",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdl1",
+                "vgz1"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "57e047b1c119faddbba02d3025c0c390d09ab73d6587859f2abb6fc7b9cc99ac"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postcodeloterij.nl",
+                "www.postcodeloterij.nl",
+                "www.vgz.nl",
+                "www.vriendenloterij.nl"
+            ]
+        },
+        {
+            "rule": "expoints\\.nl\\/m\\/content\\/dist\\/files\\/MyriadPro_Regular\\.otf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdl1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "09e398ac1f6c94925579673f362bc95f8c36ab41195f467a28ff20b8194003b3"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postcodeloterij.nl",
+                "www.postcodeloterij.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5789473684210527
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42105263157894735
+        }
+    ],
+    "types": {
+        "Script": 18,
+        "Fetch": 3,
+        "Stylesheet": 2,
+        "Font": 6
+    },
+    "nameservers": [
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e2.googledomains.com"
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "domain": "t6a.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "imageproxy",
+        "graphql-cmore"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "t6a\\.net\\/convert",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imageproxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fc1e427d7a404f05f00a2ce837ac7f969aef3cb86ee73393286a06f985f6d6db"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmore.se",
+                "www.cmore.se"
+            ]
+        },
+        {
+            "rule": "t6a\\.net\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graphql-cmore"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2fb5ea6a157fcc591ad518998ae618acdec53821ad68c726d28d703c5ac8085a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmore.se",
+                "www.cmore.se"
+            ]
+        },
+        {
+            "rule": "t6a\\.net\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graphql-cmore"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmore.se",
+                "www.cmore.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-756.awsdns-30.net",
+        "ns-1522.awsdns-62.org",
+        "ns-2014.awsdns-59.co.uk",
+        "ns-289.awsdns-36.com"
+    ]
+}

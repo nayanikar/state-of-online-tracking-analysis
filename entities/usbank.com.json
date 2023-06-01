@@ -1,0 +1,204 @@
+{
+    "domain": "usbank.com",
+    "owner": {
+        "name": "US Bank",
+        "displayName": "US Bank"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000953,
+    "sites": 14,
+    "subdomains": [
+        "smetrics",
+        "acxmetrics"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "usbank\\.com\\/id",
+            "cookies": 0.000034,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "036ce4fade64966ed2a7688bae5d2f84cfb2f42ede7f11313b7d4a68d97279f7",
+                "1922fd9e67e7f30e8f8d75aaab85bc749fca1ab09c81dddea36954332a07834a",
+                "90158a17fb2d1a1cf9ce5e9bf8893c3609d2ab1f4b432bba245e0647a00de6a3",
+                "b80ed86c9f522c460874299bb9ed9624f26192b21f7cfa5f564e043189f5d899"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aaa.com",
+                "card.creditcard.acg.aaa.com",
+                "www.h-dvisa.com",
+                "www.prepaidgiftbalance.com",
+                "www.usbankreliacard.com"
+            ]
+        },
+        {
+            "rule": "usbank\\.com\\/1\\/d\\/c\\.gif",
+            "cookies": 0.0000272,
+            "fingerprinting": 0,
+            "subdomains": [
+                "acxmetrics"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viewfromthewing.com",
+                "www.49ers.com",
+                "www.bizjournals.com",
+                "www.vikings.com"
+            ]
+        },
+        {
+            "rule": "usbank\\.com\\/d\\/a\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "acxmetrics"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "49ers.com",
+                "www.bizjournals.com",
+                "www.fidelityrewards.com",
+                "www.h-dvisa.com",
+                "www.vikings.com"
+            ]
+        },
+        {
+            "rule": "usbank\\.com\\/1\\/d\\/tc\\.dhj",
+            "cookies": 0.0000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "acxmetrics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "429993da9f430feddf513591fa1714be2096d2bff9b109f51397f303f33e28fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelityrewards.com",
+                "www.fidelityrewards.com",
+                "www.h-dvisa.com"
+            ]
+        },
+        {
+            "rule": "usbank\\.com\\/a\\/t_\\.htm",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "acxmetrics"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "f52a25986db575f3b50734266b36cfe7d8e6889805d089e9963ae3b064aa7dc3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelityrewards.com",
+                "www.fidelityrewards.com",
+                "www.h-dvisa.com"
+            ]
+        },
+        {
+            "rule": "usbank\\.com\\/1\\.1128\\.25\\/a\\/US\\/t_\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "acxmetrics"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "2fed19948852b9307f618b2891f5a76da0196ecd3a2eb98a5119a8c269f856b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelityrewards.com",
+                "www.fidelityrewards.com",
+                "www.h-dvisa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000953,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.2962962962962963
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "2mdn.net",
+            "prevalence": 0.037037037037037035
+        }
+    ],
+    "types": {
+        "XHR": 5,
+        "Image": 9,
+        "Script": 6,
+        "Document": 3
+    },
+    "nameservers": [
+        "ns4.usbank.com",
+        "ns2.usbank.com",
+        "ns3.usbank.com"
+    ]
+}

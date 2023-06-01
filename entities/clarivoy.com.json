@@ -1,0 +1,119 @@
+{
+    "domain": "clarivoy.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "tags-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "clarivoy\\.com\\/tradercorporation\\/td\\/tva\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.plugins": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ad95189c3b4d119e426a2aade9e3985946fb2ae7ca688606dd9b762200f8bb68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autohebdo.net",
+                "www.autotrader.ca",
+                "www.lespac.com"
+            ]
+        },
+        {
+            "rule": "clarivoy\\.com\\/common\\/read_from_config\\/clarivoy\\.js",
+            "cookies": 0.000603,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags-cdn"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Document.cookie setter": 6,
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.language": 6,
+                "Screen.prototype.colorDepth": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "window.sessionStorage": 6,
+                "window.name": 6,
+                "Navigator.prototype.permissions": 6,
+                "Navigator.prototype.vendor": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "685ccd6a0bab594bc46e07bb7787e8da80471dbb8ab7aff1c12aeedb39155b92"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js": {
+                    "ttl": 3,
+                    "length": 9,
+                    "prevalence": 0.0006025306286402892,
+                    "uniqueness": 0.16666666666666666
+                },
+                "_td": {
+                    "ttl": 63072004,
+                    "length": 36,
+                    "prevalence": 0.0006025306286402892,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autohebdo.net",
+                "www.autotrader.ca",
+                "www.canadadrives.ca",
+                "www.cargurus.com",
+                "www.kbb.com",
+                "www.lespac.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000603,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "pdns08.domaincontrol.com",
+        "pdns07.domaincontrol.com"
+    ]
+}

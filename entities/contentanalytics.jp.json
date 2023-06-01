@@ -1,0 +1,109 @@
+{
+    "domain": "contentanalytics.jp",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "tag",
+        "infra"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "contentanalytics\\.jp\\/agent\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "window.indexedDB": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "54de50ef9536527ac1828a7ccaef67c26a6e93562af7d9692820c23df017e32a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ca__auto": {
+                    "ttl": 4,
+                    "length": 4,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "_ca2": {
+                    "ttl": 1804,
+                    "length": 32,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_cac": {
+                    "ttl": 63072004,
+                    "length": 32,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autobacs.com",
+                "www.autobacs.com"
+            ]
+        },
+        {
+            "rule": "contentanalytics\\.jp\\/api\\/xpath\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "infra"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "569726bd1ac923cae10c859328325b37a3817028019fee085876d0831360f671"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autobacs.com",
+                "www.autobacs.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-863.awsdns-43.net",
+        "ns-1100.awsdns-09.org",
+        "ns-1585.awsdns-06.co.uk",
+        "ns-177.awsdns-22.com"
+    ]
+}

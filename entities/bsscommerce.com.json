@@ -1,0 +1,169 @@
+{
+    "domain": "bsscommerce.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "bloop-static",
+        "bloop-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bsscommerce\\.com\\/bloop-loyalty\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bloop-static"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "928731d8e3d2c9e331e427cd2cc715043cec5ddcf8218b1a3ce50b2233df46ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bridgecomsystems.com",
+                "www.bridgecomsystems.com"
+            ]
+        },
+        {
+            "rule": "bsscommerce\\.com\\/design-template\\/store-referral-popup",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bloop-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bridgecomsystems.com",
+                "www.bridgecomsystems.com"
+            ]
+        },
+        {
+            "rule": "bsscommerce\\.com\\/design-template\\/store-referral-popup",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bloop-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "75bec8953d026f2ded4d6b0663a614b6246a9d3b010994af1d8096a17fe1497b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bridgecomsystems.com",
+                "www.bridgecomsystems.com"
+            ]
+        },
+        {
+            "rule": "bsscommerce\\.com\\/design-template\\/store\\/id\\/599",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bloop-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4cd7a8b99b18ad98085e9bfa3510f5ed7959457a0208c88e553ba51cf7f03a3c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bridgecomsystems.com",
+                "www.bridgecomsystems.com"
+            ]
+        },
+        {
+            "rule": "bsscommerce\\.com\\/design-template\\/store\\/id\\/599",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bloop-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bridgecomsystems.com",
+                "www.bridgecomsystems.com"
+            ]
+        },
+        {
+            "rule": "bsscommerce\\.com\\/bloop_loyalty_ready\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bloop-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1dd0a2a91b539da3db98679217b212a79261d1ddfa1a058bfc8c6f1912fdb36d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bridgecomsystems.com",
+                "www.bridgecomsystems.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Preflight": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "elinore.ns.cloudflare.com",
+        "jonah.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "domain": "meetami.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000403,
+    "sites": 4,
+    "subdomains": [
+        "app",
+        "chat"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "meetami\\.ai\\/launchpad\\.php",
+            "cookies": 0.000403,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 4,
+                "Navigator.prototype.appVersion": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "703f018f73d7912ff49090bd302220cc94d965c92ae02ad110b44c0fdd921d8a",
+                "65dab2c678cef47e51706010d80a225d7c38f9350b53b02709f680d0ba587f68",
+                "82c17d008fa3df08beadffdeabb33a4f3391e1ac97127c2f2bdf0d436670cc70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sr-ln": {
+                    "ttl": 86403,
+                    "length": 9,
+                    "prevalence": 0.0004027386226339106,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rspca.org.uk",
+                "www.southernwater.co.uk",
+                "www.stockport.gov.uk",
+                "www.tvlicensing.co.uk"
+            ]
+        },
+        {
+            "rule": "meetami\\.ai\\/socket\\.io\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "94c87661aff35237c9b1450233efe2395fccf30c82451fc485191726c34e5786"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stockport.gov.uk",
+                "www.stockport.gov.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000403,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5833333333333334
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-222.awsdns-27.com",
+        "ns-555.awsdns-05.net",
+        "ns-1452.awsdns-53.org",
+        "ns-1642.awsdns-13.co.uk"
+    ]
+}

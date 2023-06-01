@@ -1,0 +1,89 @@
+{
+    "domain": "laweekly.com",
+    "owner": {
+        "name": "New Times Media, LLC",
+        "displayName": "New Times Media"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "engine"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "laweekly\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "engine"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.webdriver": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e52bb98db1e62616a33f6debf1359d20199cc7310fe3a28adbbb89d28c4c29b0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "villagevoice.com",
+                "www.villagevoice.com"
+            ]
+        },
+        {
+            "rule": "laweekly\\.com\\/vb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engine"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "villagevoice.com",
+                "www.villagevoice.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "norm.ns.cloudflare.com",
+        "isabel.ns.cloudflare.com"
+    ]
+}

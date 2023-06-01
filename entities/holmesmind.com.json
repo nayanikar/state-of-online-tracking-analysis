@@ -1,0 +1,445 @@
+{
+    "domain": "holmesmind.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "ad",
+        "c",
+        "cdn",
+        "referer-log",
+        "adcdn",
+        "cm-dev-poc",
+        "fcm"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "holmesmind\\.com\\/adserver\\/prebid\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udn.com",
+                "blog.udn.com",
+                "mojim.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/cm",
+            "cookies": 0.000034,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udn.com",
+                "blog.udn.com",
+                "mojim.com",
+                "tw.manhuagui.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/init\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6b554798adaf5cb8c2c6f2607f28041ccb952a5727fac5ef07aa1024cab81a74"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/api\\/v1\\/kinesis\\/create",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "referer-log"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c9236501cefa688110843afe31454218d7095774d4cf07aa226657790befb779"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/capmapping\\.htm",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8804179d4455fb6e29325fe79d0f98396fd305e1de6067621c6f42e7054a7671"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/edmp_init\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "28248d4886fe85d725c1a6d3b2340a1bde6a7ffcadfac53ada50f78a9e707d5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/presetfn\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9f2aa6af4c0a4d80f08fb43a67de08fa12534cae17a1a1b5aa3a6b903638cea6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CFFPCKUUID": {
+                    "ttl": 2592002,
+                    "length": 37,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "CFFPCKUUIDMAIN": {
+                    "ttl": 2592002,
+                    "length": 37,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                },
+                "FPUUID": {
+                    "ttl": 2592002,
+                    "length": 69,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/adserver\\/Preset\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4bd5190f1cd13fe8a25eaeb53657a93593f00b0262d5324bb89793d69ae24709"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/fp",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm-dev-poc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/cm\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fcm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8128514a9917b6dcdf20f7ee24d6b00a27b2a6aa0f971acb988f358f25ac4005"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/fp",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm-dev-poc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/adserver\\/ads\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8c8001aac3f5223e25887f89726a8baf3aae2ad9567563da7c4db90247714bfb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "CFFPCKUUIDMAIN": 0.000013614147822417056,
+                "FPUUID": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/rtbhouseV2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d5ae5049686cf9a5ef6e9ceeae1c67619f218fd1694d39648b13607db871a3bc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/criteoV2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e2db1774aabd2443e6c741954f5e1071912a7a99f6e4151bc83d342554976d32"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/appierV2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8d0f249f244376cc817d2c8ddd435cf01b4ecbeca604946c5ae81ef0c8bb5834"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/drawV2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f3fc929a36ee5db31a8a9b4743845474bdeb425edb019eb4e75a441cdb8ab032"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000272,
+    "topInitiators": [
+        {
+            "domain": "scupio.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "sitemaji.com",
+            "prevalence": 0.21428571428571427
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.21428571428571427
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Image": 7,
+        "Script": 18,
+        "Fetch": 2,
+        "Document": 6
+    },
+    "nameservers": [
+        "ns13.domaincontrol.com",
+        "ns14.domaincontrol.com"
+    ]
+}

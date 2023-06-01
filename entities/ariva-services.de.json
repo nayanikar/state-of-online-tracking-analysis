@@ -1,0 +1,114 @@
+{
+    "domain": "ariva-services.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "prodo-api",
+        "bfw-api-prod"
+    ],
+    "cnames": [
+        {
+            "original": "api.boerse-frankfurt.de",
+            "resolved": "bfw-api-prod.ariva-services.de"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ariva-services\\.de\\/api\\/v1\\/file\\/download",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prodo-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9d02a9053ee9c2e365383e544f81d4082c81e6b99b735a44756ebbeaabc791eb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nzz.ch",
+                "themarket.nzz.ch"
+            ]
+        },
+        {
+            "rule": "ariva-services\\.de\\/v1\\/data\\/category_news",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bfw-api-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.boerse-frankfurt.de",
+                    "resolved": "bfw-api-prod.ariva-services.de"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boerse-frankfurt.de",
+                "www.boerse-frankfurt.de"
+            ]
+        },
+        {
+            "rule": "ariva-services\\.de\\/v1\\/data\\/category_news",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bfw-api-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.boerse-frankfurt.de",
+                    "resolved": "bfw-api-prod.ariva-services.de"
+                }
+            ],
+            "responseHashes": [
+                "8bab3bdc43573a0e357023c5601b139f4e6e189e642d3091fa1b426d48c3f290"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boerse-frankfurt.de",
+                "www.boerse-frankfurt.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ens1.ariva.de",
+        "ens2.ariva.de"
+    ]
+}

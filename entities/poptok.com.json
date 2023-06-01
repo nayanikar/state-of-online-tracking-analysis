@@ -1,0 +1,110 @@
+{
+    "domain": "poptok.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "pixel",
+        "cdn9",
+        "player"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "poptok\\.com\\/vmp\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cracked.com",
+                "www.cracked.com"
+            ]
+        },
+        {
+            "rule": "poptok\\.com\\/1658\\/9cd625c8-1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn9"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "14eeefa4be280970dd12edcbae45cb325bb3ca1121f1c35524300940ff954fe2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cracked.com",
+                "www.cracked.com"
+            ]
+        },
+        {
+            "rule": "poptok\\.com\\/lreprx\\/js\\/v1\\/src\\/lreprx\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f6ff06f3f9fad9639e2db1ca6492c8e8e26f0c0cdfbc2586ba5800df20587977"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cracked.com",
+                "www.cracked.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9333333333333333
+        },
+        {
+            "domain": "crackedcdn.com",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Image": 4,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-701.awsdns-23.net",
+        "ns-1402.awsdns-47.org",
+        "ns-185.awsdns-23.com",
+        "ns-1733.awsdns-24.co.uk"
+    ]
+}

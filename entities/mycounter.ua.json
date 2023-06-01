@@ -1,0 +1,97 @@
+{
+    "domain": "mycounter.ua",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "get"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mycounter\\.ua\\/counter2\\.0\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.plugins": 2,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.javaEnabled": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "266a3771ef39c4855333a8ff90d4a48d8c19f2ddb561ceb41a5a8ab4747304f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "s": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fotub.net",
+                "hotubi.com",
+                "thisvidscat.net"
+            ]
+        },
+        {
+            "rule": "mycounter\\.ua\\/counter\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "d49f8137a23b72a20d2794de4a110c61b4746d41900694fddc6c1e909b87c3c7",
+                "3e1c5adcc1314ff2fb4751bbe648244dc773aef88451cd8b99a0c7323c8500cf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fotub.net",
+                "hotubi.com",
+                "thisvidscat.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns1.ukraine-domain.com",
+        "ns2.ukraine-domain.com"
+    ]
+}

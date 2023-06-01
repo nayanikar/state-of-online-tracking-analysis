@@ -1,0 +1,78 @@
+{
+    "domain": "rampmetrics.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000204,
+    "sites": 3,
+    "subdomains": [
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rampmetrics\\.com\\/code\\/rm_analytics\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "93c6179beeeac217e3e27880170862a02833957c29a99f6a02f562113ed93319"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rm_cjHBjMKysnLAmxNxd8am": {
+                    "ttl": 31536005,
+                    "length": 67,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "_rm_dr": {
+                    "ttl": 86405,
+                    "length": 93,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alight.com",
+                "www.alight.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.dnsimple.com",
+        "ns2.dnsimple.com",
+        "ns3.dnsimple.com",
+        "ns4.dnsimple.com"
+    ]
+}

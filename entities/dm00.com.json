@@ -1,0 +1,117 @@
+{
+    "domain": "dm00.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000681,
+    "sites": 10,
+    "subdomains": [
+        "wt"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dm00\\.com\\/WebSiteTracking\\/scripts\\/tracking\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wt"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "1ad73850b1f505e5acce1a6f573c32143adb5768f1cd46a5289f00cc77647283"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "DocuTrak_sxFEBcTEhESnm3n0lHza6g": {
+                    "ttl": 31536006,
+                    "length": 16,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "DocuTrak_z6hK1oFmd0i0fik6T4LBCg": {
+                    "ttl": 31536000,
+                    "length": 16,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "DocuTrak_Mf5Usfp470WkEH1MQw9pQQ": {
+                    "ttl": 31536000,
+                    "length": 16,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "DocuTrak_TQSrXTep50mk0FmuFE5Bhg": {
+                    "ttl": 31536001,
+                    "length": 16,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trustonefinancial.org",
+                "www.capfed.com",
+                "www.ecu.com",
+                "www.vacu.org",
+                "www.valleystrong.com"
+            ]
+        },
+        {
+            "rule": "dm00\\.com\\/WebSiteTracking\\/api\\/tracking\\/Log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wt"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trustonefinancial.org",
+                "www.capfed.com",
+                "www.ecu.com",
+                "www.vacu.org",
+                "www.valleystrong.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "onlineaccess1.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 5
+    },
+    "nameservers": [
+        "ns2.viawest.net",
+        "ns1.viawest.net"
+    ]
+}

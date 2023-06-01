@@ -1,0 +1,150 @@
+{
+    "domain": "getgist.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000476,
+    "sites": 7,
+    "subdomains": [
+        "widget",
+        "data",
+        "messenger"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "getgist\\.com\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.language": 4,
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.sessionStorage": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000272,
+            "cnames": [],
+            "responseHashes": [
+                "23b3617e8d1084d40086f82fdc7b7c0c63a687b5569acd954db485d80dffb359"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "gist_identified_mvjfdyav": {
+                    "ttl": 31536005,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "gist_id_mvjfdyav": {
+                    "ttl": 31536005,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "gist_identified_tirzkljv": {
+                    "ttl": 31536002,
+                    "length": 1,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                },
+                "gist_id_tirzkljv": {
+                    "ttl": 31536002,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boostmeup.com",
+                "new.thechosen.tv",
+                "overline.network",
+                "tasmania.com"
+            ]
+        },
+        {
+            "rule": "getgist\\.com\\/v1\\/event_data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3b36e7835bd2296a6df4a38a81e0b1399ba4bf026464a832282b53ac462b35bd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boostmeup.com",
+                "overline.network"
+            ]
+        },
+        {
+            "rule": "getgist\\.com\\/person_data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "messenger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "90fe976544948ee80f28945009a308e56d53b851c614f8d93bac2b85ef8dadab"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gist_id_mvjfdyav": 0.000006807073911208528,
+                "gist_id_tirzkljv": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "boostmeup.com",
+                "overline.network"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5833333333333334
+        },
+        {
+            "domain": "dyr2dbqz8u9mp.cloudfront.net",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "lynn.ns.cloudflare.com",
+        "karina.ns.cloudflare.com"
+    ]
+}

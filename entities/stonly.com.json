@@ -1,0 +1,188 @@
+{
+    "domain": "stonly.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "s",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "stonly\\.com\\/js\\/widget\\/v2\\/version",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "07f62ce7b46f05cb07a06837ee7d0df4f216378d3e5b6c1c38e2bea5e1023cd8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chess24.com",
+                "www.tunefind.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/js\\/widget\\/v2\\/stonly-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "be01548e0c7b85dcb2cbf78f5f18efebd07c7ccbf10392538688351d3efa7b35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chess24.com",
+                "www.tunefind.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/js\\/widget\\/v2\\/vendors~widget-fef353c144c87c8e3fe6\\.stonly\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ad55505664f1142431288901712f8fa76b60dfc6f4d901ba9c1380ce9ffd500a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chess24.com",
+                "www.tunefind.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/js\\/widget\\/v2\\/widget-0bd0411b0d4306855991\\.stonly\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c9f9cbc26d24e27f6e68308c34b196a780123dbc91174d96f968b82ec67571ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chess24.com",
+                "www.tunefind.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/stonly-stat-id\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1290c09b37acd3340000035d9cd01338f557e85d46748202ecefe02cfae9a343"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chess24.com",
+                "www.tunefind.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/api\\/v1\\/targeting\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chess24.com",
+                "www.tunefind.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/api\\/v1\\/targeting\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chess24.com",
+                "www.tunefind.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Script": 6,
+        "Document": 2,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns-89.awsdns-11.com",
+        "ns-894.awsdns-47.net",
+        "ns-1862.awsdns-40.co.uk",
+        "ns-1432.awsdns-51.org"
+    ]
+}

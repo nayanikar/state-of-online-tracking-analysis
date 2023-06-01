@@ -1,0 +1,140 @@
+{
+    "domain": "parameter1.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000272,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "parameter1\\.com\\/deferred-script-loader\\/v1\\.0\\.1\\/lib\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "279a82b8e790ac7b15daab11b22b7a6444fed970ef41e86011672ea14f640711"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "equipmentworld.com",
+                "www.equipmentworld.com",
+                "www.forconstructionpros.com"
+            ]
+        },
+        {
+            "rule": "parameter1\\.com\\/lazysizes\\/v5\\.3\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cf03efa0be6174c48caeb35bd07d9639d586c7017e76950aeda054e346f2f762"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "equipmentworld.com",
+                "www.equipmentworld.com"
+            ]
+        },
+        {
+            "rule": "parameter1\\.com\\/p1-events\\/v1\\.0\\.0\\/lib\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "07aa91004d6be2071d4ab028e259613e2830bbbe1a6a5b5c8c60130e63e9b4e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__p1e_vis": {
+                    "ttl": 63072010,
+                    "length": 21,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "equipmentworld.com",
+                "www.equipmentworld.com",
+                "www.forconstructionpros.com"
+            ]
+        },
+        {
+            "rule": "parameter1\\.com\\/native-x\\/v1\\.0\\.0\\/lib\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000204,
+            "cnames": [],
+            "responseHashes": [
+                "fb4197c3e0852d8591ff6fcbe19009d179237bc8c237db42267c5edb01c403a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "equipmentworld.com",
+                "www.equipmentworld.com",
+                "www.forconstructionpros.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 11
+    },
+    "nameservers": [
+        "ns-647.awsdns-16.net",
+        "ns-1216.awsdns-24.org",
+        "ns-1559.awsdns-02.co.uk",
+        "ns-251.awsdns-31.com"
+    ]
+}

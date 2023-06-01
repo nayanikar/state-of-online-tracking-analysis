@@ -1,0 +1,82 @@
+{
+    "domain": "travelex.net",
+    "owner": {
+        "name": "Travelex Limited",
+        "displayName": "Travelex"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "api-au",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "travelex\\.net\\/salt\\/rates\\/current",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-au"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8c93a236b7c885776c5ba38d7554ab3080d40f6026568a43672e09b7d1458035"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "travelex.com.au",
+                "www.travelex.com.au"
+            ]
+        },
+        {
+            "rule": "travelex\\.net\\/salt\\/config\\/multi",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-au",
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c41a6a1196386a0d9360a8b7f56d7fc0233fe7414941188da29b977d73d0642c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "travelex.com.au",
+                "www.travelex.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.uk.colt.net",
+        "ns0.uk.colt.net"
+    ]
+}

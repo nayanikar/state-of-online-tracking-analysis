@@ -1,0 +1,98 @@
+{
+    "domain": "appdomain.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "web-chat.global.assistant.watson",
+        "integrations.us-east.assistant.watson"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "appdomain\\.cloud\\/versions\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e9cdc9439b74db94c71a8fd0b6534df91c229addee73c6c7545df2e64b657127"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "markham.ca",
+                "www.markham.ca"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/analytics\\/2\\/httpapi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "integrations.us-east.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3ff9714d1bf4c3cdb6dd51cf31ac19280e26ed06f34b209da3a6c1157fe8f7fa"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "markham.ca",
+                "www.mohawkcollege.ca"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/analytics\\/2\\/httpapi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "integrations.us-east.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "markham.ca",
+                "www.mohawkcollege.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns130.name.cloud.ibm.com",
+        "ns119.name.cloud.ibm.com"
+    ]
+}

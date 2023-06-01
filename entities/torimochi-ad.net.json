@@ -1,0 +1,324 @@
+{
+    "domain": "torimochi-ad.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000613,
+    "sites": 9,
+    "subdomains": [
+        "script",
+        "scripts-v1",
+        "scripts-v2",
+        "api",
+        "resources-v1",
+        "resources-v2",
+        "logger"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "torimochi-ad\\.net\\/js\\/rr\\/torimochi\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "script"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 7,
+                "Navigator.prototype.userAgent": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000476,
+            "cnames": [],
+            "responseHashes": [
+                "6e53803e17ffeecb974b67cd51fe502306840afe99bc2706636ff41bc5322b46",
+                "8b62a8c5cecbf277d505ad360e05c4b3bf7f5008f5e807e26243f0f447beb9af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "campify.jp",
+                "king.mineo.jp",
+                "macrobiotic-daisuki.jp",
+                "shuchi.php.co.jp",
+                "www.kashi-mo.com",
+                "www.rere.jp",
+                "www.soumunomori.com"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/js\\/rr\\/main\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts-v1",
+                "scripts-v2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "e497dd04c633d6900689bd8af8ad507eefbf6ddcc93242722c81c74b5b129d97",
+                "d20d3c79ea675b5248ff8ddc3768f67ab50b2646fac051c671a6b1cc0b48f414"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "campify.jp",
+                "king.mineo.jp",
+                "macrobiotic-daisuki.jp",
+                "shuchi.php.co.jp",
+                "www.rere.jp",
+                "www.soumunomori.com"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/recommend",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "campify.jp",
+                "king.mineo.jp",
+                "macrobiotic-daisuki.jp",
+                "shuchi.php.co.jp",
+                "www.rere.jp",
+                "www.soumunomori.com"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/css\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-v1",
+                "resources-v2"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "29ab12cf2e1d5d6e9a651ef8d1644db4b1555abafd9e6067758d45cd67005a95",
+                "1bb7f540c521085e7088809ba9b19021b15cba8644444b3978f5f252e263324b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "campify.jp",
+                "king.mineo.jp",
+                "macrobiotic-daisuki.jp",
+                "shuchi.php.co.jp",
+                "www.rere.jp",
+                "www.soumunomori.com"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/recommend",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [
+                "d3e21adb8d04594f61101e8ffb39985de01419b85ab8506f7d04433e1bfb07ff",
+                "d0893fd4a8cd540944632fc0a536ac0f99e95d81b2f1181a39192dc806ad9bfd",
+                "525265cfdae50cf1b66e3bba3b6be6fa445aadcd8a0f7316ffb368d45befe84b",
+                "915185c14ad87b83c130e4f50e77e405ede458e1653706d32cab541403a1eaa6",
+                "91af8b44e5898091413bae24cde789c8c3fff52252ff237caa86042ccee24dc0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "campify.jp",
+                "king.mineo.jp",
+                "macrobiotic-daisuki.jp",
+                "shuchi.php.co.jp",
+                "www.rere.jp",
+                "www.soumunomori.com"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/_\\/logger\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logger"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "campify.jp",
+                "king.mineo.jp",
+                "macrobiotic-daisuki.jp",
+                "shuchi.php.co.jp",
+                "www.rere.jp",
+                "www.soumunomori.com"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/AdService\\/mediaPv",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "campify.jp",
+                "king.mineo.jp",
+                "macrobiotic-daisuki.jp",
+                "shuchi.php.co.jp",
+                "www.rere.jp",
+                "www.soumunomori.com"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/data\\/property\\/widget\\/JvjN\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-v2",
+                "resources-v1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "929b6fa458361b82a4b08d84c8ae7b5111ff11faf39bf8add8f893cedff9c45c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mineo.jp",
+                "king.mineo.jp"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/data\\/property\\/widget\\/J1Gx\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-v2",
+                "resources-v1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0d4b98cd8639a0ac87f0c220ede86d2394c688079ab088e56c4d4564108f550c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "php.co.jp",
+                "shuchi.php.co.jp"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/data\\/property\\/widget\\/6Bak\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6a25b444418aacfaa023d9767e8feb834395088eab49ad58f3272b8d1a1f7dcd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rere.jp",
+                "www.rere.jp"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/data\\/property\\/widget\\/6Yme\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources-v2",
+                "resources-v1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "54dcee64ed310e0a8a957d5105716791ee858943f92987fa2ae8e48da0425571"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soumunomori.com",
+                "www.soumunomori.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Preflight": 6,
+        "Stylesheet": 6,
+        "XHR": 26
+    },
+    "nameservers": [
+        "ns-36.awsdns-04.com",
+        "ns-1967.awsdns-53.co.uk",
+        "ns-1046.awsdns-02.org",
+        "ns-930.awsdns-52.net"
+    ]
+}

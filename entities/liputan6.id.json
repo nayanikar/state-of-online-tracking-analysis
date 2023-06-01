@@ -1,0 +1,197 @@
+{
+    "domain": "liputan6.id",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000545,
+    "sites": 8,
+    "subdomains": [
+        "www",
+        "collect"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "liputan6\\.id\\/assets\\/js\\/embed\\.js",
+            "cookies": 0.0000272,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "460e7de42a549cd71dd98b7eb8f847f6dae7484881c2020ed81ec3b396580972"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "liputan6_id_visitor_id": {
+                    "ttl": 63072018,
+                    "length": 36,
+                    "prevalence": 0.000027228295644834112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brilio.net",
+                "m.brilio.net",
+                "m.kapanlagi.com",
+                "www.brilio.net",
+                "www.kapanlagi.com"
+            ]
+        },
+        {
+            "rule": "liputan6\\.id\\/assets\\/js\\/global\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "00ad8619a1354f3764d6c1b18a710042f4e802bf6ac5aba0d23b278b7a4af146"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brilio.net",
+                "m.brilio.net",
+                "m.kapanlagi.com",
+                "www.brilio.net",
+                "www.kapanlagi.com"
+            ]
+        },
+        {
+            "rule": "liputan6\\.id\\/html\\/embed\\.html",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "f94bfd6263daf433634f2cb73e0c3c04f921a9cba6713317f710769aa181dc77"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "visitor_id": {
+                    "ttl": 604815,
+                    "length": 36,
+                    "prevalence": 0.000006807073911208528,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "ahoy_visitor": 0.000027228295644834112,
+                "liputan6_id_visitor_id": 0.00003403536955604264,
+                "visitor_id": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "brilio.net",
+                "m.brilio.net",
+                "m.kapanlagi.com",
+                "www.brilio.net",
+                "www.kapanlagi.com"
+            ]
+        },
+        {
+            "rule": "liputan6\\.id\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collect"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000034,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ahoy_visitor": 0.000027228295644834112,
+                "liputan6_id_visitor_id": 0.00003403536955604264,
+                "visitor_id": 0.000006807073911208528
+            },
+            "exampleSites": [
+                "brilio.net",
+                "m.brilio.net",
+                "m.kapanlagi.com",
+                "www.brilio.net",
+                "www.kapanlagi.com"
+            ]
+        },
+        {
+            "rule": "liputan6\\.id\\/user-visitor\\/get\\/9e0b5f4a-618a-402f-aeb4-d4e3f938d143",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ahoy_visitor": 0.000013614147822417056,
+                "liputan6_id_visitor_id": 0.000013614147822417056
+            },
+            "exampleSites": [
+                "brilio.net",
+                "m.brilio.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000476,
+    "topInitiators": [
+        {
+            "domain": "vidio.com",
+            "prevalence": 0.5909090909090909
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.36363636363636365
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Document": 5,
+        "XHR": 7
+    },
+    "nameservers": [
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a4.googledomains.com",
+        "ns-cloud-a2.googledomains.com"
+    ]
+}

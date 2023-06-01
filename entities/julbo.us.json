@@ -1,0 +1,79 @@
+{
+    "domain": "julbo.us",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000681,
+    "sites": 1,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "julbo\\.us\\/",
+            "cookies": 0.00000681,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "45ea5eecaeb3320432c24f2255e8c357f1a301e381b7269f73d8c5c02ed6aee8"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "julbo.com",
+                "www.julbo.com"
+            ]
+        },
+        {
+            "rule": "julbo\\.us\\/\\.well-known\\/shopify\\/monorail\\/unstable\\/produce_batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "julbo.com",
+                "www.julbo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000681,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "dns.fc-net.fr",
+        "dns3.fc-net.fr",
+        "dns2.fc-net.fr"
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "domain": "cantire.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "gigya"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cantire\\.net\\/sdk\\.config\\.get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gigya"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3bd7d0c1482dc6a277ad66be1c857b39aa019f1b324f864694782c267b861b93"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canadiantire.ca",
+                "qa2-www.canadiantire.ca"
+            ]
+        },
+        {
+            "rule": "cantire\\.net\\/gs\\/sso\\.htm",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gigya"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canadiantire.ca",
+                "qa2-www.canadiantire.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "gigya.com",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns1.cantire.com",
+        "ns2.cantire.com",
+        "ns4.cantire.com",
+        "ns3.cantire.com"
+    ]
+}

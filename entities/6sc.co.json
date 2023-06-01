@@ -1,0 +1,266 @@
+{
+    "domain": "6sc.co",
+    "owner": {
+        "name": "6 Sense Insights Inc.",
+        "displayName": "6 Sense Insights"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00452,
+    "sites": 45,
+    "subdomains": [
+        "j",
+        "c",
+        "ipv6",
+        "b"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "6sc\\.co\\/6si\\.min\\.js",
+            "cookies": 0.00371,
+            "fingerprinting": 1,
+            "subdomains": [
+                "j"
+            ],
+            "apis": {
+                "Document.cookie getter": 37,
+                "Date.prototype.getTime": 37,
+                "Document.cookie setter": 37,
+                "window.localStorage": 19,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 39,
+            "prevalence": 0.00392,
+            "cnames": [],
+            "responseHashes": [
+                "12ce92cc3c4eb9d74f48e9a10eb919bdf30bbdc5ccf9843c6543fec302dec54f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_gd_visitor": {
+                    "ttl": 63158410,
+                    "length": 36,
+                    "prevalence": 0.003714859437751004,
+                    "uniqueness": 1
+                },
+                "_gd_session": {
+                    "ttl": 14410,
+                    "length": 36,
+                    "prevalence": 0.003714859437751004,
+                    "uniqueness": 1
+                },
+                "_gd_svisitor": {
+                    "ttl": 63158419,
+                    "length": 40,
+                    "prevalence": 0.00010040160642570282,
+                    "uniqueness": 1
+                },
+                "_an_uid": {
+                    "ttl": 604811,
+                    "length": 1,
+                    "prevalence": 0.00030120481927710846,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.instructables.com",
+                "www.newsweek.com",
+                "www.splunk.com",
+                "www.gartner.com",
+                "www.oreilly.com",
+                "www.twilio.com",
+                "legal.thomsonreuters.com.au",
+                "www.ibisworld.com",
+                "www.barchart.com",
+                "www.insidermonkey.com",
+                "docs.databricks.com",
+                "gitlab.com",
+                "www.nvidia.com",
+                "www.fortinet.com",
+                "docs.splunk.com",
+                "www.thermofisher.com",
+                "www.surveymonkey.com",
+                "www.payscale.com",
+                "www.autodesk.com.au",
+                "www.linode.com"
+            ]
+        },
+        {
+            "rule": "6sc\\.co\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c",
+                "ipv6"
+            ],
+            "apis": {},
+            "sites": 44,
+            "prevalence": 0.00442,
+            "cnames": [],
+            "responseHashes": [
+                "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+                "fe04a9dc88d3f3be8d4f6bc63a9a80f45a4c6d8460e7551dab849457c091920a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.instructables.com",
+                "www.newsweek.com",
+                "developers.cloudflare.com",
+                "help.sap.com",
+                "www.linode.com",
+                "www.barchart.com",
+                "www.sap.com",
+                "www.ibisworld.com",
+                "www.oreilly.com",
+                "about.gitlab.com",
+                "www.redhat.com",
+                "www.surveymonkey.com",
+                "www.viewsonic.com",
+                "www.nvidia.com",
+                "www.payscale.com",
+                "developer.nvidia.com",
+                "www.morningstar.com",
+                "www.smartsheet.com",
+                "blogs.sap.com",
+                "auth0.com"
+            ]
+        },
+        {
+            "rule": "6sc\\.co\\/v1\\/beacon\\/img\\.gif",
+            "cookies": 0.00392,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b"
+            ],
+            "apis": {},
+            "sites": 40,
+            "prevalence": 0.00402,
+            "cnames": [],
+            "responseHashes": [
+                "07383c96980710a04144e5a39ae59e7f9f74bcfd6462a6932ded48efe6d73bce"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_gd_visitor": 0.00391566265060241,
+                "_gd_session": 0.00391566265060241,
+                "gpv_v9": 0.00010040160642570282,
+                "gpv_pn": 0.00010040160642570282,
+                "_an_uid": 0.00010040160642570282,
+                "IR_gbd": 0.00020080321285140563,
+                "_li_dcdm_c": 0.00010040160642570282
+            },
+            "exampleSites": [
+                "www.instructables.com",
+                "www.newsweek.com",
+                "pitchbook.com",
+                "www.ibisworld.com",
+                "forums.autodesk.com",
+                "www.nvidia.com",
+                "www.morningstar.com",
+                "blog.logrocket.com",
+                "www.linode.com",
+                "www.payscale.com",
+                "www.cloudflare.com",
+                "docs.databricks.com",
+                "docs.gitlab.com",
+                "www.thermofisher.com",
+                "www.surveymonkey.com",
+                "www.redhat.com",
+                "www.twilio.com",
+                "www.autodesk.com",
+                "www.viewsonic.com",
+                "about.gitlab.com"
+            ]
+        },
+        {
+            "rule": "6sc\\.co\\/img\\.gif",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "07383c96980710a04144e5a39ae59e7f9f74bcfd6462a6932ded48efe6d73bce"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_gd_visitor": 0.00030120481927710846,
+                "_gd_session": 0.00030120481927710846
+            },
+            "exampleSites": [
+                "sap.com",
+                "blogs.sap.com",
+                "help.sap.com",
+                "www.sap.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00432,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4177215189873418
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.13924050632911392
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.12025316455696203
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.08227848101265822
+        },
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 0.08227848101265822
+        },
+        {
+            "domain": "bizible.com",
+            "prevalence": 0.0379746835443038
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.03164556962025317
+        },
+        {
+            "domain": "driftt.com",
+            "prevalence": 0.02531645569620253
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.012658227848101266
+        },
+        {
+            "domain": "lr-in-prod.com",
+            "prevalence": 0.012658227848101266
+        }
+    ],
+    "types": {
+        "Script": 39,
+        "XHR": 44,
+        "Image": 44
+    },
+    "nameservers": [
+        "ns-739.awsdns-28.net",
+        "ns-1589.awsdns-06.co.uk",
+        "ns-435.awsdns-54.com",
+        "ns-1328.awsdns-38.org"
+    ]
+}

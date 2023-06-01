@@ -1,0 +1,154 @@
+{
+    "domain": "bloomreach.com",
+    "owner": {
+        "name": "Bloomreach, Inc.",
+        "displayName": "Bloomreach"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000136,
+    "sites": 2,
+    "subdomains": [
+        "demoapp-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bloomreach\\.com\\/js\\/exponea\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "demoapp-api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.indexedDB": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e65e00a4fa6a483e833b57a19d15a8d2b83419c378084aa56fbd23482ae0c10a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__exponea_etc__": {
+                    "ttl": 94608007,
+                    "length": 36,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                },
+                "__exponea_time2__": {
+                    "ttl": 3607,
+                    "length": 20,
+                    "prevalence": 0.000013614147822417056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "griotsgarage.com",
+                "www.griotsgarage.com"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.com\\/webxp\\/projects\\/3ac35f78-a32e-11ed-97f9-f62541dd11c8\\/bundle",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "demoapp-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ab30f84e46a8b11bb67a479056a7475f947e501894b8c8528e308f262acabc4d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "griotsgarage.com",
+                "www.griotsgarage.com"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.com\\/bulk",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "demoapp-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "47a8dd7a83725a2de7f66828fb1954914e6d81c720dbd8a3e42f7fa8a54ee70e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "griotsgarage.com",
+                "www.griotsgarage.com"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.com\\/managed-tags\\/show",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "demoapp-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ef51cee56d3dde41e94db0c99f36260c49143a2c05e85bcfed40e3a8f0edc1fe"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "griotsgarage.com",
+                "www.griotsgarage.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000136,
+    "topInitiators": [
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2222222222222222
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "a9-66.akam.net",
+        "a26-65.akam.net",
+        "a1-233.akam.net",
+        "a18-64.akam.net",
+        "a13-67.akam.net",
+        "a12-66.akam.net"
+    ]
+}
